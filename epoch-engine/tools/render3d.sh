@@ -12,7 +12,7 @@ OUT_DIR="out/frames3d/$JOB_NAME"
 mkdir -p "$OUT_DIR"
 
 # Single resumeable render job with concurrency=1 for 8GB memory
-/opt/homebrew/bin/remotion render src/index.ts Govinda "$OUT_DIR" \
+npx remotion render src/index.ts Govinda "$OUT_DIR" \
   --sequence --image-format=jpeg --jpeg-quality=93 \
   --frames=$FIRST-$LAST --gl=swangle --concurrency=1 --log=error 2>&1 | grep -v "^Rendered\|^Stitched" | tail -5
 
