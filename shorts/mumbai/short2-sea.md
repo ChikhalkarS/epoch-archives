@@ -1,5 +1,5 @@
 # असली सीन - एपिसोड 2: समंदर से छीना गया शहर
-<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v2. Edit those, not this file. -->
+<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v3. Edit those, not this file. -->
 City: मुंबई | Format: 9:16, 1080x1920 | Words: 173 | ~67-72 s at speed 1.1-1.15 | Shots: 25 (16 clips, 9 stills) | Status: waiting on Gate 1
 
 **Twist:** मुंबई बसाई नहीं गई, समंदर से छीनी गई; आज भी (कोस्टल रोड)  
@@ -8,7 +8,7 @@ City: मुंबई | Format: 9:16, 1080x1920 | Words: 173 | ~67-72 s at speed
 
 ## Voice (ElevenLabs)
 - eleven_v3, Viraj (Suspense Story ka Baadshah), natural, old-radio audio filter (applied in ElevenLabs by owner). Speed about 1.1-1.15.
-- Narrator: भेड़िया. Audio tags are optional; delete any that sound odd. "..." = short pause.
+- Narrator: the wolf (SUTRADHAR). Audio tags are optional; delete any that sound odd. "..." = short pause.
 - Over 65 s? Raise speed slightly or drop one story shot. Never drop the intro, viewer line, comment ask, teaser or follow line.
 
 ### Paste into ElevenLabs
@@ -42,18 +42,18 @@ City: मुंबई | Format: 9:16, 1080x1920 | Words: 173 | ~67-72 s at speed
 
 ## Characters (make once, attach as reference in every shot they appear in)
 Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at the paths below so every episode reuses them.
-- **BHEDIYA** (v1): prompts/characters/BHEDIYA/closeup.png, prompts/characters/BHEDIYA/sheet.png
+- **SUTRADHAR** (v2): prompts/characters/SUTRADHAR/closeup.png, prompts/characters/SUTRADHAR/sheet.png, prompts/characters/SUTRADHAR/profile.png
 
 ## Shot list (one line = one shot)
 | # | Role | Line | Size / angle | Type | Sec | On screen | Facts |
 |---|---|---|---|---|---|---|---|
 | 1 | hook | आप मुंबई की जिस सड़क पर खड़े हैं... | CU / low | clip | 3.1 | ये ज़मीन कभी समंदर थी! | F16 F18 |
 | 2 | hook | वो शायद कभी समंदर थी! | MS / top | clip | 1.9 | समंदर! | F16 F18 |
-| 3 | brand | स्वागत है, असली सीन के दूसरे एपिसोड में। | WS / low | clip (walk_in v1) | 3.1 | असली सीन 🐺 | - |
-| 4 | brand | मैं हूँ भेड़िया, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v1) | 3.5 | आज: मुंबई | - |
+| 3 | brand | स्वागत है, असली सीन के दूसरे एपिसोड में। | WS / low | clip (walk_in v2) | 3.1 | असली सीन 🐺 | - |
+| 4 | brand | मैं हूँ भेड़िया, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v2) | 3.5 | आज: मुंबई | - |
 | 5 | story | कभी मुंबई, सात अलग-अलग टापू थी। | EWS / top | still | 2.3 | 7 टापू | F7 |
 | 6 | story | बीच में समंदर, और ज्वार में डूबती ज़मीन। | WS / eye | clip | 3.1 | ज्वार = बाढ़ | F16 |
-| 7 | interaction | मुंबई में रहते हैं? | MCU / low | clip (lean_in_question v1) | 1.5 | मुंबई में हैं? 📍 | - |
+| 7 | interaction | मुंबई में रहते हैं? | MCU / low | clip (lean_in_question v2) | 1.5 | मुंबई में हैं? 📍 | - |
 | 8 | interaction | अपना इलाक़ा कमेंट में लिखिए। | CU / top | still | 1.9 | अपना इलाक़ा 👇 | - |
 | 9 | interaction | शायद वो भी, कभी समंदर था। | MS / high | still | 2.3 | शायद समंदर था! | - |
 | 10 | story | सत्रह सौ बयासी में, गवर्नर हॉर्नबी ने वरली के पास, एक बड़ी समुद्री दीवार शुरू करवाई। | WS / eye | clip | 6.2 | 1782 | F16 |
@@ -61,20 +61,20 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 | 12 | story | कहते हैं, दीवार बार-बार टूटती थी। | MS / eye | still | 2.3 | कहते हैं... | F20 |
 | 13 | story | फिर एक इंजीनियर के सपने के बाद, समंदर से देवी की मूर्तियाँ मिलीं, | MCU / high | still | 5 | लोक-कथा ✨ | F20 |
 | 14 | story | और बना महालक्ष्मी मंदिर। | WS / low | still | 1.5 | महालक्ष्मी मंदिर | F20 |
-| 15 | story | ये एक लोक-कथा है। | CU / eye | clip (cut_in_finger v1) | 1.5 | लोक-कथा | F20 |
+| 15 | story | ये एक लोक-कथा है। | CU / eye | clip (cut_in_finger v2) | 1.5 | लोक-कथा | F20 |
 | 16 | payoff | फिर बने कॉज़वे, | MS / low | still | 1.2 | कॉज़वे | F19 |
 | 17 | payoff | और उन्नीसवीं सदी के बीच तक, सात टापू, एक ज़मीन बन गए। | EWS / top | clip | 4.6 | 7 ➜ 1 | F18 |
 | 18 | payoff | और आज भी, कोस्टल रोड के लिए, समंदर से ज़मीन ली गई। | WS / high | still | 4.6 | आज भी: कोस्टल रोड | F33 F34 |
 | 19 | payoff | मुंबई बसाई नहीं गई। | MS / low | clip | 1.5 | बसाई नहीं... | - |
 | 20 | payoff | समंदर से छीनी गई। | ECU / high | clip | 1.5 | समंदर से छीनी गई 🌊 | - |
 | 21 | comment | समंदर से ज़मीन लेना, सही या ग़लत? | CU / eye | clip | 2.7 | सही या ग़लत? | - |
-| 22 | comment | कमेंट में लिखिए। | CU / low | clip (point_at_viewer v1) | 1.2 | कमेंट 👇 | - |
-| 23 | outro | अगली कहानी: वो औरत, जिसने अपने पैसों से समंदर पर रास्ता बनवाया। | MS / high | clip (touch_diorama v1) | 4.6 | अगला: अवाबाई | - |
-| 24 | outro | और फिर चलेंगे, हम्पी। | MS / ots | clip (map_tap_ots v1) | 1.5 | फिर: हम्पी | - |
-| 25 | follow | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS / eye | clip (walk_off v1) | 3.1 | फ़ॉलो करें ➕ | - |
+| 22 | comment | कमेंट में लिखिए। | CU / low | clip (point_at_viewer v2) | 1.2 | कमेंट 👇 | - |
+| 23 | outro | अगली कहानी: वो औरत, जिसने अपने पैसों से समंदर पर रास्ता बनवाया। | MS / high | clip (touch_diorama v2) | 4.6 | अगला: अवाबाई | - |
+| 24 | outro | और फिर चलेंगे, हम्पी। | MS / ots | clip (map_tap_ots v2) | 1.5 | फिर: हम्पी | - |
+| 25 | follow | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS / eye | clip (walk_off v2) | 3.1 | फ़ॉलो करें ➕ | - |
 
 ## Shot prompts
-Negative prompt (if supported): `photorealistic, real photograph, 3D CGI render, glossy plastic, anime, cartoon line art, chibi, cute baby proportions, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood`
+Negative prompt (if supported): `photorealistic, real photograph, 3D render, CGI, claymation, plasticine, glossy plastic, anime, chibi, cute baby proportions, watercolor wash, blurry lines, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood`
 Stills: generate the image and let the edit add a slow push/pan. Clips: generate the image first, check it, then animate it with the motion line (image-to-video), trim to the line length.
 
 ### short2-s01 | hook | CU low | clip
@@ -82,7 +82,7 @@ VO: आप मुंबई की जिस सड़क पर खड़े ह
 On screen: ये ज़मीन कभी समंदर थी!
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, low angle looking up: a tiny clay person's shoes standing on an old clay city road, thin cracks starting to spread across the road surface around the feet, dusk light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, low angle looking up: a tiny person's shoes standing on an old city road, thin cracks starting to spread across the road surface around the feet, dusk light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
@@ -94,7 +94,7 @@ VO: वो शायद कभी समंदर थी!
 On screen: समंदर!
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, top-down overhead view: looking straight down at the clay road splitting open to reveal deep blue clay sea water with small fish swimming beneath it, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, top-down overhead view: looking straight down at the road splitting open to reveal deep blue sea water with small fish swimming beneath it, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
@@ -104,27 +104,27 @@ Fast push straight down into the opening; fish dart. End with the frame full of 
 ### short2-s03 | brand | WS low | clip
 VO: स्वागत है, असली सीन के दूसरे एपिसोड में।
 On screen: असली सीन 🐺
-References: BHEDIYA
+References: SUTRADHAR
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, his brass lantern swinging gently at his hip, toward a tabletop sea diorama where seven islands float, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, a small brass lantern he carries swinging gently at his hip, toward a tabletop sea diorama where seven islands float, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
-Camera tracks slowly backward at his walking pace. He walks from mid-aisle toward the lens and stops in a medium shot, lifting his eyes to the viewer with a knowing half-smile. Lantern glow sways on the shelves. End on him standing still, facing camera. Keep BHEDIYA identical to the reference image(s).
+Camera tracks slowly backward at his walking pace. He walks from mid-aisle toward the lens and stops in a medium shot, lifting his eyes to the viewer with his smug one-sided smirk. Lantern glow sways on the shelves. End on him standing still, facing camera. Keep SUTRADHAR identical to the reference image(s).
 ```
 
 ### short2-s04 | brand | MCU low | clip
 VO: मैं हूँ भेड़िया, और आज की कहानी, मुंबई की।
 On screen: आज: मुंबई
-References: BHEDIYA
+References: SUTRADHAR
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium close-up, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) holding his old scroll open toward the camera, a small clay diorama of seven separate islands slowly drifting together rising out of the parchment between his paws, warm lantern light from below-left, archive shelves softly blurred behind, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) holding an old scroll open toward the camera, a small model of seven separate islands slowly drifting together rising out of the parchment between his paws, warm lantern light from below-left, archive shelves softly blurred behind, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
-Locked camera with a slow push-in. He unrolls the scroll; the tiny diorama rises out of it and settles. End with his eyes looking over the diorama straight into the lens. Keep BHEDIYA identical to the reference image(s).
+Locked camera with a slow push-in. He unrolls the scroll; the tiny diorama rises out of it and settles. End with his eyes looking over the diorama straight into the lens. Keep SUTRADHAR identical to the reference image(s).
 ```
 
 ### short2-s05 | story | EWS top | still
@@ -132,7 +132,7 @@ VO: कभी मुंबई, सात अलग-अलग टापू थी
 On screen: 7 टापू
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Extreme wide shot, top-down overhead view: seven separate green clay islands in a turquoise clay sea, small fishing boats with sails between them, tiny palm trees and huts, bright morning light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme wide shot, top-down overhead view: seven separate green islands in a turquoise sea, small fishing boats with sails between them, tiny palm trees and huts, bright morning light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Edit move: Slow rotating aerial drift; each island lights up one by one. End with all seven lit.
 
@@ -141,7 +141,7 @@ VO: बीच में समंदर, और ज्वार में डू
 On screen: ज्वार = बाढ़
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, eye level: clay sea water flowing over low swampy land between two islands, small huts standing in the water, clay fishermen lifting their nets, overcast grey-blue light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, eye level: sea water flowing over low swampy land between two islands, small huts standing in the water, fishermen lifting their nets, overcast grey-blue light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
@@ -151,33 +151,33 @@ Locked camera. The water level rises around the huts. End with water at the hut 
 ### short2-s07 | interaction | MCU low | clip
 VO: मुंबई में रहते हैं?
 On screen: मुंबई में हैं? 📍
-References: BHEDIYA
+References: SUTRADHAR
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium close-up, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) leaning toward the camera, one paw raised with a tiny map pin between his claws, a clay map of today's Mumbai softly blurred behind him, warm rim light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) leaning toward the camera, one paw raised with a tiny map pin between his claws, a map of today's Mumbai softly blurred behind him, warm rim light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
-Locked camera. He leans in toward the lens, one ear twitches, the raised brow lifts. End with his face close, waiting for an answer. Keep BHEDIYA identical to the reference image(s).
+Locked camera. He leans in toward the lens, one ear twitches, the raised brow lifts. End with his face close, waiting for an answer. Keep SUTRADHAR identical to the reference image(s).
 ```
 
 ### short2-s08 | interaction | CU top | still
 VO: अपना इलाक़ा कमेंट में लिखिए।
 On screen: अपना इलाक़ा 👇
-References: BHEDIYA
+References: SUTRADHAR
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, top-down overhead view: a grey clay wolf paw (BHEDIYA) pushing small red map pins one by one into a clay map of today's Mumbai neighbourhoods, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, top-down overhead view: a grey-tawny wolf paw (SUTRADHAR) pushing small red map pins one by one into a map of today's Mumbai neighbourhoods, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Edit move: Locked overhead camera. Pins go in one after another. End with five pins standing.
 
 ### short2-s09 | interaction | MS high | still
 VO: शायद वो भी, कभी समंदर था।
 On screen: शायद समंदर था!
-References: BHEDIYA
+References: SUTRADHAR
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, high angle looking down: the same clay Mumbai map with red pins, now a glowing blue outline of the old seven-island coastline lighting up over it, several pins standing inside the blue sea area, BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) at the map edge looking down, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, high angle looking down: the same Mumbai map with red pins, now a glowing blue outline of the old seven-island coastline lighting up over it, several pins standing inside the blue sea area, SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) at the map edge looking down, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Edit move: Slow pull-back upward. The blue outline glows on. End with the whole map and the wolf in frame.
 
@@ -186,7 +186,7 @@ VO: सत्रह सौ बयासी में, गवर्नर हॉ�
 On screen: 1782
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, eye level: many clay workers in 18th century Indian clothing carrying stones and baskets of earth along a half-built stone sea wall across a creek, a generic clay British official in a 1780s coat and tricorn hat watching with a rolled plan, golden afternoon light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, eye level: many workers in 18th century Indian clothing carrying stones and baskets of earth along a half-built stone sea wall across a creek, a generic British official in a 1780s coat and tricorn hat watching with a rolled plan, golden afternoon light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
@@ -198,7 +198,7 @@ VO: हॉर्नबी वेलार्ड।
 On screen: हॉर्नबी वेलार्ड
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, low angle looking up: a clay wave crashing against new grey stones of the sea wall, spray rising into the light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, low angle looking up: a wave crashing against new grey stones of the sea wall, spray rising into the light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Edit move: Locked camera, low at the waterline. One wave hits and the spray falls. End on wet stones.
 
@@ -207,7 +207,7 @@ VO: कहते हैं, दीवार बार-बार टूटती 
 On screen: कहते हैं...
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, eye level: a section of the unfinished stone sea wall slumping and sliding into the sea while clay workers step back safely on the shore, grey sky, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, eye level: a section of the unfinished stone sea wall slumping and sliding into the sea while workers step back safely on the shore, grey sky, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Edit move: Locked camera. The wall section slides into the water. End with the gap in the wall.
 
@@ -216,7 +216,7 @@ VO: फिर एक इंजीनियर के सपने के बा�
 On screen: लोक-कथा ✨
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium close-up, high angle looking down: a clay engineer in 18th century Indian clothing sleeping on a mat by a small oil lamp, a soft golden glow from the calm night sea visible through the open doorway, respectful and serene, no deity faces shown, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium close-up, high angle looking down: a engineer in 18th century Indian clothing sleeping on a mat by a small oil lamp, a soft golden glow from the calm night sea visible through the open doorway, respectful and serene, no deity faces shown, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Edit move: Very slow push-in. The golden glow outside brightens gently. End with the glow lighting his face.
 
@@ -225,21 +225,21 @@ VO: और बना महालक्ष्मी मंदिर।
 On screen: महालक्ष्मी मंदिर
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, low angle looking up: a small clay seaside temple with a saffron flag on rocks beside the finished stone sea wall, calm sea at sunrise, tiny respectful clay devotees on the steps, respectful depiction, no deity close-up, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, low angle looking up: a small seaside temple with a saffron flag on rocks beside the finished stone sea wall, calm sea at sunrise, tiny respectful devotees on the steps, respectful depiction, no deity close-up, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Edit move: Slow push-in toward the temple; the flag flutters. End on the temple steps.
 
 ### short2-s15 | story | CU eye | clip
 VO: ये एक लोक-कथा है।
 On screen: लोक-कथा
-References: BHEDIYA
+References: SUTRADHAR
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, eye level: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) snapping his scroll shut in one paw and raising one clawed finger of the other paw beside his muzzle, one eyebrow raised, dark archive background with a single warm rim light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) snapping the scroll shut in one paw and raising one clawed finger of the other paw beside his muzzle, one eyebrow raised, dark archive background with a single warm rim light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
-Quick short push-in, then hold. He snaps the scroll shut and raises one finger. End frozen on the raised finger and raised brow. Keep BHEDIYA identical to the reference image(s).
+Quick short push-in, then hold. He snaps the scroll shut and raises one finger. End frozen on the raised finger and raised brow. Keep SUTRADHAR identical to the reference image(s).
 ```
 
 ### short2-s16 | payoff | MS low | still
@@ -247,7 +247,7 @@ VO: फिर बने कॉज़वे,
 On screen: कॉज़वे
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, low angle looking up: a clay horse cart rolling across a new stone causeway over shallow water, 19th century, soft morning light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, low angle looking up: a horse cart rolling across a new stone causeway over shallow water, 19th century, soft morning light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Edit move: Locked camera at road level. The cart rolls through frame left to right. End with the empty causeway.
 
@@ -256,7 +256,7 @@ VO: और उन्नीसवीं सदी के बीच तक, सा
 On screen: 7 ➜ 1
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Extreme wide shot, top-down overhead view: the seven clay islands from the earlier shot, now joined into one long landmass by stone causeways and filled land, colonial buildings appearing, warm light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme wide shot, top-down overhead view: the seven islands from the earlier shot, now joined into one long landmass by stone causeways and filled land, colonial buildings appearing, warm light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
@@ -268,34 +268,34 @@ VO: और आज भी, कोस्टल रोड के लिए, सम�
 On screen: आज भी: कोस्टल रोड
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, high angle looking down: clay miniature of a modern coastal highway curving along the sea beside a city skyline, a seawall of big stones holding back clay waves, sunset light (modern road and buildings allowed in this shot), vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, high angle looking down: miniature model of a modern coastal highway curving along the sea beside a city skyline, a seawall of big stones holding back waves, sunset light (modern road and buildings allowed in this shot), vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Edit move: Slow pull-back. Waves crash on the seawall. End on the full curve of the road.
 
 ### short2-s19 | payoff | MS low | clip
 VO: मुंबई बसाई नहीं गई।
 On screen: बसाई नहीं...
-References: BHEDIYA
+References: SUTRADHAR
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) standing on top of the stone seawall of the diorama, clay waves breaking below his feet, city lights behind him, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) standing on top of the stone seawall of the miniature model, waves breaking below his feet, city lights behind him, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
-Locked low camera. A wave breaks below; his shawl moves in the wind. End with him looking down at the sea. Keep BHEDIYA identical to the reference image(s).
+Locked low camera. A wave breaks below; his indigo stole moves in the wind. End with him looking down at the sea. Keep SUTRADHAR identical to the reference image(s).
 ```
 
 ### short2-s20 | payoff | ECU high | clip
 VO: समंदर से छीनी गई।
 On screen: समंदर से छीनी गई 🌊
-References: BHEDIYA
+References: SUTRADHAR
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Extreme close-up, high angle looking down: a grey clay wolf paw (BHEDIYA) pressing down on wet clay land at the waterline, pushing the blue clay water back, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme close-up, high angle looking down: a grey-tawny wolf paw (SUTRADHAR) pressing down on wet land at the waterline, pushing the blue water back, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
-Locked camera. The paw presses and the water retreats. End with dry land under the paw. Keep BHEDIYA identical to the reference image(s).
+Locked camera. The paw presses and the water retreats. End with dry land under the paw. Keep SUTRADHAR identical to the reference image(s).
 ```
 
 ### short2-s21 | comment | CU eye | clip
@@ -303,7 +303,7 @@ VO: समंदर से ज़मीन लेना, सही या ग़
 On screen: सही या ग़लत?
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, eye level: a clay balance scale on a rock by the sea: one pan holds a tiny clay city block, the other a tiny clay wave with fish, dusk light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: a balance scale on a rock by the sea: one pan holds a tiny city block, the other a tiny wave with fish, dusk light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
@@ -313,60 +313,60 @@ Locked camera. The scale tips one way, then the other. End balanced.
 ### short2-s22 | comment | CU low | clip
 VO: कमेंट में लिखिए।
 On screen: कमेंट 👇
-References: BHEDIYA
+References: SUTRADHAR
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) pointing one paw straight at the camera with a playful half-smile, lantern glow on his fur, the balance scale by the sea in soft background, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) pointing one paw straight at the camera with his smug one-sided smirk, lantern glow on his fur, the balance scale by the sea in soft background, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
-Locked camera, very slight push-in. His paw comes up and points at the lens. End on the point, paw sharp, face just behind it. Keep BHEDIYA identical to the reference image(s).
+Locked camera, very slight push-in. His paw comes up and points at the lens. End on the point, paw sharp, face just behind it. Keep SUTRADHAR identical to the reference image(s).
 ```
 
 ### short2-s23 | outro | MS high | clip
 VO: अगली कहानी: वो औरत, जिसने अपने पैसों से समंदर पर रास्ता बनवाया।
 On screen: अगला: अवाबाई
-References: BHEDIYA
+References: SUTRADHAR
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, high angle looking down: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) crouching beside a tabletop clay diorama of a long stone causeway across a creek, reaching out with one paw to set a tiny lantern down at the start of the causeway, lantern set down beside him, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, high angle looking down: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) crouching beside a tabletop miniature model of a long stone causeway across a creek, reaching out with one paw to set a tiny lantern down at the start of the causeway, lantern set down beside him, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
-Slow descending crane toward his paw. He reaches out and set a tiny lantern down at the start of the causeway. End with the paw resting on the diorama and his eyes lifting to the camera. Keep BHEDIYA identical to the reference image(s).
+Slow descending crane toward his paw. He reaches out and set a tiny lantern down at the start of the causeway. End with the paw resting on the diorama and his eyes lifting to the camera. Keep SUTRADHAR identical to the reference image(s).
 ```
 
 ### short2-s24 | outro | MS ots | clip
 VO: और फिर चलेंगे, हम्पी।
 On screen: फिर: हम्पी
-References: BHEDIYA
+References: SUTRADHAR
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, over-the-shoulder: over-the-shoulder view from behind BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) as he stands before a large clay relief map of India on the archive wall, a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny clay boulders, his lantern raised in one paw, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, over-the-shoulder: over-the-shoulder view from behind SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) as he stands before a large carved relief map of India on the archive wall, a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders, the lantern raised in one paw, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
-Locked camera behind his shoulder. He reaches up and taps the glowing marker; it pulses brighter. End with his paw on the marker and his head turning halfway back toward camera. Keep BHEDIYA identical to the reference image(s).
+Locked camera behind his shoulder. He reaches up and taps the glowing marker; it pulses brighter. End with his paw on the marker and his head turning halfway back toward camera. Keep SUTRADHAR identical to the reference image(s).
 ```
 
 ### short2-s25 | follow | WS eye | clip
 VO: फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
 On screen: फ़ॉलो करें ➕
-References: BHEDIYA
+References: SUTRADHAR
 Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, eye level: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) seen from behind walking away from camera along the sea wall into the dusk, his lantern the only warm light, long shadow stretching toward the lens, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) seen from behind walking away from camera along the sea wall into the dusk, the lantern the only warm light, long shadow stretching toward the lens, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
 ```
 Motion prompt:
 ```
-Locked camera. He walks away into the dark, stops, and looks back over his shoulder at the viewer for a beat. End on the over-the-shoulder glance with the lantern glowing. Keep BHEDIYA identical to the reference image(s).
+Locked camera. He walks away into the dark, stops, and looks back over his shoulder at the viewer for a beat. End on the over-the-shoulder glance with the lantern glowing. Keep SUTRADHAR identical to the reference image(s).
 ```
 
 ## Edit notes
 - Cut on every line; the shot changes when the line changes. A shot may repeat only when the script calls back to it.
 - Word-by-word Hindi captions (Mukta / Noto Sans Devanagari, white with dark outline) in the middle 60% of the frame height; keep the top 12% and bottom 20% clear.
 - Whoosh on the hook, the twist cut-in and the payoff. Royalty-free music about 12% under the voice; log it in `shorts/mumbai/CREDITS.md`.
-- The last frame (Bhediya looking back with the lantern) should loop into the first.
+- The last frame (the wolf looking back) should loop into the first.
 
 ## Publish pack
 **YouTube Shorts titles:**

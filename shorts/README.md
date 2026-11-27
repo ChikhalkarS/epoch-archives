@@ -1,6 +1,6 @@
 # Shorts & Reels (current focus)
 
-Show: **असली सीन**, narrated by **भेड़िया** (Bhediya). Long videos come later from `scripts/`.
+Show: **असली सीन**, narrated by the wolf (**SUTRADHAR**, introduces himself as भेड़िया). Look: 2D noir graphic-novel cartoon. Long videos come later from `scripts/`.
 
 - Source per city: `shorts/<city>/shorts.json` (lines, fact IDs, shots). One narration line = one shot.
 - Build: `node tools/build-shorts.mjs <city>` writes one `shortN-<topic>.md` per Short (ElevenLabs text, shot list, image + motion prompts, publish copy) and refreshes `prompts/LIBRARY.md`. Do not edit the `.md` files by hand.

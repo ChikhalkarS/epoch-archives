@@ -1,101 +1,185 @@
 {
-  "library_version": 2,
+  "library_version": 3,
   "updated": "2026-11-27",
   "rule": "Single source of truth for every image/clip prompt. Always keep the latest best version here; bump the item's version and add a line to prompts/CHANGELOG.md. Episode files are built from this by tools/build-shorts.mjs.",
   "style": {
-    "version": 1,
-    "prefix": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, ",
-    "suffix_9x16": ", vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated",
-    "suffix_16x9": ", cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated",
-    "negative": "photorealistic, real photograph, 3D CGI render, glossy plastic, anime, cartoon line art, chibi, cute baby proportions, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood",
-    "sheet_style": "Claymation stop-motion plasticine figure, handcrafted clay with visible fingerprints and tool marks, matte surfaces"
+    "version": 2,
+    "name": "2D noir graphic-novel cartoon (owner, 2026-11-27; replaces claymation)",
+    "prefix": "2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, ",
+    "suffix_9x16": ", vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos",
+    "suffix_16x9": ", cinematic 16:9 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos",
+    "negative": "photorealistic, real photograph, 3D render, CGI, claymation, plasticine, glossy plastic, anime, chibi, cute baby proportions, watercolor wash, blurry lines, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood",
+    "character_header": "Ultra-detailed 2D digital cartoon portrait of {ID}, {summary}, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, {strokes}.",
+    "character_framing": "Chest-up framing, three-quarter view turned slightly toward camera, plain cool grey background, even soft studio light.",
+    "character_technical": "TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution."
   },
   "characters": {
-    "BHEDIYA": {
-      "version": 1,
+    "SUTRADHAR": {
+      "version": 2,
       "scope": "channel (every episode)",
-      "name": "भेड़िया (Bhediya), lead narrator and host of असली सीन",
-      "summary": "a wise, adult anthropomorphic grey wolf storyteller who stands upright like a man",
-      "age_build": "mature adult male wolf, stands upright on two legs, lean and strong, human-height impression, calm upright storyteller posture",
-      "eyes": "deep amber-gold irises with fine darker flecks and a thin black rim, round dark pupils with one small warm catchlight each, heavy dark-grey brow ridges, the left brow ridge crossed by a thin pale healed scar",
-      "skin": "clay-sculpted fur: silver-grey head and back with two charcoal streaks running from the forehead down between the eyes, cream-white muzzle, throat and chest, black leathery nose, the tip of the right ear slightly notched, fur strands pressed into the clay with visible tool marks",
-      "hair": "thicker ruff of silver-grey fur around the neck and shoulders, ears upright and alert",
-      "expression": "calm knowing half-smile with the mouth closed, right brow slightly raised, gaze direct and steady into the camera; wise and a little mischievous, never snarling, never showing fangs",
-      "outfit": "a knee-length dark terracotta cotton kurta, plain and slightly worn at the hem; a weathered indigo cotton shawl draped over the left shoulder with a thin ochre border; a brown leather satchel strap across the chest; a small brass oil lantern hanging at the right hip; an old rolled parchment scroll held in the right paw; bare wolf feet, no shoes",
-      "notes": "adult cinematic tone. Not cute, not cartoonish, no baby proportions. He appears in the brand intro, viewer-line scenes and the outro of every Short; story scenes show human figures.",
-      "scene_tag": "BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw)",
+      "name": "सूत्रधार / the wolf narrator (भेड़िया) of असली सीन",
+      "summary": "an anthropomorphic Indian grey wolf",
+      "strokes": "fur drawn with crisp jagged strokes",
+      "blocks": [
+        [
+          "EYES",
+          "sharp golden-amber eyes, heavy-lidded and knowing, looking over round brass-rimmed spectacles worn low on the snout, one eyebrow cocked higher than the other."
+        ],
+        [
+          "FUR",
+          "slim Indian wolf face, sandy-tawny coat with grey on the crown and back of the neck, cream muzzle, cheeks and throat, a dark nose, pointed ears with tawny backs."
+        ],
+        [
+          "EXPRESSION",
+          "a smug, confident smirk with one corner of the mouth raised, chin slightly up, the calm look of someone who already knows the answer."
+        ],
+        [
+          "CLOTHING",
+          "maroon bandhgala jacket with a high band collar and small brass buttons, cream kurta collar showing at the neck, an indigo angavastram stole draped over the left shoulder, the strap of a faded indigo cloth satchel across the chest."
+        ]
+      ],
+      "build": "WOLF BUILD: clearly a wolf, not a fox or jackal: broader skull, longer and heavier muzzle, thick fur ruff around the cheeks and neck, ears smaller in proportion to the head, a slightly heavier brow ridge, grey-tawny coat with more grey on the head.",
+      "closeup_prompt_owner": "Ultra-detailed 2D digital cartoon portrait of SUTRADHAR, an anthropomorphic Indian grey wolf, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes.\nChest-up framing, three-quarter view turned slightly toward camera, plain cool grey background, even soft studio light.\nEYES: sharp golden-amber eyes, heavy-lidded and knowing, looking over round brass-rimmed spectacles worn low on the snout, one eyebrow cocked higher than the other.\nFUR: slim Indian wolf face, sandy-tawny coat with grey on the crown and back of the neck, cream muzzle, cheeks and throat, a dark nose, pointed ears with tawny backs.\nEXPRESSION: a smug, confident smirk with one corner of the mouth raised, chin slightly up, the calm look of someone who already knows the answer.\nCLOTHING: maroon bandhgala jacket with a high band collar and small brass buttons, cream kurta collar showing at the neck, an indigo angavastram stole draped over the left shoulder, the strap of a faded indigo cloth satchel across the chest.\nTECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution.\nWOLF BUILD: clearly a wolf, not a fox or jackal: broader skull, longer and heavier muzzle, thick fur ruff around the cheeks and neck, ears smaller in proportion to the head, a slightly heavier brow ridge, grey-tawny coat with more grey on the head.",
+      "scene_tag": "SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel)",
+      "notes": "Exactly one pair of spectacles. Adult, sharp, detective attitude; never cute. Appears in the brand intro, cut-ins, viewer lines, comment ask and outro.",
       "reference_images": [
-        "prompts/characters/BHEDIYA/closeup.png",
-        "prompts/characters/BHEDIYA/sheet.png"
+        "prompts/characters/SUTRADHAR/closeup.png",
+        "prompts/characters/SUTRADHAR/sheet.png",
+        "prompts/characters/SUTRADHAR/profile.png"
       ]
     },
     "MUMBAI_PRINCESS": {
-      "version": 1,
+      "version": 2,
       "scope": "mumbai",
       "name": "Princess (generic 1661 Portuguese royal, captioned as Catherine)",
       "summary": "a young 17th century Portuguese princess",
-      "age_build": "woman in her early twenties, slim, medium height",
-      "eyes": "large dark-brown almond eyes, soft upper lids, gentle arched dark brows",
-      "skin": "warm olive clay skin, smooth, a small beauty mark under the left eye",
-      "hair": "dark brown hair parted in the centre, falling in tight ringlets at both sides of the face, small pearl pins",
-      "expression": "poised, polite closed-lip smile, curious eyes",
-      "outfit": "pale rose silk court gown with a wide white lace collar, fitted bodice with small pearl buttons, full skirt to the floor; a short single-strand pearl necklace; no crown",
-      "notes": "generic figure, not a real likeness; name only in captions",
-      "scene_tag": "the clay PRINCESS (young woman, dark ringlets with pearl pins, pale rose court gown with white lace collar, pearl necklace)",
+      "strokes": "hair drawn with crisp flowing ink strokes",
+      "blocks": [
+        [
+          "EYES",
+          "large dark-brown almond eyes, soft upper lids, gentle arched dark brows."
+        ],
+        [
+          "SKIN AND HAIR",
+          "warm olive skin, a small beauty mark under the left eye; dark brown hair parted in the centre, falling in tight ringlets at both sides of the face, small pearl pins."
+        ],
+        [
+          "EXPRESSION",
+          "poised, polite closed-lip smile, curious eyes."
+        ],
+        [
+          "CLOTHING",
+          "pale rose silk court gown with a wide white lace collar, fitted bodice with small pearl buttons, full skirt to the floor, a short single-strand pearl necklace, no crown."
+        ]
+      ],
+      "build": "BUILD: woman in her early twenties, slim, medium height.",
+      "scene_tag": "the PRINCESS (young woman, dark ringlets with pearl pins, pale rose court gown with white lace collar, pearl necklace)",
+      "notes": "Generic figure, not a real likeness; name only in captions.",
       "reference_images": [
         "prompts/characters/MUMBAI_PRINCESS/sheet.png"
       ]
     },
     "MUMBAI_KING": {
-      "version": 1,
+      "version": 2,
       "scope": "mumbai",
       "name": "King (generic 1660s English monarch, captioned as Charles II)",
       "summary": "a 1660s English king",
-      "age_build": "man in his early thirties, tall and slim",
-      "eyes": "dark heavy-lidded brown eyes, thick dark brows",
-      "skin": "pale clay skin, long face, thin black moustache",
-      "hair": "long black curly wig falling past the shoulders",
-      "expression": "worldly, slightly tired, a raised eyebrow",
-      "outfit": "deep crimson velvet knee-length coat with gold trim and gold buttons, white lace cravat, dark breeches, white stockings, black buckled shoes; a small gold crown only in throne scenes",
-      "notes": "generic figure, not a real likeness; name only in captions",
-      "scene_tag": "the clay KING (thin moustache, long black curly wig, deep crimson velvet coat with gold trim, white lace cravat)",
+      "strokes": "wig curls drawn with crisp ink strokes",
+      "blocks": [
+        [
+          "EYES",
+          "dark heavy-lidded brown eyes, thick dark brows."
+        ],
+        [
+          "SKIN AND HAIR",
+          "pale skin, long face, thin black moustache; long black curly wig falling past the shoulders."
+        ],
+        [
+          "EXPRESSION",
+          "worldly, slightly tired, one raised eyebrow."
+        ],
+        [
+          "CLOTHING",
+          "deep crimson velvet knee-length coat with gold trim and gold buttons, white lace cravat, dark breeches, white stockings, black buckled shoes; a small gold crown only in throne scenes."
+        ]
+      ],
+      "build": "BUILD: man in his early thirties, tall and slim.",
+      "scene_tag": "the KING (thin moustache, long black curly wig, deep crimson velvet coat with gold trim, white lace cravat)",
+      "notes": "Generic figure, not a real likeness; name only in captions.",
       "reference_images": [
         "prompts/characters/MUMBAI_KING/sheet.png"
       ]
     },
     "MUMBAI_MERCHANT": {
-      "version": 1,
+      "version": 2,
       "scope": "mumbai",
       "name": "East India Company merchant (generic 1660s)",
       "summary": "a middle-aged English trader of the 1660s",
-      "age_build": "man in his forties, stocky",
-      "eyes": "small pale-blue eyes, bushy brown brows",
-      "skin": "ruddy clay skin, short brown beard",
-      "hair": "shoulder-length straight brown hair under the hat",
-      "expression": "shrewd, pleased, a small satisfied smile",
-      "outfit": "plain brown wool knee-length coat with pewter buttons, white linen collar, dark breeches, black boots, wide-brimmed black hat, a leather-bound ledger under the left arm",
-      "notes": "generic figure",
-      "scene_tag": "the clay MERCHANT (stocky English trader, short brown beard, brown 17th century coat, wide-brimmed black hat, leather ledger)",
+      "strokes": "beard drawn with crisp ink strokes",
+      "blocks": [
+        [
+          "EYES",
+          "small pale-blue eyes, bushy brown brows."
+        ],
+        [
+          "SKIN AND HAIR",
+          "ruddy skin, short brown beard, shoulder-length straight brown hair."
+        ],
+        [
+          "EXPRESSION",
+          "shrewd, pleased, a small satisfied smile."
+        ],
+        [
+          "CLOTHING",
+          "plain brown wool knee-length coat with pewter buttons, white linen collar, dark breeches, black boots, wide-brimmed black hat, a leather-bound ledger under the left arm."
+        ]
+      ],
+      "build": "BUILD: man in his forties, stocky.",
+      "scene_tag": "the MERCHANT (stocky English trader, short brown beard, brown 17th century coat, wide-brimmed black hat, leather ledger)",
+      "notes": "Generic figure.",
       "reference_images": [
         "prompts/characters/MUMBAI_MERCHANT/sheet.png"
       ]
     },
     "MUMBAI_LADY": {
-      "version": 1,
+      "version": 2,
       "scope": "mumbai",
       "name": "Parsi lady of the 1840s (generic, captioned as Lady Avabai Jamsetjee Jeejeebhoy)",
       "summary": "a dignified Parsi lady of 1840s Bombay",
-      "age_build": "woman in her fifties, medium build, upright posture",
-      "eyes": "kind dark-brown eyes, fine lines at the corners, soft grey-black brows",
-      "skin": "fair-wheat clay skin, gentle smile lines",
-      "hair": "black hair with some grey, covered by the sari end",
-      "expression": "calm and determined, a soft closed-lip smile",
-      "outfit": "white silk sari with a maroon embroidered border, worn in the Parsi style with the end drawn over the head, long-sleeved white blouse, small gold earrings, simple dark slippers",
-      "notes": "generic figure, not a real likeness; name only in captions",
-      "scene_tag": "the clay LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face)",
+      "strokes": "sari folds drawn with crisp ink strokes",
+      "blocks": [
+        [
+          "EYES",
+          "kind dark-brown eyes, fine lines at the corners, soft grey-black brows."
+        ],
+        [
+          "SKIN AND HAIR",
+          "fair-wheat skin, gentle smile lines; black hair with some grey, covered by the sari end."
+        ],
+        [
+          "EXPRESSION",
+          "calm and determined, a soft closed-lip smile."
+        ],
+        [
+          "CLOTHING",
+          "white silk sari with a maroon embroidered border, worn in the Parsi style with the end drawn over the head, long-sleeved white blouse, small gold earrings, simple dark slippers."
+        ]
+      ],
+      "build": "BUILD: woman in her fifties, medium build, upright posture.",
+      "scene_tag": "the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face)",
+      "notes": "Generic figure, not a real likeness; name only in captions.",
       "reference_images": [
         "prompts/characters/MUMBAI_LADY/sheet.png"
       ]
+    }
+  },
+  "branding": {
+    "profile_picture": {
+      "version": 1,
+      "source": "owner 2026-11-27",
+      "prompt": "Channel profile picture, square 1:1, of SUTRADHAR, the same anthropomorphic Indian grey wolf as the reference image, 2D digital cartoon in a modern noir graphic-novel style, thick clean black outlines, smooth cel shading, fur drawn with crisp jagged strokes.\nFRAMING: head and upper shoulders only, centred, the face filling about 70% of the frame, with a little empty space around the ears so it survives a circular crop.\nEXPRESSION: suspicious detective attitude: eyes narrowed and heavy-lidded, sharp golden-amber eyes looking straight at the viewer over round brass-rimmed spectacles worn low on his snout, one eyebrow raised high, a slow smug one-sided smirk, chin slightly lowered as if he has just caught you lying.\nDETAILS: broad wolf skull, heavy muzzle, thick grey-tawny fur ruff at the neck, maroon bandhgala collar with brass buttons, indigo stole on one shoulder, exactly one pair of spectacles.\nLIGHTING: single warm amber lamp light from the lower left, a strong rim light on the fur edges, deep shadow on the right side of the face.\nBACKGROUND: plain deep charcoal-to-sepia gradient with a soft dark vignette, nothing else.\nHigh contrast, bold and readable at small sizes. No text, no letters, no watermark.",
+      "attach": "prompts/characters/SUTRADHAR/closeup.png",
+      "save_as": "prompts/characters/SUTRADHAR/profile.png"
     }
   },
   "framing": {
@@ -118,78 +202,78 @@
     },
     "vertical_rule": "native 9:16; subject's face in the upper-middle third; keep faces and key action out of the top 12% and bottom 20% (platform buttons); stage in depth, not side by side"
   },
-  "bhediya_shots": {
-    "_rule": "Reusable narrator shots. Vary them: never use the same template twice in a row. Story lines show people; Bhediya appears on brand intro, cut-ins, viewer lines, comment ask and outro.",
+  "narrator_shots": {
+    "_rule": "Reusable narrator (SUTRADHAR) shots. Vary them: never the same template twice in a row. Story lines show people; the wolf appears on brand intro, cut-ins, viewer lines, comment ask and outro. Props (lantern, scroll) are carried in a shot, not part of his fixed design.",
     "walk_in": {
-      "version": 1,
+      "version": 2,
       "size": "WS",
       "angle": "low",
       "asset": "clip",
-      "prompt": "{BHEDIYA} walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, his brass lantern swinging gently at his hip, {extra}",
-      "motion": "Camera tracks slowly backward at his walking pace. He walks from mid-aisle toward the lens and stops in a medium shot, lifting his eyes to the viewer with a knowing half-smile. Lantern glow sways on the shelves. End on him standing still, facing camera."
+      "prompt": "{SUTRADHAR} walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, a small brass lantern he carries swinging gently at his hip, {extra}",
+      "motion": "Camera tracks slowly backward at his walking pace. He walks from mid-aisle toward the lens and stops in a medium shot, lifting his eyes to the viewer with his smug one-sided smirk. Lantern glow sways on the shelves. End on him standing still, facing camera."
     },
     "scroll_reveal": {
-      "version": 1,
+      "version": 2,
       "size": "MCU",
       "angle": "low",
       "asset": "clip",
-      "prompt": "{BHEDIYA} holding his old scroll open toward the camera, a small clay diorama of {topic_visual} rising out of the parchment between his paws, warm lantern light from below-left, archive shelves softly blurred behind",
+      "prompt": "{SUTRADHAR} holding an old scroll open toward the camera, a small model of {topic_visual} rising out of the parchment between his paws, warm lantern light from below-left, archive shelves softly blurred behind",
       "motion": "Locked camera with a slow push-in. He unrolls the scroll; the tiny diorama rises out of it and settles. End with his eyes looking over the diorama straight into the lens."
     },
     "cut_in_finger": {
-      "version": 1,
+      "version": 2,
       "size": "CU",
       "angle": "eye",
       "asset": "clip",
-      "prompt": "{BHEDIYA} snapping his scroll shut in one paw and raising one clawed finger of the other paw beside his muzzle, one eyebrow raised, dark archive background with a single warm rim light",
+      "prompt": "{SUTRADHAR} snapping the scroll shut in one paw and raising one clawed finger of the other paw beside his muzzle, one eyebrow raised, dark archive background with a single warm rim light",
       "motion": "Quick short push-in, then hold. He snaps the scroll shut and raises one finger. End frozen on the raised finger and raised brow."
     },
     "lean_in_question": {
-      "version": 1,
+      "version": 2,
       "size": "MCU",
       "angle": "low",
       "asset": "clip",
-      "prompt": "{BHEDIYA} leaning toward the camera, {pose}, {context_visual} softly blurred behind him, warm rim light",
+      "prompt": "{SUTRADHAR} leaning toward the camera, {pose}, {context_visual} softly blurred behind him, warm rim light",
       "motion": "Locked camera. He leans in toward the lens, one ear twitches, the raised brow lifts. End with his face close, waiting for an answer."
     },
     "point_at_viewer": {
-      "version": 1,
+      "version": 2,
       "size": "CU",
       "angle": "low",
       "asset": "clip",
-      "prompt": "{BHEDIYA} pointing one paw straight at the camera with a playful half-smile, lantern glow on his fur, {context_visual} in soft background",
+      "prompt": "{SUTRADHAR} pointing one paw straight at the camera with his smug one-sided smirk, lantern glow on his fur, {context_visual} in soft background",
       "motion": "Locked camera, very slight push-in. His paw comes up and points at the lens. End on the point, paw sharp, face just behind it."
     },
     "touch_diorama": {
-      "version": 1,
+      "version": 2,
       "size": "MS",
       "angle": "high",
       "asset": "clip",
-      "prompt": "{BHEDIYA} crouching beside a tabletop clay diorama of {topic_visual}, reaching out with one paw to {touch_action}, lantern set down beside him",
+      "prompt": "{SUTRADHAR} crouching beside a tabletop miniature model of {topic_visual}, reaching out with one paw to {touch_action}, lantern set down beside him",
       "motion": "Slow descending crane toward his paw. He reaches out and {touch_action}. End with the paw resting on the diorama and his eyes lifting to the camera."
     },
     "eye_ecu": {
-      "version": 1,
+      "version": 2,
       "size": "ECU",
       "angle": "eye",
       "asset": "clip",
-      "prompt": "extreme close-up of one deep amber-gold eye of {BHEDIYA} with the thin pale scar above the brow, flickering lantern light reflected in the iris, grey clay fur texture filling the frame",
+      "prompt": "extreme close-up of one golden-amber eye of {SUTRADHAR} peering over the brass rim of his round spectacles, flickering lantern light reflected in the iris, grey-tawny inked fur strokes filling the frame",
       "motion": "Slow push-in toward the eye. The pupil narrows slightly as the lantern flickers. End on the reflection in the iris."
     },
     "map_tap_ots": {
-      "version": 1,
+      "version": 2,
       "size": "MS",
       "angle": "ots",
       "asset": "clip",
-      "prompt": "over-the-shoulder view from behind {BHEDIYA} as he stands before a large clay relief map of India on the archive wall, {map_note}, his lantern raised in one paw",
+      "prompt": "over-the-shoulder view from behind {SUTRADHAR} as he stands before a large carved relief map of India on the archive wall, {map_note}, the lantern raised in one paw",
       "motion": "Locked camera behind his shoulder. He reaches up and taps the glowing marker; it pulses brighter. End with his paw on the marker and his head turning halfway back toward camera."
     },
     "walk_off": {
-      "version": 1,
+      "version": 2,
       "size": "WS",
       "angle": "eye",
       "asset": "clip",
-      "prompt": "{BHEDIYA} seen from behind walking away from camera {where}, his lantern the only warm light, long shadow stretching toward the lens",
+      "prompt": "{SUTRADHAR} seen from behind walking away from camera {where}, the lantern the only warm light, long shadow stretching toward the lens",
       "motion": "Locked camera. He walks away into the dark, stops, and looks back over his shoulder at the viewer for a beat. End on the over-the-shoulder glance with the lantern glowing."
     }
   }

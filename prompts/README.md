@@ -2,7 +2,7 @@
 
 One place for every prompt we reuse, so characters and the look stay the same in every episode.
 
-- `library.json`: the source. Style prefix/suffix/negative, characters (identity details, close-up and sheet prompts are built from them), framing words, and the Bhediya shot bank.
+- `library.json`: the source. Style prefix/suffix/negative, characters (identity details, close-up and sheet prompts are built from them), framing words, the narrator shot bank and branding (profile picture).
 - `LIBRARY.md`: readable, copy-paste version. Built by `node tools/build-shorts.mjs <slug>`; do not edit it by hand.
 - `characters/<ID>/`: the chosen reference images (`closeup.png`, `sheet.png`). Attach them in Flow every time that character appears.
 - `CHANGELOG.md`: what changed and why.

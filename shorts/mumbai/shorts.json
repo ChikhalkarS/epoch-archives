@@ -43,7 +43,7 @@
      "size": "MS",
      "angle": "top",
      "asset": "clip",
-     "prompt": "looking straight down into the open treasure chest: instead of gold coins a tiny clay island with palm trees, fishing huts and boats on turquoise water fills the chest, golden glow around the edges",
+     "prompt": "looking straight down into the open treasure chest: instead of gold coins a tiny island with palm trees, fishing huts and boats on turquoise water fills the chest, golden glow around the edges",
      "motion": "Fast descending push straight down into the chest. Tiny palm trees sway and a boat bobs. End close over the island.",
      "onscreen": "पूरा शहर!"
     },
@@ -52,22 +52,22 @@
      "vo": "@intro1",
      "tts": "@intro1",
      "facts": [],
-     "bhediya": "walk_in",
      "vars": {
       "extra": "toward a reading table where a small treasure chest sits"
      },
-     "onscreen": "असली सीन 🐺"
+     "onscreen": "असली सीन 🐺",
+     "narrator": "walk_in"
     },
     {
      "role": "brand",
      "vo": "@intro2",
      "tts": "@intro2",
      "facts": [],
-     "bhediya": "scroll_reveal",
      "vars": {
       "topic_visual": "the seven small Bombay islands in a turquoise sea"
      },
-     "onscreen": "आज: मुंबई"
+     "onscreen": "आज: मुंबई",
+     "narrator": "scroll_reveal"
     },
     {
      "role": "story",
@@ -79,7 +79,7 @@
      "size": "ECU",
      "angle": "eye",
      "asset": "still",
-     "prompt": "a clay hand pressing a brass seal into hot red wax on the corner of a parchment treaty, candle flame beside it",
+     "prompt": "a hand pressing a brass seal into hot red wax on the corner of a parchment treaty, candle flame beside it",
      "motion": "Very slow push-in on the wax seal; the candle flame flickers. End on the pressed seal.",
      "onscreen": "1661"
     },
@@ -107,7 +107,7 @@
      "size": "EWS",
      "angle": "top",
      "asset": "still",
-     "prompt": "seven small separate green clay islands scattered in a turquoise clay sea, tiny fishing sailboats between them, bright morning light",
+     "prompt": "seven small separate green islands scattered in a turquoise sea, tiny fishing sailboats between them, bright morning light",
      "motion": "Slow rotating drift over the islands; small waves move. End with all seven islands in frame.",
      "onscreen": "7 टापू"
     },
@@ -121,7 +121,7 @@
      "size": "MS",
      "angle": "low",
      "asset": "still",
-     "prompt": "a generic clay 16th century Portuguese soldier in a steel morion helmet and breastplate standing guard on a stone fort rampart above the sea, a plain red-and-white banner on a pole beside him, fishing boats far below",
+     "prompt": "a generic 16th century Portuguese soldier in a steel morion helmet and breastplate standing guard on a stone fort rampart above the sea, a plain red-and-white banner on a pole beside him, fishing boats far below",
      "motion": "Slow tilt up from the boats to the soldier. The banner ripples in the wind. End on the soldier looking out to sea.",
      "onscreen": "पुर्तगाली राज"
     },
@@ -135,7 +135,7 @@
      "size": "ECU",
      "angle": "high",
      "asset": "still",
-     "prompt": "a clay hand with a feather quill writing lines of unreadable squiggles on a long parchment list that unrolls off the desk edge, ink pot and candle",
+     "prompt": "a hand with a feather quill writing lines of unreadable squiggles on a long parchment list that unrolls off the desk edge, ink pot and candle",
      "motion": "Locked camera. The quill writes and the parchment slides down off the desk. End with the list hanging over the edge.",
      "onscreen": "दहेज की लिस्ट"
     },
@@ -149,7 +149,7 @@
      "size": "MCU",
      "angle": "eye",
      "asset": "still",
-     "prompt": "a tiny clay model of a walled white North African port town with a harbour and sailing ships, sitting on the candle-lit desk next to the list",
+     "prompt": "a tiny model of a walled white North African port town with a harbour and sailing ships, sitting on the candle-lit desk next to the list",
      "motion": "Slow pan right across the tiny port town. End on its harbour gate.",
      "onscreen": "टैंजियर 🌍"
     },
@@ -163,7 +163,7 @@
      "size": "CU",
      "angle": "high",
      "asset": "still",
-     "prompt": "a clay clerk's hand placing a tiny palm-tree island model on the desk right beside the port town model, candle light",
+     "prompt": "a clerk's hand placing a tiny palm-tree island model on the desk right beside the port town model, candle light",
      "motion": "Locked camera. The hand sets the island down and withdraws. End on the two models side by side.",
      "onscreen": "+ बॉम्बे 🏝️"
     },
@@ -172,9 +172,9 @@
      "vo": "लेकिन ट्विस्ट यहाँ है।",
      "tts": "[curious] लेकिन ट्विस्ट यहाँ है।",
      "facts": [],
-     "bhediya": "cut_in_finger",
      "vars": {},
-     "onscreen": "ट्विस्ट!"
+     "onscreen": "ट्विस्ट!",
+     "narrator": "cut_in_finger"
     },
     {
      "role": "story",
@@ -187,7 +187,7 @@
      "size": "MS",
      "angle": "eye",
      "asset": "still",
-     "prompt": "{MUMBAI_KING} sitting at a window drumming his fingers on the sill beside a clay hourglass, a waiting sailing ship visible on the sea outside, evening light",
+     "prompt": "{MUMBAI_KING} sitting at a window drumming his fingers on the sill beside a hourglass, a waiting sailing ship visible on the sea outside, evening light",
      "motion": "Locked camera. Sand runs through the hourglass while he drums his fingers; outside, the light shifts from day to dusk. End with the hourglass empty.",
      "onscreen": "4 साल ⏳"
     },
@@ -201,7 +201,7 @@
      "size": "WS",
      "angle": "high",
      "asset": "still",
-     "prompt": "{MUMBAI_KING} slumped on his throne holding his forehead, surrounded by tall piles of clay bills and empty coin bags, the tiny island model on a velvet cushion at his feet, dim moody light",
+     "prompt": "{MUMBAI_KING} slumped on his throne holding his forehead, surrounded by tall piles of bills and empty coin bags, the tiny island model on a velvet cushion at his feet, dim moody light",
      "motion": "Slow pull-back upward. A coin bag tips over and empties. End with the king small among the bills.",
      "onscreen": "तोहफ़ा या बोझ?"
     },
@@ -210,12 +210,12 @@
      "vo": "सोचिए, आप राजा होते, तो क्या करते?",
      "tts": "[curious] सोचिए... आप राजा होते, तो क्या करते?",
      "facts": [],
-     "bhediya": "lean_in_question",
      "vars": {
       "pose": "sitting on the empty royal throne with the tiny island model balanced on one paw",
       "context_visual": "the piles of royal bills"
      },
-     "onscreen": "आप क्या करते? 🤔"
+     "onscreen": "आप क्या करते? 🤔",
+     "narrator": "lean_in_question"
     },
     {
      "role": "payoff",
@@ -236,12 +236,12 @@
      "vo": "और किराया?",
      "tts": "और किराया?",
      "facts": [],
-     "bhediya": "lean_in_question",
      "vars": {
       "pose": "holding a single small gold coin up beside his eye in the lantern light",
       "context_visual": "dark archive shelves"
      },
-     "onscreen": "किराया?"
+     "onscreen": "किराया?",
+     "narrator": "lean_in_question"
     },
     {
      "role": "payoff",
@@ -253,7 +253,7 @@
      "size": "ECU",
      "angle": "high",
      "asset": "clip",
-     "prompt": "a single small clay gold coin dropping onto a big parchment map of the seven islands on a wooden table, warm spotlight, extreme shallow depth of field",
+     "prompt": "a single small gold coin dropping onto a big parchment map of the seven islands on a wooden table, warm spotlight, extreme shallow depth of field",
      "motion": "Locked camera. The coin drops into frame, spins and settles flat on the islands. End on the still coin.",
      "onscreen": "सिर्फ़ £10 / साल 😳"
     },
@@ -267,7 +267,7 @@
      "size": "EWS",
      "angle": "low",
      "asset": "clip",
-     "prompt": "clay miniature of a dense modern Mumbai skyline, tall towers rising to the top of frame, a curved seafront promenade with street lights in the lower third, Arabian Sea at dusk (modern buildings allowed in this shot)",
+     "prompt": "miniature model of a dense modern Mumbai skyline, tall towers rising to the top of frame, a curved seafront promenade with street lights in the lower third, Arabian Sea at dusk (modern buildings allowed in this shot)",
      "motion": "Slow crane up from the seafront to the tower tops as the city lights switch on. End on the lit skyline.",
      "onscreen": "दहेज ➜ मुंबई"
     },
@@ -276,57 +276,57 @@
      "vo": "अब बताइए, आज मुंबई का किराया कितना होना चाहिए?",
      "tts": "अब बताइए... आज मुंबई का किराया कितना होना चाहिए?",
      "facts": [],
-     "bhediya": "touch_diorama",
      "vars": {
       "topic_visual": "the modern Mumbai skyline at night",
       "touch_action": "tap the top of the tallest tower with one claw"
      },
-     "onscreen": "आज का किराया?"
+     "onscreen": "आज का किराया?",
+     "narrator": "touch_diorama"
     },
     {
      "role": "comment",
      "vo": "कमेंट में लिखिए।",
      "tts": "कमेंट में लिखिए।",
      "facts": [],
-     "bhediya": "point_at_viewer",
      "vars": {
       "context_visual": "the glowing city diorama"
      },
-     "onscreen": "कमेंट 👇"
+     "onscreen": "कमेंट 👇",
+     "narrator": "point_at_viewer"
     },
     {
      "role": "outro",
      "vo": "अगली कहानी: मुंबई की वो ज़मीन, जो कभी समंदर थी।",
      "tts": "अगली कहानी: मुंबई की वो ज़मीन... जो कभी समंदर थी।",
      "facts": [],
-     "bhediya": "touch_diorama",
      "vars": {
-      "topic_visual": "a clay city street",
+      "topic_visual": "a city street",
       "touch_action": "press the road, which cracks open to show blue sea water underneath"
      },
-     "onscreen": "अगला: समंदर वाली ज़मीन 🌊"
+     "onscreen": "अगला: समंदर वाली ज़मीन 🌊",
+     "narrator": "touch_diorama"
     },
     {
      "role": "outro",
      "vo": "और फिर चलेंगे, हम्पी।",
      "tts": "और फिर चलेंगे... हम्पी।",
      "facts": [],
-     "bhediya": "map_tap_ots",
      "vars": {
-      "map_note": "a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny clay boulders"
+      "map_note": "a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders"
      },
-     "onscreen": "फिर: हम्पी"
+     "onscreen": "फिर: हम्पी",
+     "narrator": "map_tap_ots"
     },
     {
      "role": "follow",
      "vo": "@follow",
      "tts": "@follow",
      "facts": [],
-     "bhediya": "walk_off",
      "vars": {
       "where": "down the archive aisle into the shadows"
      },
-     "onscreen": "फ़ॉलो करें ➕"
+     "onscreen": "फ़ॉलो करें ➕",
+     "narrator": "walk_off"
     }
    ]
   },
@@ -357,7 +357,7 @@
      "size": "CU",
      "angle": "low",
      "asset": "clip",
-     "prompt": "a tiny clay person's shoes standing on an old clay city road, thin cracks starting to spread across the road surface around the feet, dusk light",
+     "prompt": "a tiny person's shoes standing on an old city road, thin cracks starting to spread across the road surface around the feet, dusk light",
      "motion": "Locked camera, ground level. Cracks spread outward from the feet. End with a crack reaching the frame edge.",
      "onscreen": "ये ज़मीन कभी समंदर थी!"
     },
@@ -372,7 +372,7 @@
      "size": "MS",
      "angle": "top",
      "asset": "clip",
-     "prompt": "looking straight down at the clay road splitting open to reveal deep blue clay sea water with small fish swimming beneath it",
+     "prompt": "looking straight down at the road splitting open to reveal deep blue sea water with small fish swimming beneath it",
      "motion": "Fast push straight down into the opening; fish dart. End with the frame full of blue water.",
      "onscreen": "समंदर!"
     },
@@ -381,22 +381,22 @@
      "vo": "@intro1",
      "tts": "@intro1",
      "facts": [],
-     "bhediya": "walk_in",
      "vars": {
       "extra": "toward a tabletop sea diorama where seven islands float"
      },
-     "onscreen": "असली सीन 🐺"
+     "onscreen": "असली सीन 🐺",
+     "narrator": "walk_in"
     },
     {
      "role": "brand",
      "vo": "@intro2",
      "tts": "@intro2",
      "facts": [],
-     "bhediya": "scroll_reveal",
      "vars": {
       "topic_visual": "seven separate islands slowly drifting together"
      },
-     "onscreen": "आज: मुंबई"
+     "onscreen": "आज: मुंबई",
+     "narrator": "scroll_reveal"
     },
     {
      "role": "story",
@@ -408,7 +408,7 @@
      "size": "EWS",
      "angle": "top",
      "asset": "still",
-     "prompt": "seven separate green clay islands in a turquoise clay sea, small fishing boats with sails between them, tiny palm trees and huts, bright morning light",
+     "prompt": "seven separate green islands in a turquoise sea, small fishing boats with sails between them, tiny palm trees and huts, bright morning light",
      "motion": "Slow rotating aerial drift; each island lights up one by one. End with all seven lit.",
      "onscreen": "7 टापू"
     },
@@ -422,7 +422,7 @@
      "size": "WS",
      "angle": "eye",
      "asset": "clip",
-     "prompt": "clay sea water flowing over low swampy land between two islands, small huts standing in the water, clay fishermen lifting their nets, overcast grey-blue light",
+     "prompt": "sea water flowing over low swampy land between two islands, small huts standing in the water, fishermen lifting their nets, overcast grey-blue light",
      "motion": "Locked camera. The water level rises around the huts. End with water at the hut doors.",
      "onscreen": "ज्वार = बाढ़"
     },
@@ -431,12 +431,12 @@
      "vo": "मुंबई में रहते हैं?",
      "tts": "मुंबई में रहते हैं?",
      "facts": [],
-     "bhediya": "lean_in_question",
      "vars": {
       "pose": "one paw raised with a tiny map pin between his claws",
-      "context_visual": "a clay map of today's Mumbai"
+      "context_visual": "a map of today's Mumbai"
      },
-     "onscreen": "मुंबई में हैं? 📍"
+     "onscreen": "मुंबई में हैं? 📍",
+     "narrator": "lean_in_question"
     },
     {
      "role": "interaction",
@@ -446,7 +446,7 @@
      "size": "CU",
      "angle": "top",
      "asset": "still",
-     "prompt": "a grey clay wolf paw (BHEDIYA) pushing small red map pins one by one into a clay map of today's Mumbai neighbourhoods",
+     "prompt": "a grey-tawny wolf paw (SUTRADHAR) pushing small red map pins one by one into a map of today's Mumbai neighbourhoods",
      "motion": "Locked overhead camera. Pins go in one after another. End with five pins standing.",
      "onscreen": "अपना इलाक़ा 👇"
     },
@@ -458,7 +458,7 @@
      "size": "MS",
      "angle": "high",
      "asset": "still",
-     "prompt": "the same clay Mumbai map with red pins, now a glowing blue outline of the old seven-island coastline lighting up over it, several pins standing inside the blue sea area, {BHEDIYA} at the map edge looking down",
+     "prompt": "the same Mumbai map with red pins, now a glowing blue outline of the old seven-island coastline lighting up over it, several pins standing inside the blue sea area, {SUTRADHAR} at the map edge looking down",
      "motion": "Slow pull-back upward. The blue outline glows on. End with the whole map and the wolf in frame.",
      "onscreen": "शायद समंदर था!"
     },
@@ -472,7 +472,7 @@
      "size": "WS",
      "angle": "eye",
      "asset": "clip",
-     "prompt": "many clay workers in 18th century Indian clothing carrying stones and baskets of earth along a half-built stone sea wall across a creek, a generic clay British official in a 1780s coat and tricorn hat watching with a rolled plan, golden afternoon light",
+     "prompt": "many workers in 18th century Indian clothing carrying stones and baskets of earth along a half-built stone sea wall across a creek, a generic British official in a 1780s coat and tricorn hat watching with a rolled plan, golden afternoon light",
      "motion": "Slow lateral track along the wall. Workers pass stones hand to hand. End on the official unrolling his plan.",
      "onscreen": "1782"
     },
@@ -486,7 +486,7 @@
      "size": "CU",
      "angle": "low",
      "asset": "still",
-     "prompt": "a clay wave crashing against new grey stones of the sea wall, spray rising into the light",
+     "prompt": "a wave crashing against new grey stones of the sea wall, spray rising into the light",
      "motion": "Locked camera, low at the waterline. One wave hits and the spray falls. End on wet stones.",
      "onscreen": "हॉर्नबी वेलार्ड"
     },
@@ -500,7 +500,7 @@
      "size": "MS",
      "angle": "eye",
      "asset": "still",
-     "prompt": "a section of the unfinished stone sea wall slumping and sliding into the sea while clay workers step back safely on the shore, grey sky",
+     "prompt": "a section of the unfinished stone sea wall slumping and sliding into the sea while workers step back safely on the shore, grey sky",
      "motion": "Locked camera. The wall section slides into the water. End with the gap in the wall.",
      "onscreen": "कहते हैं..."
     },
@@ -514,7 +514,7 @@
      "size": "MCU",
      "angle": "high",
      "asset": "still",
-     "prompt": "a clay engineer in 18th century Indian clothing sleeping on a mat by a small oil lamp, a soft golden glow from the calm night sea visible through the open doorway, respectful and serene, no deity faces shown",
+     "prompt": "a engineer in 18th century Indian clothing sleeping on a mat by a small oil lamp, a soft golden glow from the calm night sea visible through the open doorway, respectful and serene, no deity faces shown",
      "motion": "Very slow push-in. The golden glow outside brightens gently. End with the glow lighting his face.",
      "onscreen": "लोक-कथा ✨"
     },
@@ -528,7 +528,7 @@
      "size": "WS",
      "angle": "low",
      "asset": "still",
-     "prompt": "a small clay seaside temple with a saffron flag on rocks beside the finished stone sea wall, calm sea at sunrise, tiny respectful clay devotees on the steps, respectful depiction, no deity close-up",
+     "prompt": "a small seaside temple with a saffron flag on rocks beside the finished stone sea wall, calm sea at sunrise, tiny respectful devotees on the steps, respectful depiction, no deity close-up",
      "motion": "Slow push-in toward the temple; the flag flutters. End on the temple steps.",
      "onscreen": "महालक्ष्मी मंदिर"
     },
@@ -539,9 +539,9 @@
      "facts": [
       "F20"
      ],
-     "bhediya": "cut_in_finger",
      "vars": {},
-     "onscreen": "लोक-कथा"
+     "onscreen": "लोक-कथा",
+     "narrator": "cut_in_finger"
     },
     {
      "role": "payoff",
@@ -553,7 +553,7 @@
      "size": "MS",
      "angle": "low",
      "asset": "still",
-     "prompt": "a clay horse cart rolling across a new stone causeway over shallow water, 19th century, soft morning light",
+     "prompt": "a horse cart rolling across a new stone causeway over shallow water, 19th century, soft morning light",
      "motion": "Locked camera at road level. The cart rolls through frame left to right. End with the empty causeway.",
      "onscreen": "कॉज़वे"
     },
@@ -567,7 +567,7 @@
      "size": "EWS",
      "angle": "top",
      "asset": "clip",
-     "prompt": "the seven clay islands from the earlier shot, now joined into one long landmass by stone causeways and filled land, colonial buildings appearing, warm light",
+     "prompt": "the seven islands from the earlier shot, now joined into one long landmass by stone causeways and filled land, colonial buildings appearing, warm light",
      "motion": "Slow rise straight up. The last gaps fill with land. End on the single landmass.",
      "onscreen": "7 ➜ 1"
     },
@@ -582,7 +582,7 @@
      "size": "WS",
      "angle": "high",
      "asset": "still",
-     "prompt": "clay miniature of a modern coastal highway curving along the sea beside a city skyline, a seawall of big stones holding back clay waves, sunset light (modern road and buildings allowed in this shot)",
+     "prompt": "miniature model of a modern coastal highway curving along the sea beside a city skyline, a seawall of big stones holding back waves, sunset light (modern road and buildings allowed in this shot)",
      "motion": "Slow pull-back. Waves crash on the seawall. End on the full curve of the road.",
      "onscreen": "आज भी: कोस्टल रोड"
     },
@@ -594,8 +594,8 @@
      "size": "MS",
      "angle": "low",
      "asset": "clip",
-     "prompt": "{BHEDIYA} standing on top of the stone seawall of the diorama, clay waves breaking below his feet, city lights behind him",
-     "motion": "Locked low camera. A wave breaks below; his shawl moves in the wind. End with him looking down at the sea.",
+     "prompt": "{SUTRADHAR} standing on top of the stone seawall of the miniature model, waves breaking below his feet, city lights behind him",
+     "motion": "Locked low camera. A wave breaks below; his indigo stole moves in the wind. End with him looking down at the sea.",
      "onscreen": "बसाई नहीं..."
     },
     {
@@ -606,7 +606,7 @@
      "size": "ECU",
      "angle": "high",
      "asset": "clip",
-     "prompt": "a grey clay wolf paw (BHEDIYA) pressing down on wet clay land at the waterline, pushing the blue clay water back",
+     "prompt": "a grey-tawny wolf paw (SUTRADHAR) pressing down on wet land at the waterline, pushing the blue water back",
      "motion": "Locked camera. The paw presses and the water retreats. End with dry land under the paw.",
      "onscreen": "समंदर से छीनी गई 🌊"
     },
@@ -618,7 +618,7 @@
      "size": "CU",
      "angle": "eye",
      "asset": "clip",
-     "prompt": "a clay balance scale on a rock by the sea: one pan holds a tiny clay city block, the other a tiny clay wave with fish, dusk light",
+     "prompt": "a balance scale on a rock by the sea: one pan holds a tiny city block, the other a tiny wave with fish, dusk light",
      "motion": "Locked camera. The scale tips one way, then the other. End balanced.",
      "onscreen": "सही या ग़लत?"
     },
@@ -627,45 +627,45 @@
      "vo": "कमेंट में लिखिए।",
      "tts": "कमेंट में लिखिए।",
      "facts": [],
-     "bhediya": "point_at_viewer",
      "vars": {
       "context_visual": "the balance scale by the sea"
      },
-     "onscreen": "कमेंट 👇"
+     "onscreen": "कमेंट 👇",
+     "narrator": "point_at_viewer"
     },
     {
      "role": "outro",
      "vo": "अगली कहानी: वो औरत, जिसने अपने पैसों से समंदर पर रास्ता बनवाया।",
      "tts": "अगली कहानी: वो औरत... जिसने अपने पैसों से समंदर पर रास्ता बनवाया।",
      "facts": [],
-     "bhediya": "touch_diorama",
      "vars": {
       "topic_visual": "a long stone causeway across a creek",
       "touch_action": "set a tiny lantern down at the start of the causeway"
      },
-     "onscreen": "अगला: अवाबाई"
+     "onscreen": "अगला: अवाबाई",
+     "narrator": "touch_diorama"
     },
     {
      "role": "outro",
      "vo": "और फिर चलेंगे, हम्पी।",
      "tts": "और फिर चलेंगे... हम्पी।",
      "facts": [],
-     "bhediya": "map_tap_ots",
      "vars": {
-      "map_note": "a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny clay boulders"
+      "map_note": "a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders"
      },
-     "onscreen": "फिर: हम्पी"
+     "onscreen": "फिर: हम्पी",
+     "narrator": "map_tap_ots"
     },
     {
      "role": "follow",
      "vo": "@follow",
      "tts": "@follow",
      "facts": [],
-     "bhediya": "walk_off",
      "vars": {
       "where": "along the sea wall into the dusk"
      },
-     "onscreen": "फ़ॉलो करें ➕"
+     "onscreen": "फ़ॉलो करें ➕",
+     "narrator": "walk_off"
     }
    ]
   },
@@ -718,22 +718,22 @@
      "vo": "@intro1",
      "tts": "@intro1",
      "facts": [],
-     "bhediya": "walk_in",
      "vars": {
       "extra": "toward a tabletop diorama of a creek between two shores"
      },
-     "onscreen": "असली सीन 🐺"
+     "onscreen": "असली सीन 🐺",
+     "narrator": "walk_in"
     },
     {
      "role": "brand",
      "vo": "@intro2",
      "tts": "@intro2",
      "facts": [],
-     "bhediya": "scroll_reveal",
      "vars": {
       "topic_visual": "a stone causeway crossing a creek between two shores"
      },
-     "onscreen": "आज: मुंबई"
+     "onscreen": "आज: मुंबई",
+     "narrator": "scroll_reveal"
     },
     {
      "role": "story",
@@ -745,7 +745,7 @@
      "size": "EWS",
      "angle": "high",
      "asset": "still",
-     "prompt": "a wide creek of blue clay water between two palm-lined shores with small villages, 19th century Bombay, hazy morning light",
+     "prompt": "a wide creek of blue water between two palm-lined shores with small villages, 19th century Bombay, hazy morning light",
      "motion": "Slow pan from one shore to the other. End on the far shore.",
      "onscreen": "माहिम ↔ बांद्रा"
     },
@@ -759,7 +759,7 @@
      "size": "MS",
      "angle": "eye",
      "asset": "still",
-     "prompt": "a small wooden clay ferry boat crowded with clay passengers and baskets crossing the creek, the boatman pushing with a long pole",
+     "prompt": "a small wooden ferry boat crowded with passengers and baskets crossing the creek, the boatman pushing with a long pole",
      "motion": "Locked camera at water level. The boat glides across frame. End with the boat mid-frame.",
      "onscreen": "नाव से पार"
     },
@@ -773,7 +773,7 @@
      "size": "WS",
      "angle": "high",
      "asset": "still",
-     "prompt": "an empty overturned clay boat floating on dark stormy water, broken oars drifting, grey rain clouds, symbolic, no people shown",
+     "prompt": "an empty overturned boat floating on dark stormy water, broken oars drifting, grey rain clouds, symbolic, no people shown",
      "motion": "Locked camera. Rain falls, the empty boat drifts slowly. End with the boat near frame centre.",
      "onscreen": "1840-41"
     },
@@ -787,7 +787,7 @@
      "size": "CU",
      "angle": "eye",
      "asset": "still",
-     "prompt": "a single small unlit clay lantern floating alone on dark rippling water, symbolic and quiet",
+     "prompt": "a single small unlit lantern floating alone on dark rippling water, symbolic and quiet",
      "motion": "Locked camera. The lantern bobs slowly on the ripples. End still.",
      "onscreen": ""
     },
@@ -843,7 +843,7 @@
      "size": "WS",
      "angle": "high",
      "asset": "still",
-     "prompt": "clay workers laying big stones of a long causeway across the creek, carts of stone, bright daylight",
+     "prompt": "workers laying big stones of a long causeway across the creek, carts of stone, bright daylight",
      "motion": "Slow forward drift along the causeway as stones are placed. End at the newest stone.",
      "onscreen": "माहिम कॉज़वे"
     },
@@ -852,9 +852,9 @@
      "vo": "बस एक शर्त।",
      "tts": "बस एक शर्त।",
      "facts": [],
-     "bhediya": "cut_in_finger",
      "vars": {},
-     "onscreen": "एक शर्त"
+     "onscreen": "एक शर्त",
+     "narrator": "cut_in_finger"
     },
     {
      "role": "payoff",
@@ -866,7 +866,7 @@
      "size": "MS",
      "angle": "eye",
      "asset": "still",
-     "prompt": "clay villagers, fishermen with baskets and a bullock cart passing freely over the stone causeway where a toll barrier has been removed and laid on the ground",
+     "prompt": "villagers, fishermen with baskets and a bullock cart passing freely over the stone causeway where a toll barrier has been removed and laid on the ground",
      "motion": "Locked camera. People and the cart pass through frame. End with the barrier lying on the ground.",
      "onscreen": "कोई टोल नहीं"
     },
@@ -875,23 +875,23 @@
      "vo": "आपके शहर में भी, किसी ने ऐसा कोई रास्ता या पुल दान से बनवाया है?",
      "tts": "आपके शहर में भी... किसी ने ऐसा कोई रास्ता या पुल, दान से बनवाया है?",
      "facts": [],
-     "bhediya": "touch_diorama",
      "vars": {
-      "topic_visual": "a clay map of India dotted with tiny bridges",
+      "topic_visual": "a map of India dotted with tiny bridges",
       "touch_action": "touch one tiny bridge, which lights up"
      },
-     "onscreen": "आपके शहर में?"
+     "onscreen": "आपके शहर में?",
+     "narrator": "touch_diorama"
     },
     {
      "role": "interaction",
      "vo": "कमेंट में बताइए।",
      "tts": "कमेंट में बताइए।",
      "facts": [],
-     "bhediya": "point_at_viewer",
      "vars": {
       "context_visual": "the glowing map of India"
      },
-     "onscreen": "कमेंट 👇"
+     "onscreen": "कमेंट 👇",
+     "narrator": "point_at_viewer"
     },
     {
      "role": "payoff",
@@ -917,7 +917,7 @@
      "size": "MS",
      "angle": "low",
      "asset": "still",
-     "prompt": "a busy modern clay Mumbai street with buses, taxis and old trees, an old stone building at the corner, warm afternoon light, no readable signs (modern vehicles allowed in this shot)",
+     "prompt": "a busy modern Mumbai street with buses, taxis and old trees, an old stone building at the corner, warm afternoon light, no readable signs (modern vehicles allowed in this shot)",
      "motion": "Slow tilt up from the traffic to the old trees. End on the treetops.",
      "onscreen": "एल. जे. रोड"
     },
@@ -938,23 +938,23 @@
      "vo": "आप बताइए।",
      "tts": "आप बताइए।",
      "facts": [],
-     "bhediya": "lean_in_question",
      "vars": {
       "pose": "both paws resting on his lantern",
       "context_visual": "the lantern-lit causeway"
      },
-     "onscreen": "आप बताइए 👇"
+     "onscreen": "आप बताइए 👇",
+     "narrator": "lean_in_question"
     },
     {
      "role": "outro",
      "vo": "अगला शहर: हम्पी।",
      "tts": "अगला शहर: हम्पी।",
      "facts": [],
-     "bhediya": "map_tap_ots",
      "vars": {
-      "map_note": "a single glowing marker in Karnataka among tiny clay boulders and ruined temples"
+      "map_note": "a single glowing marker in Karnataka among tiny boulders and ruined temples"
      },
-     "onscreen": "अगला शहर: हम्पी 🏛️"
+     "onscreen": "अगला शहर: हम्पी 🏛️",
+     "narrator": "map_tap_ots"
     },
     {
      "role": "outro",
@@ -964,7 +964,7 @@
      "size": "EWS",
      "angle": "low",
      "asset": "clip",
-     "prompt": "{BHEDIYA} as a small figure walking between giant rounded clay boulders and ruined stone temple pillars rising to the top of frame, warm dusk light",
+     "prompt": "{SUTRADHAR} as a small figure walking between giant rounded boulders and ruined stone temple pillars rising to the top of frame, warm dusk light",
      "motion": "Slow tilt up from the wolf to the tops of the boulders. End on the ruins against the sky.",
      "onscreen": "खंडहर क्यों?"
     },
@@ -973,23 +973,23 @@
      "vo": "आख़िर हुआ क्या था?",
      "tts": "[curious] आख़िर हुआ क्या था?",
      "facts": [],
-     "bhediya": "eye_ecu",
      "vars": {},
-     "onscreen": "आख़िर क्या हुआ?"
+     "onscreen": "आख़िर क्या हुआ?",
+     "narrator": "eye_ecu"
     },
     {
      "role": "follow",
      "vo": "@follow",
      "tts": "@follow",
      "facts": [],
-     "bhediya": "walk_off",
      "vars": {
       "where": "between the boulders into the dusk"
      },
-     "onscreen": "फ़ॉलो करें ➕"
+     "onscreen": "फ़ॉलो करें ➕",
+     "narrator": "walk_off"
     }
    ]
   }
  ],
- "format_rule": "One narration line = one shot. Bhediya (narrator) shots come from prompts/library.json bhediya_shots; story shots show people."
+ "format_rule": "One narration line = one shot. Narrator (SUTRADHAR, the wolf) shots come from prompts/library.json narrator_shots; story shots show people."
 }

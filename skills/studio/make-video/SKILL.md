@@ -24,7 +24,7 @@ Follow `skills/studio/hindi-script/SKILL.md` (and the vendor `scriptwriting` ski
 Show the owner, in under 15 lines: the hook line, the 5-7 beat arc, runtime estimate, the twist, the outro teaser, and every disputed/legend flag. Wait for "approved" or edits. Do not continue without approval. Record `gate1=approved` in tracker notes.
 
 ## Stage 3 - Storyboard
-Run `node tools/split-script.mjs <slug>` to cut the script into scenes, then fill each scene's `prompt` (scene line only; the style prefix/suffix is added by `node tools/prompts.mjs <slug>`, which writes `assets/<slug>/PROMPTS.md` and `storyboards/<slug>.md`). Use `"reuse": "s19"` to show another scene's image with a new motion (cuts image work), and `"short_only": true` scenes for a Short's own hook/outro. Use the `cinematic-director` skill for shot thinking and `character-consistency` for the Sutradhar. JSON format:
+Run `node tools/split-script.mjs <slug>` to cut the script into scenes, then fill each scene's `prompt` (scene line only; the style prefix/suffix is added by `node tools/prompts.mjs <slug>`, which writes `assets/<slug>/PROMPTS.md` and `storyboards/<slug>.md`). Use `"reuse": "s19"` to show another scene's image with a new motion (cuts image work), and `"short_only": true` scenes for a Short's own hook/outro. Use the `cinematic-director` skill for shot thinking and `character-consistency` for the wolf narrator (SUTRADHAR). Look and prompts: `prompts/library.json`. JSON format:
 ```json
 { "slug": "bhopal", "music": "assets/music/<file>.mp3",
   "scenes": [ { "id": "s01", "chapter": "Hook", "motion": "zoom-in", "type": "image|clip",

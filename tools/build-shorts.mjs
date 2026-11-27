@@ -17,6 +17,7 @@ const data = read(`shorts/${slug}/shorts.json`);
 const T = cfg.shorts_template;
 const ST = lib.style;
 const RUNGS = ['EWS', 'WS', 'MS', 'MCU', 'CU', 'ECU'];
+const STYLE_SHORT = '2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows';
 const warnings = [];
 
 const fill = (s, vars) => s.replace(/\{(\w+)\}/g, (m, k) => (k in vars ? vars[k] : m));
@@ -37,18 +38,18 @@ function expandShot(shot, intro) {
   s.vo = intro.vo[s.vo] || s.vo;
   s.tts = intro.tts[s.tts] || s.tts;
   let prompt, motion, size = s.size, angle = s.angle, asset = s.asset, chars = [];
-  if (s.bhediya) {
-    const t = lib.bhediya_shots[s.bhediya];
-    if (!t) throw new Error(`Unknown bhediya shot template: ${s.bhediya}`);
+  if (s.narrator) {
+    const t = lib.narrator_shots[s.narrator];
+    if (!t) throw new Error(`Unknown narrator shot template: ${s.narrator}`);
     const vars = { ...charTags, ...(s.vars || {}) };
     prompt = fill(t.prompt, vars); motion = fill(t.motion, vars);
     size = size || t.size; angle = angle || t.angle; asset = asset || t.asset;
-    s.template = `${s.bhediya} v${t.version}`;
+    s.template = `${s.narrator} v${t.version}`;
   } else {
     prompt = fill(s.prompt, charTags); motion = s.motion;
   }
   for (const k of Object.keys(lib.characters)) {
-    if ((s.bhediya ? lib.bhediya_shots[s.bhediya].prompt : s.prompt).includes(`{${k}}`) || prompt.includes(k)) chars.push(k);
+    if ((s.narrator ? lib.narrator_shots[s.narrator].prompt : s.prompt).includes(`{${k}}`) || prompt.includes(k)) chars.push(k);
   }
   const framing = `${lib.framing.sizes[size]}, ${lib.framing.angles[angle]}`;
   s.fullPrompt = `${ST.prefix}${framing}: ${prompt}${ST.suffix_9x16}`;
@@ -73,17 +74,18 @@ function check(sh, shots) {
     const p = shots[i - 1];
     const jump = Math.abs(RUNGS.indexOf(s.size) - RUNGS.indexOf(p.size));
     if (jump < 2 && s.angle === p.angle) warnings.push(`${sh.id} shot ${i}->${i + 1}: ${p.size}/${p.angle} -> ${s.size}/${s.angle} (change size by 2 steps or change angle)`);
-    if (s.bhediya && p.bhediya && s.bhediya === p.bhediya) warnings.push(`${sh.id} shot ${i}->${i + 1}: same Bhediya shot twice in a row`);
+    if (s.narrator && p.narrator && s.narrator === p.narrator) warnings.push(`${sh.id} shot ${i}->${i + 1}: same narrator shot twice in a row`);
   });
   return w;
 }
 
 function charSheet(key) {
   const c = lib.characters[key];
-  const identity = `EYES: ${c.eyes}\nSKIN/FUR: ${c.skin}\nHAIR: ${c.hair}\nOUTFIT: ${c.outfit}`;
-  const closeup = `${ST.sheet_style}. Ultra-detailed portrait of ${key}: ${c.summary}. ${c.age_build}. Chest-up framing, front view, facing camera, plain cool grey background, even soft studio light.\n${identity}\nEXPRESSION: ${c.expression}\nNOTES: ${c.notes} Sharp focus on the eyes.`;
-  const sheet = `${ST.sheet_style}. Character reference sheet of the same character, 16:9 landscape, three panels side by side on one seamless cool grey studio background. Left panel (about 45% of width): bust-up portrait from the chest up, front view, facing camera. Center panel: full body standing straight, front view, arms relaxed, feet visible, filling about 90% of panel height. Right panel: full body standing straight, rear view from directly behind, heels visible. Even studio lighting, identical look across all three panels.\nIDENTITY:\n${identity}`;
-  const role = `Image 1 defines ${key}'s face, ${key === 'BHEDIYA' ? 'fur' : 'hair'} and clothing. Do not use the grey background or the panel layout.`;
+  const header = fill(ST.character_header, { ID: key, summary: c.summary, strokes: c.strokes });
+  const blocks = c.blocks.map(([k, v]) => `${k}: ${v}`).join('\n');
+  const closeup = c.closeup_prompt_owner || `${header}\n${ST.character_framing}\n${blocks}\n${ST.character_technical}\n${c.build}`;
+  const sheet = `Character reference sheet of the same character as the reference image, ${STYLE_SHORT}, 16:9 landscape, three panels side by side on one seamless cool grey studio background, identical grey across all panels.\nLeft panel (about 45% of width): bust-up portrait from the chest up, three-quarter view toward camera.\nCenter panel: full body standing straight, front view, arms relaxed, feet visible, filling about 90% of panel height.\nRight panel: full body standing straight, rear view from directly behind, heels visible.\nEven studio light, identical face, ${key === 'SUTRADHAR' ? 'fur' : 'hair'} and clothing in all three panels.\nIDENTITY:\n${blocks}\n${c.build}\n${ST.character_technical}`;
+  const role = `Image 1 defines ${key}'s face, ${key === 'SUTRADHAR' ? 'fur, spectacles' : 'hair'} and clothing. Do not use the grey background or the panel layout.`;
   return { c, closeup, sheet, role };
 }
 
@@ -105,7 +107,7 @@ function renderShort(sh) {
   L.push('');
   L.push('## Voice (ElevenLabs)');
   L.push(`- ${cfg.voice.model}, ${cfg.voice.voice_name}, ${cfg.voice.post_filter}. Speed about 1.1-1.15.`);
-  L.push('- Narrator: भेड़िया. Audio tags are optional; delete any that sound odd. "..." = short pause.');
+  L.push('- Narrator: the wolf (SUTRADHAR). Audio tags are optional; delete any that sound odd. "..." = short pause.');
   L.push('- Over 65 s? Raise speed slightly or drop one story shot. Never drop the intro, viewer line, comment ask, teaser or follow line.');
   L.push('');
   L.push('### Paste into ElevenLabs');
@@ -146,7 +148,7 @@ function renderShort(sh) {
   L.push('- Cut on every line; the shot changes when the line changes. A shot may repeat only when the script calls back to it.');
   L.push('- Word-by-word Hindi captions (Mukta / Noto Sans Devanagari, white with dark outline) in the middle 60% of the frame height; keep the top 12% and bottom 20% clear.');
   L.push('- Whoosh on the hook, the twist cut-in and the payoff. Royalty-free music about 12% under the voice; log it in `shorts/' + slug + '/CREDITS.md`.');
-  L.push('- The last frame (Bhediya looking back with the lantern) should loop into the first.');
+  L.push('- The last frame (the wolf looking back) should loop into the first.');
   L.push('');
   L.push('## Publish pack');
   L.push('**YouTube Shorts titles:**');
@@ -166,15 +168,19 @@ function renderShort(sh) {
 
 function renderLibrary() {
   const L = [`# Prompt library (v${lib.library_version}, ${lib.updated})`, '', `<!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->`, '', lib.rule, ''];
-  L.push('## Style', '', '**Prefix:**', '```', ST.prefix.trim(), '```', '**Vertical suffix:**', '```', ST.suffix_9x16.replace(/^, /, ''), '```', '**Negative:**', '```', ST.negative, '```', '');
+  L.push('## Style', '', `**${ST.name}**`, '', '**Prefix:**', '```', ST.prefix.trim(), '```', '**Vertical suffix:**', '```', ST.suffix_9x16.replace(/^, /, ''), '```', '**Negative:**', '```', ST.negative, '```', '');
   L.push('## Framing words', '', ...Object.entries(lib.framing.sizes).map(([k, v]) => `- ${k}: ${v}`), ...Object.entries(lib.framing.angles).map(([k, v]) => `- ${k}: ${v}`), '', lib.framing.vertical_rule, '');
   L.push('## Characters', '');
   for (const k of Object.keys(lib.characters)) {
     const { c, closeup, sheet, role } = charSheet(k);
-    L.push(`### ${k} (v${c.version}, ${c.scope})`, c.name, '', 'Step 1 - close-up (generate several, pick the best):', '```', closeup, '```', 'Step 2 - three-panel sheet (attach the chosen close-up):', '```', sheet, '```', 'Role line for every later prompt:', '```', role, '```', `Save as: ${c.reference_images.join(', ')}`, '');
+    L.push(`### ${k} (v${c.version}, ${c.scope})`, c.name, c.notes || '', '', (c.closeup_prompt_owner ? 'Step 1 - close-up (owner\'s prompt, verbatim). Generate several, pick the best:' : 'Step 1 - close-up (generate several, pick the best):'), '```', closeup, '```', 'Step 2 - three-panel sheet (attach the chosen close-up):', '```', sheet, '```', 'Role line for every later prompt:', '```', role, '```', `Save as: ${c.reference_images.join(', ')}`, '');
   }
-  L.push('## Bhediya shot bank', '', lib.bhediya_shots._rule, '');
-  for (const [k, t] of Object.entries(lib.bhediya_shots)) {
+  if (lib.branding) {
+    L.push('## Branding', '');
+    for (const [k, b] of Object.entries(lib.branding)) L.push(`### ${k} (v${b.version}, ${b.source})`, `Attach: ${b.attach}`, '```', b.prompt, '```', `Save as: ${b.save_as}`, '');
+  }
+  L.push('## Narrator shot bank', '', lib.narrator_shots._rule, '');
+  for (const [k, t] of Object.entries(lib.narrator_shots)) {
     if (k.startsWith('_')) continue;
     L.push(`### ${k} (v${t.version}) - ${t.size} / ${t.angle} / ${t.asset}`, '```', t.prompt, '```', `Motion: ${t.motion}`, '');
   }

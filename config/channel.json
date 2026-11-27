@@ -45,7 +45,7 @@
     "notes": "Commercial use needs a paid ElevenLabs plan; owner to confirm plan. v3 treats [square brackets] as audio tags, so fact IDs must be stripped before pasting."
   },
   "style": {
-    "visual": "claymation",
+    "visual": "2D noir graphic-novel cartoon (prompts/library.json -> style)",
     "guide": "config/style-guide.md",
     "music_volume": 0.12,
     "scene_padding_seconds": 0.35
@@ -81,7 +81,7 @@
       "आपको क्या लगता है, सही या ग़लत?",
       "आप किस शहर की कहानी अगली सुनना चाहेंगे?"
     ],
-    "host_character": "BHEDIYA (wolf narrator) on screen in the brand intro, the viewer line and the outro of every Short; story scenes show people as people",
+    "host_character": "SUTRADHAR, the wolf narrator, on screen in the brand intro, cut-ins, viewer lines, comment ask and outro of every Short; story scenes show people as people",
     "tagline": "असली सीन (show name in config 'show')",
     "intro_tts": "स्वागत है... असली सीन के {ordinal} एपिसोड में। मैं हूँ भेड़िया... और आज की कहानी, {city} की।",
     "ordinals": {
@@ -98,12 +98,12 @@
     },
     "ordinal_rule": "Episodes count every Short in posting order across cities (Mumbai Short 1 = पहले). Past 10: write '<number>वें', e.g. ग्यारहवें, बारहवें.",
     "prompts": "All prompts come from prompts/library.json; build files with: node tools/build-shorts.mjs <slug>",
-    "shots": "one narration line = one shot; Bhediya shot bank for narrator lines; people as people in story lines"
+    "shots": "one narration line = one shot; narrator_shots bank for the wolf's lines; people as people in story lines"
   },
   "show": {
     "name": "असली सीन",
     "name_latin": "Asli Scene",
-    "narrator": "भेड़िया (Bhediya), clay grey wolf; prompt in prompts/library.json -> characters.BHEDIYA",
+    "narrator": "the wolf; character ID SUTRADHAR in prompts/library.json; introduces himself as भेड़िया",
     "note": "Show/series name used in narration. Channel name stays in 'name'."
   }
 }
