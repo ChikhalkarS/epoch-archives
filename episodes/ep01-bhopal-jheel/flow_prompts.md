@@ -14,7 +14,7 @@
 ## Shot plan
 | Clip | Section | Mode | Use | Picture | Hindi line |
 |---|---|---|---|---|---|
-| C01 | Hook | Ingr: Sutradhar+Room | 6 s | Sutradhar stands behind the tray, pinches the tiny embankment wall between finger and thum | भोपाल की सबसे बड़ी झील, क़ुदरत ने नहीं बनाई। |
+| C01 | Hook | Ingr: Sutradhar+Room | 6 s | Sutradhar stands behind the tray, grips the tiny embankment wall with both paws and lifts  | भोपाल की सबसे बड़ी झील, क़ुदरत ने नहीं बनाई। |
 | C02 | Hook | Ingr: Sutradhar+Room | 7 s | Sutradhar lowers the little wall, peers over the top of his spectacles at the viewer, then | उसे इंसानों ने बनाया था, क़रीब एक हज़ार साल पहले। |
 | C03 | Hook | Text | 7 s | The indigo river line slowly bends in its middle as if redrawn by an unseen brush, and its | और इसके लिए, एक नदी को अपना रास्ता बदलना पड़ा। |
 | C04 | Hook | Ingr: Sutradhar+Room | 8 s | Sutradhar unties the red thread on his scroll and unrolls it toward the lens until it is f | किसने किया ये? और जो झील इससे भी बड़ी थी, वो कहाँ गई? |
@@ -22,7 +22,7 @@
 | C06 | Setup | Text | 5 s | Mist slowly drifts off the lake surface as the first sunlight touches the rooftops | भोपाल को झीलों का शहर कहते हैं। |
 | C07 | Setup | Text | 8 s | A sambar-deer boatman unties his boat and pushes it off into the water | सुबह की सैर, शाम की नाव, और घरों के नलों तक पहुँचता पानी। |
 | C08 | Setup | Text | 7 s | A small flock of birds flies low across the water from right to left and disappears behind | बड़ा तालाब, यानी भोजताल, क़रीब इकतीस वर्ग किलोमीटर में फैला है। |
-| C09 | Setup | Text | 7 s | The child points across the lake | ज़्यादातर लोग मानते हैं, कि ये झील हमेशा से यहीं थी। |
+| C09 | Setup | Text | 7 s | The child stretches an open paw across the lake | ज़्यादातर लोग मानते हैं, कि ये झील हमेशा से यहीं थी। |
 | C10 | Setup | Ingr: Room | 8 s | One by one the three objects catch the lamp light as the flame flares slightly brighter | पर पुराने गज़ेटियर, पत्थर, और फ़ारसी इतिहास-ग्रंथ, कुछ और कहानी सुनाते हैं। |
 | C11 | Setup | Ingr: Sutradhar+Room | 7 s | Sutradhar picks up the first wax seal, holds it up beside his face toward the lens, and ra | आज हम खोलेंगे तीन राज़। पहला, ये झील बनी कैसे। |
 | C12 | Setup | Text | 8 s | The mist slowly thins and reveals the broken stone blocks in the river | दूसरा, राजा भोज की वो झील, जो इससे भी बड़ी थी, और आज ग़ायब है। |
@@ -38,10 +38,10 @@
 | C22 | राज़ 1: झील नहीं, बाँध | Text | 8 s | The water flows past the camera | यानी इंसान के एक फ़ैसले ने, एक नदी की दिशा बदल दी। |
 | C23 | राज़ 1: झील नहीं, बाँध | Ingr: Room | 7 s | A hand turns one palm leaf over and smooths it flat | परंपरा, इस काम का श्रेय राजा भोज को देती है। |
 | C24 | राज़ 1: झील नहीं, बाँध | Text | 6 s | The king lifts his head weakly, then lets it sink back onto the bolster | कहते हैं, राजा भोज एक बार बहुत बीमार पड़े। |
-| C25 | राज़ 1: झील नहीं, बाँध | Text | 8 s | The sadhu traces the blue lines with one finger from the edge of the leaf toward its centr | एक साधु ने कहा, ऐसी झील में नहाइए, जिसमें तीन सौ पैंसठ धाराएँ मिलें। |
+| C25 | राज़ 1: झील नहीं, बाँध | Text | 8 s | The sadhu traces the blue lines with the tip of his wooden staff from the edge of the leaf | एक साधु ने कहा, ऐसी झील में नहाइए, जिसमें तीन सौ पैंसठ धाराएँ मिलें। |
 | C26 | राज़ 1: झील नहीं, बाँध | Text | 6 s | The last surveyor drops one final pebble on the pile, sits back on his heels and scratches | गिनती हुई, तो धाराएँ निकलीं, सिर्फ़ तीन सौ उनसठ। |
-| C27 | राज़ 1: झील नहीं, बाँध | Text | 8 s | The chieftain raises his arm and points across the hills toward a distant valley | तब कालिया नाम के एक गोंड सरदार ने, बाक़ी धाराओं का रास्ता दिखाया। |
-| C28 | राज़ 1: झील नहीं, बाँध | Ingr: Sutradhar+Room | 7 s | Sutradhar taps the tiny embankment with one finger, then looks up at the lens and gives a  | ये एक लोक-कथा है। पर बाँध, और झील, दोनों असली हैं। |
+| C27 | राज़ 1: झील नहीं, बाँध | Text | 8 s | The chieftain sweeps his open paw across the hills toward a distant valley | तब कालिया नाम के एक गोंड सरदार ने, बाक़ी धाराओं का रास्ता दिखाया। |
+| C28 | राज़ 1: झील नहीं, बाँध | Ingr: Sutradhar+Room | 7 s | Sutradhar pats the tiny embankment with his open paw, then looks up at the lens and gives  | ये एक लोक-कथा है। पर बाँध, और झील, दोनों असली हैं। |
 | C29 | राज़ 1: झील नहीं, बाँध | Ingr: Room | 8 s | The heavy book cover swings open by itself and pages flutter forward, then settle open in  | और शहर का नाम? इम्पीरियल गज़ेटियर, उन्नीस सौ आठ के मुताबिक़, भोज और पाल, यानी बाँध। |
 | C30 | राज़ 1: झील नहीं, बाँध | Text | 5 s | Tiny houses pop up one after another along the shore until the town is complete | भोजपाल। जो धीरे-धीरे, भोपाल बन गया। |
 | C31 | राज़ 1: झील नहीं, बाँध | Ingr: Room | 8 s | The lamp light slowly sweeps across the crown and it glints once | हालाँकि कुछ लोग, इस नाम को भूपाल नाम के एक राजा से जोड़ते हैं। |
@@ -71,7 +71,7 @@
 | C55 | राज़ 3: सच या झूठ? | Ingr: Sutradhar+Room | 5 s | Sutradhar raises the rubber stamp high above the ledger in one hand and looks at the lens  | तो, ये कहानी सच है, या झूठ? |
 | C56 | राज़ 3: सच या झूठ? | Ingr: Sutradhar+Room | 4 s | Sutradhar brings the stamp down firmly onto the ledger page and lifts it, leaving a large  | जवाब है, विवादित। |
 | C57 | राज़ 3: सच या झूठ? | Ingr: Room | 8 s | The journal opens slowly and its pages fan to a page of dense abstract squiggle text | एक शोध के मुताबिक़, ये कहानी, अठारह सौ अठासी की एक ग़लतफ़हमी से फैली। |
-| C58 | राज़ 3: सच या झूठ? | Text | 8 s | He runs his finger along a line of the manuscript, then writes a quick note in his noteboo | एक अंग्रेज़ लेखक, विलियम किनकेड ने, एक फ़ारसी इतिहास-ग्रंथ को, भोजपुर की कहानी मान लिया। |
+| C58 | राज़ 3: सच या झूठ? | Text | 8 s | He runs his pen along a line of the manuscript, then writes a quick note in his notebook a | एक अंग्रेज़ लेखक, विलियम किनकेड ने, एक फ़ारसी इतिहास-ग्रंथ को, भोजपुर की कहानी मान लिया। |
 | C59 | राज़ 3: सच या झूठ? | Text | 8 s | He reads a line of the manuscript, turns to the typewriter and types a short line, then pa | बाद में, इतिहासकार यू. एन. डे ने, उस ग्रंथ का अनुवाद किया। |
 | C60 | राज़ 3: सच या झूठ? | Text | 8 s | The lead merchant bows and gestures back toward the distant hills | उसके मुताबिक़, सुल्तान ने एक बाँध, भोपाल और विदिशा के व्यापारियों के कहने पर तुड़वाया था। |
 | C61 | राज़ 3: सच या झूठ? | Text | 8 s | One bandit pushes the boat off toward the shore and climbs in | क्योंकि डाकू, झील से घिरी एक जगह पर छिपते थे, जहाँ तक पहुँचना मुश्किल था। |
@@ -79,7 +79,7 @@
 | C63 | राज़ 3: सच या झूठ? | Text | 8 s | Small birds circle the island once and land in its trees | और भोपाल की झील के बीच, आज भी एक टापू है। तकिया टापू। |
 | C64 | राज़ 3: सच या झूठ? | Text | 8 s | Lightning flashes once and the river surges higher against the stone dam below the temple | भोजपुर के बाँध पर, यही शोध, ग्यारहवीं सदी के एक असाधारण मानसून की बात करता है। |
 | C65 | राज़ 3: सच या झूठ? | Text | 7 s | A huge brown wave of floodwater hits the dam | जिसकी बाढ़ ने, मंदिर के नीचे वाला बाँध गिरा दिया। |
-| C66 | राज़ 3: सच या झूठ? | Ingr: Sutradhar+Room | 8 s | Sutradhar places one hand flat on the stack of books, then points at the amber stamp mark  | होशंगशाह वाली कहानी, आज भी कई किताबों में दोहराई जाती है। इसलिए, फ़ैसला विवादित। |
+| C66 | राज़ 3: सच या झूठ? | Ingr: Sutradhar+Room | 8 s | Sutradhar places one hand flat on the stack of books, then lays his open paw beside the am | होशंगशाह वाली कहानी, आज भी कई किताबों में दोहराई जाती है। इसलिए, फ़ैसला विवादित। |
 | C67 | राज़ 3: सच या झूठ? | Ingr: Room | 7 s | A hand turns the ledger page, revealing a small ink drawing of a lake with an island | पर अगर नया शोध सही है, तो कहानी पलट जाती है। |
 | C68 | राज़ 3: सच या झूठ? | Text | 6 s | Water rushes out through the gap in the embankment and spreads downstream | जो झील तोड़ी गई थी, वो भोपाल की थी। |
 | C69 | राज़ 3: सच या झूठ? | Text | 8 s | Workers tip baskets of earth onto the embankment and tamp it down with wooden rammers | और अठारहवीं सदी में, उसी बाँध की मरम्मत हुई, और उसे ऊँचा किया गया। |
@@ -92,13 +92,13 @@
 | C76 | आज भी दिखता है | Text | 8 s | A small rowing boat crosses the small lake and reaches the far bank. | छोटा तालाब, सत्रह सौ चौरानवे में, नवाब के मंत्री छोटे ख़ान ने बनवाया। |
 | C77 | आज भी दिखता है | Text | 8 s | A flock of birds lifts off the water together and circles over the reeds before landing ag | दोनों झीलें मिलकर, भोज वेटलैंड हैं। दो हज़ार दो से, रामसर सूची में दर्ज। |
 | C78 | आज भी दिखता है | Text | 6 s | The globe turns slowly until the central India dot faces the camera and glows brighter | रामसर, यानी दुनिया की अहम आर्द्रभूमियों की सूची। |
-| C79 | आज भी दिखता है | Text | 8 s | The guide points from the river stones up to the temple | भोजपुर में खड़ा बाँध, बिखरे पत्थर, और उकेरे नक़्शे, आज भी देखे जा सकते हैं। |
+| C79 | आज भी दिखता है | Text | 8 s | The guide sweeps his open paw from the river stones up to the temple | भोजपुर में खड़ा बाँध, बिखरे पत्थर, और उकेरे नक़्शे, आज भी देखे जा सकते हैं। |
 | C80 | आज भी दिखता है | Text | 8 s | The girl turns the tap, fills the tumbler with clear water, turns it off and takes a sip. | भोपाल के पीने के पानी का एक बड़ा ज़रिया, आज भी यही झील है। |
-| C81 | Closer | Ingr: Sutradhar+Room | 8 s | Sutradhar rests one finger on the tiny embankment and looks at the lens | तो, भोपाल की झील किसने बनाई? क़ुदरत ने नहीं। एक बाँध ने। |
+| C81 | Closer | Ingr: Sutradhar+Room | 8 s | Sutradhar rests his open paw on the tiny embankment and looks at the lens | तो, भोपाल की झील किसने बनाई? क़ुदरत ने नहीं। एक बाँध ने। |
 | C82 | Closer | Ingr: Sutradhar+Room | 8 s | Sutradhar takes off his spectacles, polishes them on his shawl, and puts them back on, loo | जिसे परंपरा राजा भोज से जोड़ती है। और वो बाँध, आज भी पानी दे रहा है। |
 | C83 | Closer | Text | 8 s | A single lantern boat drifts slowly across the still water and leaves a thin ripple line | शहर अपने आप नहीं बसते। कोई, कभी, पानी को रुकने की वजह देता है। |
 | C84 | Closer | Text | 8 s | The lamp inside the window brightens and the four crowns glint one after another from left | इसी झील के किनारे, एक सौ सात साल, एक रियासत पर सिर्फ़ औरतों ने राज किया। |
-| C85 | Closer | Ingr: Sutradhar+Room | 8 s | Sutradhar raises one finger beside his face as if telling a secret, then points it toward  | कैसे? अगले एपिसोड में। आपके शहर में कौन सा राज़ छिपा है? कमेंट में लिखिए। |
+| C85 | Closer | Ingr: Sutradhar+Room | 8 s | Sutradhar raises his open paw beside his muzzle as if sharing a secret, then leans slightl | कैसे? अगले एपिसोड में। आपके शहर में कौन सा राज़ छिपा है? कमेंट में लिखिए। |
 | C86 | Closer | Ingr: Sutradhar+Room | 5 s | Sutradhar rolls up his scroll, ties the red thread, tucks it under his arm, and gives a sm | इतिहास याद रखिए... सवाल पूछते रहिए। |
 | C87 | End screen | Ingr: Room | 8 s | The lamp flame flickers gently | — |
 
@@ -111,7 +111,7 @@ STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthro
 SUTRADHAR: an anthropomorphic Indian Bengal fox who walks upright, drawn as a 2D cartoon character, slender build, sandy-grey and russet fur, large pointed ears with dark backs, sharp clever amber eyes behind round brass-rimmed spectacles, a bushy grey tail with a black tip, cream kurta under a deep red Nehru-style waistcoat with brass buttons, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, a sly knowing half-smile.
 The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, waistcoat and satchel only; ignore its grey background and panel layout.
 SCENE: Inside the old archive room: wooden shelves of rolled scrolls, a brass oil lamp on a worn wooden desk, an old painted map of India on the back wall. On the desk sits a shallow wooden tray holding a miniature model valley: green hills and deep indigo-blue water held back by a tiny earthen embankment wall.
-ACTION: Sutradhar stands behind the tray, pinches the tiny embankment wall between finger and thumb and lifts it out; the blue water slides out of the valley across the tray; he holds the little wall up toward the lens and stops.
+ACTION: Sutradhar stands behind the tray, grips the tiny embankment wall with both paws and lifts it out; the blue water slides out of the valley across the tray; he holds the little wall up toward the lens and stops.
 CAMERA: Medium close shot, eye level, 50mm, slow push-in toward Sutradhar and the tray.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "भोपाल की सबसे बड़ी झील, क़ुदरत ने नहीं बनाई।"
@@ -226,7 +226,7 @@ CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or st
 ```
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
 SCENE: On the lakeshore, a small anthropomorphic chital-deer family of three (father, mother and a fawn child) in modern Indian clothes sits on the steps looking out at the water.
-ACTION: The child points across the lake; the father nods and puts an arm around the child; they keep looking at the water.
+ACTION: The child stretches an open paw across the lake; the father nods and puts an arm around the child; they keep looking at the water.
 CAMERA: Medium-wide shot from behind the family, eye level, 35mm, slow push-in.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "ज़्यादातर लोग मानते हैं, कि ये झील हमेशा से यहीं थी।"
@@ -454,7 +454,7 @@ CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or st
 ```
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
 SCENE: The same palace chamber: an elderly sarus-crane sage in saffron robes with a wooden staff stands beside the king's bed and holds out a palm-leaf with many thin blue lines drawn on it like streams.
-ACTION: The sadhu traces the blue lines with one finger from the edge of the leaf toward its centre, then holds the leaf still.
+ACTION: The sadhu traces the blue lines with the tip of his wooden staff from the edge of the leaf toward its centre, then holds the leaf still.
 CAMERA: Medium shot, slight low angle, 50mm, slow push-in on the leaf.
 LIGHTING: Soft daylight through the lattice window.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "एक साधु ने कहा, ऐसी झील में नहाइए, जिसमें तीन सौ पैंसठ धाराएँ मिलें।"
@@ -482,7 +482,7 @@ CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or st
 ```
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
 SCENE: The hillside: a dignified anthropomorphic tiger Gond chieftain in a turban with a single peacock feather, a bow on his back and a striped cloth sash stands on a rock above the surveyors.
-ACTION: The chieftain raises his arm and points across the hills toward a distant valley; the surveyors turn to look where he points and stay looking.
+ACTION: The chieftain sweeps his open paw across the hills toward a distant valley; the surveyors turn to look where he gestures and stay looking.
 CAMERA: Wide shot, low angle from behind the surveyors, 35mm, slow push-in toward the chieftain.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "तब कालिया नाम के एक गोंड सरदार ने, बाक़ी धाराओं का रास्ता दिखाया।"
@@ -498,7 +498,7 @@ STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthro
 SUTRADHAR: an anthropomorphic Indian Bengal fox who walks upright, drawn as a 2D cartoon character, slender build, sandy-grey and russet fur, large pointed ears with dark backs, sharp clever amber eyes behind round brass-rimmed spectacles, a bushy grey tail with a black tip, cream kurta under a deep red Nehru-style waistcoat with brass buttons, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, a sly knowing half-smile.
 The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, waistcoat and satchel only; ignore its grey background and panel layout.
 SCENE: Inside the old archive room: wooden shelves of rolled scrolls, a brass oil lamp on a worn wooden desk, an old painted map of India on the back wall. The small lake model in the wooden tray sits on the desk, its little embankment back in place and the water full.
-ACTION: Sutradhar taps the tiny embankment with one finger, then looks up at the lens and gives a small knowing nod; he holds still.
+ACTION: Sutradhar pats the tiny embankment with his open paw, then looks up at the lens and gives a small knowing nod; he holds still.
 CAMERA: Medium close shot, eye level, 50mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "ये एक लोक-कथा है। पर बाँध, और झील, दोनों असली हैं।"
@@ -928,7 +928,7 @@ CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or st
 ```
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
 SCENE: A study in the 1880s: an anthropomorphic badger scholar in a brown tweed jacket and Victorian waistcoat sits at a desk reading a Persian-style manuscript with abstract squiggle script, a pen in hand.
-ACTION: He runs his finger along a line of the manuscript, then writes a quick note in his notebook and nods to himself.
+ACTION: He runs his pen along a line of the manuscript, then writes a quick note in his notebook and nods to himself.
 CAMERA: Medium shot, eye level, 50mm, locked, the camera does not move.
 LIGHTING: Warm kerosene lamp light from camera-right.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "एक अंग्रेज़ लेखक, विलियम किनकेड ने, एक फ़ारसी इतिहास-ग्रंथ को, भोजपुर की कहानी मान लिया।"
@@ -1042,7 +1042,7 @@ STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthro
 SUTRADHAR: an anthropomorphic Indian Bengal fox who walks upright, drawn as a 2D cartoon character, slender build, sandy-grey and russet fur, large pointed ears with dark backs, sharp clever amber eyes behind round brass-rimmed spectacles, a bushy grey tail with a black tip, cream kurta under a deep red Nehru-style waistcoat with brass buttons, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, a sly knowing half-smile.
 The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, waistcoat and satchel only; ignore its grey background and panel layout.
 SCENE: Inside the old archive room: wooden shelves of rolled scrolls, a brass oil lamp on a worn wooden desk, an old painted map of India on the back wall. The ledger with the amber stamp mark lies on the desk beside a stack of old books.
-ACTION: Sutradhar places one hand flat on the stack of books, then points at the amber stamp mark and looks at the lens.
+ACTION: Sutradhar places one hand flat on the stack of books, then lays his open paw beside the amber stamp mark and looks at the lens.
 CAMERA: Medium shot, eye level, 35mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "होशंगशाह वाली कहानी, आज भी कई किताबों में दोहराई जाती है। इसलिए, फ़ैसला विवादित।"
@@ -1226,7 +1226,7 @@ CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or st
 ```
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
 SCENE: Today's Bhojpur: the long old stone dam standing, broken blocks in the river, the stone temple on the ridge, a small group of deer and squirrel visitors with a mongoose guide.
-ACTION: The guide points from the river stones up to the temple; the visitors follow his gesture and look up.
+ACTION: The guide sweeps his open paw from the river stones up to the temple; the visitors follow his gesture and look up.
 CAMERA: Wide shot, high angle, 24mm, slow pan from the river up to the temple.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "भोजपुर में खड़ा बाँध, बिखरे पत्थर, और उकेरे नक़्शे, आज भी देखे जा सकते हैं।"
@@ -1256,7 +1256,7 @@ STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthro
 SUTRADHAR: an anthropomorphic Indian Bengal fox who walks upright, drawn as a 2D cartoon character, slender build, sandy-grey and russet fur, large pointed ears with dark backs, sharp clever amber eyes behind round brass-rimmed spectacles, a bushy grey tail with a black tip, cream kurta under a deep red Nehru-style waistcoat with brass buttons, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, a sly knowing half-smile.
 The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, waistcoat and satchel only; ignore its grey background and panel layout.
 SCENE: Inside the old archive room: wooden shelves of rolled scrolls, a brass oil lamp on a worn wooden desk, an old painted map of India on the back wall. The lake model with its tiny embankment sits on the desk.
-ACTION: Sutradhar rests one finger on the tiny embankment and looks at the lens; he keeps his finger there.
+ACTION: Sutradhar rests his open paw on the tiny embankment and looks at the lens; he keeps his paw there.
 CAMERA: Medium close shot, eye level, 50mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "तो, भोपाल की झील किसने बनाई? क़ुदरत ने नहीं। एक बाँध ने।"
@@ -1316,7 +1316,7 @@ STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthro
 SUTRADHAR: an anthropomorphic Indian Bengal fox who walks upright, drawn as a 2D cartoon character, slender build, sandy-grey and russet fur, large pointed ears with dark backs, sharp clever amber eyes behind round brass-rimmed spectacles, a bushy grey tail with a black tip, cream kurta under a deep red Nehru-style waistcoat with brass buttons, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, a sly knowing half-smile.
 The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, waistcoat and satchel only; ignore its grey background and panel layout.
 SCENE: Inside the old archive room: wooden shelves of rolled scrolls, a brass oil lamp on a worn wooden desk, an old painted map of India on the back wall.
-ACTION: Sutradhar raises one finger beside his face as if telling a secret, then points it toward the lens; he holds the point.
+ACTION: Sutradhar raises his open paw beside his muzzle as if sharing a secret, then leans slightly toward the lens; he holds the pose.
 CAMERA: Medium close shot, eye level, 50mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "कैसे? अगले एपिसोड में। आपके शहर में कौन सा राज़ छिपा है? कमेंट में लिखिए।"
@@ -1368,7 +1368,7 @@ FRAMING: Vertical 9:16 portrait composition; keep the main subject centred and l
 SUTRADHAR: an anthropomorphic Indian Bengal fox who walks upright, drawn as a 2D cartoon character, slender build, sandy-grey and russet fur, large pointed ears with dark backs, sharp clever amber eyes behind round brass-rimmed spectacles, a bushy grey tail with a black tip, cream kurta under a deep red Nehru-style waistcoat with brass buttons, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, a sly knowing half-smile.
 The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, waistcoat and satchel only; ignore its grey background and panel layout.
 SCENE: Inside the old archive room: wooden shelves of rolled scrolls, a brass oil lamp on a worn wooden desk, an old painted map of India on the back wall.
-ACTION: Sutradhar holds up three fingers toward the lens, then lowers them one by one; he holds a closed fist.
+ACTION: Sutradhar taps his rolled scroll three times against his open paw, then holds the scroll still and raises one eyebrow at the lens.
 CAMERA: Medium close shot, eye level, 50mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "एक झील को मिटाने में, तीस साल लगे? ये कहानी, सच है या नहीं?"
@@ -1481,7 +1481,7 @@ FRAMING: Vertical 9:16 portrait composition; keep the main subject centred and l
 SUTRADHAR: an anthropomorphic Indian Bengal fox who walks upright, drawn as a 2D cartoon character, slender build, sandy-grey and russet fur, large pointed ears with dark backs, sharp clever amber eyes behind round brass-rimmed spectacles, a bushy grey tail with a black tip, cream kurta under a deep red Nehru-style waistcoat with brass buttons, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, a sly knowing half-smile.
 The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, waistcoat and satchel only; ignore its grey background and panel layout.
 SCENE: Inside the old archive room: wooden shelves of rolled scrolls, a brass oil lamp on a worn wooden desk, an old painted map of India on the back wall.
-ACTION: Sutradhar traces a curving line in the air with one finger and then points it to his right; he holds the point.
+ACTION: Sutradhar draws a slow curving line in the air with his rolled scroll and ends with the scroll pointing to his right; he holds the pose.
 CAMERA: Medium close shot, eye level, 50mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "भोपाल में एक नदी, हज़ार साल से, दूसरी दिशा में बह रही है।"
@@ -1637,7 +1637,7 @@ CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or st
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
 FRAMING: Vertical 9:16 portrait composition; keep the main subject centred and large in frame, stage depth from bottom to top.
 SCENE: The same palace chamber: an elderly sarus-crane sage in saffron robes with a wooden staff stands beside the king's bed and holds out a palm-leaf with many thin blue lines drawn on it like streams.
-ACTION: The sadhu traces the blue lines with one finger from the edge of the leaf toward its centre, then holds the leaf still.
+ACTION: The sadhu traces the blue lines with the tip of his wooden staff from the edge of the leaf toward its centre, then holds the leaf still.
 CAMERA: Medium shot, slight low angle, 50mm, slow push-in on the leaf.
 LIGHTING: Soft daylight through the lattice window.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "एक साधु ने कहा, ऐसी झील में नहाइए, जिसमें तीन सौ पैंसठ धाराएँ मिलें।"
@@ -1667,7 +1667,7 @@ CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or st
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
 FRAMING: Vertical 9:16 portrait composition; keep the main subject centred and large in frame, stage depth from bottom to top.
 SCENE: The hillside: a dignified anthropomorphic tiger Gond chieftain in a turban with a single peacock feather, a bow on his back and a striped cloth sash stands on a rock above the surveyors.
-ACTION: The chieftain raises his arm and points across the hills toward a distant valley; the surveyors turn to look where he points and stay looking.
+ACTION: The chieftain sweeps his open paw across the hills toward a distant valley; the surveyors turn to look where he gestures and stay looking.
 CAMERA: Wide shot, low angle from behind the surveyors, 35mm, slow push-in toward the chieftain.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "तब कालिया नाम के एक गोंड सरदार ने, बाक़ी धाराओं का रास्ता दिखाया।"
@@ -1684,7 +1684,7 @@ FRAMING: Vertical 9:16 portrait composition; keep the main subject centred and l
 SUTRADHAR: an anthropomorphic Indian Bengal fox who walks upright, drawn as a 2D cartoon character, slender build, sandy-grey and russet fur, large pointed ears with dark backs, sharp clever amber eyes behind round brass-rimmed spectacles, a bushy grey tail with a black tip, cream kurta under a deep red Nehru-style waistcoat with brass buttons, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, a sly knowing half-smile.
 The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, waistcoat and satchel only; ignore its grey background and panel layout.
 SCENE: Inside the old archive room: wooden shelves of rolled scrolls, a brass oil lamp on a worn wooden desk, an old painted map of India on the back wall. The small lake model in the wooden tray sits on the desk, its little embankment back in place and the water full.
-ACTION: Sutradhar taps the tiny embankment with one finger, then looks up at the lens and gives a small knowing nod; he holds still.
+ACTION: Sutradhar pats the tiny embankment with his open paw, then looks up at the lens and gives a small knowing nod; he holds still.
 CAMERA: Medium close shot, eye level, 50mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "ये एक लोक-कथा है। पर बाँध, और झील, दोनों असली हैं।"

@@ -38,6 +38,7 @@ CONSTRAINTS: <CONSTRAINTS block>
 - Motion budget: ≤ 4 close-ups of a face, ≤ 6 medium/wide with figures, ≤ 8 environments and objects.
 - Max 16 Hindi words per clip. Numbers as Hindi words. Sources spoken, never written on screen.
 - Adjacent clips change shot size by 2 steps, or angle by 30°+ (no stutter cuts).
+- No single-finger gestures (AI turns them into a middle finger). Use open paws or point with a prop.
 - Historical figures never speak. Only Sutradhar speaks.
 - Pattern break every 6–8 clips: map, evidence object, Sutradhar, then-vs-now, myth stamp.
 

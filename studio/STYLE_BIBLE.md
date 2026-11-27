@@ -66,5 +66,8 @@ One character + one or more objects under spotlight cones with small radiating e
 ## 7. Camera grammar (cinematic-director rules)
 One camera behaviour per clip: `locked`, `slow push-in`, `slow pull-out`, `slow pan left/right`, `slow tilt up/down`, `top-down slow descent`, `slow orbit 30°`. Lens words: `24mm wide`, `35mm`, `50mm`, `85mm close-up`, `macro`. Angles: eye level, low angle, high angle, top-down. One primary action per clip, ending in a held state.
 
+## 7b. Hand gestures (AI risk)
+Never prompt single-finger gestures (counting, pointing with one finger, a raised finger): AI often renders them as an offensive middle finger. Use open-paw gestures, both paws, or point with an object (scroll, staff, pen). Check every take's hands before keeping it.
+
 ## 8. Respect rules
 Temples, mosques and deities: respectful, no caricature. Violence and tragedy: symbols only. Disputed history: amber stamp + neutral words.
