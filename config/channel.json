@@ -31,17 +31,18 @@
     "example": "Kya aap jaante hain is shehar mein itni jheelein kyun hain?"
   },
   "voice": {
-    "status": "CHOSEN 2026-11-27",
-    "engine": "edge-tts",
-    "voice_id": "hi-IN-MadhurNeural",
-    "rate": "-5%",
-    "pitch": "+0Hz",
-    "candidates": [
-      "edge-tts:hi-IN-MadhurNeural",
-      "edge-tts:hi-IN-SwaraNeural",
-      "gtts:hi"
-    ],
-    "notes": "Change voice_id after owner picks. ElevenLabs free tier is non-commercial, so it is not used for monetised uploads."
+    "status": "CHOSEN 2026-11-27 by owner (Mumbai onward)",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice_name": "Viraj (Suspense Story ka Baadshah), natural",
+    "post_filter": "old-radio audio filter (applied in ElevenLabs by owner)",
+    "generated_by": "owner, outside the session (paste clean narration text)",
+    "previous": {
+      "engine": "edge-tts",
+      "voice_id": "hi-IN-MadhurNeural",
+      "rate": "-5%"
+    },
+    "notes": "Commercial use needs a paid ElevenLabs plan; owner to confirm plan. v3 treats [square brackets] as audio tags, so fact IDs must be stripped before pasting."
   },
   "style": {
     "visual": "claymation",

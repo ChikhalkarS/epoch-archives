@@ -1,7 +1,7 @@
 id,slug,city,state,mix,hook_question,angle,status,updated,notes
 00,delhi,Delhi,Delhi,well-known,"Dilli kitni baar basi aur kitni baar ujdi?","Seven (or more) cities of Delhi",idea,2026-11-27,"Pilot exists in legacy/delhi-pilot (Hinglish, 5 min). Redo in new format later"
-01,bhopal,Bhopal,Madhya Pradesh,surprising,"Kya aap jaante hain is shehar mein itni jheelein kyun hain?","Raja Bhoj's lake; city of Begums who ruled for over a century",voiced,2026-11-27,"gate1=approved; storyboard 95 scenes (73 images, 4 clips); voice 10.1 min; waiting on images"
-02,mumbai,Mumbai,Maharashtra,well-known,"Kya ek poora shehar kabhi dahez mein diya gaya tha?","Seven islands, Portuguese dowry to England (1661), land joined by reclamation",idea,2026-11-27,
+01,bhopal,Bhopal,Madhya Pradesh,surprising,"Kya aap jaante hain is shehar mein itni jheelein kyun hain?","Raja Bhoj's lake; city of Begums who ruled for over a century",voiced,2026-11-27,"gate1=approved; storyboard 95 scenes (73 images, 4 clips); voice 10.1 min; waiting on images; owner: sample only, not first upload"
+02,mumbai,Mumbai,Maharashtra,well-known,"Kya ek poora shehar kabhi dahez mein diya gaya tha?","Seven islands, Portuguese dowry to England (1661), land joined by reclamation",scripted,2026-11-27,"First upload. 35 facts; script 992 words; waiting on gate1. Target publish Sat 28 Nov 11:00 IST"
 03,hampi,Hampi,Karnataka,surprising,"Duniya ke sabse ameer shehron mein se ek, sirf khandahar kaise ban gaya?","Vijayanagara capital, foreign travellers' accounts, fall after 1565",idea,2026-11-27,
 04,jaipur,Jaipur,Rajasthan,well-known,"Jaipur gulabi kyun hai, aur ye rang kiske liye lagaya gaya?","Planned city of Jai Singh II; painted pink for a royal visit",idea,2026-11-27,
 05,daulatabad,Daulatabad,Maharashtra,surprising,"Ek sultan ne poori rajdhani Dilli se 1,000 km door kyun bhej di?","Muhammad bin Tughlaq's capital shift; Devagiri fort",idea,2026-11-27,
