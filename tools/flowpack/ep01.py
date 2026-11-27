@@ -3,8 +3,8 @@
 S="SUTRADHAR"
 ARCH="Inside the old archive room: wooden shelves of rolled scrolls, a brass oil lamp on a worn wooden desk, an old painted map of India on the back wall."
 LAMP="Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges."
-DAWN="Low golden sunrise light from the east (camera-right), long soft shadows, thin morning mist on the water."
-DAY="Bright soft daylight from high camera-left, clear sky, gentle shadows."
+DAWN="Low amber sunrise light from camera-right, long deep shadows, thin glowing mist, dark vignette at the frame edges."
+DAY="Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges."
 MAP="An old hand-painted map of central India spread on a wooden table: hills shaded in sepia and green, ochre plains, rivers drawn as indigo lines."
 ROOMTONE="faint lamp flame flicker, quiet room tone"
 C=[]
@@ -37,15 +37,15 @@ c("C06","Setup","vo","A painted bird's-eye view of Bhopal at dawn: a huge deep i
  "Mist slowly drifts off the lake surface as the first sunlight touches the rooftops; the scene settles.",
  "Extreme wide aerial shot, high angle, 24mm, slow push-in toward the city shore.",DAWN,"birdsong, water lapping softly","",
  "भोपाल को झीलों का शहर कहते हैं।","")
-c("C07","Setup","vo","A lakeside promenade at sunrise: tiny walkers in shawls, a tea stall, a wooden rowing boat tied at the steps; beside the promenade a small house with a brass water tap at the wall.",
- "A boatman unties his boat and pushes it off into the water; the boat glides out and slows to a stop.",
+c("C07","Setup","vo","A lakeside promenade at sunrise: tiny anthropomorphic chital-deer and mongoose walkers in shawls, a tea stall, a wooden rowing boat tied at the steps; beside the promenade a small house with a brass water tap at the wall.",
+ "A sambar-deer boatman unties his boat and pushes it off into the water; the boat glides out and slows to a stop.",
  "Wide shot, eye level, 35mm, slow pan from left to right along the promenade.",DAWN,"water lapping, distant birds, a wooden oar knocking","a rope sliding off a post",
  "सुबह की सैर, शाम की नाव, और घरों के नलों तक पहुँचता पानी।","F21")
 c("C08","Setup","vo","The vast Upper Lake of Bhopal at midday, deep indigo-blue water stretching far between low green hills, one small island near the middle.",
  "A small flock of birds flies low across the water from right to left and disappears behind the hills; ripples settle.",
  "Extreme wide shot, high angle, 24mm, locked, the camera does not move.",DAY,"wind over water, distant bird calls","",
  "बड़ा तालाब, यानी भोजताल, क़रीब इकतीस वर्ग किलोमीटर में फैला है।","F3")
-c("C09","Setup","vo","On the lakeshore, a small family of three in modern Indian clothes sits on the steps looking out at the water.",
+c("C09","Setup","vo","On the lakeshore, a small anthropomorphic chital-deer family of three (father, mother and a fawn child) in modern Indian clothes sits on the steps looking out at the water.",
  "The child points across the lake; the father nods and puts an arm around the child; they keep looking at the water.",
  "Medium-wide shot from behind the family, eye level, 35mm, slow push-in.",DAY,"water lapping on steps, light breeze","",
  "ज़्यादातर लोग मानते हैं, कि ये झील हमेशा से यहीं थी।","")
@@ -83,7 +83,7 @@ c("C17","राज़ 1: झील नहीं, बाँध",'vo',MAP+" The sm
  "A tiny boat floats along the small river and glides into the wider river, then drifts on and stops at the map edge.",
  "Top-down shot, 50mm, slow lateral move following the boat.",DAY,"trickling water","",
  "उसका पानी, आगे जाकर हलाली नदी में मिल जाता था।","F4")
-c("C18","राज़ 1: झील नहीं, बाँध","vo","The same valley: dozens of small workers in 11th-century Indian dhotis and turbans carry baskets of brown earth on their heads and pile it into a long thick earthen embankment across the river.",
+c("C18","राज़ 1: झील नहीं, बाँध","vo","The same valley: dozens of anthropomorphic nilgai and sambar-deer workers in 11th-century Indian dhotis and turbans carry baskets of brown earth on their heads and pile it into a long thick earthen embankment across the river.",
  "Workers in the front tip their baskets onto the embankment and walk back for more; the embankment grows a little higher and the river behind it begins to pool.",
  "Wide shot, high angle, 24mm, slow push-in toward the embankment.",DAY,"many feet on earth, baskets thudding, distant work calls","earth pouring from baskets",
  "फिर इस नदी के रास्ते में, मिट्टी का एक मोटा बाँध खड़ा किया गया।","F1")
@@ -107,19 +107,19 @@ c("C23","राज़ 1: झील नहीं, बाँध","vo",ARCH+" An ol
  "A hand turns one palm leaf over and smooths it flat; the hand withdraws.",
  "Close-up, high angle, 85mm, slow push-in.",LAMP,ROOMTONE,"a dry palm-leaf rustle",
  "परंपरा, इस काम का श्रेय राजा भोज को देती है।","F1")
-c("C24","राज़ 1: झील नहीं, बाँध","vo","An 11th-century palace chamber: a generic king in white and ochre royal robes lies on a carved wooden bed with a red bolster, a attendant fanning him with a peacock-feather fan.",
+c("C24","राज़ 1: झील नहीं, बाँध","vo","An 11th-century palace chamber: KING BHOJ, an anthropomorphic lion with a golden mane in white and saffron silk royal robes and a gold crown with a single ruby, lies on a carved wooden bed with a red bolster, a young chital-deer attendant fanning him with a peacock-feather fan.",
  "The king lifts his head weakly, then lets it sink back onto the bolster; the fan keeps moving slowly.",
  "Medium-wide shot, eye level, 35mm, locked, the camera does not move.","Soft daylight through a carved stone lattice window, patterned shadows on the floor.","fan swishing, quiet palace","",
  "कहते हैं, राजा भोज एक बार बहुत बीमार पड़े।","F5")
-c("C25","राज़ 1: झील नहीं, बाँध","vo","The same palace chamber: a generic elderly sadhu in saffron with a wooden staff stands beside the king's bed and holds out a palm-leaf with many thin blue lines drawn on it like streams.",
+c("C25","राज़ 1: झील नहीं, बाँध","vo","The same palace chamber: an elderly sarus-crane sage in saffron robes with a wooden staff stands beside the king's bed and holds out a palm-leaf with many thin blue lines drawn on it like streams.",
  "The sadhu traces the blue lines with one finger from the edge of the leaf toward its centre, then holds the leaf still.",
  "Medium shot, slight low angle, 50mm, slow push-in on the leaf.","Soft daylight through the lattice window.","quiet palace, distant temple bell","",
  "एक साधु ने कहा, ऐसी झील में नहाइए, जिसमें तीन सौ पैंसठ धाराएँ मिलें।","F5")
-c("C26","राज़ 1: झील नहीं, बाँध","vo","A hillside: three generic surveyors in turbans crouch beside a big heap of small white pebbles, moving pebbles one by one into a counting pile.",
+c("C26","राज़ 1: झील नहीं, बाँध","vo","A hillside: three anthropomorphic mongoose surveyors in turbans crouch beside a big heap of small white pebbles, moving pebbles one by one into a counting pile.",
  "The last surveyor drops one final pebble on the pile, sits back on his heels and scratches his head; they all look at the pile.",
  "Medium shot, high angle, 35mm, locked, the camera does not move.",DAY,"wind in grass","small pebbles clicking",
  "गिनती हुई, तो धाराएँ निकलीं, सिर्फ़ तीन सौ उनसठ।","F6")
-c("C27","राज़ 1: झील नहीं, बाँध","vo","The hillside: a generic Gond chieftain with a feathered headdress, bow on his back and a striped cloth sash stands on a rock above the surveyors.",
+c("C27","राज़ 1: झील नहीं, बाँध","vo","The hillside: a dignified anthropomorphic tiger Gond chieftain in a turban with a single peacock feather, a bow on his back and a striped cloth sash stands on a rock above the surveyors.",
  "The chieftain raises his arm and points across the hills toward a distant valley; the surveyors turn to look where he points and stay looking.",
  "Wide shot, low angle from behind the surveyors, 35mm, slow push-in toward the chieftain.",DAY,"wind over hills, a hawk cry","",
  "तब कालिया नाम के एक गोंड सरदार ने, बाक़ी धाराओं का रास्ता दिखाया।","F6")
@@ -157,11 +157,11 @@ c("C35","राज़ 2: वो झील जो ग़ायब है","vo","A
  "The river flows steadily through the gorge; a flock of small birds lifts off the rocks and flies downstream.",
  "Wide shot, high angle, 24mm, slow push-in along the gorge.",DAY,"strong river flow, birds","wings flapping",
  "भोपाल से क़रीब तीस किलोमीटर दूर, बेतवा नदी के किनारे है, भोजपुर।","F9")
-c("C36","राज़ 2: वो झील जो ग़ायब है","vo","A royal camp on a ridge at night: a generic king in white and ochre robes stands before a small fire with nine water pots in a row in front of him.",
+c("C36","राज़ 2: वो झील जो ग़ायब है","vo","A royal camp on a ridge at night: KING BHOJ, the golden-maned lion king in white and saffron silk robes and a gold crown, stands before a small fire with nine water pots in a row in front of him.",
  "The king pours water from a small brass vessel onto the ground before the pots as if taking a vow, then straightens and stands still.",
  "Medium-wide shot, low angle, 35mm, locked, the camera does not move.","Firelight from below, deep indigo night sky with painted stars.","crackling fire, night insects","water splashing on earth",
  "लोक-कथा है, राजा भोज ने नौ नदियों और निन्यानवे नालों को बाँधने की क़सम खाई।","F24")
-c("C37","राज़ 2: वो झील जो ग़ायब है","vo","The Bhojpur gorge in the 11th century: workers in dhotis haul a giant rectangular dressed sandstone block on wooden rollers with ropes toward a rising wall of huge fitted stones across the river.",
+c("C37","राज़ 2: वो झील जो ग़ायब है","vo","The Bhojpur gorge in the 11th century: nilgai and sambar-deer workers in dhotis haul a giant rectangular dressed sandstone block on wooden rollers with ropes toward a rising wall of huge fitted stones across the river.",
  "The workers pull together; the giant block rolls forward over the logs and stops in place against the wall.",
  "Wide shot, eye level, 35mm, slow pan from left to right along the wall.",DAY,"river rushing, ropes creaking, work calls","a deep stone grinding thud",
  "यहाँ ग्यारहवीं सदी में, दो बड़े बाँध बने। मिट्टी के नहीं, विशाल तराशे पत्थरों के।","F10")
@@ -170,7 +170,7 @@ c("C38","राज़ 2: वो झील जो ग़ायब है","vo","B
  "Extreme wide aerial shot, high angle, 24mm, slow pull-out to reveal the whole lake.",DAY,"rising water, wind","a deep water swell",
  "इन बाँधों ने बेतवा को रोका, और बन गई एक बहुत बड़ी झील।","F10")
 c("C39","राज़ 2: वो झील जो ग़ायब है","vo","The same Bhojpur valley today, same framing as the lake shot: no lake, only green and ochre farm fields, a small river in the gorge, trees.",
- "A farmer drives a pair of bullocks across a field and stops at the field edge; dust settles.",
+ "A nilgai farmer drives a pair of bullocks across a field and stops at the field edge; dust settles.",
  "Extreme wide aerial shot, high angle, 24mm, locked, the camera does not move.",DAY,"wind over fields, bullock bells","",
  "आज वहाँ जाइए, तो झील नहीं मिलेगी।","F11")
 c("C40","राज़ 2: वो झील जो ग़ायब है","vo","A long massive dam of giant fitted sandstone blocks (cyclopean masonry) standing intact across a dry valley, grass and small bushes growing on top.",
@@ -178,14 +178,14 @@ c("C40","राज़ 2: वो झील जो ग़ायब है","vo","A
  "Wide shot, low angle, 24mm, slow pan from left to right along the dam.",DAY,"wind, goat bell","",
  "उत्तर वाला बाँध, आज भी खड़ा है।","F11")
 c("C41","राज़ 2: वो झील जो ग़ायब है","vo","Giant broken dressed sandstone blocks lie tumbled and scattered in a shallow glossy blue river below a ridge.",
- "River water flows around the fallen blocks; a small boy hops from one block to the next and stops on top of one.",
+ "River water flows around the fallen blocks; a small palm-squirrel boy hops from one block to the next and stops on top of one.",
  "Medium-wide shot, high angle, 35mm, slow push-in.",DAY,"water flowing around stones","",
  "और दक्षिण वाले बाँध के टूटे पत्थर, बेतवा के पानी में बिखरे पड़े हैं।","F11")
 c("C42","राज़ 2: वो झील जो ग़ायब है","vo","A sandstone Shiva temple on a high stone platform on a ridge: tall square sanctum with towering carved pillars, its roof incomplete and open to the sky.",
  "A slow beam of morning sunlight moves across the temple front and lights up the carved pillars; the light settles.",
  "Wide shot, low angle, 24mm, slow tilt up from the platform to the open top.",DAWN,"birds, a faint temple bell","",
  "उसी झील के किनारे, राजा भोज ने एक शिव मंदिर बनवाना शुरू किया। भोजेश्वर।","F12")
-c("C43","राज़ 2: वो झील जो ग़ायब है","vo","Inside the temple: a huge polished dark stone Shiva lingam on a massive square base, with one tiny pilgrim in white standing at its foot for scale, marigold garlands on the base.",
+c("C43","राज़ 2: वो झील जो ग़ायब है","vo","Inside the temple: a huge polished dark stone Shiva lingam on a massive square base, with one tiny chital-deer pilgrim in white standing at its foot for scale, marigold garlands on the base.",
  "The tiny pilgrim places a small marigold garland on the base, folds his hands and bows; he stays still.",
  "Wide shot, very low angle, 24mm, slow tilt up along the lingam.","Soft daylight falling from the open roof above, gentle glow on the polished stone.","quiet temple echo, a soft bell","",
  "इसका शिवलिंग, क़रीब साढ़े पाँच मीटर ऊँचा है। एक ही पत्थर से बना।","F12")
@@ -197,7 +197,7 @@ c("C45","राज़ 2: वो झील जो ग़ायब है","vo","A
  "A hand brushes dust off the engraved lines; the drawings become clear and the hand withdraws.",
  "Macro close-up, high angle, 100mm macro, slow lateral move across the engraved lines.","Low raking sunlight from camera-left that makes the engraved lines stand out.","wind, faint brushing","a soft brush sweep",
  "पास की चट्टानों पर, मंदिर के खंभों और नक़्शों की रेखाएँ, पत्थर पर उकेरी मिली हैं।","F13")
-c("C46","राज़ 2: वो झील जो ग़ायब है","vo","Behind the temple, a long sloping earthen ramp rising to the top of the platform; 11th-century workers push a huge stone block up the ramp on rollers.",
+c("C46","राज़ 2: वो झील जो ग़ायब है","vo","Behind the temple, a long sloping earthen ramp rising to the top of the platform; 11th-century nilgai and sambar-deer workers push a huge stone block up the ramp on rollers.",
  "The workers heave together and the block moves a short distance up the ramp, then they wedge it and pause.",
  "Wide shot, side angle, 35mm, slow tilt up along the ramp.",DAY,"rollers creaking, workers' calls","a heavy stone scrape",
  "मंदिर के पीछे, मिट्टी का लंबा ढलान, जिस पर भारी पत्थर ऊपर चढ़ाए जाते थे।","F13")
@@ -215,11 +215,11 @@ c("C49","राज़ 3: सच या झूठ?","cam",ARCH+" An open paper le
  "Sutradhar breaks the third wax seal on his scroll, sets the scroll aside, and lays one hand on the ledger; he looks at the lens.",
  "Medium shot, eye level, 35mm, slow push-in.",LAMP,ROOMTONE,"a crisp wax crack",
  "राज़ नंबर तीन। सच या झूठ?","")
-c("C50","राज़ 3: सच या झूठ?","vo","A busy street market in old Bhopal at evening: tiny shopkeepers, lanterns, a storyteller sitting on a charpai telling a story to a small circle of listeners.",
+c("C50","राज़ 3: सच या झूठ?","vo","A busy street market in old Bhopal at evening: tiny mongoose and deer shopkeepers, lanterns, an old langur storyteller sitting on a charpai telling a story to a small circle of squirrel and deer listeners.",
  "The storyteller spreads his arms wide; the listeners lean in and stay leaning.",
  "Medium-wide shot, eye level, 35mm, slow push-in on the circle.","Warm lantern light, dusky indigo sky.","market murmur, a distant tea-glass clink","",
  "भोपाल में, ये कहानी आपको कई लोग सुनाएँगे।","F14")
-c("C51","राज़ 3: सच या झूठ?","vo","The 15th century: a generic sultan in a green and gold robe and turban sits on a horse on a ridge overlooking the huge Bhojpur lake and its stone dam; soldiers with iron picks stand at the dam.",
+c("C51","राज़ 3: सच या झूठ?","vo","The 15th century: the SULTAN, an anthropomorphic lion with a dark brown mane in an emerald-green robe with gold embroidery and a white turban with a gold jewel, sits on a horse on a ridge overlooking the huge Bhojpur lake and its stone dam; leopard soldiers with iron picks stand at the dam.",
  "The sultan raises one hand; the soldiers lift their picks and swing them down onto the stone dam; they freeze at the bottom of the swing.",
  "Wide shot, high angle from behind the sultan, 35mm, locked, the camera does not move.",DAY,"wind, horse snort","picks striking stone",
  "पंद्रहवीं सदी में, मालवा के सुल्तान होशंगशाह ने, भोजपुर का बाँध तुड़वा दिया।","F14")
@@ -232,7 +232,7 @@ c("C53","राज़ 3: सच या झूठ?","vo","The huge Bhojpur lake s
  "Extreme wide shot, high angle, 24mm, locked, the camera does not move.","Daylight shifting rapidly from morning to evening and back as days pass.","wind","a long draining gurgle",
  "झील को खाली होने में, तीन साल।","F14")
 c("C54","राज़ 3: सच या झूठ?","vo","The drained lake bed, cracked dry ochre mud.",
- "Green shoots sprout across the cracked mud in time-lapse until a farmer with a wooden plough and bullocks crosses the new field and stops.",
+ "Green shoots sprout across the cracked mud in time-lapse until a nilgai farmer with a wooden plough and bullocks crosses the new field and stops.",
  "Wide shot, eye level, 35mm, slow push-in.",DAY,"wind, bullock bells","",
  "और उस ज़मीन पर खेती होने में, पूरे तीस साल।","F14")
 c("C55","राज़ 3: सच या झूठ?","cam",ARCH+" The open paper ledger lies on the desk; Sutradhar holds the large rubber stamp.",
@@ -247,24 +247,24 @@ c("C57","राज़ 3: सच या झूठ?","vo",ARCH+" An old 19th-centu
  "The journal opens slowly and its pages fan to a page of dense abstract squiggle text; the lamp flame flickers and steadies.",
  "Close-up, high angle, 50mm, slow push-in.",LAMP,ROOMTONE,"pages turning",
  "एक शोध के मुताबिक़, ये कहानी, अठारह सौ अठासी की एक ग़लतफ़हमी से फैली।","F16")
-c("C58","राज़ 3: सच या झूठ?","vo","A study in the 1880s: a generic Englishman with mutton-chop whiskers in a brown tweed jacket sits at a desk reading a Persian-style manuscript with abstract squiggle script, a pen in hand.",
+c("C58","राज़ 3: सच या झूठ?","vo","A study in the 1880s: an anthropomorphic badger scholar in a brown tweed jacket and Victorian waistcoat sits at a desk reading a Persian-style manuscript with abstract squiggle script, a pen in hand.",
  "He runs his finger along a line of the manuscript, then writes a quick note in his notebook and nods to himself.",
  "Medium shot, eye level, 50mm, locked, the camera does not move.","Warm kerosene lamp light from camera-right.","clock ticking","a pen nib scratching",
  "एक अंग्रेज़ लेखक, विलियम किनकेड ने, एक फ़ारसी इतिहास-ग्रंथ को, भोजपुर की कहानी मान लिया।","F16")
-c("C59","राज़ 3: सच या झूठ?","vo","A study in the 1960s: a generic Indian scholar with black-rimmed glasses in a white kurta sits at a desk piled with books, a Persian manuscript open beside a typewriter.",
+c("C59","राज़ 3: सच या झूठ?","vo","A study in the 1960s: an anthropomorphic grey-heron scholar with black-rimmed glasses in a white kurta sits at a desk piled with books, a Persian manuscript open beside a typewriter.",
  "He reads a line of the manuscript, turns to the typewriter and types a short line, then pauses with his fingers on the keys.",
  "Medium shot, slight high angle, 50mm, slow push-in.","Daylight from a window at camera-left.","ceiling fan whirring","typewriter keys clacking",
  "बाद में, इतिहासकार यू. एन. डे ने, उस ग्रंथ का अनुवाद किया।","F16")
-c("C60","राज़ 3: सच या झूठ?","vo","A 15th-century court: a generic sultan in green and gold seated on a low throne; a small group of merchants in turbans with bundles and a laden camel stand before him.",
+c("C60","राज़ 3: सच या झूठ?","vo","A 15th-century court: the lion SULTAN in his emerald-green and gold robe and white turban, seated on a low throne; a small group of camel merchants in turbans with bundles and a laden pack donkey stand before him.",
  "The lead merchant bows and gestures back toward the distant hills; the sultan listens and gives one slow nod.",
  "Wide shot, eye level, 35mm, locked, the camera does not move.","Warm daylight through arches from camera-left.","court murmur","",
  "उसके मुताबिक़, सुल्तान ने एक बाँध, भोपाल और विदिशा के व्यापारियों के कहने पर तुड़वाया था।","F16")
-c("C61","राज़ 3: सच या झूठ?","vo","Night on a lake: a small wooded island in the middle of dark indigo water; on the island, a few bandits in dark turbans around a small campfire, a rowing boat pulled up on the shore.",
+c("C61","राज़ 3: सच या झूठ?","vo","Night on a lake: a small wooded island in the middle of dark indigo water; on the island, a few jackal bandits in dark turbans around a small campfire, a rowing boat pulled up on the shore.",
  "One bandit pushes the boat off toward the shore and climbs in; the boat glides away into the dark and the fire keeps flickering.",
  "Wide shot, high angle, 35mm, slow push-in toward the island.","Moonlight from above, small orange campfire glow.","water lapping, crickets","an oar dipping",
  "क्योंकि डाकू, झील से घिरी एक जगह पर छिपते थे, जहाँ तक पहुँचना मुश्किल था।","F16")
 c("C62","राज़ 3: सच या झूठ?","vo",MAP+" Two pins: Bhojpur in the east and the big Bhopal lake in the west.",
- "A hand lifts a small bandit figure from the Bhojpur pin, carries it across the map and sets it down on the island in the Bhopal lake.",
+ "A hand lifts a small jackal-bandit figurine from the Bhojpur pin, carries it across the map and sets it down on the island in the Bhopal lake.",
  "Top-down shot, 35mm, locked, the camera does not move.",DAY,"soft room tone","a small click as the figure is placed",
  "इस शोध के मुताबिक़, वो झील भोजपुर की नहीं, भोपाल की ही थी।","F16")
 c("C63","राज़ 3: सच या झूठ?","vo","Today's Bhojtal at golden hour: a small green island with trees and a small white structure in the middle of the vast indigo-blue lake.",
@@ -291,7 +291,7 @@ c("C68","राज़ 3: सच या झूठ?","vo","The 15th century: the l
  "Water rushes out through the gap in the embankment and spreads downstream; the flow continues.",
  "Wide shot, high angle, 35mm, slow push-in toward the gap.","Overcast grey daylight.","rushing water","",
  "जो झील तोड़ी गई थी, वो भोपाल की थी।","F16")
-c("C69","राज़ 3: सच या झूठ?","vo","The 18th century: workers in angarkha jackets and turbans rebuild and raise the earthen embankment of the Bhopal lake; a small palace with arched windows stands on the bank above.",
+c("C69","राज़ 3: सच या झूठ?","vo","The 18th century: nilgai and sambar-deer workers in angarkha jackets and turbans rebuild and raise the earthen embankment of the Bhopal lake; a small palace with arched windows stands on the bank above.",
  "Workers tip baskets of earth onto the embankment and tamp it down with wooden rammers; the embankment stands complete and higher.",
  "Wide shot, eye level, 35mm, slow pan from left to right along the embankment.",DAY,"rammers thudding, work calls","earth pouring",
  "और अठारहवीं सदी में, उसी बाँध की मरम्मत हुई, और उसे ऊँचा किया गया।","F18")
@@ -305,12 +305,12 @@ c("C71","आज भी दिखता है","cam",ARCH+" A small model of the
  "Sutradhar sweeps one open hand over the lake model toward the lens, palm up, inviting; he holds the gesture.",
  "Medium shot, eye level, 35mm, slow push-in.",LAMP,ROOMTONE,"",
  "और ये सब, सिर्फ़ किताबों में नहीं। आज भी दिखता है।","")
-c("C72","आज भी दिखता है","vo","Today's Bhojtal: a tall slender pillar rising from the water near the shore, topped by a bronze-coloured statue of a generic king holding a sword, boats passing.",
+c("C72","आज भी दिखता है","vo","Today's Bhojtal: a tall slender pillar rising from the water near the shore, topped by a bronze statue of a lion king holding a sword, boats passing.",
  "A tourist boat passes in front of the pillar from left to right; the statue stands still against the sky.",
  "Wide shot, low angle from the water, 35mm, slow tilt up to the statue.","Bright midday light from high camera-left.","boat motor hum, water","",
  "झील के एक कोने में, ऊँचे खंभे पर, राजा भोज की मूर्ति। दो हज़ार ग्यारह से।","F23")
-c("C73","आज भी दिखता है","vo","The lake shore with a long promenade, families walking, a ice-cream cart.",
- "A child releases a small blue balloon that floats up over the lake; the child waves at it.",
+c("C73","आज भी दिखता है","vo","The lake shore with a long promenade, chital-deer and mongoose families walking, an ice-cream cart.",
+ "A palm-squirrel child releases a small blue balloon that floats up over the lake; the child waves at it.",
  "Medium-wide shot, eye level, 35mm, locked, the camera does not move.",DAY,"promenade chatter, water","",
  "उसी साल, बड़े तालाब का नाम रखा गया, भोजताल।","F23")
 c("C74","आज भी दिखता है","vo","A concrete dam with a row of eleven sluice gates; water spilling white through the open gates into a river channel below, green hills around.",
@@ -333,11 +333,11 @@ c("C78","आज भी दिखता है","vo","A old globe on the archive 
  "The globe turns slowly until the central India dot faces the camera and glows brighter; the globe stops.",
  "Close-up, eye level, 85mm, locked, the camera does not move.",LAMP,ROOMTONE,"a soft chime as the dot glows",
  "रामसर, यानी दुनिया की अहम आर्द्रभूमियों की सूची।","F22")
-c("C79","आज भी दिखता है","vo","Today's Bhojpur: the long old stone dam standing, broken blocks in the river, the stone temple on the ridge, a small group of visitors with a guide.",
+c("C79","आज भी दिखता है","vo","Today's Bhojpur: the long old stone dam standing, broken blocks in the river, the stone temple on the ridge, a small group of deer and squirrel visitors with a mongoose guide.",
  "The guide points from the river stones up to the temple; the visitors follow his gesture and look up.",
  "Wide shot, high angle, 24mm, slow pan from the river up to the temple.",DAY,"river, visitors murmuring","",
  "भोजपुर में खड़ा बाँध, बिखरे पत्थर, और उकेरे नक़्शे, आज भी देखे जा सकते हैं।","F11, F13")
-c("C80","आज भी दिखता है","vo","A modern kitchen in a Bhopal home: a steel tap over a sink, a small girl holding a steel tumbler.",
+c("C80","आज भी दिखता है","vo","A modern kitchen in a Bhopal home: a steel tap over a sink, a small palm-squirrel girl holding a steel tumbler.",
  "The girl turns the tap, fills the tumbler with clear water, turns it off and takes a sip.",
  "Medium close shot, eye level, 50mm, locked, the camera does not move.","Soft window daylight from camera-left.","kitchen room tone","water filling a steel glass",
  "भोपाल के पीने के पानी का एक बड़ा ज़रिया, आज भी यही झील है।","F21")

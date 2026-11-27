@@ -114,6 +114,6 @@ Runtime ≈ 10:22 (sum of clip "use" lengths; trim in Scenebuilder) · 995 Hindi
 1. **Hoshang Shah story = विवादित.** Our earlier Bhopal v1 script said it as fact. Here both views are given (F14 vs F15/F16), and the verdict is amber.
 2. Name origin Bhojpal vs Bhupal: both views given (F7, F8).
 3. F4 (the river's direction) and F18 (the 18th-century raising) come from one source each. The wording is hedged ("एक शोध के मुताबिक़", "यही शोध").
-4. Historical figures (Bhoj, Hoshang Shah, Kincaid, Day) are generic cartoon figures with no likeness, and none of them speaks.
+4. Historical figures (Bhoj, Hoshang Shah, Kincaid, Day) are drawn as anthropomorphic animals (rulers = lions, scholars = badger and heron), with no likeness, and none of them speaks.
 5. Temple shots (C42–C44) are respectful: no caricature, one pilgrim offering flowers.
 6. C84 teases EP2 (the Begums, F25).

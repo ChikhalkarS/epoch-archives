@@ -125,4 +125,4 @@ Subscribers: 240k. Long/other videos listed: 5. Shorts: 49. Descriptions and cap
 6. Hindi narration at about 130–140 words/min. Don't rush; leave pauses at reveals.
 
 ## Owner decision 2026-11-27: art style
-We adopt Quiet Wolf's **style family** (2D hand-drawn vintage noir cartoon, amber lamp chiaroscuro, sepia/charcoal/cream/red palette, bold-outline thumbnails) but **not** their characters (no anthropomorphic wolf/pig/animals in suits, no white-glove mascot), titles or scripts. Our narrator is a human Sutradhar in Indian settings.
+We adopt Quiet Wolf's **style family** (2D hand-drawn vintage noir cartoon, amber lamp chiaroscuro, sepia/charcoal/cream/red palette, bold-outline thumbnails) including anthropomorphic animals (owner update), but **not** their characters (no wolf, pig, Daisy or white-glove mascot), titles or scripts. Our cast is our own: a star-tortoise Sutradhar and Indian animals (see `studio/STYLE_BIBLE.md` §3).

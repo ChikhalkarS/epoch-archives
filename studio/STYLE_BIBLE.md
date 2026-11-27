@@ -1,5 +1,5 @@
 # Style bible: Epoch Archive Studios (Google Flow)
-Art style decided by owner 2026-11-27: same *style family* as Quiet Wolf (2D vintage noir cartoon), with our own characters and Indian settings.
+Art style decided by owner 2026-11-27: same *style family* as Quiet Wolf (2D noir cartoon with anthropomorphic animals), with our **own Indian animal cast** (never their wolf, pig or other characters) and Indian settings.
 
 This is the single source for look, character, voice and sound. Every Flow prompt is built from the blocks below, pasted **verbatim**. Changing a word changes the result.
 
@@ -8,7 +8,7 @@ Hand-drawn 2D cartoon with bold ink lines, lit like an old detective film: one w
 
 **STYLE block** (first line of every prompt):
 ```
-STYLE: 2D hand-drawn cartoon animation in a vintage noir storybook style, bold clean black ink outlines, cel-shaded characters with soft painted shading, expressive slightly exaggerated faces, richly painted textured backgrounds with subtle paper grain, dramatic warm chiaroscuro lighting with amber lamp glow and deep soft shadows, gentle dark vignette, palette of sepia brown, charcoal black, warm amber, cream and deep red accents, with indigo blue for water and night skies.
+STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
 ```
 **CONSTRAINTS block** (last line of every prompt):
 ```
@@ -19,19 +19,32 @@ CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or st
 Sepia brown #6B4A2E (backgrounds) · Charcoal #1E1A17 (shadows, outlines) · Amber #E0A040 (lamp glow, highlights) · Cream #F1E3C6 (paper, thumbnail text) · Deep red #9E2B25 (Sutradhar's shawl, accents) · Indigo #2E3A66 (water, night). Lake water is always "deep indigo-blue water with painted amber reflections".
 
 ## 3. Sutradhar (recurring narrator character)
-He speaks on camera in the hook, the myth check and the closer (max 5 shots per EP). Everywhere else his voice is **off-screen voice-over** over the scene.
+He is an anthropomorphic star tortoise. He speaks on camera in the hook, the myth check and the closer (max 5 shots per EP). Everywhere else his voice is **off-screen voice-over** over the scene.
 
 **SUTRADHAR block** (whenever he is in frame):
 ```
-SUTRADHAR: an elderly Indian storyteller drawn as a 2D cartoon character with bold ink outlines, round warm-brown face, thick white bushy eyebrows, short neat white beard, round brass-rimmed spectacles, a knowing half-smile, deep red shawl over a cream kurta, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, slightly hunched, small and expressive.
+SUTRADHAR: an old anthropomorphic Indian star tortoise who walks upright, drawn as a 2D cartoon character, wise heavy-lidded amber eyes behind round brass-rimmed spectacles, thick white bushy eyebrows, wispy white chin beard, wrinkled olive-brown skin, a domed dark shell with golden star patterns on his back, deep red shawl over a cream kurta, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, slightly hunched, knowing half-smile.
 ```
 **VOICE block** (in every prompt with speech, unchanged):
 ```
 VOICE: Sutradhar's voice, a warm, slightly husky elderly Indian man, medium-low pitch, unhurried storyteller pace, clear standard Hindi.
 ```
-- Ingredient: `Sutradhar sheet` (see `studio/ref/README.md`). Role line: `The Sutradhar ingredient defines his face, beard, spectacles, shawl and satchel only; ignore its grey background and panel layout.`
+- Ingredient: `Sutradhar sheet` (see `studio/ref/README.md`). Role line: `The Sutradhar ingredient defines his face, beard, spectacles, shell, shawl and satchel only; ignore its grey background and panel layout.`
 - His room (`Archive room` ingredient): a cluttered old archive with wooden shelves of scrolls, a brass oil lamp, and a large old painted map of India on the back wall.
-- Historical people: generic cartoon figures dressed for the era. Never a real likeness. No speech from historical figures (no invented dialogue).
+- **Cast (everyone is an anthropomorphic animal, dressed accurately for the era):**
+| Role | Species | Notes |
+|---|---|---|
+| Narrator | **Sutradhar, old Indian star tortoise** | The archive keeper who has "lived through" the centuries |
+| Rulers of any faith (kings, sultans, nawabs, begums) | lions / lionesses | One species for all rulers, so no faith-coding. Costume tells them apart |
+| Soldiers, guards | leopards | |
+| Workers, farmers, boatmen | nilgai, sambar deer | |
+| Common townsfolk, families | chital deer, mongooses | Children: Indian palm squirrels |
+| Sages, saints | sarus cranes | |
+| Scholars, scribes | herons; foreign scholars as badgers | |
+| Merchants | camels | |
+| Tribal chiefs | tigers | Respectful; the tiger is revered in Gond tradition |
+| Bandits, generic villains | jackals | Only for crimes, never for a community |
+- Never: pigs or dogs for people (offensive), a wolf (Quiet Wolf's mascot), or a species tied to one religion, caste or community. Real people get no likeness. Historical figures never speak.
 
 ## 4. Dialogue syntax (Veo)
 - On camera: `Sutradhar looks into the lens and says in Hindi: "…"`
@@ -45,7 +58,7 @@ VOICE: Sutradhar's voice, a warm, slightly husky elderly Indian man, medium-low 
 | Map reveal | "an old hand-painted map of central India on a wooden table, hills shaded in sepia, rivers as indigo lines", slow top-down push-in, a small red pin drops in at the place |
 | Evidence card | The object itself on the archive desk under the lamp (old parchment, gazetteer book, carved stone, chronicle page) with scribble text. The **source is spoken** in the VO |
 | Then vs now | Two consecutive clips with the same framing and lens: past → present |
-| सच या झूठ? (myth check) | Sutradhar holds up a paper ledger, then presses a big rubber stamp on it. The stamp colour signals the verdict: green = सच, red = झूठ, **amber = विवादित**. The verdict word is spoken |
+| सच या झूठ? (myth check) | Sutradhar holds up a paper ledger, then presses a big rubber stamp on it, under a spotlight beam. The stamp colour signals the verdict: green = सच, red = झूठ, **amber = विवादित**. The verdict word is spoken |
 | Chapter / "राज़ #1" | Sutradhar unrolls a scroll toward the camera, breaking a red wax seal. The chapter is spoken |
 | Logo sting | A red wax seal pressed onto parchment under the lamp, short brass chime |
 
@@ -56,7 +69,7 @@ VOICE: Sutradhar's voice, a warm, slightly husky elderly Indian man, medium-low 
 - Always "No music". The score is added once in YouTube Studio.
 
 ## 6b. Thumbnails
-One character + one object, dark vignette, amber rim light. Big condensed vintage display text (2–4 Hindi words) in cream with a thick charcoal outline, one keyword in amber. Make the image in Flow (no text), then add the Hindi text in a free editor (Canva free) with an OFL Devanagari font (e.g. Mukta ExtraBold / Rozha One).
+One character + one or more objects under spotlight cones with small radiating emphasis lines, dark dusty-brown background, vignette, amber rim light. Big condensed vintage display text (2–4 Hindi words) in cream with a thick charcoal outline, one keyword in amber. Make the image in Flow (no text), then add the Hindi text in a free editor (Canva free) with an OFL Devanagari font (e.g. Mukta ExtraBold / Rozha One).
 
 ## 7. Camera grammar (cinematic-director rules)
 One camera behaviour per clip: `locked`, `slow push-in`, `slow pull-out`, `slow pan left/right`, `slow tilt up/down`, `top-down slow descent`, `slow orbit 30°`. Lens words: `24mm wide`, `35mm`, `50mm`, `85mm close-up`, `macro`. Angles: eye level, low angle, high angle, top-down. One primary action per clip, ending in a held state.
