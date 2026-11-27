@@ -15,7 +15,7 @@ Example:
 > PREFIX + `Wide shot, high angle looking down: workers carrying baskets of earth to build a huge dam between two hills, medieval central Indian landscape with a river, early morning golden light` + SUFFIX
 
 ### Recurring characters
-- **SUTRADHAR, the wolf narrator** (says "मैं हूँ सूत्रधार" in the intro): anthropomorphic Indian grey wolf, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel. Clearly a wolf, not a fox or jackal. He appears in the brand intro, cut-ins, viewer lines, comment ask and outro; story scenes show people as people. Prompts: `prompts/library.json` -> `characters.SUTRADHAR` (owner's close-up prompt kept verbatim) and `branding.profile_picture`.
+- **SUTRADHAR, the wolf narrator** (introduces himself as "मैं आपका भिड़ू"; SUTRADHAR is only his prompt ID): anthropomorphic Indian grey wolf, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel. Clearly a wolf, not a fox or jackal. He appears in the brand intro, cut-ins, viewer lines, comment ask and outro; story scenes show people as people. Prompts: `prompts/library.json` -> `characters.SUTRADHAR` (owner's close-up prompt kept verbatim) and `branding.profile_picture`.
 - Historical figures: never claim a real likeness. Use generic figures dressed for the era, drawn in the same 2D noir style. Label names in the edit, not in the image.
 
 ### Respect rules

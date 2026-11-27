@@ -16,7 +16,7 @@ City: मुंबई | Format: 9:16, 1080x1920 | Words: 165 | measured voice: 8
 [excited] दहेज में सोना नहीं, घोड़े नहीं...
 पूरा एक शहर!
 स्वागत है... असली सीन के पहले एपिसोड में।
-मैं हूँ सूत्रधार... और आज की कहानी, मुंबई की।
+मैं आपका भिड़ू... और आज की कहानी, मुंबई की।
 सोलह सौ इकसठ।
 पुर्तगाल की राजकुमारी कैथरीन की शादी तय हुई... इंग्लैंड के राजा चार्ल्स द्वितीय से।
 तब मुंबई, सात छोटे टापू थी।
@@ -51,7 +51,7 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 | 1 | hook | दहेज में सोना नहीं, घोड़े नहीं... | CU / low | clip | 2.86 | दहेज में पूरा शहर?! | F8 |
 | 2 | hook | पूरा एक शहर! | MS / top | clip | 1.49 | पूरा शहर! | F8 |
 | 3 | brand | स्वागत है, असली सीन के पहले एपिसोड में। | WS / low | clip (walk_in v4), speaks | 3.8 | असली सीन 🐺 | - |
-| 4 | brand | मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v4), speaks | 4.17 | आज: मुंबई | - |
+| 4 | brand | मैं आपका भिड़ू, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v4), speaks | 3.8 | आज: मुंबई | - |
 | 5 | story | सोलह सौ इकसठ। | ECU / eye | still | 2.59 | 1661 | F8 |
 | 6 | story | पुर्तगाल की राजकुमारी कैथरीन की शादी तय हुई, इंग्लैंड के राजा चार्ल्स द्वितीय से। | WS / eye | still | 5.94 | कैथरीन 👑 चार्ल्स | F8 |
 | 7 | story | तब मुंबई, सात छोटे टापू थी। | EWS / top | still | 3.47 | 7 टापू | F7 |
@@ -114,7 +114,7 @@ Camera tracks slowly backward at his walking pace. He walks toward the lens, lif
 ```
 
 ### short1-s04 | brand | MCU low | clip
-VO: मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की।
+VO: मैं आपका भिड़ू, और आज की कहानी, मुंबई की।
 On screen: आज: मुंबई
 References: SUTRADHAR
 Image prompt:

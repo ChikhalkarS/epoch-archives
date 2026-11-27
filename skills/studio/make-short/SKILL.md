@@ -14,7 +14,7 @@ Self-contained, own hook, surprising payoff. Only `verified`, `disputed` (both v
 
 ## 2. Script: fixed order (default, enforced by the build)
 1. **Hook (0-3 s)**, 1-2 lines. Never start with the welcome.
-2. **Brand intro**, two lines from `shorts_template.intro_line` (`@intro1`, `@intro2` in the JSON): "स्वागत है, असली सीन के <ordinal> एपिसोड में।" / "मैं हूँ सूत्रधार, और आज की कहानी, <city> की।" Episode = position of the Short in posting order across all cities (check `shorts/SCHEDULE.md`).
+2. **Brand intro**, two lines from `shorts_template.intro_line` (`@intro1`, `@intro2` in the JSON): "स्वागत है, असली सीन के <ordinal> एपिसोड में।" / "मैं आपका भिड़ू, और आज की कहानी, <city> की।" Episode = position of the Short in posting order across all cities (check `shorts/SCHEDULE.md`).
 3. **Story**, fact ID on every claim, a turn every few lines ("लेकिन ट्विस्ट यहाँ है।" as a narrator cut-in).
 4. **Viewer line** (40-60%): talks to the viewer.
 5. **Payoff**.

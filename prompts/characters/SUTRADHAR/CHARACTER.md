@@ -1,7 +1,7 @@
 # SUTRADHAR - character sheet (v3)
 <!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->
 
-**Name:** सूत्रधार (SUTRADHAR), the wolf narrator of असली सीन  
+**Name:** the wolf narrator of असली सीन; says "मैं आपका भिड़ू" (SUTRADHAR is his prompt ID)  
 **Scope:** channel (every episode)  
 **Notes:** Exactly one pair of spectacles. Adult, sharp, detective attitude; never cute. Appears in the brand intro, cut-ins, viewer lines, comment ask and outro.
 

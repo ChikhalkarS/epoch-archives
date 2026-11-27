@@ -16,7 +16,7 @@ City: मुंबई | Format: 9:16, 1080x1920 | Words: 162 | estimated ~68 s i
 एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया...
 [excited] और शर्त रखी, कोई टोल नहीं!
 स्वागत है... असली सीन के तीसरे एपिसोड में।
-मैं हूँ सूत्रधार... और आज की कहानी, मुंबई की।
+मैं आपका भिड़ू... और आज की कहानी, मुंबई की।
 माहिम और बांद्रा के बीच, एक खाड़ी थी।
 लोग नावों से पार करते थे।
 अठारह सौ चालीस-इकतालीस के आसपास... नावें पलटीं,
@@ -48,7 +48,7 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 | 1 | hook | एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया... | WS / low | clip | 3.9 | समंदर पर रास्ता? | F21 |
 | 2 | hook | और शर्त रखी, कोई टोल नहीं! | CU / eye | clip | 2.5 | शर्त: कोई टोल नहीं! | F21 |
 | 3 | brand | स्वागत है, असली सीन के तीसरे एपिसोड में। | WS / low | clip (walk_in v4), speaks | 3.5 | असली सीन 🐺 | - |
-| 4 | brand | मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v4), speaks | 3.8 | आज: मुंबई | - |
+| 4 | brand | मैं आपका भिड़ू, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v4), speaks | 3.8 | आज: मुंबई | - |
 | 5 | story | माहिम और बांद्रा के बीच, एक खाड़ी थी। | EWS / high | still | 3.2 | माहिम ↔ बांद्रा | F21 |
 | 6 | story | लोग नावों से पार करते थे। | MS / eye | still | 2.5 | नाव से पार | F21 |
 | 7 | story | अठारह सौ चालीस-इकतालीस के आसपास, नावें पलटीं, | WS / high | still | 3.1 | 1840-41 | F21 |
@@ -112,7 +112,7 @@ Camera tracks slowly backward at his walking pace. He walks toward the lens, lif
 ```
 
 ### short3-s04 | brand | MCU low | clip
-VO: मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की।
+VO: मैं आपका भिड़ू, और आज की कहानी, मुंबई की।
 On screen: आज: मुंबई
 References: SUTRADHAR
 Image prompt:

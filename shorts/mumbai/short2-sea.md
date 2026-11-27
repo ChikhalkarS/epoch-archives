@@ -16,7 +16,7 @@ City: मुंबई | Format: 9:16, 1080x1920 | Words: 167 | estimated ~71 s i
 [curious] आप मुंबई की जिस सड़क पर खड़े हैं...
 वो शायद कभी समंदर थी!
 स्वागत है... असली सीन के दूसरे एपिसोड में।
-मैं हूँ सूत्रधार... और आज की कहानी, मुंबई की।
+मैं आपका भिड़ू... और आज की कहानी, मुंबई की।
 कभी मुंबई... सात अलग-अलग टापू थी।
 बीच में समंदर... और ज्वार में डूबती ज़मीन।
 मुंबई में रहते हैं?
@@ -49,7 +49,7 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 | 1 | hook | आप मुंबई की जिस सड़क पर खड़े हैं... | CU / low | clip | 3.2 | ये ज़मीन कभी समंदर थी! | F16 F18 |
 | 2 | hook | वो शायद कभी समंदर थी! | MS / top | clip | 2.1 | समंदर! | F16 F18 |
 | 3 | brand | स्वागत है, असली सीन के दूसरे एपिसोड में। | WS / low | clip (walk_in v4), speaks | 3.5 | असली सीन 🐺 | - |
-| 4 | brand | मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v4), speaks | 3.8 | आज: मुंबई | - |
+| 4 | brand | मैं आपका भिड़ू, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v4), speaks | 3.8 | आज: मुंबई | - |
 | 5 | story | कभी मुंबई, सात अलग-अलग टापू थी। | EWS / top | still | 2.7 | 7 टापू | F7 |
 | 6 | story | बीच में समंदर, और ज्वार में डूबती ज़मीन। | WS / eye | clip | 3.5 | ज्वार = बाढ़ | F16 |
 | 7 | interaction | मुंबई में रहते हैं? | MCU / low | clip (lean_in_question v4), speaks | 1.8 | मुंबई में हैं? 📍 | - |
@@ -113,7 +113,7 @@ Camera tracks slowly backward at his walking pace. He walks toward the lens, lif
 ```
 
 ### short2-s04 | brand | MCU low | clip
-VO: मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की।
+VO: मैं आपका भिड़ू, और आज की कहानी, मुंबई की।
 On screen: आज: मुंबई
 References: SUTRADHAR
 Image prompt:

@@ -71,7 +71,7 @@
       "6. COMMENT QUESTION: one question viewers can answer in a word or a number",
       "7. OUTRO (owner 2026-11-27): two lines, always the same: follow_line, then city_ask_line. No next-story/next-city teaser"
     ],
-    "intro_line": "स्वागत है, असली सीन के {ordinal} एपिसोड में। मैं हूँ सूत्रधार, और आज की कहानी, {city} की।",
+    "intro_line": "स्वागत है, असली सीन के {ordinal} एपिसोड में। मैं आपका भिड़ू, और आज की कहानी, {city} की।",
     "follow_line": "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।",
     "mid_interaction_examples": [
       "सोचिए, आप राजा होते, तो क्या करते?",
@@ -85,7 +85,7 @@
     ],
     "host_character": "SUTRADHAR, the wolf narrator, on screen in the brand intro, cut-ins, viewer lines, comment ask and outro of every Short; story scenes show people as people",
     "tagline": "असली सीन (show name in config 'show')",
-    "intro_tts": "स्वागत है... असली सीन के {ordinal} एपिसोड में। मैं हूँ सूत्रधार... और आज की कहानी, {city} की।",
+    "intro_tts": "स्वागत है... असली सीन के {ordinal} एपिसोड में। मैं आपका भिड़ू... और आज की कहानी, {city} की।",
     "ordinals": {
       "1": "पहले",
       "2": "दूसरे",
@@ -109,7 +109,7 @@
   "show": {
     "name": "असली सीन",
     "name_latin": "Asli Scene",
-    "narrator": "सूत्रधार (SUTRADHAR), anthropomorphic Indian grey wolf; prompts in prompts/library.json -> characters.SUTRADHAR; introduces himself as सूत्रधार",
+    "narrator": "the wolf narrator (prompt ID SUTRADHAR in prompts/library.json); on screen and in narration he introduces himself as \"मैं आपका भिड़ू\"",
     "note": "Show/series name used in narration. Channel name stays in 'name'."
   },
   "visuals": {

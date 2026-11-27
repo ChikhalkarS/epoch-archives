@@ -1,6 +1,6 @@
 # Shorts & Reels (current focus)
 
-Show: **असली सीन**, narrated by **सूत्रधार** (SUTRADHAR), an Indian grey wolf. Look: 2D noir graphic-novel cartoon. Long videos come later from `scripts/`.
+Show: **असली सीन**, narrated by an Indian grey wolf who introduces himself as **"मैं आपका भिड़ू"** (prompt ID: SUTRADHAR). Look: 2D noir graphic-novel cartoon. Long videos come later from `scripts/`.
 
 - Source per city: `shorts/<city>/shorts.json` (lines, fact IDs, shots). One narration line = one shot.
 - Build: `node tools/build-shorts.mjs <city>` writes per Short `shortN-<topic>.md` (ElevenLabs text, shot list, publish copy) and `shortN-<topic>-flow.md` (paste-ready Google Flow prompts per shot) and refreshes `prompts/LIBRARY.md`. Do not edit the `.md` files by hand.

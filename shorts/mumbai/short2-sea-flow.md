@@ -16,7 +16,7 @@ Timing: ESTIMATED from word count. After the ElevenLabs voice exists run `node t
 | 1 | आप मुंबई की जिस सड़क पर खड़े हैं... | CU low | text | - | - | 3.2 |
 | 2 | वो शायद कभी समंदर थी! | MS top | text | - | - | 2.1 |
 | 3 | स्वागत है, असली सीन के दूसरे एपिसोड में। | WS low | ingredients | yes (lip-sync) | SUTRADHAR | 3.5 |
-| 4 | मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की। | MCU low | ingredients | yes (lip-sync) | SUTRADHAR | 3.8 |
+| 4 | मैं आपका भिड़ू, और आज की कहानी, मुंबई की। | MCU low | ingredients | yes (lip-sync) | SUTRADHAR | 3.8 |
 | 5 | कभी मुंबई, सात अलग-अलग टापू थी। | EWS top | image | - | - | 2.7 |
 | 6 | बीच में समंदर, और ज्वार में डूबती ज़मीन। | WS eye | text | - | - | 3.5 |
 | 7 | मुंबई में रहते हैं? | MCU low | ingredients | yes (lip-sync) | SUTRADHAR | 1.8 |
@@ -115,7 +115,7 @@ Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing a
 ```
 
 ## short2-s04 | ingredients | MCU low | SPEAKS (lip-sync) | keep the whole 8 s clip
-Line: मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की।
+Line: मैं आपका भिड़ू, और आज की कहानी, मुंबई की।
 On screen (added in edit): आज: मुंबई
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
@@ -129,7 +129,7 @@ Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, 
 Medium close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) holding an old scroll open toward the camera, a small model of seven separate islands slowly drifting together rising out of the parchment between his paws, warm lantern light from below-left, archive shelves softly blurred behind.
 
 [Event Script]
-Stage 1 - line: Opening state as described above. From the first second, SUTRADHAR looks into the lens and says in Hindi, in a deep, calm, slightly smug storyteller voice: {मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की।} While he speaks: Locked camera with a slow push-in. He unrolls the scroll toward the lens and the tiny model rises out of it, his eyes looking over it into the lens. His mouth moves clearly and naturally with every syllable, jaw and lips shaping each word; when the line ends his mouth closes into his smirk. Only SUTRADHAR speaks.
+Stage 1 - line: Opening state as described above. From the first second, SUTRADHAR looks into the lens and says in Hindi, in a deep, calm, slightly smug storyteller voice: {मैं आपका भिड़ू, और आज की कहानी, मुंबई की।} While he speaks: Locked camera with a slow push-in. He unrolls the scroll toward the lens and the tiny model rises out of it, his eyes looking over it into the lens. His mouth moves clearly and naturally with every syllable, jaw and lips shaping each word; when the line ends his mouth closes into his smirk. Only SUTRADHAR speaks.
 Stage 2 - hold: Continue from the previous stage. The line is finished; he holds the final pose with his mouth closed in his smirk, and the video ends holding this state.
 
 [Visual and Camera Treatment]
