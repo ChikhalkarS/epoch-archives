@@ -21,6 +21,7 @@ Newest at the bottom. The file named in each row has the detail. Claude reads th
 | 16 | 2026-11-27 | Play safe for फ़ाइल 001: one shot per clip as written. Multi-shot timestamped prompts (2–3 cuts per 8 s clip) to be tried later | this log |
 | 17 | 2026-11-27 | Main character changed from fox to **Sutradhar, an Indian grey wolf with attitude** (smug know-it-all smirk, peers over low brass spectacles; maroon bandhgala, cream kurta, indigo angavastram, satchel; no Western attire). Kept visually distinct from Quiet Wolf's mascot | `studio/STYLE_BIBLE.md` §3, `studio/ref/README.md` |
 | 18 | 2026-11-27 | Keep Flow's native voice for now despite clip-to-clip drift. Fallback later: separate fixed TTS voice + join step (Gemini TTS first to test) | this log |
+| 19 | 2026-11-27 | Sultan close-up approved. Wolf: attitude approved; add WOLF BUILD line so he reads as a wolf, not a fox | `studio/ref/README.md` |
 
 ## Open (waiting for the owner)
 - Gate 1 approval of the Bhopal long-video script (`episodes/ep01-bhopal-jheel/script_hi.md`).

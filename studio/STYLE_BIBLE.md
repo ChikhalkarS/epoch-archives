@@ -23,7 +23,7 @@ Sepia brown #6B4A2E (backgrounds) · Charcoal #1E1A17 (shadows, outlines) · Amb
 
 **SUTRADHAR block** (whenever he is in frame):
 ```
-SUTRADHAR: an anthropomorphic Indian grey wolf who walks upright, drawn as a 2D cartoon character, lean athletic build, sandy-tawny coat with grey on the back and a cream muzzle and chest, pointed ears, sharp golden-amber eyes, heavy-lidded and knowing, round brass-rimmed spectacles worn low on his snout so he peers over them, a smug confident smirk with one corner of the mouth raised and one eyebrow cocked, chin slightly up, unhurried self-assured posture, maroon bandhgala jacket with a high collar and brass buttons over a cream kurta, an indigo angavastram stole draped over one shoulder, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread.
+SUTRADHAR: an anthropomorphic Indian grey wolf who walks upright, drawn as a 2D cartoon character, clearly a wolf with a broad skull, heavy muzzle and thick fur ruff at the neck, lean athletic build, sandy-tawny coat with grey on the back and a cream muzzle and chest, pointed ears, sharp golden-amber eyes, heavy-lidded and knowing, round brass-rimmed spectacles worn low on his snout so he peers over them, a smug confident smirk with one corner of the mouth raised and one eyebrow cocked, chin slightly up, unhurried self-assured posture, maroon bandhgala jacket with a high collar and brass buttons over a cream kurta, an indigo angavastram stole draped over one shoulder, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread.
 ```
 **VOICE block** (in every prompt with speech, unchanged):
 ```
