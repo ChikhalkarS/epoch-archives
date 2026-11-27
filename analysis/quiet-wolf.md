@@ -21,7 +21,7 @@
 
 **Lesson for us:** the hook is about a *belief the viewer already holds*, not about a topic. "Why is Bhopal full of lakes?" is a topic. "Bhopal's lakes were never natural" is a belief inversion.
 
-## 2. Episode structure and pacing (7.5–12 min), inferred
+## 2. Episode structure and pacing (7.5–12 min), inferred (see Verified section: long-form is actually a character story)
 | Time | Beat |
 |---|---|
 | 0:00–0:15 | The belief, stated as the viewer holds it. Then the contradiction |
@@ -103,3 +103,23 @@ Subscribers: 240k. Long/other videos listed: 5. Shorts: 49. Descriptions and cap
 - The long series is now branded by "Lever" ("Lever 4 · Ep. 4": a series of persuasion levers). EP2 (10:13) has the most views at 713k, EP1 (7:31) has 608k, EP3/EP4 have about 275–290k. That's the normal series decay, as expected.
 - For us: put a number or object in the Short title ("1,000 saal purani jheel", "7 dweep", "1 rupaye ka sikka").
 
+
+## Verified from descriptions and captions (6 videos: EP1, EP2, EP3 and the top 3 Shorts). Overrides the inferences above.
+**Long-form is a character story, not narration.** EP1–3 are one ongoing sitcom-style plot: a pig preparing to marry Daisy, with a "quiet wolf" sidekick who sees through the tricks. The cold open (0:00–1:00) is a dialogue scene that *acts out* the trick ("Only two left at this price…"). There's no belief statement up front. The facts come in through the plot.
+- Series spine: "How the Herd is Moved", **7 levers** (EP = Lever N of 7). Each EP has the same three-part structure: "Three tricks, one lever", then "the test" (questions the viewer can apply).
+- Closer formula: a moral line ("Real scarcity never needs a salesman.") → link to a free guide → explicit next-EP tease ("Next time, the sickness they invented…") → sign-off catchphrase ("go quiet, watch, learn… evolve quietly until you're the wolf").
+- Pace: about 115–125 spoken words/min (slow, with room for jokes and pauses). YouTube chapters exist (5 per EP).
+- Monetization/funnel outside YouTube: a free lead-magnet guide (files.quietwolfzz.com) in every description, plus an affiliate link to the animation tool (Higgsfield).
+
+**Shorts are narrated fact reveals, densely sourced.** The description repeats the story in 3–4 short paragraphs: belief ("Everybody knows that. But who decided it?") → dated origin ("In 1965… a Japanese clock company…") → a one-line moral ("The number was never medicine.").
+- Sources: 3–6 per video, formatted as `Author/Org, "Title", Publication, Year`. They include court cases with docket numbers, academic papers and company histories. Hedges are explicit ("Red Bull admitted no wrongdoing").
+- Engagement: the supermarket Short has 1.99M views / 111k likes (5.6%). EP1 has 609k / 16k (2.7%).
+- Hashtags: 3–6, ending in a fixed set (#psychology #history).
+
+**Changes for Epoch Archive:**
+1. Keep our narrator-led documentary (that's our difference), but have the **Sutradhar** act out the hook in a 10–15 s mini scene before the question.
+2. Give the series a numbered spine and a promise per EP ("teen raaz").
+3. Use a fixed closer: moral line → next-EP question → catchphrase. Ours, e.g. "Itihaas yaad rakhiye… sawaal poochte rahiye."
+4. Format sources in the description like theirs (Author, Title, Publisher, Year), mapped to our fact IDs. Use explicit hedges for disputed claims.
+5. Later (after YPP): a free "city facts" PDF as a lead magnet. Skip affiliate links for now.
+6. Hindi narration at about 130–140 words/min. Don't rush; leave pauses at reveals.
