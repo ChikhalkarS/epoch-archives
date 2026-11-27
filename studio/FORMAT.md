@@ -17,13 +17,13 @@ The format idea comes from Quiet Wolf (see `analysis/quiet-wolf.md`). All script
 ## 2. Long episode structure (8–10 min)
 | Time | Beat | What happens | Devices |
 |---|---|---|---|
-| 0:00–0:15 | **Hook question** | One question built on an assumption the viewer holds. No intro, no logo | Then-vs-now split or Sutradhar close-up, sting |
+| 0:00–0:15 | **Hook question** | A 5–10 s mini scene where the Sutradhar acts out the common belief, then one question that breaks it. No intro, no logo | Then-vs-now split or Sutradhar close-up, sting |
 | 0:15–1:15 | **Mystery setup** | Why the obvious answer is wrong or incomplete. A promise: "teen raaz" (three secrets) | Animated map reveal, the open question shown as a card |
 | 1:15–3:15 | **Reveal 1** | The first assumption overturned | Evidence card + reveal sound |
 | 3:15–5:15 | **Reveal 2** | Goes deeper or wider (a person, a decision, a document) | Evidence card, map |
 | 5:15–7:15 | **Reveal 3** | The biggest flip. It re-reads the hook | Myth check: **Sach ya Jhooth?** |
 | 7:15–8:45 | **"Aaj bhi dikhta hai"** | What you can still see today: a street, a wall, a coin, a habit | Then-vs-now split, map pin |
-| 8:45–9:30 | **Closer** | Answer the hook in one line, a reflective line, then the next EP question | Sutradhar, next-EP card, end screen |
+| 8:45–9:30 | **Closer** | Answer the hook in one line → moral line → next-EP question → catchphrase "Itihaas yaad rakhiye… sawaal poochte rahiye." | Sutradhar, next-EP card, end screen |
 
 **Retention rules:** a new visual every 3–6 s. An open loop at each reveal ("par asli raaz abhi baaki hai…"). A pattern break every ~60 s (map, card, myth check, split).
 
@@ -49,6 +49,8 @@ The format idea comes from Quiet Wolf (see `analysis/quiet-wolf.md`). All script
 - Batch: research and script 2 EPs ahead. Flow clips 1 EP ahead.
 
 ## 6. Sources (non-negotiable)
+- Description format: `Author/Org, "Title", Publisher, Year [F-ID]`, 3–8 sources, with hedges written out ("historians differ on…").
+- Narration pace: 130–140 Hindi words/min, with a 0.5 s pause before each reveal line.
 - No claim in a script without a fact ID → `research/<slug>/sources.md` (URL, publisher, date).
 - Every description has a **Sources** section listing every fact ID used.
 - Disputed history: neutral wording ("kehte hain", "itihaskaron mein matbhed hai"), and the myth check uses VIVAADIT, not SACH/JHOOTH.
