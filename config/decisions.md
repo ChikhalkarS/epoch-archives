@@ -29,6 +29,7 @@ Owner decisions, newest last. Claude reads this before every stage. Change a dec
 | 2026-11-27 | Character consistency in code: each character has a lock sentence + CHARACTER.md sheet file; every Flow and image prompt with a character carries sheet attachment, role line, scene tag and lock verbatim | prompts/library.json, tools/build-shorts.mjs |
 | 2026-11-27 | Narration is voice-over, not lip-sync: Flow clips are silent of speech, SUTRADHAR's mouth stays closed, and sync comes from assemble-short cutting each clip to the measured line times | prompts/library.json narrator_shots, shorts/WORKFLOW.md |
 | 2026-11-27 | Supersedes the voice-over-only line: Sutradhar's mouth moves whenever he is on screen saying his line. Flow gets the exact line as dialogue (its voice is only a guide and is muted); assemble-short retimes each speaking clip 0.7x-1.4x onto the ElevenLabs line. Outro shots changed so he faces camera when talking (map_present, sign_off, close_whisper) | prompts/library.json narrator_shots + speech, tools/time-voice.mjs, tools/assemble-short.mjs |
+| 2026-11-27 | New default outro (owner): "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।" + "और कमेंट में बताइए, अगली कहानी किस शहर की हो?". Replaces the next-story/next-city teaser and the old follow line in every Short | config/channel.json shorts_template, make-short skill, shorts.json |
 
 ## Open items (waiting on the owner)
 
@@ -41,3 +42,4 @@ Owner decisions, newest last. Claude reads this before every stage. Change a dec
 | 2026-11-27 | Narrator self-intro name | closed: सूत्रधार |
 | 2026-11-27 | Short 2 and 3 Flow packs: detailed goals/sound | closed: written |
 | 2026-11-27 | Character sheets to generate in Flow and save to prompts/characters/<ID>/ | open, owner |
+| 2026-11-27 | Ep 1 voice: re-record only the two new outro lines (shorts/mumbai/short1-dowry-outro-voice.txt); Claude splices them after line 21 of the existing take | open, owner |

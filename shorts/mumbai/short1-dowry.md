@@ -1,15 +1,15 @@
 # असली सीन - एपिसोड 1: दहेज में मिला शहर
 <!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v7. Edit those, not this file. -->
-City: मुंबई | Format: 9:16, 1080x1920 | Words: 169 | measured voice: 81.74 s | Shots: 24 (15 clips, 9 stills) | Status: waiting on Gate 1
+City: मुंबई | Format: 9:16, 1080x1920 | Words: 165 | measured voice: 81.74 s | Shots: 23 (14 clips, 9 stills) | Status: waiting on Gate 1
 
 **Twist:** दहेज हाथ आने में 4 साल लगे, फिर बोझ निकला, और £10 सालाना किराए पर दे दिया  
-**Teaser:** Short 2 (समंदर वाली ज़मीन), फिर हम्पी  
+**Outro:** ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए। / और कमेंट में बताइए, अगली कहानी किस शहर की हो?  
 **On-screen hook (first 2 s):** दहेज में पूरा शहर?!
 
 ## Voice (ElevenLabs)
 - eleven_v3, Viraj (Suspense Story ka Baadshah), natural, old-radio audio filter (applied in ElevenLabs by owner). Speed about 1.1-1.15.
 - Narrator: the wolf (SUTRADHAR). Audio tags are optional; delete any that sound odd. "..." = short pause.
-- Over 65 s? Raise speed slightly or drop one story shot. Never drop the intro, viewer line, comment ask, teaser or follow line.
+- Too long? Raise speed slightly or drop one story shot. Never drop the intro, viewer line, comment ask or the two outro lines.
 
 ### Paste into ElevenLabs (also in `shorts/mumbai/short1-dowry-voice.txt`)
 ```
@@ -34,9 +34,8 @@ City: मुंबई | Format: 9:16, 1080x1920 | Words: 169 | measured voice: 8
 वही दहेज वाला टापू... आज भारत की आर्थिक राजधानी कहलाता है। मुंबई।
 अब बताइए... आज मुंबई का किराया कितना होना चाहिए?
 कमेंट में लिखिए।
-अगली कहानी: मुंबई की वो ज़मीन... जो कभी समंदर थी।
-और फिर चलेंगे... हम्पी।
-फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
+ऐसी ही अनसुनी कहानियों के लिए... फ़ॉलो कीजिए।
+और कमेंट में बताइए... अगली कहानी किस शहर की हो?
 ```
 
 ## Characters (make once, attach as reference in every shot they appear in)
@@ -70,9 +69,8 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 | 19 | payoff | वही दहेज वाला टापू, आज भारत की आर्थिक राजधानी कहलाता है। मुंबई। | EWS / low | clip | 6.39 | दहेज ➜ मुंबई | F29 |
 | 20 | comment | अब बताइए, आज मुंबई का किराया कितना होना चाहिए? | MS / high | clip (touch_diorama v4), speaks | 3.62 | आज का किराया? | - |
 | 21 | comment | कमेंट में लिखिए। | CU / low | clip (point_at_viewer v4), speaks | 1.78 | कमेंट 👇 | - |
-| 22 | outro | अगली कहानी: मुंबई की वो ज़मीन, जो कभी समंदर थी। | MS / high | clip (touch_diorama v4), speaks | 4.83 | अगला: समंदर वाली ज़मीन 🌊 | - |
-| 23 | outro | और फिर चलेंगे, हम्पी। | MS / eye | clip (map_present v1), speaks | 2.22 | फिर: हम्पी | - |
-| 24 | follow | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | CU / low | clip (sign_off v1), speaks | 2.83 | फ़ॉलो करें ➕ | - |
+| 22 | follow | ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए। | MS / eye | clip (map_present v1), speaks | 3.5 | फ़ॉलो करें ➕ | - |
+| 23 | follow | और कमेंट में बताइए, अगली कहानी किस शहर की हो? | CU / low | clip (sign_off v1), speaks | 4.2 | अगला शहर कौन सा? 👇 | - |
 
 ## Shot prompts
 Negative prompt (if supported): `photorealistic, real photograph, 3D render, CGI, claymation, plasticine, glossy plastic, anime, chibi, cute baby proportions, watercolor wash, blurry lines, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood`
@@ -314,35 +312,22 @@ Motion prompt:
 Locked camera, very slight push-in. His paw comes up and points straight at the lens. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
-### short1-s22 | outro | MS high | clip
-VO: अगली कहानी: मुंबई की वो ज़मीन, जो कभी समंदर थी।
-On screen: अगला: समंदर वाली ज़मीन 🌊
+### short1-s22 | follow | MS eye | clip
+VO: ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।
+On screen: फ़ॉलो करें ➕
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, high angle looking down: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) crouching beside a tabletop miniature model of a city street, reaching out with one paw to press the road, which cracks open to show blue sea water underneath, lantern set down beside him. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
-```
-Motion prompt:
-```
-Slow descending crane toward him. He reaches out and press the road, which cracks open to show blue sea water underneath, then lifts his face to the camera. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
-```
-
-### short1-s23 | outro | MS eye | clip
-VO: और फिर चलेंगे, हम्पी।
-On screen: फिर: हम्पी
-References: SUTRADHAR
-Image prompt:
-```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) standing beside a large carved relief map of India on the archive wall, body turned toward the camera, one paw resting on the map at a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders, the lantern hanging from his other paw. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) standing beside a large carved relief map of India on the archive wall, body turned toward the camera, one paw resting on the map at many small markers glowing on cities all across India, the lantern hanging from his other paw. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
 Locked camera. Facing the lens, he taps the marker on the map; it pulses brighter while he keeps his eyes on the viewer. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
-### short1-s24 | follow | CU low | clip
-VO: फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
-On screen: फ़ॉलो करें ➕
+### short1-s23 | follow | CU low | clip
+VO: और कमेंट में बताइए, अगली कहानी किस शहर की हो?
+On screen: अगला शहर कौन सा? 👇
 References: SUTRADHAR
 Image prompt:
 ```
@@ -374,8 +359,8 @@ Voice: ElevenLabs (elevenlabs.io)
 दहेज में सोना नहीं... पूरा एक शहर! 🏝️👑
 असली सीन, एपिसोड 1 🐺
 1661 में बॉम्बे दहेज बना, और 1668 में सिर्फ़ £10 सालाना किराए पर दे दिया गया।
-आज मुंबई का किराया कितना होना चाहिए? 👇
-अगली कहानी: वो ज़मीन जो कभी समंदर थी 🌊 फ़ॉलो करें!
+आज मुंबई का किराया कितना होना चाहिए? और अगली कहानी किस शहर की हो? 👇
+ऐसी ही अनसुनी कहानियों के लिए फ़ॉलो करें!
 Voice: ElevenLabs (elevenlabs.io)
 
 #mumbai #bombay #indianhistory #historyinhindi #mumbaihistory #reels #asliscene

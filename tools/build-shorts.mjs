@@ -36,7 +36,7 @@ function introLines(episode, city) {
   const split = (s) => fill(s, { ordinal: ord, city }).split(/(?<=।)\s+/);
   const [v1, v2] = split(T.intro_line);
   const [t1, t2] = split(T.intro_tts);
-  return { vo: { '@intro1': v1, '@intro2': v2, '@follow': T.follow_line }, tts: { '@intro1': t1, '@intro2': t2, '@follow': T.follow_line } };
+  return { vo: { '@intro1': v1, '@intro2': v2, '@follow': T.follow_line, '@cityask': T.city_ask_line }, tts: { '@intro1': t1, '@intro2': t2, '@follow': T.follow_tts || T.follow_line, '@cityask': T.city_ask_tts || T.city_ask_line } };
 }
 
 function expandShot(shot, intro) {
@@ -75,7 +75,7 @@ function check(sh, shots) {
   if (!roles.includes('brand')) warnings.push(`${sh.id}: brand intro missing`);
   if (!roles.includes('interaction')) warnings.push(`${sh.id}: viewer line missing`);
   if (!roles.includes('comment')) warnings.push(`${sh.id}: comment question missing`);
-  if (roles[roles.length - 1] !== 'follow') warnings.push(`${sh.id}: must end with the follow line`);
+  if (roles[roles.length - 1] !== 'follow' || shots[shots.length - 1].vo !== T.city_ask_line || shots[shots.length - 2].vo !== T.follow_line) warnings.push(`${sh.id}: must end with the two outro lines (@follow, @cityask)`);
   if (w < 140 || w > 175) warnings.push(`${sh.id}: ${w} words (target 140-165, max 175)`);
   shots.forEach((s, i) => {
     if (words(s.tts) > 20) warnings.push(`${sh.id} shot ${i + 1}: ${words(s.tts)} words in one shot; split the line`);
@@ -104,8 +104,9 @@ function renderShort(sh) {
   const shots = sh.shots.map((s) => expandShot(s, intro));
   const w = check(sh, shots);
   const tm = timingOf(sh.id);
-  if (tm && tm.shots.length !== shots.length) warnings.push(`${sh.id}: timing file has ${tm.shots.length} shots, script has ${shots.length}; re-run tools/time-voice.mjs`);
-  shots.forEach((s, i) => { s.est = estSecs(words(s.tts), s.tts); s.secs = tm && tm.shots[i] ? tm.shots[i].dur : s.est; });
+  shots.forEach((s, i) => { s.est = estSecs(words(s.tts), s.tts); s.measured = !!(tm && tm.shots[i] && tm.shots[i].vo === s.vo); s.secs = s.measured ? tm.shots[i].dur : s.est; });
+  const changed = tm ? shots.filter((s) => !s.measured).length : 0;
+  if (tm && changed) warnings.push(`${sh.id}: ${changed} line(s) changed since the voice was recorded; re-record them and re-run tools/time-voice.mjs (unchanged lines keep measured timing)`);
   const totalSecs = Math.round(shots.reduce((x, s) => x + s.secs, 0));
   const maxS = T.max_seconds ?? 70;
   if (totalSecs > maxS) warnings.push(`${sh.id}: ${tm ? 'measured' : 'estimated'} ${totalSecs} s is over ${maxS} s${tm ? '' : ' (estimate; measure the real voice with tools/time-voice.mjs)'}`);
@@ -120,13 +121,13 @@ function renderShort(sh) {
   L.push(`City: ${data.city} | Format: 9:16, 1080x1920 | Words: ${w} | ${tm ? `measured voice: ${tm.total} s` : `estimated ~${sh._total} s incl. pauses at speed 1.1-1.15 (not measured yet)`} | Shots: ${shots.length} (${clips} clips, ${shots.length - clips} stills) | Status: waiting on Gate 1`);
   L.push('');
   L.push(`**Twist:** ${sh.twist}  `);
-  L.push(`**Teaser:** ${sh.teaser}  `);
+  L.push(`**Outro:** ${T.follow_line} / ${T.city_ask_line}  `);
   L.push(`**On-screen hook (first 2 s):** ${sh.hook_onscreen}`);
   L.push('');
   L.push('## Voice (ElevenLabs)');
   L.push(`- ${cfg.voice.model}, ${cfg.voice.voice_name}, ${cfg.voice.post_filter}. Speed about 1.1-1.15.`);
   L.push('- Narrator: the wolf (SUTRADHAR). Audio tags are optional; delete any that sound odd. "..." = short pause.');
-  L.push('- Over 65 s? Raise speed slightly or drop one story shot. Never drop the intro, viewer line, comment ask, teaser or follow line.');
+  L.push('- Too long? Raise speed slightly or drop one story shot. Never drop the intro, viewer line, comment ask or the two outro lines.');
   L.push('');
   L.push(`### Paste into ElevenLabs (also in \`shorts/${slug}/${sh.id}-voice.txt\`)`);
   L.push('```');

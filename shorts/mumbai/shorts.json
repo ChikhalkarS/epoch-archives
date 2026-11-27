@@ -9,14 +9,14 @@
    "title": "दहेज में मिला शहर",
    "hook_onscreen": "दहेज में पूरा शहर?!",
    "twist": "दहेज हाथ आने में 4 साल लगे, फिर बोझ निकला, और £10 सालाना किराए पर दे दिया",
-   "teaser": "Short 2 (समंदर वाली ज़मीन), फिर हम्पी",
+   "teaser": "none (outro asks viewers to follow and name the next city)",
    "publish": {
     "yt_titles": [
      "मुंबई दहेज में दी गई थी? 😳 | Mumbai History #shorts",
      "सिर्फ़ £10 में किराए पर मुंबई! | Bombay Dowry 1661 #shorts"
     ],
     "yt_description": "1661 में बॉम्बे का टापू एक शाही शादी में दहेज बनकर इंग्लैंड गया, और 1668 में सिर्फ़ £10 सालाना किराए पर ईस्ट इंडिया कंपनी को दे दिया गया। असली सीन, एपिसोड 1.\nSources: Anglo-Portuguese Marriage Treaty (23 June 1661); Royal Charter of 27 March 1668.\n#mumbai #history #shorts",
-    "ig_caption": "दहेज में सोना नहीं... पूरा एक शहर! 🏝️👑\nअसली सीन, एपिसोड 1 🐺\n1661 में बॉम्बे दहेज बना, और 1668 में सिर्फ़ £10 सालाना किराए पर दे दिया गया।\nआज मुंबई का किराया कितना होना चाहिए? 👇\nअगली कहानी: वो ज़मीन जो कभी समंदर थी 🌊 फ़ॉलो करें!\n\n#mumbai #bombay #indianhistory #historyinhindi #mumbaihistory #reels #asliscene"
+    "ig_caption": "दहेज में सोना नहीं... पूरा एक शहर! 🏝️👑\nअसली सीन, एपिसोड 1 🐺\n1661 में बॉम्बे दहेज बना, और 1668 में सिर्फ़ £10 सालाना किराए पर दे दिया गया।\nआज मुंबई का किराया कितना होना चाहिए? और अगली कहानी किस शहर की हो? 👇\nऐसी ही अनसुनी कहानियों के लिए फ़ॉलो करें!\n\n#mumbai #bombay #indianhistory #historyinhindi #mumbaihistory #reels #asliscene"
    },
    "shots": [
     {
@@ -337,44 +337,30 @@
      "sfx": "a soft whoosh as he points"
     },
     {
-     "role": "outro",
-     "vo": "अगली कहानी: मुंबई की वो ज़मीन, जो कभी समंदर थी।",
-     "tts": "अगली कहानी: मुंबई की वो ज़मीन... जो कभी समंदर थी।",
-     "facts": [],
-     "vars": {
-      "topic_visual": "a city street",
-      "touch_action": "press the road, which cracks open to show blue sea water underneath"
-     },
-     "onscreen": "अगला: समंदर वाली ज़मीन 🌊",
-     "narrator": "touch_diorama",
-     "goal": "Tease the next story: land that was once sea.",
-     "sfx": "a road surface cracking, water bubbling up beneath"
-    },
-    {
-     "role": "outro",
-     "vo": "और फिर चलेंगे, हम्पी।",
-     "tts": "और फिर चलेंगे... हम्पी।",
-     "facts": [],
-     "vars": {
-      "map_note": "a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders"
-     },
-     "onscreen": "फिर: हम्पी",
-     "narrator": "map_present",
-     "goal": "Tease the next city: Hampi.",
-     "sfx": "a map marker humming softly as it glows"
-    },
-    {
      "role": "follow",
      "vo": "@follow",
      "tts": "@follow",
      "facts": [],
+     "narrator": "map_present",
+     "vars": {
+      "map_note": "many small markers glowing on cities all across India"
+     },
+     "onscreen": "फ़ॉलो करें ➕",
+     "goal": "Invite the viewer to follow for more untold city stories.",
+     "sfx": "markers chiming softly as they light up"
+    },
+    {
+     "role": "follow",
+     "vo": "@cityask",
+     "tts": "@cityask",
+     "facts": [],
+     "narrator": "sign_off",
      "vars": {
       "where": "the archive aisle"
      },
-     "onscreen": "फ़ॉलो करें ➕",
-     "narrator": "sign_off",
-     "goal": "Sign off and ask the viewer to follow.",
-     "sfx": "footsteps fading down the aisle, lantern creak"
+     "onscreen": "अगला शहर कौन सा? 👇",
+     "goal": "Ask viewers which city the next story should be about, then sign off.",
+     "sfx": "lantern creak, footsteps fading into the aisle"
     }
    ]
   },
@@ -384,14 +370,14 @@
    "title": "समंदर से छीना गया शहर",
    "hook_onscreen": "ये ज़मीन कभी समंदर थी!",
    "twist": "मुंबई बसाई नहीं गई, समंदर से छीनी गई; आज भी (कोस्टल रोड)",
-   "teaser": "Short 3 (अवाबाई का टोल-फ़्री रास्ता), फिर हम्पी",
+   "teaser": "none (outro asks viewers to follow and name the next city)",
    "publish": {
     "yt_titles": [
      "मुंबई की ज़मीन कभी समंदर थी! 🌊 | 7 Islands of Bombay #shorts",
      "7 टापू कैसे बने एक मुंबई? | Mumbai Reclamation History #shorts"
     ],
     "yt_description": "मुंबई कभी सात अलग टापू थी। हॉर्नबी वेलार्ड (1782-84), कॉज़वे और भराई से ये एक ज़मीन बनी, और कोस्टल रोड (2024) के लिए आज भी समंदर से ज़मीन ली गई। महालक्ष्मी मंदिर की कहानी लोक-कथा है। असली सीन, एपिसोड 2.\nSources: Harvard Hornby Vellard exhibit; Ministry of Culture (Indian Culture portal); MCGM heritage record.\n#mumbai #history #shorts",
-    "ig_caption": "आप मुंबई की जिस सड़क पर खड़े हैं, वो शायद कभी समंदर थी 🌊\nअसली सीन, एपिसोड 2 🐺\nआपका इलाक़ा कौन सा है? और समंदर से ज़मीन लेना, सही या ग़लत? 👇\nअगली कहानी: टोल-फ़्री रास्ते वाली अवाबाई। फ़ॉलो करें!\n\n#mumbai #bombay #sevenislands #indianhistory #historyinhindi #reels #asliscene"
+    "ig_caption": "आप मुंबई की जिस सड़क पर खड़े हैं, वो शायद कभी समंदर थी 🌊\nअसली सीन, एपिसोड 2 🐺\nआपका इलाक़ा कौन सा है? समंदर से ज़मीन लेना, सही या ग़लत? और अगली कहानी किस शहर की हो? 👇\nऐसी ही अनसुनी कहानियों के लिए फ़ॉलो करें!\n\n#mumbai #bombay #sevenislands #indianhistory #historyinhindi #reels #asliscene"
    },
    "shots": [
     {
@@ -728,43 +714,29 @@
      "sfx": "a soft whoosh as he points"
     },
     {
-     "role": "outro",
-     "vo": "अगली कहानी: वो औरत, जिसने अपने पैसों से समंदर पर रास्ता बनवाया।",
-     "tts": "अगली कहानी: वो औरत... जिसने अपने पैसों से समंदर पर रास्ता बनवाया।",
-     "facts": [],
-     "vars": {
-      "topic_visual": "a long stone causeway across a creek",
-      "touch_action": "set a tiny lantern down at the start of the causeway"
-     },
-     "onscreen": "अगला: अवाबाई",
-     "narrator": "touch_diorama",
-     "goal": "Tease the next story: the woman who paid for a road across the sea.",
-     "sfx": "a small lantern set down on stone"
-    },
-    {
-     "role": "outro",
-     "vo": "और फिर चलेंगे, हम्पी।",
-     "tts": "और फिर चलेंगे... हम्पी।",
-     "facts": [],
-     "vars": {
-      "map_note": "a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders"
-     },
-     "onscreen": "फिर: हम्पी",
-     "narrator": "map_present",
-     "goal": "Tease the next city: Hampi.",
-     "sfx": "a map marker humming as it glows"
-    },
-    {
      "role": "follow",
      "vo": "@follow",
      "tts": "@follow",
      "facts": [],
+     "narrator": "map_present",
      "vars": {
-      "where": "the sea wall at dusk"
+      "map_note": "many small markers glowing on cities all across India"
      },
      "onscreen": "फ़ॉलो करें ➕",
+     "goal": "Invite the viewer to follow for more untold city stories.",
+     "sfx": "markers chiming softly as they light up"
+    },
+    {
+     "role": "follow",
+     "vo": "@cityask",
+     "tts": "@cityask",
+     "facts": [],
      "narrator": "sign_off",
-     "goal": "Sign off and ask the viewer to follow.",
+     "vars": {
+      "where": "the archive aisle"
+     },
+     "onscreen": "अगला शहर कौन सा? 👇",
+     "goal": "Ask viewers which city the next story should be about, then sign off.",
      "sfx": "lantern creak, footsteps fading into the aisle"
     }
    ]
@@ -775,14 +747,14 @@
    "title": "टोल-फ़्री रास्ते वाली अवाबाई",
    "hook_onscreen": "शर्त: कोई टोल नहीं!",
    "twist": "दान की शर्त: कभी टोल नहीं; सड़क आज भी उनके नाम पर",
-   "teaser": "अगला शहर: हम्पी",
+   "teaser": "none (outro asks viewers to follow and name the next city)",
    "publish": {
     "yt_titles": [
      "एक औरत ने समंदर पर रास्ता बनवाया, शर्त: कोई टोल नहीं! | Mahim Causeway #shorts",
      "Lady Avabai की अनोखी शर्त | Mumbai History in Hindi #shorts"
     ],
     "yt_description": "1840-41 के आसपास माहिम की खाड़ी में नावें पलटीं। लेडी अवाबाई जमशेदजी जीजीभॉय ने डेढ़ लाख रुपये से ज़्यादा देकर माहिम कॉज़वे बनवाया (1845), इस शर्त पर कि कभी टोल नहीं लगेगा। सड़क आज भी लेडी जमशेदजी रोड कहलाती है। असली सीन, एपिसोड 3.\nSources: see research/mumbai/sources.md (F21, F36).\n#mumbai #history #shorts",
-    "ig_caption": "एक औरत ने अपने पैसों से समंदर पर रास्ता बनवाया, और शर्त रखी: कोई टोल नहीं 🙏\nअसली सीन, एपिसोड 3 🐺\nआपके शहर में भी ऐसा कोई दान वाला पुल है? 👇\nअगला शहर: हम्पी 🏛️ फ़ॉलो करें!\n\n#mumbai #mahim #bandra #indianhistory #historyinhindi #reels #asliscene"
+    "ig_caption": "एक औरत ने अपने पैसों से समंदर पर रास्ता बनवाया, और शर्त रखी: कोई टोल नहीं 🙏\nअसली सीन, एपिसोड 3 🐺\nआपके शहर में भी ऐसा कोई दान वाला पुल है? और अगली कहानी किस शहर की हो? 👇\nऐसी ही अनसुनी कहानियों के लिए फ़ॉलो करें!\n\n#mumbai #mahim #bandra #indianhistory #historyinhindi #reels #asliscene"
    },
    "shots": [
     {
@@ -1086,55 +1058,30 @@
      "sfx": "lantern creak, quiet room tone"
     },
     {
-     "role": "outro",
-     "vo": "अगला शहर: हम्पी।",
-     "tts": "अगला शहर: हम्पी।",
-     "facts": [],
-     "vars": {
-      "map_note": "a single glowing marker in Karnataka among tiny boulders and ruined temples"
-     },
-     "onscreen": "अगला शहर: हम्पी 🏛️",
-     "narrator": "map_present",
-     "goal": "Tease the next city: Hampi.",
-     "sfx": "a map marker humming as it glows"
-    },
-    {
-     "role": "outro",
-     "vo": "एक बड़े साम्राज्य की राजधानी, जो आज खंडहर है।",
-     "tts": "एक बड़े साम्राज्य की राजधानी... जो आज खंडहर है।",
-     "facts": [],
-     "size": "EWS",
-     "angle": "low",
-     "asset": "clip",
-     "prompt": "{SUTRADHAR} as a small figure walking between giant rounded boulders and ruined stone temple pillars rising to the top of frame, warm dusk light",
-     "motion": "Slow tilt up from the wolf to the tops of the boulders. End on the ruins against the sky.",
-     "onscreen": "खंडहर क्यों?",
-     "goal": "Show Hampi's giant boulders and ruins.",
-     "sfx": "dry wind over rocks, distant birds"
-    },
-    {
-     "role": "outro",
-     "vo": "आख़िर हुआ क्या था?",
-     "tts": "[curious] आख़िर हुआ क्या था?",
-     "facts": [],
-     "vars": {},
-     "onscreen": "आख़िर क्या हुआ?",
-     "narrator": "close_whisper",
-     "goal": "Leave the question open: what happened there?",
-     "sfx": "lantern flame flickering close by"
-    },
-    {
      "role": "follow",
      "vo": "@follow",
      "tts": "@follow",
      "facts": [],
+     "narrator": "map_present",
      "vars": {
-      "where": "giant boulders at dusk"
+      "map_note": "many small markers glowing on cities all across India"
      },
      "onscreen": "फ़ॉलो करें ➕",
+     "goal": "Invite the viewer to follow for more untold city stories.",
+     "sfx": "markers chiming softly as they light up"
+    },
+    {
+     "role": "follow",
+     "vo": "@cityask",
+     "tts": "@cityask",
+     "facts": [],
      "narrator": "sign_off",
-     "goal": "Sign off and ask the viewer to follow.",
-     "sfx": "lantern creak, footsteps fading among the rocks"
+     "vars": {
+      "where": "the archive aisle"
+     },
+     "onscreen": "अगला शहर कौन सा? 👇",
+     "goal": "Ask viewers which city the next story should be about, then sign off.",
+     "sfx": "lantern creak, footsteps fading into the aisle"
     }
    ]
   }

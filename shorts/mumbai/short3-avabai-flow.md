@@ -33,10 +33,8 @@ Timing: ESTIMATED from word count. After the ElevenLabs voice exists run `node t
 | 18 | और उसकी एक सड़क, आज भी उनके नाम पर है। लेडी जमशेदजी रोड। | MS low | image | - | - | 5.2 |
 | 19 | आज के ज़माने में, ऐसी शर्त कौन रखेगा? | CU eye | image | - | MUMBAI_LADY | 3.5 |
 | 20 | आप बताइए। | MCU low | ingredients | yes (lip-sync) | SUTRADHAR | 1.2 |
-| 21 | अगला शहर: हम्पी। | MS eye | ingredients | yes (lip-sync) | SUTRADHAR | 1.4 |
-| 22 | एक बड़े साम्राज्य की राजधानी, जो आज खंडहर है। | EWS low | ingredients | - | SUTRADHAR | 3.8 |
-| 23 | आख़िर हुआ क्या था? | CU eye | ingredients | yes (lip-sync) | SUTRADHAR | 1.8 |
-| 24 | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | CU low | ingredients | yes (lip-sync) | SUTRADHAR | 3.2 |
+| 21 | ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए। | MS eye | ingredients | yes (lip-sync) | SUTRADHAR | 3.5 |
+| 22 | और कमेंट में बताइए, अगली कहानी किस शहर की हो? | CU low | ingredients | yes (lip-sync) | SUTRADHAR | 4.2 |
 
 ## short3-s01 | ingredients | WS low | use first 3.9 s (estimate)
 Line: एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया...
@@ -391,21 +389,21 @@ Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing a
 ```
 
 ## short3-s21 | ingredients | MS eye | SPEAKS (lip-sync) | keep the whole 8 s clip
-Line: अगला शहर: हम्पी।
-On screen (added in edit): अगला शहर: हम्पी 🏛️
+Line: ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।
+On screen (added in edit): फ़ॉलो करें ➕
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Tease the next city: Hampi.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Invite the viewer to follow for more untold city stories.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
-Medium shot, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) standing beside a large carved relief map of India on the archive wall, body turned toward the camera, one paw resting on the map at a single glowing marker in Karnataka among tiny boulders and ruined temples, the lantern hanging from his other paw.
+Medium shot, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) standing beside a large carved relief map of India on the archive wall, body turned toward the camera, one paw resting on the map at many small markers glowing on cities all across India, the lantern hanging from his other paw.
 
 [Event Script]
-Stage 1 - line: Opening state as described above. From the first second, SUTRADHAR looks into the lens and says in Hindi, in a deep, calm, slightly smug storyteller voice: {अगला शहर: हम्पी।} While he speaks: Locked camera. Facing the lens, he taps the marker on the map; it pulses brighter while he keeps his eyes on the viewer. His mouth moves clearly and naturally with every syllable, jaw and lips shaping each word; when the line ends his mouth closes into his smirk. Only SUTRADHAR speaks.
+Stage 1 - line: Opening state as described above. From the first second, SUTRADHAR looks into the lens and says in Hindi, in a deep, calm, slightly smug storyteller voice: {ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।} While he speaks: Locked camera. Facing the lens, he taps the marker on the map; it pulses brighter while he keeps his eyes on the viewer. His mouth moves clearly and naturally with every syllable, jaw and lips shaping each word; when the line ends his mouth closes into his smirk. Only SUTRADHAR speaks.
 Stage 2 - hold: Continue from the previous stage. The line is finished; he holds the final pose with his mouth closed in his smirk, and the video ends holding this state.
 
 [Visual and Camera Treatment]
@@ -418,77 +416,22 @@ Audio: only SUTRADHAR's voice speaking the line, over near-silent room tone. No 
 Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s22 | ingredients | EWS low | use first 3.8 s (estimate)
-Line: एक बड़े साम्राज्य की राजधानी, जो आज खंडहर है।
-On screen (added in edit): खंडहर क्यों?
+## short3-s22 | ingredients | CU low | SPEAKS (lip-sync) | keep the whole 8 s clip
+Line: और कमेंट में बताइए, अगली कहानी किस शहर की हो?
+On screen (added in edit): अगला शहर कौन सा? 👇
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Show Hampi's giant boulders and ruins.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Ask viewers which city the next story should be about, then sign off.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
-Extreme wide shot, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) as a small figure walking between giant rounded boulders and ruined stone temple pillars rising to the top of frame, warm dusk light.
+Close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) close to the camera at the end of a dark archive aisle, lantern held low so its warm light catches his spectacles and the underside of his muzzle, the archive aisle receding into shadow behind him.
 
 [Event Script]
-Stage 1: Opening state as described above. Slow tilt up from the wolf to the tops of the boulders. End on the ruins against the sky. The video ends holding this final state.
-
-[Visual and Camera Treatment]
-Extreme wide shot, low angle looking up, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. 2D digital cartoon in a modern noir graphic-novel style: thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes on fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, rim light on edges. Every sign, page and banner is blank or carries unreadable squiggles.
-
-[Audio]
-Audio: dry wind over rocks, distant birds. No music, no speech.
-
-[Maintain Consistency]
-Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
-```
-
-## short3-s23 | ingredients | CU eye | SPEAKS (lip-sync) | keep the whole 8 s clip
-Line: आख़िर हुआ क्या था?
-On screen (added in edit): आख़िर क्या हुआ?
-Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
-```
-[Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Leave the question open: what happened there?
-
-[Reference Material Roles]
-Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
-
-[Subjects and Relationships]
-Close-up, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel)'s face close to the camera, lit only by the lantern held just below frame, golden-amber eyes over the brass rims of his spectacles, deep shadow on one side of his face.
-
-[Event Script]
-Stage 1 - line: Opening state as described above. From the first second, SUTRADHAR looks into the lens and says in Hindi, in a deep, calm, slightly smug storyteller voice: {आख़िर हुआ क्या था?} While he speaks: Very slow push-in. He leans a little closer, eyes narrowing as if sharing a secret. His mouth moves clearly and naturally with every syllable, jaw and lips shaping each word; when the line ends his mouth closes into his smirk. Only SUTRADHAR speaks.
-Stage 2 - hold: Continue from the previous stage. The line is finished; he holds the final pose with his mouth closed in his smirk, and the video ends holding this state.
-
-[Visual and Camera Treatment]
-Close-up, eye level, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. 2D digital cartoon in a modern noir graphic-novel style: thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes on fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, rim light on edges. Every sign, page and banner is blank or carries unreadable squiggles.
-
-[Audio]
-Audio: only SUTRADHAR's voice speaking the line, over near-silent room tone. No music, no sound effects.
-
-[Maintain Consistency]
-Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
-```
-
-## short3-s24 | ingredients | CU low | SPEAKS (lip-sync) | keep the whole 8 s clip
-Line: फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
-On screen (added in edit): फ़ॉलो करें ➕
-Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
-```
-[Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Sign off and ask the viewer to follow.
-
-[Reference Material Roles]
-Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
-
-[Subjects and Relationships]
-Close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) close to the camera at the end of a dark archive aisle, lantern held low so its warm light catches his spectacles and the underside of his muzzle, giant boulders at dusk receding into shadow behind him.
-
-[Event Script]
-Stage 1 - line: Opening state as described above. From the first second, SUTRADHAR looks into the lens and says in Hindi, in a deep, calm, slightly smug storyteller voice: {फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।} While he speaks: Locked camera. He looks into the lens; when he finishes he gives a slow knowing nod, turns and steps away into the shadows, his lantern glowing. His mouth moves clearly and naturally with every syllable, jaw and lips shaping each word; when the line ends his mouth closes into his smirk. Only SUTRADHAR speaks.
+Stage 1 - line: Opening state as described above. From the first second, SUTRADHAR looks into the lens and says in Hindi, in a deep, calm, slightly smug storyteller voice: {और कमेंट में बताइए, अगली कहानी किस शहर की हो?} While he speaks: Locked camera. He looks into the lens; when he finishes he gives a slow knowing nod, turns and steps away into the shadows, his lantern glowing. His mouth moves clearly and naturally with every syllable, jaw and lips shaping each word; when the line ends his mouth closes into his smirk. Only SUTRADHAR speaks.
 Stage 2 - hold: Continue from the previous stage. The line is finished; he holds the final pose with his mouth closed in his smirk, and the video ends holding this state.
 
 [Visual and Camera Treatment]

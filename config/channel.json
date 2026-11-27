@@ -60,7 +60,7 @@
     "cadence": "1 long video + 2-3 Shorts per week"
   },
   "shorts_template": {
-    "status": "DEFAULT for every Short/Reel (owner 2026-11-27, v2)",
+    "status": "DEFAULT for every Short/Reel (owner 2026-11-27, v3: new outro)",
     "length": "about 60-75 s (owner accepted 71-73 s on 2026-11-27): 150-175 spoken words, ElevenLabs speed 1.1-1.15",
     "order": [
       "1. HOOK (0-3 s): shock line or question, 5-12 words",
@@ -69,11 +69,10 @@
       "4. MID INTERACTION (around 40-60%): one line that talks to the viewer (imagine / are you from / tell us)",
       "5. PAYOFF: pay the hook",
       "6. COMMENT QUESTION: one question viewers can answer in a word or a number",
-      "7. NEXT TEASER: next Short of the same city + next city from tracker; last Short of a city teases the next city only",
-      "8. FOLLOW LINE: follow_line (one ask, joined to the teaser)"
+      "7. OUTRO (owner 2026-11-27): two lines, always the same: follow_line, then city_ask_line. No next-story/next-city teaser"
     ],
     "intro_line": "स्वागत है, असली सीन के {ordinal} एपिसोड में। मैं हूँ सूत्रधार, और आज की कहानी, {city} की।",
-    "follow_line": "फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।",
+    "follow_line": "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।",
     "mid_interaction_examples": [
       "सोचिए, आप राजा होते, तो क्या करते?",
       "अगर आप {city} से हैं, तो अपना इलाक़ा कमेंट में लिखिए।",
@@ -102,7 +101,10 @@
     "ordinal_rule": "Episodes count every Short in posting order across cities (Mumbai Short 1 = पहले). Past 10: write '<number>वें', e.g. ग्यारहवें, बारहवें.",
     "prompts": "All prompts come from prompts/library.json; build files with: node tools/build-shorts.mjs <slug>",
     "shots": "one narration line = one shot; narrator_shots bank for the wolf's lines; people as people in story lines",
-    "max_seconds": 75
+    "max_seconds": 75,
+    "follow_tts": "ऐसी ही अनसुनी कहानियों के लिए... फ़ॉलो कीजिए।",
+    "city_ask_line": "और कमेंट में बताइए, अगली कहानी किस शहर की हो?",
+    "city_ask_tts": "और कमेंट में बताइए... अगली कहानी किस शहर की हो?"
   },
   "show": {
     "name": "असली सीन",

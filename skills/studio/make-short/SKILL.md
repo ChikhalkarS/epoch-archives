@@ -19,8 +19,7 @@ Self-contained, own hook, surprising payoff. Only `verified`, `disputed` (both v
 4. **Viewer line** (40-60%): talks to the viewer.
 5. **Payoff**.
 6. **Comment question** + "कमेंट में लिखिए/बताइए।"
-7. **Next teaser**: next Short's topic + "और फिर चलेंगे, <next city>।"; the last Short of a city teases the next city only.
-8. **Follow line** (`@follow`).
+7. **Outro** (owner's default, two lines, always the same): `@follow` "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।" then `@cityask` "और कमेंट में बताइए, अगली कहानी किस शहर की हो?" No next-story or next-city teaser. Shots: `map_present` (markers glowing on cities across India) then `sign_off`.
 
 Length 150-170 spoken words (build warns outside 140-175). One line = 1-18 words.
 
