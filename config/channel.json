@@ -4,7 +4,7 @@
   "niche": "Indian city histories: founding, rulers, wars, trade, culture, food, geography, strange facts",
   "language": {
     "narration": "hi",
-    "script": "Devanagari Hindi, simple spoken Hindustani (avoid heavy Sanskritised or Urdu words)",
+    "script": "Casual everyday Hindi in तुम-form with light natural Hinglish (सीन, ट्विस्ट, लिस्ट); simple, Gen Z friendly; no heavy Sanskrit or Urdu",
     "titles": "bilingual: Hindi + English keywords",
     "english_version": false
   },
@@ -33,8 +33,8 @@
   "voice": {
     "status": "CHOSEN 2026-11-27",
     "engine": "google-flow (Veo 3.1 Lite native audio)",
-    "description": "Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.",
-    "notes": "Owner rejected edge-tts Madhur samples. Flow cannot lock one exact voice: same VOICE block in every prompt, regenerate clips whose voice drifts. Fallback if drift is too high: fixed TTS voice (Gemini TTS / Sarvam) + finishing step."
+    "description": "Sutradhar's voice, a deep heavy resonant Indian male voice, soft and calm with a curious warmth, like a cool elder brother sharing a secret, smooth brisk short-video pace of about three words per second, relaxed casual everyday Hindi.",
+    "notes": "Google Flow native voice, same VOICE block in every prompt. Heavy, soft, calm, brisk (~3 words/s)."
   },
   "style": {
     "visual": "2D vintage noir storybook cartoon (Quiet Wolf style family, own characters)",
@@ -49,5 +49,13 @@
     "earlier_tier": "500 subs + 3000 watch hours/12 months OR 3M Shorts views/90 days (fan funding, Shopping)",
     "cadence": "4 Shorts/week (Mon, Tue, Thu, Sat) + 1 long episode every 2 weeks (Sun); Google AI Pro credits",
     "target": "1000 subs + 8000 long-form watch hours within 12 months of EP1; stretch: in YPP before 2027-02-01"
+  },
+  "brand": {
+    "channel": "Epoch Archive",
+    "spoken_brand": "आर्काइव फ़ाइल्स",
+    "format": "असली सीन",
+    "numbering": "फ़ाइल 001, 002… continuous across Shorts and long videos",
+    "title_pattern": "[Topic] का असली सीन 🔍 | फ़ाइल 001",
+    "vision": "studio/VISION.md"
   }
 }

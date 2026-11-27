@@ -43,4 +43,4 @@ CONSTRAINTS: <CONSTRAINTS block>
 - Pattern break every 6–8 clips: map, evidence object, Sutradhar, then-vs-now, myth stamp.
 
 ## Shorts
-At the end: 3–4 Shorts, each 4–6 clips at 9:16, re-prompted natively in Portrait (cinematic-director: vertical is not cropped horizontal). Each one opens with a number/object hook line and ends with "पूरी कहानी, चैनल पर एपिसोड एक में।"
+At the end: 3–4 Shorts, each 4–6 clips at 9:16, re-prompted natively in Portrait (cinematic-director: vertical is not cropped horizontal). Each one opens with a number/object hook line and ends with the reusable end clip "अगली फ़ाइल किसकी खुलेगी, देखना है? तो फ़ॉलो करना मत भूलना!"

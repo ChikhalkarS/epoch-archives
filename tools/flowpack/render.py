@@ -8,8 +8,8 @@ ROLE="The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, wa
 wc=lambda s: len(s.replace("...","").split()) if s else 0
 def dur(c):
     if c['kind']=='sil': return 3 if c['sec']=='Logo' else 8
-    return min(8,max(4,math.ceil(wc(c['line'])/2+1.5)))
-bad=[(c['id'],wc(c['line'])) for c in ep.C if wc(c['line'])>16]
+    return min(8,max(4,math.ceil(wc(c['line'])/2.8+1.2)))
+bad=[(c['id'],wc(c['line'])) for c in ep.C if wc(c['line'])>18]
 assert not bad, bad
 def block(c,vertical=False,cid=None,line=None,sec=None):
     line=line if line is not None else c['line']; cid=cid or c['id']; sec=sec or c['sec']

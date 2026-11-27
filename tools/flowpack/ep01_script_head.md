@@ -1,4 +1,4 @@
-# EP1: भोपाल की झीलें, क़ुदरत ने नहीं बनाईं (ep01-bhopal-jheel)
+# भोपाल की झीलों का असली सीन (long) · आर्काइव फ़ाइल्स (ep01-bhopal-jheel)
 Runtime ≈ {RUNTIME} (sum of clip "use" lengths; trim in Scenebuilder) · {WORDS} Hindi words · {CLIPS} clips · Research: `research.md`
 
 ## Brief (scriptwriting skill)

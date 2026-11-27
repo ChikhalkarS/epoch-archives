@@ -27,7 +27,7 @@ SUTRADHAR: an anthropomorphic Indian Bengal fox who walks upright, drawn as a 2D
 ```
 **VOICE block** (in every prompt with speech, unchanged):
 ```
-VOICE: Sutradhar's voice, a deep resonant Indian male voice, soft and curious, fast energetic short-video narrator pace of about three words per second, punchy and lively, never slow, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep heavy resonant Indian male voice, soft and calm with a curious warmth, like a cool elder brother sharing a secret, smooth brisk short-video pace of about three words per second, relaxed casual everyday Hindi.
 ```
 - Ingredient: `Sutradhar sheet` (see `studio/ref/README.md`). Role line: `The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, waistcoat and satchel only; ignore its grey background and panel layout.`
 - His room (`Archive room` ingredient): a cluttered old archive with wooden shelves of scrolls, a brass oil lamp, and a large old painted map of India on the back wall.

@@ -1,4 +1,4 @@
-# EP1 Google Flow prompt pack: भोपाल की झीलें (ep01-bhopal-jheel)
+# Google Flow prompt pack: भोपाल की झीलों का असली सीन (long video, ep01-bhopal-jheel)
 {CLIPS} clips → ≈ {RUNTIME} after trimming. Every prompt is complete: paste the whole block into Flow.
 
 ## Owner checklist

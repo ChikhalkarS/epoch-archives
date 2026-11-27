@@ -1,4 +1,5 @@
 # Epoch Archive format
+> Brand, numbering, tone and the 2-year roadmap: `studio/VISION.md` (channel = आर्काइव फ़ाइल्स, format = असली सीन, files 001…). This file covers structure and devices.
 
 **One line:** a curious, hidden-facts driven Hindi animated documentary series. It asks a question about an Indian city (or brand or habit) that you never thought to ask, then overturns what you assumed three times.
 

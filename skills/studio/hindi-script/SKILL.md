@@ -19,10 +19,11 @@ Message (one repeatable line), viewer (who, believing what), feeling arc, struct
 | 1:15–7:15 | राज़ 1, 2, 3 | Each: AND (context) → BUT (the flip) → THEREFORE (what it means) → open loop into the next. Signpost: "राज़ नंबर दो…". At least one evidence card per reveal. |
 | inside राज़ 3 | सच या झूठ? | The myth spoken as people say it → `[beat]` → verdict with reason and sources. |
 | 7:15–8:45 | आज भी दिखता है | Concrete places and objects to visit. |
-| 8:45–9:30 | Closer | Answer the hook in one line → moral line → next-EP question → catchphrase "इतिहास याद रखिए… सवाल पूछते रहिए।" One ask only (subscribe *or* comment, not both). |
+| 8:45–9:30 | Closer | Answer the hook in one line → moral line → next-EP question → end line "अगली फ़ाइल किसकी खुलेगी, देखना है? तो सब्सक्राइब करना मत भूलना!" One ask only (subscribe *or* comment, not both). |
 
 ## Hindi for the ear
-- Simple spoken Hindustani a 14-year-old follows. Write in **clip lines of ≤ 16 words** (one Flow clip = 8 s ≈ 16 words max). Mostly 8–14 words, with one short line for each payoff.
+- **Tone (see `studio/VISION.md`):** casual everyday Hindi in तुम-form (सोचो, देखो, बताओ), light natural Hinglish (सीन, ट्विस्ट, लिस्ट), calm and cool, never slangy about people or faiths. Use the fixed lines: welcome, "पर असली सीन तो अब शुरू होता है!", "तो असली सीन क्या है?", and the end line "अगली फ़ाइल किसकी खुलेगी, देखना है? तो फ़ॉलो करना मत भूलना!"
+- Simple spoken Hindustani a 14-year-old follows. Write in **clip lines of 14–18 words** (one Flow clip = 8 s at ~3 words/s; fill 6–7 s, never under 4 s of speech). Mostly 8–14 words, with one short line for each payoff.
 - Numbers written as Hindi words ("सत्रह सौ चौरानवे"). One number per sentence. Sources are spoken ("इम्पीरियल गज़ेटियर, उन्नीस सौ आठ के मुताबिक़"), since Flow can't render on-screen text.
 - Mark pauses `[beat]` before each reveal line. Use commas for breath (TTS reads them).
 - Hindi AI tells to cut: "आइए जानते हैं", "क्या आप जानते हैं" as an opener, "दिलचस्प बात ये है", "सिर्फ़ X नहीं, बल्कि Y" (max once), "सोचिए…" (max once), stacked rhetorical question+answer, "एक नया अध्याय", "इतिहास के पन्नों में", "रोचक सफ़र".
@@ -36,3 +37,6 @@ Also write `episodes/<ep>/cast.md`: the supporting animals for this episode, fol
 
 ## File format
 Brief, then the timed table `| Time | Section | Narration (one clip line per row) |`, then `## Short candidates` (3–4: shot range, standalone hook, why it works alone) and `## Flags for owner`.
+
+## Short template (45–55 s, 8–9 clips)
+Hook (surprising claim + action in frame 1) → welcome ("स्वागत है आर्काइव फ़ाइल्स में! फ़ाइल नंबर N…") → popular story with numbers → "पर असली सीन तो अब शुरू होता है!" → evidence → "तो असली सीन क्या है?" verdict → reusable end clip. The story must close: no step from cause to effect skipped.
