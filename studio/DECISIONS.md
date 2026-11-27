@@ -18,6 +18,7 @@ Newest at the bottom. The file named in each row has the detail. Claude reads th
 | 13 | 2026-11-27 | Brand: channel **Epoch Archive**, spoken as **आर्काइव फ़ाइल्स**. Format **असली सीन**. Continuous numbering **फ़ाइल 001…**. Playlists instead of separate series | `studio/VISION.md` |
 | 14 | 2026-11-27 | Tone: **Gen Z, casual तुम-form Hindi**, light Hinglish. Fixed lines: welcome, "पर असली सीन तो अब शुरू होता है!", end "अगली फ़ाइल किसकी खुलेगी, देखना है? तो फ़ॉलो करना मत भूलना!" (reusable clip) | `studio/VISION.md` |
 | 15 | 2026-11-27 | फ़ाइल 001 = Bhopal Short "भोपाल की गुम झील का असली सीन" (Hoshang Shah story → विवादित) | `episodes/ep01-bhopal-jheel/shorts/sh01-30-saal/` |
+| 16 | 2026-11-27 | Play safe for फ़ाइल 001: one shot per clip as written. Multi-shot timestamped prompts (2–3 cuts per 8 s clip) to be tried later | this log |
 
 ## Open (waiting for the owner)
 - Gate 1 approval of the Bhopal long-video script (`episodes/ep01-bhopal-jheel/script_hi.md`).
