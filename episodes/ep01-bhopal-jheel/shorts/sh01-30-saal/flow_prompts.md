@@ -88,7 +88,7 @@ SCENE: A study in the 1880s lit by a kerosene lamp: an anthropomorphic badger sc
 ACTION: The badger runs his pen along a line of the manuscript, stops, nods with confidence and writes a quick note in his notebook; he keeps writing.
 CAMERA: Medium shot, eye level, 50mm, slow push-in past the badger's shoulder onto the manuscript.
 LIGHTING: Warm kerosene lamp light from camera-right, deep shadows, dark vignette.
-VOICE-OVER (Sutradhar, off-screen, Hindi): "पर असली सीन तो अब शुरू होता है! शोध कहता है, अठारह सौ अठासी में एक अंग्रेज़ ने किताब ग़लत पढ़ी।"
+VOICE-OVER (Sutradhar, off-screen, Hindi): "पर असली सीन अब शुरू होता है! शोध कहता है, अठारह सौ अठासी में एक अंग्रेज़ ने किताब ग़लत पढ़ी।"
 VOICE: Sutradhar's voice, a deep heavy resonant Indian male voice, soft and calm with a curious warmth, like a cool elder brother sharing a secret, smooth brisk short-video pace of about three words per second, relaxed casual everyday Hindi.
 AMBIENCE: a clock ticking, the soft hiss of a kerosene lamp. SFX: a sharp record-scratch at the very start, then a pen nib scratching, a page turning, and a low dramatic riser at the end.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.

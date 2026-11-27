@@ -243,7 +243,7 @@ c("C55","राज़ 3: सच या झूठ?","cam",ARCH+" The open paper l
 c("C56","राज़ 3: सच या झूठ?","cam",ARCH+" The open paper ledger on the desk under the raised rubber stamp.",
  "Sutradhar brings the stamp down firmly onto the ledger page and lifts it, leaving a large round amber-orange ink stamp mark with an abstract emblem; he taps the mark once and looks up at the lens.",
  "Medium close shot framing Sutradhar's face and the ledger together, slight high angle, 50mm, locked, the camera does not move.",LAMP,ROOMTONE,"a heavy stamp thump, then a soft drum hit",
- "जवाब है, विवादित।","F14, F15, F16")
+ "जवाब है, विवादित। और क्यों, ये सुनकर तुम चौंक जाओगे।","F14, F15, F16")
 c("C57","राज़ 3: सच या झूठ?","vo",ARCH+" An old 19th-century journal volume with a faded maroon cloth cover lies under the lamp.",
  "The journal opens slowly and its pages fan to a page of dense abstract squiggle text; the lamp flame flickers and steadies.",
  "Close-up, high angle, 50mm, slow push-in.",LAMP,ROOMTONE,"pages turning",
@@ -372,9 +372,4 @@ c("C87","End screen","sil",ARCH+" On the desk stand two empty wooden picture fra
  "The lamp flame flickers gently; everything else stays still.",
  "Wide shot, eye level, 35mm, locked, the camera does not move.",LAMP,"quiet room tone, faint flame flicker","")
 END="अगली फ़ाइल किसकी खुलेगी, देखना है? तो फ़ॉलो करना मत भूलना!"
-SHORTS=[
- dict(id="SH1",title="3 महीने, 3 साल, 30 साल",hook="एक झील को मिटाने में, तीस साल लगे? ये कहानी, सच है या नहीं?",hook_action="Sutradhar taps his rolled scroll three times against his open paw, then holds the scroll still and raises one eyebrow at the lens.",clips=["C51","C52","C53","C54","C56"],end=END),
- dict(id="SH2",title="भोपाल की नदी, जिसकी दिशा बदल दी गई",hook="भोपाल में एक नदी, हज़ार साल से, दूसरी दिशा में बह रही है।",hook_action="Sutradhar draws a slow curving line in the air with his rolled scroll and ends with the scroll pointing to his right; he holds the pose.",clips=["C16","C17","C18","C19","C20","C21"],end=END),
- dict(id="SH3",title="365 धाराओं वाली झील",hook="एक राजा की बीमारी, और तीन सौ पैंसठ धाराओं वाली झील। ये लोक-कथा सुनिए।",hook_action="Sutradhar opens his hand and lets a small stream of white pebbles pour from his palm onto the desk; he looks at the lens.",clips=["C24","C25","C26","C27","C28"],end=END),
- dict(id="SH4",title="झील का टापू, जहाँ डाकू छिपते थे?",hook="एक शोध के मुताबिक़, भोपाल की झील के टापू पर, कभी डाकू छिपते थे।",hook_action="Sutradhar lifts a tiny boat from the desk and sets it down beside a small island; he looks up at the lens.",clips=["C60","C61","C62","C63"],end=END),
-]
+SHORTS=[]  # Shorts are now standalone files, built from the Short template (see episodes/<ep>/shorts/)

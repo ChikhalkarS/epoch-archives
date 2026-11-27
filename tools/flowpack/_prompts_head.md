@@ -1,5 +1,5 @@
 # Google Flow prompt pack: भोपाल की झीलों का असली सीन (long video, ep01-bhopal-jheel)
-{CLIPS} clips → ≈ {RUNTIME} after trimming. Every prompt is complete: paste the whole block into Flow.
+{CLIPS} clips → ≈ {RUNTIME} after trimming. Shorts for this topic live in `shorts/` (one standalone file each). Every prompt is complete: paste the whole block into Flow.
 
 ## Owner checklist
 1. **Once:** make the ingredients **Sutradhar sheet** and **Archive room** (`studio/ref/README.md`).

@@ -53,7 +53,7 @@ P.append("\n## Prompts (16:9)\n")
 for c in ep.C: P.append(block(c)+"\n")
 # ---- shorts
 byid={c['id']:c for c in ep.C}
-P.append("\n## Shorts (9:16, re-prompted natively in Portrait)\nEach Short: generate these blocks in Portrait, stitch in a new Scenebuilder project, 30-45 s. Title and description are in `youtube.md`.\n")
+if ep.SHORTS: P.append("\n## Shorts (9:16, re-prompted natively in Portrait)\nEach Short: generate these blocks in Portrait, stitch in a new Scenebuilder project, 30-45 s. Title and description are in `youtube.md`.\n")
 for s in ep.SHORTS:
     P.append(f"### {s['id']} · \"{s['title']}\"\n")
     hook=dict(byid['C55']); hook.update(line=s['hook'], scene=ep.ARCH, action=s['hook_action'], camera="Medium close shot, eye level, 50mm, slow push-in.", sfx="a low rising whoosh")

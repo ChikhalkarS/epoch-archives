@@ -44,3 +44,6 @@ CONSTRAINTS: <CONSTRAINTS block>
 
 ## Shorts
 At the end: 3–4 Shorts, each 4–6 clips at 9:16, re-prompted natively in Portrait (cinematic-director: vertical is not cropped horizontal). Each one opens with a number/object hook line and ends with the reusable end clip "अगली फ़ाइल किसकी खुलेगी, देखना है? तो फ़ॉलो करना मत भूलना!"
+
+## Before handing prompts to the owner
+Run `python3 tools/flowpack/validate.py <flow_prompts.md>` and fix every issue (rules in `studio/DECISIONS.md` #20).
