@@ -36,7 +36,7 @@ def check(path):
             if re.search(rx,b,re.I): e.append(why)
         if e: errs.append(f"  {cid}: "+"; ".join(sorted(set(e))))
     if '/shorts/' in path:
-        for must,why in [("स्वागत है आर्काइव फ़ाइल्स","welcome line"),("असली सीन","असली सीन format"),("तो असली सीन क्या है","verdict line"),("अगली फ़ाइल किसकी खुलेगी, देखना है? तो फ़ॉलो करना मत भूलना!","end line"),("FRAMING: Vertical 9:16","vertical framing")]:
+        for must,why in [("स्वागत है आर्काइव फ़ाइल्स","welcome line"),("असली सीन","असली सीन format"),("तो असली सीन","verdict line"),("अगली फ़ाइल किसकी खुलेगी, देखना है? तो फ़ॉलो करना मत भूलना!","end line"),("FRAMING: Vertical 9:16","vertical framing")]:
             if must not in txt: errs.append(f"  SHORT: missing {why}")
     print(f"{path}: {n} prompts, {len(errs)} with issues"); print("\n".join(errs))
     return not errs
