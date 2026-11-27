@@ -3,7 +3,7 @@
 
 Tool: Google Flow (Veo for clips, Imagen for stills). Aspect ratio: 9:16 portrait. Clip length: 8 s (Flow default); use the first seconds listed per shot, they are the cleanest. Generate 2-4 takes per clip and pick one.
 Audio: Audio is ambient sound only. Always end with 'No music, no speech.' The narration is ElevenLabs and music is added in the edit.
-Timing: ESTIMATED from word count. After the ElevenLabs voice exists run `node tools/time-voice.mjs mumbai short1-dowry` and rebuild; the seconds below then become exact.
+Timing: measured from the ElevenLabs voice (81.74 s, assets/mumbai/shorts/short1-dowry/voice.mp3).
 
 ## Order of work
 1. Character references (once, reused every episode): SUTRADHAR -> prompts/characters/SUTRADHAR/sheet.png; MUMBAI_PRINCESS -> prompts/characters/MUMBAI_PRINCESS/sheet.png; MUMBAI_KING -> prompts/characters/MUMBAI_KING/sheet.png; MUMBAI_MERCHANT -> prompts/characters/MUMBAI_MERCHANT/sheet.png. Prompts in `prompts/LIBRARY.md`.
@@ -11,34 +11,34 @@ Timing: ESTIMATED from word count. After the ElevenLabs voice exists run `node t
 3. Clips: `ingredients` shots attach the listed sheets; `text` shots need nothing (or attach the still as first frame in Frames to Video for more control).
 4. Name files by shot id (e.g. `short1-s01.mp4`) and drop them in `assets/mumbai/shorts/short1-dowry/`.
 
-| # | Line | Shot | Flow mode | Attach | Use (s, est.) |
+| # | Line | Shot | Flow mode | Attach | Use (s) |
 |---|---|---|---|---|---|
-| 1 | दहेज में सोना नहीं, घोड़े नहीं... | CU low | text | - | 2.5 |
-| 2 | पूरा एक शहर! | MS top | text | - | 1.4 |
-| 3 | स्वागत है, असली सीन के पहले एपिसोड में। | WS low | ingredients | SUTRADHAR | 3.5 |
-| 4 | मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की। | MCU low | ingredients | SUTRADHAR | 3.8 |
-| 5 | सोलह सौ इकसठ। | ECU eye | image | - | 1.4 |
-| 6 | पुर्तगाल की राजकुमारी कैथरीन की शादी तय हुई, इंग्लैंड के राजा चार्ल्स द्वितीय से। | WS eye | image | MUMBAI_PRINCESS, MUMBAI_KING | 5.6 |
-| 7 | तब मुंबई, सात छोटे टापू थी। | EWS top | image | - | 2.5 |
-| 8 | और राज था पुर्तगालियों का। | MS low | image | - | 2.1 |
-| 9 | शादी के समझौते में, दहेज की लिस्ट बनी। | ECU high | image | - | 3.2 |
-| 10 | अफ़्रीका का टैंजियर। | MCU eye | image | - | 1.4 |
-| 11 | और भारत का, बॉम्बे। | CU high | image | - | 2 |
-| 12 | लेकिन ट्विस्ट यहाँ है। | CU eye | ingredients | SUTRADHAR | 1.8 |
-| 13 | दहेज हाथ आने में ही, चार साल लग गए। | MS eye | image | MUMBAI_KING | 3.8 |
-| 14 | और तब पता चला, ये तोहफ़ा नहीं, बहुत महँगा बोझ है। | WS high | image | MUMBAI_KING | 4.5 |
-| 15 | सोचिए, आप राजा होते, तो क्या करते? | MCU low | ingredients | SUTRADHAR | 3.1 |
-| 16 | राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे, ईस्ट इंडिया कंपनी को किराए पर दे दिया। | MS ots | ingredients | MUMBAI_KING, MUMBAI_MERCHANT | 6.3 |
-| 17 | और किराया? | MCU low | ingredients | SUTRADHAR | 1.2 |
-| 18 | साल का सिर्फ़ दस पाउंड! | ECU high | text | - | 2.4 |
-| 19 | वही दहेज वाला टापू, आज भारत की आर्थिक राजधानी कहलाता है। मुंबई। | EWS low | text | - | 4.9 |
-| 20 | अब बताइए, आज मुंबई का किराया कितना होना चाहिए? | MS high | ingredients | SUTRADHAR | 3.8 |
-| 21 | कमेंट में लिखिए। | CU low | ingredients | SUTRADHAR | 1.4 |
-| 22 | अगली कहानी: मुंबई की वो ज़मीन, जो कभी समंदर थी। | MS high | ingredients | SUTRADHAR | 4.2 |
-| 23 | और फिर चलेंगे, हम्पी। | MS ots | ingredients | SUTRADHAR | 2 |
-| 24 | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS eye | ingredients | SUTRADHAR | 3.2 |
+| 1 | दहेज में सोना नहीं, घोड़े नहीं... | CU low | text | - | 2.86 |
+| 2 | पूरा एक शहर! | MS top | text | - | 1.49 |
+| 3 | स्वागत है, असली सीन के पहले एपिसोड में। | WS low | ingredients | SUTRADHAR | 3.8 |
+| 4 | मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की। | MCU low | ingredients | SUTRADHAR | 4.17 |
+| 5 | सोलह सौ इकसठ। | ECU eye | image | - | 2.59 |
+| 6 | पुर्तगाल की राजकुमारी कैथरीन की शादी तय हुई, इंग्लैंड के राजा चार्ल्स द्वितीय से। | WS eye | image | MUMBAI_PRINCESS, MUMBAI_KING | 5.94 |
+| 7 | तब मुंबई, सात छोटे टापू थी। | EWS top | image | - | 3.47 |
+| 8 | और राज था पुर्तगालियों का। | MS low | image | - | 2.78 |
+| 9 | शादी के समझौते में, दहेज की लिस्ट बनी। | ECU high | image | - | 3.49 |
+| 10 | अफ़्रीका का टैंजियर। | MCU eye | image | - | 2.1 |
+| 11 | और भारत का, बॉम्बे। | CU high | image | - | 2.66 |
+| 12 | लेकिन ट्विस्ट यहाँ है। | CU eye | ingredients | SUTRADHAR | 1.88 |
+| 13 | दहेज हाथ आने में ही, चार साल लग गए। | MS eye | image | MUMBAI_KING | 3.73 |
+| 14 | और तब पता चला, ये तोहफ़ा नहीं, बहुत महँगा बोझ है। | WS high | image | MUMBAI_KING | 4.99 |
+| 15 | सोचिए, आप राजा होते, तो क्या करते? | MCU low | ingredients | SUTRADHAR | 3.65 |
+| 16 | राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे, ईस्ट इंडिया कंपनी को किराए पर दे दिया। | MS ots | ingredients | MUMBAI_KING, MUMBAI_MERCHANT | 6.32 |
+| 17 | और किराया? | MCU low | ingredients | SUTRADHAR | 1.24 |
+| 18 | साल का सिर्फ़ दस पाउंड! | ECU high | text | - | 2.91 |
+| 19 | वही दहेज वाला टापू, आज भारत की आर्थिक राजधानी कहलाता है। मुंबई। | EWS low | text | - | 6.39 |
+| 20 | अब बताइए, आज मुंबई का किराया कितना होना चाहिए? | MS high | ingredients | SUTRADHAR | 3.62 |
+| 21 | कमेंट में लिखिए। | CU low | ingredients | SUTRADHAR | 1.78 |
+| 22 | अगली कहानी: मुंबई की वो ज़मीन, जो कभी समंदर थी। | MS high | ingredients | SUTRADHAR | 4.83 |
+| 23 | और फिर चलेंगे, हम्पी। | MS ots | ingredients | SUTRADHAR | 2.22 |
+| 24 | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS eye | ingredients | SUTRADHAR | 2.83 |
 
-## short1-s01 | text | CU low | use first 2.5 s (estimate)
+## short1-s01 | text | CU low | use first 2.86 s
 Line: दहेज में सोना नहीं, घोड़े नहीं...
 On screen (added in edit): दहेज में पूरा शहर?!
 Flow: Text to Video: paste the prompt, no attachments.
@@ -62,7 +62,7 @@ Audio: a heavy wooden lid creaking open, a soft rising shimmer. No music, no spe
 Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s02 | text | MS top | use first 1.4 s (estimate)
+## short1-s02 | text | MS top | use first 1.49 s
 Line: पूरा एक शहर!
 On screen (added in edit): पूरा शहर!
 Flow: Text to Video: paste the prompt, no attachments.
@@ -86,7 +86,7 @@ Audio: gentle sea waves lapping, a distant gull. No music, no speech.
 Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s03 | ingredients | WS low | use first 3.5 s (estimate)
+## short1-s03 | ingredients | WS low | use first 3.8 s
 Line: स्वागत है, असली सीन के पहले एपिसोड में।
 On screen (added in edit): असली सीन 🐺
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -113,7 +113,7 @@ Audio: his footsteps on stone, the lantern's handle creaking softly, quiet archi
 Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s04 | ingredients | MCU low | use first 3.8 s (estimate)
+## short1-s04 | ingredients | MCU low | use first 4.17 s
 Line: मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की।
 On screen (added in edit): आज: मुंबई
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -140,7 +140,7 @@ Audio: parchment unrolling, a faint magical shimmer as the model rises. No music
 Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s05 | image | ECU eye | use first 1.4 s (estimate)
+## short1-s05 | image | ECU eye | use first 2.59 s
 Line: सोलह सौ इकसठ।
 On screen (added in edit): 1661
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
@@ -148,7 +148,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme close-up, eye level: a hand pressing a brass seal into hot red wax on the corner of a parchment treaty, candle flame beside it., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short1-s06 | image | WS eye | use first 5.6 s (estimate)
+## short1-s06 | image | WS eye | use first 5.94 s
 Line: पुर्तगाल की राजकुमारी कैथरीन की शादी तय हुई, इंग्लैंड के राजा चार्ल्स द्वितीय से।
 On screen (added in edit): कैथरीन 👑 चार्ल्स
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan. Attach: prompts/characters/MUMBAI_PRINCESS/sheet.png, prompts/characters/MUMBAI_KING/sheet.png.
@@ -156,7 +156,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, eye level: staged in depth down a long candle-lit table in a royal hall: the PRINCESS (young woman, dark ringlets with pearl pins, pale rose court gown with white lace collar, pearl necklace) near camera in the lower half of frame, the KING (thin moustache, long black curly wig, deep crimson velvet coat with gold trim, white lace cravat) at the far end higher in frame, the sealed treaty scroll in the middle of the table, tall arched windows behind him. Character lock: the PRINCESS always has dark brown centre-parted hair in tight ringlets with small pearl pins, a small beauty mark under the left eye, a pale rose silk gown with a wide white lace collar, a short single-strand pearl necklace, no crown; the KING always has a long black curly wig past the shoulders, a thin black moustache, a long pale face, a deep crimson velvet coat with gold trim and gold buttons, a white lace cravat; gold crown only in throne shots., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short1-s07 | image | EWS top | use first 2.5 s (estimate)
+## short1-s07 | image | EWS top | use first 3.47 s
 Line: तब मुंबई, सात छोटे टापू थी।
 On screen (added in edit): 7 टापू
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
@@ -164,7 +164,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme wide shot, top-down overhead view: seven small separate green islands scattered in a turquoise sea, tiny fishing sailboats between them, bright morning light., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short1-s08 | image | MS low | use first 2.1 s (estimate)
+## short1-s08 | image | MS low | use first 2.78 s
 Line: और राज था पुर्तगालियों का।
 On screen (added in edit): पुर्तगाली राज
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
@@ -172,7 +172,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, low angle looking up: a generic 16th century Portuguese soldier in a steel morion helmet and breastplate standing guard on a stone fort rampart above the sea, a plain red-and-white banner on a pole beside him, fishing boats far below., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short1-s09 | image | ECU high | use first 3.2 s (estimate)
+## short1-s09 | image | ECU high | use first 3.49 s
 Line: शादी के समझौते में, दहेज की लिस्ट बनी।
 On screen (added in edit): दहेज की लिस्ट
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
@@ -180,7 +180,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme close-up, high angle looking down: a hand with a feather quill writing lines of unreadable squiggles on a long parchment list that unrolls off the desk edge, ink pot and candle., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short1-s10 | image | MCU eye | use first 1.4 s (estimate)
+## short1-s10 | image | MCU eye | use first 2.1 s
 Line: अफ़्रीका का टैंजियर।
 On screen (added in edit): टैंजियर 🌍
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
@@ -188,7 +188,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium close-up, eye level: a tiny model of a walled white North African port town with a harbour and sailing ships, sitting on the candle-lit desk next to the list., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short1-s11 | image | CU high | use first 2 s (estimate)
+## short1-s11 | image | CU high | use first 2.66 s
 Line: और भारत का, बॉम्बे।
 On screen (added in edit): + बॉम्बे 🏝️
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
@@ -196,7 +196,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, high angle looking down: a clerk's hand placing a tiny palm-tree island model on the desk right beside the port town model, candle light., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short1-s12 | ingredients | CU eye | use first 1.8 s (estimate)
+## short1-s12 | ingredients | CU eye | use first 1.88 s
 Line: लेकिन ट्विस्ट यहाँ है।
 On screen (added in edit): ट्विस्ट!
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -223,7 +223,7 @@ Audio: a scroll snapping shut, a soft whoosh. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s13 | image | MS eye | use first 3.8 s (estimate)
+## short1-s13 | image | MS eye | use first 3.73 s
 Line: दहेज हाथ आने में ही, चार साल लग गए।
 On screen (added in edit): 4 साल ⏳
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan. Attach: prompts/characters/MUMBAI_KING/sheet.png.
@@ -231,7 +231,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, eye level: the KING (thin moustache, long black curly wig, deep crimson velvet coat with gold trim, white lace cravat) sitting at a window drumming his fingers on the sill beside a hourglass, a waiting sailing ship visible on the sea outside, evening light. Character lock: the KING always has a long black curly wig past the shoulders, a thin black moustache, a long pale face, a deep crimson velvet coat with gold trim and gold buttons, a white lace cravat; gold crown only in throne shots., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short1-s14 | image | WS high | use first 4.5 s (estimate)
+## short1-s14 | image | WS high | use first 4.99 s
 Line: और तब पता चला, ये तोहफ़ा नहीं, बहुत महँगा बोझ है।
 On screen (added in edit): तोहफ़ा या बोझ?
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan. Attach: prompts/characters/MUMBAI_KING/sheet.png.
@@ -239,7 +239,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, high angle looking down: the KING (thin moustache, long black curly wig, deep crimson velvet coat with gold trim, white lace cravat) slumped on his throne holding his forehead, surrounded by tall piles of bills and empty coin bags, the tiny island model on a velvet cushion at his feet, dim moody light. Character lock: the KING always has a long black curly wig past the shoulders, a thin black moustache, a long pale face, a deep crimson velvet coat with gold trim and gold buttons, a white lace cravat; gold crown only in throne shots., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short1-s15 | ingredients | MCU low | use first 3.1 s (estimate)
+## short1-s15 | ingredients | MCU low | use first 3.65 s
 Line: सोचिए, आप राजा होते, तो क्या करते?
 On screen (added in edit): आप क्या करते? 🤔
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -266,7 +266,7 @@ Audio: a throne creaking as he leans forward, quiet room tone. No music, no spee
 Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s16 | ingredients | MS ots | use first 6.3 s (estimate)
+## short1-s16 | ingredients | MS ots | use first 6.32 s
 Line: राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे, ईस्ट इंडिया कंपनी को किराए पर दे दिया।
 On screen (added in edit): 1668: किराए पर!
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/MUMBAI_KING/sheet.png, prompts/characters/MUMBAI_MERCHANT/sheet.png.
@@ -294,7 +294,7 @@ Audio: parchment passing hand to hand, ships' rigging creaking outside. No music
 Keep MUMBAI_KING, MUMBAI_MERCHANT identical to the ingredients in face, clothing and proportions in every frame. Character lock: the KING always has a long black curly wig past the shoulders, a thin black moustache, a long pale face, a deep crimson velvet coat with gold trim and gold buttons, a white lace cravat; gold crown only in throne shots; the MERCHANT always has a stocky build, a short brown beard, small pale-blue eyes, a plain brown wool coat with pewter buttons, a white linen collar, a wide-brimmed black hat, a leather-bound ledger. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s17 | ingredients | MCU low | use first 1.2 s (estimate)
+## short1-s17 | ingredients | MCU low | use first 1.24 s
 Line: और किराया?
 On screen (added in edit): किराया?
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -321,7 +321,7 @@ Audio: a single coin ringing softly as he lifts it. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s18 | text | ECU high | use first 2.4 s (estimate)
+## short1-s18 | text | ECU high | use first 2.91 s
 Line: साल का सिर्फ़ दस पाउंड!
 On screen (added in edit): सिर्फ़ £10 / साल 😳
 Flow: Text to Video: paste the prompt, no attachments.
@@ -345,7 +345,7 @@ Audio: one coin dropping, spinning and settling on paper. No music, no speech.
 Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s19 | text | EWS low | use first 4.9 s (estimate)
+## short1-s19 | text | EWS low | use first 6.39 s
 Line: वही दहेज वाला टापू, आज भारत की आर्थिक राजधानी कहलाता है। मुंबई।
 On screen (added in edit): दहेज ➜ मुंबई
 Flow: Text to Video: paste the prompt, no attachments.
@@ -369,7 +369,7 @@ Audio: evening city hum, distant traffic and sea. No music, no speech.
 Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s20 | ingredients | MS high | use first 3.8 s (estimate)
+## short1-s20 | ingredients | MS high | use first 3.62 s
 Line: अब बताइए, आज मुंबई का किराया कितना होना चाहिए?
 On screen (added in edit): आज का किराया?
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -396,7 +396,7 @@ Audio: a fingertip tap on a model tower, faint city hum. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s21 | ingredients | CU low | use first 1.4 s (estimate)
+## short1-s21 | ingredients | CU low | use first 1.78 s
 Line: कमेंट में लिखिए।
 On screen (added in edit): कमेंट 👇
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -423,7 +423,7 @@ Audio: a soft whoosh as he points. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s22 | ingredients | MS high | use first 4.2 s (estimate)
+## short1-s22 | ingredients | MS high | use first 4.83 s
 Line: अगली कहानी: मुंबई की वो ज़मीन, जो कभी समंदर थी।
 On screen (added in edit): अगला: समंदर वाली ज़मीन 🌊
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -450,7 +450,7 @@ Audio: a road surface cracking, water bubbling up beneath. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s23 | ingredients | MS ots | use first 2 s (estimate)
+## short1-s23 | ingredients | MS ots | use first 2.22 s
 Line: और फिर चलेंगे, हम्पी।
 On screen (added in edit): फिर: हम्पी
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -477,7 +477,7 @@ Audio: a map marker humming softly as it glows. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short1-s24 | ingredients | WS eye | use first 3.2 s (estimate)
+## short1-s24 | ingredients | WS eye | use first 2.83 s
 Line: फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
 On screen (added in edit): फ़ॉलो करें ➕
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
