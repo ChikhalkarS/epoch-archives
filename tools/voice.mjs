@@ -15,13 +15,9 @@ const outDir = r('assets', slug, 'voice');
 mkdirp(outDir);
 const tmp = r('assets', slug, 'voice', '.tmp.txt');
 
-let total = 0;
-for (const s of sb.scenes) {
-  if (only && s.id !== only) continue;
-  const out = `${outDir}/${s.id}.mp3`;
-  if (!s.vo?.trim()) { console.log(`${s.id}: no narration, skipped`); continue; }
-  if (exists(out) && !force) { total += duration(out); console.log(`${s.id}: exists`); continue; }
-  fs.writeFileSync(tmp, s.vo.trim());
+const sleep = (ms) => Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
+const ok = (f) => { try { return duration(f) > 0.3; } catch { return false; } };
+function synth(out) {
   if (v.engine === 'edge-tts') {
     const args = ['--voice', v.voice_id, `--rate=${v.rate || '+0%'}`, `--pitch=${v.pitch || '+0Hz'}`, '-f', tmp, '--write-media', out];
     if (process.env.HTTPS_PROXY) args.unshift('--proxy', process.env.HTTPS_PROXY);
@@ -31,6 +27,27 @@ for (const s of sb.scenes) {
   } else {
     throw new Error(`Voice engine "${v.engine}" not wired yet. Supported: edge-tts, gtts`);
   }
+}
+
+let total = 0;
+for (const s of sb.scenes) {
+  if (only && s.id !== only) continue;
+  const out = `${outDir}/${s.id}.mp3`;
+  if (!s.vo?.trim()) { console.log(`${s.id}: no narration, skipped`); continue; }
+  if (exists(out) && !force && ok(out)) { total += duration(out); console.log(`${s.id}: exists`); continue; }
+  fs.writeFileSync(tmp, s.vo.trim());
+  for (let attempt = 1; ; attempt++) {
+    try {
+      synth(out);
+      if (ok(out)) break;
+      throw new Error('empty audio');
+    } catch (e) {
+      fs.rmSync(out, { force: true });
+      if (attempt >= 5) { console.error(`${s.id}: failed after 5 tries (${String(e.message).split('\n')[0]})`); process.exitCode = 1; break; }
+      sleep(3000 * attempt);
+    }
+  }
+  if (!exists(out)) continue;
   const d = duration(out); total += d;
   console.log(`${s.id}: ${d.toFixed(1)}s`);
 }

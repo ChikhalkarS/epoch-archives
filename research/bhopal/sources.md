@@ -20,6 +20,11 @@
 | S16 | Wikipedia - Shah Jahan Begum of Bhopal | https://en.wikipedia.org/wiki/Shah_Jahan_Begum_of_Bhopal | Encyclopedia | med |
 | S17 | Shaharyar M. Khan, *The Begums of Bhopal* (I.B. Tauris, 2000) | book | Book | high (not yet read directly) |
 | S18 | Gaon Connection - Raja Bhoj, the great Bhojpur lake | https://www.gaonconnection.com/english/worlds-oldest-dam-bhojpur-lake-raja-bhoj-mandideep-madhya-pradesh-bhopal-india-history-lake-hom-51129/ | Media | low-med |
+| S20 | Incredible India - Taj-ul-Masjid | https://www.incredibleindia.gov.in/en/madhya-pradesh/bhopal/taj-ul-masjid | Govt | high |
+| S21 | Incredible India - 11 must-try street foods in Bhopal | https://www.incredibleindia.gov.in/en/madhya-pradesh/bhopal/11-must-try-street-foods-in-bhopal | Govt | med-high |
+| S22 | Deccan Herald - On a royal food trail in Bhopal | https://www.deccanherald.com/lifestyle/food-and-drink/on-a-royal-food-trail-in-bhopal-2996220 | Media | med |
+| S23 | Outlook Traveller - Food court of Bhopal | https://www.outlookindia.com/traveller/cuisine/food-court-of-bhopal/ | Media | med |
+| S24 | Swarajya - Food walk: do in Bhopal as the Bhopalis do | https://swarajyamag.com/culture/food-walk-do-in-bhopal-as-the-bhopalis-do | Media | med |
 | S19 | MP Tourism - The evolution of a name: Bhojtal | https://www.mptourism.com/the-evolution-of-a-name-bhojtal.html | Govt tourism | med |
 
 # Fact sheet
@@ -52,3 +57,9 @@
 | F24 | Bhoj Wetland (Upper + Lower Lake) is a Ramsar wetland of international importance since 2002 | S2 | verified |
 | F25 | Upper Lake is a major source of Bhopal's drinking water | S2, S3 | verified |
 | F26 | Upper Lake renamed Bhojtal in 2011 | S3, S19 | verified (med) |
+| F27 | Bhopali cuisine is described as a blend of Mughal and Afghan cooking, shaped under the Nawabs and Begums | S22, S23 | verified (med) |
+| F28 | Signature dishes include Bhopali gosht korma, rezala and filfora | S22, S23 | verified (med) |
+| F29 | Chatori Gali in Old Bhopal is the famous street-food lane (nihari, seekh kebab, paya) | S21, S23 | verified (med) |
+| F30 | Bhopali paan and Sulaimani chai are local signatures | S21, S24 | verified (med) |
+| F31 | Poha-jalebi is a popular Bhopal breakfast | S21, S24 | verified (med) |
+| F32 | Taj-ul-Masajid is described as the largest mosque in India | S20, S16 | verified |

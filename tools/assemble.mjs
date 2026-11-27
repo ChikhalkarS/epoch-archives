@@ -4,6 +4,7 @@
 //   --preview  renders 960x540 fast, for quick review.
 // Per scene: uses assets/<slug>/clips/<id>.mp4 if present, else assets/<slug>/images/<id>.(png|jpg|webp) with
 // a slow camera move, else a warm placeholder card. Audio: assets/<slug>/voice/<id>.mp3.
+// Scenes with short_only: true (e.g. a Short's own hook) are left out of the long video.
 // Shorts: storyboard.shorts[] = { id, scenes: [ids], mode: 'blur' (framed, default) | 'fill' (centre-crop) }.
 import fs from 'node:fs';
 import { r, channel, loadStoryboard, run, duration, mkdirp, exists } from './lib.mjs';
@@ -42,8 +43,9 @@ function renderScene(s) {
   const voice = A('voice', `${s.id}.mp3`);
   const dur = exists(voice) ? duration(voice) + PAD : (s.duration || 4);
   const out = `${work}/${s.id}${preview ? '-p' : ''}.mp4`;
-  const clip = findFile('clips', s.id, ['mp4', 'mov', 'webm']);
-  const img = findFile('images', s.id, ['png', 'jpg', 'jpeg', 'webp']);
+  const vid = s.reuse || s.id; // reuse: show another scene's image/clip with this scene's motion
+  const clip = findFile('clips', vid, ['mp4', 'mov', 'webm']);
+  const img = findFile('images', vid, ['png', 'jpg', 'jpeg', 'webp']);
   const N = Math.ceil(dur * FPS);
   let vIn, vf, kind;
   if (clip) {
@@ -63,7 +65,7 @@ function renderScene(s) {
   const aIn = exists(voice) ? ['-i', voice] : ['-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo'];
   run('ffmpeg', ['-y', '-v', 'error', ...vIn, ...aIn, '-filter:v', vf, '-filter:a', 'apad',
     '-map', '0:v', '-map', '1:a', '-t', dur.toFixed(3), ...enc, ...aenc, out]);
-  return { id: s.id, file: out, dur, kind, vo: s.vo || '' };
+  return { id: s.id, file: out, dur, kind, vo: s.vo || '', shortOnly: !!s.short_only };
 }
 
 function concat(parts, out) {
@@ -106,7 +108,7 @@ function srt(parts, out) {
 }
 
 function chapters(parts) {
-  const marks = sb.scenes.map((s, i) => ({ s, i })).filter(({ s }) => s.chapter);
+  const marks = sb.scenes.filter((s) => !s.short_only).map((s, i) => ({ s, i })).filter(({ s }) => s.chapter);
   let lines = [];
   for (const { s, i } of marks) {
     const t = parts.slice(0, i).reduce((a, p) => a + p.dur, 0);
@@ -134,10 +136,11 @@ const report = [];
 
 if (!flags.includes('--shorts-only')) {
   const raw = `${work}/long-raw.mp4`, long = `${outDir}/${slug}-long${suffix}.mp4`;
-  concat(parts, raw);
+  const longParts = parts.filter((p) => !p.shortOnly);
+  concat(longParts, raw);
   const music = withMusic(raw, long);
-  srt(parts, `${outDir}/${slug}-long.hi.srt`);
-  const ch = chapters(parts);
+  srt(longParts, `${outDir}/${slug}-long.hi.srt`);
+  const ch = chapters(longParts);
   if (ch) fs.writeFileSync(`${outDir}/${slug}-chapters.txt`, ch + '\n');
   const d = duration(long);
   report.push(`LONG  ${long}  ${(d / 60).toFixed(2)} min${music ? '' : '  (no music bed found)'}`);
