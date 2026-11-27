@@ -25,6 +25,8 @@ Newest at the bottom. The file named in each row has the detail. Claude reads th
 | 20 | 2026-11-27 | **Prompt checklist (enforced by `tools/flowpack/validate.py`, run before handing prompts to the owner):** current STYLE (2D noir), CONSTRAINTS (no text, no music, no cuts, never 3D), VOICE (heavy, soft, calm, brisk) in every speaking clip; SUTRADHAR wolf block + role line whenever he appears; Sultan role line on Sultan clips; 9:16 framing line on Shorts; lines ≤ 20 words; no fox, clay, single-finger gestures, grin or wink for Sutradhar, Western attire, "एपिसोड", polite आप-form, or old catchphrase. Shorts must have the welcome, असली सीन, verdict and end lines | `tools/flowpack/validate.py` |
 | 21 | 2026-11-27 | Old EP1-pack Shorts removed. Every Short is a standalone file in `episodes/<ep>/shorts/` | this log |
 | 22 | 2026-11-27 | Fix duplicate glasses: glasses are described only once (the SUTRADHAR block says "exactly one pair"), never in ACTION lines; the CONSTRAINTS block says accessories are never duplicated. The validator checks this | `studio/STYLE_BIBLE.md` |
+| 23 | 2026-11-27 | Scripts must feel human: write the whole story as one continuous narration first, then cut it into clips. Every cause leads to its effect; hedges used once where they matter | `skills/studio/sutradhar-voice/SKILL.md` |
+| 24 | 2026-11-27 | **Always open with a suspicious or curious tone**, and keep that tone in the dialogue throughout (a suspicious/curious beat every 2–3 lines). New dialogue-writer skill `sutradhar-voice` | `skills/studio/sutradhar-voice/SKILL.md` |
 
 ## Open (waiting for the owner)
 - Gate 1 approval of the Bhopal long-video script (`episodes/ep01-bhopal-jheel/script_hi.md`).

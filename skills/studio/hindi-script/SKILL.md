@@ -5,7 +5,7 @@ description: Write the timed Hindi (Devanagari) narration script for an Epoch Ar
 
 # Hindi script → `episodes/<ep>/script_hi.md`
 
-Load the vendor `scriptwriting` skill first and apply its doctrine, hook tracks, open loops and AI-tells scan. This file adds the channel and Hindi rules.
+Load the studio `sutradhar-voice` skill (how Sutradhar talks: always open suspicious or curious, one story first, clips second) and the vendor `scriptwriting` skill first and apply its doctrine, hook tracks, open loops and AI-tells scan. This file adds the channel and Hindi rules.
 
 ## Brief (top of the file)
 Message (one repeatable line), viewer (who, believing what), feeling arc, structure + reason (default: **SCQA opening + escalating explainer**, stacked ABTs per reveal), runtime, word count.

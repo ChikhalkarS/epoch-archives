@@ -7,6 +7,7 @@ Linked into `.claude/skills/` so Claude Code loads them. All are Markdown instru
 |---|---|
 | `studio/make-video` | `/make-video <city>`: full pipeline with Gate 1 and Gate 2 |
 | `studio/city-research` | Sourced fact sheet with verified/disputed/legend flags |
+| `studio/sutradhar-voice` | Dialogue writer: Sutradhar's suspicious/curious voice, one story first then clips |
 | `studio/hindi-script` | Hindi script in the hidden-facts format |
 | `studio/flow-prompts` | Shot plan + one Google Flow (Veo) prompt per clip: scene, Hindi dialogue/VO, camera, angle, light, SFX |
 | `studio/youtube-pack` | Titles, description with sources, tags, chapters |
