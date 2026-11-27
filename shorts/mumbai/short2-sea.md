@@ -1,136 +1,372 @@
-# Mumbai Short - समंदर से छीना गया शहर
-Format: 9:16, 1080x1920 | Words: 173 | ~67-72 s at fast pace (speed 1.1-1.15) | Platforms: YouTube Shorts + Instagram Reels
-Template: `config/channel.json` -> shorts_template (hook, brand intro, story, viewer line, payoff, comment question, next teaser, follow) | Status: waiting on Gate 1
+# असली सीन - एपिसोड 2: समंदर से छीना गया शहर
+<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v2. Edit those, not this file. -->
+City: मुंबई | Format: 9:16, 1080x1920 | Words: 173 | ~67-72 s at speed 1.1-1.15 | Shots: 25 (16 clips, 9 stills) | Status: waiting on Gate 1
 
-## Voice settings (ElevenLabs)
-- Model v3, voice Viraj, old-radio filter, speed about 1.1-1.15.
-- Audio tags ([excited], [curious], [sighs], [whispers]) are optional; delete any that sound odd. "..." = short pause.
-- Over 65 s? Raise speed slightly or drop one story scene, never the intro, viewer line, teaser or follow line.
+**Twist:** मुंबई बसाई नहीं गई, समंदर से छीनी गई; आज भी (कोस्टल रोड)  
+**Teaser:** Short 3 (अवाबाई का टोल-फ़्री रास्ता), फिर हम्पी  
+**On-screen hook (first 2 s):** ये ज़मीन कभी समंदर थी!
 
-## On-screen hook (first 2 s)
-ये ज़मीन कभी समंदर थी!
+## Voice (ElevenLabs)
+- eleven_v3, Viraj (Suspense Story ka Baadshah), natural, old-radio audio filter (applied in ElevenLabs by owner). Speed about 1.1-1.15.
+- Narrator: भेड़िया. Audio tags are optional; delete any that sound odd. "..." = short pause.
+- Over 65 s? Raise speed slightly or drop one story shot. Never drop the intro, viewer line, comment ask, teaser or follow line.
 
-## Narration with fact IDs (for checking)
-- (hook) आप मुंबई की जिस सड़क पर खड़े हैं... वो शायद कभी समंदर थी! [F16][F18]
-- (brand) नमस्ते, एपॉक आर्काइव्स में आपका स्वागत है। आज की कहानी, मुंबई की। (viewer/channel line, no fact)
-- (story) कभी मुंबई, सात अलग-अलग टापू थी। [F7]
-- (story) बीच में समंदर था। और ज्वार आते ही, निचली ज़मीन डूब जाती थी। [F16]
-- (interaction) मुंबई में रहते हैं? अपना इलाक़ा कमेंट में लिखिए। शायद वो भी, कभी समंदर था। (viewer/channel line, no fact)
-- (story) सत्रह सौ बयासी में, गवर्नर हॉर्नबी ने वरली के पास, एक बड़ी समुद्री दीवार शुरू करवाई। हॉर्नबी वेलार्ड। [F16]
-- (story) कहते हैं, दीवार बार-बार टूटती थी। फिर एक इंजीनियर के सपने के बाद, समंदर से देवी की मूर्तियाँ मिलीं, और बना महालक्ष्मी मंदिर। ये एक लोक-कथा है। [F20]
-- (payoff) फिर बने कॉज़वे, और उन्नीसवीं सदी के बीच तक, सात टापू, एक ज़मीन बन गए। [F19][F18]
-- (payoff) और आज भी, कोस्टल रोड के लिए, समंदर से ज़मीन ली गई। मुंबई बसाई नहीं गई। समंदर से छीनी गई। [F33][F34]
-- (comment) समंदर से ज़मीन लेना, सही या ग़लत? कमेंट में लिखिए। (viewer/channel line, no fact)
-- (outro) अगली कहानी: वो औरत, जिसने अपने पैसों से समंदर पर रास्ता बनवाया। और फिर चलेंगे, हम्पी। फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। (viewer/channel line, no fact)
-
-## ElevenLabs text (paste this)
+### Paste into ElevenLabs
 ```
-[curious] आप मुंबई की जिस सड़क पर खड़े हैं... वो शायद कभी समंदर थी!
-नमस्ते... एपॉक आर्काइव्स में आपका स्वागत है। आज की कहानी... मुंबई की।
+[curious] आप मुंबई की जिस सड़क पर खड़े हैं...
+वो शायद कभी समंदर थी!
+स्वागत है... असली सीन के दूसरे एपिसोड में।
+मैं हूँ भेड़िया... और आज की कहानी, मुंबई की।
 कभी मुंबई... सात अलग-अलग टापू थी।
-बीच में समंदर था। और ज्वार आते ही... निचली ज़मीन डूब जाती थी।
-मुंबई में रहते हैं? अपना इलाक़ा कमेंट में लिखिए। शायद वो भी... कभी समंदर था।
-सत्रह सौ बयासी में, गवर्नर हॉर्नबी ने वरली के पास, एक बड़ी समुद्री दीवार शुरू करवाई। हॉर्नबी वेलार्ड।
-कहते हैं... दीवार बार-बार टूटती थी। फिर एक इंजीनियर के सपने के बाद, समंदर से देवी की मूर्तियाँ मिलीं... और बना महालक्ष्मी मंदिर। ये एक लोक-कथा है।
-फिर बने कॉज़वे... और उन्नीसवीं सदी के बीच तक, सात टापू, एक ज़मीन बन गए!
-और आज भी, कोस्टल रोड के लिए, समंदर से ज़मीन ली गई। मुंबई बसाई नहीं गई... समंदर से छीनी गई।
-समंदर से ज़मीन लेना... सही या ग़लत? कमेंट में लिखिए।
-अगली कहानी: वो औरत... जिसने अपने पैसों से समंदर पर रास्ता बनवाया। और फिर चलेंगे... हम्पी। फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
+बीच में समंदर... और ज्वार में डूबती ज़मीन।
+मुंबई में रहते हैं?
+अपना इलाक़ा कमेंट में लिखिए।
+शायद वो भी... कभी समंदर था।
+सत्रह सौ बयासी में, गवर्नर हॉर्नबी ने वरली के पास, एक बड़ी समुद्री दीवार शुरू करवाई।
+हॉर्नबी वेलार्ड।
+कहते हैं... दीवार बार-बार टूटती थी।
+फिर एक इंजीनियर के सपने के बाद, समंदर से देवी की मूर्तियाँ मिलीं...
+और बना महालक्ष्मी मंदिर।
+ये एक लोक-कथा है।
+फिर बने कॉज़वे...
+और उन्नीसवीं सदी के बीच तक... सात टापू, एक ज़मीन बन गए!
+और आज भी, कोस्टल रोड के लिए, समंदर से ज़मीन ली गई।
+मुंबई बसाई नहीं गई...
+समंदर से छीनी गई।
+समंदर से ज़मीन लेना... सही या ग़लत?
+कमेंट में लिखिए।
+अगली कहानी: वो औरत... जिसने अपने पैसों से समंदर पर रास्ता बनवाया।
+और फिर चलेंगे... हम्पी।
+फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
 ```
 
-## Characters (clay people, not animals; make each reference once in Flow and attach it in every scene with that character)
-**SUTRADHAR:**
-```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, character reference sheet of the clay SUTRADHAR (small elderly storyteller, white beard, saffron-brown shawl, round spectacles, holding an old scroll), full body front view and close-up of face side by side, plain warm grey studio background, even soft light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
-```
-Historical figures are generic clay figures dressed for the era; names appear only in captions.
+## Characters (make once, attach as reference in every shot they appear in)
+Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at the paths below so every episode reuses them.
+- **BHEDIYA** (v1): prompts/characters/BHEDIYA/closeup.png, prompts/characters/BHEDIYA/sheet.png
 
-## Scenes (one Flow clip each, ~5-6 s)
-Negative prompt (if supported): `photorealistic, real photograph, 3D CGI render, glossy plastic, anime, cartoon line art, animals as main characters, text, letters, watermark, logo, extra fingers, distorted faces, gore, blood`
+## Shot list (one line = one shot)
+| # | Role | Line | Size / angle | Type | Sec | On screen | Facts |
+|---|---|---|---|---|---|---|---|
+| 1 | hook | आप मुंबई की जिस सड़क पर खड़े हैं... | CU / low | clip | 3.1 | ये ज़मीन कभी समंदर थी! | F16 F18 |
+| 2 | hook | वो शायद कभी समंदर थी! | MS / top | clip | 1.9 | समंदर! | F16 F18 |
+| 3 | brand | स्वागत है, असली सीन के दूसरे एपिसोड में। | WS / low | clip (walk_in v1) | 3.1 | असली सीन 🐺 | - |
+| 4 | brand | मैं हूँ भेड़िया, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v1) | 3.5 | आज: मुंबई | - |
+| 5 | story | कभी मुंबई, सात अलग-अलग टापू थी। | EWS / top | still | 2.3 | 7 टापू | F7 |
+| 6 | story | बीच में समंदर, और ज्वार में डूबती ज़मीन। | WS / eye | clip | 3.1 | ज्वार = बाढ़ | F16 |
+| 7 | interaction | मुंबई में रहते हैं? | MCU / low | clip (lean_in_question v1) | 1.5 | मुंबई में हैं? 📍 | - |
+| 8 | interaction | अपना इलाक़ा कमेंट में लिखिए। | CU / top | still | 1.9 | अपना इलाक़ा 👇 | - |
+| 9 | interaction | शायद वो भी, कभी समंदर था। | MS / high | still | 2.3 | शायद समंदर था! | - |
+| 10 | story | सत्रह सौ बयासी में, गवर्नर हॉर्नबी ने वरली के पास, एक बड़ी समुद्री दीवार शुरू करवाई। | WS / eye | clip | 6.2 | 1782 | F16 |
+| 11 | story | हॉर्नबी वेलार्ड। | CU / low | still | 1.2 | हॉर्नबी वेलार्ड | F16 |
+| 12 | story | कहते हैं, दीवार बार-बार टूटती थी। | MS / eye | still | 2.3 | कहते हैं... | F20 |
+| 13 | story | फिर एक इंजीनियर के सपने के बाद, समंदर से देवी की मूर्तियाँ मिलीं, | MCU / high | still | 5 | लोक-कथा ✨ | F20 |
+| 14 | story | और बना महालक्ष्मी मंदिर। | WS / low | still | 1.5 | महालक्ष्मी मंदिर | F20 |
+| 15 | story | ये एक लोक-कथा है। | CU / eye | clip (cut_in_finger v1) | 1.5 | लोक-कथा | F20 |
+| 16 | payoff | फिर बने कॉज़वे, | MS / low | still | 1.2 | कॉज़वे | F19 |
+| 17 | payoff | और उन्नीसवीं सदी के बीच तक, सात टापू, एक ज़मीन बन गए। | EWS / top | clip | 4.6 | 7 ➜ 1 | F18 |
+| 18 | payoff | और आज भी, कोस्टल रोड के लिए, समंदर से ज़मीन ली गई। | WS / high | still | 4.6 | आज भी: कोस्टल रोड | F33 F34 |
+| 19 | payoff | मुंबई बसाई नहीं गई। | MS / low | clip | 1.5 | बसाई नहीं... | - |
+| 20 | payoff | समंदर से छीनी गई। | ECU / high | clip | 1.5 | समंदर से छीनी गई 🌊 | - |
+| 21 | comment | समंदर से ज़मीन लेना, सही या ग़लत? | CU / eye | clip | 2.7 | सही या ग़लत? | - |
+| 22 | comment | कमेंट में लिखिए। | CU / low | clip (point_at_viewer v1) | 1.2 | कमेंट 👇 | - |
+| 23 | outro | अगली कहानी: वो औरत, जिसने अपने पैसों से समंदर पर रास्ता बनवाया। | MS / high | clip (touch_diorama v1) | 4.6 | अगला: अवाबाई | - |
+| 24 | outro | और फिर चलेंगे, हम्पी। | MS / ots | clip (map_tap_ots v1) | 1.5 | फिर: हम्पी | - |
+| 25 | follow | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS / eye | clip (walk_off v1) | 3.1 | फ़ॉलो करें ➕ | - |
 
-### short2-s01 (hook) | on-screen: ये ज़मीन कभी समंदर थी!
-VO: आप मुंबई की जिस सड़क पर खड़े हैं... वो शायद कभी समंदर थी!
-```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a tiny clay person standing on a city road, the road surface cracking open to reveal blue clay sea water and fish underneath, dusk light, low angle close shot, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
-```
-Motion: camera pushes down through the road into the water.
+## Shot prompts
+Negative prompt (if supported): `photorealistic, real photograph, 3D CGI render, glossy plastic, anime, cartoon line art, chibi, cute baby proportions, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood`
+Stills: generate the image and let the edit add a slow push/pan. Clips: generate the image first, check it, then animate it with the motion line (image-to-video), trim to the line length.
 
-### short2-s02 (brand) | on-screen: एपॉक आर्काइव्स | मुंबई
-VO: नमस्ते, एपॉक आर्काइव्स में आपका स्वागत है। आज की कहानी, मुंबई की।
+### short2-s01 | hook | CU low | clip
+VO: आप मुंबई की जिस सड़क पर खड़े हैं...
+On screen: ये ज़मीन कभी समंदर थी!
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the clay SUTRADHAR (small elderly storyteller, white beard, saffron-brown shawl, round spectacles, holding an old scroll) sitting on a wooden stool in a cosy lamp-lit archive room full of scrolls, he unrolls a scroll and a small clay map of the seven Bombay islands pops up from it, warm lamplight, medium shot facing camera, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, low angle looking up: a tiny clay person's shoes standing on an old clay city road, thin cracks starting to spread across the road surface around the feet, dusk light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: slow push-in as the scroll opens and the map rises; Sutradhar smiles at the viewer.
+Motion prompt:
+```
+Locked camera, ground level. Cracks spread outward from the feet. End with a crack reaching the frame edge.
+```
 
-### short2-s03 (story) | on-screen: 7 टापू
+### short2-s02 | hook | MS top | clip
+VO: वो शायद कभी समंदर थी!
+On screen: समंदर!
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, top-down overhead view: looking straight down at the clay road splitting open to reveal deep blue clay sea water with small fish swimming beneath it, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Fast push straight down into the opening; fish dart. End with the frame full of blue water.
+```
+
+### short2-s03 | brand | WS low | clip
+VO: स्वागत है, असली सीन के दूसरे एपिसोड में।
+On screen: असली सीन 🐺
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, his brass lantern swinging gently at his hip, toward a tabletop sea diorama where seven islands float, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Camera tracks slowly backward at his walking pace. He walks from mid-aisle toward the lens and stops in a medium shot, lifting his eyes to the viewer with a knowing half-smile. Lantern glow sways on the shelves. End on him standing still, facing camera. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short2-s04 | brand | MCU low | clip
+VO: मैं हूँ भेड़िया, और आज की कहानी, मुंबई की।
+On screen: आज: मुंबई
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium close-up, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) holding his old scroll open toward the camera, a small clay diorama of seven separate islands slowly drifting together rising out of the parchment between his paws, warm lantern light from below-left, archive shelves softly blurred behind, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Locked camera with a slow push-in. He unrolls the scroll; the tiny diorama rises out of it and settles. End with his eyes looking over the diorama straight into the lens. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short2-s05 | story | EWS top | still
 VO: कभी मुंबई, सात अलग-अलग टापू थी।
+On screen: 7 टापू
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, seven separate green clay islands in a turquoise clay sea, small fishing boats with sails between them, tiny palm trees and huts, bright morning light, top-down aerial view, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Extreme wide shot, top-down overhead view: seven separate green clay islands in a turquoise clay sea, small fishing boats with sails between them, tiny palm trees and huts, bright morning light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: slow rotating aerial drift; each island lights up one by one.
+Edit move: Slow rotating aerial drift; each island lights up one by one. End with all seven lit.
 
-### short2-s04 (story) | on-screen: ज्वार = बाढ़
-VO: बीच में समंदर था। और ज्वार आते ही, निचली ज़मीन डूब जाती थी।
+### short2-s06 | story | WS eye | clip
+VO: बीच में समंदर, और ज्वार में डूबती ज़मीन।
+On screen: ज्वार = बाढ़
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, clay sea water rushing over low swampy land between two islands, small huts standing in water, clay fishermen lifting their nets, overcast grey-blue light, wide shot, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, eye level: clay sea water flowing over low swampy land between two islands, small huts standing in the water, clay fishermen lifting their nets, overcast grey-blue light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: water level rises slowly, ripples spread.
+Motion prompt:
+```
+Locked camera. The water level rises around the huts. End with water at the hut doors.
+```
 
-### short2-s05 (interaction) | on-screen: आपका इलाक़ा? 📍
-VO: मुंबई में रहते हैं? अपना इलाक़ा कमेंट में लिखिए। शायद वो भी, कभी समंदर था।
+### short2-s07 | interaction | MCU low | clip
+VO: मुंबई में रहते हैं?
+On screen: मुंबई में हैं? 📍
+References: BHEDIYA
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a clay map of today's Mumbai with tiny clay pins popping up in different neighbourhoods, the old coastline of the seven islands drawn over it as a glowing blue outline, warm desk light, top-down shot, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium close-up, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) leaning toward the camera, one paw raised with a tiny map pin between his claws, a clay map of today's Mumbai softly blurred behind him, warm rim light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: pins pop up one by one, the blue outline glows.
+Motion prompt:
+```
+Locked camera. He leans in toward the lens, one ear twitches, the raised brow lifts. End with his face close, waiting for an answer. Keep BHEDIYA identical to the reference image(s).
+```
 
-### short2-s06 (story) | on-screen: 1782: हॉर्नबी वेलार्ड
-VO: सत्रह सौ बयासी में, गवर्नर हॉर्नबी ने वरली के पास, एक बड़ी समुद्री दीवार शुरू करवाई। हॉर्नबी वेलार्ड।
+### short2-s08 | interaction | CU top | still
+VO: अपना इलाक़ा कमेंट में लिखिए।
+On screen: अपना इलाक़ा 👇
+References: BHEDIYA
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, many clay workers in 18th century Indian clothing carrying stones and baskets of earth to build a long stone sea wall across a creek, a generic clay British official in a 1780s coat watching with a plan, golden afternoon light, wide high angle, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, top-down overhead view: a grey clay wolf paw (BHEDIYA) pushing small red map pins one by one into a clay map of today's Mumbai neighbourhoods, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: workers move along the wall, waves hit the stones.
+Edit move: Locked overhead camera. Pins go in one after another. End with five pins standing.
 
-### short2-s07 (story) | on-screen: लोक-कथा ✨ महालक्ष्मी मंदिर
-VO: कहते हैं, दीवार बार-बार टूटती थी। फिर एक इंजीनियर के सपने के बाद, समंदर से देवी की मूर्तियाँ मिलीं, और बना महालक्ष्मी मंदिर। ये एक लोक-कथा है।
+### short2-s09 | interaction | MS high | still
+VO: शायद वो भी, कभी समंदर था।
+On screen: शायद समंदर था!
+References: BHEDIYA
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a small clay seaside temple with a saffron flag on rocks beside a stone sea wall, a soft golden glow rising from calm sea water nearby, tiny respectful clay devotees, sunrise light, wide shot, respectful depiction, no deity faces shown, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, high angle looking down: the same clay Mumbai map with red pins, now a glowing blue outline of the old seven-island coastline lighting up over it, several pins standing inside the blue sea area, BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) at the map edge looking down, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: slow push-in toward the temple, the golden glow on the water fades gently.
+Edit move: Slow pull-back upward. The blue outline glows on. End with the whole map and the wolf in frame.
 
-### short2-s08 (payoff) | on-screen: 7 ➜ 1
-VO: फिर बने कॉज़वे, और उन्नीसवीं सदी के बीच तक, सात टापू, एक ज़मीन बन गए।
+### short2-s10 | story | WS eye | clip
+VO: सत्रह सौ बयासी में, गवर्नर हॉर्नबी ने वरली के पास, एक बड़ी समुद्री दीवार शुरू करवाई।
+On screen: 1782
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the seven clay islands now joined into one long landmass by stone causeways, green land where sea used to be, colonial buildings appearing, warm light, top-down aerial view, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, eye level: many clay workers in 18th century Indian clothing carrying stones and baskets of earth along a half-built stone sea wall across a creek, a generic clay British official in a 1780s coat and tricorn hat watching with a rolled plan, golden afternoon light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: camera slowly rises, causeways fill in, land looks complete.
+Motion prompt:
+```
+Slow lateral track along the wall. Workers pass stones hand to hand. End on the official unrolling his plan.
+```
 
-### short2-s09 (payoff) | on-screen: समंदर से छीनी गई 🌊
-VO: और आज भी, कोस्टल रोड के लिए, समंदर से ज़मीन ली गई। मुंबई बसाई नहीं गई। समंदर से छीनी गई।
+### short2-s11 | story | CU low | still
+VO: हॉर्नबी वेलार्ड।
+On screen: हॉर्नबी वेलार्ड
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, clay miniature of a modern coastal highway curving along the sea beside a city skyline, a seawall of stones holding back clay waves, sunset light, wide aerial shot (modern road and buildings allowed in this scene), vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, low angle looking up: a clay wave crashing against new grey stones of the sea wall, spray rising into the light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: slow pull-back, waves crash on the seawall.
+Edit move: Locked camera, low at the waterline. One wave hits and the spray falls. End on wet stones.
 
-### short2-s10 (comment) | on-screen: सही या ग़लत? 👇
-VO: समंदर से ज़मीन लेना, सही या ग़लत? कमेंट में लिखिए।
+### short2-s12 | story | MS eye | still
+VO: कहते हैं, दीवार बार-बार टूटती थी।
+On screen: कहते हैं...
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a clay balance scale on a rock by the sea, one pan holds a tiny clay city block, the other holds a tiny clay wave with fish, dusk light, centred close shot, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, eye level: a section of the unfinished stone sea wall slumping and sliding into the sea while clay workers step back safely on the shore, grey sky, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: scale tips gently back and forth.
+Edit move: Locked camera. The wall section slides into the water. End with the gap in the wall.
 
-### short2-s11 (outro) | on-screen: अगला: अवाबाई ➜ हम्पी
-VO: अगली कहानी: वो औरत, जिसने अपने पैसों से समंदर पर रास्ता बनवाया। और फिर चलेंगे, हम्पी। फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
+### short2-s13 | story | MCU high | still
+VO: फिर एक इंजीनियर के सपने के बाद, समंदर से देवी की मूर्तियाँ मिलीं,
+On screen: लोक-कथा ✨
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the clay SUTRADHAR (small elderly storyteller, white beard, saffron-brown shawl, round spectacles, holding an old scroll) rolling up his scroll and pointing at a clay relief map of India on the archive wall, a glowing marker on the Mumbai coast and a second small marker far south-east in Karnataka among clay boulders, warm lamplight, medium shot facing camera, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium close-up, high angle looking down: a clay engineer in 18th century Indian clothing sleeping on a mat by a small oil lamp, a soft golden glow from the calm night sea visible through the open doorway, respectful and serene, no deity faces shown, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: Sutradhar points, the glowing marker pulses, then he waves goodbye.
+Edit move: Very slow push-in. The golden glow outside brightens gently. End with the glow lighting his face.
+
+### short2-s14 | story | WS low | still
+VO: और बना महालक्ष्मी मंदिर।
+On screen: महालक्ष्मी मंदिर
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, low angle looking up: a small clay seaside temple with a saffron flag on rocks beside the finished stone sea wall, calm sea at sunrise, tiny respectful clay devotees on the steps, respectful depiction, no deity close-up, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Edit move: Slow push-in toward the temple; the flag flutters. End on the temple steps.
+
+### short2-s15 | story | CU eye | clip
+VO: ये एक लोक-कथा है।
+On screen: लोक-कथा
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, eye level: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) snapping his scroll shut in one paw and raising one clawed finger of the other paw beside his muzzle, one eyebrow raised, dark archive background with a single warm rim light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Quick short push-in, then hold. He snaps the scroll shut and raises one finger. End frozen on the raised finger and raised brow. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short2-s16 | payoff | MS low | still
+VO: फिर बने कॉज़वे,
+On screen: कॉज़वे
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, low angle looking up: a clay horse cart rolling across a new stone causeway over shallow water, 19th century, soft morning light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Edit move: Locked camera at road level. The cart rolls through frame left to right. End with the empty causeway.
+
+### short2-s17 | payoff | EWS top | clip
+VO: और उन्नीसवीं सदी के बीच तक, सात टापू, एक ज़मीन बन गए।
+On screen: 7 ➜ 1
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Extreme wide shot, top-down overhead view: the seven clay islands from the earlier shot, now joined into one long landmass by stone causeways and filled land, colonial buildings appearing, warm light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Slow rise straight up. The last gaps fill with land. End on the single landmass.
+```
+
+### short2-s18 | payoff | WS high | still
+VO: और आज भी, कोस्टल रोड के लिए, समंदर से ज़मीन ली गई।
+On screen: आज भी: कोस्टल रोड
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, high angle looking down: clay miniature of a modern coastal highway curving along the sea beside a city skyline, a seawall of big stones holding back clay waves, sunset light (modern road and buildings allowed in this shot), vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Edit move: Slow pull-back. Waves crash on the seawall. End on the full curve of the road.
+
+### short2-s19 | payoff | MS low | clip
+VO: मुंबई बसाई नहीं गई।
+On screen: बसाई नहीं...
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) standing on top of the stone seawall of the diorama, clay waves breaking below his feet, city lights behind him, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Locked low camera. A wave breaks below; his shawl moves in the wind. End with him looking down at the sea. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short2-s20 | payoff | ECU high | clip
+VO: समंदर से छीनी गई।
+On screen: समंदर से छीनी गई 🌊
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Extreme close-up, high angle looking down: a grey clay wolf paw (BHEDIYA) pressing down on wet clay land at the waterline, pushing the blue clay water back, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Locked camera. The paw presses and the water retreats. End with dry land under the paw. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short2-s21 | comment | CU eye | clip
+VO: समंदर से ज़मीन लेना, सही या ग़लत?
+On screen: सही या ग़लत?
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, eye level: a clay balance scale on a rock by the sea: one pan holds a tiny clay city block, the other a tiny clay wave with fish, dusk light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Locked camera. The scale tips one way, then the other. End balanced.
+```
+
+### short2-s22 | comment | CU low | clip
+VO: कमेंट में लिखिए।
+On screen: कमेंट 👇
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) pointing one paw straight at the camera with a playful half-smile, lantern glow on his fur, the balance scale by the sea in soft background, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Locked camera, very slight push-in. His paw comes up and points at the lens. End on the point, paw sharp, face just behind it. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short2-s23 | outro | MS high | clip
+VO: अगली कहानी: वो औरत, जिसने अपने पैसों से समंदर पर रास्ता बनवाया।
+On screen: अगला: अवाबाई
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, high angle looking down: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) crouching beside a tabletop clay diorama of a long stone causeway across a creek, reaching out with one paw to set a tiny lantern down at the start of the causeway, lantern set down beside him, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Slow descending crane toward his paw. He reaches out and set a tiny lantern down at the start of the causeway. End with the paw resting on the diorama and his eyes lifting to the camera. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short2-s24 | outro | MS ots | clip
+VO: और फिर चलेंगे, हम्पी।
+On screen: फिर: हम्पी
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, over-the-shoulder: over-the-shoulder view from behind BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) as he stands before a large clay relief map of India on the archive wall, a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny clay boulders, his lantern raised in one paw, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Locked camera behind his shoulder. He reaches up and taps the glowing marker; it pulses brighter. End with his paw on the marker and his head turning halfway back toward camera. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short2-s25 | follow | WS eye | clip
+VO: फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
+On screen: फ़ॉलो करें ➕
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, eye level: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) seen from behind walking away from camera along the sea wall into the dusk, his lantern the only warm light, long shadow stretching toward the lens, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Locked camera. He walks away into the dark, stops, and looks back over his shoulder at the viewer for a beat. End on the over-the-shoulder glance with the lantern glowing. Keep BHEDIYA identical to the reference image(s).
+```
 
 ## Edit notes
-- Cut on every sentence; no shot longer than 6 s. Whoosh on the hook, the twist and the payoff.
-- Word-by-word Hindi captions (Mukta / Noto Sans Devanagari, white with dark outline), lower third, clear of the Shorts/Reels buttons.
-- Brand intro scene: small channel name lower-third "एपॉक आर्काइव्स" for 2 s.
-- Music: royalty-free, about 12% under voice; log it in `shorts/mumbai/CREDITS.md`.
-- Last frame loops back into the first.
+- Cut on every line; the shot changes when the line changes. A shot may repeat only when the script calls back to it.
+- Word-by-word Hindi captions (Mukta / Noto Sans Devanagari, white with dark outline) in the middle 60% of the frame height; keep the top 12% and bottom 20% clear.
+- Whoosh on the hook, the twist cut-in and the payoff. Royalty-free music about 12% under the voice; log it in `shorts/mumbai/CREDITS.md`.
+- The last frame (Bhediya looking back with the lantern) should loop into the first.
 
 ## Publish pack
 **YouTube Shorts titles:**
@@ -138,14 +374,16 @@ Motion: Sutradhar points, the glowing marker pulses, then he waves goodbye.
 - 7 टापू कैसे बने एक मुंबई? | Mumbai Reclamation History #shorts
 
 **YouTube description:**
-मुंबई कभी सात अलग टापू थी। हॉर्नबी वेलार्ड (1782-84), कॉज़वे और भराई से ये एक ज़मीन बनी, और कोस्टल रोड (2024) के लिए आज भी समंदर से ज़मीन ली गई। महालक्ष्मी मंदिर की कहानी लोक-कथा है।
+मुंबई कभी सात अलग टापू थी। हॉर्नबी वेलार्ड (1782-84), कॉज़वे और भराई से ये एक ज़मीन बनी, और कोस्टल रोड (2024) के लिए आज भी समंदर से ज़मीन ली गई। महालक्ष्मी मंदिर की कहानी लोक-कथा है। असली सीन, एपिसोड 2.
 Sources: Harvard Hornby Vellard exhibit; Ministry of Culture (Indian Culture portal); MCGM heritage record.
 #mumbai #history #shorts
 
 **Instagram Reel caption:**
 आप मुंबई की जिस सड़क पर खड़े हैं, वो शायद कभी समंदर थी 🌊
-सात टापू कैसे बने एक शहर।
+असली सीन, एपिसोड 2 🐺
 आपका इलाक़ा कौन सा है? और समंदर से ज़मीन लेना, सही या ग़लत? 👇
 अगली कहानी: टोल-फ़्री रास्ते वाली अवाबाई। फ़ॉलो करें!
 
-#mumbai #bombay #sevenislands #indianhistory #historyinhindi #reels #epocharchives
+#mumbai #bombay #sevenislands #indianhistory #historyinhindi #reels #asliscene
+
+Upload setting: Audience = "No, it's not made for kids" (narrator is an animated wolf; content is history for general audiences).

@@ -57,12 +57,11 @@
     "cadence": "1 long video + 2-3 Shorts per week"
   },
   "shorts_template": {
-    "status": "DEFAULT for every Short/Reel (owner 2026-11-27)",
-    "spoken_channel_name": "एपॉक आर्काइव्स",
-    "length": "about 60 s at fast pace: 140-165 spoken words, ElevenLabs speed 1.1-1.15",
+    "status": "DEFAULT for every Short/Reel (owner 2026-11-27, v2)",
+    "length": "about 60-70 s at fast pace: 150-170 spoken words (build warns outside 140-175), ElevenLabs speed 1.1-1.15",
     "order": [
       "1. HOOK (0-3 s): shock line or question, 5-12 words",
-      "2. BRAND INTRO (3-6 s): intro_line with the city name. Always after the hook, never first",
+      "2. BRAND INTRO (3-7 s): intro_line with episode ordinal and city. Always after the hook, never first",
       "3. STORY: one idea per scene, 5-6 s per scene, every claim has a fact ID",
       "4. MID INTERACTION (around 40-60%): one line that talks to the viewer (imagine / are you from / tell us)",
       "5. PAYOFF: pay the hook",
@@ -70,7 +69,7 @@
       "7. NEXT TEASER: next Short of the same city + next city from tracker; last Short of a city teases the next city only",
       "8. FOLLOW LINE: follow_line (one ask, joined to the teaser)"
     ],
-    "intro_line": "नमस्ते, एपॉक आर्काइव्स में आपका स्वागत है। आज की कहानी, {city} की।",
+    "intro_line": "स्वागत है, असली सीन के {ordinal} एपिसोड में। मैं हूँ भेड़िया, और आज की कहानी, {city} की।",
     "follow_line": "फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।",
     "mid_interaction_examples": [
       "सोचिए, आप राजा होते, तो क्या करते?",
@@ -82,7 +81,29 @@
       "आपको क्या लगता है, सही या ग़लत?",
       "आप किस शहर की कहानी अगली सुनना चाहेंगे?"
     ],
-    "host_character": "Sutradhar (config/style-guide.md) appears in the brand-intro scene and the outro scene of every Short",
-    "tagline": "none yet; if the owner picks one (e.g. a phrase like 'Asli Baat'), add it to intro_line here only"
+    "host_character": "BHEDIYA (wolf narrator) on screen in the brand intro, the viewer line and the outro of every Short; story scenes show people as people",
+    "tagline": "असली सीन (show name in config 'show')",
+    "intro_tts": "स्वागत है... असली सीन के {ordinal} एपिसोड में। मैं हूँ भेड़िया... और आज की कहानी, {city} की।",
+    "ordinals": {
+      "1": "पहले",
+      "2": "दूसरे",
+      "3": "तीसरे",
+      "4": "चौथे",
+      "5": "पाँचवें",
+      "6": "छठे",
+      "7": "सातवें",
+      "8": "आठवें",
+      "9": "नौवें",
+      "10": "दसवें"
+    },
+    "ordinal_rule": "Episodes count every Short in posting order across cities (Mumbai Short 1 = पहले). Past 10: write '<number>वें', e.g. ग्यारहवें, बारहवें.",
+    "prompts": "All prompts come from prompts/library.json; build files with: node tools/build-shorts.mjs <slug>",
+    "shots": "one narration line = one shot; Bhediya shot bank for narrator lines; people as people in story lines"
+  },
+  "show": {
+    "name": "असली सीन",
+    "name_latin": "Asli Scene",
+    "narrator": "भेड़िया (Bhediya), clay grey wolf; prompt in prompts/library.json -> characters.BHEDIYA",
+    "note": "Show/series name used in narration. Channel name stays in 'name'."
   }
 }

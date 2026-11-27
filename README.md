@@ -10,6 +10,7 @@ Claude runs production; the owner approves at two gates. Channel settings: `conf
 | `config/` | `channel.json` (name, language, voice, formats) and `style-guide.md` (claymation prompt prefix, motion, audio, text rules) |
 | `research/<city>/` | `sources.md` (source list + fact sheet with status) and `notes.md` (hooks, arc, flags). Template in `research/_template/` |
 | `shorts/<city>/` | Shorts/Reels: script, ElevenLabs text, Flow prompts, publish copy (current focus). Schedule in `shorts/SCHEDULE.md` |
+| `prompts/` | Prompt library: `library.json` (style, characters incl. narrator Bhediya, shot bank), `LIBRARY.md`, reference images in `characters/<ID>/`, `CHANGELOG.md` |
 | `scripts/` | `<city>.md` Hindi narration script, one per video |
 | `storyboards/` | `<city>.json` (scenes, narration, prompts, Shorts) and `<city>.md` shot list |
 | `assets/<city>/` | `images/`, `clips/`, `voice/`, `PROMPTS.md`, `CREDITS.md`. Shared music in `assets/music/` |
@@ -17,7 +18,7 @@ Claude runs production; the owner approves at two gates. Channel settings: `conf
 | `publish/` | `<city>.md` titles, description, tags, chapters, thumbnail concepts |
 | `skills/` | Claude Code skills (studio + vetted vendor), linked into `.claude/skills/`. See `skills/README.md` |
 | `tracker/` | `videos.csv`: status per video: idea, researched, scripted, voiced, visuals, rendered, approved, uploaded |
-| `tools/` | `voice.mjs` (Hindi TTS per scene), `assemble.mjs` (FFmpeg assembly + Shorts), `setup-mac.sh` |
+| `tools/` | `build-shorts.mjs` (builds Shorts files from `shorts/<city>/shorts.json` + prompt library), `voice.mjs` (Hindi TTS per scene), `assemble.mjs` (FFmpeg assembly + Shorts), `setup-mac.sh` |
 | `epoch-engine/` | Older Remotion/three.js 3D engine. Not used by the pipeline (too heavy for 8 GB) |
 | `legacy/delhi-pilot/` | First Delhi pilot (Hinglish) and old notes |
 

@@ -1,140 +1,359 @@
-# Mumbai Short - टोल-फ़्री रास्ते वाली अवाबाई
-Format: 9:16, 1080x1920 | Words: 163 | ~63-68 s at fast pace (speed 1.1-1.15) | Platforms: YouTube Shorts + Instagram Reels
-Template: `config/channel.json` -> shorts_template (hook, brand intro, story, viewer line, payoff, comment question, next teaser, follow) | Status: waiting on Gate 1
+# असली सीन - एपिसोड 3: टोल-फ़्री रास्ते वाली अवाबाई
+<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v2. Edit those, not this file. -->
+City: मुंबई | Format: 9:16, 1080x1920 | Words: 168 | ~65-70 s at speed 1.1-1.15 | Shots: 24 (14 clips, 10 stills) | Status: waiting on Gate 1
 
-## Voice settings (ElevenLabs)
-- Model v3, voice Viraj, old-radio filter, speed about 1.1-1.15.
-- Audio tags ([excited], [curious], [sighs], [whispers]) are optional; delete any that sound odd. "..." = short pause.
-- Over 65 s? Raise speed slightly or drop one story scene, never the intro, viewer line, teaser or follow line.
+**Twist:** दान की शर्त: कभी टोल नहीं; सड़क आज भी उनके नाम पर  
+**Teaser:** अगला शहर: हम्पी  
+**On-screen hook (first 2 s):** शर्त: कोई टोल नहीं!
 
-## On-screen hook (first 2 s)
-शर्त: कोई टोल नहीं!
+## Voice (ElevenLabs)
+- eleven_v3, Viraj (Suspense Story ka Baadshah), natural, old-radio audio filter (applied in ElevenLabs by owner). Speed about 1.1-1.15.
+- Narrator: भेड़िया. Audio tags are optional; delete any that sound odd. "..." = short pause.
+- Over 65 s? Raise speed slightly or drop one story shot. Never drop the intro, viewer line, comment ask, teaser or follow line.
 
-## Narration with fact IDs (for checking)
-- (hook) एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया... और शर्त रखी, कोई टोल नहीं! [F21]
-- (brand) नमस्ते, एपॉक आर्काइव्स में आपका स्वागत है। आज की कहानी, मुंबई की। (viewer/channel line, no fact)
-- (story) माहिम और बांद्रा के बीच, एक खाड़ी थी। लोग नावों से पार करते थे। [F21]
-- (story) अठारह सौ चालीस-इकतालीस के आसपास, नावें पलटीं, और कई लोगों की जान गई। [F21]
-- (story) तब आगे आईं, एक पारसी महिला। लेडी अवाबाई जमशेदजी जीजीभॉय। [F21]
-- (story) उन्होंने डेढ़ लाख रुपये से ज़्यादा दान दिए। और बना, माहिम कॉज़वे। [F21]
-- (payoff) बस एक शर्त। इस रास्ते पर, लोगों से कभी टोल नहीं लिया जाएगा। [F21]
-- (interaction) आपके शहर में भी, किसी ने ऐसा कोई रास्ता या पुल दान से बनवाया है? कमेंट में बताइए। (viewer/channel line, no fact)
-- (payoff) अठारह सौ पैंतालीस में, ये रास्ता खुल गया। और उसकी एक सड़क, आज भी उनके नाम पर है। लेडी जमशेदजी रोड। [F21][F36]
-- (comment) आज के ज़माने में, ऐसी शर्त कौन रखेगा? आप बताइए। (viewer/channel line, no fact)
-- (outro) अगला शहर: हम्पी। एक बड़े साम्राज्य की राजधानी, जो आज खंडहर है। आख़िर हुआ क्या था? फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। (viewer/channel line, no fact)
+### Paste into ElevenLabs
+```
+एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया...
+[excited] और शर्त रखी, कोई टोल नहीं!
+स्वागत है... असली सीन के तीसरे एपिसोड में।
+मैं हूँ भेड़िया... और आज की कहानी, मुंबई की।
+माहिम और बांद्रा के बीच, एक खाड़ी थी।
+लोग नावों से पार करते थे।
+अठारह सौ चालीस-इकतालीस के आसपास... नावें पलटीं,
+और कई लोगों की जान गई।
+तब आगे आईं, एक पारसी महिला।
+लेडी अवाबाई जमशेदजी जीजीभॉय।
+उन्होंने डेढ़ लाख रुपये से ज़्यादा दान दिए।
+और बना... माहिम कॉज़वे।
+बस एक शर्त।
+[whispers] इस रास्ते पर... लोगों से कभी टोल नहीं लिया जाएगा।
+आपके शहर में भी... किसी ने ऐसा कोई रास्ता या पुल, दान से बनवाया है?
+कमेंट में बताइए।
+अठारह सौ पैंतालीस में, ये रास्ता खुल गया।
+और उसकी एक सड़क... आज भी उनके नाम पर है। लेडी जमशेदजी रोड।
+आज के ज़माने में... ऐसी शर्त कौन रखेगा?
+आप बताइए।
+अगला शहर: हम्पी।
+एक बड़े साम्राज्य की राजधानी... जो आज खंडहर है।
+[curious] आख़िर हुआ क्या था?
+फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
+```
 
-## ElevenLabs text (paste this)
+## Characters (make once, attach as reference in every shot they appear in)
+Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at the paths below so every episode reuses them.
+- **MUMBAI_LADY** (v1): prompts/characters/MUMBAI_LADY/sheet.png
+- **BHEDIYA** (v1): prompts/characters/BHEDIYA/closeup.png, prompts/characters/BHEDIYA/sheet.png
+
+## Shot list (one line = one shot)
+| # | Role | Line | Size / angle | Type | Sec | On screen | Facts |
+|---|---|---|---|---|---|---|---|
+| 1 | hook | एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया... | WS / low | clip | 3.8 | समंदर पर रास्ता? | F21 |
+| 2 | hook | और शर्त रखी, कोई टोल नहीं! | CU / eye | clip | 2.3 | शर्त: कोई टोल नहीं! | F21 |
+| 3 | brand | स्वागत है, असली सीन के तीसरे एपिसोड में। | WS / low | clip (walk_in v1) | 3.1 | असली सीन 🐺 | - |
+| 4 | brand | मैं हूँ भेड़िया, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v1) | 3.5 | आज: मुंबई | - |
+| 5 | story | माहिम और बांद्रा के बीच, एक खाड़ी थी। | EWS / high | still | 3.1 | माहिम ↔ बांद्रा | F21 |
+| 6 | story | लोग नावों से पार करते थे। | MS / eye | still | 2.3 | नाव से पार | F21 |
+| 7 | story | अठारह सौ चालीस-इकतालीस के आसपास, नावें पलटीं, | WS / high | still | 2.7 | 1840-41 | F21 |
+| 8 | story | और कई लोगों की जान गई। | CU / eye | still | 2.3 |  | F21 |
+| 9 | story | तब आगे आईं, एक पारसी महिला। | MS / low | still | 2.3 | एक पारसी महिला | F21 |
+| 10 | story | लेडी अवाबाई जमशेदजी जीजीभॉय। | CU / eye | still | 1.5 | लेडी अवाबाई | F21 |
+| 11 | story | उन्होंने डेढ़ लाख रुपये से ज़्यादा दान दिए। | ECU / high | clip | 3.1 | ₹1.5 लाख+ दान | F21 |
+| 12 | story | और बना, माहिम कॉज़वे। | WS / high | still | 1.5 | माहिम कॉज़वे | F21 |
+| 13 | twist | बस एक शर्त। | CU / eye | clip (cut_in_finger v1) | 1.2 | एक शर्त | - |
+| 14 | payoff | इस रास्ते पर, लोगों से कभी टोल नहीं लिया जाएगा। | MS / eye | still | 3.8 | कोई टोल नहीं | F21 |
+| 15 | interaction | आपके शहर में भी, किसी ने ऐसा कोई रास्ता या पुल दान से बनवाया है? | MS / high | clip (touch_diorama v1) | 5.8 | आपके शहर में? | - |
+| 16 | interaction | कमेंट में बताइए। | CU / low | clip (point_at_viewer v1) | 1.2 | कमेंट 👇 | - |
+| 17 | payoff | अठारह सौ पैंतालीस में, ये रास्ता खुल गया। | EWS / high | clip | 3.1 | 1845 ✔ | F21 |
+| 18 | payoff | और उसकी एक सड़क, आज भी उनके नाम पर है। लेडी जमशेदजी रोड। | MS / low | still | 5 | एल. जे. रोड | F36 |
+| 19 | comment | आज के ज़माने में, ऐसी शर्त कौन रखेगा? | CU / eye | still | 3.1 | आज कौन रखेगा? | - |
+| 20 | comment | आप बताइए। | MCU / low | clip (lean_in_question v1) | 1.2 | आप बताइए 👇 | - |
+| 21 | outro | अगला शहर: हम्पी। | MS / ots | clip (map_tap_ots v1) | 1.2 | अगला शहर: हम्पी 🏛️ | - |
+| 22 | outro | एक बड़े साम्राज्य की राजधानी, जो आज खंडहर है। | EWS / low | clip | 3.5 | खंडहर क्यों? | - |
+| 23 | outro | आख़िर हुआ क्या था? | ECU / eye | clip (eye_ecu v1) | 1.5 | आख़िर क्या हुआ? | - |
+| 24 | follow | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS / eye | clip (walk_off v1) | 3.1 | फ़ॉलो करें ➕ | - |
+
+## Shot prompts
+Negative prompt (if supported): `photorealistic, real photograph, 3D CGI render, glossy plastic, anime, cartoon line art, chibi, cute baby proportions, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood`
+Stills: generate the image and let the edit add a slow push/pan. Clips: generate the image first, check it, then animate it with the motion line (image-to-video), trim to the line length.
+
+### short3-s01 | hook | WS low | clip
+VO: एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया...
+On screen: समंदर पर रास्ता?
+References: MUMBAI_LADY
+Image prompt:
 ```
-एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया... [excited] और शर्त रखी, कोई टोल नहीं!
-नमस्ते... एपॉक आर्काइव्स में आपका स्वागत है। आज की कहानी... मुंबई की।
-माहिम और बांद्रा के बीच, एक खाड़ी थी। लोग नावों से पार करते थे।
-अठारह सौ चालीस-इकतालीस के आसपास... नावें पलटीं, और कई लोगों की जान गई।
-तब आगे आईं, एक पारसी महिला। लेडी अवाबाई जमशेदजी जीजीभॉय।
-उन्होंने डेढ़ लाख रुपये से ज़्यादा दान दिए। और बना... माहिम कॉज़वे।
-बस एक शर्त। [whispers] इस रास्ते पर... लोगों से कभी टोल नहीं लिया जाएगा।
-आपके शहर में भी... किसी ने ऐसा कोई रास्ता या पुल, दान से बनवाया है? कमेंट में बताइए।
-अठारह सौ पैंतालीस में, ये रास्ता खुल गया। और उसकी एक सड़क... आज भी उनके नाम पर है। लेडी जमशेदजी रोड।
-आज के ज़माने में... ऐसी शर्त कौन रखेगा? आप बताइए।
-अगला शहर: हम्पी। एक बड़े साम्राज्य की राजधानी... जो आज खंडहर है। [curious] आख़िर हुआ क्या था? फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, low angle looking up: the clay LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) standing at the start of a long stone causeway stretching away over the sea toward a far shore at the top of frame, people walking past her, golden hour, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Slow push-in toward her. The sea breeze moves the sari end. End on her looking down the causeway. Keep MUMBAI_LADY identical to the reference image(s).
 ```
 
-## Characters (clay people, not animals; make each reference once in Flow and attach it in every scene with that character)
-**SUTRADHAR:**
+### short3-s02 | hook | CU eye | clip
+VO: और शर्त रखी, कोई टोल नहीं!
+On screen: शर्त: कोई टोल नहीं!
+References: MUMBAI_LADY
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, character reference sheet of the clay SUTRADHAR (small elderly storyteller, white beard, saffron-brown shawl, round spectacles, holding an old scroll), full body front view and close-up of face side by side, plain warm grey studio background, even soft light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, eye level: the hand of the clay LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) pushing up a wooden toll-gate barrier pole across the causeway, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-**LADY:**
+Motion prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, character reference sheet of the clay LADY (1840s Parsi lady, graceful white-and-maroon sari worn in Parsi style with the end over the head, calm determined face; generic, not a real likeness), full body front view and close-up of face side by side, plain warm grey studio background, even soft light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Locked camera. Her hand lifts the pole until it stands upright. End on the open way behind it. Keep MUMBAI_LADY identical to the reference image(s).
 ```
-Historical figures are generic clay figures dressed for the era; names appear only in captions.
 
-## Scenes (one Flow clip each, ~5-6 s)
-Negative prompt (if supported): `photorealistic, real photograph, 3D CGI render, glossy plastic, anime, cartoon line art, animals as main characters, text, letters, watermark, logo, extra fingers, distorted faces, gore, blood`
+### short3-s03 | brand | WS low | clip
+VO: स्वागत है, असली सीन के तीसरे एपिसोड में।
+On screen: असली सीन 🐺
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, his brass lantern swinging gently at his hip, toward a tabletop diorama of a creek between two shores, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Camera tracks slowly backward at his walking pace. He walks from mid-aisle toward the lens and stops in a medium shot, lifting his eyes to the viewer with a knowing half-smile. Lantern glow sways on the shelves. End on him standing still, facing camera. Keep BHEDIYA identical to the reference image(s).
+```
 
-### short3-s01 (hook) | on-screen: शर्त: कोई टोल नहीं!
-VO: एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया... और शर्त रखी, कोई टोल नहीं!
+### short3-s04 | brand | MCU low | clip
+VO: मैं हूँ भेड़िया, और आज की कहानी, मुंबई की।
+On screen: आज: मुंबई
+References: BHEDIYA
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the clay LADY (1840s Parsi lady, graceful white-and-maroon sari worn in Parsi style with the end over the head, calm determined face; generic, not a real likeness) standing at the start of a long stone causeway over the sea, people walking past her, warm golden hour light, low angle, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium close-up, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) holding his old scroll open toward the camera, a small clay diorama of a stone causeway crossing a creek between two shores rising out of the parchment between his paws, warm lantern light from below-left, archive shelves softly blurred behind, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: slow push-in on the lady, sea breeze moves her sari edge.
+Motion prompt:
+```
+Locked camera with a slow push-in. He unrolls the scroll; the tiny diorama rises out of it and settles. End with his eyes looking over the diorama straight into the lens. Keep BHEDIYA identical to the reference image(s).
+```
 
-### short3-s02 (brand) | on-screen: एपॉक आर्काइव्स | मुंबई
-VO: नमस्ते, एपॉक आर्काइव्स में आपका स्वागत है। आज की कहानी, मुंबई की।
+### short3-s05 | story | EWS high | still
+VO: माहिम और बांद्रा के बीच, एक खाड़ी थी।
+On screen: माहिम ↔ बांद्रा
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the clay SUTRADHAR (small elderly storyteller, white beard, saffron-brown shawl, round spectacles, holding an old scroll) sitting on a wooden stool in a cosy lamp-lit archive room full of scrolls, he unrolls a scroll and a small clay map of the seven Bombay islands pops up from it, warm lamplight, medium shot facing camera, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Extreme wide shot, high angle looking down: a wide creek of blue clay water between two palm-lined shores with small villages, 19th century Bombay, hazy morning light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: slow push-in as the scroll opens and the map rises; Sutradhar smiles at the viewer.
+Edit move: Slow pan from one shore to the other. End on the far shore.
 
-### short3-s03 (story) | on-screen: माहिम ↔ बांद्रा
-VO: माहिम और बांद्रा के बीच, एक खाड़ी थी। लोग नावों से पार करते थे।
+### short3-s06 | story | MS eye | still
+VO: लोग नावों से पार करते थे।
+On screen: नाव से पार
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, small wooden clay ferry boats crowded with clay passengers crossing a wide creek between two shores with palm trees, 19th century Bombay, hazy morning light, wide shot, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, eye level: a small wooden clay ferry boat crowded with clay passengers and baskets crossing the creek, the boatman pushing with a long pole, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: boats rock gently as they cross.
+Edit move: Locked camera at water level. The boat glides across frame. End with the boat mid-frame.
 
-### short3-s04 (story) | on-screen: 1840-41
-VO: अठारह सौ चालीस-इकतालीस के आसपास, नावें पलटीं, और कई लोगों की जान गई।
+### short3-s07 | story | WS high | still
+VO: अठारह सौ चालीस-इकतालीस के आसपास, नावें पलटीं,
+On screen: 1840-41
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, an empty overturned clay boat floating on dark stormy clay water, broken oars, grey rain clouds, symbolic not violent, no people in danger shown, moody blue light, medium shot, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, high angle looking down: an empty overturned clay boat floating on dark stormy water, broken oars drifting, grey rain clouds, symbolic, no people shown, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: rain falls, the boat drifts slowly.
+Edit move: Locked camera. Rain falls, the empty boat drifts slowly. End with the boat near frame centre.
 
-### short3-s05 (story) | on-screen: लेडी अवाबाई
-VO: तब आगे आईं, एक पारसी महिला। लेडी अवाबाई जमशेदजी जीजीभॉय।
+### short3-s08 | story | CU eye | still
+VO: और कई लोगों की जान गई।
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the clay LADY (1840s Parsi lady, graceful white-and-maroon sari worn in Parsi style with the end over the head, calm determined face; generic, not a real likeness) looking out at the stormy creek from a balcony with a determined expression, soft window light, medium close shot, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, eye level: a single small unlit clay lantern floating alone on dark rippling water, symbolic and quiet, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: slow push-in on her face, clouds move behind.
+Edit move: Locked camera. The lantern bobs slowly on the ripples. End still.
 
-### short3-s06 (story) | on-screen: ₹1.5 लाख+ दान
-VO: उन्होंने डेढ़ लाख रुपये से ज़्यादा दान दिए। और बना, माहिम कॉज़वे।
+### short3-s09 | story | MS low | still
+VO: तब आगे आईं, एक पारसी महिला।
+On screen: एक पारसी महिला
+References: MUMBAI_LADY
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, clay workers building a long stone causeway across the creek with carts of stone, the clay LADY (1840s Parsi lady, graceful white-and-maroon sari worn in Parsi style with the end over the head, calm determined face; generic, not a real likeness) handing a cloth bag of coins to an engineer holding drawings, bright daylight, wide high angle, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, low angle looking up: the clay LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) stepping out onto a wooden balcony overlooking the stormy creek, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: workers place stones, the causeway extends forward.
+Edit move: Locked low camera. She steps forward to the railing and stops. End with both hands on the railing.
 
-### short3-s07 (payoff) | on-screen: कोई टोल नहीं
-VO: बस एक शर्त। इस रास्ते पर, लोगों से कभी टोल नहीं लिया जाएगा।
+### short3-s10 | story | CU eye | still
+VO: लेडी अवाबाई जमशेदजी जीजीभॉय।
+On screen: लेडी अवाबाई
+References: MUMBAI_LADY
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a clay toll gate barrier being lifted and removed from a stone causeway while clay villagers, fishermen and carts pass freely, cheerful morning light, eye-level shot, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, eye level: face of the clay LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) lit by soft window light, rain-streaked glass behind her, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: barrier lifts, people walk through.
+Edit move: Very slow push-in. She lifts her chin slightly. End on her steady gaze.
 
-### short3-s08 (interaction) | on-screen: आपके शहर में? 👇
-VO: आपके शहर में भी, किसी ने ऐसा कोई रास्ता या पुल दान से बनवाया है? कमेंट में बताइए।
+### short3-s11 | story | ECU high | clip
+VO: उन्होंने डेढ़ लाख रुपये से ज़्यादा दान दिए।
+On screen: ₹1.5 लाख+ दान
+References: MUMBAI_LADY
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a clay map of India with tiny glowing bridges and roads appearing in different places, a few small clay people pointing at them, warm desk light, top-down shot, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Extreme close-up, high angle looking down: the hands of the clay LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) placing a heavy embroidered cloth bag of coins into the hands of an engineer holding rolled drawings, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: little bridges light up one by one across the map.
+Motion prompt:
+```
+Locked camera. The bag passes from her hands to his. End on his hands closing around it. Keep MUMBAI_LADY identical to the reference image(s).
+```
 
-### short3-s09 (payoff) | on-screen: 1845 ✔ | एल. जे. रोड
-VO: अठारह सौ पैंतालीस में, ये रास्ता खुल गया। और उसकी एक सड़क, आज भी उनके नाम पर है। लेडी जमशेदजी रोड।
+### short3-s12 | story | WS high | still
+VO: और बना, माहिम कॉज़वे।
+On screen: माहिम कॉज़वे
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the finished stone causeway at sunset with horse carriages and people crossing, lanterns lit along the edge, the sea calm and golden, wide aerial three-quarter view, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, high angle looking down: clay workers laying big stones of a long causeway across the creek, carts of stone, bright daylight, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: slow pull-back over the causeway at sunset.
+Edit move: Slow forward drift along the causeway as stones are placed. End at the newest stone.
 
-### short3-s10 (comment) | on-screen: आप बताइए 👇
-VO: आज के ज़माने में, ऐसी शर्त कौन रखेगा? आप बताइए।
+### short3-s13 | twist | CU eye | clip
+VO: बस एक शर्त।
+On screen: एक शर्त
+References: BHEDIYA
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the clay LADY (1840s Parsi lady, graceful white-and-maroon sari worn in Parsi style with the end over the head, calm determined face; generic, not a real likeness) smiling softly at the camera at the end of the causeway, lanterns glowing behind her, warm evening light, close-up, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, eye level: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) snapping his scroll shut in one paw and raising one clawed finger of the other paw beside his muzzle, one eyebrow raised, dark archive background with a single warm rim light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: gentle push-in, lantern light flickers on her face.
+Motion prompt:
+```
+Quick short push-in, then hold. He snaps the scroll shut and raises one finger. End frozen on the raised finger and raised brow. Keep BHEDIYA identical to the reference image(s).
+```
 
-### short3-s11 (outro) | on-screen: अगला शहर: हम्पी 🏛️
-VO: अगला शहर: हम्पी। एक बड़े साम्राज्य की राजधानी, जो आज खंडहर है। आख़िर हुआ क्या था? फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
+### short3-s14 | payoff | MS eye | still
+VO: इस रास्ते पर, लोगों से कभी टोल नहीं लिया जाएगा।
+On screen: कोई टोल नहीं
+Image prompt:
 ```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the clay SUTRADHAR (small elderly storyteller, white beard, saffron-brown shawl, round spectacles, holding an old scroll) rolling up his scroll and pointing at a clay relief map of India on the archive wall, a single glowing marker in Karnataka among clay boulders and tiny ruined stone temples, warm lamplight, medium shot facing camera, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, eye level: clay villagers, fishermen with baskets and a bullock cart passing freely over the stone causeway where a toll barrier has been removed and laid on the ground, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
 ```
-Motion: Sutradhar points, the glowing marker pulses, then he waves goodbye.
+Edit move: Locked camera. People and the cart pass through frame. End with the barrier lying on the ground.
+
+### short3-s15 | interaction | MS high | clip
+VO: आपके शहर में भी, किसी ने ऐसा कोई रास्ता या पुल दान से बनवाया है?
+On screen: आपके शहर में?
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, high angle looking down: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) crouching beside a tabletop clay diorama of a clay map of India dotted with tiny bridges, reaching out with one paw to touch one tiny bridge, which lights up, lantern set down beside him, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Slow descending crane toward his paw. He reaches out and touch one tiny bridge, which lights up. End with the paw resting on the diorama and his eyes lifting to the camera. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short3-s16 | interaction | CU low | clip
+VO: कमेंट में बताइए।
+On screen: कमेंट 👇
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) pointing one paw straight at the camera with a playful half-smile, lantern glow on his fur, the glowing map of India in soft background, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Locked camera, very slight push-in. His paw comes up and points at the lens. End on the point, paw sharp, face just behind it. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short3-s17 | payoff | EWS high | clip
+VO: अठारह सौ पैंतालीस में, ये रास्ता खुल गया।
+On screen: 1845 ✔
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Extreme wide shot, high angle looking down: the finished stone causeway at sunset with horse carriages and people crossing, lanterns lit along its edge, calm golden sea, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Slow pull-back over the causeway. End with the full causeway shore to shore.
+```
+
+### short3-s18 | payoff | MS low | still
+VO: और उसकी एक सड़क, आज भी उनके नाम पर है। लेडी जमशेदजी रोड।
+On screen: एल. जे. रोड
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, low angle looking up: a busy modern clay Mumbai street with buses, taxis and old trees, an old stone building at the corner, warm afternoon light, no readable signs (modern vehicles allowed in this shot), vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Edit move: Slow tilt up from the traffic to the old trees. End on the treetops.
+
+### short3-s19 | comment | CU eye | still
+VO: आज के ज़माने में, ऐसी शर्त कौन रखेगा?
+On screen: आज कौन रखेगा?
+References: MUMBAI_LADY
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Close-up, eye level: the clay LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) smiling softly at the end of the causeway, lanterns glowing behind her, warm evening light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Edit move: Gentle push-in. Lantern light flickers on her face. End on the soft smile.
+
+### short3-s20 | comment | MCU low | clip
+VO: आप बताइए।
+On screen: आप बताइए 👇
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium close-up, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) leaning toward the camera, both paws resting on his lantern, the lantern-lit causeway softly blurred behind him, warm rim light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Locked camera. He leans in toward the lens, one ear twitches, the raised brow lifts. End with his face close, waiting for an answer. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short3-s21 | outro | MS ots | clip
+VO: अगला शहर: हम्पी।
+On screen: अगला शहर: हम्पी 🏛️
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Medium shot, over-the-shoulder: over-the-shoulder view from behind BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) as he stands before a large clay relief map of India on the archive wall, a single glowing marker in Karnataka among tiny clay boulders and ruined temples, his lantern raised in one paw, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Locked camera behind his shoulder. He reaches up and taps the glowing marker; it pulses brighter. End with his paw on the marker and his head turning halfway back toward camera. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short3-s22 | outro | EWS low | clip
+VO: एक बड़े साम्राज्य की राजधानी, जो आज खंडहर है।
+On screen: खंडहर क्यों?
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Extreme wide shot, low angle looking up: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) as a small figure walking between giant rounded clay boulders and ruined stone temple pillars rising to the top of frame, warm dusk light, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Slow tilt up from the wolf to the tops of the boulders. End on the ruins against the sky. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short3-s23 | outro | ECU eye | clip
+VO: आख़िर हुआ क्या था?
+On screen: आख़िर क्या हुआ?
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Extreme close-up, eye level: extreme close-up of one deep amber-gold eye of BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) with the thin pale scar above the brow, flickering lantern light reflected in the iris, grey clay fur texture filling the frame, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Slow push-in toward the eye. The pupil narrows slightly as the lantern flickers. End on the reflection in the iris. Keep BHEDIYA identical to the reference image(s).
+```
+
+### short3-s24 | follow | WS eye | clip
+VO: फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
+On screen: फ़ॉलो करें ➕
+References: BHEDIYA
+Image prompt:
+```
+Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, Wide shot, eye level: BHEDIYA, the clay grey wolf storyteller standing upright (amber eyes, scar over left brow, indigo shawl with ochre border over a terracotta kurta, brass lantern at hip, rolled scroll in paw) seen from behind walking away from camera between the boulders into the dusk, his lantern the only warm light, long shadow stretching toward the lens, vertical 9:16 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
+```
+Motion prompt:
+```
+Locked camera. He walks away into the dark, stops, and looks back over his shoulder at the viewer for a beat. End on the over-the-shoulder glance with the lantern glowing. Keep BHEDIYA identical to the reference image(s).
+```
 
 ## Edit notes
-- Cut on every sentence; no shot longer than 6 s. Whoosh on the hook, the twist and the payoff.
-- Word-by-word Hindi captions (Mukta / Noto Sans Devanagari, white with dark outline), lower third, clear of the Shorts/Reels buttons.
-- Brand intro scene: small channel name lower-third "एपॉक आर्काइव्स" for 2 s.
-- Music: royalty-free, about 12% under voice; log it in `shorts/mumbai/CREDITS.md`.
-- Last frame loops back into the first.
+- Cut on every line; the shot changes when the line changes. A shot may repeat only when the script calls back to it.
+- Word-by-word Hindi captions (Mukta / Noto Sans Devanagari, white with dark outline) in the middle 60% of the frame height; keep the top 12% and bottom 20% clear.
+- Whoosh on the hook, the twist cut-in and the payoff. Royalty-free music about 12% under the voice; log it in `shorts/mumbai/CREDITS.md`.
+- The last frame (Bhediya looking back with the lantern) should loop into the first.
 
 ## Publish pack
 **YouTube Shorts titles:**
@@ -142,14 +361,16 @@ Motion: Sutradhar points, the glowing marker pulses, then he waves goodbye.
 - Lady Avabai की अनोखी शर्त | Mumbai History in Hindi #shorts
 
 **YouTube description:**
-1840-41 के आसपास माहिम की खाड़ी में नावें पलटीं। लेडी अवाबाई जमशेदजी जीजीभॉय ने डेढ़ लाख रुपये से ज़्यादा देकर माहिम कॉज़वे बनवाया (1845), इस शर्त पर कि कभी टोल नहीं लगेगा। सड़क आज भी लेडी जमशेदजी रोड कहलाती है।
+1840-41 के आसपास माहिम की खाड़ी में नावें पलटीं। लेडी अवाबाई जमशेदजी जीजीभॉय ने डेढ़ लाख रुपये से ज़्यादा देकर माहिम कॉज़वे बनवाया (1845), इस शर्त पर कि कभी टोल नहीं लगेगा। सड़क आज भी लेडी जमशेदजी रोड कहलाती है। असली सीन, एपिसोड 3.
 Sources: see research/mumbai/sources.md (F21, F36).
 #mumbai #history #shorts
 
 **Instagram Reel caption:**
 एक औरत ने अपने पैसों से समंदर पर रास्ता बनवाया, और शर्त रखी: कोई टोल नहीं 🙏
-लेडी अवाबाई और माहिम कॉज़वे की कहानी।
+असली सीन, एपिसोड 3 🐺
 आपके शहर में भी ऐसा कोई दान वाला पुल है? 👇
 अगला शहर: हम्पी 🏛️ फ़ॉलो करें!
 
-#mumbai #mahim #bandra #indianhistory #historyinhindi #reels #epocharchives
+#mumbai #mahim #bandra #indianhistory #historyinhindi #reels #asliscene
+
+Upload setting: Audience = "No, it's not made for kids" (narrator is an animated wolf; content is history for general audiences).

@@ -1,0 +1,995 @@
+{
+ "slug": "mumbai",
+ "city": "मुंबई",
+ "next_city": "हम्पी",
+ "shorts": [
+  {
+   "id": "short1-dowry",
+   "episode": 1,
+   "title": "दहेज में मिला शहर",
+   "hook_onscreen": "दहेज में पूरा शहर?!",
+   "twist": "दहेज हाथ आने में 4 साल लगे, फिर बोझ निकला, और £10 सालाना किराए पर दे दिया",
+   "teaser": "Short 2 (समंदर वाली ज़मीन), फिर हम्पी",
+   "publish": {
+    "yt_titles": [
+     "मुंबई दहेज में दी गई थी? 😳 | Mumbai History #shorts",
+     "सिर्फ़ £10 में किराए पर मुंबई! | Bombay Dowry 1661 #shorts"
+    ],
+    "yt_description": "1661 में बॉम्बे का टापू एक शाही शादी में दहेज बनकर इंग्लैंड गया, और 1668 में सिर्फ़ £10 सालाना किराए पर ईस्ट इंडिया कंपनी को दे दिया गया। असली सीन, एपिसोड 1.\nSources: Anglo-Portuguese Marriage Treaty (23 June 1661); Royal Charter of 27 March 1668.\n#mumbai #history #shorts",
+    "ig_caption": "दहेज में सोना नहीं... पूरा एक शहर! 🏝️👑\nअसली सीन, एपिसोड 1 🐺\n1661 में बॉम्बे दहेज बना, और 1668 में सिर्फ़ £10 सालाना किराए पर दे दिया गया।\nआज मुंबई का किराया कितना होना चाहिए? 👇\nअगली कहानी: वो ज़मीन जो कभी समंदर थी 🌊 फ़ॉलो करें!\n\n#mumbai #bombay #indianhistory #historyinhindi #mumbaihistory #reels #asliscene"
+   },
+   "shots": [
+    {
+     "role": "hook",
+     "vo": "दहेज में सोना नहीं, घोड़े नहीं...",
+     "tts": "[excited] दहेज में सोना नहीं, घोड़े नहीं...",
+     "facts": [
+      "F8"
+     ],
+     "size": "CU",
+     "angle": "low",
+     "asset": "clip",
+     "prompt": "an ornate wooden royal treasure chest with brass corners on a palace table, its lid starting to lift and blinding golden light leaking out of the gap, dark palace hall behind",
+     "motion": "Locked camera, slight push-in. The lid lifts open and golden light floods out. End with the lid fully open and the glow filling the upper frame.",
+     "onscreen": "दहेज में पूरा शहर?!"
+    },
+    {
+     "role": "hook",
+     "vo": "पूरा एक शहर!",
+     "tts": "पूरा एक शहर!",
+     "facts": [
+      "F8"
+     ],
+     "size": "MS",
+     "angle": "top",
+     "asset": "clip",
+     "prompt": "looking straight down into the open treasure chest: instead of gold coins a tiny clay island with palm trees, fishing huts and boats on turquoise water fills the chest, golden glow around the edges",
+     "motion": "Fast descending push straight down into the chest. Tiny palm trees sway and a boat bobs. End close over the island.",
+     "onscreen": "पूरा शहर!"
+    },
+    {
+     "role": "brand",
+     "vo": "@intro1",
+     "tts": "@intro1",
+     "facts": [],
+     "bhediya": "walk_in",
+     "vars": {
+      "extra": "toward a reading table where a small treasure chest sits"
+     },
+     "onscreen": "असली सीन 🐺"
+    },
+    {
+     "role": "brand",
+     "vo": "@intro2",
+     "tts": "@intro2",
+     "facts": [],
+     "bhediya": "scroll_reveal",
+     "vars": {
+      "topic_visual": "the seven small Bombay islands in a turquoise sea"
+     },
+     "onscreen": "आज: मुंबई"
+    },
+    {
+     "role": "story",
+     "vo": "सोलह सौ इकसठ।",
+     "tts": "सोलह सौ इकसठ।",
+     "facts": [
+      "F8"
+     ],
+     "size": "ECU",
+     "angle": "eye",
+     "asset": "still",
+     "prompt": "a clay hand pressing a brass seal into hot red wax on the corner of a parchment treaty, candle flame beside it",
+     "motion": "Very slow push-in on the wax seal; the candle flame flickers. End on the pressed seal.",
+     "onscreen": "1661"
+    },
+    {
+     "role": "story",
+     "vo": "पुर्तगाल की राजकुमारी कैथरीन की शादी तय हुई, इंग्लैंड के राजा चार्ल्स द्वितीय से।",
+     "tts": "पुर्तगाल की राजकुमारी कैथरीन की शादी तय हुई... इंग्लैंड के राजा चार्ल्स द्वितीय से।",
+     "facts": [
+      "F8"
+     ],
+     "size": "WS",
+     "angle": "eye",
+     "asset": "still",
+     "prompt": "staged in depth down a long candle-lit table in a royal hall: {MUMBAI_PRINCESS} near camera in the lower half of frame, {MUMBAI_KING} at the far end higher in frame, the sealed treaty scroll in the middle of the table, tall arched windows behind him",
+     "motion": "Slow dolly forward down the table. The princess turns her head toward the king; he gives a small formal nod. End with both looking at the scroll.",
+     "onscreen": "कैथरीन 👑 चार्ल्स"
+    },
+    {
+     "role": "story",
+     "vo": "तब मुंबई, सात छोटे टापू थी।",
+     "tts": "तब मुंबई, सात छोटे टापू थी।",
+     "facts": [
+      "F7"
+     ],
+     "size": "EWS",
+     "angle": "top",
+     "asset": "still",
+     "prompt": "seven small separate green clay islands scattered in a turquoise clay sea, tiny fishing sailboats between them, bright morning light",
+     "motion": "Slow rotating drift over the islands; small waves move. End with all seven islands in frame.",
+     "onscreen": "7 टापू"
+    },
+    {
+     "role": "story",
+     "vo": "और राज था पुर्तगालियों का।",
+     "tts": "और राज था पुर्तगालियों का।",
+     "facts": [
+      "F6"
+     ],
+     "size": "MS",
+     "angle": "low",
+     "asset": "still",
+     "prompt": "a generic clay 16th century Portuguese soldier in a steel morion helmet and breastplate standing guard on a stone fort rampart above the sea, a plain red-and-white banner on a pole beside him, fishing boats far below",
+     "motion": "Slow tilt up from the boats to the soldier. The banner ripples in the wind. End on the soldier looking out to sea.",
+     "onscreen": "पुर्तगाली राज"
+    },
+    {
+     "role": "story",
+     "vo": "शादी के समझौते में, दहेज की लिस्ट बनी।",
+     "tts": "शादी के समझौते में, दहेज की लिस्ट बनी।",
+     "facts": [
+      "F8"
+     ],
+     "size": "ECU",
+     "angle": "high",
+     "asset": "still",
+     "prompt": "a clay hand with a feather quill writing lines of unreadable squiggles on a long parchment list that unrolls off the desk edge, ink pot and candle",
+     "motion": "Locked camera. The quill writes and the parchment slides down off the desk. End with the list hanging over the edge.",
+     "onscreen": "दहेज की लिस्ट"
+    },
+    {
+     "role": "story",
+     "vo": "अफ़्रीका का टैंजियर।",
+     "tts": "अफ़्रीका का टैंजियर।",
+     "facts": [
+      "F8"
+     ],
+     "size": "MCU",
+     "angle": "eye",
+     "asset": "still",
+     "prompt": "a tiny clay model of a walled white North African port town with a harbour and sailing ships, sitting on the candle-lit desk next to the list",
+     "motion": "Slow pan right across the tiny port town. End on its harbour gate.",
+     "onscreen": "टैंजियर 🌍"
+    },
+    {
+     "role": "story",
+     "vo": "और भारत का, बॉम्बे।",
+     "tts": "और भारत का... बॉम्बे।",
+     "facts": [
+      "F8"
+     ],
+     "size": "CU",
+     "angle": "high",
+     "asset": "still",
+     "prompt": "a clay clerk's hand placing a tiny palm-tree island model on the desk right beside the port town model, candle light",
+     "motion": "Locked camera. The hand sets the island down and withdraws. End on the two models side by side.",
+     "onscreen": "+ बॉम्बे 🏝️"
+    },
+    {
+     "role": "twist",
+     "vo": "लेकिन ट्विस्ट यहाँ है।",
+     "tts": "[curious] लेकिन ट्विस्ट यहाँ है।",
+     "facts": [],
+     "bhediya": "cut_in_finger",
+     "vars": {},
+     "onscreen": "ट्विस्ट!"
+    },
+    {
+     "role": "story",
+     "vo": "दहेज हाथ आने में ही, चार साल लग गए।",
+     "tts": "दहेज हाथ आने में ही... चार साल लग गए!",
+     "facts": [
+      "F35",
+      "F10"
+     ],
+     "size": "MS",
+     "angle": "eye",
+     "asset": "still",
+     "prompt": "{MUMBAI_KING} sitting at a window drumming his fingers on the sill beside a clay hourglass, a waiting sailing ship visible on the sea outside, evening light",
+     "motion": "Locked camera. Sand runs through the hourglass while he drums his fingers; outside, the light shifts from day to dusk. End with the hourglass empty.",
+     "onscreen": "4 साल ⏳"
+    },
+    {
+     "role": "story",
+     "vo": "और तब पता चला, ये तोहफ़ा नहीं, बहुत महँगा बोझ है।",
+     "tts": "और तब पता चला... [sighs] ये तोहफ़ा नहीं, बहुत महँगा बोझ है।",
+     "facts": [
+      "F11"
+     ],
+     "size": "WS",
+     "angle": "high",
+     "asset": "still",
+     "prompt": "{MUMBAI_KING} slumped on his throne holding his forehead, surrounded by tall piles of clay bills and empty coin bags, the tiny island model on a velvet cushion at his feet, dim moody light",
+     "motion": "Slow pull-back upward. A coin bag tips over and empties. End with the king small among the bills.",
+     "onscreen": "तोहफ़ा या बोझ?"
+    },
+    {
+     "role": "interaction",
+     "vo": "सोचिए, आप राजा होते, तो क्या करते?",
+     "tts": "[curious] सोचिए... आप राजा होते, तो क्या करते?",
+     "facts": [],
+     "bhediya": "lean_in_question",
+     "vars": {
+      "pose": "sitting on the empty royal throne with the tiny island model balanced on one paw",
+      "context_visual": "the piles of royal bills"
+     },
+     "onscreen": "आप क्या करते? 🤔"
+    },
+    {
+     "role": "payoff",
+     "vo": "राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे, ईस्ट इंडिया कंपनी को किराए पर दे दिया।",
+     "tts": "राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे... ईस्ट इंडिया कंपनी को किराए पर दे दिया!",
+     "facts": [
+      "F12"
+     ],
+     "size": "MS",
+     "angle": "profile",
+     "asset": "clip",
+     "prompt": "{MUMBAI_KING} handing a rolled royal charter with a red wax seal to {MUMBAI_MERCHANT}, side profile two-shot in a bright office with tall sailing ships through the window",
+     "motion": "Locked camera. The charter passes from the king's hand to the merchant's; the merchant tucks it under his arm. End on the merchant's satisfied smile.",
+     "onscreen": "1668: किराए पर!"
+    },
+    {
+     "role": "payoff",
+     "vo": "और किराया?",
+     "tts": "और किराया?",
+     "facts": [],
+     "bhediya": "lean_in_question",
+     "vars": {
+      "pose": "holding a single small gold coin up beside his eye in the lantern light",
+      "context_visual": "dark archive shelves"
+     },
+     "onscreen": "किराया?"
+    },
+    {
+     "role": "payoff",
+     "vo": "साल का सिर्फ़ दस पाउंड!",
+     "tts": "[whispers] साल का सिर्फ़... [excited] दस पाउंड!",
+     "facts": [
+      "F12"
+     ],
+     "size": "ECU",
+     "angle": "high",
+     "asset": "clip",
+     "prompt": "a single small clay gold coin dropping onto a big parchment map of the seven islands on a wooden table, warm spotlight, extreme shallow depth of field",
+     "motion": "Locked camera. The coin drops into frame, spins and settles flat on the islands. End on the still coin.",
+     "onscreen": "सिर्फ़ £10 / साल 😳"
+    },
+    {
+     "role": "payoff",
+     "vo": "वही दहेज वाला टापू, आज भारत की आर्थिक राजधानी कहलाता है। मुंबई।",
+     "tts": "वही दहेज वाला टापू... आज भारत की आर्थिक राजधानी कहलाता है। मुंबई।",
+     "facts": [
+      "F29"
+     ],
+     "size": "EWS",
+     "angle": "low",
+     "asset": "clip",
+     "prompt": "clay miniature of a dense modern Mumbai skyline, tall towers rising to the top of frame, a curved seafront promenade with street lights in the lower third, Arabian Sea at dusk (modern buildings allowed in this shot)",
+     "motion": "Slow crane up from the seafront to the tower tops as the city lights switch on. End on the lit skyline.",
+     "onscreen": "दहेज ➜ मुंबई"
+    },
+    {
+     "role": "comment",
+     "vo": "अब बताइए, आज मुंबई का किराया कितना होना चाहिए?",
+     "tts": "अब बताइए... आज मुंबई का किराया कितना होना चाहिए?",
+     "facts": [],
+     "bhediya": "touch_diorama",
+     "vars": {
+      "topic_visual": "the modern Mumbai skyline at night",
+      "touch_action": "tap the top of the tallest tower with one claw"
+     },
+     "onscreen": "आज का किराया?"
+    },
+    {
+     "role": "comment",
+     "vo": "कमेंट में लिखिए।",
+     "tts": "कमेंट में लिखिए।",
+     "facts": [],
+     "bhediya": "point_at_viewer",
+     "vars": {
+      "context_visual": "the glowing city diorama"
+     },
+     "onscreen": "कमेंट 👇"
+    },
+    {
+     "role": "outro",
+     "vo": "अगली कहानी: मुंबई की वो ज़मीन, जो कभी समंदर थी।",
+     "tts": "अगली कहानी: मुंबई की वो ज़मीन... जो कभी समंदर थी।",
+     "facts": [],
+     "bhediya": "touch_diorama",
+     "vars": {
+      "topic_visual": "a clay city street",
+      "touch_action": "press the road, which cracks open to show blue sea water underneath"
+     },
+     "onscreen": "अगला: समंदर वाली ज़मीन 🌊"
+    },
+    {
+     "role": "outro",
+     "vo": "और फिर चलेंगे, हम्पी।",
+     "tts": "और फिर चलेंगे... हम्पी।",
+     "facts": [],
+     "bhediya": "map_tap_ots",
+     "vars": {
+      "map_note": "a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny clay boulders"
+     },
+     "onscreen": "फिर: हम्पी"
+    },
+    {
+     "role": "follow",
+     "vo": "@follow",
+     "tts": "@follow",
+     "facts": [],
+     "bhediya": "walk_off",
+     "vars": {
+      "where": "down the archive aisle into the shadows"
+     },
+     "onscreen": "फ़ॉलो करें ➕"
+    }
+   ]
+  },
+  {
+   "id": "short2-sea",
+   "episode": 2,
+   "title": "समंदर से छीना गया शहर",
+   "hook_onscreen": "ये ज़मीन कभी समंदर थी!",
+   "twist": "मुंबई बसाई नहीं गई, समंदर से छीनी गई; आज भी (कोस्टल रोड)",
+   "teaser": "Short 3 (अवाबाई का टोल-फ़्री रास्ता), फिर हम्पी",
+   "publish": {
+    "yt_titles": [
+     "मुंबई की ज़मीन कभी समंदर थी! 🌊 | 7 Islands of Bombay #shorts",
+     "7 टापू कैसे बने एक मुंबई? | Mumbai Reclamation History #shorts"
+    ],
+    "yt_description": "मुंबई कभी सात अलग टापू थी। हॉर्नबी वेलार्ड (1782-84), कॉज़वे और भराई से ये एक ज़मीन बनी, और कोस्टल रोड (2024) के लिए आज भी समंदर से ज़मीन ली गई। महालक्ष्मी मंदिर की कहानी लोक-कथा है। असली सीन, एपिसोड 2.\nSources: Harvard Hornby Vellard exhibit; Ministry of Culture (Indian Culture portal); MCGM heritage record.\n#mumbai #history #shorts",
+    "ig_caption": "आप मुंबई की जिस सड़क पर खड़े हैं, वो शायद कभी समंदर थी 🌊\nअसली सीन, एपिसोड 2 🐺\nआपका इलाक़ा कौन सा है? और समंदर से ज़मीन लेना, सही या ग़लत? 👇\nअगली कहानी: टोल-फ़्री रास्ते वाली अवाबाई। फ़ॉलो करें!\n\n#mumbai #bombay #sevenislands #indianhistory #historyinhindi #reels #asliscene"
+   },
+   "shots": [
+    {
+     "role": "hook",
+     "vo": "आप मुंबई की जिस सड़क पर खड़े हैं...",
+     "tts": "[curious] आप मुंबई की जिस सड़क पर खड़े हैं...",
+     "facts": [
+      "F16",
+      "F18"
+     ],
+     "size": "CU",
+     "angle": "low",
+     "asset": "clip",
+     "prompt": "a tiny clay person's shoes standing on an old clay city road, thin cracks starting to spread across the road surface around the feet, dusk light",
+     "motion": "Locked camera, ground level. Cracks spread outward from the feet. End with a crack reaching the frame edge.",
+     "onscreen": "ये ज़मीन कभी समंदर थी!"
+    },
+    {
+     "role": "hook",
+     "vo": "वो शायद कभी समंदर थी!",
+     "tts": "वो शायद कभी समंदर थी!",
+     "facts": [
+      "F16",
+      "F18"
+     ],
+     "size": "MS",
+     "angle": "top",
+     "asset": "clip",
+     "prompt": "looking straight down at the clay road splitting open to reveal deep blue clay sea water with small fish swimming beneath it",
+     "motion": "Fast push straight down into the opening; fish dart. End with the frame full of blue water.",
+     "onscreen": "समंदर!"
+    },
+    {
+     "role": "brand",
+     "vo": "@intro1",
+     "tts": "@intro1",
+     "facts": [],
+     "bhediya": "walk_in",
+     "vars": {
+      "extra": "toward a tabletop sea diorama where seven islands float"
+     },
+     "onscreen": "असली सीन 🐺"
+    },
+    {
+     "role": "brand",
+     "vo": "@intro2",
+     "tts": "@intro2",
+     "facts": [],
+     "bhediya": "scroll_reveal",
+     "vars": {
+      "topic_visual": "seven separate islands slowly drifting together"
+     },
+     "onscreen": "आज: मुंबई"
+    },
+    {
+     "role": "story",
+     "vo": "कभी मुंबई, सात अलग-अलग टापू थी।",
+     "tts": "कभी मुंबई... सात अलग-अलग टापू थी।",
+     "facts": [
+      "F7"
+     ],
+     "size": "EWS",
+     "angle": "top",
+     "asset": "still",
+     "prompt": "seven separate green clay islands in a turquoise clay sea, small fishing boats with sails between them, tiny palm trees and huts, bright morning light",
+     "motion": "Slow rotating aerial drift; each island lights up one by one. End with all seven lit.",
+     "onscreen": "7 टापू"
+    },
+    {
+     "role": "story",
+     "vo": "बीच में समंदर, और ज्वार में डूबती ज़मीन।",
+     "tts": "बीच में समंदर... और ज्वार में डूबती ज़मीन।",
+     "facts": [
+      "F16"
+     ],
+     "size": "WS",
+     "angle": "eye",
+     "asset": "clip",
+     "prompt": "clay sea water flowing over low swampy land between two islands, small huts standing in the water, clay fishermen lifting their nets, overcast grey-blue light",
+     "motion": "Locked camera. The water level rises around the huts. End with water at the hut doors.",
+     "onscreen": "ज्वार = बाढ़"
+    },
+    {
+     "role": "interaction",
+     "vo": "मुंबई में रहते हैं?",
+     "tts": "मुंबई में रहते हैं?",
+     "facts": [],
+     "bhediya": "lean_in_question",
+     "vars": {
+      "pose": "one paw raised with a tiny map pin between his claws",
+      "context_visual": "a clay map of today's Mumbai"
+     },
+     "onscreen": "मुंबई में हैं? 📍"
+    },
+    {
+     "role": "interaction",
+     "vo": "अपना इलाक़ा कमेंट में लिखिए।",
+     "tts": "अपना इलाक़ा कमेंट में लिखिए।",
+     "facts": [],
+     "size": "CU",
+     "angle": "top",
+     "asset": "still",
+     "prompt": "a grey clay wolf paw (BHEDIYA) pushing small red map pins one by one into a clay map of today's Mumbai neighbourhoods",
+     "motion": "Locked overhead camera. Pins go in one after another. End with five pins standing.",
+     "onscreen": "अपना इलाक़ा 👇"
+    },
+    {
+     "role": "interaction",
+     "vo": "शायद वो भी, कभी समंदर था।",
+     "tts": "शायद वो भी... कभी समंदर था।",
+     "facts": [],
+     "size": "MS",
+     "angle": "high",
+     "asset": "still",
+     "prompt": "the same clay Mumbai map with red pins, now a glowing blue outline of the old seven-island coastline lighting up over it, several pins standing inside the blue sea area, {BHEDIYA} at the map edge looking down",
+     "motion": "Slow pull-back upward. The blue outline glows on. End with the whole map and the wolf in frame.",
+     "onscreen": "शायद समंदर था!"
+    },
+    {
+     "role": "story",
+     "vo": "सत्रह सौ बयासी में, गवर्नर हॉर्नबी ने वरली के पास, एक बड़ी समुद्री दीवार शुरू करवाई।",
+     "tts": "सत्रह सौ बयासी में, गवर्नर हॉर्नबी ने वरली के पास, एक बड़ी समुद्री दीवार शुरू करवाई।",
+     "facts": [
+      "F16"
+     ],
+     "size": "WS",
+     "angle": "eye",
+     "asset": "clip",
+     "prompt": "many clay workers in 18th century Indian clothing carrying stones and baskets of earth along a half-built stone sea wall across a creek, a generic clay British official in a 1780s coat and tricorn hat watching with a rolled plan, golden afternoon light",
+     "motion": "Slow lateral track along the wall. Workers pass stones hand to hand. End on the official unrolling his plan.",
+     "onscreen": "1782"
+    },
+    {
+     "role": "story",
+     "vo": "हॉर्नबी वेलार्ड।",
+     "tts": "हॉर्नबी वेलार्ड।",
+     "facts": [
+      "F16"
+     ],
+     "size": "CU",
+     "angle": "low",
+     "asset": "still",
+     "prompt": "a clay wave crashing against new grey stones of the sea wall, spray rising into the light",
+     "motion": "Locked camera, low at the waterline. One wave hits and the spray falls. End on wet stones.",
+     "onscreen": "हॉर्नबी वेलार्ड"
+    },
+    {
+     "role": "story",
+     "vo": "कहते हैं, दीवार बार-बार टूटती थी।",
+     "tts": "कहते हैं... दीवार बार-बार टूटती थी।",
+     "facts": [
+      "F20"
+     ],
+     "size": "MS",
+     "angle": "eye",
+     "asset": "still",
+     "prompt": "a section of the unfinished stone sea wall slumping and sliding into the sea while clay workers step back safely on the shore, grey sky",
+     "motion": "Locked camera. The wall section slides into the water. End with the gap in the wall.",
+     "onscreen": "कहते हैं..."
+    },
+    {
+     "role": "story",
+     "vo": "फिर एक इंजीनियर के सपने के बाद, समंदर से देवी की मूर्तियाँ मिलीं,",
+     "tts": "फिर एक इंजीनियर के सपने के बाद, समंदर से देवी की मूर्तियाँ मिलीं...",
+     "facts": [
+      "F20"
+     ],
+     "size": "MCU",
+     "angle": "high",
+     "asset": "still",
+     "prompt": "a clay engineer in 18th century Indian clothing sleeping on a mat by a small oil lamp, a soft golden glow from the calm night sea visible through the open doorway, respectful and serene, no deity faces shown",
+     "motion": "Very slow push-in. The golden glow outside brightens gently. End with the glow lighting his face.",
+     "onscreen": "लोक-कथा ✨"
+    },
+    {
+     "role": "story",
+     "vo": "और बना महालक्ष्मी मंदिर।",
+     "tts": "और बना महालक्ष्मी मंदिर।",
+     "facts": [
+      "F20"
+     ],
+     "size": "WS",
+     "angle": "low",
+     "asset": "still",
+     "prompt": "a small clay seaside temple with a saffron flag on rocks beside the finished stone sea wall, calm sea at sunrise, tiny respectful clay devotees on the steps, respectful depiction, no deity close-up",
+     "motion": "Slow push-in toward the temple; the flag flutters. End on the temple steps.",
+     "onscreen": "महालक्ष्मी मंदिर"
+    },
+    {
+     "role": "story",
+     "vo": "ये एक लोक-कथा है।",
+     "tts": "ये एक लोक-कथा है।",
+     "facts": [
+      "F20"
+     ],
+     "bhediya": "cut_in_finger",
+     "vars": {},
+     "onscreen": "लोक-कथा"
+    },
+    {
+     "role": "payoff",
+     "vo": "फिर बने कॉज़वे,",
+     "tts": "फिर बने कॉज़वे...",
+     "facts": [
+      "F19"
+     ],
+     "size": "MS",
+     "angle": "low",
+     "asset": "still",
+     "prompt": "a clay horse cart rolling across a new stone causeway over shallow water, 19th century, soft morning light",
+     "motion": "Locked camera at road level. The cart rolls through frame left to right. End with the empty causeway.",
+     "onscreen": "कॉज़वे"
+    },
+    {
+     "role": "payoff",
+     "vo": "और उन्नीसवीं सदी के बीच तक, सात टापू, एक ज़मीन बन गए।",
+     "tts": "और उन्नीसवीं सदी के बीच तक... सात टापू, एक ज़मीन बन गए!",
+     "facts": [
+      "F18"
+     ],
+     "size": "EWS",
+     "angle": "top",
+     "asset": "clip",
+     "prompt": "the seven clay islands from the earlier shot, now joined into one long landmass by stone causeways and filled land, colonial buildings appearing, warm light",
+     "motion": "Slow rise straight up. The last gaps fill with land. End on the single landmass.",
+     "onscreen": "7 ➜ 1"
+    },
+    {
+     "role": "payoff",
+     "vo": "और आज भी, कोस्टल रोड के लिए, समंदर से ज़मीन ली गई।",
+     "tts": "और आज भी, कोस्टल रोड के लिए, समंदर से ज़मीन ली गई।",
+     "facts": [
+      "F33",
+      "F34"
+     ],
+     "size": "WS",
+     "angle": "high",
+     "asset": "still",
+     "prompt": "clay miniature of a modern coastal highway curving along the sea beside a city skyline, a seawall of big stones holding back clay waves, sunset light (modern road and buildings allowed in this shot)",
+     "motion": "Slow pull-back. Waves crash on the seawall. End on the full curve of the road.",
+     "onscreen": "आज भी: कोस्टल रोड"
+    },
+    {
+     "role": "payoff",
+     "vo": "मुंबई बसाई नहीं गई।",
+     "tts": "मुंबई बसाई नहीं गई...",
+     "facts": [],
+     "size": "MS",
+     "angle": "low",
+     "asset": "clip",
+     "prompt": "{BHEDIYA} standing on top of the stone seawall of the diorama, clay waves breaking below his feet, city lights behind him",
+     "motion": "Locked low camera. A wave breaks below; his shawl moves in the wind. End with him looking down at the sea.",
+     "onscreen": "बसाई नहीं..."
+    },
+    {
+     "role": "payoff",
+     "vo": "समंदर से छीनी गई।",
+     "tts": "समंदर से छीनी गई।",
+     "facts": [],
+     "size": "ECU",
+     "angle": "high",
+     "asset": "clip",
+     "prompt": "a grey clay wolf paw (BHEDIYA) pressing down on wet clay land at the waterline, pushing the blue clay water back",
+     "motion": "Locked camera. The paw presses and the water retreats. End with dry land under the paw.",
+     "onscreen": "समंदर से छीनी गई 🌊"
+    },
+    {
+     "role": "comment",
+     "vo": "समंदर से ज़मीन लेना, सही या ग़लत?",
+     "tts": "समंदर से ज़मीन लेना... सही या ग़लत?",
+     "facts": [],
+     "size": "CU",
+     "angle": "eye",
+     "asset": "clip",
+     "prompt": "a clay balance scale on a rock by the sea: one pan holds a tiny clay city block, the other a tiny clay wave with fish, dusk light",
+     "motion": "Locked camera. The scale tips one way, then the other. End balanced.",
+     "onscreen": "सही या ग़लत?"
+    },
+    {
+     "role": "comment",
+     "vo": "कमेंट में लिखिए।",
+     "tts": "कमेंट में लिखिए।",
+     "facts": [],
+     "bhediya": "point_at_viewer",
+     "vars": {
+      "context_visual": "the balance scale by the sea"
+     },
+     "onscreen": "कमेंट 👇"
+    },
+    {
+     "role": "outro",
+     "vo": "अगली कहानी: वो औरत, जिसने अपने पैसों से समंदर पर रास्ता बनवाया।",
+     "tts": "अगली कहानी: वो औरत... जिसने अपने पैसों से समंदर पर रास्ता बनवाया।",
+     "facts": [],
+     "bhediya": "touch_diorama",
+     "vars": {
+      "topic_visual": "a long stone causeway across a creek",
+      "touch_action": "set a tiny lantern down at the start of the causeway"
+     },
+     "onscreen": "अगला: अवाबाई"
+    },
+    {
+     "role": "outro",
+     "vo": "और फिर चलेंगे, हम्पी।",
+     "tts": "और फिर चलेंगे... हम्पी।",
+     "facts": [],
+     "bhediya": "map_tap_ots",
+     "vars": {
+      "map_note": "a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny clay boulders"
+     },
+     "onscreen": "फिर: हम्पी"
+    },
+    {
+     "role": "follow",
+     "vo": "@follow",
+     "tts": "@follow",
+     "facts": [],
+     "bhediya": "walk_off",
+     "vars": {
+      "where": "along the sea wall into the dusk"
+     },
+     "onscreen": "फ़ॉलो करें ➕"
+    }
+   ]
+  },
+  {
+   "id": "short3-avabai",
+   "episode": 3,
+   "title": "टोल-फ़्री रास्ते वाली अवाबाई",
+   "hook_onscreen": "शर्त: कोई टोल नहीं!",
+   "twist": "दान की शर्त: कभी टोल नहीं; सड़क आज भी उनके नाम पर",
+   "teaser": "अगला शहर: हम्पी",
+   "publish": {
+    "yt_titles": [
+     "एक औरत ने समंदर पर रास्ता बनवाया, शर्त: कोई टोल नहीं! | Mahim Causeway #shorts",
+     "Lady Avabai की अनोखी शर्त | Mumbai History in Hindi #shorts"
+    ],
+    "yt_description": "1840-41 के आसपास माहिम की खाड़ी में नावें पलटीं। लेडी अवाबाई जमशेदजी जीजीभॉय ने डेढ़ लाख रुपये से ज़्यादा देकर माहिम कॉज़वे बनवाया (1845), इस शर्त पर कि कभी टोल नहीं लगेगा। सड़क आज भी लेडी जमशेदजी रोड कहलाती है। असली सीन, एपिसोड 3.\nSources: see research/mumbai/sources.md (F21, F36).\n#mumbai #history #shorts",
+    "ig_caption": "एक औरत ने अपने पैसों से समंदर पर रास्ता बनवाया, और शर्त रखी: कोई टोल नहीं 🙏\nअसली सीन, एपिसोड 3 🐺\nआपके शहर में भी ऐसा कोई दान वाला पुल है? 👇\nअगला शहर: हम्पी 🏛️ फ़ॉलो करें!\n\n#mumbai #mahim #bandra #indianhistory #historyinhindi #reels #asliscene"
+   },
+   "shots": [
+    {
+     "role": "hook",
+     "vo": "एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया...",
+     "tts": "एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया...",
+     "facts": [
+      "F21"
+     ],
+     "size": "WS",
+     "angle": "low",
+     "asset": "clip",
+     "prompt": "{MUMBAI_LADY} standing at the start of a long stone causeway stretching away over the sea toward a far shore at the top of frame, people walking past her, golden hour",
+     "motion": "Slow push-in toward her. The sea breeze moves the sari end. End on her looking down the causeway.",
+     "onscreen": "समंदर पर रास्ता?"
+    },
+    {
+     "role": "hook",
+     "vo": "और शर्त रखी, कोई टोल नहीं!",
+     "tts": "[excited] और शर्त रखी, कोई टोल नहीं!",
+     "facts": [
+      "F21"
+     ],
+     "size": "CU",
+     "angle": "eye",
+     "asset": "clip",
+     "prompt": "the hand of {MUMBAI_LADY} pushing up a wooden toll-gate barrier pole across the causeway",
+     "motion": "Locked camera. Her hand lifts the pole until it stands upright. End on the open way behind it.",
+     "onscreen": "शर्त: कोई टोल नहीं!"
+    },
+    {
+     "role": "brand",
+     "vo": "@intro1",
+     "tts": "@intro1",
+     "facts": [],
+     "bhediya": "walk_in",
+     "vars": {
+      "extra": "toward a tabletop diorama of a creek between two shores"
+     },
+     "onscreen": "असली सीन 🐺"
+    },
+    {
+     "role": "brand",
+     "vo": "@intro2",
+     "tts": "@intro2",
+     "facts": [],
+     "bhediya": "scroll_reveal",
+     "vars": {
+      "topic_visual": "a stone causeway crossing a creek between two shores"
+     },
+     "onscreen": "आज: मुंबई"
+    },
+    {
+     "role": "story",
+     "vo": "माहिम और बांद्रा के बीच, एक खाड़ी थी।",
+     "tts": "माहिम और बांद्रा के बीच, एक खाड़ी थी।",
+     "facts": [
+      "F21"
+     ],
+     "size": "EWS",
+     "angle": "high",
+     "asset": "still",
+     "prompt": "a wide creek of blue clay water between two palm-lined shores with small villages, 19th century Bombay, hazy morning light",
+     "motion": "Slow pan from one shore to the other. End on the far shore.",
+     "onscreen": "माहिम ↔ बांद्रा"
+    },
+    {
+     "role": "story",
+     "vo": "लोग नावों से पार करते थे।",
+     "tts": "लोग नावों से पार करते थे।",
+     "facts": [
+      "F21"
+     ],
+     "size": "MS",
+     "angle": "eye",
+     "asset": "still",
+     "prompt": "a small wooden clay ferry boat crowded with clay passengers and baskets crossing the creek, the boatman pushing with a long pole",
+     "motion": "Locked camera at water level. The boat glides across frame. End with the boat mid-frame.",
+     "onscreen": "नाव से पार"
+    },
+    {
+     "role": "story",
+     "vo": "अठारह सौ चालीस-इकतालीस के आसपास, नावें पलटीं,",
+     "tts": "अठारह सौ चालीस-इकतालीस के आसपास... नावें पलटीं,",
+     "facts": [
+      "F21"
+     ],
+     "size": "WS",
+     "angle": "high",
+     "asset": "still",
+     "prompt": "an empty overturned clay boat floating on dark stormy water, broken oars drifting, grey rain clouds, symbolic, no people shown",
+     "motion": "Locked camera. Rain falls, the empty boat drifts slowly. End with the boat near frame centre.",
+     "onscreen": "1840-41"
+    },
+    {
+     "role": "story",
+     "vo": "और कई लोगों की जान गई।",
+     "tts": "और कई लोगों की जान गई।",
+     "facts": [
+      "F21"
+     ],
+     "size": "CU",
+     "angle": "eye",
+     "asset": "still",
+     "prompt": "a single small unlit clay lantern floating alone on dark rippling water, symbolic and quiet",
+     "motion": "Locked camera. The lantern bobs slowly on the ripples. End still.",
+     "onscreen": ""
+    },
+    {
+     "role": "story",
+     "vo": "तब आगे आईं, एक पारसी महिला।",
+     "tts": "तब आगे आईं, एक पारसी महिला।",
+     "facts": [
+      "F21"
+     ],
+     "size": "MS",
+     "angle": "low",
+     "asset": "still",
+     "prompt": "{MUMBAI_LADY} stepping out onto a wooden balcony overlooking the stormy creek",
+     "motion": "Locked low camera. She steps forward to the railing and stops. End with both hands on the railing.",
+     "onscreen": "एक पारसी महिला"
+    },
+    {
+     "role": "story",
+     "vo": "लेडी अवाबाई जमशेदजी जीजीभॉय।",
+     "tts": "लेडी अवाबाई जमशेदजी जीजीभॉय।",
+     "facts": [
+      "F21"
+     ],
+     "size": "CU",
+     "angle": "eye",
+     "asset": "still",
+     "prompt": "face of {MUMBAI_LADY} lit by soft window light, rain-streaked glass behind her",
+     "motion": "Very slow push-in. She lifts her chin slightly. End on her steady gaze.",
+     "onscreen": "लेडी अवाबाई"
+    },
+    {
+     "role": "story",
+     "vo": "उन्होंने डेढ़ लाख रुपये से ज़्यादा दान दिए।",
+     "tts": "उन्होंने डेढ़ लाख रुपये से ज़्यादा दान दिए।",
+     "facts": [
+      "F21"
+     ],
+     "size": "ECU",
+     "angle": "high",
+     "asset": "clip",
+     "prompt": "the hands of {MUMBAI_LADY} placing a heavy embroidered cloth bag of coins into the hands of an engineer holding rolled drawings",
+     "motion": "Locked camera. The bag passes from her hands to his. End on his hands closing around it.",
+     "onscreen": "₹1.5 लाख+ दान"
+    },
+    {
+     "role": "story",
+     "vo": "और बना, माहिम कॉज़वे।",
+     "tts": "और बना... माहिम कॉज़वे।",
+     "facts": [
+      "F21"
+     ],
+     "size": "WS",
+     "angle": "high",
+     "asset": "still",
+     "prompt": "clay workers laying big stones of a long causeway across the creek, carts of stone, bright daylight",
+     "motion": "Slow forward drift along the causeway as stones are placed. End at the newest stone.",
+     "onscreen": "माहिम कॉज़वे"
+    },
+    {
+     "role": "twist",
+     "vo": "बस एक शर्त।",
+     "tts": "बस एक शर्त।",
+     "facts": [],
+     "bhediya": "cut_in_finger",
+     "vars": {},
+     "onscreen": "एक शर्त"
+    },
+    {
+     "role": "payoff",
+     "vo": "इस रास्ते पर, लोगों से कभी टोल नहीं लिया जाएगा।",
+     "tts": "[whispers] इस रास्ते पर... लोगों से कभी टोल नहीं लिया जाएगा।",
+     "facts": [
+      "F21"
+     ],
+     "size": "MS",
+     "angle": "eye",
+     "asset": "still",
+     "prompt": "clay villagers, fishermen with baskets and a bullock cart passing freely over the stone causeway where a toll barrier has been removed and laid on the ground",
+     "motion": "Locked camera. People and the cart pass through frame. End with the barrier lying on the ground.",
+     "onscreen": "कोई टोल नहीं"
+    },
+    {
+     "role": "interaction",
+     "vo": "आपके शहर में भी, किसी ने ऐसा कोई रास्ता या पुल दान से बनवाया है?",
+     "tts": "आपके शहर में भी... किसी ने ऐसा कोई रास्ता या पुल, दान से बनवाया है?",
+     "facts": [],
+     "bhediya": "touch_diorama",
+     "vars": {
+      "topic_visual": "a clay map of India dotted with tiny bridges",
+      "touch_action": "touch one tiny bridge, which lights up"
+     },
+     "onscreen": "आपके शहर में?"
+    },
+    {
+     "role": "interaction",
+     "vo": "कमेंट में बताइए।",
+     "tts": "कमेंट में बताइए।",
+     "facts": [],
+     "bhediya": "point_at_viewer",
+     "vars": {
+      "context_visual": "the glowing map of India"
+     },
+     "onscreen": "कमेंट 👇"
+    },
+    {
+     "role": "payoff",
+     "vo": "अठारह सौ पैंतालीस में, ये रास्ता खुल गया।",
+     "tts": "अठारह सौ पैंतालीस में, ये रास्ता खुल गया।",
+     "facts": [
+      "F21"
+     ],
+     "size": "EWS",
+     "angle": "high",
+     "asset": "clip",
+     "prompt": "the finished stone causeway at sunset with horse carriages and people crossing, lanterns lit along its edge, calm golden sea",
+     "motion": "Slow pull-back over the causeway. End with the full causeway shore to shore.",
+     "onscreen": "1845 ✔"
+    },
+    {
+     "role": "payoff",
+     "vo": "और उसकी एक सड़क, आज भी उनके नाम पर है। लेडी जमशेदजी रोड।",
+     "tts": "और उसकी एक सड़क... आज भी उनके नाम पर है। लेडी जमशेदजी रोड।",
+     "facts": [
+      "F36"
+     ],
+     "size": "MS",
+     "angle": "low",
+     "asset": "still",
+     "prompt": "a busy modern clay Mumbai street with buses, taxis and old trees, an old stone building at the corner, warm afternoon light, no readable signs (modern vehicles allowed in this shot)",
+     "motion": "Slow tilt up from the traffic to the old trees. End on the treetops.",
+     "onscreen": "एल. जे. रोड"
+    },
+    {
+     "role": "comment",
+     "vo": "आज के ज़माने में, ऐसी शर्त कौन रखेगा?",
+     "tts": "आज के ज़माने में... ऐसी शर्त कौन रखेगा?",
+     "facts": [],
+     "size": "CU",
+     "angle": "eye",
+     "asset": "still",
+     "prompt": "{MUMBAI_LADY} smiling softly at the end of the causeway, lanterns glowing behind her, warm evening light",
+     "motion": "Gentle push-in. Lantern light flickers on her face. End on the soft smile.",
+     "onscreen": "आज कौन रखेगा?"
+    },
+    {
+     "role": "comment",
+     "vo": "आप बताइए।",
+     "tts": "आप बताइए।",
+     "facts": [],
+     "bhediya": "lean_in_question",
+     "vars": {
+      "pose": "both paws resting on his lantern",
+      "context_visual": "the lantern-lit causeway"
+     },
+     "onscreen": "आप बताइए 👇"
+    },
+    {
+     "role": "outro",
+     "vo": "अगला शहर: हम्पी।",
+     "tts": "अगला शहर: हम्पी।",
+     "facts": [],
+     "bhediya": "map_tap_ots",
+     "vars": {
+      "map_note": "a single glowing marker in Karnataka among tiny clay boulders and ruined temples"
+     },
+     "onscreen": "अगला शहर: हम्पी 🏛️"
+    },
+    {
+     "role": "outro",
+     "vo": "एक बड़े साम्राज्य की राजधानी, जो आज खंडहर है।",
+     "tts": "एक बड़े साम्राज्य की राजधानी... जो आज खंडहर है।",
+     "facts": [],
+     "size": "EWS",
+     "angle": "low",
+     "asset": "clip",
+     "prompt": "{BHEDIYA} as a small figure walking between giant rounded clay boulders and ruined stone temple pillars rising to the top of frame, warm dusk light",
+     "motion": "Slow tilt up from the wolf to the tops of the boulders. End on the ruins against the sky.",
+     "onscreen": "खंडहर क्यों?"
+    },
+    {
+     "role": "outro",
+     "vo": "आख़िर हुआ क्या था?",
+     "tts": "[curious] आख़िर हुआ क्या था?",
+     "facts": [],
+     "bhediya": "eye_ecu",
+     "vars": {},
+     "onscreen": "आख़िर क्या हुआ?"
+    },
+    {
+     "role": "follow",
+     "vo": "@follow",
+     "tts": "@follow",
+     "facts": [],
+     "bhediya": "walk_off",
+     "vars": {
+      "where": "between the boulders into the dusk"
+     },
+     "onscreen": "फ़ॉलो करें ➕"
+    }
+   ]
+  }
+ ],
+ "format_rule": "One narration line = one shot. Bhediya (narrator) shots come from prompts/library.json bhediya_shots; story shots show people."
+}

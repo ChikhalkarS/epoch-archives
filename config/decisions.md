@@ -13,3 +13,7 @@ Owner decisions, newest last. Claude reads this before every stage. Change a dec
 | 2026-11-27 | Characters are clay people, not animals (trust for real history; animated animals risk "made for kids"). Recurring figures get one reference image, reused | style guide, make-short |
 | 2026-11-27 | Every Short: hook, brand intro with city name ("नमस्ते, एपॉक आर्काइव्स में आपका स्वागत है। आज की कहानी, <city> की।"), story, mid-video viewer line, payoff, comment question, next-city teaser, follow line | config/channel.json shorts_template, skill make-short |
 | 2026-11-27 | Shorts post at 18:00 IST; Mumbai Short 1 on Sat 28 Nov 2026 | shorts/SCHEDULE.md |
+| 2026-11-27 | Show name असली सीन. Intro after the hook: "स्वागत है, असली सीन के <पहले/दूसरे/...> एपिसोड में। मैं हूँ भेड़िया, और आज की कहानी, <city> की।" Episodes count every Short in posting order | config/channel.json show + shorts_template |
+| 2026-11-27 | Narrator is always Bhediya, a clay wolf (replaces the Sutradhar). People stay people in story shots. Supersedes "no animals" for the narrator only. Upload as "not made for kids" | prompts/library.json, style guide |
+| 2026-11-27 | Every narration line gets its own shot; Bhediya shots vary (walk-in, scroll reveal, cut-in, lean-in, touch, point, map, eye close-up, walk-off) | shorts/<city>/shorts.json, tools/build-shorts.mjs |
+| 2026-11-27 | All prompts live in the repo: prompts/library.json is the single source, always the latest best version, with a changelog. Shorts files are built from it | prompts/, tools/build-shorts.mjs |

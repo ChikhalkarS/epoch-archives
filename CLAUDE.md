@@ -4,6 +4,7 @@
 - Pipeline: `/make-video <city>` (skills/studio/make-video). Stop at Gate 1 (script) and Gate 2 (renders).
 - Shorts-first for now: `/make-short <city>` (skills/studio/make-short), output in `shorts/<city>/`. Every Short follows `shorts_template` in `config/channel.json`.
 - Owner decisions are logged in `config/decisions.md`. Read it first; add new decisions there.
+- Prompts: `prompts/library.json` is the single source (style, characters, Bhediya shot bank). Keep the latest best version there, log changes in `prompts/CHANGELOG.md`, rebuild with `node tools/build-shorts.mjs <city>`.
 - Read state from files (`config/`, `tracker/videos.csv`, `research/`, `scripts/`, `storyboards/`), not memory.
 - Replies: short. After each stage: five-line summary + next action. Max three questions, only when blocked.
 - Accuracy: every script claim has a fact ID in `research/<slug>/sources.md`. Neutral wording for disputed history.

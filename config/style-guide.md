@@ -2,7 +2,7 @@
 
 ## 1. Look: claymation miniatures
 
-Every image and clip prompt starts with the **prefix** below, then the scene, then the **suffix**. Never change the prefix per scene. That is how the look stays the same.
+Canonical copy of the prefix, suffix and negative: `prompts/library.json` (if the two ever differ, the library wins). Every image and clip prompt starts with the **prefix** below, then the scene, then the **suffix**. Never change the prefix per scene. That is how the look stays the same.
 
 **PREFIX (copy exactly):**
 ```
@@ -28,7 +28,7 @@ Example (Bhopal, 11th century):
 > PREFIX + `clay workers carrying baskets of earth to build a huge dam between two hills, medieval central Indian landscape with a river, early morning golden light, wide high angle` + SUFFIX
 
 ### Recurring characters
-- **Sutradhar** (narrator figure, appears in hook and outro only): a small clay storyteller, elderly man, white beard, saffron-brown shawl, round spectacles, holding an old scroll. Build his sheet once with the `character-consistency` skill and reuse the sheet image as reference in every generation.
+- **Bhediya (भेड़िया)**, lead narrator and host of असली सीन: an upright clay grey wolf storyteller (amber eyes, scar over the left brow, indigo shawl, terracotta kurta, brass lantern, scroll). He appears in the brand intro, narrator cut-ins, viewer lines and the outro; story scenes show people as people. Full identity, close-up and sheet prompts: `prompts/library.json` (canonical) and `prompts/LIBRARY.md`. Replaces the earlier Sutradhar.
 - Historical figures: never claim a real likeness. Use generic clay figures dressed for the era. Label names in the edit, not in the image.
 
 ### Respect rules
@@ -45,6 +45,7 @@ Example (Bhopal, 11th century):
 - Image tools (free): Google Flow / ImageFX (Imagen), Microsoft Bing Image Creator / Designer, Leonardo free tier, Ideogram free tier. Check each tool's terms allow commercial YouTube use before using it.
 
 ## 3. Edit rhythm
+- Shorts: one narration line = one shot. Adjacent shots change size by two steps (EWS, WS, MS, MCU, CU, ECU) or change angle. One camera move per clip, with a clear end position.
 - Hook: first 5 seconds, question on screen, strongest image.
 - New visual every 4 to 8 seconds. A scene with longer narration is split into two images.
 - Every 60 to 90 seconds: an open loop ("lekin asli kahani abhi baaki hai...").
