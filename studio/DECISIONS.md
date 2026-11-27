@@ -31,8 +31,10 @@ Newest at the bottom. The file named in each row has the detail. Claude reads th
 | 26 | 2026-11-27 | Progress tracking: `studio/STATUS.md` holds dated progress + target dates; every new session starts by reading it and summarising, and ends by updating it. Plans: Google AI Pro (Flow), ElevenLabs free tier | `studio/STATUS.md` |
 | 27 | 2026-11-27 | Topic filter for every file: a **real document** behind it + a **link to the viewer's life today** + a **surprise**. Shortlist of 12 archive-backed city files | `studio/TOPICS_ARCHIVE.md` |
 | 28 | 2026-11-27 | Create the YouTube channel now on the owner's new email. Handle **@epoch.archives**. Setup pack in `studio/CHANNEL_SETUP.md`. Goal: try for monetisation before 2027-01-31 (old rules), knowing it's a stretch | `studio/CHANNEL_SETUP.md` |
+| 29 | 2026-11-27 | **YouTube channel created:** name "Wolfy Files", handle **@BhediyaFiles** (channel ID UCyF65YTJHp5qxEUO11FAX5Q). English channel description set. Replaces the earlier @epoch.archives plan (#28) | `config/channel.json` |
 
 ## Open (waiting for the owner)
+- **One brand name everywhere** (channel name, description, banner, spoken welcome): Wolfy Files or Bhediya Files.
 - Gate 1 approval of the Bhopal long-video script (`episodes/ep01-bhopal-jheel/script_hi.md`).
 - Season 1 order: Indian cities only, or alternate India and world.
 - Captions for Shorts: YouTube SRT upload, or burned-in captions.

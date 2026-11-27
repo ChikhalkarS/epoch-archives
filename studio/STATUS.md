@@ -11,6 +11,7 @@ Rules: decisions live in `studio/DECISIONS.md`; brand and roadmap in `studio/VIS
 | Characters made in Flow | Sutradhar wolf close-up ✅ (approved). Sultan lion close-up ✅ (approved). Archive room ✅. Sheets: confirm both are saved as ingredients |
 | **फ़ाइल 001** (Bhopal lost lake Short) | Script v5 (story-first, 11 clips) ✅. Flow prompts ✅ (pass `validate.py`). **One sample of clips generated in Flow** ✅. **ElevenLabs voice audio generated (free tier)** ✅. **Editing not done yet** ⏳ (`tools/finish_short.mjs` is ready and tested) |
 | Bhopal long video | Research ✅, script ✅ (casual tone), 87 Flow prompts ✅. **Waiting for Gate 1 approval.** Not generated |
+| YouTube | Channel live: **Wolfy Files**, https://www.youtube.com/@BhediyaFiles (0 videos). Description set (English). Profile picture, banner and watermark prompts given. **Name to align** |
 | Published | Nothing yet |
 
 ## Done log
@@ -27,6 +28,7 @@ Rules: decisions live in `studio/DECISIONS.md`; brand and roadmap in `studio/VIS
   - ElevenLabs test input.
   - `finish_short.mjs` editor.
   - Owner generated sample clips + ElevenLabs audio.
+  - YouTube channel created (Wolfy Files, @BhediyaFiles); DP, banner, watermark prompts and an English description written.
   - Owner feedback: the Bhopal story lacks value. New topic filter (document + today's relevance + surprise); 12 archive-backed city files shortlisted (`studio/TOPICS_ARCHIVE.md`).
 
 ## Plan (dates are targets; move them forward if missed and note why)
@@ -44,7 +46,7 @@ Rules: decisions live in `studio/DECISIONS.md`; brand and roadmap in `studio/VIS
 | 2027-03 | Start the ⚔️ wars playlist (`studio/VISION.md`) | |
 
 ## Open decisions (from `studio/DECISIONS.md`)
-0. **Pick the launch file** from `studio/TOPICS_ARCHIVE.md`.
+0. **Align the brand name** (Wolfy Files vs Bhediya Files), then **pick the launch file** from `studio/TOPICS_ARCHIVE.md`.
 1. Gate 1: Bhopal long-video script.
 2. Voice for publishing: ElevenLabs (paid) or Flow's voice.
 3. Season 1 order: Indian cities only, or alternate India and world.

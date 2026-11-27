@@ -1,6 +1,6 @@
 {
   "name": "Epoch Archive Studios",
-  "handle": "epoch.archives",
+  "handle": "BhediyaFiles",
   "niche": "Indian city histories: founding, rulers, wars, trade, culture, food, geography, strange facts",
   "language": {
     "narration": "hi",
@@ -58,5 +58,12 @@
     "title_pattern": "[Topic] का असली सीन 🔍 | फ़ाइल 001",
     "vision": "studio/VISION.md"
   },
-  "handle_note": "YouTube @epoch.archives (owner choice 2026-11-27); a different channel owns @EpochArchives"
+  "youtube": {
+    "url": "https://www.youtube.com/@BhediyaFiles",
+    "handle": "@BhediyaFiles",
+    "channel_id": "UCyF65YTJHp5qxEUO11FAX5Q",
+    "display_name": "Wolfy Files",
+    "created": "2026-11-27",
+    "note": "Name not yet aligned: description says History's Wolf, banner says ITIHAAS KA BHEDIYA, scripts say आर्काइव फ़ाइल्स. Owner to pick one name."
+  }
 }
