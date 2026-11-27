@@ -1,6 +1,6 @@
 # Reference analysis: Quiet Wolf (@QuietWolfz)
 
-**Data source:** the owner's notes from 2026-11-27. YouTube (yt-dlp and web fetch) is blocked from this build container.
+**Data source:** owner notes + channel lists pulled with yt-dlp on 2026-11-27 (see Appendix). Video descriptions and captions are not yet pulled.
 **Re-check:** on the owner's Mac, run `yt-dlp --flat-playlist -J https://www.youtube.com/@QuietWolfz/videos > qw.json`, then refresh the numbers below.
 
 ## Snapshot
@@ -63,3 +63,43 @@
 | Reflective closer + next-EP tease | Their fables or story ideas |
 
 Every Epoch Archive episode is original research on Indian cities, brands and habits, with its own fact IDs in `research/<slug>/sources.md`.
+
+## Appendix: channel data pulled 2026-11-27 (yt-dlp, channel list only)
+
+Subscribers: 240k. Long/other videos listed: 5. Shorts: 49. Descriptions and captions: not pulled (blocked on individual video pages).
+
+
+### Long videos
+| Title | Length | Views |
+|---|---|---|
+| Doubt Was Their Product: How Fake Science Fooled Everyone | Lever 4 · Ep. 4 | 8:43 | 274k |
+| The Underdog - Nobody Plays Your Next Move. | 2:02 | 313k |
+| EP3 - You’re Not Buying the Product. You’re Buying the Step. | 11:45 | 291k |
+| EP2 - They Invented Your Flaws. Then Sold You the Cure. | 10:13 | 713k |
+| EP1 - It Was Never Rare: The Psychology of Scarcity | 7:31 | 608k |
+
+### Shorts: median 243k views, 13 of 49 at 500k+, 3 at 1M+
+| Title | Views |
+|---|---|
+| The Hidden Trap in Every Supermarket | 1900k |
+| The $13 Million Lawsuit Over “Gives You Wings” | 1300k |
+| 10,000 steps was never science. It was an ad. | 1100k |
+| The Card Was Never the Product | 977k |
+| The Day They Sold You Love | 827k |
+| 100 YEARS. SAME HOURS. | 707k |
+| Coffee Sellers Named Your Break | 669k |
+| Stop Overthinking. Just Do It Once. | 651k |
+| Michelin Stars Were Never About Food | 649k |
+| Why Is There Always a Medium? | 546k |
+| same bag different price | 523k |
+| The $100 Watch That Saved the $35,000 One | 522k |
+| Who Really Invented Black Friday? | 515k |
+| Money Isn't Real | 466k |
+| Who Benefits When You Blame Them? | 458k |
+
+### What the real data adds
+- Top Shorts (1.9M supermarket, 1.3M "Gives You Wings" lawsuit, 1.1M 10,000 steps, 977k "The Card Was Never the Product", 827k "The Day They Sold You Love") are all **"a familiar thing has a hidden commercial origin"**. Motivational/fable Shorts sit lower (100–650k).
+- Shorts that name a concrete number or object do best ($13 Million, 10,000 steps, 40-Cent Toy, $100 Watch, 100 YEARS).
+- The long series is now branded by "Lever" ("Lever 4 · Ep. 4": a series of persuasion levers). EP2 (10:13) has the most views at 713k, EP1 (7:31) has 608k, EP3/EP4 have about 275–290k. That's the normal series decay, as expected.
+- For us: put a number or object in the Short title ("1,000 saal purani jheel", "7 dweep", "1 rupaye ka sikka").
+
