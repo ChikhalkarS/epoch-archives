@@ -115,7 +115,7 @@ ACTION: Sutradhar stands behind the tray, grips the tiny embankment wall with bo
 CAMERA: Medium close shot, eye level, 50mm, slow push-in toward Sutradhar and the tray.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "भोपाल की सबसे बड़ी झील, क़ुदरत ने नहीं बनाई।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a soft wet squelch as the wall lifts, water trickling across wood.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -131,7 +131,7 @@ ACTION: Sutradhar lowers the little wall, peers over the top of his spectacles a
 CAMERA: Close-up on Sutradhar's face and hands, eye level, 85mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "उसे इंसानों ने बनाया था, क़रीब एक हज़ार साल पहले।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a soft wooden tap as the wall is set down.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -145,7 +145,7 @@ ACTION: The indigo river line slowly bends in its middle as if redrawn by an uns
 CAMERA: Top-down shot, 35mm, slow descent toward the bending river.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "और इसके लिए, एक नदी को अपना रास्ता बदलना पड़ा।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: gentle trickling water. SFX: a soft brush-stroke sound as the river bends.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -161,7 +161,7 @@ ACTION: Sutradhar unties the red thread on his scroll and unrolls it toward the 
 CAMERA: Medium shot, slight low angle, 35mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "किसने किया ये? और जो झील इससे भी बड़ी थी, वो कहाँ गई?"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: dry parchment rustle.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -188,7 +188,7 @@ ACTION: Mist slowly drifts off the lake surface as the first sunlight touches th
 CAMERA: Extreme wide aerial shot, high angle, 24mm, slow push-in toward the city shore.
 LIGHTING: Low amber sunrise light from camera-right, long deep shadows, thin glowing mist, dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "भोपाल को झीलों का शहर कहते हैं।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: birdsong, water lapping softly.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -202,7 +202,7 @@ ACTION: A sambar-deer boatman unties his boat and pushes it off into the water; 
 CAMERA: Wide shot, eye level, 35mm, slow pan from left to right along the promenade.
 LIGHTING: Low amber sunrise light from camera-right, long deep shadows, thin glowing mist, dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "सुबह की सैर, शाम की नाव, और घरों के नलों तक पहुँचता पानी।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: water lapping, distant birds, a wooden oar knocking. SFX: a rope sliding off a post.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -216,7 +216,7 @@ ACTION: A small flock of birds flies low across the water from right to left and
 CAMERA: Extreme wide shot, high angle, 24mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "बड़ा तालाब, यानी भोजताल, क़रीब इकतीस वर्ग किलोमीटर में फैला है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind over water, distant bird calls.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -230,7 +230,7 @@ ACTION: The child stretches an open paw across the lake; the father nods and put
 CAMERA: Medium-wide shot from behind the family, eye level, 35mm, slow push-in.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "ज़्यादातर लोग मानते हैं, कि ये झील हमेशा से यहीं थी।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: water lapping on steps, light breeze.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -244,7 +244,7 @@ ACTION: One by one the three objects catch the lamp light as the flame flares sl
 CAMERA: Medium shot, high angle over the desk, 50mm, slow lateral move from left to right across the three objects.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "पर पुराने गज़ेटियर, पत्थर, और फ़ारसी इतिहास-ग्रंथ, कुछ और कहानी सुनाते हैं।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a soft paper rustle.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -260,7 +260,7 @@ ACTION: Sutradhar picks up the first wax seal, holds it up beside his face towar
 CAMERA: Medium close shot, eye level, 50mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "आज हम खोलेंगे तीन राज़। पहला, ये झील बनी कैसे।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a small click as the seal is lifted.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -274,7 +274,7 @@ ACTION: The mist slowly thins and reveals the broken stone blocks in the river; 
 CAMERA: Wide shot, low angle from the riverbank, 24mm, slow push-in.
 LIGHTING: Low amber sunrise light from camera-right, long deep shadows, thin glowing mist, dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "दूसरा, राजा भोज की वो झील, जो इससे भी बड़ी थी, और आज ग़ायब है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: slow river flow, wind over stone.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -288,7 +288,7 @@ ACTION: The hand lifts the stamp slightly higher and pauses in mid-air above the
 CAMERA: Close-up on the hand and tablet, slight high angle, 85mm, locked.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "और तीसरा, उसे मिटाने की वो मशहूर कहानी, जो शायद पूरी सच नहीं।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a low rising whoosh that stops abruptly.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -304,7 +304,7 @@ ACTION: Sutradhar breaks the first wax seal on his scroll with his thumb, unroll
 CAMERA: Medium shot, eye level, 35mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "राज़ नंबर एक। झील नहीं, बाँध।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a crisp wax crack, parchment rustle.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -318,7 +318,7 @@ ACTION: A small flag in saffron and ochre pops up from the fort and unfurls; it 
 CAMERA: Top-down shot, 35mm, slow descent toward the fort.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "ग्यारहवीं सदी। मालवा पर परमार वंश के राजा भोज का राज था।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: soft room tone. SFX: a soft pop and cloth flutter.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -332,7 +332,7 @@ ACTION: The small river flows steadily through the valley from the hills toward 
 CAMERA: Wide shot, eye level, 35mm, slow pan from right to left following the river.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "भोपाल के पास, कोलांस नाम की एक छोटी नदी बहती थी।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: river babbling, birds. SFX: a soft flap of wings.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -346,7 +346,7 @@ ACTION: A tiny boat floats along the small river and glides into the wider river
 CAMERA: Top-down shot, 50mm, slow lateral move following the boat.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "उसका पानी, आगे जाकर हलाली नदी में मिल जाता था।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: trickling water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -360,7 +360,7 @@ ACTION: Workers in the front tip their baskets onto the embankment and walk back
 CAMERA: Wide shot, high angle, 24mm, slow push-in toward the embankment.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "फिर इस नदी के रास्ते में, मिट्टी का एक मोटा बाँध खड़ा किया गया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: many feet on earth, baskets thudding, distant work calls. SFX: earth pouring from baskets.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -374,7 +374,7 @@ ACTION: Deep indigo-blue water rises behind the embankment and spreads outward a
 CAMERA: Extreme wide shot, high angle, 24mm, slow pull-out to reveal the whole new lake.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "पानी रुका, फैलता गया, और पहाड़ियों के बीच एक विशाल झील बन गई।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: rising water, wind. SFX: a deep low swell of water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -388,7 +388,7 @@ ACTION: A hand draws a short ink line from one edge of the lake toward the right
 CAMERA: Top-down shot, 50mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "फिर एक नहर काटकर, बहाव को दूसरी तरफ़ मोड़ा गया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: soft room tone. SFX: a quill scratch, then a trickle.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -402,7 +402,7 @@ ACTION: Water flows steadily from the lake through the channel into the river on
 CAMERA: Top-down shot, 35mm, slow pull-out to show both the dry old course and the new flow.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "आज कोलांस का ऊपरी पानी, हलाली नहीं, कलियासोत की तरफ़ बहता है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: steady trickling water. SFX: a low rising whoosh ending in a soft drum hit as the full map comes into view.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -416,7 +416,7 @@ ACTION: The water flows past the camera; a single leaf floats by on the current 
 CAMERA: Close-up, low angle at water level, 50mm, locked.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "यानी इंसान के एक फ़ैसले ने, एक नदी की दिशा बदल दी।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: close water flow.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -430,7 +430,7 @@ ACTION: A hand turns one palm leaf over and smooths it flat; the hand withdraws.
 CAMERA: Close-up, high angle, 85mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "परंपरा, इस काम का श्रेय राजा भोज को देती है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a dry palm-leaf rustle.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -444,7 +444,7 @@ ACTION: The king lifts his head weakly, then lets it sink back onto the bolster;
 CAMERA: Medium-wide shot, eye level, 35mm, locked, the camera does not move.
 LIGHTING: Soft daylight through a carved stone lattice window, patterned shadows on the floor.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "कहते हैं, राजा भोज एक बार बहुत बीमार पड़े।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: fan swishing, quiet palace.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -458,7 +458,7 @@ ACTION: The sadhu traces the blue lines with the tip of his wooden staff from th
 CAMERA: Medium shot, slight low angle, 50mm, slow push-in on the leaf.
 LIGHTING: Soft daylight through the lattice window.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "एक साधु ने कहा, ऐसी झील में नहाइए, जिसमें तीन सौ पैंसठ धाराएँ मिलें।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: quiet palace, distant temple bell.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -472,7 +472,7 @@ ACTION: The last surveyor drops one final pebble on the pile, sits back on his h
 CAMERA: Medium shot, high angle, 35mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "गिनती हुई, तो धाराएँ निकलीं, सिर्फ़ तीन सौ उनसठ।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind in grass. SFX: small pebbles clicking.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -486,7 +486,7 @@ ACTION: The chieftain sweeps his open paw across the hills toward a distant vall
 CAMERA: Wide shot, low angle from behind the surveyors, 35mm, slow push-in toward the chieftain.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "तब कालिया नाम के एक गोंड सरदार ने, बाक़ी धाराओं का रास्ता दिखाया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind over hills, a hawk cry.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -502,7 +502,7 @@ ACTION: Sutradhar pats the tiny embankment with his open paw, then looks up at t
 CAMERA: Medium close shot, eye level, 50mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "ये एक लोक-कथा है। पर बाँध, और झील, दोनों असली हैं।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a soft wooden tap.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -516,7 +516,7 @@ ACTION: The heavy book cover swings open by itself and pages flutter forward, th
 CAMERA: Close-up, high angle, 50mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "और शहर का नाम? इम्पीरियल गज़ेटियर, उन्नीस सौ आठ के मुताबिक़, भोज और पाल, यानी बाँध।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a heavy book thud, pages fluttering.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -530,7 +530,7 @@ ACTION: Tiny houses pop up one after another along the shore until the town is c
 CAMERA: Wide shot, high angle, 24mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "भोजपाल। जो धीरे-धीरे, भोपाल बन गया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind, distant water. SFX: small pops as each house appears.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -544,7 +544,7 @@ ACTION: The lamp light slowly sweeps across the crown and it glints once; the li
 CAMERA: Close-up, eye level, 85mm, slow orbit of about 30 degrees around the crown.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "हालाँकि कुछ लोग, इस नाम को भूपाल नाम के एक राजा से जोड़ते हैं।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -558,7 +558,7 @@ ACTION: Starting close on the grassy embankment, the view rises to reveal the wh
 CAMERA: Starts as a close shot of the embankment, crane-style slow rise to an extreme wide high angle, 24mm.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "अगर पहली बात सही है, तो इस शहर का नाम ही एक बाँध है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind over water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -572,7 +572,7 @@ ACTION: A small brass marker slides along the map from the lake pin to the easte
 CAMERA: Top-down shot, 35mm, slow lateral move following the marker.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "पर राजा भोज यहीं नहीं रुके। तीस किलोमीटर दूर, उन्होंने इससे भी बड़ा कुछ बनाया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: soft room tone. SFX: a quick whoosh as the marker slides.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -588,7 +588,7 @@ ACTION: Sutradhar breaks the second wax seal on his scroll, unrolls it toward th
 CAMERA: Medium shot, slight high angle, 35mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "राज़ नंबर दो। वो झील, जो ग़ायब हो गई।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a crisp wax crack, parchment rustle.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -602,7 +602,7 @@ ACTION: The river flows steadily through the gorge; a flock of small birds lifts
 CAMERA: Wide shot, high angle, 24mm, slow push-in along the gorge.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "भोपाल से क़रीब तीस किलोमीटर दूर, बेतवा नदी के किनारे है, भोजपुर।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: strong river flow, birds. SFX: wings flapping.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -616,7 +616,7 @@ ACTION: The king pours water from a small brass vessel onto the ground before th
 CAMERA: Medium-wide shot, low angle, 35mm, locked, the camera does not move.
 LIGHTING: Firelight from below, deep indigo night sky with painted stars.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "लोक-कथा है, राजा भोज ने नौ नदियों और निन्यानवे नालों को बाँधने की क़सम खाई।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: crackling fire, night insects. SFX: water splashing on earth.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -630,7 +630,7 @@ ACTION: The workers pull together; the giant block rolls forward over the logs a
 CAMERA: Wide shot, eye level, 35mm, slow pan from left to right along the wall.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "यहाँ ग्यारहवीं सदी में, दो बड़े बाँध बने। मिट्टी के नहीं, विशाल तराशे पत्थरों के।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: river rushing, ropes creaking, work calls. SFX: a deep stone grinding thud.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -644,7 +644,7 @@ ACTION: Indigo-blue water rises behind the stone dams and spreads far across the
 CAMERA: Extreme wide aerial shot, high angle, 24mm, slow pull-out to reveal the whole lake.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "इन बाँधों ने बेतवा को रोका, और बन गई एक बहुत बड़ी झील।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: rising water, wind. SFX: a deep water swell.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -658,7 +658,7 @@ ACTION: A nilgai farmer drives a pair of bullocks across a field and stops at th
 CAMERA: Extreme wide aerial shot, high angle, 24mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "आज वहाँ जाइए, तो झील नहीं मिलेगी।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind over fields, bullock bells.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -672,7 +672,7 @@ ACTION: A goat walks along the top of the old dam and stops to look over the edg
 CAMERA: Wide shot, low angle, 24mm, slow pan from left to right along the dam.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "उत्तर वाला बाँध, आज भी खड़ा है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind, goat bell.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -686,7 +686,7 @@ ACTION: River water flows around the fallen blocks; a small palm-squirrel boy ho
 CAMERA: Medium-wide shot, high angle, 35mm, slow push-in.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "और दक्षिण वाले बाँध के टूटे पत्थर, बेतवा के पानी में बिखरे पड़े हैं।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: water flowing around stones.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -700,7 +700,7 @@ ACTION: A slow beam of morning sunlight moves across the temple front and lights
 CAMERA: Wide shot, low angle, 24mm, slow tilt up from the platform to the open top.
 LIGHTING: Low amber sunrise light from camera-right, long deep shadows, thin glowing mist, dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "उसी झील के किनारे, राजा भोज ने एक शिव मंदिर बनवाना शुरू किया। भोजेश्वर।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: birds, a faint temple bell.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -714,7 +714,7 @@ ACTION: The tiny pilgrim places a small marigold garland on the base, folds his 
 CAMERA: Wide shot, very low angle, 24mm, slow tilt up along the lingam.
 LIGHTING: Soft daylight falling from the open roof above, gentle glow on the polished stone.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "इसका शिवलिंग, क़रीब साढ़े पाँच मीटर ऊँचा है। एक ही पत्थर से बना।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: quiet temple echo, a soft bell.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -728,7 +728,7 @@ ACTION: A small bird flies across the open roof gap from left to right; clouds d
 CAMERA: Extreme low angle looking straight up, 24mm, slow rotation of about 20 degrees.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "पर ये मंदिर, कभी पूरा नहीं हुआ।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind through the open roof, bird call.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -742,7 +742,7 @@ ACTION: A hand brushes dust off the engraved lines; the drawings become clear an
 CAMERA: Macro close-up, high angle, 100mm macro, slow lateral move across the engraved lines.
 LIGHTING: Low raking sunlight from camera-left that makes the engraved lines stand out.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "पास की चट्टानों पर, मंदिर के खंभों और नक़्शों की रेखाएँ, पत्थर पर उकेरी मिली हैं।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind, faint brushing. SFX: a soft brush sweep.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -756,7 +756,7 @@ ACTION: The workers heave together and the block moves a short distance up the r
 CAMERA: Wide shot, side angle, 35mm, slow tilt up along the ramp.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "मंदिर के पीछे, मिट्टी का लंबा ढलान, जिस पर भारी पत्थर ऊपर चढ़ाए जाते थे।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: rollers creaking, workers' calls. SFX: a heavy stone scrape.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -770,7 +770,7 @@ ACTION: A gust of wind blows dust across the abandoned tools and settles; the qu
 CAMERA: Medium shot, eye level, 50mm, slow push-in on the abandoned tools.
 LIGHTING: Fading orange dusk light from camera-right, long shadows.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "ऐसा लगता है, जैसे काम बीच में ही रुक गया हो।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind whistling through the quarry.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -786,7 +786,7 @@ ACTION: Sutradhar leans over the dry valley model, lifts his spectacles onto his
 CAMERA: Medium close shot, eye level, 50mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "तो इतनी बड़ी झील, गई कहाँ? इसका एक बहुत मशहूर जवाब है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -802,7 +802,7 @@ ACTION: Sutradhar breaks the third wax seal on his scroll, sets the scroll aside
 CAMERA: Medium shot, eye level, 35mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "राज़ नंबर तीन। सच या झूठ?"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a crisp wax crack.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -816,7 +816,7 @@ ACTION: The storyteller spreads his arms wide; the listeners lean in and stay le
 CAMERA: Medium-wide shot, eye level, 35mm, slow push-in on the circle.
 LIGHTING: Warm lantern light, dusky indigo sky.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "भोपाल में, ये कहानी आपको कई लोग सुनाएँगे।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: market murmur, a distant tea-glass clink.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -830,7 +830,7 @@ ACTION: The sultan raises one hand; the soldiers lift their picks and swing them
 CAMERA: Wide shot, high angle from behind the sultan, 35mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "पंद्रहवीं सदी में, मालवा के सुल्तान होशंगशाह ने, भोजपुर का बाँध तुड़वा दिया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind, horse snort. SFX: picks striking stone.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -844,7 +844,7 @@ ACTION: The crack widens, two blocks shift apart, and a thin jet of indigo-blue 
 CAMERA: Close-up, low angle, 50mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "बाँध तोड़ने में, तीन महीने लगे।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind over the dam. SFX: stone cracking, then rushing water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -858,7 +858,7 @@ ACTION: In a time-lapse the water level drops steadily, exposing muddy banks and
 CAMERA: Extreme wide shot, high angle, 24mm, locked, the camera does not move.
 LIGHTING: Daylight shifting rapidly from morning to evening and back as days pass.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "झील को खाली होने में, तीन साल।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind. SFX: a long draining gurgle.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -872,7 +872,7 @@ ACTION: Green shoots sprout across the cracked mud in time-lapse until a nilgai 
 CAMERA: Wide shot, eye level, 35mm, slow push-in.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "और उस ज़मीन पर खेती होने में, पूरे तीस साल।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind, bullock bells.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -888,7 +888,7 @@ ACTION: Sutradhar raises the rubber stamp high above the ledger in one hand and 
 CAMERA: Medium close shot, slight low angle, 50mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "तो, ये कहानी सच है, या झूठ?"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a low rising whoosh.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -904,7 +904,7 @@ ACTION: Sutradhar brings the stamp down firmly onto the ledger page and lifts it
 CAMERA: Medium close shot framing Sutradhar's face and the ledger together, slight high angle, 50mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "जवाब है, विवादित।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a heavy stamp thump, then a soft drum hit.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -918,7 +918,7 @@ ACTION: The journal opens slowly and its pages fan to a page of dense abstract s
 CAMERA: Close-up, high angle, 50mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "एक शोध के मुताबिक़, ये कहानी, अठारह सौ अठासी की एक ग़लतफ़हमी से फैली।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: pages turning.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -932,7 +932,7 @@ ACTION: He runs his pen along a line of the manuscript, then writes a quick note
 CAMERA: Medium shot, eye level, 50mm, locked, the camera does not move.
 LIGHTING: Warm kerosene lamp light from camera-right.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "एक अंग्रेज़ लेखक, विलियम किनकेड ने, एक फ़ारसी इतिहास-ग्रंथ को, भोजपुर की कहानी मान लिया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: clock ticking. SFX: a pen nib scratching.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -946,7 +946,7 @@ ACTION: He reads a line of the manuscript, turns to the typewriter and types a s
 CAMERA: Medium shot, slight high angle, 50mm, slow push-in.
 LIGHTING: Daylight from a window at camera-left.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "बाद में, इतिहासकार यू. एन. डे ने, उस ग्रंथ का अनुवाद किया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: ceiling fan whirring. SFX: typewriter keys clacking.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -960,7 +960,7 @@ ACTION: The lead merchant bows and gestures back toward the distant hills; the s
 CAMERA: Wide shot, eye level, 35mm, locked, the camera does not move.
 LIGHTING: Warm daylight through arches from camera-left.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "उसके मुताबिक़, सुल्तान ने एक बाँध, भोपाल और विदिशा के व्यापारियों के कहने पर तुड़वाया था।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: court murmur.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -974,7 +974,7 @@ ACTION: One bandit pushes the boat off toward the shore and climbs in; the boat 
 CAMERA: Wide shot, high angle, 35mm, slow push-in toward the island.
 LIGHTING: Moonlight from above, small orange campfire glow.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "क्योंकि डाकू, झील से घिरी एक जगह पर छिपते थे, जहाँ तक पहुँचना मुश्किल था।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: water lapping, crickets. SFX: an oar dipping.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -988,7 +988,7 @@ ACTION: A hand lifts a small jackal-bandit figurine from the Bhojpur pin, carrie
 CAMERA: Top-down shot, 35mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "इस शोध के मुताबिक़, वो झील भोजपुर की नहीं, भोपाल की ही थी।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: soft room tone. SFX: a small click as the figure is placed.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1002,7 +1002,7 @@ ACTION: Small birds circle the island once and land in its trees; the water shim
 CAMERA: Wide aerial shot, high angle, 35mm, slow orbit of about 30 degrees around the island.
 LIGHTING: Golden late-afternoon sunlight from camera-right.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "और भोपाल की झील के बीच, आज भी एक टापू है। तकिया टापू।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: birds, gentle water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1016,7 +1016,7 @@ ACTION: Lightning flashes once and the river surges higher against the stone dam
 CAMERA: Wide shot, low angle, 24mm, locked, the camera does not move.
 LIGHTING: Dark storm light with one bright lightning flash.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "भोजपुर के बाँध पर, यही शोध, ग्यारहवीं सदी के एक असाधारण मानसून की बात करता है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: heavy rain, roaring river. SFX: a thunderclap.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1030,7 +1030,7 @@ ACTION: A huge brown wave of floodwater hits the dam; the top blocks tip over an
 CAMERA: Medium-wide shot, eye level, 35mm, locked, the camera does not move.
 LIGHTING: Dark storm light, rain streaks.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "जिसकी बाढ़ ने, मंदिर के नीचे वाला बाँध गिरा दिया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: roaring flood. SFX: stone blocks crashing.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1046,7 +1046,7 @@ ACTION: Sutradhar places one hand flat on the stack of books, then lays his open
 CAMERA: Medium shot, eye level, 35mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "होशंगशाह वाली कहानी, आज भी कई किताबों में दोहराई जाती है। इसलिए, फ़ैसला विवादित।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a soft tap on the books.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1060,7 +1060,7 @@ ACTION: A hand turns the ledger page, revealing a small ink drawing of a lake wi
 CAMERA: Close-up, high angle, 85mm, locked.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "पर अगर नया शोध सही है, तो कहानी पलट जाती है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a page turn, a low rising whoosh.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1074,7 +1074,7 @@ ACTION: Water rushes out through the gap in the embankment and spreads downstrea
 CAMERA: Wide shot, high angle, 35mm, slow push-in toward the gap.
 LIGHTING: Overcast grey daylight.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "जो झील तोड़ी गई थी, वो भोपाल की थी।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: rushing water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1088,7 +1088,7 @@ ACTION: Workers tip baskets of earth onto the embankment and tamp it down with w
 CAMERA: Wide shot, eye level, 35mm, slow pan from left to right along the embankment.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "और अठारहवीं सदी में, उसी बाँध की मरम्मत हुई, और उसे ऊँचा किया गया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: rammers thudding, work calls. SFX: earth pouring.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1102,7 +1102,7 @@ ACTION: The sun sinks behind the hills and the city lights come on one by one al
 CAMERA: Extreme wide shot, eye level from the water, 24mm, slow pull-out.
 LIGHTING: Orange sunset from behind the hills, glowing reflections.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "यानी आज का भोजताल, शायद एक बार टूटी, और फिर से बनाई गई झील है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: evening birds, gentle water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1118,7 +1118,7 @@ ACTION: Sutradhar sweeps one open hand over the lake model toward the lens, palm
 CAMERA: Medium shot, eye level, 35mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "और ये सब, सिर्फ़ किताबों में नहीं। आज भी दिखता है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1132,7 +1132,7 @@ ACTION: A tourist boat passes in front of the pillar from left to right; the sta
 CAMERA: Wide shot, low angle from the water, 35mm, slow tilt up to the statue.
 LIGHTING: Bright midday light from high camera-left.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "झील के एक कोने में, ऊँचे खंभे पर, राजा भोज की मूर्ति। दो हज़ार ग्यारह से।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: boat motor hum, water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1146,7 +1146,7 @@ ACTION: A palm-squirrel child releases a small blue balloon that floats up over 
 CAMERA: Medium-wide shot, eye level, 35mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "उसी साल, बड़े तालाब का नाम रखा गया, भोजताल।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: promenade chatter, water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1160,7 +1160,7 @@ ACTION: The gates hold steady as foamy water pours through them and churns in th
 CAMERA: Wide shot, low angle from the channel, 24mm, slow push-in.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "भदभदा पर ग्यारह गेट वाला बाँध, उन्नीस सौ पैंसठ में बना।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: roaring water through gates.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1174,7 +1174,7 @@ ACTION: The released water rushes down the channel and away into the valley; spr
 CAMERA: Wide shot, high angle, 35mm, slow pan following the flow downstream.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "यही गेट तय करते हैं, कि झील का कितना पानी कलियासोत में जाए।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: rushing water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1188,7 +1188,7 @@ ACTION: A small rowing boat crosses the small lake and reaches the far bank.
 CAMERA: Wide shot, high angle, 35mm, slow push-in.
 LIGHTING: Soft late-afternoon light.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "छोटा तालाब, सत्रह सौ चौरानवे में, नवाब के मंत्री छोटे ख़ान ने बनवाया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: old city sounds, water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1202,7 +1202,7 @@ ACTION: A flock of birds lifts off the water together and circles over the reeds
 CAMERA: Wide shot, eye level from the reeds, 35mm, slow pan from right to left.
 LIGHTING: Low amber sunrise light from camera-right, long deep shadows, thin glowing mist, dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "दोनों झीलें मिलकर, भोज वेटलैंड हैं। दो हज़ार दो से, रामसर सूची में दर्ज।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: many bird calls, wings.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1216,7 +1216,7 @@ ACTION: The globe turns slowly until the central India dot faces the camera and 
 CAMERA: Close-up, eye level, 85mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "रामसर, यानी दुनिया की अहम आर्द्रभूमियों की सूची।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a soft chime as the dot glows.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1230,7 +1230,7 @@ ACTION: The guide sweeps his open paw from the river stones up to the temple; th
 CAMERA: Wide shot, high angle, 24mm, slow pan from the river up to the temple.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "भोजपुर में खड़ा बाँध, बिखरे पत्थर, और उकेरे नक़्शे, आज भी देखे जा सकते हैं।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: river, visitors murmuring.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1244,7 +1244,7 @@ ACTION: The girl turns the tap, fills the tumbler with clear water, turns it off
 CAMERA: Medium close shot, eye level, 50mm, locked, the camera does not move.
 LIGHTING: Soft window daylight from camera-left.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "भोपाल के पीने के पानी का एक बड़ा ज़रिया, आज भी यही झील है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: kitchen room tone. SFX: water filling a steel glass.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1260,7 +1260,7 @@ ACTION: Sutradhar rests his open paw on the tiny embankment and looks at the len
 CAMERA: Medium close shot, eye level, 50mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "तो, भोपाल की झील किसने बनाई? क़ुदरत ने नहीं। एक बाँध ने।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1276,7 +1276,7 @@ ACTION: Sutradhar takes off his spectacles, polishes them on his shawl, and puts
 CAMERA: Close-up, eye level, 85mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "जिसे परंपरा राजा भोज से जोड़ती है। और वो बाँध, आज भी पानी दे रहा है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1290,7 +1290,7 @@ ACTION: A single lantern boat drifts slowly across the still water and leaves a 
 CAMERA: Wide shot, eye level, 35mm, locked, the camera does not move.
 LIGHTING: Deep blue dusk, warm city lights.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "शहर अपने आप नहीं बसते। कोई, कभी, पानी को रुकने की वजह देता है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: evening crickets, faint water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1304,7 +1304,7 @@ ACTION: The lamp inside the window brightens and the four crowns glint one after
 CAMERA: Medium shot, slight low angle, 50mm, slow push-in on the crowns.
 LIGHTING: Warm interior lamp light through the arch, blue dusk outside.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "इसी झील के किनारे, एक सौ सात साल, एक रियासत पर सिर्फ़ औरतों ने राज किया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: evening birds. SFX: a soft shimmer as each crown glints.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1320,7 +1320,7 @@ ACTION: Sutradhar raises his open paw beside his muzzle as if sharing a secret, 
 CAMERA: Medium close shot, eye level, 50mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "कैसे? अगले एपिसोड में। आपके शहर में कौन सा राज़ छिपा है? कमेंट में लिखिए।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1336,7 +1336,7 @@ ACTION: Sutradhar rolls up his scroll, ties the red thread, tucks it under his a
 CAMERA: Medium shot, eye level, 35mm, slow pull-out.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "इतिहास याद रखिए... सवाल पूछते रहिए।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: parchment rolling.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1372,7 +1372,7 @@ ACTION: Sutradhar taps his rolled scroll three times against his open paw, then 
 CAMERA: Medium close shot, eye level, 50mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "एक झील को मिटाने में, तीस साल लगे? ये कहानी, सच है या नहीं?"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a low rising whoosh.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1387,7 +1387,7 @@ ACTION: The sultan raises one hand; the soldiers lift their picks and swing them
 CAMERA: Wide shot, high angle from behind the sultan, 35mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "पंद्रहवीं सदी में, मालवा के सुल्तान होशंगशाह ने, भोजपुर का बाँध तुड़वा दिया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind, horse snort. SFX: picks striking stone.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1402,7 +1402,7 @@ ACTION: The crack widens, two blocks shift apart, and a thin jet of indigo-blue 
 CAMERA: Close-up, low angle, 50mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "बाँध तोड़ने में, तीन महीने लगे।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind over the dam. SFX: stone cracking, then rushing water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1417,7 +1417,7 @@ ACTION: In a time-lapse the water level drops steadily, exposing muddy banks and
 CAMERA: Extreme wide shot, high angle, 24mm, locked, the camera does not move.
 LIGHTING: Daylight shifting rapidly from morning to evening and back as days pass.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "झील को खाली होने में, तीन साल।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind. SFX: a long draining gurgle.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1432,7 +1432,7 @@ ACTION: Green shoots sprout across the cracked mud in time-lapse until a nilgai 
 CAMERA: Wide shot, eye level, 35mm, slow push-in.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "और उस ज़मीन पर खेती होने में, पूरे तीस साल।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind, bullock bells.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1449,7 +1449,7 @@ ACTION: Sutradhar brings the stamp down firmly onto the ledger page and lifts it
 CAMERA: Medium close shot framing Sutradhar's face and the ledger together, slight high angle, 50mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "जवाब है, विवादित।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a heavy stamp thump, then a soft drum hit.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1466,7 +1466,7 @@ ACTION: Sutradhar taps his rolled scroll twice against his palm and points it to
 CAMERA: Medium shot, eye level, 35mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "विवादित क्यों? पूरी कहानी, चैनल पर एपिसोड एक में।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1485,7 +1485,7 @@ ACTION: Sutradhar draws a slow curving line in the air with his rolled scroll an
 CAMERA: Medium close shot, eye level, 50mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "भोपाल में एक नदी, हज़ार साल से, दूसरी दिशा में बह रही है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a low rising whoosh.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1500,7 +1500,7 @@ ACTION: The small river flows steadily through the valley from the hills toward 
 CAMERA: Wide shot, eye level, 35mm, slow pan from right to left following the river.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "भोपाल के पास, कोलांस नाम की एक छोटी नदी बहती थी।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: river babbling, birds. SFX: a soft flap of wings.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1515,7 +1515,7 @@ ACTION: A tiny boat floats along the small river and glides into the wider river
 CAMERA: Top-down shot, 50mm, slow lateral move following the boat.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "उसका पानी, आगे जाकर हलाली नदी में मिल जाता था।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: trickling water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1530,7 +1530,7 @@ ACTION: Workers in the front tip their baskets onto the embankment and walk back
 CAMERA: Wide shot, high angle, 24mm, slow push-in toward the embankment.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "फिर इस नदी के रास्ते में, मिट्टी का एक मोटा बाँध खड़ा किया गया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: many feet on earth, baskets thudding, distant work calls. SFX: earth pouring from baskets.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1545,7 +1545,7 @@ ACTION: Deep indigo-blue water rises behind the embankment and spreads outward a
 CAMERA: Extreme wide shot, high angle, 24mm, slow pull-out to reveal the whole new lake.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "पानी रुका, फैलता गया, और पहाड़ियों के बीच एक विशाल झील बन गई।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: rising water, wind. SFX: a deep low swell of water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1560,7 +1560,7 @@ ACTION: A hand draws a short ink line from one edge of the lake toward the right
 CAMERA: Top-down shot, 50mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "फिर एक नहर काटकर, बहाव को दूसरी तरफ़ मोड़ा गया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: soft room tone. SFX: a quill scratch, then a trickle.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1575,7 +1575,7 @@ ACTION: Water flows steadily from the lake through the channel into the river on
 CAMERA: Top-down shot, 35mm, slow pull-out to show both the dry old course and the new flow.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "आज कोलांस का ऊपरी पानी, हलाली नहीं, कलियासोत की तरफ़ बहता है।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: steady trickling water. SFX: a low rising whoosh ending in a soft drum hit as the full map comes into view.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1592,7 +1592,7 @@ ACTION: Sutradhar taps his rolled scroll twice against his palm and points it to
 CAMERA: Medium shot, eye level, 35mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "ये किसने किया? पूरी कहानी, चैनल पर एपिसोड एक में।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1611,7 +1611,7 @@ ACTION: Sutradhar opens his hand and lets a small stream of white pebbles pour f
 CAMERA: Medium close shot, eye level, 50mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "एक राजा की बीमारी, और तीन सौ पैंसठ धाराओं वाली झील। ये लोक-कथा सुनिए।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a low rising whoosh.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1626,7 +1626,7 @@ ACTION: The king lifts his head weakly, then lets it sink back onto the bolster;
 CAMERA: Medium-wide shot, eye level, 35mm, locked, the camera does not move.
 LIGHTING: Soft daylight through a carved stone lattice window, patterned shadows on the floor.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "कहते हैं, राजा भोज एक बार बहुत बीमार पड़े।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: fan swishing, quiet palace.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1641,7 +1641,7 @@ ACTION: The sadhu traces the blue lines with the tip of his wooden staff from th
 CAMERA: Medium shot, slight low angle, 50mm, slow push-in on the leaf.
 LIGHTING: Soft daylight through the lattice window.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "एक साधु ने कहा, ऐसी झील में नहाइए, जिसमें तीन सौ पैंसठ धाराएँ मिलें।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: quiet palace, distant temple bell.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1656,7 +1656,7 @@ ACTION: The last surveyor drops one final pebble on the pile, sits back on his h
 CAMERA: Medium shot, high angle, 35mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "गिनती हुई, तो धाराएँ निकलीं, सिर्फ़ तीन सौ उनसठ।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind in grass. SFX: small pebbles clicking.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1671,7 +1671,7 @@ ACTION: The chieftain sweeps his open paw across the hills toward a distant vall
 CAMERA: Wide shot, low angle from behind the surveyors, 35mm, slow push-in toward the chieftain.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "तब कालिया नाम के एक गोंड सरदार ने, बाक़ी धाराओं का रास्ता दिखाया।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind over hills, a hawk cry.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1688,7 +1688,7 @@ ACTION: Sutradhar pats the tiny embankment with his open paw, then looks up at t
 CAMERA: Medium close shot, eye level, 50mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "ये एक लोक-कथा है। पर बाँध, और झील, दोनों असली हैं।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a soft wooden tap.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1705,7 +1705,7 @@ ACTION: Sutradhar taps his rolled scroll twice against his palm and points it to
 CAMERA: Medium shot, eye level, 35mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "पूरी कहानी, चैनल पर एपिसोड एक में।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1724,7 +1724,7 @@ ACTION: Sutradhar lifts a tiny boat from the desk and sets it down beside a smal
 CAMERA: Medium close shot, eye level, 50mm, slow push-in.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "एक शोध के मुताबिक़, भोपाल की झील के टापू पर, कभी डाकू छिपते थे।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone. SFX: a low rising whoosh.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1739,7 +1739,7 @@ ACTION: The lead merchant bows and gestures back toward the distant hills; the s
 CAMERA: Wide shot, eye level, 35mm, locked, the camera does not move.
 LIGHTING: Warm daylight through arches from camera-left.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "उसके मुताबिक़, सुल्तान ने एक बाँध, भोपाल और विदिशा के व्यापारियों के कहने पर तुड़वाया था।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: court murmur.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1754,7 +1754,7 @@ ACTION: One bandit pushes the boat off toward the shore and climbs in; the boat 
 CAMERA: Wide shot, high angle, 35mm, slow push-in toward the island.
 LIGHTING: Moonlight from above, small orange campfire glow.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "क्योंकि डाकू, झील से घिरी एक जगह पर छिपते थे, जहाँ तक पहुँचना मुश्किल था।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: water lapping, crickets. SFX: an oar dipping.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1769,7 +1769,7 @@ ACTION: A hand lifts a small jackal-bandit figurine from the Bhojpur pin, carrie
 CAMERA: Top-down shot, 35mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "इस शोध के मुताबिक़, वो झील भोजपुर की नहीं, भोपाल की ही थी।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: soft room tone. SFX: a small click as the figure is placed.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1784,7 +1784,7 @@ ACTION: Small birds circle the island once and land in its trees; the water shim
 CAMERA: Wide aerial shot, high angle, 35mm, slow orbit of about 30 degrees around the island.
 LIGHTING: Golden late-afternoon sunlight from camera-right.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "और भोपाल की झील के बीच, आज भी एक टापू है। तकिया टापू।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: birds, gentle water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
@@ -1801,7 +1801,7 @@ ACTION: Sutradhar taps his rolled scroll twice against his palm and points it to
 CAMERA: Medium shot, eye level, 35mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "सुल्तान ने क्या किया? पूरी कहानी, चैनल पर एपिसोड एक में।"
-VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker, quiet room tone.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```

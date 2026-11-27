@@ -32,16 +32,9 @@
   },
   "voice": {
     "status": "CHOSEN 2026-11-27",
-    "engine": "edge-tts",
-    "voice_id": "hi-IN-MadhurNeural",
-    "rate": "-5%",
-    "pitch": "+0Hz",
-    "candidates": [
-      "edge-tts:hi-IN-MadhurNeural",
-      "edge-tts:hi-IN-SwaraNeural",
-      "gtts:hi"
-    ],
-    "notes": "Change voice_id after owner picks. ElevenLabs free tier is non-commercial, so it is not used for monetised uploads."
+    "engine": "google-flow (Veo 3.1 Lite native audio)",
+    "description": "Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.",
+    "notes": "Owner rejected edge-tts Madhur samples. Flow cannot lock one exact voice: same VOICE block in every prompt, regenerate clips whose voice drifts. Fallback if drift is too high: fixed TTS voice (Gemini TTS / Sarvam) + finishing step."
   },
   "style": {
     "visual": "2D vintage noir storybook cartoon (Quiet Wolf style family, own characters)",
