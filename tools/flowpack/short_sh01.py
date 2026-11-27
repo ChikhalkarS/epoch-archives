@@ -24,7 +24,7 @@ dict(id="S2",kind="cam",use=5,ing="Sutradhar sheet + Archive room",
  camera="Medium shot, slight low angle, 35mm, quick push-in, then locked.",light=LAMP,
  amb="lamp flame flicker",sfx="a string snap, a crisp wax crack, a quick paper whoosh as the file opens, then a short deep brass chime",
  line="स्वागत है आर्काइव फ़ाइल्स में! फ़ाइल नंबर एक, आज खुलेगा भोपाल की गुम झील का असली सीन।",facts=""),
-dict(id="S3",kind="vo",use=6,ing="none (Text to Video)",
+dict(id="S3",kind="vo",use=6,ing="Sultan",
  scene="The 15th century: "+SULTAN+", sits on a horse on a rocky ridge overlooking a huge indigo lake held back by a massive dam of giant fitted sandstone blocks; leopard soldiers with iron picks stand on top of the dam.",
  action="The sultan raises one open paw; the leopard soldiers lift their picks and swing them down onto the stone dam together; they freeze at the bottom of the swing.",
  camera="Wide shot, high angle from behind the sultan's shoulder, 35mm, locked, the camera does not move.",light=DAY,
@@ -48,7 +48,7 @@ dict(id="S6",kind="vo",use=6,ing="none (Text to Video)",
  camera="Wide shot, high angle, 35mm, slow pan from the hideout toward the caravan.",light="Cold moonlight from above, small orange campfire glow and warm lantern dots on the far shore.",
  amb="night crickets, water lapping",sfx="a crackling campfire, oars splashing quickly, distant camel bells",
  line="अनुवाद के हिसाब से, डाकू झील से घिरी एक जगह पर छिपकर, व्यापारियों को लूटते थे।",facts="F16"),
-dict(id="S7",kind="vo",use=6,ing="none (Text to Video)",
+dict(id="S7",kind="vo",use=6,ing="Sultan",
  scene=COURT+": the lion SULTAN in his emerald-green and gold robe and white turban sits on a low throne; a small group of anthropomorphic camel merchants in turbans with bundles stand before him.",
  action="The lead camel merchant bows and sweeps his open hand toward a window that shows a lake with a small island; the sultan looks out at it, then gives one firm nod.",
  camera="Wide shot, eye level, 35mm, locked, the camera does not move.",light="Warm daylight falling through the stone arches from camera-left, deep painted shadows, dark vignette.",
@@ -68,8 +68,10 @@ dict(id="S9",kind="cam",use=4,ing="Sutradhar sheet + Archive room",
  line="अगली फ़ाइल किसकी खुलेगी, देखना है? तो फ़ॉलो करना मत भूलना!",facts=""),
 ]
 def block(c):
-    L=[f"### {c['id']} · {'Ingredients to Video' if c['kind']=='cam' else 'Text to Video'} · ingredients: {c['ing']} · 9:16 · 8 s · keep ~{c['use']} s","","```",STY,FRAME]
+    mode='Text to Video' if c['ing'].startswith('none') else 'Ingredients to Video'
+    L=[f"### {c['id']} · {mode} · ingredients: {c['ing']} · 9:16 · 8 s · keep ~{c['use']} s","","```",STY,FRAME]
     if c['kind']=='cam': L+= [SUT,ROLE]
+    if c['ing']=='Sultan': L.append("The Sultan ingredient defines his face, mane, turban and robe only; ignore its grey background and panel layout.")
     L+= ["SCENE: "+c['scene'],"ACTION: "+c['action'],"CAMERA: "+c['camera'],"LIGHTING: "+c['light']]
     L.append(f'DIALOGUE: Sutradhar looks into the lens and says in Hindi: "{c["line"]}"' if c['kind']=='cam' else f'VOICE-OVER (Sutradhar, off-screen, Hindi): "{c["line"]}"')
     L.append(VOI)
@@ -81,7 +83,7 @@ P=[f"""# फ़ाइल 001 · भोपाल की गुम झील क�
 Short · फ़ाइल 001 (series format: `studio/VISION.md`) · 9 clips · ≈ {tot:.0f} s after trimming · ≈ 90 credits + retakes (S9 = reusable end clip: generate once, add to every future Short).
 
 ## Settings (every clip)
-Veo 3.1 - Lite · Video · 9:16 · 8 sec · x1 · prompt enhancer off. Clips S1, S2, S8, S9: **Ingredients** with *Sutradhar sheet* + *Archive room*. Others: plain Text to Video (no ingredients).
+Veo 3.1 - Lite · Video · 9:16 · 8 sec · x1 · prompt enhancer off. Clips S1, S2, S8, S9: **Ingredients** with *Sutradhar sheet* + *Archive room*. Clips S3, S7: **Ingredients** with *Sultan*. Others: plain Text to Video (no ingredients).
 
 ## Quality check per take (keep only if all pass)
 1. The Hindi line is complete, clear, and in Sutradhar's voice (heavy, soft, calm, brisk). Same voice as your best S1.

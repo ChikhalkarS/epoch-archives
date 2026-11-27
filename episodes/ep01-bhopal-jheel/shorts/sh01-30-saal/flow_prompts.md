@@ -2,7 +2,7 @@
 Short · फ़ाइल 001 (series format: `studio/VISION.md`) · 9 clips · ≈ 52 s after trimming · ≈ 90 credits + retakes (S9 = reusable end clip: generate once, add to every future Short).
 
 ## Settings (every clip)
-Veo 3.1 - Lite · Video · 9:16 · 8 sec · x1 · prompt enhancer off. Clips S1, S2, S8, S9: **Ingredients** with *Sutradhar sheet* + *Archive room*. Others: plain Text to Video (no ingredients).
+Veo 3.1 - Lite · Video · 9:16 · 8 sec · x1 · prompt enhancer off. Clips S1, S2, S8, S9: **Ingredients** with *Sutradhar sheet* + *Archive room*. Clips S3, S7: **Ingredients** with *Sultan*. Others: plain Text to Video (no ingredients).
 
 ## Quality check per take (keep only if all pass)
 1. The Hindi line is complete, clear, and in Sutradhar's voice (heavy, soft, calm, brisk). Same voice as your best S1.
@@ -48,11 +48,12 @@ AMBIENCE: lamp flame flicker. SFX: a string snap, a crisp wax crack, a quick pap
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
 
-### S3 · Text to Video · ingredients: none (Text to Video) · 9:16 · 8 s · keep ~6 s
+### S3 · Ingredients to Video · ingredients: Sultan · 9:16 · 8 s · keep ~6 s
 
 ```
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
 FRAMING: Vertical 9:16 portrait composition; keep the main subject centred and large in frame, stage depth from bottom to top, nothing important in the top 10% or bottom 20% (reserved for captions and the YouTube interface).
+The Sultan ingredient defines his face, mane, turban and robe only; ignore its grey background and panel layout.
 SCENE: The 15th century: the SULTAN, an anthropomorphic lion with a dark brown mane in an emerald-green robe with gold embroidery and a white turban with a gold jewel, sits on a horse on a rocky ridge overlooking a huge indigo lake held back by a massive dam of giant fitted sandstone blocks; leopard soldiers with iron picks stand on top of the dam.
 ACTION: The sultan raises one open paw; the leopard soldiers lift their picks and swing them down onto the stone dam together; they freeze at the bottom of the swing.
 CAMERA: Wide shot, high angle from behind the sultan's shoulder, 35mm, locked, the camera does not move.
@@ -108,11 +109,12 @@ AMBIENCE: night crickets, water lapping. SFX: a crackling campfire, oars splashi
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
 
-### S7 · Text to Video · ingredients: none (Text to Video) · 9:16 · 8 s · keep ~6 s
+### S7 · Ingredients to Video · ingredients: Sultan · 9:16 · 8 s · keep ~6 s
 
 ```
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
 FRAMING: Vertical 9:16 portrait composition; keep the main subject centred and large in frame, stage depth from bottom to top, nothing important in the top 10% or bottom 20% (reserved for captions and the YouTube interface).
+The Sultan ingredient defines his face, mane, turban and robe only; ignore its grey background and panel layout.
 SCENE: A 15th-century Malwa court with carved stone arches: the lion SULTAN in his emerald-green and gold robe and white turban sits on a low throne; a small group of anthropomorphic camel merchants in turbans with bundles stand before him.
 ACTION: The lead camel merchant bows and sweeps his open hand toward a window that shows a lake with a small island; the sultan looks out at it, then gives one firm nod.
 CAMERA: Wide shot, eye level, 35mm, locked, the camera does not move.
