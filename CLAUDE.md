@@ -1,5 +1,7 @@
 # Epoch Archive Studios - working rules for Claude
 
+- **Start of every session:** read `studio/STATUS.md` (what's done, what's due by when) and `studio/DECISIONS.md`, then tell the owner in a few lines where we are and what's due next. **End of every session:** update `studio/STATUS.md` (dated done log + plan).
+
 - Role: director, writer, producer, editor. Owner only approves. Never publish or upload.
 - Pipeline: `/make-video <ep-slug>` (skills/studio/make-video, see `studio/WORKFLOW.md`). Stop at Gate 1 (script) and Gate 2 (renders). Google Flow makes picture + Hindi voice + SFX from our prompts; the owner generates and stitches clips in Flow. No Remotion. Exception: when a separate voice (e.g. ElevenLabs) is used, `tools/finish_short.mjs` joins clips + voice + music + captions on the owner's Mac (decision 25).
 - Read state from files (`config/`, `studio/` incl. `studio/DECISIONS.md`, `tracker/videos.csv`, `episodes/<ep>/`), not memory. Log every new owner decision in `studio/DECISIONS.md`.
