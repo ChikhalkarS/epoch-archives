@@ -1,0 +1,40 @@
+{
+  "name": "Epoch Archive Studios",
+  "handle": "epocharchivesco",
+  "niche": "Indian city histories: founding, rulers, wars, trade, culture, food, geography, strange facts",
+  "language": {
+    "narration": "hi",
+    "script": "Devanagari Hindi, simple spoken Hindustani (avoid heavy Sanskritised or Urdu words)",
+    "titles": "bilingual: Hindi + English keywords",
+    "english_version": false
+  },
+  "formats": {
+    "long": { "min_minutes": 8, "max_minutes": 12, "resolution": "1920x1080", "fps": 30 },
+    "short": { "min_seconds": 30, "max_seconds": 55, "resolution": "1080x1920", "fps": 30, "per_long_video": [2, 3] }
+  },
+  "hook": {
+    "rule": "Open with a curiosity question that lands within the first 5 seconds",
+    "example": "Kya aap jaante hain is shehar mein itni jheelein kyun hain?"
+  },
+  "voice": {
+    "status": "PENDING_OWNER_PICK",
+    "engine": "edge-tts",
+    "voice_id": "hi-IN-MadhurNeural",
+    "rate": "-5%",
+    "pitch": "+0Hz",
+    "candidates": ["edge-tts:hi-IN-MadhurNeural", "edge-tts:hi-IN-SwaraNeural", "gtts:hi"],
+    "notes": "Change voice_id after owner picks. ElevenLabs free tier is non-commercial, so it is not used for monetised uploads."
+  },
+  "style": {
+    "visual": "claymation",
+    "guide": "config/style-guide.md",
+    "music_volume": 0.12,
+    "scene_padding_seconds": 0.35
+  },
+  "goal": {
+    "program": "YouTube Partner Program",
+    "tier_full": "1000 subscribers + 4000 public watch hours in 12 months",
+    "tier_lower": "500 subscribers + 3 public uploads in 90 days + 3000 public watch hours in 12 months",
+    "cadence": "1 long video + 2-3 Shorts per week"
+  }
+}

@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+renders/*/.work/
+renders/**/*-preview.mp4
+assets/*/voice/.tmp.txt
+__pycache__/
