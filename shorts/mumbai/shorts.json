@@ -407,7 +407,9 @@
      "asset": "clip",
      "prompt": "a tiny person's shoes standing on an old city road, thin cracks starting to spread across the road surface around the feet, dusk light",
      "motion": "Locked camera, ground level. Cracks spread outward from the feet. End with a crack reaching the frame edge.",
-     "onscreen": "ये ज़मीन कभी समंदर थी!"
+     "onscreen": "ये ज़मीन कभी समंदर थी!",
+     "goal": "Hook: the road the viewer stands on starts to crack.",
+     "sfx": "a road surface cracking, gravel trickling"
     },
     {
      "role": "hook",
@@ -422,7 +424,9 @@
      "asset": "clip",
      "prompt": "looking straight down at the road splitting open to reveal deep blue sea water with small fish swimming beneath it",
      "motion": "Fast push straight down into the opening; fish dart. End with the frame full of blue water.",
-     "onscreen": "समंदर!"
+     "onscreen": "समंदर!",
+     "goal": "Reveal: under the road is the sea.",
+     "sfx": "water bubbling up, small fish splashing"
     },
     {
      "role": "brand",
@@ -433,7 +437,9 @@
       "extra": "toward a tabletop sea diorama where seven islands float"
      },
      "onscreen": "असली सीन 🐺",
-     "narrator": "walk_in"
+     "narrator": "walk_in",
+     "goal": "The narrator walks in to greet the viewer.",
+     "sfx": "footsteps on stone, lantern handle creaking, quiet archive room tone"
     },
     {
      "role": "brand",
@@ -444,7 +450,9 @@
       "topic_visual": "seven separate islands slowly drifting together"
      },
      "onscreen": "आज: मुंबई",
-     "narrator": "scroll_reveal"
+     "narrator": "scroll_reveal",
+     "goal": "The narrator presents today's story from his scroll.",
+     "sfx": "parchment unrolling, a faint shimmer as the model rises"
     },
     {
      "role": "story",
@@ -458,7 +466,9 @@
      "asset": "still",
      "prompt": "seven separate green islands in a turquoise sea, small fishing boats with sails between them, tiny palm trees and huts, bright morning light",
      "motion": "Slow rotating aerial drift; each island lights up one by one. End with all seven lit.",
-     "onscreen": "7 टापू"
+     "onscreen": "7 टापू",
+     "goal": "Show Mumbai as seven separate islands.",
+     "sfx": "open sea wind, small waves"
     },
     {
      "role": "story",
@@ -472,7 +482,9 @@
      "asset": "clip",
      "prompt": "sea water flowing over low swampy land between two islands, small huts standing in the water, fishermen lifting their nets, overcast grey-blue light",
      "motion": "Locked camera. The water level rises around the huts. End with water at the hut doors.",
-     "onscreen": "ज्वार = बाढ़"
+     "onscreen": "ज्वार = बाढ़",
+     "goal": "Show the tide flooding the low land between islands.",
+     "sfx": "rising water lapping against huts, nets dripping"
     },
     {
      "role": "interaction",
@@ -484,7 +496,9 @@
       "context_visual": "a map of today's Mumbai"
      },
      "onscreen": "मुंबई में हैं? 📍",
-     "narrator": "lean_in_question"
+     "narrator": "lean_in_question",
+     "goal": "The narrator asks whether the viewer lives in Mumbai.",
+     "sfx": "a soft lean forward, quiet room tone"
     },
     {
      "role": "interaction",
@@ -496,7 +510,9 @@
      "asset": "still",
      "prompt": "a grey-tawny wolf paw (SUTRADHAR) pushing small red map pins one by one into a map of today's Mumbai neighbourhoods",
      "motion": "Locked overhead camera. Pins go in one after another. End with five pins standing.",
-     "onscreen": "अपना इलाक़ा 👇"
+     "onscreen": "अपना इलाक़ा 👇",
+     "goal": "Invite viewers to name their neighbourhood in the comments.",
+     "sfx": "map pins pressing into a board"
     },
     {
      "role": "interaction",
@@ -509,7 +525,9 @@
      "prompt": "the same Mumbai map with red pins, now a glowing blue outline of the old seven-island coastline lighting up over it, several pins standing inside the blue sea area, {SUTRADHAR} at the map edge looking down",
      "motion": "Slow pull-back upward. The blue outline glows on. End with the whole map and the wolf in frame.",
      "onscreen": "शायद समंदर था!",
-     "speaks": true
+     "speaks": true,
+     "goal": "Many of those neighbourhoods were once sea.",
+     "sfx": "a soft glow hum as the old coastline lights up"
     },
     {
      "role": "story",
@@ -523,7 +541,9 @@
      "asset": "clip",
      "prompt": "many workers in 18th century Indian clothing carrying stones and baskets of earth along a half-built stone sea wall across a creek, a generic British official in a 1780s coat and tricorn hat watching with a rolled plan, golden afternoon light",
      "motion": "Slow lateral track along the wall. Workers pass stones hand to hand. End on the official unrolling his plan.",
-     "onscreen": "1782"
+     "onscreen": "1782",
+     "goal": "Governor Hornby starts the great sea wall in 1782.",
+     "sfx": "stones scraping, workers' footsteps, waves on rocks"
     },
     {
      "role": "story",
@@ -537,7 +557,9 @@
      "asset": "still",
      "prompt": "a wave crashing against new grey stones of the sea wall, spray rising into the light",
      "motion": "Locked camera, low at the waterline. One wave hits and the spray falls. End on wet stones.",
-     "onscreen": "हॉर्नबी वेलार्ड"
+     "onscreen": "हॉर्नबी वेलार्ड",
+     "goal": "Name the wall: the Hornby Vellard.",
+     "sfx": "one wave crashing on stone, spray falling"
     },
     {
      "role": "story",
@@ -551,7 +573,9 @@
      "asset": "still",
      "prompt": "a section of the unfinished stone sea wall slumping and sliding into the sea while workers step back safely on the shore, grey sky",
      "motion": "Locked camera. The wall section slides into the water. End with the gap in the wall.",
-     "onscreen": "कहते हैं..."
+     "onscreen": "कहते हैं...",
+     "goal": "Legend: the wall kept collapsing.",
+     "sfx": "stones sliding into water, a low rumble"
     },
     {
      "role": "story",
@@ -565,7 +589,9 @@
      "asset": "still",
      "prompt": "a engineer in 18th century Indian clothing sleeping on a mat by a small oil lamp, a soft golden glow from the calm night sea visible through the open doorway, respectful and serene, no deity faces shown",
      "motion": "Very slow push-in. The golden glow outside brightens gently. End with the glow lighting his face.",
-     "onscreen": "लोक-कथा ✨"
+     "onscreen": "लोक-कथा ✨",
+     "goal": "Legend: an engineer's dream points to idols in the sea.",
+     "sfx": "night crickets, a small oil lamp flickering"
     },
     {
      "role": "story",
@@ -579,7 +605,9 @@
      "asset": "still",
      "prompt": "a small seaside temple with a saffron flag on rocks beside the finished stone sea wall, calm sea at sunrise, tiny respectful devotees on the steps, respectful depiction, no deity close-up",
      "motion": "Slow push-in toward the temple; the flag flutters. End on the temple steps.",
-     "onscreen": "महालक्ष्मी मंदिर"
+     "onscreen": "महालक्ष्मी मंदिर",
+     "goal": "Legend: the Mahalakshmi temple is built.",
+     "sfx": "temple bell in the distance, morning sea"
     },
     {
      "role": "story",
@@ -590,7 +618,9 @@
      ],
      "vars": {},
      "onscreen": "लोक-कथा",
-     "narrator": "cut_in_finger"
+     "narrator": "cut_in_finger",
+     "goal": "The narrator marks the story as a legend.",
+     "sfx": "a scroll snapping shut"
     },
     {
      "role": "payoff",
@@ -604,7 +634,9 @@
      "asset": "still",
      "prompt": "a horse cart rolling across a new stone causeway over shallow water, 19th century, soft morning light",
      "motion": "Locked camera at road level. The cart rolls through frame left to right. End with the empty causeway.",
-     "onscreen": "कॉज़वे"
+     "onscreen": "कॉज़वे",
+     "goal": "Causeways start joining the islands.",
+     "sfx": "horse hooves and cart wheels on stone"
     },
     {
      "role": "payoff",
@@ -618,7 +650,9 @@
      "asset": "clip",
      "prompt": "the seven islands from the earlier shot, now joined into one long landmass by stone causeways and filled land, colonial buildings appearing, warm light",
      "motion": "Slow rise straight up. The last gaps fill with land. End on the single landmass.",
-     "onscreen": "7 ➜ 1"
+     "onscreen": "7 ➜ 1",
+     "goal": "By the mid-19th century the seven islands became one.",
+     "sfx": "wind over land, distant city sounds rising"
     },
     {
      "role": "payoff",
@@ -633,7 +667,9 @@
      "asset": "still",
      "prompt": "miniature model of a modern coastal highway curving along the sea beside a city skyline, a seawall of big stones holding back waves, sunset light (modern road and buildings allowed in this shot)",
      "motion": "Slow pull-back. Waves crash on the seawall. End on the full curve of the road.",
-     "onscreen": "आज भी: कोस्टल रोड"
+     "onscreen": "आज भी: कोस्टल रोड",
+     "goal": "Even today the Coastal Road took land from the sea.",
+     "sfx": "waves crashing on a seawall, distant traffic"
     },
     {
      "role": "payoff",
@@ -646,7 +682,9 @@
      "prompt": "{SUTRADHAR} standing on top of the stone seawall of the miniature model, waves breaking below his feet, city lights behind him",
      "motion": "Locked low camera. A wave breaks below; his indigo stole moves in the wind. End with him looking down at the sea.",
      "onscreen": "बसाई नहीं...",
-     "speaks": true
+     "speaks": true,
+     "goal": "The narrator: Mumbai was not simply settled.",
+     "sfx": "waves breaking below the seawall, wind in his stole"
     },
     {
      "role": "payoff",
@@ -658,7 +696,9 @@
      "asset": "clip",
      "prompt": "a grey-tawny wolf paw (SUTRADHAR) pressing down on wet land at the waterline, pushing the blue water back",
      "motion": "Locked camera. The paw presses and the water retreats. End with dry land under the paw.",
-     "onscreen": "समंदर से छीनी गई 🌊"
+     "onscreen": "समंदर से छीनी गई 🌊",
+     "goal": "Payoff: it was taken from the sea.",
+     "sfx": "water hissing back from wet sand"
     },
     {
      "role": "comment",
@@ -670,7 +710,9 @@
      "asset": "clip",
      "prompt": "a balance scale on a rock by the sea: one pan holds a tiny city block, the other a tiny wave with fish, dusk light",
      "motion": "Locked camera. The scale tips one way, then the other. End balanced.",
-     "onscreen": "सही या ग़लत?"
+     "onscreen": "सही या ग़लत?",
+     "goal": "Ask: is taking land from the sea right or wrong?",
+     "sfx": "a balance scale creaking, sea behind"
     },
     {
      "role": "comment",
@@ -681,7 +723,9 @@
       "context_visual": "the balance scale by the sea"
      },
      "onscreen": "कमेंट 👇",
-     "narrator": "point_at_viewer"
+     "narrator": "point_at_viewer",
+     "goal": "Ask for a comment.",
+     "sfx": "a soft whoosh as he points"
     },
     {
      "role": "outro",
@@ -693,7 +737,9 @@
       "touch_action": "set a tiny lantern down at the start of the causeway"
      },
      "onscreen": "अगला: अवाबाई",
-     "narrator": "touch_diorama"
+     "narrator": "touch_diorama",
+     "goal": "Tease the next story: the woman who paid for a road across the sea.",
+     "sfx": "a small lantern set down on stone"
     },
     {
      "role": "outro",
@@ -704,7 +750,9 @@
       "map_note": "a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders"
      },
      "onscreen": "फिर: हम्पी",
-     "narrator": "map_present"
+     "narrator": "map_present",
+     "goal": "Tease the next city: Hampi.",
+     "sfx": "a map marker humming as it glows"
     },
     {
      "role": "follow",
@@ -715,7 +763,9 @@
       "where": "the sea wall at dusk"
      },
      "onscreen": "फ़ॉलो करें ➕",
-     "narrator": "sign_off"
+     "narrator": "sign_off",
+     "goal": "Sign off and ask the viewer to follow.",
+     "sfx": "lantern creak, footsteps fading into the aisle"
     }
    ]
   },
@@ -747,7 +797,9 @@
      "asset": "clip",
      "prompt": "{MUMBAI_LADY} standing at the start of a long stone causeway stretching away over the sea toward a far shore at the top of frame, people walking past her, golden hour",
      "motion": "Slow push-in toward her. The sea breeze moves the sari end. End on her looking down the causeway.",
-     "onscreen": "समंदर पर रास्ता?"
+     "onscreen": "समंदर पर रास्ता?",
+     "goal": "Hook: a woman paid for a road across the sea.",
+     "sfx": "sea breeze, footsteps on a stone causeway"
     },
     {
      "role": "hook",
@@ -761,7 +813,9 @@
      "asset": "clip",
      "prompt": "the hand of {MUMBAI_LADY} pushing up a wooden toll-gate barrier pole across the causeway",
      "motion": "Locked camera. Her hand lifts the pole until it stands upright. End on the open way behind it.",
-     "onscreen": "शर्त: कोई टोल नहीं!"
+     "onscreen": "शर्त: कोई टोल नहीं!",
+     "goal": "Her condition: no toll, ever.",
+     "sfx": "a wooden barrier pole creaking upright"
     },
     {
      "role": "brand",
@@ -772,7 +826,9 @@
       "extra": "toward a tabletop diorama of a creek between two shores"
      },
      "onscreen": "असली सीन 🐺",
-     "narrator": "walk_in"
+     "narrator": "walk_in",
+     "goal": "The narrator walks in to greet the viewer.",
+     "sfx": "footsteps on stone, lantern handle creaking, quiet archive room tone"
     },
     {
      "role": "brand",
@@ -783,7 +839,9 @@
       "topic_visual": "a stone causeway crossing a creek between two shores"
      },
      "onscreen": "आज: मुंबई",
-     "narrator": "scroll_reveal"
+     "narrator": "scroll_reveal",
+     "goal": "The narrator presents today's story from his scroll.",
+     "sfx": "parchment unrolling, a faint shimmer as the model rises"
     },
     {
      "role": "story",
@@ -797,7 +855,9 @@
      "asset": "still",
      "prompt": "a wide creek of blue water between two palm-lined shores with small villages, 19th century Bombay, hazy morning light",
      "motion": "Slow pan from one shore to the other. End on the far shore.",
-     "onscreen": "माहिम ↔ बांद्रा"
+     "onscreen": "माहिम ↔ बांद्रा",
+     "goal": "Show the creek between Mahim and Bandra.",
+     "sfx": "wide open water, gulls, distant village sounds"
     },
     {
      "role": "story",
@@ -811,7 +871,9 @@
      "asset": "still",
      "prompt": "a small wooden ferry boat crowded with passengers and baskets crossing the creek, the boatman pushing with a long pole",
      "motion": "Locked camera at water level. The boat glides across frame. End with the boat mid-frame.",
-     "onscreen": "नाव से पार"
+     "onscreen": "नाव से पार",
+     "goal": "People crossed the creek by boat.",
+     "sfx": "oars dipping, a boatman's pole in water, murmuring passengers"
     },
     {
      "role": "story",
@@ -825,7 +887,9 @@
      "asset": "still",
      "prompt": "an empty overturned boat floating on dark stormy water, broken oars drifting, grey rain clouds, symbolic, no people shown",
      "motion": "Locked camera. Rain falls, the empty boat drifts slowly. End with the boat near frame centre.",
-     "onscreen": "1840-41"
+     "onscreen": "1840-41",
+     "goal": "Around 1840-41 boats overturned (shown symbolically).",
+     "sfx": "rain on water, wind gusts"
     },
     {
      "role": "story",
@@ -839,7 +903,9 @@
      "asset": "still",
      "prompt": "a single small unlit lantern floating alone on dark rippling water, symbolic and quiet",
      "motion": "Locked camera. The lantern bobs slowly on the ripples. End still.",
-     "onscreen": ""
+     "onscreen": "",
+     "goal": "Many lives were lost (quiet, symbolic).",
+     "sfx": "soft lapping water, light rain"
     },
     {
      "role": "story",
@@ -853,7 +919,9 @@
      "asset": "still",
      "prompt": "{MUMBAI_LADY} stepping out onto a wooden balcony overlooking the stormy creek",
      "motion": "Locked low camera. She steps forward to the railing and stops. End with both hands on the railing.",
-     "onscreen": "एक पारसी महिला"
+     "onscreen": "एक पारसी महिला",
+     "goal": "A Parsi woman steps forward.",
+     "sfx": "a balcony door opening, rain outside"
     },
     {
      "role": "story",
@@ -867,7 +935,9 @@
      "asset": "still",
      "prompt": "face of {MUMBAI_LADY} lit by soft window light, rain-streaked glass behind her",
      "motion": "Very slow push-in. She lifts her chin slightly. End on her steady gaze.",
-     "onscreen": "लेडी अवाबाई"
+     "onscreen": "लेडी अवाबाई",
+     "goal": "Name her: Lady Avabai Jamsetjee Jeejeebhoy.",
+     "sfx": "rain against glass, a quiet room"
     },
     {
      "role": "story",
@@ -881,7 +951,9 @@
      "asset": "clip",
      "prompt": "the hands of {MUMBAI_LADY} placing a heavy embroidered cloth bag of coins into the hands of an engineer holding rolled drawings",
      "motion": "Locked camera. The bag passes from her hands to his. End on his hands closing around it.",
-     "onscreen": "₹1.5 लाख+ दान"
+     "onscreen": "₹1.5 लाख+ दान",
+     "goal": "She donates over one and a half lakh rupees.",
+     "sfx": "coins shifting inside a cloth bag"
     },
     {
      "role": "story",
@@ -895,7 +967,9 @@
      "asset": "still",
      "prompt": "workers laying big stones of a long causeway across the creek, carts of stone, bright daylight",
      "motion": "Slow forward drift along the causeway as stones are placed. End at the newest stone.",
-     "onscreen": "माहिम कॉज़वे"
+     "onscreen": "माहिम कॉज़वे",
+     "goal": "The Mahim Causeway is built.",
+     "sfx": "stones being laid, carts, workers"
     },
     {
      "role": "twist",
@@ -904,7 +978,9 @@
      "facts": [],
      "vars": {},
      "onscreen": "एक शर्त",
-     "narrator": "cut_in_finger"
+     "narrator": "cut_in_finger",
+     "goal": "The narrator flags her one condition.",
+     "sfx": "a scroll snapping shut"
     },
     {
      "role": "payoff",
@@ -918,7 +994,9 @@
      "asset": "still",
      "prompt": "villagers, fishermen with baskets and a bullock cart passing freely over the stone causeway where a toll barrier has been removed and laid on the ground",
      "motion": "Locked camera. People and the cart pass through frame. End with the barrier lying on the ground.",
-     "onscreen": "कोई टोल नहीं"
+     "onscreen": "कोई टोल नहीं",
+     "goal": "Payoff: no toll would ever be charged.",
+     "sfx": "a barrier dropped on stone, footsteps and cart wheels passing"
     },
     {
      "role": "interaction",
@@ -930,7 +1008,9 @@
       "touch_action": "touch one tiny bridge, which lights up"
      },
      "onscreen": "आपके शहर में?",
-     "narrator": "touch_diorama"
+     "narrator": "touch_diorama",
+     "goal": "Ask viewers about donated bridges or roads in their city.",
+     "sfx": "a soft chime as a tiny bridge lights up"
     },
     {
      "role": "interaction",
@@ -941,7 +1021,9 @@
       "context_visual": "the glowing map of India"
      },
      "onscreen": "कमेंट 👇",
-     "narrator": "point_at_viewer"
+     "narrator": "point_at_viewer",
+     "goal": "Ask for a comment.",
+     "sfx": "a soft whoosh as he points"
     },
     {
      "role": "payoff",
@@ -955,7 +1037,9 @@
      "asset": "clip",
      "prompt": "the finished stone causeway at sunset with horse carriages and people crossing, lanterns lit along its edge, calm golden sea",
      "motion": "Slow pull-back over the causeway. End with the full causeway shore to shore.",
-     "onscreen": "1845 ✔"
+     "onscreen": "1845 ✔",
+     "goal": "The causeway opens in 1845.",
+     "sfx": "horse carriages, evening sea"
     },
     {
      "role": "payoff",
@@ -969,7 +1053,9 @@
      "asset": "still",
      "prompt": "a busy modern Mumbai street with buses, taxis and old trees, an old stone building at the corner, warm afternoon light, no readable signs (modern vehicles allowed in this shot)",
      "motion": "Slow tilt up from the traffic to the old trees. End on the treetops.",
-     "onscreen": "एल. जे. रोड"
+     "onscreen": "एल. जे. रोड",
+     "goal": "A road still carries her name today: Lady Jamsetjee Road.",
+     "sfx": "modern street traffic, birds in old trees"
     },
     {
      "role": "comment",
@@ -981,7 +1067,9 @@
      "asset": "still",
      "prompt": "{MUMBAI_LADY} smiling softly at the end of the causeway, lanterns glowing behind her, warm evening light",
      "motion": "Gentle push-in. Lantern light flickers on her face. End on the soft smile.",
-     "onscreen": "आज कौन रखेगा?"
+     "onscreen": "आज कौन रखेगा?",
+     "goal": "Ask: who would set such a condition today?",
+     "sfx": "lanterns flickering, calm evening sea"
     },
     {
      "role": "comment",
@@ -993,7 +1081,9 @@
       "context_visual": "the lantern-lit causeway"
      },
      "onscreen": "आप बताइए 👇",
-     "narrator": "lean_in_question"
+     "narrator": "lean_in_question",
+     "goal": "Ask the viewer for their answer.",
+     "sfx": "lantern creak, quiet room tone"
     },
     {
      "role": "outro",
@@ -1004,7 +1094,9 @@
       "map_note": "a single glowing marker in Karnataka among tiny boulders and ruined temples"
      },
      "onscreen": "अगला शहर: हम्पी 🏛️",
-     "narrator": "map_present"
+     "narrator": "map_present",
+     "goal": "Tease the next city: Hampi.",
+     "sfx": "a map marker humming as it glows"
     },
     {
      "role": "outro",
@@ -1016,7 +1108,9 @@
      "asset": "clip",
      "prompt": "{SUTRADHAR} as a small figure walking between giant rounded boulders and ruined stone temple pillars rising to the top of frame, warm dusk light",
      "motion": "Slow tilt up from the wolf to the tops of the boulders. End on the ruins against the sky.",
-     "onscreen": "खंडहर क्यों?"
+     "onscreen": "खंडहर क्यों?",
+     "goal": "Show Hampi's giant boulders and ruins.",
+     "sfx": "dry wind over rocks, distant birds"
     },
     {
      "role": "outro",
@@ -1025,7 +1119,9 @@
      "facts": [],
      "vars": {},
      "onscreen": "आख़िर क्या हुआ?",
-     "narrator": "close_whisper"
+     "narrator": "close_whisper",
+     "goal": "Leave the question open: what happened there?",
+     "sfx": "lantern flame flickering close by"
     },
     {
      "role": "follow",
@@ -1036,7 +1132,9 @@
       "where": "giant boulders at dusk"
      },
      "onscreen": "फ़ॉलो करें ➕",
-     "narrator": "sign_off"
+     "narrator": "sign_off",
+     "goal": "Sign off and ask the viewer to follow.",
+     "sfx": "lantern creak, footsteps fading among the rocks"
     }
    ]
   }

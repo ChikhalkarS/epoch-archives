@@ -44,7 +44,7 @@ On screen (added in edit): समंदर पर रास्ता?
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/MUMBAI_LADY/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. hook beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Hook: a woman paid for a road across the sea.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/MUMBAI_LADY/sheet.png) defines MUMBAI_LADY's face, hair and clothing. Do not use its grey background or panel layout.
@@ -59,7 +59,7 @@ Stage 1: Opening state as described above. Slow push-in toward her. The sea bree
 Wide shot, low angle looking up, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. 2D digital cartoon in a modern noir graphic-novel style: thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes on fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, rim light on edges. Every sign, page and banner is blank or carries unreadable squiggles.
 
 [Audio]
-Audio: quiet ambient room tone. No music, no speech.
+Audio: sea breeze, footsteps on a stone causeway. No music, no speech.
 
 [Maintain Consistency]
 Keep MUMBAI_LADY identical to the ingredients in face, clothing and proportions in every frame. Character lock: the LADY always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
@@ -71,7 +71,7 @@ On screen (added in edit): शर्त: कोई टोल नहीं!
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/MUMBAI_LADY/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. hook beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Her condition: no toll, ever.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/MUMBAI_LADY/sheet.png) defines MUMBAI_LADY's face, hair and clothing. Do not use its grey background or panel layout.
@@ -86,7 +86,7 @@ Stage 1: Opening state as described above. Locked camera. Her hand lifts the pol
 Close-up, eye level, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. 2D digital cartoon in a modern noir graphic-novel style: thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes on fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, rim light on edges. Every sign, page and banner is blank or carries unreadable squiggles.
 
 [Audio]
-Audio: quiet ambient room tone. No music, no speech.
+Audio: a wooden barrier pole creaking upright. No music, no speech.
 
 [Maintain Consistency]
 Keep MUMBAI_LADY identical to the ingredients in face, clothing and proportions in every frame. Character lock: the LADY always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
@@ -98,7 +98,7 @@ On screen (added in edit): असली सीन 🐺
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. brand beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. The narrator walks in to greet the viewer.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
@@ -126,7 +126,7 @@ On screen (added in edit): आज: मुंबई
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. brand beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. The narrator presents today's story from his scroll.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
@@ -201,7 +201,7 @@ On screen (added in edit): ₹1.5 लाख+ दान
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/MUMBAI_LADY/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. story beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. She donates over one and a half lakh rupees.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/MUMBAI_LADY/sheet.png) defines MUMBAI_LADY's face, hair and clothing. Do not use its grey background or panel layout.
@@ -216,7 +216,7 @@ Stage 1: Opening state as described above. Locked camera. The bag passes from he
 Extreme close-up, high angle looking down, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. 2D digital cartoon in a modern noir graphic-novel style: thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes on fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, rim light on edges. Every sign, page and banner is blank or carries unreadable squiggles.
 
 [Audio]
-Audio: quiet ambient room tone. No music, no speech.
+Audio: coins shifting inside a cloth bag. No music, no speech.
 
 [Maintain Consistency]
 Keep MUMBAI_LADY identical to the ingredients in face, clothing and proportions in every frame. Character lock: the LADY always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
@@ -236,7 +236,7 @@ On screen (added in edit): एक शर्त
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. twist beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. The narrator flags her one condition.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
@@ -272,7 +272,7 @@ On screen (added in edit): आपके शहर में?
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. interaction beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Ask viewers about donated bridges or roads in their city.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
@@ -300,7 +300,7 @@ On screen (added in edit): कमेंट 👇
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. interaction beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Ask for a comment.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
@@ -328,7 +328,7 @@ On screen (added in edit): 1845 ✔
 Flow: Text to Video: paste the prompt, no attachments.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. payoff beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. The causeway opens in 1845.
 
 [Subjects and Relationships]
 Extreme wide shot, high angle looking down: the finished stone causeway at sunset with horse carriages and people crossing, lanterns lit along its edge, calm golden sea.
@@ -340,7 +340,7 @@ Stage 1: Opening state as described above. Slow pull-back over the causeway. End
 Extreme wide shot, high angle looking down, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. 2D digital cartoon in a modern noir graphic-novel style: thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes on fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, rim light on edges. Every sign, page and banner is blank or carries unreadable squiggles.
 
 [Audio]
-Audio: quiet ambient room tone. No music, no speech.
+Audio: horse carriages, evening sea. No music, no speech.
 
 [Maintain Consistency]
 Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
@@ -368,7 +368,7 @@ On screen (added in edit): आप बताइए 👇
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. comment beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Ask the viewer for their answer.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
@@ -396,7 +396,7 @@ On screen (added in edit): अगला शहर: हम्पी 🏛️
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. outro beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Tease the next city: Hampi.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
@@ -424,7 +424,7 @@ On screen (added in edit): खंडहर क्यों?
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. outro beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Show Hampi's giant boulders and ruins.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
@@ -439,7 +439,7 @@ Stage 1: Opening state as described above. Slow tilt up from the wolf to the top
 Extreme wide shot, low angle looking up, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. 2D digital cartoon in a modern noir graphic-novel style: thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes on fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, rim light on edges. Every sign, page and banner is blank or carries unreadable squiggles.
 
 [Audio]
-Audio: quiet ambient room tone. No music, no speech.
+Audio: dry wind over rocks, distant birds. No music, no speech.
 
 [Maintain Consistency]
 Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
@@ -451,7 +451,7 @@ On screen (added in edit): आख़िर क्या हुआ?
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. outro beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Leave the question open: what happened there?
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
@@ -479,7 +479,7 @@ On screen (added in edit): फ़ॉलो करें ➕
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
 [Generation Goal]
-A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. follow beat.
+A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. Sign off and ask the viewer to follow.
 
 [Reference Material Roles]
 Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.

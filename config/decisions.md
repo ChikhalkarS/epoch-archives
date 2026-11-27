@@ -39,5 +39,5 @@ Owner decisions, newest last. Claude reads this before every stage. Change a dec
 | 2026-11-27 | Gate 1 Mumbai ep 1-3 | closed: approved |
 | 2026-11-27 | Length 71-73 s | closed: accepted |
 | 2026-11-27 | Narrator self-intro name | closed: सूत्रधार |
-| 2026-11-27 | Short 2 and 3 Flow packs: detailed goals/sound | open, before their Flow work |
+| 2026-11-27 | Short 2 and 3 Flow packs: detailed goals/sound | closed: written |
 | 2026-11-27 | Character sheets to generate in Flow and save to prompts/characters/<ID>/ | open, owner |
