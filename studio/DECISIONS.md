@@ -27,6 +27,7 @@ Newest at the bottom. The file named in each row has the detail. Claude reads th
 | 22 | 2026-11-27 | Fix duplicate glasses: glasses are described only once (the SUTRADHAR block says "exactly one pair"), never in ACTION lines; the CONSTRAINTS block says accessories are never duplicated. The validator checks this | `studio/STYLE_BIBLE.md` |
 | 23 | 2026-11-27 | Scripts must feel human: write the whole story as one continuous narration first, then cut it into clips. Every cause leads to its effect; hedges used once where they matter | `skills/studio/sutradhar-voice/SKILL.md` |
 | 24 | 2026-11-27 | **Always open with a suspicious or curious tone**, and keep that tone in the dialogue throughout (a suspicious/curious beat every 2–3 lines). New dialogue-writer skill `sutradhar-voice` | `skills/studio/sutradhar-voice/SKILL.md` |
+| 25 | 2026-11-27 | Testing an ElevenLabs voice for फ़ाइल 001 (free plan = test only; a paid plan is needed to publish, so ask first). When a separate voice is used, the finishing step is `tools/finish_short.mjs` on the owner's Mac (ffmpeg + Node): clips (muted) + voice split at its pauses + music (owner's royalty-free file or a self-synthesised pad) + burned captions from `lines.txt` → `final-short.mp4` | `tools/finish_short.mjs` |
 
 ## Open (waiting for the owner)
 - Gate 1 approval of the Bhopal long-video script (`episodes/ep01-bhopal-jheel/script_hi.md`).
