@@ -1,39 +1,35 @@
 ---
 name: hindi-script
-description: Write Hindi (Devanagari) narration scripts for Epoch Archive Studios city-history videos and Shorts, with a 5-second hook question, retention structure and source tags on every claim. Use for stage 2 of /make-video or when the owner asks for a Hindi script.
+description: Write the timed Hindi (Devanagari) narration script for an Epoch Archive episode or Short in the hidden-facts format (Sutradhar hook scene, three reveals, myth check, aaj bhi dikhta hai, fixed closer), with a fact tag on every claim. Use for stage 2 of /make-video or when the owner asks for a Hindi script.
 ---
 
-# Hindi script
+# Hindi script → `episodes/<ep>/script_hi.md`
 
-Input: `research/<slug>/sources.md` + `notes.md`. Output: `scripts/<slug>.md`.
+Load the vendor `scriptwriting` skill first and apply its doctrine, hook tracks, open loops and AI-tells scan. This file adds the channel and Hindi rules.
 
-## Language
-- Devanagari, simple spoken Hindustani that a 14-year-old understands. Short sentences (8-15 words). One idea per sentence.
-- Use everyday words: "शहर", "राजा", "लड़ाई", "व्यापार". Avoid heavy Sanskrit/Persian unless explained.
-- Numbers as words where the TTS reads them better (e.g. "सत्रह सौ सत्ताईस" or "1727" - test once per voice and note in channel.json).
-- Write for the ear: questions, "सोचिए...", "अब यहाँ कहानी पलटती है...". No lists read aloud.
+## Brief (top of the file)
+Message (one repeatable line), viewer (who, believing what), feeling arc, structure + reason (default: **SCQA opening + escalating explainer**, stacked ABTs per reveal), runtime, word count.
 
-## Structure (8-12 min ≈ 1,000-1,400 Hindi words; Madhur at -5% measured ≈ 119 words/min)
-1. **Hook (0-5 s)**: one curiosity question. Example: "क्या आप जानते हैं, इस शहर में इतनी झीलें क्यों हैं?"
-2. **Promise (5-30 s)**: what we will find out + a hint of the twist. No channel intro, no "like and subscribe" here.
-3. **Beats (5-7)**: founding -> rise -> conflict -> twist -> change -> today. Each beat ends with an open loop.
-4. **Twist** around 40-60% of runtime.
-5. **Outro (last 30-45 s)**: a question for comments + teaser for the next city + one-line subscribe ask.
+## Structure (9–10 min ≈ 1,150–1,350 words at ~130 wpm)
+| Time | Section | Rules |
+|---|---|---|
+| 0:00–0:15 | Hook | Sutradhar mini scene acts out the belief (picture). Spoken line of 5–12 words that breaks it. On-screen text ≤ 6 words, not a copy of the VO. Then the hook question. |
+| 0:15–0:17 | Logo sting | no VO |
+| 0:17–1:15 | Setup | Stakes for the viewer ("जो पानी आप पीते हैं…"), why the obvious answer fails, promise: "तीन राज़". |
+| 1:15–7:15 | राज़ 1, 2, 3 | Each: AND (context) → BUT (the flip) → THEREFORE (what it means) → open loop into the next. Signpost: "राज़ नंबर दो…". At least one evidence card per reveal. |
+| inside राज़ 3 | सच या झूठ? | The myth spoken as people say it → `[beat]` → verdict with reason and sources. |
+| 7:15–8:45 | आज भी दिखता है | Concrete places and objects to visit. |
+| 8:45–9:30 | Closer | Answer the hook in one line → moral line → next-EP question → catchphrase "इतिहास याद रखिए… सवाल पूछते रहिए।" One ask only (subscribe *or* comment, not both). |
+
+## Hindi for the ear
+- Simple spoken Hindustani a 14-year-old follows. Mostly 8–14 words per sentence, with one short line for each payoff.
+- Numbers spoken as words ("सत्रह सौ चौरानवे"), digits on screen. One number per sentence.
+- Mark pauses `[beat]` before each reveal line. Use commas for breath (TTS reads them).
+- Hindi AI tells to cut: "आइए जानते हैं", "क्या आप जानते हैं" as an opener, "दिलचस्प बात ये है", "सिर्फ़ X नहीं, बल्कि Y" (max once), "सोचिए…" (max once), stacked rhetorical question+answer, "एक नया अध्याय", "इतिहास के पन्नों में", "रोचक सफ़र".
+- No invented dialogue for real people. Legends: "कहते हैं" / "लोक-कथा के मुताबिक़". Disputed: "कुछ शोधकर्ता मानते हैं…, पर दूसरे…".
 
 ## Accuracy
-- After every factual sentence put the fact ID in brackets: `... बड़ा तालाब बना। [F3]`. These are removed from the narration text in the storyboard.
-- Disputed: "कुछ इतिहासकार मानते हैं..., जबकि दूसरे कहते हैं...". Legend: "कहते हैं..." / "लोक-कथा के अनुसार...".
-- Never state an unverified fact. Never invent dialogue for real people; use "शायद" only with a source that says so.
+`[F#]` after every factual sentence. Run the fact audit: every tag exists in `research.md` with a status that allows the wording used.
 
-## File format (`scripts/<slug>.md`)
-```
-# <City> - <working title>
-Runtime target: X min | Words: N | Next city: <slug>
-## Hook
-## Promise
-## Beat 1 - <name>
-...
-## Outro
-## Short candidates (2-3): beat/lines, why it works alone, its own hook
-## Flags for owner
-```
+## File format
+Brief, then the timed table `| Time | Section | Narration | On-screen text |`, then `## Short candidates` (3–4: shot range, standalone hook, why it works alone) and `## Flags for owner`.

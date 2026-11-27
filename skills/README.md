@@ -7,7 +7,11 @@ Linked into `.claude/skills/` so Claude Code loads them. All are Markdown instru
 |---|---|
 | `studio/make-video` | `/make-video <city>`: full pipeline with Gate 1 and Gate 2 |
 | `studio/city-research` | Sourced fact sheet with verified/disputed/legend flags |
-| `studio/hindi-script` | Hindi narration rules, hook, structure, fact tags |
+| `studio/hindi-script` | Hindi script in the hidden-facts format |
+| `studio/shotlist` | Machine-readable shot list for Flow clips |
+| `studio/flow-prompts` | One Google Flow (Veo) prompt per shot |
+| `studio/assemble` | ffmpeg assembly via `tools/assemble_episode.py` |
+| `studio/youtube-pack` | Titles, description with sources, tags, chapters |
 
 ## Vendor (third-party, MIT)
 | Skill | Source | Why |

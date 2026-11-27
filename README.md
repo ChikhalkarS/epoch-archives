@@ -1,32 +1,27 @@
 # Epoch Archive Studios
 
-Hindi YouTube channel on Indian city histories: founding, rulers, wars, trade, culture, food, geography and strange facts. Claymation look. One long video (8-12 min) + 2-3 Shorts per city.
+Hindi YouTube channel: hidden stories behind Indian cities (plus brands and habits), told as curious, sourced claymation mini-documentaries. 1 long episode (9-10 min) + 3-4 Shorts per week.
 
-Claude runs production; the owner approves at two gates. Channel settings: `config/channel.json`.
+Claude runs production; the owner approves at two gates and generates the clips in Google Flow. Channel settings: `config/channel.json`.
 
 ## Folders
 | Folder | What goes in it |
 |---|---|
-| `config/` | `channel.json` (name, language, voice, formats) and `style-guide.md` (claymation prompt prefix, motion, audio, text rules) |
-| `research/<city>/` | `sources.md` (source list + fact sheet with status) and `notes.md` (hooks, arc, flags). Template in `research/_template/` |
-| `scripts/` | `<city>.md` Hindi narration script, one per video |
-| `storyboards/` | `<city>.json` (scenes, narration, prompts, Shorts) and `<city>.md` shot list |
-| `assets/<city>/` | `images/`, `clips/`, `voice/`, `PROMPTS.md`, `CREDITS.md`. Shared music in `assets/music/` |
-| `renders/<city>/` | Final long video, Shorts, Hindi `.srt`, chapters |
-| `publish/` | `<city>.md` titles, description, tags, chapters, thumbnail concepts |
-| `skills/` | Claude Code skills (studio + vetted vendor), linked into `.claude/skills/`. See `skills/README.md` |
-| `tracker/` | `videos.csv`: status per video: idea, researched, scripted, voiced, visuals, rendered, approved, uploaded |
-| `tools/` | `voice.mjs` (Hindi TTS per scene), `assemble.mjs` (FFmpeg assembly + Shorts), `setup-mac.sh` |
-| `legacy/delhi-pilot/` | First Delhi pilot (Hinglish) and old notes |
+| `config/` | `channel.json` (name, language, voice, formats, YPP goal) |
+| `studio/` | `FORMAT.md`, `STYLE_BIBLE.md`, `WORKFLOW.md`, `MONETIZATION.md`, `TOPICS.md`, `VOICE.md`, `ref/` (Sutradhar sheet) |
+| `analysis/` | Reference-channel analysis (`quiet-wolf.md`) |
+| `episodes/<ep>/` | `research.md`, `script_hi.md`, `shotlist.md`, `flow_prompts.md`, `clips/` (owner's Flow downloads), `renders/`, `youtube.md`, `CREDITS.md`. Template: `episodes/_template/` |
+| `assets/` | `fonts/` (Mukta, OFL), `music/`, `brand/` |
+| `skills/` | Claude Code skills (studio + vetted vendor), linked into `.claude/skills/` |
+| `tracker/` | `videos.csv`: status per episode |
+| `tools/` | `assemble_episode.py` (ffmpeg assembly: voice, captions, overlays, music, Shorts), `align.py`, `audio/` (own synth), older `*.mjs` still-image pipeline |
+| `research/`, `scripts/`, `storyboards/` | Old still-image pipeline (Bhopal v1); kept for reference |
+| `legacy/delhi-pilot/` | First Delhi pilot |
 
 ## Use
 ```bash
-bash tools/setup-mac.sh          # once
+brew install ffmpeg python && pip3 install edge-tts      # once on the Mac
+python3 tools/assemble_episode.py ep01-bhopal-jheel --preview
+python3 tools/assemble_episode.py ep01-bhopal-jheel
 ```
-Then in Claude Code: `/make-video bhopal`. Manual steps if needed:
-```bash
-node tools/voice.mjs bhopal
-node tools/assemble.mjs bhopal --preview   # fast 540p check
-node tools/assemble.mjs bhopal             # final 1080p + Shorts
-```
-Scene visuals: `assets/<city>/images/s01.png` (still + slow camera move) or `assets/<city>/clips/s01.mp4` (generated clip). Missing visuals render as a placeholder so timing can be reviewed early.
+In Claude Code: `/make-video ep01-bhopal-jheel`. See `studio/WORKFLOW.md`.

@@ -17,12 +17,12 @@
     },
     "short": {
       "min_seconds": 30,
-      "max_seconds": 55,
+      "max_seconds": 45,
       "resolution": "1080x1920",
       "fps": 30,
       "per_long_video": [
-        2,
-        3
+        3,
+        4
       ]
     }
   },
@@ -45,14 +45,15 @@
   },
   "style": {
     "visual": "claymation",
-    "guide": "config/style-guide.md",
+    "guide": "studio/STYLE_BIBLE.md",
     "music_volume": 0.12,
     "scene_padding_seconds": 0.35
   },
   "goal": {
-    "program": "YouTube Partner Program",
-    "tier_full": "1000 subscribers + 4000 public watch hours in 12 months",
-    "tier_lower": "500 subscribers + 3 public uploads in 90 days + 3000 public watch hours in 12 months",
-    "cadence": "1 long video + 2-3 Shorts per week"
+    "program": "YouTube Partner Program (checked 2026-11-27, see studio/MONETIZATION.md)",
+    "until_2027_01_31": "1000 subs + 4000 public watch hours/12 months OR 10M Shorts views/90 days",
+    "from_2027_02_01": "1000 subs + 8000 watch hours/365 days OR 20M Shorts views/90 days",
+    "earlier_tier": "500 subs + 3000 watch hours/12 months OR 3M Shorts views/90 days (fan funding, Shopping)",
+    "cadence": "1 long episode + 3-4 Shorts per week"
   }
 }

@@ -1,11 +1,11 @@
 # Epoch Archive Studios - working rules for Claude
 
 - Role: director, writer, producer, editor. Owner only approves. Never publish or upload.
-- Pipeline: `/make-video <city>` (skills/studio/make-video). Stop at Gate 1 (script) and Gate 2 (renders).
-- Read state from files (`config/`, `tracker/videos.csv`, `research/`, `scripts/`, `storyboards/`), not memory.
+- Pipeline: `/make-video <ep-slug>` (skills/studio/make-video, see `studio/WORKFLOW.md`). Stop at Gate 1 (script) and Gate 2 (renders). Visuals are Google Flow clips the owner generates from our prompts; no Remotion.
+- Read state from files (`config/`, `studio/`, `tracker/videos.csv`, `episodes/<ep>/`), not memory.
 - Replies: short. After each stage: five-line summary + next action. Max three questions, only when blocked.
-- Accuracy: every script claim has a fact ID in `research/<slug>/sources.md`. Neutral wording for disputed history.
-- Copyright: generated or free-to-use images only; royalty-free music; log in `assets/<slug>/CREDITS.md`.
+- Accuracy: every script claim has a fact ID in `episodes/<ep>/research.md`. Neutral wording for disputed history.
+- Copyright: generated or free-to-use images only; royalty-free music; log in `episodes/<ep>/CREDITS.md`.
 - Cost: everything free or free-tier. Ask the owner before any step that costs money.
 - Owner's machine: Mac, 8 GB RAM. No local AI models. FFmpeg + Node + edge-tts only.
 - Channel name and voice live only in `config/channel.json`.
