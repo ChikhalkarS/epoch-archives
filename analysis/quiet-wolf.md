@@ -126,3 +126,5 @@ Subscribers: 240k. Long/other videos listed: 5. Shorts: 49. Descriptions and cap
 
 ## Owner decision 2026-11-27: art style
 We adopt Quiet Wolf's **style family** (2D hand-drawn vintage noir cartoon, amber lamp chiaroscuro, sepia/charcoal/cream/red palette, bold-outline thumbnails) including anthropomorphic animals (owner update), but **not** their characters (no wolf, pig, Daisy or white-glove mascot), titles or scripts. Our cast is our own: the main character in every video is Sutradhar, an Indian Bengal fox in Indian clothes (kept visually distinct from their wolf: no suit, tie or white gloves). Supporting animals change per episode (see `studio/STYLE_BIBLE.md` §3).
+
+**Update (owner decision 2026-11-27):** the main character is now a wolf. To stay distinct from Quiet Wolf's mascot: Indian grey wolf (slim, sandy-tawny), Indian attire only (maroon bandhgala, kurta, indigo angavastram), brass spectacles, our own name (Sutradhar), our own Indian/world topics and a numbered-files brand. Never a suit, tie or white gloves, never their characters' names or poses copied.

@@ -3,7 +3,7 @@
 
 **Message:** The famous "sultan drained the lake" story is disputed, and you decide.
 **Structure:** hook → popular story (order, 3 months + 3 years, 30 years) → "पर ठहरिए" (1888 misreading) → what the chronicle really says (bandits, merchants) → the dam was Bhopal's → what broke Bhojpur's dam (flood) → verdict + comment question. Lines 15–18 words, brisk voice, layered SFX per clip (owner feedback v3).
-**Hook (3 tracks):** picture = the fox yanks a dam out of a lake model in frame 1 and water gushes; spoken = "कहते हैं, भोपाल के पास एक विशाल झील थी, जिसे मिटाने में पूरे तीस साल लगे।"; text = burned caption of the same line, with "तीस साल" highlighted.
+**Hook (3 tracks):** picture = the wolf yanks a dam out of a lake model in frame 1 and water gushes, then smirks over his spectacles; spoken = S1 line; text = burned caption with "तीस साल" highlighted.
 
 | Clip | Keep | Who | Line |
 |---|---|---|---|

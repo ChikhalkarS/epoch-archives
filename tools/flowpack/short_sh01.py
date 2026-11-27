@@ -4,7 +4,7 @@ ROOT='/home/user/epoch-archives'
 SB=open(ROOT+'/studio/STYLE_BIBLE.md').read()
 blk=lambda k: re.search(r"```\n("+k+r":.*?)\n```",SB,re.S).group(1)
 STY,CON,SUT,VOI=blk("STYLE"),blk("CONSTRAINTS"),blk("SUTRADHAR"),blk("VOICE")
-ROLE="The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, waistcoat and satchel only; ignore its grey background and panel layout."
+ROLE="The Sutradhar ingredient defines his face, fur, ears, spectacles, smirk, bandhgala, stole and satchel only; ignore its grey background and panel layout."
 FRAME="FRAMING: Vertical 9:16 portrait composition; keep the main subject centred and large in frame, stage depth from bottom to top, nothing important in the top 10% or bottom 20% (reserved for captions and the YouTube interface)."
 ARCH="Inside the old archive room: wooden shelves of rolled scrolls, a brass oil lamp on a worn wooden desk, an old painted map of India on the back wall."
 LAMP="Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges."
@@ -14,13 +14,13 @@ COURT="A 15th-century Malwa court with carved stone arches"
 C=[
 dict(id="S1",kind="cam",use=6.5,ing="Sutradhar sheet + Archive room",
  scene=ARCH+" On the desk sits a shallow wooden tray holding a miniature model valley: green hills and a deep indigo-blue lake held back by a tiny earthen embankment wall.",
- action="From the very first frame Sutradhar already grips the tiny embankment wall with both paws; he yanks it out of the model and the blue water gushes out of the valley across the tray; he holds the little wall up beside his face and looks straight into the lens.",
+ action="From the very first frame Sutradhar already grips the tiny embankment wall with both paws; he yanks it out of the model and the blue water gushes out of the valley across the tray; he holds the little wall up beside his face and peers over his spectacles straight into the lens with a smug smirk.",
  camera="Medium close shot, eye level, 50mm, quick short push-in in the first second, then locked.",light=LAMP,
  amb="faint lamp flame flicker, a distant clock ticking",sfx="at the start a wet earthy squelch as the wall comes out, then a rushing gush of water across the tray and droplets pattering onto the wooden desk",
  line="कहते हैं, भोपाल के पास एक झील को मिटाने में, पूरे तीस साल लग गए। सोचो ज़रा!",facts="F10, F14"),
 dict(id="S2",kind="cam",use=5,ing="Sutradhar sheet + Archive room",
  scene=ARCH+" A thick old cardboard archive file folder tied with red string lies on the desk, a big red wax seal on its cover.",
- action="Sutradhar snaps the red string, cracks the wax seal with his thumb and flips the file folder open toward the lens in one quick move; the lamp flame flares brighter; he looks up over the open file with a calm half-smile.",
+ action="Sutradhar snaps the red string, cracks the wax seal with his thumb and flips the file folder open toward the lens in one quick move; the lamp flame flares brighter; he peers over his low spectacles at the lens with a slow smug smirk.",
  camera="Medium shot, slight low angle, 35mm, quick push-in, then locked.",light=LAMP,
  amb="lamp flame flicker",sfx="a string snap, a crisp wax crack, a quick paper whoosh as the file opens, then a short deep brass chime",
  line="स्वागत है आर्काइव फ़ाइल्स में! फ़ाइल नंबर एक, आज खुलेगा भोपाल की गुम झील का असली सीन।",facts=""),
@@ -56,15 +56,15 @@ dict(id="S7",kind="vo",use=6,ing="none (Text to Video)",
  line="व्यापारियों ने शिकायत की, सुल्तान ने बाँध तुड़वाया, और शोध कहता है, वो झील भोपाल की ही थी!",facts="F16, F17"),
 dict(id="S8",kind="cam",use=5.5,ing="Sutradhar sheet + Archive room",
  scene=ARCH+" An open paper ledger lies on the desk; Sutradhar holds a large rubber stamp above it.",
- action="Sutradhar brings the stamp down firmly onto the ledger page and lifts it, leaving a large round amber-orange ink stamp mark; then he looks up at the lens with one eyebrow raised and taps the stamp mark once; he holds the pose.",
+ action="Sutradhar brings the stamp down firmly onto the ledger page and lifts it, leaving a large round amber-orange ink stamp mark; then he looks up over his spectacles with a smug smirk and one eyebrow raised, and taps the stamp mark once; he holds the pose.",
  camera="Medium close shot framing Sutradhar's face and the ledger together, slight high angle, 50mm, locked, the camera does not move.",light=LAMP,
  amb="faint lamp flame flicker",sfx="a heavy stamp thump with a deep drum hit on the final word",
  line="तो असली सीन क्या है? भोजपुर की झील शायद बाढ़ ले गई, और सुल्तान वाली कहानी? विवादित!",facts="F14, F15, F16"),
 dict(id="S9",kind="cam",use=4,ing="Sutradhar sheet + Archive room",
  scene=ARCH+" An old globe stands on the desk.",
- action="Sutradhar gives the old globe a quick spin with one open paw, then turns to the lens, taps his rolled scroll against his open paw and gives a playful wink; he holds the pose.",
+ action="Sutradhar gives the old globe a quick spin with one open paw, then turns to the lens, taps his rolled scroll against his open paw and gives a slow knowing smirk with one eyebrow raised; he holds the pose.",
  camera="Medium close shot, eye level, 50mm, locked, the camera does not move.",light=LAMP,
- amb="lamp flame flicker",sfx="a quick whirring globe spin, then a soft playful pluck as he winks",
+ amb="lamp flame flicker",sfx="a quick whirring globe spin, then a soft low pluck on his smirk",
  line="अगली फ़ाइल किसकी खुलेगी, देखना है? तो फ़ॉलो करना मत भूलना!",facts=""),
 ]
 def block(c):
@@ -84,10 +84,10 @@ Short · फ़ाइल 001 (series format: `studio/VISION.md`) · 9 clips · �
 Veo 3.1 - Lite · Video · 9:16 · 8 sec · x1 · prompt enhancer off. Clips S1, S2, S8, S9: **Ingredients** with *Sutradhar sheet* + *Archive room*. Others: plain Text to Video (no ingredients).
 
 ## Quality check per take (keep only if all pass)
-1. The Hindi line is complete, clear, and in the fox voice (deep, soft, curious, slightly brisk). Same voice as your best S1.
+1. The Hindi line is complete, clear, and in Sutradhar's voice (heavy, soft, calm, brisk). Same voice as your best S1.
 2. Hands: paws open or holding props. No odd fingers (regenerate if any finger gesture appears).
 3. No text, letters or garbled writing anywhere.
-4. The fox matches his sheet (spectacles, red waistcoat, satchel, black-tipped tail).
+4. The wolf matches his sheet (low brass spectacles, smug smirk, maroon bandhgala, indigo stole, satchel). He smirks; he never grins widely.
 5. The action ends in a held pose (no extra random movement).
 
 ## Assembly in Scenebuilder
@@ -107,7 +107,7 @@ open(out+'/script_hi.md','w').write(f"""# फ़ाइल 001 script · भो�
 
 **Message:** The famous "sultan drained the lake" story is disputed, and you decide.
 **Structure:** hook → popular story (order, 3 months + 3 years, 30 years) → \"पर ठहरिए\" (1888 misreading) → what the chronicle really says (bandits, merchants) → the dam was Bhopal's → what broke Bhojpur's dam (flood) → verdict + comment question. Lines 15–18 words, brisk voice, layered SFX per clip (owner feedback v3).
-**Hook (3 tracks):** picture = the fox yanks a dam out of a lake model in frame 1 and water gushes; spoken = "कहते हैं, भोपाल के पास एक विशाल झील थी, जिसे मिटाने में पूरे तीस साल लगे।"; text = burned caption of the same line, with "तीस साल" highlighted.
+**Hook (3 tracks):** picture = the wolf yanks a dam out of a lake model in frame 1 and water gushes, then smirks over his spectacles; spoken = S1 line; text = burned caption with \"तीस साल\" highlighted.
 
 | Clip | Keep | Who | Line |
 |---|---|---|---|

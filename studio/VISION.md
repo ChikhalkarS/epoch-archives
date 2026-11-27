@@ -7,7 +7,7 @@
 | Layer | Name | Notes |
 |---|---|---|
 | Channel | **Epoch Archive** (spoken brand: **आर्काइव फ़ाइल्स**) | The archive is the world. The host is its keeper |
-| Host | **Sutradhar**, an Indian Bengal fox | Same in every video, forever (`studio/STYLE_BIBLE.md`) |
+| Host | **Sutradhar**, an Indian grey wolf with attitude | Same in every video, forever (`studio/STYLE_BIBLE.md`) |
 | Format | **असली सीन** | Every video = "[topic] का असली सीन": the popular story vs what really happened |
 | Numbering | **फ़ाइल 001, 002, 003…** | One continuous count across all Shorts and long videos, forever. No separate series names |
 | Playlists (seasons) | 🏙️ शहरों का असली सीन · ⚔️ जंगों का असली सीन · ♟️ लीडर्स का असली सीन · 📊 आँकड़ों में असली सीन · 👑 सल्तनतों का असली सीन | Group files by topic for bingeing |

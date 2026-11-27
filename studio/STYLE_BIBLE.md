@@ -19,24 +19,24 @@ CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or st
 Sepia brown #6B4A2E (backgrounds) · Charcoal #1E1A17 (shadows, outlines) · Amber #E0A040 (lamp glow, highlights) · Cream #F1E3C6 (paper, thumbnail text) · Deep red #9E2B25 (Sutradhar's shawl, accents) · Indigo #2E3A66 (water, night). Lake water is always "deep indigo-blue water with painted amber reflections".
 
 ## 3. Sutradhar (recurring narrator character)
-**Main character for every video: Sutradhar, an Indian Bengal fox** (owner decision 2026-11-27). Deliberately unlike Quiet Wolf's wolf: a smaller Indian fox, Indian clothes (kurta + red Nehru waistcoat), spectacles, never a suit, tie or white gloves. He speaks on camera in the hook, the myth check and the closer (max 5 shots per EP). Everywhere else his voice is **off-screen voice-over** over the scene.
+**Main character for every video: Sutradhar, an Indian grey wolf** (owner decision 2026-11-27, replacing the fox). **Attitude:** the know-it-all who has seen every file; a calm smug smirk, peering over low spectacles, one eyebrow up, never a big friendly smile, never pleading. **Kept distinct from Quiet Wolf's mascot:** Indian grey wolf (slim, sandy-tawny coat), Indian clothes only (maroon bandhgala, cream kurta, indigo angavastram, satchel), brass spectacles; never a suit, tie, waistcoat-and-tie or white gloves, and never their poses copied shot for shot. He speaks on camera in the hook, the myth check and the closer (max 5 shots per EP). Everywhere else his voice is **off-screen voice-over** over the scene.
 
 **SUTRADHAR block** (whenever he is in frame):
 ```
-SUTRADHAR: an anthropomorphic Indian Bengal fox who walks upright, drawn as a 2D cartoon character, slender build, sandy-grey and russet fur, large pointed ears with dark backs, sharp clever amber eyes behind round brass-rimmed spectacles, a bushy grey tail with a black tip, cream kurta under a deep red Nehru-style waistcoat with brass buttons, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, a sly knowing half-smile.
+SUTRADHAR: an anthropomorphic Indian grey wolf who walks upright, drawn as a 2D cartoon character, lean athletic build, sandy-tawny coat with grey on the back and a cream muzzle and chest, pointed ears, sharp golden-amber eyes, heavy-lidded and knowing, round brass-rimmed spectacles worn low on his snout so he peers over them, a smug confident smirk with one corner of the mouth raised and one eyebrow cocked, chin slightly up, unhurried self-assured posture, maroon bandhgala jacket with a high collar and brass buttons over a cream kurta, an indigo angavastram stole draped over one shoulder, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread.
 ```
 **VOICE block** (in every prompt with speech, unchanged):
 ```
 VOICE: Sutradhar's voice, a deep heavy resonant Indian male voice, soft and calm with a curious warmth, like a cool elder brother sharing a secret, smooth brisk short-video pace of about three words per second, relaxed casual everyday Hindi.
 ```
-- Ingredient: `Sutradhar sheet` (see `studio/ref/README.md`). Role line: `The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, waistcoat and satchel only; ignore its grey background and panel layout.`
+- Ingredient: `Sutradhar sheet` (see `studio/ref/README.md`). Role line: `The Sutradhar ingredient defines his face, fur, ears, spectacles, smirk, bandhgala, stole and satchel only; ignore its grey background and panel layout.`
 - His room (`Archive room` ingredient): a cluttered old archive with wooden shelves of scrolls, a brass oil lamp, and a large old painted map of India on the back wall.
 - **Supporting cast changes per video.** Each episode picks its own animals in `episodes/<ep>/cast.md` (decided at the script stage, kept the same within the episode). Casting rules:
   - Everyone is an anthropomorphic animal dressed accurately for the era.
   - All rulers in one episode share one species (any faith), so religion is never coded by animal. Costume tells them apart.
   - Pick animals linked to the place when possible (e.g. Gir lions in Gujarat, one-horned rhinos in Assam, blackbuck in Rajasthan, elephants in Kerala).
   - Villains or criminals only for crimes, never for a community.
-- Never: pigs or dogs for people (offensive), a wolf (Quiet Wolf's mascot), another fox (the fox is only Sutradhar), or a species tied to one religion, caste or community. Real people get no likeness. Historical figures never speak.
+- Never: pigs or dogs for people (offensive), another wolf (the wolf is only Sutradhar), or a species tied to one religion, caste or community. Real people get no likeness. Historical figures never speak.
 
 ## 4. Dialogue syntax (Veo)
 - On camera: `Sutradhar looks into the lens and says in Hindi: "…"`

@@ -17,7 +17,7 @@ c("C01","Hook","cam",ARCH+" On the desk sits a shallow wooden tray holding a min
  "Medium close shot, eye level, 50mm, slow push-in toward Sutradhar and the tray.",LAMP,ROOMTONE,"a soft wet squelch as the wall lifts, water trickling across wood",
  "सुनो, भोपाल की सबसे बड़ी झील, क़ुदरत ने नहीं बनाई।","F1")
 c("C02","Hook","cam",ARCH+" The tray with the drained model valley sits in front of him.",
- "Sutradhar lowers the little wall, peers over the top of his spectacles at the viewer, then sets the wall gently back into the valley and rests both hands on the tray.",
+ "Sutradhar lowers the little wall, peers over the top of his low spectacles at the viewer with a smug smirk, then sets the wall gently back into the valley and rests both hands on the tray.",
  "Close-up on Sutradhar's face and hands, eye level, 85mm, locked, the camera does not move.",LAMP,ROOMTONE,"a soft wooden tap as the wall is set down",
  "इसे इंसानों ने बनाया था, क़रीब हज़ार साल पहले। और ये तो बस शुरुआत है।","F1")
 c("C03","Hook","vo",MAP+" A single indigo river line winds between the hills toward the left edge of the table.",
@@ -125,7 +125,7 @@ c("C27","राज़ 1: झील नहीं, बाँध","vo","The hillsid
  "Wide shot, low angle from behind the surveyors, 35mm, slow push-in toward the chieftain.",DAY,"wind over hills, a hawk cry","",
  "तब कालिया नाम के एक गोंड सरदार ने, बाक़ी धाराओं का रास्ता दिखाया।","F6")
 c("C28","राज़ 1: झील नहीं, बाँध","cam",ARCH+" The small lake model in the wooden tray sits on the desk, its little embankment back in place and the water full.",
- "Sutradhar pats the tiny embankment with his open paw, then looks up at the lens and gives a small knowing nod; he holds still.",
+ "Sutradhar pats the tiny embankment with his open paw, then looks up over his spectacles with a smug knowing smirk; he holds still.",
  "Medium close shot, eye level, 50mm, locked, the camera does not move.",LAMP,ROOMTONE,"a soft wooden tap",
  "ये लोक-कथा है। पर बाँध और झील, दोनों एकदम असली हैं।","F5, F1")
 c("C29","राज़ 1: झील नहीं, बाँध","vo",ARCH+" A thick old bound gazetteer book with a cracked leather spine lies on the desk.",

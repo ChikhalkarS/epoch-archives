@@ -4,7 +4,7 @@ out=sys.argv[2]
 STYLE=open('/home/user/epoch-archives/studio/STYLE_BIBLE.md').read()
 blk=lambda k: re.search(r"```\n("+k+r":.*?)\n```",STYLE,re.S).group(1)
 STY,CON,SUT,VOI=blk("STYLE"),blk("CONSTRAINTS"),blk("SUTRADHAR"),blk("VOICE")
-ROLE="The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, waistcoat and satchel only; ignore its grey background and panel layout."
+ROLE="The Sutradhar ingredient defines his face, fur, ears, spectacles, smirk, bandhgala, stole and satchel only; ignore its grey background and panel layout."
 wc=lambda s: len(s.replace("...","").split()) if s else 0
 def dur(c):
     if c['kind']=='sil': return 3 if c['sec']=='Logo' else 8

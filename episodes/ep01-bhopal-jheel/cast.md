@@ -1,5 +1,5 @@
 # EP1 cast (Bhopal lakes)
-Main: **Sutradhar**, Indian Bengal fox (`studio/STYLE_BIBLE.md`). Supporting animals for this episode only:
+Main: **Sutradhar**, Indian grey wolf with attitude (`studio/STYLE_BIBLE.md`). Supporting animals for this episode only:
 
 | Role | Animal | Ingredient sheet? |
 |---|---|---|
