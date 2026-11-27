@@ -42,7 +42,8 @@
       "voice_id": "hi-IN-MadhurNeural",
       "rate": "-5%"
     },
-    "notes": "Commercial use needs a paid ElevenLabs plan; owner to confirm plan. v3 treats [square brackets] as audio tags, so fact IDs must be stripped before pasting."
+    "notes": "Commercial use needs a paid ElevenLabs plan; owner to confirm plan. v3 treats [square brackets] as audio tags, so fact IDs must be stripped before pasting.",
+    "how": "v3, stability Natural, speed 1.1-1.15; paste shorts/<city>/<id>-voice.txt as one generation (line breaks = pauses used for timing); old-radio filter; save MP3 to assets/<city>/shorts/<id>/voice.mp3"
   },
   "style": {
     "visual": "2D noir graphic-novel cartoon (prompts/library.json -> style)",

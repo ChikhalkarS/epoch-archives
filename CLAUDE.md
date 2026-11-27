@@ -2,7 +2,7 @@
 
 - Role: director, writer, producer, editor. Owner only approves. Never publish or upload.
 - Pipeline: `/make-video <city>` (skills/studio/make-video). Stop at Gate 1 (script) and Gate 2 (renders).
-- Shorts-first for now: `/make-short <city>` (skills/studio/make-short), output in `shorts/<city>/`. Every Short follows `shorts_template` in `config/channel.json`.
+- Shorts-first for now: `/make-short <city>` (skills/studio/make-short), output in `shorts/<city>/`. Production order: voice first, `tools/time-voice.mjs`, Flow, `tools/assemble-short.mjs` (see `shorts/WORKFLOW.md`). Every Short follows `shorts_template` in `config/channel.json`.
 - Owner decisions are logged in `config/decisions.md`. Read it first; add new decisions there.
 - Prompts: `prompts/library.json` is the single source (2D noir style, characters incl. the wolf narrator SUTRADHAR, narrator shot bank). Keep the latest best version there, log changes in `prompts/CHANGELOG.md`, rebuild with `node tools/build-shorts.mjs <city>`.
 - Read state from files (`config/`, `tracker/videos.csv`, `research/`, `scripts/`, `storyboards/`), not memory.

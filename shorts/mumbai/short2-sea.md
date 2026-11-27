@@ -1,6 +1,6 @@
 # असली सीन - एपिसोड 2: समंदर से छीना गया शहर
 <!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v4. Edit those, not this file. -->
-City: मुंबई | Format: 9:16, 1080x1920 | Words: 173 | ~67-72 s at speed 1.1-1.15 | Shots: 25 (16 clips, 9 stills) | Status: waiting on Gate 1
+City: मुंबई | Format: 9:16, 1080x1920 | Words: 173 | estimated ~73 s incl. pauses at speed 1.1-1.15 (not measured yet) | Shots: 25 (16 clips, 9 stills) | Status: waiting on Gate 1
 
 **Twist:** मुंबई बसाई नहीं गई, समंदर से छीनी गई; आज भी (कोस्टल रोड)  
 **Teaser:** Short 3 (अवाबाई का टोल-फ़्री रास्ता), फिर हम्पी  
@@ -11,7 +11,7 @@ City: मुंबई | Format: 9:16, 1080x1920 | Words: 173 | ~67-72 s at speed
 - Narrator: the wolf (SUTRADHAR). Audio tags are optional; delete any that sound odd. "..." = short pause.
 - Over 65 s? Raise speed slightly or drop one story shot. Never drop the intro, viewer line, comment ask, teaser or follow line.
 
-### Paste into ElevenLabs
+### Paste into ElevenLabs (also in `shorts/mumbai/short2-sea-voice.txt`)
 ```
 [curious] आप मुंबई की जिस सड़क पर खड़े हैं...
 वो शायद कभी समंदर थी!
@@ -45,33 +45,33 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 - **SUTRADHAR** (v2): prompts/characters/SUTRADHAR/closeup.png, prompts/characters/SUTRADHAR/sheet.png, prompts/characters/SUTRADHAR/profile.png
 
 ## Shot list (one line = one shot)
-| # | Role | Line | Size / angle | Type | Sec | On screen | Facts |
+| # | Role | Line | Size / angle | Type | Sec (est.) | On screen | Facts |
 |---|---|---|---|---|---|---|---|
-| 1 | hook | आप मुंबई की जिस सड़क पर खड़े हैं... | CU / low | clip | 3.1 | ये ज़मीन कभी समंदर थी! | F16 F18 |
-| 2 | hook | वो शायद कभी समंदर थी! | MS / top | clip | 1.9 | समंदर! | F16 F18 |
-| 3 | brand | स्वागत है, असली सीन के दूसरे एपिसोड में। | WS / low | clip (walk_in v2) | 3.1 | असली सीन 🐺 | - |
-| 4 | brand | मैं हूँ भेड़िया, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v2) | 3.5 | आज: मुंबई | - |
-| 5 | story | कभी मुंबई, सात अलग-अलग टापू थी। | EWS / top | still | 2.3 | 7 टापू | F7 |
-| 6 | story | बीच में समंदर, और ज्वार में डूबती ज़मीन। | WS / eye | clip | 3.1 | ज्वार = बाढ़ | F16 |
-| 7 | interaction | मुंबई में रहते हैं? | MCU / low | clip (lean_in_question v2) | 1.5 | मुंबई में हैं? 📍 | - |
-| 8 | interaction | अपना इलाक़ा कमेंट में लिखिए। | CU / top | still | 1.9 | अपना इलाक़ा 👇 | - |
-| 9 | interaction | शायद वो भी, कभी समंदर था। | MS / high | still | 2.3 | शायद समंदर था! | - |
-| 10 | story | सत्रह सौ बयासी में, गवर्नर हॉर्नबी ने वरली के पास, एक बड़ी समुद्री दीवार शुरू करवाई। | WS / eye | clip | 6.2 | 1782 | F16 |
+| 1 | hook | आप मुंबई की जिस सड़क पर खड़े हैं... | CU / low | clip | 3.2 | ये ज़मीन कभी समंदर थी! | F16 F18 |
+| 2 | hook | वो शायद कभी समंदर थी! | MS / top | clip | 2.1 | समंदर! | F16 F18 |
+| 3 | brand | स्वागत है, असली सीन के दूसरे एपिसोड में। | WS / low | clip (walk_in v2) | 3.5 | असली सीन 🐺 | - |
+| 4 | brand | मैं हूँ भेड़िया, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v2) | 3.8 | आज: मुंबई | - |
+| 5 | story | कभी मुंबई, सात अलग-अलग टापू थी। | EWS / top | still | 2.7 | 7 टापू | F7 |
+| 6 | story | बीच में समंदर, और ज्वार में डूबती ज़मीन। | WS / eye | clip | 3.5 | ज्वार = बाढ़ | F16 |
+| 7 | interaction | मुंबई में रहते हैं? | MCU / low | clip (lean_in_question v2) | 1.8 | मुंबई में हैं? 📍 | - |
+| 8 | interaction | अपना इलाक़ा कमेंट में लिखिए। | CU / top | still | 2.1 | अपना इलाक़ा 👇 | - |
+| 9 | interaction | शायद वो भी, कभी समंदर था। | MS / high | still | 2.7 | शायद समंदर था! | - |
+| 10 | story | सत्रह सौ बयासी में, गवर्नर हॉर्नबी ने वरली के पास, एक बड़ी समुद्री दीवार शुरू करवाई। | WS / eye | clip | 6.1 | 1782 | F16 |
 | 11 | story | हॉर्नबी वेलार्ड। | CU / low | still | 1.2 | हॉर्नबी वेलार्ड | F16 |
-| 12 | story | कहते हैं, दीवार बार-बार टूटती थी। | MS / eye | still | 2.3 | कहते हैं... | F20 |
+| 12 | story | कहते हैं, दीवार बार-बार टूटती थी। | MS / eye | still | 2.7 | कहते हैं... | F20 |
 | 13 | story | फिर एक इंजीनियर के सपने के बाद, समंदर से देवी की मूर्तियाँ मिलीं, | MCU / high | still | 5 | लोक-कथा ✨ | F20 |
-| 14 | story | और बना महालक्ष्मी मंदिर। | WS / low | still | 1.5 | महालक्ष्मी मंदिर | F20 |
-| 15 | story | ये एक लोक-कथा है। | CU / eye | clip (cut_in_finger v2) | 1.5 | लोक-कथा | F20 |
-| 16 | payoff | फिर बने कॉज़वे, | MS / low | still | 1.2 | कॉज़वे | F19 |
-| 17 | payoff | और उन्नीसवीं सदी के बीच तक, सात टापू, एक ज़मीन बन गए। | EWS / top | clip | 4.6 | 7 ➜ 1 | F18 |
+| 14 | story | और बना महालक्ष्मी मंदिर। | WS / low | still | 1.8 | महालक्ष्मी मंदिर | F20 |
+| 15 | story | ये एक लोक-कथा है। | CU / eye | clip (cut_in_finger v2) | 1.8 | लोक-कथा | F20 |
+| 16 | payoff | फिर बने कॉज़वे, | MS / low | still | 1.4 | कॉज़वे | F19 |
+| 17 | payoff | और उन्नीसवीं सदी के बीच तक, सात टापू, एक ज़मीन बन गए। | EWS / top | clip | 4.9 | 7 ➜ 1 | F18 |
 | 18 | payoff | और आज भी, कोस्टल रोड के लिए, समंदर से ज़मीन ली गई। | WS / high | still | 4.6 | आज भी: कोस्टल रोड | F33 F34 |
-| 19 | payoff | मुंबई बसाई नहीं गई। | MS / low | clip | 1.5 | बसाई नहीं... | - |
-| 20 | payoff | समंदर से छीनी गई। | ECU / high | clip | 1.5 | समंदर से छीनी गई 🌊 | - |
-| 21 | comment | समंदर से ज़मीन लेना, सही या ग़लत? | CU / eye | clip | 2.7 | सही या ग़लत? | - |
-| 22 | comment | कमेंट में लिखिए। | CU / low | clip (point_at_viewer v2) | 1.2 | कमेंट 👇 | - |
-| 23 | outro | अगली कहानी: वो औरत, जिसने अपने पैसों से समंदर पर रास्ता बनवाया। | MS / high | clip (touch_diorama v2) | 4.6 | अगला: अवाबाई | - |
-| 24 | outro | और फिर चलेंगे, हम्पी। | MS / ots | clip (map_tap_ots v2) | 1.5 | फिर: हम्पी | - |
-| 25 | follow | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS / eye | clip (walk_off v2) | 3.1 | फ़ॉलो करें ➕ | - |
+| 19 | payoff | मुंबई बसाई नहीं गई। | MS / low | clip | 1.8 | बसाई नहीं... | - |
+| 20 | payoff | समंदर से छीनी गई। | ECU / high | clip | 1.8 | समंदर से छीनी गई 🌊 | - |
+| 21 | comment | समंदर से ज़मीन लेना, सही या ग़लत? | CU / eye | clip | 3.1 | सही या ग़लत? | - |
+| 22 | comment | कमेंट में लिखिए। | CU / low | clip (point_at_viewer v2) | 1.4 | कमेंट 👇 | - |
+| 23 | outro | अगली कहानी: वो औरत, जिसने अपने पैसों से समंदर पर रास्ता बनवाया। | MS / high | clip (touch_diorama v2) | 4.9 | अगला: अवाबाई | - |
+| 24 | outro | और फिर चलेंगे, हम्पी। | MS / ots | clip (map_tap_ots v2) | 2 | फिर: हम्पी | - |
+| 25 | follow | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS / eye | clip (walk_off v2) | 3.2 | फ़ॉलो करें ➕ | - |
 
 ## Shot prompts
 Negative prompt (if supported): `photorealistic, real photograph, 3D render, CGI, claymation, plasticine, glossy plastic, anime, chibi, cute baby proportions, watercolor wash, blurry lines, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood`

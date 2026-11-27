@@ -1,6 +1,6 @@
 # असली सीन - एपिसोड 1: दहेज में मिला शहर
 <!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v4. Edit those, not this file. -->
-City: मुंबई | Format: 9:16, 1080x1920 | Words: 169 | ~65-70 s at speed 1.1-1.15 | Shots: 24 (15 clips, 9 stills) | Status: waiting on Gate 1
+City: मुंबई | Format: 9:16, 1080x1920 | Words: 169 | estimated ~72 s incl. pauses at speed 1.1-1.15 (not measured yet) | Shots: 24 (15 clips, 9 stills) | Status: waiting on Gate 1
 
 **Twist:** दहेज हाथ आने में 4 साल लगे, फिर बोझ निकला, और £10 सालाना किराए पर दे दिया  
 **Teaser:** Short 2 (समंदर वाली ज़मीन), फिर हम्पी  
@@ -11,7 +11,7 @@ City: मुंबई | Format: 9:16, 1080x1920 | Words: 169 | ~65-70 s at speed
 - Narrator: the wolf (SUTRADHAR). Audio tags are optional; delete any that sound odd. "..." = short pause.
 - Over 65 s? Raise speed slightly or drop one story shot. Never drop the intro, viewer line, comment ask, teaser or follow line.
 
-### Paste into ElevenLabs
+### Paste into ElevenLabs (also in `shorts/mumbai/short1-dowry-voice.txt`)
 ```
 [excited] दहेज में सोना नहीं, घोड़े नहीं...
 पूरा एक शहर!
@@ -47,32 +47,32 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 - **MUMBAI_MERCHANT** (v2): prompts/characters/MUMBAI_MERCHANT/sheet.png
 
 ## Shot list (one line = one shot)
-| # | Role | Line | Size / angle | Type | Sec | On screen | Facts |
+| # | Role | Line | Size / angle | Type | Sec (est.) | On screen | Facts |
 |---|---|---|---|---|---|---|---|
-| 1 | hook | दहेज में सोना नहीं, घोड़े नहीं... | CU / low | clip | 2.3 | दहेज में पूरा शहर?! | F8 |
-| 2 | hook | पूरा एक शहर! | MS / top | clip | 1.2 | पूरा शहर! | F8 |
-| 3 | brand | स्वागत है, असली सीन के पहले एपिसोड में। | WS / low | clip (walk_in v2) | 3.1 | असली सीन 🐺 | - |
-| 4 | brand | मैं हूँ भेड़िया, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v2) | 3.5 | आज: मुंबई | - |
-| 5 | story | सोलह सौ इकसठ। | ECU / eye | still | 1.2 | 1661 | F8 |
-| 6 | story | पुर्तगाल की राजकुमारी कैथरीन की शादी तय हुई, इंग्लैंड के राजा चार्ल्स द्वितीय से। | WS / eye | still | 5.4 | कैथरीन 👑 चार्ल्स | F8 |
-| 7 | story | तब मुंबई, सात छोटे टापू थी। | EWS / top | still | 2.3 | 7 टापू | F7 |
-| 8 | story | और राज था पुर्तगालियों का। | MS / low | still | 1.9 | पुर्तगाली राज | F6 |
-| 9 | story | शादी के समझौते में, दहेज की लिस्ट बनी। | ECU / high | still | 3.1 | दहेज की लिस्ट | F8 |
-| 10 | story | अफ़्रीका का टैंजियर। | MCU / eye | still | 1.2 | टैंजियर 🌍 | F8 |
-| 11 | story | और भारत का, बॉम्बे। | CU / high | still | 1.5 | + बॉम्बे 🏝️ | F8 |
-| 12 | twist | लेकिन ट्विस्ट यहाँ है। | CU / eye | clip (cut_in_finger v2) | 1.5 | ट्विस्ट! | - |
-| 13 | story | दहेज हाथ आने में ही, चार साल लग गए। | MS / eye | still | 3.5 | 4 साल ⏳ | F35 F10 |
-| 14 | story | और तब पता चला, ये तोहफ़ा नहीं, बहुत महँगा बोझ है। | WS / high | still | 4.2 | तोहफ़ा या बोझ? | F11 |
-| 15 | interaction | सोचिए, आप राजा होते, तो क्या करते? | MCU / low | clip (lean_in_question v2) | 2.7 | आप क्या करते? 🤔 | - |
-| 16 | payoff | राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे, ईस्ट इंडिया कंपनी को किराए पर दे दिया। | MS / ots | clip | 6.2 | 1668: किराए पर! | F12 |
+| 1 | hook | दहेज में सोना नहीं, घोड़े नहीं... | CU / low | clip | 2.5 | दहेज में पूरा शहर?! | F8 |
+| 2 | hook | पूरा एक शहर! | MS / top | clip | 1.4 | पूरा शहर! | F8 |
+| 3 | brand | स्वागत है, असली सीन के पहले एपिसोड में। | WS / low | clip (walk_in v2) | 3.5 | असली सीन 🐺 | - |
+| 4 | brand | मैं हूँ भेड़िया, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v2) | 3.8 | आज: मुंबई | - |
+| 5 | story | सोलह सौ इकसठ। | ECU / eye | still | 1.4 | 1661 | F8 |
+| 6 | story | पुर्तगाल की राजकुमारी कैथरीन की शादी तय हुई, इंग्लैंड के राजा चार्ल्स द्वितीय से। | WS / eye | still | 5.6 | कैथरीन 👑 चार्ल्स | F8 |
+| 7 | story | तब मुंबई, सात छोटे टापू थी। | EWS / top | still | 2.5 | 7 टापू | F7 |
+| 8 | story | और राज था पुर्तगालियों का। | MS / low | still | 2.1 | पुर्तगाली राज | F6 |
+| 9 | story | शादी के समझौते में, दहेज की लिस्ट बनी। | ECU / high | still | 3.2 | दहेज की लिस्ट | F8 |
+| 10 | story | अफ़्रीका का टैंजियर। | MCU / eye | still | 1.4 | टैंजियर 🌍 | F8 |
+| 11 | story | और भारत का, बॉम्बे। | CU / high | still | 2 | + बॉम्बे 🏝️ | F8 |
+| 12 | twist | लेकिन ट्विस्ट यहाँ है। | CU / eye | clip (cut_in_finger v2) | 1.8 | ट्विस्ट! | - |
+| 13 | story | दहेज हाथ आने में ही, चार साल लग गए। | MS / eye | still | 3.8 | 4 साल ⏳ | F35 F10 |
+| 14 | story | और तब पता चला, ये तोहफ़ा नहीं, बहुत महँगा बोझ है। | WS / high | still | 4.5 | तोहफ़ा या बोझ? | F11 |
+| 15 | interaction | सोचिए, आप राजा होते, तो क्या करते? | MCU / low | clip (lean_in_question v2) | 3.1 | आप क्या करते? 🤔 | - |
+| 16 | payoff | राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे, ईस्ट इंडिया कंपनी को किराए पर दे दिया। | MS / ots | clip | 6.3 | 1668: किराए पर! | F12 |
 | 17 | payoff | और किराया? | MCU / low | clip (lean_in_question v2) | 1.2 | किराया? | - |
-| 18 | payoff | साल का सिर्फ़ दस पाउंड! | ECU / high | clip | 1.9 | सिर्फ़ £10 / साल 😳 | F12 |
-| 19 | payoff | वही दहेज वाला टापू, आज भारत की आर्थिक राजधानी कहलाता है। मुंबई। | EWS / low | clip | 4.6 | दहेज ➜ मुंबई | F29 |
-| 20 | comment | अब बताइए, आज मुंबई का किराया कितना होना चाहिए? | MS / high | clip (touch_diorama v2) | 3.5 | आज का किराया? | - |
-| 21 | comment | कमेंट में लिखिए। | CU / low | clip (point_at_viewer v2) | 1.2 | कमेंट 👇 | - |
-| 22 | outro | अगली कहानी: मुंबई की वो ज़मीन, जो कभी समंदर थी। | MS / high | clip (touch_diorama v2) | 3.8 | अगला: समंदर वाली ज़मीन 🌊 | - |
-| 23 | outro | और फिर चलेंगे, हम्पी। | MS / ots | clip (map_tap_ots v2) | 1.5 | फिर: हम्पी | - |
-| 24 | follow | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS / eye | clip (walk_off v2) | 3.1 | फ़ॉलो करें ➕ | - |
+| 18 | payoff | साल का सिर्फ़ दस पाउंड! | ECU / high | clip | 2.4 | सिर्फ़ £10 / साल 😳 | F12 |
+| 19 | payoff | वही दहेज वाला टापू, आज भारत की आर्थिक राजधानी कहलाता है। मुंबई। | EWS / low | clip | 4.9 | दहेज ➜ मुंबई | F29 |
+| 20 | comment | अब बताइए, आज मुंबई का किराया कितना होना चाहिए? | MS / high | clip (touch_diorama v2) | 3.8 | आज का किराया? | - |
+| 21 | comment | कमेंट में लिखिए। | CU / low | clip (point_at_viewer v2) | 1.4 | कमेंट 👇 | - |
+| 22 | outro | अगली कहानी: मुंबई की वो ज़मीन, जो कभी समंदर थी। | MS / high | clip (touch_diorama v2) | 4.2 | अगला: समंदर वाली ज़मीन 🌊 | - |
+| 23 | outro | और फिर चलेंगे, हम्पी। | MS / ots | clip (map_tap_ots v2) | 2 | फिर: हम्पी | - |
+| 24 | follow | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS / eye | clip (walk_off v2) | 3.2 | फ़ॉलो करें ➕ | - |
 
 ## Shot prompts
 Negative prompt (if supported): `photorealistic, real photograph, 3D render, CGI, claymation, plasticine, glossy plastic, anime, chibi, cute baby proportions, watercolor wash, blurry lines, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood`

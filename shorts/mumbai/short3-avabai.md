@@ -1,6 +1,6 @@
 # असली सीन - एपिसोड 3: टोल-फ़्री रास्ते वाली अवाबाई
 <!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v4. Edit those, not this file. -->
-City: मुंबई | Format: 9:16, 1080x1920 | Words: 168 | ~65-70 s at speed 1.1-1.15 | Shots: 24 (14 clips, 10 stills) | Status: waiting on Gate 1
+City: मुंबई | Format: 9:16, 1080x1920 | Words: 168 | estimated ~71 s incl. pauses at speed 1.1-1.15 (not measured yet) | Shots: 24 (14 clips, 10 stills) | Status: waiting on Gate 1
 
 **Twist:** दान की शर्त: कभी टोल नहीं; सड़क आज भी उनके नाम पर  
 **Teaser:** अगला शहर: हम्पी  
@@ -11,7 +11,7 @@ City: मुंबई | Format: 9:16, 1080x1920 | Words: 168 | ~65-70 s at speed
 - Narrator: the wolf (SUTRADHAR). Audio tags are optional; delete any that sound odd. "..." = short pause.
 - Over 65 s? Raise speed slightly or drop one story shot. Never drop the intro, viewer line, comment ask, teaser or follow line.
 
-### Paste into ElevenLabs
+### Paste into ElevenLabs (also in `shorts/mumbai/short3-avabai-voice.txt`)
 ```
 एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया...
 [excited] और शर्त रखी, कोई टोल नहीं!
@@ -45,32 +45,32 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 - **SUTRADHAR** (v2): prompts/characters/SUTRADHAR/closeup.png, prompts/characters/SUTRADHAR/sheet.png, prompts/characters/SUTRADHAR/profile.png
 
 ## Shot list (one line = one shot)
-| # | Role | Line | Size / angle | Type | Sec | On screen | Facts |
+| # | Role | Line | Size / angle | Type | Sec (est.) | On screen | Facts |
 |---|---|---|---|---|---|---|---|
-| 1 | hook | एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया... | WS / low | clip | 3.8 | समंदर पर रास्ता? | F21 |
-| 2 | hook | और शर्त रखी, कोई टोल नहीं! | CU / eye | clip | 2.3 | शर्त: कोई टोल नहीं! | F21 |
-| 3 | brand | स्वागत है, असली सीन के तीसरे एपिसोड में। | WS / low | clip (walk_in v2) | 3.1 | असली सीन 🐺 | - |
-| 4 | brand | मैं हूँ भेड़िया, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v2) | 3.5 | आज: मुंबई | - |
-| 5 | story | माहिम और बांद्रा के बीच, एक खाड़ी थी। | EWS / high | still | 3.1 | माहिम ↔ बांद्रा | F21 |
-| 6 | story | लोग नावों से पार करते थे। | MS / eye | still | 2.3 | नाव से पार | F21 |
-| 7 | story | अठारह सौ चालीस-इकतालीस के आसपास, नावें पलटीं, | WS / high | still | 2.7 | 1840-41 | F21 |
-| 8 | story | और कई लोगों की जान गई। | CU / eye | still | 2.3 |  | F21 |
-| 9 | story | तब आगे आईं, एक पारसी महिला। | MS / low | still | 2.3 | एक पारसी महिला | F21 |
-| 10 | story | लेडी अवाबाई जमशेदजी जीजीभॉय। | CU / eye | still | 1.5 | लेडी अवाबाई | F21 |
-| 11 | story | उन्होंने डेढ़ लाख रुपये से ज़्यादा दान दिए। | ECU / high | clip | 3.1 | ₹1.5 लाख+ दान | F21 |
-| 12 | story | और बना, माहिम कॉज़वे। | WS / high | still | 1.5 | माहिम कॉज़वे | F21 |
-| 13 | twist | बस एक शर्त। | CU / eye | clip (cut_in_finger v2) | 1.2 | एक शर्त | - |
-| 14 | payoff | इस रास्ते पर, लोगों से कभी टोल नहीं लिया जाएगा। | MS / eye | still | 3.8 | कोई टोल नहीं | F21 |
-| 15 | interaction | आपके शहर में भी, किसी ने ऐसा कोई रास्ता या पुल दान से बनवाया है? | MS / high | clip (touch_diorama v2) | 5.8 | आपके शहर में? | - |
-| 16 | interaction | कमेंट में बताइए। | CU / low | clip (point_at_viewer v2) | 1.2 | कमेंट 👇 | - |
-| 17 | payoff | अठारह सौ पैंतालीस में, ये रास्ता खुल गया। | EWS / high | clip | 3.1 | 1845 ✔ | F21 |
-| 18 | payoff | और उसकी एक सड़क, आज भी उनके नाम पर है। लेडी जमशेदजी रोड। | MS / low | still | 5 | एल. जे. रोड | F36 |
-| 19 | comment | आज के ज़माने में, ऐसी शर्त कौन रखेगा? | CU / eye | still | 3.1 | आज कौन रखेगा? | - |
+| 1 | hook | एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया... | WS / low | clip | 3.9 | समंदर पर रास्ता? | F21 |
+| 2 | hook | और शर्त रखी, कोई टोल नहीं! | CU / eye | clip | 2.5 | शर्त: कोई टोल नहीं! | F21 |
+| 3 | brand | स्वागत है, असली सीन के तीसरे एपिसोड में। | WS / low | clip (walk_in v2) | 3.5 | असली सीन 🐺 | - |
+| 4 | brand | मैं हूँ भेड़िया, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v2) | 3.8 | आज: मुंबई | - |
+| 5 | story | माहिम और बांद्रा के बीच, एक खाड़ी थी। | EWS / high | still | 3.2 | माहिम ↔ बांद्रा | F21 |
+| 6 | story | लोग नावों से पार करते थे। | MS / eye | still | 2.5 | नाव से पार | F21 |
+| 7 | story | अठारह सौ चालीस-इकतालीस के आसपास, नावें पलटीं, | WS / high | still | 3.1 | 1840-41 | F21 |
+| 8 | story | और कई लोगों की जान गई। | CU / eye | still | 2.5 |  | F21 |
+| 9 | story | तब आगे आईं, एक पारसी महिला। | MS / low | still | 2.5 | एक पारसी महिला | F21 |
+| 10 | story | लेडी अवाबाई जमशेदजी जीजीभॉय। | CU / eye | still | 1.8 | लेडी अवाबाई | F21 |
+| 11 | story | उन्होंने डेढ़ लाख रुपये से ज़्यादा दान दिए। | ECU / high | clip | 3.2 | ₹1.5 लाख+ दान | F21 |
+| 12 | story | और बना, माहिम कॉज़वे। | WS / high | still | 2 | माहिम कॉज़वे | F21 |
+| 13 | twist | बस एक शर्त। | CU / eye | clip (cut_in_finger v2) | 1.4 | एक शर्त | - |
+| 14 | payoff | इस रास्ते पर, लोगों से कभी टोल नहीं लिया जाएगा। | MS / eye | still | 4.2 | कोई टोल नहीं | F21 |
+| 15 | interaction | आपके शहर में भी, किसी ने ऐसा कोई रास्ता या पुल दान से बनवाया है? | MS / high | clip (touch_diorama v2) | 6 | आपके शहर में? | - |
+| 16 | interaction | कमेंट में बताइए। | CU / low | clip (point_at_viewer v2) | 1.4 | कमेंट 👇 | - |
+| 17 | payoff | अठारह सौ पैंतालीस में, ये रास्ता खुल गया। | EWS / high | clip | 3.2 | 1845 ✔ | F21 |
+| 18 | payoff | और उसकी एक सड़क, आज भी उनके नाम पर है। लेडी जमशेदजी रोड। | MS / low | still | 5.2 | एल. जे. रोड | F36 |
+| 19 | comment | आज के ज़माने में, ऐसी शर्त कौन रखेगा? | CU / eye | still | 3.5 | आज कौन रखेगा? | - |
 | 20 | comment | आप बताइए। | MCU / low | clip (lean_in_question v2) | 1.2 | आप बताइए 👇 | - |
-| 21 | outro | अगला शहर: हम्पी। | MS / ots | clip (map_tap_ots v2) | 1.2 | अगला शहर: हम्पी 🏛️ | - |
-| 22 | outro | एक बड़े साम्राज्य की राजधानी, जो आज खंडहर है। | EWS / low | clip | 3.5 | खंडहर क्यों? | - |
-| 23 | outro | आख़िर हुआ क्या था? | ECU / eye | clip (eye_ecu v2) | 1.5 | आख़िर क्या हुआ? | - |
-| 24 | follow | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS / eye | clip (walk_off v2) | 3.1 | फ़ॉलो करें ➕ | - |
+| 21 | outro | अगला शहर: हम्पी। | MS / ots | clip (map_tap_ots v2) | 1.4 | अगला शहर: हम्पी 🏛️ | - |
+| 22 | outro | एक बड़े साम्राज्य की राजधानी, जो आज खंडहर है। | EWS / low | clip | 3.8 | खंडहर क्यों? | - |
+| 23 | outro | आख़िर हुआ क्या था? | ECU / eye | clip (eye_ecu v2) | 1.8 | आख़िर क्या हुआ? | - |
+| 24 | follow | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS / eye | clip (walk_off v2) | 3.2 | फ़ॉलो करें ➕ | - |
 
 ## Shot prompts
 Negative prompt (if supported): `photorealistic, real photograph, 3D render, CGI, claymation, plasticine, glossy plastic, anime, chibi, cute baby proportions, watercolor wash, blurry lines, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood`

@@ -20,6 +20,9 @@ const RUNGS = ['EWS', 'WS', 'MS', 'MCU', 'CU', 'ECU'];
 const STYLE_SHORT = '2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows';
 const warnings = [];
 
+const timingOf = (id) => { const f = path.join(root, `shorts/${slug}/${id}.timing.json`); return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null; };
+// estimate until the real voice is measured: ~2.8 words/s at speed 1.1, +0.35 s line pause, +0.25 s per '...'
+const estSecs = (n, tts = '') => Math.max(1.2, Math.round((n / 2.8 + 0.35 + 0.25 * ((tts.replace(/\.\.\.\s*$/, '').match(/\.\.\./g) || []).length)) * 10) / 10);
 const fill = (s, vars) => s.replace(/\{(\w+)\}/g, (m, k) => (k in vars ? vars[k] : m));
 const charTags = Object.fromEntries(Object.entries(lib.characters).map(([k, c]) => [k, c.scene_tag]));
 const stripTts = (s) => s.replace(/\[[a-z ]+\]/g, '').replace(/\.\.\./g, ' ').trim();
@@ -93,13 +96,20 @@ function renderShort(sh) {
   const intro = introLines(sh.episode, data.city);
   const shots = sh.shots.map((s) => expandShot(s, intro));
   const w = check(sh, shots);
-  const secs = (n) => Math.max(1.2, Math.round((n / 2.6) * 10) / 10);
+  const tm = timingOf(sh.id);
+  if (tm && tm.shots.length !== shots.length) warnings.push(`${sh.id}: timing file has ${tm.shots.length} shots, script has ${shots.length}; re-run tools/time-voice.mjs`);
+  shots.forEach((s, i) => { s.est = estSecs(words(s.tts), s.tts); s.secs = tm && tm.shots[i] ? tm.shots[i].dur : s.est; });
+  const totalSecs = Math.round(shots.reduce((x, s) => x + s.secs, 0));
+  if (totalSecs > 70) warnings.push(`${sh.id}: ${tm ? 'measured' : 'estimated'} ${totalSecs} s is over 70 s${tm ? '' : ' (estimate; measure the real voice with tools/time-voice.mjs)'}`);
+  sh._total = totalSecs;
+  shots.forEach((s, i) => { if (s.secs > 7.5) warnings.push(`${sh.id} shot ${i + 1}: ${s.secs} s is longer than one 8 s Flow clip; split the line`); });
+  const secs = (n, i) => shots[i].secs;
   const chars = [...new Set(shots.flatMap((s) => s.chars))];
   const clips = shots.filter((s) => s.asset === 'clip').length;
   const L = [];
   L.push(`# ${cfg.show.name} - एपिसोड ${sh.episode}: ${sh.title}`);
   L.push(`<!-- Built by tools/build-shorts.mjs from shorts/${slug}/shorts.json + prompts/library.json v${lib.library_version}. Edit those, not this file. -->`);
-  L.push(`City: ${data.city} | Format: 9:16, 1080x1920 | Words: ${w} | ~${Math.round(w / 2.6)}-${Math.round(w / 2.4)} s at speed 1.1-1.15 | Shots: ${shots.length} (${clips} clips, ${shots.length - clips} stills) | Status: waiting on Gate 1`);
+  L.push(`City: ${data.city} | Format: 9:16, 1080x1920 | Words: ${w} | ${tm ? `measured voice: ${tm.total} s` : `estimated ~${sh._total} s incl. pauses at speed 1.1-1.15 (not measured yet)`} | Shots: ${shots.length} (${clips} clips, ${shots.length - clips} stills) | Status: waiting on Gate 1`);
   L.push('');
   L.push(`**Twist:** ${sh.twist}  `);
   L.push(`**Teaser:** ${sh.teaser}  `);
@@ -110,7 +120,7 @@ function renderShort(sh) {
   L.push('- Narrator: the wolf (SUTRADHAR). Audio tags are optional; delete any that sound odd. "..." = short pause.');
   L.push('- Over 65 s? Raise speed slightly or drop one story shot. Never drop the intro, viewer line, comment ask, teaser or follow line.');
   L.push('');
-  L.push('### Paste into ElevenLabs');
+  L.push(`### Paste into ElevenLabs (also in \`shorts/${slug}/${sh.id}-voice.txt\`)`);
   L.push('```');
   shots.forEach((s) => L.push(s.tts));
   L.push('```');
@@ -123,9 +133,9 @@ function renderShort(sh) {
   }
   L.push('');
   L.push('## Shot list (one line = one shot)');
-  L.push('| # | Role | Line | Size / angle | Type | Sec | On screen | Facts |');
+  L.push(`| # | Role | Line | Size / angle | Type | Sec (${tm ? 'measured' : 'est.'}) | On screen | Facts |`);
   L.push('|---|---|---|---|---|---|---|---|');
-  shots.forEach((s, i) => L.push(`| ${i + 1} | ${s.role} | ${s.vo} | ${s.size} / ${s.angle} | ${s.asset}${s.template ? ` (${s.template})` : ''} | ${secs(words(s.tts))} | ${s.onscreen || ''} | ${(s.facts || []).join(' ') || '-'} |`));
+  shots.forEach((s, i) => L.push(`| ${i + 1} | ${s.role} | ${s.vo} | ${s.size} / ${s.angle} | ${s.asset}${s.template ? ` (${s.template})` : ''} | ${secs(0, i)} | ${s.onscreen || ''} | ${(s.facts || []).join(' ') || '-'} |`));
   L.push('');
   L.push('## Shot prompts');
   L.push(`Negative prompt (if supported): \`${ST.negative}\``);
@@ -163,6 +173,8 @@ function renderShort(sh) {
   L.push('Upload setting: Audience = "No, it\'s not made for kids" (narrator is an animated wolf; content is history for general audiences).');
   L.push('');
   fs.writeFileSync(path.join(root, `shorts/${slug}/${sh.id}.md`), L.join('\n'));
+  fs.writeFileSync(path.join(root, `shorts/${slug}/${sh.id}-voice.txt`), shots.map((s) => s.tts).join('\n') + '\n');
+  fs.writeFileSync(path.join(root, `shorts/${slug}/${sh.id}.shots.json`), JSON.stringify({ slug, id: sh.id, episode: sh.episode, built_from_library: lib.library_version, shots: shots.map((s, i) => ({ n: i + 1, sid: `${sh.id.split('-')[0]}-s${String(i + 1).padStart(2, '0')}`, role: s.role, vo: s.vo, tts: s.tts, words: words(s.tts), est: s.est, size: s.size, angle: s.angle, asset: s.asset, onscreen: s.onscreen || '' })) }, null, 1) + '\n');
   renderFlow(sh, shots);
   return { id: sh.id, words: w, shots: shots.length, clips };
 }
@@ -170,13 +182,15 @@ function renderShort(sh) {
 
 function renderFlow(sh, shots) {
   const F = lib.flow;
-  const secs = (n) => Math.max(1.2, Math.round((n / 2.6) * 10) / 10);
+  const tm = timingOf(sh.id);
+  const secs = (n, i) => shots[i].secs;
   const L = [];
   L.push(`# Flow prompts - ${cfg.show.name} एपिसोड ${sh.episode}: ${sh.title}`);
   L.push(`<!-- Built by tools/build-shorts.mjs from shorts/${slug}/shorts.json + prompts/library.json v${lib.library_version}. Edit those, not this file. -->`);
   L.push('');
   L.push(`Tool: ${F.tool}. ${F.settings}`);
   L.push(`Audio: ${F.audio_rule}`);
+  L.push(tm ? `Timing: measured from the ElevenLabs voice (${tm.total} s, ${tm.source}).` : 'Timing: ESTIMATED from word count. After the ElevenLabs voice exists run `node tools/time-voice.mjs ' + slug + ' ' + sh.id + '` and rebuild; the seconds below then become exact.');
   L.push('');
   L.push('## Order of work');
   const chars = [...new Set(shots.flatMap((s) => s.chars))];
@@ -185,15 +199,15 @@ function renderFlow(sh, shots) {
   L.push('3. Clips: `ingredients` shots attach the listed sheets; `text` shots need nothing (or attach the still as first frame in Frames to Video for more control).');
   L.push('4. Name files by shot id (e.g. `' + sh.id.split('-')[0] + '-s01.mp4`) and drop them in `assets/' + slug + '/shorts/' + sh.id + '/`.');
   L.push('');
-  L.push('| # | Line | Shot | Flow mode | Attach | Use (s) |');
+  L.push(`| # | Line | Shot | Flow mode | Attach | Use (s${tm ? '' : ', est.'}) |`);
   L.push('|---|---|---|---|---|---|');
   const modeOf = (s) => (s.asset === 'still' ? 'image' : s.chars.length ? 'ingredients' : 'text');
-  shots.forEach((s, i) => L.push(`| ${i + 1} | ${s.vo} | ${s.size} ${s.angle} | ${modeOf(s)} | ${s.chars.join(', ') || '-'} | ${secs(words(s.tts))} |`));
+  shots.forEach((s, i) => L.push(`| ${i + 1} | ${s.vo} | ${s.size} ${s.angle} | ${modeOf(s)} | ${s.chars.join(', ') || '-'} | ${secs(0, i)} |`));
   L.push('');
   shots.forEach((s, i) => {
     const id = `${sh.id.split('-')[0]}-s${String(i + 1).padStart(2, '0')}`;
     const mode = modeOf(s);
-    L.push(`## ${id} | ${mode} | ${s.size} ${s.angle} | use first ${secs(words(s.tts))} s`);
+    L.push(`## ${id} | ${mode} | ${s.size} ${s.angle} | use first ${secs(0, i)} s${tm ? '' : ' (estimate)'}`);
     L.push(`Line: ${s.vo}`);
     if (s.onscreen) L.push(`On screen (added in edit): ${s.onscreen}`);
     L.push(`Flow: ${F.modes[mode]}${s.chars.length ? ` Attach: ${s.chars.map((k) => lib.characters[k].reference_images.find((r) => r.endsWith('sheet.png'))).join(', ')}.` : ''}`);

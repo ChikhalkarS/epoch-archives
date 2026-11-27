@@ -43,5 +43,15 @@ Length 150-170 spoken words (build warns outside 140-175). One line = 1-18 words
 - Update `shorts/SCHEDULE.md` (default 18:00 IST, 2-3 a week), `shorts/<slug>/CREDITS.md`, `tracker/videos.csv`. New owner decisions go in `config/decisions.md`.
 - When the owner reports a better prompt or a new reference image: update the library (version + changelog) and rebuild. The library always holds the latest best prompt.
 
-## GATE - STOP
+## 5. After Gate 1: production (see `shorts/WORKFLOW.md`)
+1. Owner makes the ElevenLabs voice from `<id>-voice.txt` (one take, one line per line) -> `assets/<slug>/shorts/<id>/voice.mp3`.
+2. `node tools/time-voice.mjs <slug> <id>` measures every line from the pauses (segmentation against word counts and '...' marks). Fix every warning: total over 70 s, a line over 8 s (split it), uncertain cuts (listen). Never adjust the script silently; agree cuts with the owner.
+3. `node tools/build-shorts.mjs <slug>` again: the Flow pack now shows measured seconds.
+4. Owner generates the Flow shots and saves them by shot id in `assets/<slug>/shorts/<id>/`.
+5. `node tools/assemble-short.mjs <slug> <id> --preview`, then without `--preview`. Report missing shots and held frames.
+
+## GATE 1 - STOP (script)
 Show the owner, in under 15 lines: each Short's hook, word count and timing, shot and clip count, the twist, the teaser, and any disputed/legend flags. Wait for "approved" or edits.
+
+## GATE 2 - STOP (render)
+Give the owner the render path, measured length, and any missing shots or held frames. Wait for "approved" or notes; redo only affected shots.

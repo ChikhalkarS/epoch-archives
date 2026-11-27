@@ -3,6 +3,7 @@
 
 Tool: Google Flow (Veo for clips, Imagen for stills). Aspect ratio: 9:16 portrait. Clip length: 8 s (Flow default); use the first seconds listed per shot, they are the cleanest. Generate 2-4 takes per clip and pick one.
 Audio: Audio is ambient sound only. Always end with 'No music, no speech.' The narration is ElevenLabs and music is added in the edit.
+Timing: ESTIMATED from word count. After the ElevenLabs voice exists run `node tools/time-voice.mjs mumbai short3-avabai` and rebuild; the seconds below then become exact.
 
 ## Order of work
 1. Character references (once, reused every episode): MUMBAI_LADY -> prompts/characters/MUMBAI_LADY/sheet.png; SUTRADHAR -> prompts/characters/SUTRADHAR/sheet.png. Prompts in `prompts/LIBRARY.md`.
@@ -10,34 +11,34 @@ Audio: Audio is ambient sound only. Always end with 'No music, no speech.' The n
 3. Clips: `ingredients` shots attach the listed sheets; `text` shots need nothing (or attach the still as first frame in Frames to Video for more control).
 4. Name files by shot id (e.g. `short3-s01.mp4`) and drop them in `assets/mumbai/shorts/short3-avabai/`.
 
-| # | Line | Shot | Flow mode | Attach | Use (s) |
+| # | Line | Shot | Flow mode | Attach | Use (s, est.) |
 |---|---|---|---|---|---|
-| 1 | एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया... | WS low | ingredients | MUMBAI_LADY | 3.8 |
-| 2 | और शर्त रखी, कोई टोल नहीं! | CU eye | ingredients | MUMBAI_LADY | 2.3 |
-| 3 | स्वागत है, असली सीन के तीसरे एपिसोड में। | WS low | ingredients | SUTRADHAR | 3.1 |
-| 4 | मैं हूँ भेड़िया, और आज की कहानी, मुंबई की। | MCU low | ingredients | SUTRADHAR | 3.5 |
-| 5 | माहिम और बांद्रा के बीच, एक खाड़ी थी। | EWS high | image | - | 3.1 |
-| 6 | लोग नावों से पार करते थे। | MS eye | image | - | 2.3 |
-| 7 | अठारह सौ चालीस-इकतालीस के आसपास, नावें पलटीं, | WS high | image | - | 2.7 |
-| 8 | और कई लोगों की जान गई। | CU eye | image | - | 2.3 |
-| 9 | तब आगे आईं, एक पारसी महिला। | MS low | image | MUMBAI_LADY | 2.3 |
-| 10 | लेडी अवाबाई जमशेदजी जीजीभॉय। | CU eye | image | MUMBAI_LADY | 1.5 |
-| 11 | उन्होंने डेढ़ लाख रुपये से ज़्यादा दान दिए। | ECU high | ingredients | MUMBAI_LADY | 3.1 |
-| 12 | और बना, माहिम कॉज़वे। | WS high | image | - | 1.5 |
-| 13 | बस एक शर्त। | CU eye | ingredients | SUTRADHAR | 1.2 |
-| 14 | इस रास्ते पर, लोगों से कभी टोल नहीं लिया जाएगा। | MS eye | image | - | 3.8 |
-| 15 | आपके शहर में भी, किसी ने ऐसा कोई रास्ता या पुल दान से बनवाया है? | MS high | ingredients | SUTRADHAR | 5.8 |
-| 16 | कमेंट में बताइए। | CU low | ingredients | SUTRADHAR | 1.2 |
-| 17 | अठारह सौ पैंतालीस में, ये रास्ता खुल गया। | EWS high | text | - | 3.1 |
-| 18 | और उसकी एक सड़क, आज भी उनके नाम पर है। लेडी जमशेदजी रोड। | MS low | image | - | 5 |
-| 19 | आज के ज़माने में, ऐसी शर्त कौन रखेगा? | CU eye | image | MUMBAI_LADY | 3.1 |
+| 1 | एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया... | WS low | ingredients | MUMBAI_LADY | 3.9 |
+| 2 | और शर्त रखी, कोई टोल नहीं! | CU eye | ingredients | MUMBAI_LADY | 2.5 |
+| 3 | स्वागत है, असली सीन के तीसरे एपिसोड में। | WS low | ingredients | SUTRADHAR | 3.5 |
+| 4 | मैं हूँ भेड़िया, और आज की कहानी, मुंबई की। | MCU low | ingredients | SUTRADHAR | 3.8 |
+| 5 | माहिम और बांद्रा के बीच, एक खाड़ी थी। | EWS high | image | - | 3.2 |
+| 6 | लोग नावों से पार करते थे। | MS eye | image | - | 2.5 |
+| 7 | अठारह सौ चालीस-इकतालीस के आसपास, नावें पलटीं, | WS high | image | - | 3.1 |
+| 8 | और कई लोगों की जान गई। | CU eye | image | - | 2.5 |
+| 9 | तब आगे आईं, एक पारसी महिला। | MS low | image | MUMBAI_LADY | 2.5 |
+| 10 | लेडी अवाबाई जमशेदजी जीजीभॉय। | CU eye | image | MUMBAI_LADY | 1.8 |
+| 11 | उन्होंने डेढ़ लाख रुपये से ज़्यादा दान दिए। | ECU high | ingredients | MUMBAI_LADY | 3.2 |
+| 12 | और बना, माहिम कॉज़वे। | WS high | image | - | 2 |
+| 13 | बस एक शर्त। | CU eye | ingredients | SUTRADHAR | 1.4 |
+| 14 | इस रास्ते पर, लोगों से कभी टोल नहीं लिया जाएगा। | MS eye | image | - | 4.2 |
+| 15 | आपके शहर में भी, किसी ने ऐसा कोई रास्ता या पुल दान से बनवाया है? | MS high | ingredients | SUTRADHAR | 6 |
+| 16 | कमेंट में बताइए। | CU low | ingredients | SUTRADHAR | 1.4 |
+| 17 | अठारह सौ पैंतालीस में, ये रास्ता खुल गया। | EWS high | text | - | 3.2 |
+| 18 | और उसकी एक सड़क, आज भी उनके नाम पर है। लेडी जमशेदजी रोड। | MS low | image | - | 5.2 |
+| 19 | आज के ज़माने में, ऐसी शर्त कौन रखेगा? | CU eye | image | MUMBAI_LADY | 3.5 |
 | 20 | आप बताइए। | MCU low | ingredients | SUTRADHAR | 1.2 |
-| 21 | अगला शहर: हम्पी। | MS ots | ingredients | SUTRADHAR | 1.2 |
-| 22 | एक बड़े साम्राज्य की राजधानी, जो आज खंडहर है। | EWS low | ingredients | SUTRADHAR | 3.5 |
-| 23 | आख़िर हुआ क्या था? | ECU eye | ingredients | SUTRADHAR | 1.5 |
-| 24 | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS eye | ingredients | SUTRADHAR | 3.1 |
+| 21 | अगला शहर: हम्पी। | MS ots | ingredients | SUTRADHAR | 1.4 |
+| 22 | एक बड़े साम्राज्य की राजधानी, जो आज खंडहर है। | EWS low | ingredients | SUTRADHAR | 3.8 |
+| 23 | आख़िर हुआ क्या था? | ECU eye | ingredients | SUTRADHAR | 1.8 |
+| 24 | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS eye | ingredients | SUTRADHAR | 3.2 |
 
-## short3-s01 | ingredients | WS low | use first 3.8 s
+## short3-s01 | ingredients | WS low | use first 3.9 s (estimate)
 Line: एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया...
 On screen (added in edit): समंदर पर रास्ता?
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/MUMBAI_LADY/sheet.png.
@@ -64,7 +65,7 @@ Audio: quiet ambient room tone. No music, no speech.
 Keep MUMBAI_LADY identical to the ingredients in face, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s02 | ingredients | CU eye | use first 2.3 s
+## short3-s02 | ingredients | CU eye | use first 2.5 s (estimate)
 Line: और शर्त रखी, कोई टोल नहीं!
 On screen (added in edit): शर्त: कोई टोल नहीं!
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/MUMBAI_LADY/sheet.png.
@@ -91,7 +92,7 @@ Audio: quiet ambient room tone. No music, no speech.
 Keep MUMBAI_LADY identical to the ingredients in face, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s03 | ingredients | WS low | use first 3.1 s
+## short3-s03 | ingredients | WS low | use first 3.5 s (estimate)
 Line: स्वागत है, असली सीन के तीसरे एपिसोड में।
 On screen (added in edit): असली सीन 🐺
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -118,7 +119,7 @@ Audio: quiet ambient room tone. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s04 | ingredients | MCU low | use first 3.5 s
+## short3-s04 | ingredients | MCU low | use first 3.8 s (estimate)
 Line: मैं हूँ भेड़िया, और आज की कहानी, मुंबई की।
 On screen (added in edit): आज: मुंबई
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -145,7 +146,7 @@ Audio: quiet ambient room tone. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s05 | image | EWS high | use first 3.1 s
+## short3-s05 | image | EWS high | use first 3.2 s (estimate)
 Line: माहिम और बांद्रा के बीच, एक खाड़ी थी।
 On screen (added in edit): माहिम ↔ बांद्रा
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
@@ -153,7 +154,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme wide shot, high angle looking down: a wide creek of blue water between two palm-lined shores with small villages, 19th century Bombay, hazy morning light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short3-s06 | image | MS eye | use first 2.3 s
+## short3-s06 | image | MS eye | use first 2.5 s (estimate)
 Line: लोग नावों से पार करते थे।
 On screen (added in edit): नाव से पार
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
@@ -161,7 +162,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, eye level: a small wooden ferry boat crowded with passengers and baskets crossing the creek, the boatman pushing with a long pole, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short3-s07 | image | WS high | use first 2.7 s
+## short3-s07 | image | WS high | use first 3.1 s (estimate)
 Line: अठारह सौ चालीस-इकतालीस के आसपास, नावें पलटीं,
 On screen (added in edit): 1840-41
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
@@ -169,14 +170,14 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, high angle looking down: an empty overturned boat floating on dark stormy water, broken oars drifting, grey rain clouds, symbolic, no people shown, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short3-s08 | image | CU eye | use first 2.3 s
+## short3-s08 | image | CU eye | use first 2.5 s (estimate)
 Line: और कई लोगों की जान गई।
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
 ```
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: a single small unlit lantern floating alone on dark rippling water, symbolic and quiet, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short3-s09 | image | MS low | use first 2.3 s
+## short3-s09 | image | MS low | use first 2.5 s (estimate)
 Line: तब आगे आईं, एक पारसी महिला।
 On screen (added in edit): एक पारसी महिला
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan. Attach: prompts/characters/MUMBAI_LADY/sheet.png.
@@ -184,7 +185,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, low angle looking up: the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) stepping out onto a wooden balcony overlooking the stormy creek, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short3-s10 | image | CU eye | use first 1.5 s
+## short3-s10 | image | CU eye | use first 1.8 s (estimate)
 Line: लेडी अवाबाई जमशेदजी जीजीभॉय।
 On screen (added in edit): लेडी अवाबाई
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan. Attach: prompts/characters/MUMBAI_LADY/sheet.png.
@@ -192,7 +193,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: face of the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) lit by soft window light, rain-streaked glass behind her, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short3-s11 | ingredients | ECU high | use first 3.1 s
+## short3-s11 | ingredients | ECU high | use first 3.2 s (estimate)
 Line: उन्होंने डेढ़ लाख रुपये से ज़्यादा दान दिए।
 On screen (added in edit): ₹1.5 लाख+ दान
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/MUMBAI_LADY/sheet.png.
@@ -219,7 +220,7 @@ Audio: quiet ambient room tone. No music, no speech.
 Keep MUMBAI_LADY identical to the ingredients in face, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s12 | image | WS high | use first 1.5 s
+## short3-s12 | image | WS high | use first 2 s (estimate)
 Line: और बना, माहिम कॉज़वे।
 On screen (added in edit): माहिम कॉज़वे
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
@@ -227,7 +228,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, high angle looking down: workers laying big stones of a long causeway across the creek, carts of stone, bright daylight, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short3-s13 | ingredients | CU eye | use first 1.2 s
+## short3-s13 | ingredients | CU eye | use first 1.4 s (estimate)
 Line: बस एक शर्त।
 On screen (added in edit): एक शर्त
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -254,7 +255,7 @@ Audio: quiet ambient room tone. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s14 | image | MS eye | use first 3.8 s
+## short3-s14 | image | MS eye | use first 4.2 s (estimate)
 Line: इस रास्ते पर, लोगों से कभी टोल नहीं लिया जाएगा।
 On screen (added in edit): कोई टोल नहीं
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
@@ -262,7 +263,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, eye level: villagers, fishermen with baskets and a bullock cart passing freely over the stone causeway where a toll barrier has been removed and laid on the ground, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short3-s15 | ingredients | MS high | use first 5.8 s
+## short3-s15 | ingredients | MS high | use first 6 s (estimate)
 Line: आपके शहर में भी, किसी ने ऐसा कोई रास्ता या पुल दान से बनवाया है?
 On screen (added in edit): आपके शहर में?
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -289,7 +290,7 @@ Audio: quiet ambient room tone. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s16 | ingredients | CU low | use first 1.2 s
+## short3-s16 | ingredients | CU low | use first 1.4 s (estimate)
 Line: कमेंट में बताइए।
 On screen (added in edit): कमेंट 👇
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -316,7 +317,7 @@ Audio: quiet ambient room tone. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s17 | text | EWS high | use first 3.1 s
+## short3-s17 | text | EWS high | use first 3.2 s (estimate)
 Line: अठारह सौ पैंतालीस में, ये रास्ता खुल गया।
 On screen (added in edit): 1845 ✔
 Flow: Text to Video: paste the prompt, no attachments.
@@ -340,7 +341,7 @@ Audio: quiet ambient room tone. No music, no speech.
 Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s18 | image | MS low | use first 5 s
+## short3-s18 | image | MS low | use first 5.2 s (estimate)
 Line: और उसकी एक सड़क, आज भी उनके नाम पर है। लेडी जमशेदजी रोड।
 On screen (added in edit): एल. जे. रोड
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
@@ -348,7 +349,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, low angle looking up: a busy modern Mumbai street with buses, taxis and old trees, an old stone building at the corner, warm afternoon light, no readable signs (modern vehicles allowed in this shot), vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short3-s19 | image | CU eye | use first 3.1 s
+## short3-s19 | image | CU eye | use first 3.5 s (estimate)
 Line: आज के ज़माने में, ऐसी शर्त कौन रखेगा?
 On screen (added in edit): आज कौन रखेगा?
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan. Attach: prompts/characters/MUMBAI_LADY/sheet.png.
@@ -356,7 +357,7 @@ Flow: Image (still): generate in Flow with the image prompt; the edit adds a slo
 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) smiling softly at the end of the causeway, lanterns glowing behind her, warm evening light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
-## short3-s20 | ingredients | MCU low | use first 1.2 s
+## short3-s20 | ingredients | MCU low | use first 1.2 s (estimate)
 Line: आप बताइए।
 On screen (added in edit): आप बताइए 👇
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -383,7 +384,7 @@ Audio: quiet ambient room tone. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s21 | ingredients | MS ots | use first 1.2 s
+## short3-s21 | ingredients | MS ots | use first 1.4 s (estimate)
 Line: अगला शहर: हम्पी।
 On screen (added in edit): अगला शहर: हम्पी 🏛️
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -410,7 +411,7 @@ Audio: quiet ambient room tone. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s22 | ingredients | EWS low | use first 3.5 s
+## short3-s22 | ingredients | EWS low | use first 3.8 s (estimate)
 Line: एक बड़े साम्राज्य की राजधानी, जो आज खंडहर है।
 On screen (added in edit): खंडहर क्यों?
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -437,7 +438,7 @@ Audio: quiet ambient room tone. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s23 | ingredients | ECU eye | use first 1.5 s
+## short3-s23 | ingredients | ECU eye | use first 1.8 s (estimate)
 Line: आख़िर हुआ क्या था?
 On screen (added in edit): आख़िर क्या हुआ?
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
@@ -464,7 +465,7 @@ Audio: quiet ambient room tone. No music, no speech.
 Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
-## short3-s24 | ingredients | WS eye | use first 3.1 s
+## short3-s24 | ingredients | WS eye | use first 3.2 s (estimate)
 Line: फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
 On screen (added in edit): फ़ॉलो करें ➕
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.

@@ -4,3 +4,6 @@ renders/*/.work/
 renders/**/*-preview.mp4
 assets/*/voice/.tmp.txt
 __pycache__/
+renders/*/shorts/.work/
+# Flow clips, stills and voice takes for Shorts stay on the Mac (too big for git)
+assets/*/shorts/

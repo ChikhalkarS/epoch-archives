@@ -18,7 +18,7 @@ Claude runs production; the owner approves at two gates. Channel settings: `conf
 | `publish/` | `<city>.md` titles, description, tags, chapters, thumbnail concepts |
 | `skills/` | Claude Code skills (studio + vetted vendor), linked into `.claude/skills/`. See `skills/README.md` |
 | `tracker/` | `videos.csv`: status per video: idea, researched, scripted, voiced, visuals, rendered, approved, uploaded |
-| `tools/` | `build-shorts.mjs` (builds Shorts files from `shorts/<city>/shorts.json` + prompt library), `voice.mjs` (Hindi TTS per scene), `assemble.mjs` (FFmpeg assembly + Shorts), `setup-mac.sh` |
+| `tools/` | `build-shorts.mjs` (builds Shorts files from `shorts/<city>/shorts.json` + prompt library), `time-voice.mjs` (measures each line in the ElevenLabs take), `assemble-short.mjs` (final Short from Flow shots + voice), `voice.mjs` (Hindi TTS per scene), `assemble.mjs` (FFmpeg assembly + Shorts), `setup-mac.sh` |
 | `epoch-engine/` | Older Remotion/three.js 3D engine. Not used by the pipeline (too heavy for 8 GB) |
 | `legacy/delhi-pilot/` | First Delhi pilot (Hinglish) and old notes |
 
