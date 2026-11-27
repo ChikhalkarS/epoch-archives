@@ -1,0 +1,923 @@
+{
+  "slug": "bhopal",
+  "scenes": [
+    {
+      "id": "s01",
+      "chapter": "Hook",
+      "type": "clip",
+      "motion": "zoom-in",
+      "vo": "क्या आप जानते हैं, भोपाल में इतनी झीलें क्यों हैं?",
+      "prompt": "the Sutradhar, a small elderly clay storyteller with white beard, saffron-brown shawl, round spectacles and an old scroll, stands on a hilltop and gestures toward a city spread around several glittering lakes, dusk light, wide shot from behind him",
+      "sources": []
+    },
+    {
+      "id": "s02",
+      "chapter": "Promise",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "ये झीलें अपने आप नहीं बनीं। इनके पीछे है एक हज़ार साल पुराना एक राजा,",
+      "prompt": "a clay relief map of a hilly central Indian region with two lakes made of shiny blue resin, tiny hills of green clay, overhead view, soft morning light",
+      "sources": []
+    },
+    {
+      "id": "s03",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "एक सुल्तान जिसने समंदर जैसी एक झील खाली करवा दी, एक अफ़ग़ान सिपाही, और चार औरतें,",
+      "prompt": "a miniature diorama: a medieval sultan on horseback on a ridge watching a vast lake drain through a broken earthen dam, a lone Afghan horseman far behind, late afternoon light, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s04",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "जिन्होंने सौ साल से भी ज़्यादा इस शहर पर राज किया।",
+      "prompt": "four clay women rulers in 19th century Bhopal royal dress with veils, standing in a row in a palace courtyard, seen from behind, warm evening light, medium wide shot",
+      "sources": []
+    },
+    {
+      "id": "s05",
+      "type": "image",
+      "reuse": "s01",
+      "motion": "zoom-out",
+      "vo": "आज की कहानी में, हम इन सबसे मिलेंगे।",
+      "prompt": "(reuses s01)",
+      "sources": []
+    },
+    {
+      "id": "s06",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "और आख़िर में, आप ख़ुद तय करेंगे, कि भोपाल को असल में किसने बनाया।",
+      "prompt": "the Sutradhar unrolling a long scroll on a wooden table, the scroll shows small painted pictures of a dam, a fort and a mosque, candle light, close-up",
+      "sources": []
+    },
+    {
+      "id": "s07",
+      "chapter": "पहाड़ियाँ, नदियाँ और सबसे पुराने लोग",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "भोपाल मध्य भारत के बीचों-बीच है।",
+      "prompt": "a clay map of India on a table with a small brass pin pushed into the green plateau in the very centre, top-down view, soft daylight",
+      "sources": []
+    },
+    {
+      "id": "s08",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "चारों तरफ़ छोटी पहाड़ियाँ, और उनके बीच से बहती छोटी नदियाँ।",
+      "prompt": "rolling clay hills covered in moss-green felt with small silver streams winding between them, no buildings, morning mist, wide high angle",
+      "sources": []
+    },
+    {
+      "id": "s09",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "यहाँ पानी रुकता नहीं था, बह जाता था। लेकिन इंसान यहाँ बहुत पहले से था।",
+      "prompt": "rainwater rushing down hillside streams and flowing away into the distance, a small group of prehistoric clay people in animal-skin clothing watching from a rock, overcast light, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s10",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "भोपाल से क़रीब पैंतालीस किलोमीटर दूर, भीमबेटका की चट्टानों में, हज़ारों साल पुराने चित्र मिले हैं।",
+      "prompt": "sandstone rock shelters among forest, a prehistoric clay family sitting by a small fire under a rock overhang, warm firelight at dusk, medium wide shot",
+      "sources": []
+    },
+    {
+      "id": "s11",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "शिकार, नाच, जानवर, सब कुछ चट्टानों पर बना है।",
+      "prompt": "close-up of a sandstone rock wall with simple red ochre and white stick-figure paintings of hunters, dancers, deer and bison, raking side light",
+      "sources": [
+        "F1"
+      ]
+    },
+    {
+      "id": "s12",
+      "type": "image",
+      "reuse": "s10",
+      "motion": "pan-right",
+      "vo": "आज ये जगह यूनेस्को की विश्व धरोहर है।",
+      "prompt": "(reuses s10)",
+      "sources": []
+    },
+    {
+      "id": "s13",
+      "type": "image",
+      "reuse": "s09",
+      "motion": "zoom-in",
+      "vo": "यानी इस इलाक़े में लोग बहुत पहले से थे।",
+      "prompt": "(reuses s09)",
+      "sources": [
+        "F1"
+      ]
+    },
+    {
+      "id": "s14",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "पर शहर बनने के लिए, एक चीज़ की ज़रूरत थी। पानी, जो साल भर रुके।",
+      "prompt": "dry cracked clay earth beside a thin stream, a half-empty clay water pot in the foreground, harsh noon light, low angle",
+      "sources": []
+    },
+    {
+      "id": "s15",
+      "chapter": "राजा भोज का बाँध",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "ग्यारहवीं सदी। मालवा पर परमार वंश के राजा भोज का राज था। उनकी राजधानी धार थी।",
+      "prompt": "an 11th century central Indian king on a carved stone throne in a palace hall, scholars holding palm-leaf manuscripts around him, oil lamps, warm light, medium shot",
+      "sources": []
+    },
+    {
+      "id": "s16",
+      "type": "image",
+      "reuse": "s15",
+      "motion": "zoom-in",
+      "vo": "राजा भोज ने एक बड़ा काम किया।",
+      "prompt": "(reuses s15)",
+      "sources": [
+        "F2"
+      ]
+    },
+    {
+      "id": "s17",
+      "type": "clip",
+      "motion": "zoom-in",
+      "vo": "कोलांस नदी पर मिट्टी का एक मज़बूत बाँध बनवाया।",
+      "prompt": "hundreds of tiny clay workers carrying baskets of earth on their heads to build a huge earthen dam across a river between two hills, medieval India, early morning golden light, wide high angle",
+      "sources": []
+    },
+    {
+      "id": "s18",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "नदी का पानी रुका, और बन गई एक विशाल झील।",
+      "prompt": "a vast lake filling a green valley behind a completed earthen dam, sunset reflections on the water, wide aerial view",
+      "sources": [
+        "F3"
+      ]
+    },
+    {
+      "id": "s19",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "आज हम इसे बड़ा तालाब, या भोजताल कहते हैं।",
+      "prompt": "a large lake beside a modern Indian city of small clay buildings and domes, little sailboats on the water, hills behind, golden hour, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s20",
+      "type": "image",
+      "reuse": "s19",
+      "motion": "pan-left",
+      "vo": "इसका फैलाव क़रीब इकतीस वर्ग किलोमीटर है।",
+      "prompt": "(reuses s19)",
+      "sources": [
+        "F3",
+        "F26"
+      ]
+    },
+    {
+      "id": "s21",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "कहते हैं, राजा भोज एक बार बहुत बीमार पड़े।",
+      "prompt": "an ill king lying on a carved wooden bed in a palace chamber, attendants with oil lamps looking worried, night, warm low light, medium shot",
+      "sources": [
+        "F4"
+      ]
+    },
+    {
+      "id": "s22",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "एक वैद्य ने कहा, ऐसी झील में नहाइए, जिसमें तीन सौ पैंसठ धाराओं का पानी हो।",
+      "prompt": "an old physician with a white turban holding herbs and a palm-leaf book, advising a seated king, a painted map with many small streams on the wall behind, lamp light, medium shot",
+      "sources": []
+    },
+    {
+      "id": "s23",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "ये एक लोक-कथा है।",
+      "prompt": "a grandmother telling a story to wide-eyed children under a banyan tree at night, a clay oil lamp between them, cosy warm light, medium shot",
+      "sources": [
+        "F5"
+      ]
+    },
+    {
+      "id": "s24",
+      "type": "image",
+      "reuse": "s19",
+      "motion": "zoom-out",
+      "vo": "सच हो या न हो, बड़ा तालाब हज़ार साल बाद भी, आज तक मौजूद है।",
+      "prompt": "(reuses s19)",
+      "sources": []
+    },
+    {
+      "id": "s25",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "और शहर का नाम? एक पुराने सरकारी गज़ेटियर के मुताबिक़, भोज और पाल, यानी बाँध।",
+      "prompt": "an old leather-bound book open on a wooden desk, showing a hand-drawn ink sketch of a dam and a lake, a magnifying glass beside it, warm desk-lamp light, close-up",
+      "sources": []
+    },
+    {
+      "id": "s26",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "भोजपाल, जो धीरे-धीरे भोपाल बन गया।",
+      "prompt": "a long earthen dam holding back a lake, with a small village of clay houses growing beside it, morning light, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s27",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "लेकिन कुछ लोग मानते हैं, कि नाम भूपाल नाम के एक राजा से आया।",
+      "prompt": "a king in an old-style crown seen in profile, half hidden in soft mist, mysterious, cool light, medium close-up",
+      "sources": [
+        "F6"
+      ]
+    },
+    {
+      "id": "s28",
+      "type": "image",
+      "reuse": "s25",
+      "motion": "pan-right",
+      "vo": "दोनों बातें आज भी सुनाई जाती हैं।",
+      "prompt": "(reuses s25)",
+      "sources": [
+        "F7"
+      ]
+    },
+    {
+      "id": "s29",
+      "chapter": "वो झील जो ग़ायब हो गई",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "अब कहानी में पहला मोड़ आता है। भोपाल से क़रीब तीस किलोमीटर दूर है भोजपुर।",
+      "prompt": "a country road through fields leading to a hill with a massive unfinished stone temple on top, dramatic clouds, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s30",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "यहाँ राजा भोज के समय का एक अधूरा शिव मंदिर है, भोजेश्वर मंदिर।",
+      "prompt": "an unfinished medieval stone temple with very tall carved pillars, no roof top, a long earthen ramp still leaning against one wall, afternoon light, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s31",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "इसमें एक बहुत बड़ा शिवलिंग है। पर सिर्फ़ मंदिर नहीं।",
+      "prompt": "inside a stone temple, a giant stone Shiva lingam on a high platform, tiny clay pilgrims with folded hands for scale, respectful soft light from above, low angle",
+      "sources": [
+        "F8"
+      ]
+    },
+    {
+      "id": "s32",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "भोजपुर के पास भी, राजा भोज के बाँधों ने एक बहुत बड़ी झील बनाई थी।",
+      "prompt": "a vast sea-like lake stretching to the horizon between low hills, old stone and earth dams at its edge, flocks of birds, morning haze, wide aerial view",
+      "sources": []
+    },
+    {
+      "id": "s33",
+      "type": "image",
+      "reuse": "s32",
+      "motion": "pan-right",
+      "vo": "भोपाल के बड़े तालाब से भी कहीं बड़ी। फिर आई पंद्रहवीं सदी।",
+      "prompt": "(reuses s32)",
+      "sources": [
+        "F9"
+      ]
+    },
+    {
+      "id": "s34",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "मालवा के सुल्तान होशंगशाह ने इन बाँधों को तुड़वा दिया। क्यों?",
+      "prompt": "a 15th century sultan in a turban and robe on horseback, pointing at a great earthen dam, soldiers with pickaxes waiting, overcast light, medium wide shot",
+      "sources": [
+        "F10"
+      ]
+    },
+    {
+      "id": "s35",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "इतिहासकारों के अलग-अलग अंदाज़े हैं।",
+      "prompt": "two scholars in different robes debating over open scrolls at a low table, one shrugging, lamp light, medium shot",
+      "sources": []
+    },
+    {
+      "id": "s36",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "कोई कहता है खेती के लिए ज़मीन चाहिए थी, कोई कुछ और।",
+      "prompt": "farmers in dhotis looking at empty fertile plots of land with a merchant camel caravan passing in the distance, midday, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s37",
+      "type": "clip",
+      "motion": "zoom-in",
+      "vo": "एक पुराने इतिहास-ग्रंथ के मुताबिक़, बाँध तोड़ने में तीन महीने लगे।",
+      "prompt": "workers with pickaxes breaking a massive earthen dam, a first stream of water rushing through the breach, mud and spray, dramatic light, medium wide shot",
+      "sources": []
+    },
+    {
+      "id": "s38",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "झील को खाली होने में तीन साल।",
+      "prompt": "a huge lake slowly receding, wide exposed mud flats, small wooden boats stranded on the mud, evening light, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s39",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "और उस ज़मीन पर खेती होने में, पूरे तीस साल। सोचिए।",
+      "prompt": "green crop fields on a flat old lakebed, farmers ploughing with oxen, faint old shoreline on distant hills, morning light, wide shot",
+      "sources": [
+        "F11"
+      ]
+    },
+    {
+      "id": "s40",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "एक राजा ने झील बनाई। सदियों बाद एक सुल्तान ने उसे मिटा दिया।",
+      "prompt": "a split diorama: on the left a king directing workers building a dam, on the right a sultan directing workers breaking one, warm left side and cool right side, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s41",
+      "type": "image",
+      "reuse": "s19",
+      "motion": "zoom-in",
+      "vo": "पर भोपाल का बड़ा तालाब बच गया। और यहीं से, आगे की कहानी शुरू होती है।",
+      "prompt": "(reuses s19)",
+      "sources": []
+    },
+    {
+      "id": "s42",
+      "chapter": "अफ़ग़ान सिपाही और गोंड रानी",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "अठारहवीं सदी की शुरुआत। मुग़ल साम्राज्य कमज़ोर हो रहा था।",
+      "prompt": "a crumbling Mughal fort on a hill with a faded banner, cracks in the walls, stormy evening clouds, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s43",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "तिराह इलाक़े से आया एक अफ़ग़ान सिपाही, दोस्त मोहम्मद ख़ान, मुग़ल सेना में काम करता था।",
+      "prompt": "an 18th century Afghan soldier with a turban, beard and chainmail, sitting on a horse, rugged mountains behind, dawn light, medium shot",
+      "sources": []
+    },
+    {
+      "id": "s44",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "वो मालवा पहुँचा, और धीरे-धीरे अपनी ताक़त बढ़ाता गया।",
+      "prompt": "a small band of horsemen riding across a flat plateau with scattered trees, dust behind them, late afternoon, wide shot",
+      "sources": [
+        "F13"
+      ]
+    },
+    {
+      "id": "s45",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "उसी समय, इस इलाक़े में एक गोंड रानी थीं, रानी कमलापति।",
+      "prompt": "a dignified Gond queen in traditional jewellery and sari, standing on the terrace of a lakeside palace, gentle evening light, medium shot",
+      "sources": []
+    },
+    {
+      "id": "s46",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "कहा जाता है, मुश्किल के वक़्त उन्होंने दोस्त मोहम्मद से मदद माँगी।",
+      "prompt": "a messenger kneeling in a tent and handing a sealed letter to a seated soldier, lantern light, medium shot",
+      "sources": []
+    },
+    {
+      "id": "s47",
+      "type": "image",
+      "reuse": "s35",
+      "motion": "zoom-in",
+      "vo": "उसके बाद क्या हुआ, इस पर अलग-अलग इतिहासकार अलग-अलग बातें कहते हैं।",
+      "prompt": "(reuses s35)",
+      "sources": [
+        "F14"
+      ]
+    },
+    {
+      "id": "s48",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "पर इतना तय है, कि दोस्त मोहम्मद ख़ान ने भोपाल रियासत की नींव रखी।",
+      "prompt": "masons and soldiers laying the first foundation stones of a town beside a lake, ropes and wooden scaffolding, morning light, wide shot",
+      "sources": [
+        "F14"
+      ]
+    },
+    {
+      "id": "s49",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "उसने फ़तेहगढ़ का क़िला बनवाया, और इस्लामनगर भी उसकी शुरुआती राजधानी रहा।",
+      "prompt": "an 18th century stone fort with round bastions on a hill above a lake, small houses below, golden hour, wide shot",
+      "sources": [
+        "F13"
+      ]
+    },
+    {
+      "id": "s50",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "फिर, सत्रह सौ चौरानवे में,",
+      "prompt": "a minister in a long coat and turban overseeing workers building a small dam next to a bigger lake, 18th century, morning light, medium wide shot",
+      "sources": [
+        "F15"
+      ]
+    },
+    {
+      "id": "s51",
+      "type": "image",
+      "reuse": "s50",
+      "motion": "zoom-out",
+      "vo": "नवाब के एक मंत्री छोटे ख़ान ने एक और झील बनवाई। छोटा तालाब।",
+      "prompt": "(reuses s50)",
+      "sources": []
+    },
+    {
+      "id": "s52",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "अब भोपाल के पास दो झीलें थीं। बड़ा तालाब, और छोटा तालाब।",
+      "prompt": "two lakes side by side, one big and one small, separated by an embankment with a small bridge, an 18th century town with domes around them, aerial view, soft daylight",
+      "sources": [
+        "F12"
+      ]
+    },
+    {
+      "id": "s53",
+      "chapter": "चार बेगमें, एक सौ सात साल",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "और अब, इस कहानी का सबसे हैरान करने वाला हिस्सा। अठारह सौ उन्नीस।",
+      "prompt": "a grand palace hall with an empty royal throne, long shadows, a single beam of light on the throne, dramatic, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s54",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "भोपाल के नवाब की मौत हो गई। उनकी पत्नी, क़ुदसिया बेगम, ने रियासत की कमान संभाली।",
+      "prompt": "a young woman ruler in a veil and rich 19th century robes seated on a throne, courtiers bowing before her, warm palace light, medium wide shot",
+      "sources": []
+    },
+    {
+      "id": "s55",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "उस ज़माने में, एक औरत का राज करना बहुत बड़ी बात थी।",
+      "prompt": "a group of noblemen in turbans exchanging surprised looks in a palace court, lamp light, medium shot",
+      "sources": [
+        "F17"
+      ]
+    },
+    {
+      "id": "s56",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "पर क़ुदसिया बेगम के बाद, उनकी बेटी सिकंदर बेगम आईं। फिर शाहजहाँ बेगम।",
+      "prompt": "a palace wall with four framed portraits of veiled women rulers in a row, faces softly hidden by veils, warm gallery light, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s57",
+      "type": "image",
+      "reuse": "s56",
+      "motion": "pan-right",
+      "vo": "और फिर सुल्तान जहाँ बेगम। चार पीढ़ियाँ। चार औरतें।",
+      "prompt": "(reuses s56)",
+      "sources": [
+        "F16"
+      ]
+    },
+    {
+      "id": "s58",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "और क़रीब एक सौ सात साल का राज। शाहजहाँ बेगम ने ताज-उल-मसाजिद बनवाना शुरू किया,",
+      "prompt": "a huge mosque under construction with bamboo scaffolding, pink sandstone walls and half-built white domes, workers carrying stones, morning light, wide shot",
+      "sources": [
+        "F16"
+      ]
+    },
+    {
+      "id": "s59",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "जो आज भारत की सबसे बड़ी मस्जिदों में गिनी जाती है।",
+      "prompt": "a grand mosque with three white domes and tall pink minarets reflected in a pond in front, clear blue evening sky, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s60",
+      "type": "image",
+      "reuse": "s58",
+      "motion": "zoom-out",
+      "vo": "ये उनके जीते-जी पूरी नहीं हुई। इसका काम उन्नीस सौ इकहत्तर में फिर शुरू हुआ।",
+      "prompt": "(reuses s58)",
+      "sources": []
+    },
+    {
+      "id": "s61",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "और सुल्तान जहाँ बेगम? उन्होंने लड़कियों की पढ़ाई पर बहुत काम किया।",
+      "prompt": "girls in 1910s dresses sitting at wooden desks with slates in a school classroom, a veiled woman ruler visiting at the doorway, soft window light, medium wide shot",
+      "sources": [
+        "F18",
+        "F32"
+      ]
+    },
+    {
+      "id": "s62",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "उन्नीस सौ बीस में, वो अलीगढ़ मुस्लिम यूनिवर्सिटी की पहली चांसलर बनीं।",
+      "prompt": "a 1920 university convocation in front of red-brick buildings with arches, a woman chancellor in a ceremonial gown at a podium, crowd of students, daylight, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s63",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "उन्नीस सौ छब्बीस में, उन्होंने गद्दी अपने बेटे हमीदुल्लाह ख़ान को सौंप दी।",
+      "prompt": "an older woman ruler handing a jewelled turban to her grown son in a palace room, ceremonial, warm light, medium shot",
+      "sources": [
+        "F19"
+      ]
+    },
+    {
+      "id": "s64",
+      "type": "image",
+      "reuse": "s63",
+      "motion": "zoom-in",
+      "vo": "हमीदुल्लाह ख़ान, भोपाल के आख़िरी नवाब थे।",
+      "prompt": "(reuses s63)",
+      "sources": [
+        "F20"
+      ]
+    },
+    {
+      "id": "s65",
+      "chapter": "नवाबी ज़ायक़ा",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "बेगमों और नवाबों का असर, भोपाल के खाने में भी दिखता है।",
+      "prompt": "a royal kitchen with big copper pots, cooks stirring, steam rising, sunlight through high windows, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s66",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "यहाँ का खाना, मुग़ल और अफ़ग़ानी रसोई का मेल माना जाता है।",
+      "prompt": "a wooden table covered with bowls of spices, saffron, dry fruits, onions and fresh coriander, top-down view, warm light",
+      "sources": []
+    },
+    {
+      "id": "s67",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "भोपाली गोश्त कोरमा, रेज़ाला, और फ़िलफ़ोरा जैसे पकवान, यहाँ की नवाबी रसोई की पहचान हैं।",
+      "prompt": "three clay dishes in copper bowls: a rich brown meat curry, a creamy white curry and a dry spiced meat dish, garnished with coriander, close-up, warm light",
+      "sources": [
+        "F27"
+      ]
+    },
+    {
+      "id": "s68",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "पुराने भोपाल में एक गली है, चटोरी गली।",
+      "prompt": "a narrow old-city lane at night lined with tiny food stalls and hanging lanterns, clay people eating, warm glow, eye-level shot",
+      "sources": [
+        "F28"
+      ]
+    },
+    {
+      "id": "s69",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "शाम होते ही यहाँ निहारी, सीख कबाब और पाया की ख़ुशबू फैल जाती है।",
+      "prompt": "close-up of a street stall with a big pot of stew, skewered kebabs over glowing coals, smoke rising, night",
+      "sources": []
+    },
+    {
+      "id": "s70",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "और खाने के बाद? भोपाली पान। और साथ में, एक प्याली सुलेमानी चाय।",
+      "prompt": "hands folding a betel leaf paan on a brass tray, beside a small glass of tea, close-up, warm light",
+      "sources": [
+        "F29"
+      ]
+    },
+    {
+      "id": "s71",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "सुबह की बात करें, तो पोहा-जलेबी का नाश्ता यहाँ के लोगों को ख़ूब पसंद है।",
+      "prompt": "a plate of yellow flattened-rice poha topped with peanuts and coriander beside orange spiral jalebis, steam rising, morning sunlight, close-up",
+      "sources": [
+        "F30"
+      ]
+    },
+    {
+      "id": "s72",
+      "type": "image",
+      "reuse": "s19",
+      "motion": "pan-right",
+      "vo": "यानी भोपाल सिर्फ़ झीलों का शहर नहीं। ये ज़ायक़ों का शहर भी है।",
+      "prompt": "(reuses s19)",
+      "sources": [
+        "F31"
+      ]
+    },
+    {
+      "id": "s73",
+      "chapter": "आज़ादी के दो साल बाद",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "उन्नीस सौ सैंतालीस। भारत आज़ाद हुआ। पर भोपाल? भोपाल उस दिन भारत का हिस्सा नहीं बना।",
+      "prompt": "a quiet princely palace in the foreground at dusk, while far in the distance a crowd celebrates with fireworks and tricolour flags, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s74",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "क़रीब दो साल बाद, तीस अप्रैल उन्नीस सौ उनचास को, विलय का समझौता हुआ।",
+      "prompt": "officials in 1940s suits and sherwanis signing a document at a wooden table in a palace office, ceiling fan, daylight, medium shot",
+      "sources": []
+    },
+    {
+      "id": "s75",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "और एक जून उन्नीस सौ उनचास को, भोपाल रियासत भारत सरकार के हाथ में आ गई।",
+      "prompt": "the Indian tricolour flag rising on a pole above a palace, a small crowd cheering below, clear morning sky, low angle",
+      "sources": []
+    },
+    {
+      "id": "s76",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "फिर उन्नीस सौ छप्पन में, नया राज्य बना, मध्य प्रदेश। और उसकी राजधानी बना, भोपाल।",
+      "prompt": "a clay map of central India with a new state outlined in green and a golden star placed on its capital city, top-down view, soft light",
+      "sources": [
+        "F21"
+      ]
+    },
+    {
+      "id": "s77",
+      "chapter": "आज का भोपाल",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "भोपाल ने दुख भी देखा है।",
+      "prompt": "an old city street at night with dim streetlights and closed shops, empty and silent, cool blue light, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s78",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "दो और तीन दिसंबर, उन्नीस सौ चौरासी की रात, एक कीटनाशक कारख़ाने से ज़हरीली गैस रिसी।",
+      "prompt": "a pale fog drifting low over sleeping clay houses at night, a distant factory silhouette with tall tanks, eerie and quiet, no people visible, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s79",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "हज़ारों लोगों की जान गई। ये दर्द आज भी इस शहर की यादों में है।",
+      "prompt": "rows of small candles burning on steps beside a lake at night, solemn and respectful, soft light, close-up",
+      "sources": [
+        "F23"
+      ]
+    },
+    {
+      "id": "s80",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "पर भोपाल रुका नहीं।",
+      "prompt": "sunrise over a lake beside a city, first rays on the water, birds lifting off, warm light, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s81",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "आज भी बड़ा तालाब इस शहर के पीने के पानी का एक बड़ा ज़रिया है।",
+      "prompt": "people filling clay pots and steel vessels from a water tap in a lane, a large lake visible in the background, morning light, medium shot",
+      "sources": []
+    },
+    {
+      "id": "s82",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "बड़े और छोटे तालाब को मिलाकर बनी भोज वेटलैंड,",
+      "prompt": "aerial view of two connected lakes with reed beds, wetlands and green edges beside a city, soft daylight",
+      "sources": [
+        "F25"
+      ]
+    },
+    {
+      "id": "s83",
+      "type": "image",
+      "reuse": "s82",
+      "motion": "pan-right",
+      "vo": "दुनिया की अहम आर्द्रभूमियों की रामसर सूची में शामिल है।",
+      "prompt": "(reuses s82)",
+      "sources": []
+    },
+    {
+      "id": "s84",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "यहाँ हर साल दूर-दूर से पक्षी आते हैं। तो, भोपाल में इतनी झीलें क्यों हैं?",
+      "prompt": "migratory storks and flamingos flying low over a calm lake, reeds in the foreground, golden evening light, wide shot",
+      "sources": [
+        "F24"
+      ]
+    },
+    {
+      "id": "s85",
+      "type": "image",
+      "reuse": "s17",
+      "motion": "zoom-out",
+      "vo": "क्योंकि एक हज़ार साल पहले, एक राजा ने बहती नदी को रोका।",
+      "prompt": "(reuses s17)",
+      "sources": []
+    },
+    {
+      "id": "s86",
+      "type": "image",
+      "motion": "pan-right",
+      "vo": "और उसके बाद हर दौर ने, उस पानी के किनारे, अपना भोपाल बसाया।",
+      "prompt": "a long lakeshore diorama showing a row of eras side by side: an earthen dam, a hill fort, a mosque with minarets and a modern city, golden hour, wide panoramic shot",
+      "sources": []
+    },
+    {
+      "id": "s87",
+      "chapter": "Outro",
+      "type": "image",
+      "motion": "zoom-out",
+      "vo": "अब आप बताइए। भोपाल को असल में किसने बनाया?",
+      "prompt": "the Sutradhar facing the camera with open palms as if asking a question, lake behind him at dusk, medium close-up",
+      "sources": []
+    },
+    {
+      "id": "s88",
+      "type": "image",
+      "motion": "pan-left",
+      "vo": "राजा भोज ने, दोस्त मोहम्मद ख़ान ने, या उन चार बेगमों ने?",
+      "prompt": "three groups of clay figures on a lakeshore: a medieval king, an Afghan soldier, and four veiled women rulers, all looking at the viewer, warm light, wide shot",
+      "sources": []
+    },
+    {
+      "id": "s89",
+      "type": "image",
+      "motion": "zoom-in",
+      "vo": "अपना जवाब कमेंट में लिखिए। और अगली बार, हम चलेंगे एक ऐसे शहर में,",
+      "prompt": "the Sutradhar rolling up his scroll and looking toward the sea where a sailing ship approaches, dusk, medium wide shot",
+      "sources": []
+    },
+    {
+      "id": "s90",
+      "type": "clip",
+      "motion": "pan-right",
+      "vo": "जो कभी दहेज़ में दे दिया गया था। कौन सा शहर?",
+      "prompt": "seven small green islands in a blue sea seen from above, a 17th century sailing ship carrying an ornate wedding chest sailing toward them, golden light, aerial shot",
+      "sources": []
+    },
+    {
+      "id": "s91",
+      "type": "image",
+      "reuse": "s01",
+      "motion": "zoom-out",
+      "vo": "जानने के लिए, चैनल को सब्सक्राइब कर लीजिए।",
+      "prompt": "(reuses s01)",
+      "sources": []
+    },
+    {
+      "id": "x1",
+      "short_only": true,
+      "type": "image",
+      "reuse": "s37",
+      "motion": "zoom-in",
+      "vo": "एक सुल्तान ने, समंदर जैसी एक झील, खाली क्यों करवा दी?",
+      "prompt": "(reuses s37)",
+      "sources": [
+        "F10"
+      ]
+    },
+    {
+      "id": "x2",
+      "short_only": true,
+      "type": "image",
+      "reuse": "s04",
+      "motion": "zoom-in",
+      "vo": "भारत का वो शहर, जहाँ सौ साल से ज़्यादा, औरतों ने राज किया।",
+      "prompt": "(reuses s04)",
+      "sources": [
+        "F16"
+      ]
+    },
+    {
+      "id": "x3",
+      "short_only": true,
+      "type": "image",
+      "reuse": "s73",
+      "motion": "zoom-in",
+      "vo": "पंद्रह अगस्त उन्नीस सौ सैंतालीस को, भोपाल भारत का हिस्सा नहीं था।",
+      "prompt": "(reuses s73)",
+      "sources": [
+        "F21"
+      ]
+    },
+    {
+      "id": "x9",
+      "short_only": true,
+      "type": "image",
+      "reuse": "s19",
+      "motion": "zoom-out",
+      "vo": "भोपाल की पूरी कहानी, हमारे चैनल पर।",
+      "prompt": "(reuses s19)",
+      "sources": []
+    }
+  ],
+  "shorts": [
+    {
+      "id": "short1",
+      "scenes": [
+        "x1",
+        "s32",
+        "s34",
+        "s35",
+        "s37",
+        "s38",
+        "s39",
+        "s40",
+        "x9"
+      ],
+      "mode": "blur",
+      "hook": "समंदर जैसी झील कहाँ गई?"
+    },
+    {
+      "id": "short2",
+      "scenes": [
+        "x2",
+        "s54",
+        "s56",
+        "s57",
+        "s62",
+        "s63",
+        "x9"
+      ],
+      "mode": "blur",
+      "hook": "107 साल, 4 बेगमें"
+    },
+    {
+      "id": "short3",
+      "scenes": [
+        "x3",
+        "s73",
+        "s74",
+        "s75",
+        "s76",
+        "x9"
+      ],
+      "mode": "blur",
+      "hook": "1947 में भोपाल भारत में नहीं था?"
+    }
+  ]
+}
