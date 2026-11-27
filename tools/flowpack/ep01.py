@@ -17,7 +17,7 @@ c("C01","Hook","cam",ARCH+" On the desk sits a shallow wooden tray holding a min
  "Medium close shot, eye level, 50mm, slow push-in toward Sutradhar and the tray.",LAMP,ROOMTONE,"a soft wet squelch as the wall lifts, water trickling across wood",
  "सुनो, भोपाल की सबसे बड़ी झील, क़ुदरत ने नहीं बनाई।","F1")
 c("C02","Hook","cam",ARCH+" The tray with the drained model valley sits in front of him.",
- "Sutradhar lowers the little wall, peers over the top of his low spectacles at the viewer with a smug smirk, then sets the wall gently back into the valley and rests both hands on the tray.",
+ "Sutradhar lowers the little wall, looks up at the viewer from under his brows with a smug smirk, then sets the wall gently back into the valley and rests both hands on the tray.",
  "Close-up on Sutradhar's face and hands, eye level, 85mm, locked, the camera does not move.",LAMP,ROOMTONE,"a soft wooden tap as the wall is set down",
  "इसे इंसानों ने बनाया था, क़रीब हज़ार साल पहले। और ये तो बस शुरुआत है।","F1")
 c("C03","Hook","vo",MAP+" A single indigo river line winds between the hills toward the left edge of the table.",
@@ -125,7 +125,7 @@ c("C27","राज़ 1: झील नहीं, बाँध","vo","The hillsid
  "Wide shot, low angle from behind the surveyors, 35mm, slow push-in toward the chieftain.",DAY,"wind over hills, a hawk cry","",
  "तब कालिया नाम के एक गोंड सरदार ने, बाक़ी धाराओं का रास्ता दिखाया।","F6")
 c("C28","राज़ 1: झील नहीं, बाँध","cam",ARCH+" The small lake model in the wooden tray sits on the desk, its little embankment back in place and the water full.",
- "Sutradhar pats the tiny embankment with his open paw, then looks up over his spectacles with a smug knowing smirk; he holds still.",
+ "Sutradhar pats the tiny embankment with his open paw, then looks up at the lens with a smug knowing smirk; he holds still.",
  "Medium close shot, eye level, 50mm, locked, the camera does not move.",LAMP,ROOMTONE,"a soft wooden tap",
  "ये लोक-कथा है। पर बाँध और झील, दोनों एकदम असली हैं।","F5, F1")
 c("C29","राज़ 1: झील नहीं, बाँध","vo",ARCH+" A thick old bound gazetteer book with a cracked leather spine lies on the desk.",
@@ -151,7 +151,7 @@ c("C33","राज़ 1: झील नहीं, बाँध","vo",MAP+" Two pi
 
 # ---------------- RAZ 2 ----------------
 c("C34","राज़ 2: वो झील जो ग़ायब है","cam",ARCH,
- "Sutradhar breaks the second wax seal on his scroll, unrolls it toward the lens, and looks over his spectacles.",
+ "Sutradhar breaks the second wax seal on his scroll, unrolls it toward the lens, and gives a sly sideways look.",
  "Medium shot, slight high angle, 35mm, slow push-in.",LAMP,ROOMTONE,"a crisp wax crack, parchment rustle",
  "राज़ नंबर दो। वो झील, जो ग़ायब हो गई।","")
 c("C35","राज़ 2: वो झील जो ग़ायब है","vo","A river gorge between sandstone ridges at Bhojpur: a wide glossy blue river (the Betwa) flowing through a deep cut in the rock.",
@@ -207,7 +207,7 @@ c("C47","राज़ 2: वो झील जो ग़ायब है","vo","A
  "Medium shot, eye level, 50mm, slow push-in on the abandoned tools.","Fading orange dusk light from camera-right, long shadows.","wind whistling through the quarry","",
  "ऐसा लगता है, जैसे काम बीच में ही अचानक रुक गया हो।","F12")
 c("C48","राज़ 2: वो झील जो ग़ायब है","cam",ARCH+" A small model of a dry valley with two little stone dams sits on the desk.",
- "Sutradhar leans over the dry valley model, lifts his spectacles onto his forehead, then looks up at the lens and lowers them again.",
+ "Sutradhar leans over the dry valley model, studies it with narrowed eyes, then looks up at the lens with one eyebrow raised.",
  "Medium close shot, eye level, 50mm, locked, the camera does not move.",LAMP,ROOMTONE,"",
  "तो इतनी बड़ी झील, आख़िर गई कहाँ? इसका एक बड़ा मशहूर जवाब है।","")
 
@@ -237,7 +237,7 @@ c("C54","राज़ 3: सच या झूठ?","vo","The drained lake bed, c
  "Wide shot, eye level, 35mm, slow push-in.",DAY,"wind, bullock bells","",
  "और उस ज़मीन पर खेती होने में, पूरे तीस साल।","F14")
 c("C55","राज़ 3: सच या झूठ?","cam",ARCH+" The open paper ledger lies on the desk; Sutradhar holds the large rubber stamp.",
- "Sutradhar raises the rubber stamp high above the ledger in one hand and looks at the lens over his spectacles; he holds the stamp in the air.",
+ "Sutradhar raises the rubber stamp high above the ledger in one hand and looks at the lens with a smug smirk; he holds the stamp in the air.",
  "Medium close shot, slight low angle, 50mm, locked, the camera does not move.",LAMP,ROOMTONE,"a low rising whoosh",
  "तो, ये कहानी सच है, या झूठ?","")
 c("C56","राज़ 3: सच या झूठ?","cam",ARCH+" The open paper ledger on the desk under the raised rubber stamp.",
@@ -349,7 +349,7 @@ c("C81","Closer","cam",ARCH+" The lake model with its tiny embankment sits on th
  "Medium close shot, eye level, 50mm, slow push-in.",LAMP,ROOMTONE,"",
  "तो, भोपाल की झील किसने बनाई? क़ुदरत ने नहीं। एक बाँध ने।","F1")
 c("C82","Closer","cam",ARCH,
- "Sutradhar takes off his spectacles, polishes them on his shawl, and puts them back on, looking at the lens.",
+ "Sutradhar folds his arms across his chest, tilts his head slightly and looks at the lens with a slow smug smirk.",
  "Close-up, eye level, 85mm, locked, the camera does not move.",LAMP,ROOMTONE,"",
  "जिसे परंपरा राजा भोज से जोड़ती है। और वो बाँध, आज भी पानी दे रहा है।","F1, F21")
 c("C83","Closer","vo","The Bhopal lake at dusk from the embankment, the city lights reflecting on still water.",

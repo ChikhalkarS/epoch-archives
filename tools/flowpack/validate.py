@@ -5,7 +5,7 @@ ROOT='/home/user/epoch-archives'
 SB=open(ROOT+'/studio/STYLE_BIBLE.md').read()
 blk=lambda k: re.search(r"```\n("+k+r":.*?)\n```",SB,re.S).group(1)
 STY,CON,SUT,VOI=blk("STYLE"),blk("CONSTRAINTS"),blk("SUTRADHAR"),blk("VOICE")
-ROLE="The Sutradhar ingredient defines his face, fur, ears, spectacles, smirk, bandhgala, stole and satchel only"
+ROLE="The Sutradhar ingredient defines his face, fur, ears, glasses, smirk, bandhgala, stole and satchel only"
 BAN=[(r"\bfox\b","old fox character"),(r"\bclay\b|plasticine|claymation|stop-motion","old claymation style"),
      (r"\bfinger\b(?! on the keys)|\bpoints? (?:it|at|his finger)","single-finger gesture"),
      (r"\b(grin|grins|wink|winks|big smile|smiles)\b","Sutradhar must smirk, not grin/wink"),
@@ -28,6 +28,8 @@ def check(path):
         if "SUTRADHAR:" in b or "Sutradhar looks into the lens" in b:
             if SUT not in b: e.append("SUTRADHAR block missing/outdated")
             if ROLE not in b: e.append("Sutradhar role line missing/outdated")
+        act=re.search(r"^ACTION:.*$",b,re.M)
+        if act and re.search(r"spectacles|glasses",act.group(0),re.I): e.append("glasses mentioned in ACTION (causes duplicate glasses)")
         if "Sultan" in hdr and "Sultan ingredient defines" not in b: e.append("Sultan role line missing")
         if "9:16" in hdr and "FRAMING: Vertical 9:16" not in b: e.append("9:16 framing line missing")
         for rx,why in BAN:

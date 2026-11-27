@@ -19,7 +19,7 @@ Left panel (45% width): bust-up, three-quarter view, smug smirk. Center panel: f
 Even studio lighting, identical appearance in all three panels.
 IDENTITY: anthropomorphic Indian grey wolf walking upright (clearly a wolf, not a fox: broad skull, heavy muzzle, thick neck ruff, modest ears), lean athletic build, sandy-tawny coat with grey on the back, cream muzzle and chest, pointed ears, bushy tawny-grey tail, sharp heavy-lidded golden-amber eyes, round brass-rimmed spectacles worn low on the snout, smug confident smirk, maroon bandhgala jacket with high collar and brass buttons over a cream knee-length kurta, cream churidar trousers, brown leather mojari shoes with curled toes, indigo angavastram stole over the left shoulder, faded indigo cloth satchel across the chest, a rolled parchment scroll tied with red thread in his right hand. 2D digital cartoon, thick black outlines, cel shading.
 ```
-Save as ingredient **"Sutradhar sheet"** (replace the old fox sheet). In every Sutradhar prompt, add: `The Sutradhar ingredient defines his face, fur, ears, spectacles, smirk, bandhgala, stole and satchel only; ignore its grey background and panel layout.`
+Save as ingredient **"Sutradhar sheet"** (replace the old fox sheet). In every Sutradhar prompt, add: `The Sutradhar ingredient defines his face, fur, ears, glasses, smirk, bandhgala, stole and satchel only; ignore its grey background and panel layout.`
 
 ## 3. Archive room plate
 ```

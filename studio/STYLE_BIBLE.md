@@ -12,7 +12,7 @@ STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthro
 ```
 **CONSTRAINTS block** (last line of every prompt):
 ```
-CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
+CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D. Every character keeps exactly the accessories described: one pair of glasses, nothing duplicated.
 ```
 
 ## 2. Palette
@@ -23,13 +23,13 @@ Sepia brown #6B4A2E (backgrounds) · Charcoal #1E1A17 (shadows, outlines) · Amb
 
 **SUTRADHAR block** (whenever he is in frame):
 ```
-SUTRADHAR: an anthropomorphic Indian grey wolf who walks upright, drawn as a 2D cartoon character, clearly a wolf with a broad skull, heavy muzzle and thick fur ruff at the neck, lean athletic build, sandy-tawny coat with grey on the back and a cream muzzle and chest, pointed ears, sharp golden-amber eyes, heavy-lidded and knowing, round brass-rimmed spectacles worn low on his snout so he peers over them, a smug confident smirk with one corner of the mouth raised and one eyebrow cocked, chin slightly up, unhurried self-assured posture, maroon bandhgala jacket with a high collar and brass buttons over a cream kurta, an indigo angavastram stole draped over one shoulder, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread.
+SUTRADHAR: an anthropomorphic Indian grey wolf who walks upright, drawn as a 2D cartoon character, clearly a wolf with a broad skull, heavy muzzle and thick fur ruff at the neck, lean athletic build, sandy-tawny coat with grey on the back and a cream muzzle and chest, pointed ears, sharp golden-amber eyes, heavy-lidded and knowing, exactly one pair of round brass-rimmed spectacles, always worn low on his snout (never a second pair, never held in his hand), a smug confident smirk with one corner of the mouth raised and one eyebrow cocked, chin slightly up, unhurried self-assured posture, maroon bandhgala jacket with a high collar and brass buttons over a cream kurta, an indigo angavastram stole draped over one shoulder, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread.
 ```
 **VOICE block** (in every prompt with speech, unchanged):
 ```
 VOICE: Sutradhar's voice, a deep heavy resonant Indian male voice, soft and calm with a curious warmth, like a cool elder brother sharing a secret, smooth brisk short-video pace of about three words per second, relaxed casual everyday Hindi.
 ```
-- Ingredient: `Sutradhar sheet` (see `studio/ref/README.md`). Role line: `The Sutradhar ingredient defines his face, fur, ears, spectacles, smirk, bandhgala, stole and satchel only; ignore its grey background and panel layout.`
+- Ingredient: `Sutradhar sheet` (see `studio/ref/README.md`). Role line: `The Sutradhar ingredient defines his face, fur, ears, glasses, smirk, bandhgala, stole and satchel only; ignore its grey background and panel layout.`
 - His room (`Archive room` ingredient): a cluttered old archive with wooden shelves of scrolls, a brass oil lamp, and a large old painted map of India on the back wall.
 - **Supporting cast changes per video.** Each episode picks its own animals in `episodes/<ep>/cast.md` (decided at the script stage, kept the same within the episode). Casting rules:
   - Everyone is an anthropomorphic animal dressed accurately for the era.
