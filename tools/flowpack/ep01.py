@@ -225,7 +225,7 @@ c("C51","राज़ 3: सच या झूठ?","vo","The 15th century: a gen
  "पंद्रहवीं सदी में, मालवा के सुल्तान होशंगशाह ने, भोजपुर का बाँध तुड़वा दिया।","F14")
 c("C52","राज़ 3: सच या झूठ?","vo","Close on the clay stone dam face: a crack running through the giant blocks.",
  "The crack widens, two blocks shift apart, and a thin jet of indigo-blue clay water bursts through the gap and keeps pouring.",
- "Close-up, low angle, 50mm, locked, the camera does not move.",DAY,"","stone cracking, then rushing water",
+ "Close-up, low angle, 50mm, locked, the camera does not move.",DAY,"wind over the dam","stone cracking, then rushing water",
  "बाँध तोड़ने में, तीन महीने लगे।","F14")
 c("C53","राज़ 3: सच या झूठ?","vo","The huge clay Bhojpur lake seen from a ridge.",
  "In stop-motion time-lapse the water level drops steadily, exposing muddy clay banks and stranded clay boats, until only puddles remain; the scene settles.",
@@ -240,8 +240,8 @@ c("C55","राज़ 3: सच या झूठ?","cam",ARCH+" The smooth clay 
  "Medium close shot, slight low angle, 50mm, locked, the camera does not move.",LAMP,ROOMTONE,"a low rising whoosh",
  "तो, ये कहानी सच है, या झूठ?","")
 c("C56","राज़ 3: सच या झूठ?","cam",ARCH+" The smooth clay tablet on the desk under the raised clay stamp.",
- "Sutradhar brings the stamp down firmly onto the tablet and lifts it, leaving a large round amber-orange clay imprint with a raised abstract emblem; he taps the imprint once.",
- "Close shot on the tablet and his hands, high angle, 50mm, locked.",LAMP,ROOMTONE,"a heavy stamp thump, then a soft drum hit",
+ "Sutradhar brings the stamp down firmly onto the tablet and lifts it, leaving a large round amber-orange clay imprint with a raised abstract emblem; he taps the imprint once and looks up at the lens.",
+ "Medium close shot framing Sutradhar's face and the tablet together, slight high angle, 50mm, locked, the camera does not move.",LAMP,ROOMTONE,"a heavy stamp thump, then a soft drum hit",
  "जवाब है, विवादित।","F14, F15, F16")
 c("C57","राज़ 3: सच या झूठ?","vo",ARCH+" An old 19th-century clay journal volume with a faded maroon cloth cover lies under the lamp.",
  "The journal opens slowly and its pages fan to a page of dense abstract squiggle text; the lamp flame flickers and steadies.",

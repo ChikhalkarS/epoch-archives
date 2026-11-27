@@ -26,7 +26,7 @@ def block(c,vertical=False,cid=None,line=None,sec=None):
     elif c['kind']=='vo' and line:
         L.append(f'VOICE-OVER (Sutradhar, off-screen, Hindi): "{line}"'); L.append(VOI)
     else: L.append("No speech.")
-    L.append(f"AMBIENCE: {c['amb']}."+(f" SFX: {c['sfx']}." if c['sfx'] else ""))
+    L.append(" ".join(x for x in [f"AMBIENCE: {c['amb']}." if c['amb'] else "", f"SFX: {c['sfx']}." if c['sfx'] else ""] if x))
     L.append(CON); L.append("```"); return "\n".join(L)
 # ---- script
 t=0; rows=[]; subs=[]; words=0

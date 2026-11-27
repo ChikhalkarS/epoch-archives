@@ -845,7 +845,7 @@ CAMERA: Close-up, low angle, 50mm, locked, the camera does not move.
 LIGHTING: Bright soft daylight from high camera-left, clear sky, gentle shadows.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "बाँध तोड़ने में, तीन महीने लगे।"
 VOICE: Sutradhar's voice, a warm, slightly husky elderly Indian man, medium-low pitch, unhurried storyteller pace, clear standard Hindi.
-AMBIENCE: . SFX: stone cracking, then rushing water.
+AMBIENCE: wind over the dam. SFX: stone cracking, then rushing water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract clay squiggles. No music. One continuous shot, no cuts.
 ```
 
@@ -900,8 +900,8 @@ STYLE: Claymation stop-motion animation, handcrafted plasticine miniatures with 
 SUTRADHAR: a small elderly clay storyteller, round warm-brown face, thick white bushy eyebrows, short neat white beard, round brass-rimmed spectacles, terracotta-red shawl over a cream kurta, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, slightly hunched.
 The Sutradhar ingredient defines his face, beard, spectacles, shawl and satchel only; ignore its grey background and panel layout.
 SCENE: Inside the clay archive room: wooden shelves of rolled scrolls, a brass oil lamp on a worn wooden desk, a clay relief map of India on the back wall. The smooth clay tablet on the desk under the raised clay stamp.
-ACTION: Sutradhar brings the stamp down firmly onto the tablet and lifts it, leaving a large round amber-orange clay imprint with a raised abstract emblem; he taps the imprint once.
-CAMERA: Close shot on the tablet and his hands, high angle, 50mm, locked.
+ACTION: Sutradhar brings the stamp down firmly onto the tablet and lifts it, leaving a large round amber-orange clay imprint with a raised abstract emblem; he taps the imprint once and looks up at the lens.
+CAMERA: Medium close shot framing Sutradhar's face and the tablet together, slight high angle, 50mm, locked, the camera does not move.
 LIGHTING: Warm brass oil-lamp light from camera-left, soft amber fill, gentle indigo shadows on the shelves.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "जवाब है, विवादित।"
 VOICE: Sutradhar's voice, a warm, slightly husky elderly Indian man, medium-low pitch, unhurried storyteller pace, clear standard Hindi.
@@ -1403,7 +1403,7 @@ CAMERA: Close-up, low angle, 50mm, locked, the camera does not move.
 LIGHTING: Bright soft daylight from high camera-left, clear sky, gentle shadows.
 VOICE-OVER (Sutradhar, off-screen, Hindi): "बाँध तोड़ने में, तीन महीने लगे।"
 VOICE: Sutradhar's voice, a warm, slightly husky elderly Indian man, medium-low pitch, unhurried storyteller pace, clear standard Hindi.
-AMBIENCE: . SFX: stone cracking, then rushing water.
+AMBIENCE: wind over the dam. SFX: stone cracking, then rushing water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract clay squiggles. No music. One continuous shot, no cuts.
 ```
 
@@ -1445,8 +1445,8 @@ FRAMING: Vertical 9:16 portrait composition; keep the main subject centred and l
 SUTRADHAR: a small elderly clay storyteller, round warm-brown face, thick white bushy eyebrows, short neat white beard, round brass-rimmed spectacles, terracotta-red shawl over a cream kurta, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, slightly hunched.
 The Sutradhar ingredient defines his face, beard, spectacles, shawl and satchel only; ignore its grey background and panel layout.
 SCENE: Inside the clay archive room: wooden shelves of rolled scrolls, a brass oil lamp on a worn wooden desk, a clay relief map of India on the back wall. The smooth clay tablet on the desk under the raised clay stamp.
-ACTION: Sutradhar brings the stamp down firmly onto the tablet and lifts it, leaving a large round amber-orange clay imprint with a raised abstract emblem; he taps the imprint once.
-CAMERA: Close shot on the tablet and his hands, high angle, 50mm, locked.
+ACTION: Sutradhar brings the stamp down firmly onto the tablet and lifts it, leaving a large round amber-orange clay imprint with a raised abstract emblem; he taps the imprint once and looks up at the lens.
+CAMERA: Medium close shot framing Sutradhar's face and the tablet together, slight high angle, 50mm, locked, the camera does not move.
 LIGHTING: Warm brass oil-lamp light from camera-left, soft amber fill, gentle indigo shadows on the shelves.
 DIALOGUE: Sutradhar looks into the lens and says in Hindi, calmly: "जवाब है, विवादित।"
 VOICE: Sutradhar's voice, a warm, slightly husky elderly Indian man, medium-low pitch, unhurried storyteller pace, clear standard Hindi.
