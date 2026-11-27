@@ -24,7 +24,8 @@ Open `<short-id>-flow.md`.
 1. Character sheets first (once per character, reused every episode): prompts in `prompts/LIBRARY.md`, save to `prompts/characters/<ID>/sheet.png`.
 2. Settings: 9:16 portrait. For each shot use the mode it says (Ingredients / Text / Image), attach the listed sheets, paste the prompt in the box.
 3. Make 2-4 takes, keep the best. Save as `assets/<city>/shorts/<short-id>/<shot-id>.mp4` (clips) or `.png` (stills), e.g. `short1-s03.mp4`.
-4. You do not need to trim anything: the assembly cuts each clip to its line. A clip shorter than its line holds its last frame.
+4. Sync: the narration is voice-over. Flow clips carry no speech and Sutradhar's mouth stays closed; the assembly lines every clip up with its line.
+5. You do not need to trim anything: the assembly cuts each clip to its line. A clip shorter than its line holds its last frame.
 
 ## 4. Optional: music
 Royalty-free bed (YouTube Audio Library / Pixabay) saved as `assets/<city>/shorts/<short-id>/music.mp3`. Log it in `shorts/<city>/CREDITS.md`.

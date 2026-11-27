@@ -14,3 +14,4 @@
 | 2026-11-27 | style | 3 | Suffix negations turned into positive facts (Veo/Imagen in Flow have no negative field) |
 | 2026-11-27 | flow | 1 | Flow settings, modes and audio rule for clip prompts |
 | 2026-11-27 | all characters | +1 | Added `lock` (verbatim consistency sentence used in every Flow/image prompt) and per-character `CHARACTER.md` sheet files; SUTRADHAR named सूत्रधार in narration |
+| 2026-11-27 | narrator_shots | +1 | Mouth stays closed in every narrator shot (voice-over, no lip-sync); expression carries the beat |

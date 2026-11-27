@@ -27,6 +27,7 @@ Owner decisions, newest last. Claude reads this before every stage. Change a dec
 | 2026-11-27 | ElevenLabs FREE plan for now: attribution line in every description; upgrade (or edge-tts) before monetising | config/channel.json voice, build tool |
 | 2026-11-27 | Google Flow on Google AI Pro | config/channel.json visuals |
 | 2026-11-27 | Character consistency in code: each character has a lock sentence + CHARACTER.md sheet file; every Flow and image prompt with a character carries sheet attachment, role line, scene tag and lock verbatim | prompts/library.json, tools/build-shorts.mjs |
+| 2026-11-27 | Narration is voice-over, not lip-sync: Flow clips are silent of speech, SUTRADHAR's mouth stays closed, and sync comes from assemble-short cutting each clip to the measured line times | prompts/library.json narrator_shots, shorts/WORKFLOW.md |
 
 ## Open items (waiting on the owner)
 
