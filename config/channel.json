@@ -1,6 +1,6 @@
 {
   "name": "Epoch Archive Studios",
-  "handle": "epocharchivesco",
+  "handle": "epoch.archives",
   "niche": "Indian city histories: founding, rulers, wars, trade, culture, food, geography, strange facts",
   "language": {
     "narration": "hi",
@@ -57,5 +57,6 @@
     "numbering": "फ़ाइल 001, 002… continuous across Shorts and long videos",
     "title_pattern": "[Topic] का असली सीन 🔍 | फ़ाइल 001",
     "vision": "studio/VISION.md"
-  }
+  },
+  "handle_note": "YouTube @epoch.archives (owner choice 2026-11-27); a different channel owns @EpochArchives"
 }

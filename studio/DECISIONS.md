@@ -30,6 +30,7 @@ Newest at the bottom. The file named in each row has the detail. Claude reads th
 | 25 | 2026-11-27 | Testing an ElevenLabs voice for फ़ाइल 001 (free plan = test only; a paid plan is needed to publish, so ask first). When a separate voice is used, the finishing step is `tools/finish_short.mjs` on the owner's Mac (ffmpeg + Node): clips (muted) + voice split at its pauses + music (owner's royalty-free file or a self-synthesised pad) + burned captions from `lines.txt` → `final-short.mp4` | `tools/finish_short.mjs` |
 | 26 | 2026-11-27 | Progress tracking: `studio/STATUS.md` holds dated progress + target dates; every new session starts by reading it and summarising, and ends by updating it. Plans: Google AI Pro (Flow), ElevenLabs free tier | `studio/STATUS.md` |
 | 27 | 2026-11-27 | Topic filter for every file: a **real document** behind it + a **link to the viewer's life today** + a **surprise**. Shortlist of 12 archive-backed city files | `studio/TOPICS_ARCHIVE.md` |
+| 28 | 2026-11-27 | Create the YouTube channel now on the owner's new email. Handle **@epoch.archives**. Setup pack in `studio/CHANNEL_SETUP.md`. Goal: try for monetisation before 2027-01-31 (old rules), knowing it's a stretch | `studio/CHANNEL_SETUP.md` |
 
 ## Open (waiting for the owner)
 - Gate 1 approval of the Bhopal long-video script (`episodes/ep01-bhopal-jheel/script_hi.md`).
