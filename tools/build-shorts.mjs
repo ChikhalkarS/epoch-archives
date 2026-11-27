@@ -225,29 +225,30 @@ function renderFlow(sh, shots) {
     if (mode === 'image') {
       L.push(s.fullPrompt);
     } else {
-      L.push('[Generation Goal]');
-      L.push(`A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. ${s.goal || `${s.role} beat.`}`);
+      const P = [];
+      P.push(`A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. ${s.goal || `${s.role} beat.`}`);
       if (s.chars.length) {
-        L.push('', '[Reference Material Roles]');
-        s.chars.forEach((k, n) => L.push(roleLine(k, `Ingredient ${n + 1} (${sheetOf(k)})`)));
+        
+        s.chars.forEach((k, n) => P.push(roleLine(k, `Ingredient ${n + 1}`)));
       }
-      L.push('', '[Subjects and Relationships]');
-      L.push(`${s.framing}: ${s.scene}.`);
-      L.push('', '[Event Script]');
+      
+      P.push(`${s.framing}: ${s.scene}.`);
+      
       if (s.speaks) {
         const SP = lib.speech;
         const line = s.vo.replace(/\.\.\./g, ',').replace(/\s+/g, ' ').trim();
-        L.push(`Stage 1 - line: Opening state as described above. From the first second, SUTRADHAR looks into the lens and says ${SP.voice_desc}: {${line}} While he speaks: ${s.motionRaw} ${SP.mouth} Only SUTRADHAR speaks.`);
-        L.push('Stage 2 - hold: Continue from the previous stage. The line is finished; he holds the final pose with his mouth closed in his smirk, and the video ends holding this state.');
+        P.push(`From the first second, SUTRADHAR looks into the lens and says ${SP.voice_desc}: {${line}} While he speaks: ${s.motionRaw} ${SP.mouth} Only SUTRADHAR speaks.`);
+        P.push('When the line is finished he holds the final pose with his mouth closed in his smirk, and the video ends holding this state.');
       } else {
-        L.push(`Stage 1: Opening state as described above. ${s.motionRaw} The video ends holding this final state.`);
+        P.push(`${s.motionRaw} The video ends holding this final state.`);
       }
-      L.push('', '[Visual and Camera Treatment]');
-      L.push(`${s.framing}, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. ${F.style_line} Every sign, page and banner is blank or carries unreadable squiggles.`);
-      L.push('', '[Audio]');
-      L.push(s.speaks ? lib.speech.audio : `Audio: ${s.sfx || 'quiet ambient room tone'}. No music, no speech.`);
-      L.push('', '[Maintain Consistency]');
-      L.push(`${s.chars.length ? `Keep ${s.chars.join(', ')} identical to the ingredients in face, ${s.chars.includes('SUTRADHAR') ? 'fur, spectacles, ' : ''}clothing and proportions in every frame. Character lock: ${lockOf(s.chars)}. ` : ''}Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.`);
+      
+      P.push(`${s.framing}, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. ${F.style_line} Every sign, page and banner is blank or carries unreadable squiggles.`);
+      
+      P.push(s.speaks ? lib.speech.audio : `Audio: ${s.sfx || 'quiet ambient room tone'}. No music, no speech.`);
+      
+      P.push(`${s.chars.length ? `Keep ${s.chars.join(', ')} identical to the ingredients in face, ${s.chars.includes('SUTRADHAR') ? 'fur, spectacles, ' : ''}clothing and proportions in every frame. Character lock: ${lockOf(s.chars)}. ` : ''}Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.`);
+      L.push(P.filter(Boolean).join(' ').replace(/\s+/g, ' ').trim());
     }
     L.push('```');
     L.push('');

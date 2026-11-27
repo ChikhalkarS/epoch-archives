@@ -32,6 +32,7 @@ Owner decisions, newest last. Claude reads this before every stage. Change a dec
 | 2026-11-27 | New default outro (owner): "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।" + "और कमेंट में बताइए, अगली कहानी किस शहर की हो?". Replaces the next-story/next-city teaser and the old follow line in every Short | config/channel.json shorts_template, make-short skill, shorts.json |
 | 2026-11-27 | Intro line 2 is "मैं आपका भिड़ू, और आज की कहानी, <city> की।" (replaces "मैं हूँ सूत्रधार"). SUTRADHAR stays only as the character's prompt ID | config/channel.json, skill, style guide |
 | 2026-11-27 | Owner's final ep 1 voice text: intro line 2 is just "आज की कहानी, <city> की।" (now the default; "मैं आपका भिड़ू" dropped), viewer line "सोचिए... आप राजा होते..." removed from ep 1, owner's voice tags ([short pause], [cheerful], [thoughtful]) kept | config/channel.json, shorts/mumbai/shorts.json |
+| 2026-11-27 | Every Flow prompt is ONE paragraph per shot (no [section] labels), pasted as is; mode and attachments are listed above the box | tools/build-shorts.mjs, make-short skill |
 
 ## Open items (waiting on the owner)
 
