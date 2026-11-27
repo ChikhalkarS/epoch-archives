@@ -18,3 +18,4 @@
 - `epoch-engine/voice/align.py` -> `tools/align.py` (Whisper word timing -> script alignment, needed for captions)
 - `epoch-engine/audio/dsp.py`, `instruments.py` -> `tools/audio/` (own-synthesis music/SFX, copyright-free)
 - `epoch-engine/audio/score.py` -> delete (Govinda-specific cue sheet) unless you want it as a template
+Status: DONE (owner approved 2026-11-27).
