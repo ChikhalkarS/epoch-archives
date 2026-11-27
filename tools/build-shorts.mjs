@@ -148,19 +148,19 @@ function renderShort(sh) {
   L.push('');
   L.push('## Shot prompts');
   L.push(`Negative prompt (if supported): \`${ST.negative}\``);
-  L.push('Stills: generate the image and let the edit add a slow push/pan. Clips: generate the image first, check it, then animate it with the motion line (image-to-video), trim to the line length.');
+  L.push('One prompt per shot, paste it as is. Stills: the edit adds the slow push/pan. Clips: no trimming needed, the assembly cuts them to the voice. Same prompts as in the -flow.md file.');
   L.push('');
   shots.forEach((s, i) => {
     L.push(`### ${sh.id.split('-')[0]}-s${String(i + 1).padStart(2, '0')} | ${s.role} | ${s.size} ${s.angle} | ${s.asset}`);
     L.push(`VO: ${s.vo}`);
     if (s.onscreen) L.push(`On screen: ${s.onscreen}`);
     if (s.chars.length) L.push(`References: ${s.chars.join(', ')}`);
-    L.push('Image prompt:');
+    L.push(`Flow: ${lib.flow.modes[modeOf(s)]}${s.chars.length ? ` Attach: ${s.chars.map(sheetOf).join(', ')}.` : ''}${s.speaks ? ' SPEAKS: keep the whole clip with its sound (lip-sync).' : ''}`);
+    L.push('Prompt (one paste):');
     L.push('```');
-    L.push(s.fullPrompt);
+    L.push(flowPrompt(s));
     L.push('```');
-    if (s.asset === 'clip') { L.push('Motion prompt:'); L.push('```'); L.push(s.motionFull); L.push('```'); }
-    else L.push(`Edit move: ${s.motion}`);
+    if (s.asset !== 'clip') L.push('Still image: the edit adds a slow camera move (push or pan).');
     L.push('');
   });
   L.push('## Edit notes');
@@ -190,6 +190,37 @@ function renderShort(sh) {
 }
 
 
+// ONE paste-ready Flow prompt per shot (owner rule): stills = image prompt, clips = one paragraph
+const modeOf = (s) => (s.asset === 'still' ? 'image' : s.chars.length ? 'ingredients' : 'text');
+function flowPrompt(s) {
+  const F = lib.flow;
+  if (modeOf(s) === 'image') return s.fullPrompt;
+  const P = [];
+  P.push(`A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. ${s.goal || `${s.role} beat.`}`);
+  if (s.chars.length) {
+    
+    s.chars.forEach((k, n) => P.push(roleLine(k, `Ingredient ${n + 1}`)));
+  }
+  
+  P.push(`${s.framing}: ${s.scene}.`);
+  
+  if (s.speaks) {
+    const SP = lib.speech;
+    const line = s.vo.replace(/\.\.\./g, ',').replace(/\s+/g, ' ').trim();
+    P.push(`From the first second, SUTRADHAR looks into the lens and says ${SP.voice_desc}: {${line}} While he speaks: ${s.motionRaw} ${SP.mouth} Only SUTRADHAR speaks.`);
+    P.push('When the line is finished he holds the final pose with his mouth closed in his smirk, and the video ends holding this state.');
+  } else {
+    P.push(`${s.motionRaw} The video ends holding this final state.`);
+  }
+  
+  P.push(`${s.framing}, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. ${F.style_line} Every sign, page and banner is blank or carries unreadable squiggles.`);
+  
+  P.push(s.speaks ? lib.speech.audio : `Audio: ${s.sfx || 'quiet ambient room tone'}. No music, no speech.`);
+  
+  P.push(`${s.chars.length ? `Keep ${s.chars.join(', ')} identical to the ingredients in face, ${s.chars.includes('SUTRADHAR') ? 'fur, spectacles, ' : ''}clothing and proportions in every frame. Character lock: ${lockOf(s.chars)}. ` : ''}Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.`);
+  return P.filter(Boolean).join(' ').replace(/\s+/g, ' ').trim();
+}
+
 function renderFlow(sh, shots) {
   const F = lib.flow;
   const tm = timingOf(sh.id);
@@ -211,7 +242,6 @@ function renderFlow(sh, shots) {
   L.push('');
   L.push(`| # | Line | Shot | Flow mode | Speaks on screen | Attach | Use (s${tm ? '' : ', est.'}) |`);
   L.push('|---|---|---|---|---|---|---|');
-  const modeOf = (s) => (s.asset === 'still' ? 'image' : s.chars.length ? 'ingredients' : 'text');
   shots.forEach((s, i) => L.push(`| ${i + 1} | ${s.vo} | ${s.size} ${s.angle} | ${modeOf(s)} | ${s.speaks ? 'yes (lip-sync)' : '-'} | ${s.chars.join(', ') || '-'} | ${secs(0, i)} |`));
   L.push('');
   shots.forEach((s, i) => {
@@ -222,34 +252,7 @@ function renderFlow(sh, shots) {
     if (s.onscreen) L.push(`On screen (added in edit): ${s.onscreen}`);
     L.push(`Flow: ${F.modes[mode]}${s.chars.length ? ` Attach: ${s.chars.map((k) => lib.characters[k].reference_images.find((r) => r.endsWith('sheet.png'))).join(', ')}.` : ''}`);
     L.push('```');
-    if (mode === 'image') {
-      L.push(s.fullPrompt);
-    } else {
-      const P = [];
-      P.push(`A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. ${s.goal || `${s.role} beat.`}`);
-      if (s.chars.length) {
-        
-        s.chars.forEach((k, n) => P.push(roleLine(k, `Ingredient ${n + 1}`)));
-      }
-      
-      P.push(`${s.framing}: ${s.scene}.`);
-      
-      if (s.speaks) {
-        const SP = lib.speech;
-        const line = s.vo.replace(/\.\.\./g, ',').replace(/\s+/g, ' ').trim();
-        P.push(`From the first second, SUTRADHAR looks into the lens and says ${SP.voice_desc}: {${line}} While he speaks: ${s.motionRaw} ${SP.mouth} Only SUTRADHAR speaks.`);
-        P.push('When the line is finished he holds the final pose with his mouth closed in his smirk, and the video ends holding this state.');
-      } else {
-        P.push(`${s.motionRaw} The video ends holding this final state.`);
-      }
-      
-      P.push(`${s.framing}, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. ${F.style_line} Every sign, page and banner is blank or carries unreadable squiggles.`);
-      
-      P.push(s.speaks ? lib.speech.audio : `Audio: ${s.sfx || 'quiet ambient room tone'}. No music, no speech.`);
-      
-      P.push(`${s.chars.length ? `Keep ${s.chars.join(', ')} identical to the ingredients in face, ${s.chars.includes('SUTRADHAR') ? 'fur, spectacles, ' : ''}clothing and proportions in every frame. Character lock: ${lockOf(s.chars)}. ` : ''}Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.`);
-      L.push(P.filter(Boolean).join(' ').replace(/\s+/g, ' ').trim());
-    }
+    L.push(flowPrompt(s));
     L.push('```');
     L.push('');
   });
