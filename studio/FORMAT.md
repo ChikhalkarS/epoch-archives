@@ -24,7 +24,7 @@ The format idea comes from Quiet Wolf (see `analysis/quiet-wolf.md`). All script
 | 3:15–5:15 | **Reveal 2** | Goes deeper or wider (a person, a decision, a document) | Evidence card, map |
 | 5:15–7:15 | **Reveal 3** | The biggest flip. It re-reads the hook | Myth check: **Sach ya Jhooth?** |
 | 7:15–8:45 | **"Aaj bhi dikhta hai"** | What you can still see today: a street, a wall, a coin, a habit | Then-vs-now split, map pin |
-| 8:45–9:30 | **Closer** | Answer the hook in one line → moral line → next-EP question → catchphrase "Itihaas yaad rakhiye… sawaal poochte rahiye." | Sutradhar, next-EP card, end screen |
+| 8:45–9:30 | **Closer** | Answer the hook in one line → moral line → next-EP question → end line "अगली फ़ाइल किसकी खुलेगी, देखना है? तो सब्सक्राइब करना मत भूलना!" | Sutradhar, next-EP card, end screen |
 
 **Retention rules:** a new visual every 3–6 s. An open loop at each reveal ("par asli raaz abhi baaki hai…"). A pattern break every ~60 s (map, card, myth check, split).
 
