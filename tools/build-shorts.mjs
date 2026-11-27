@@ -23,6 +23,9 @@ const warnings = [];
 const timingOf = (id) => { const f = path.join(root, `shorts/${slug}/${id}.timing.json`); return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null; };
 // estimate until the real voice is measured: ~2.8 words/s at speed 1.1, +0.35 s line pause, +0.25 s per '...'
 const estSecs = (n, tts = '') => Math.max(1.2, Math.round((n / 2.8 + 0.35 + 0.25 * ((tts.replace(/\.\.\.\s*$/, '').match(/\.\.\./g) || []).length)) * 10) / 10);
+const roleLine = (k, ref = 'Image 1') => `${ref} defines ${k}'s face, ${k === 'SUTRADHAR' ? 'fur, spectacles' : 'hair'} and clothing. Do not use its grey background or panel layout.`;
+const lockOf = (keys) => keys.map((k) => lib.characters[k].lock).filter(Boolean).join('; ');
+const sheetOf = (k) => lib.characters[k].reference_images.find((x) => x.endsWith('sheet.png'));
 const fill = (s, vars) => s.replace(/\{(\w+)\}/g, (m, k) => (k in vars ? vars[k] : m));
 const charTags = Object.fromEntries(Object.entries(lib.characters).map(([k, c]) => [k, c.scene_tag]));
 const stripTts = (s) => s.replace(/\[[a-z ]+\]/g, '').replace(/\.\.\./g, ' ').trim();
@@ -55,9 +58,11 @@ function expandShot(shot, intro) {
     if ((s.narrator ? lib.narrator_shots[s.narrator].prompt : s.prompt).includes(`{${k}}`) || prompt.includes(k)) chars.push(k);
   }
   const framing = `${lib.framing.sizes[size]}, ${lib.framing.angles[angle]}`;
-  s.fullPrompt = `${ST.prefix}${framing}: ${prompt}${ST.suffix_9x16}`;
-  s.motionFull = motion + (chars.length ? ` Keep ${chars.join(', ')} identical to the reference image(s).` : '');
-  Object.assign(s, { size, angle, asset, chars: [...new Set(chars)], scene: prompt, motionRaw: motion, framing });
+  const uniq = [...new Set(chars)];
+  const lock = uniq.length ? ` Character lock: ${lockOf(uniq)}.` : '';
+  s.fullPrompt = `${ST.prefix}${framing}: ${prompt}.${lock}${ST.suffix_9x16}`;
+  s.motionFull = motion + (uniq.length ? ` Keep ${uniq.join(', ')} identical to the reference sheet(s).${lock}` : '');
+  Object.assign(s, { size, angle, asset, chars: uniq, scene: prompt, motionRaw: motion, framing, lock });
   return s;
 }
 
@@ -88,7 +93,7 @@ function charSheet(key) {
   const blocks = c.blocks.map(([k, v]) => `${k}: ${v}`).join('\n');
   const closeup = c.closeup_prompt_owner || `${header}\n${ST.character_framing}\n${blocks}\n${ST.character_technical}\n${c.build}`;
   const sheet = `Character reference sheet of the same character as the reference image, ${STYLE_SHORT}, 16:9 landscape, three panels side by side on one seamless cool grey studio background, identical grey across all panels.\nLeft panel (about 45% of width): bust-up portrait from the chest up, three-quarter view toward camera.\nCenter panel: full body standing straight, front view, arms relaxed, feet visible, filling about 90% of panel height.\nRight panel: full body standing straight, rear view from directly behind, heels visible.\nEven studio light, identical face, ${key === 'SUTRADHAR' ? 'fur' : 'hair'} and clothing in all three panels.\nIDENTITY:\n${blocks}\n${c.build}\n${ST.character_technical}`;
-  const role = `Image 1 defines ${key}'s face, ${key === 'SUTRADHAR' ? 'fur, spectacles' : 'hair'} and clothing. Do not use the grey background or the panel layout.`;
+  const role = roleLine(key);
   return { c, closeup, sheet, role };
 }
 
@@ -100,7 +105,8 @@ function renderShort(sh) {
   if (tm && tm.shots.length !== shots.length) warnings.push(`${sh.id}: timing file has ${tm.shots.length} shots, script has ${shots.length}; re-run tools/time-voice.mjs`);
   shots.forEach((s, i) => { s.est = estSecs(words(s.tts), s.tts); s.secs = tm && tm.shots[i] ? tm.shots[i].dur : s.est; });
   const totalSecs = Math.round(shots.reduce((x, s) => x + s.secs, 0));
-  if (totalSecs > 70) warnings.push(`${sh.id}: ${tm ? 'measured' : 'estimated'} ${totalSecs} s is over 70 s${tm ? '' : ' (estimate; measure the real voice with tools/time-voice.mjs)'}`);
+  const maxS = T.max_seconds ?? 70;
+  if (totalSecs > maxS) warnings.push(`${sh.id}: ${tm ? 'measured' : 'estimated'} ${totalSecs} s is over ${maxS} s${tm ? '' : ' (estimate; measure the real voice with tools/time-voice.mjs)'}`);
   sh._total = totalSecs;
   shots.forEach((s, i) => { if (s.secs > 7.5) warnings.push(`${sh.id} shot ${i + 1}: ${s.secs} s is longer than one 8 s Flow clip; split the line`); });
   const secs = (n, i) => shots[i].secs;
@@ -165,10 +171,10 @@ function renderShort(sh) {
   sh.publish.yt_titles.forEach((t) => L.push(`- ${t}`));
   L.push('');
   L.push('**YouTube description:**');
-  L.push(sh.publish.yt_description);
+  L.push(sh.publish.yt_description + (cfg.voice.attribution ? `\n${cfg.voice.attribution}` : ''));
   L.push('');
   L.push('**Instagram Reel caption:**');
-  L.push(sh.publish.ig_caption);
+  L.push(sh.publish.ig_caption.replace(/\n\n(#[^\n]*)$/, (m, tags) => (cfg.voice.attribution ? `\n${cfg.voice.attribution}` : '') + `\n\n${tags}`));
   L.push('');
   L.push('Upload setting: Audience = "No, it\'s not made for kids" (narrator is an animated wolf; content is history for general audiences).');
   L.push('');
@@ -176,7 +182,8 @@ function renderShort(sh) {
   fs.writeFileSync(path.join(root, `shorts/${slug}/${sh.id}-voice.txt`), shots.map((s) => s.tts).join('\n') + '\n');
   fs.writeFileSync(path.join(root, `shorts/${slug}/${sh.id}.shots.json`), JSON.stringify({ slug, id: sh.id, episode: sh.episode, built_from_library: lib.library_version, shots: shots.map((s, i) => ({ n: i + 1, sid: `${sh.id.split('-')[0]}-s${String(i + 1).padStart(2, '0')}`, role: s.role, vo: s.vo, tts: s.tts, words: words(s.tts), est: s.est, size: s.size, angle: s.angle, asset: s.asset, onscreen: s.onscreen || '' })) }, null, 1) + '\n');
   renderFlow(sh, shots);
-  return { id: sh.id, words: w, shots: shots.length, clips };
+  const uses = shots.flatMap((s, i) => s.chars.map((k) => [k, `${sh.id.split('-')[0]}-s${String(i + 1).padStart(2, '0')} (${s.size} ${s.angle}, ${s.asset})`]));
+  return { id: sh.id, words: w, shots: shots.length, clips, uses };
 }
 
 
@@ -219,7 +226,7 @@ function renderFlow(sh, shots) {
       L.push(`A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. ${s.goal || `${s.role} beat.`}`);
       if (s.chars.length) {
         L.push('', '[Reference Material Roles]');
-        s.chars.forEach((k, n) => L.push(`Ingredient ${n + 1} defines ${k}'s face, ${k === 'SUTRADHAR' ? 'fur, spectacles' : 'hair'} and clothing. Do not use its grey background or panel layout.`));
+        s.chars.forEach((k, n) => L.push(roleLine(k, `Ingredient ${n + 1} (${sheetOf(k)})`)));
       }
       L.push('', '[Subjects and Relationships]');
       L.push(`${s.framing}: ${s.scene}.`);
@@ -230,12 +237,33 @@ function renderFlow(sh, shots) {
       L.push('', '[Audio]');
       L.push(`Audio: ${s.sfx || 'quiet ambient room tone'}. No music, no speech.`);
       L.push('', '[Maintain Consistency]');
-      L.push(`${s.chars.length ? `Keep ${s.chars.join(', ')} identical to the ingredients in face, ${s.chars.includes('SUTRADHAR') ? 'fur, exactly one pair of spectacles, ' : ''}clothing and proportions. ` : ''}Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.`);
+      L.push(`${s.chars.length ? `Keep ${s.chars.join(', ')} identical to the ingredients in face, ${s.chars.includes('SUTRADHAR') ? 'fur, spectacles, ' : ''}clothing and proportions in every frame. Character lock: ${lockOf(s.chars)}. ` : ''}Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.`);
     }
     L.push('```');
     L.push('');
   });
   fs.writeFileSync(path.join(root, `shorts/${slug}/${sh.id}-flow.md`), L.join('\n'));
+}
+
+function renderCharacters(usage) {
+  for (const k of Object.keys(lib.characters)) {
+    const { c, closeup, sheet, role } = charSheet(k);
+    const dir = path.join(root, 'prompts/characters', k);
+    fs.mkdirSync(dir, { recursive: true });
+    const refs = c.reference_images.map((x) => `- \`${x}\` ${fs.existsSync(path.join(root, x)) ? '(saved)' : '(not made yet)'}`);
+    const used = (usage[k] || []);
+    const L = [`# ${k} - character sheet (v${c.version})`, `<!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->`, '',
+      `**Name:** ${c.name}  `, `**Scope:** ${c.scope}  `, `**Notes:** ${c.notes || '-'}`, '',
+      '## Reference images (attach in Flow every time this character appears)', ...refs, '',
+      '## Consistency lock (pasted verbatim into every prompt with this character)', '```', c.lock || '-', '```', '',
+      '## Scene tag (how prompts describe the character)', '```', c.scene_tag, '```', '',
+      '## Role line (with the attached sheet)', '```', role, '```', '',
+      `## Step 1 - close-up${c.closeup_prompt_owner ? " (owner's prompt, verbatim)" : ''}`, 'Generate several, keep the one you would recognise in a crowd. Save as `closeup.png` here.', '```', closeup, '```', '',
+      '## Step 2 - three-panel sheet', 'Attach the chosen close-up. Save the cleanest as `sheet.png` here.', '```', sheet, '```', '',
+      ...(k === 'SUTRADHAR' && lib.branding?.profile_picture ? ['## Channel profile picture', `Attach \`${lib.branding.profile_picture.attach}\`. Save as \`${lib.branding.profile_picture.save_as}\`.`, '```', lib.branding.profile_picture.prompt, '```', ''] : []),
+      `## Used in (${slug})`, ...(used.length ? used.map((u) => `- ${u}`) : ['- not used in this city']), ''];
+    fs.writeFileSync(path.join(dir, 'CHARACTER.md'), L.join('\n'));
+  }
 }
 
 function renderLibrary() {
@@ -260,6 +288,9 @@ function renderLibrary() {
 }
 
 const results = data.shorts.map(renderShort);
+const usage = {};
+for (const res of results) for (const [k, u] of res.uses) (usage[k] ||= []).push(u);
+renderCharacters(usage);
 renderLibrary();
 for (const r of results) console.log(`${r.id}: ${r.words} words, ${r.shots} shots (${r.clips} clips)`);
 if (warnings.length) { console.log('\nWarnings:'); warnings.forEach((w) => console.log(' - ' + w)); }

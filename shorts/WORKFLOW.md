@@ -17,7 +17,7 @@ Voice comes first because it decides how long every shot is.
 node tools/time-voice.mjs <city> <short-id>
 node tools/build-shorts.mjs <city>
 ```
-The first command prints every line's real start and length and warns if the total is over 70 s, a line is longer than one 8 s Flow clip, or a cut point is uncertain. The second rewrites the Flow file with the **measured** seconds per shot. Over 70 s: tell Claude, or regenerate the voice slightly faster.
+The first command prints every line's real start and length and warns if the total is over the limit (75 s, `config/channel.json`), a line is longer than one 8 s Flow clip, or a cut point is uncertain. The second rewrites the Flow file with the **measured** seconds per shot. Over the limit: tell Claude, or regenerate the voice slightly faster.
 
 ## 3. You: visuals (Google Flow)
 Open `<short-id>-flow.md`.

@@ -103,7 +103,8 @@ const res = { slug, id, source: voice.replace(r('') + '/', ''), total: +total.to
 fs.writeFileSync(r('shorts', slug, `${id}.timing.json`), JSON.stringify(res, null, 1) + '\n');
 
 console.log(`${id}: voice ${res.total} s, ${shots.length} lines, ${inner.length} pauses found, pace ${rate.toFixed(2)} words/s, method: ${method}`);
-if (res.total > 70) console.log(`  ! ${res.total} s is over the 70 s target: raise ElevenLabs speed a little or drop a story line.`);
+const maxS = JSON.parse(fs.readFileSync(r('config/channel.json'), 'utf8')).shorts_template?.max_seconds ?? 70;
+if (res.total > maxS) console.log(`  ! ${res.total} s is over the ${maxS} s limit: raise ElevenLabs speed a little or drop a story line.`);
 console.log(' #  | start  | dur  | est  | line');
 for (const s of out) console.log(`${String(s.n).padStart(3)} | ${s.start.toFixed(2).padStart(6)} | ${s.dur.toFixed(2).padStart(4)} | ${String(s.est).padStart(4)} | ${s.vo.slice(0, 40)}${s.flags.length ? '   <- ' + s.flags.join('; ') : ''}`);
 console.log(`\nWrote shorts/${slug}/${id}.timing.json. Now run: node tools/build-shorts.mjs ${slug}  (Flow pack gets exact seconds)`);

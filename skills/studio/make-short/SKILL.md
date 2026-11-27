@@ -14,7 +14,7 @@ Self-contained, own hook, surprising payoff. Only `verified`, `disputed` (both v
 
 ## 2. Script: fixed order (default, enforced by the build)
 1. **Hook (0-3 s)**, 1-2 lines. Never start with the welcome.
-2. **Brand intro**, two lines from `shorts_template.intro_line` (`@intro1`, `@intro2` in the JSON): "स्वागत है, असली सीन के <ordinal> एपिसोड में।" / "मैं हूँ भेड़िया, और आज की कहानी, <city> की।" Episode = position of the Short in posting order across all cities (check `shorts/SCHEDULE.md`).
+2. **Brand intro**, two lines from `shorts_template.intro_line` (`@intro1`, `@intro2` in the JSON): "स्वागत है, असली सीन के <ordinal> एपिसोड में।" / "मैं हूँ सूत्रधार, और आज की कहानी, <city> की।" Episode = position of the Short in posting order across all cities (check `shorts/SCHEDULE.md`).
 3. **Story**, fact ID on every claim, a turn every few lines ("लेकिन ट्विस्ट यहाँ है।" as a narrator cut-in).
 4. **Viewer line** (40-60%): talks to the viewer.
 5. **Payoff**.
@@ -32,6 +32,7 @@ Length 150-170 spoken words (build warns outside 140-175). One line = 1-18 words
 - Every shot has `size` (EWS/WS/MS/MCU/CU/ECU), `angle` (eye/low/high/top/ots/profile/dutch), `asset` (clip or still), a scene line, and a motion line with a start, one move and an **end state**.
 - Adjacent shots: change size by 2 steps or change angle (build warns). Vertical: face in the upper-middle third, stage in depth, keep top 12% / bottom 20% clear.
 - Clips for the narrator and key action beats; stills (edit adds a slow push/pan) where nothing needs to move. Aim for about 15 clips per Short to save Flow credits.
+- Character consistency (default): every shot that shows a character gets, verbatim and automatically from the library: the reference sheet to attach, the role line, the scene_tag and the `lock`. The per-character sheet file is `prompts/characters/<ID>/CHARACTER.md` (built). Never hand-write character details into a shot.
 - Character placeholders in prompts: `{SUTRADHAR}`, `{MUMBAI_KING}` etc. Never retype a character description; the build inserts the library version.
 
 ## 4. Files

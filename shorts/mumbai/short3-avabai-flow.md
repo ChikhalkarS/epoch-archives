@@ -1,5 +1,5 @@
 # Flow prompts - असली सीन एपिसोड 3: टोल-फ़्री रास्ते वाली अवाबाई
-<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v4. Edit those, not this file. -->
+<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v5. Edit those, not this file. -->
 
 Tool: Google Flow (Veo for clips, Imagen for stills). Aspect ratio: 9:16 portrait. Clip length: 8 s (Flow default); use the first seconds listed per shot, they are the cleanest. Generate 2-4 takes per clip and pick one.
 Audio: Audio is ambient sound only. Always end with 'No music, no speech.' The narration is ElevenLabs and music is added in the edit.
@@ -16,7 +16,7 @@ Timing: ESTIMATED from word count. After the ElevenLabs voice exists run `node t
 | 1 | एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया... | WS low | ingredients | MUMBAI_LADY | 3.9 |
 | 2 | और शर्त रखी, कोई टोल नहीं! | CU eye | ingredients | MUMBAI_LADY | 2.5 |
 | 3 | स्वागत है, असली सीन के तीसरे एपिसोड में। | WS low | ingredients | SUTRADHAR | 3.5 |
-| 4 | मैं हूँ भेड़िया, और आज की कहानी, मुंबई की। | MCU low | ingredients | SUTRADHAR | 3.8 |
+| 4 | मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की। | MCU low | ingredients | SUTRADHAR | 3.8 |
 | 5 | माहिम और बांद्रा के बीच, एक खाड़ी थी। | EWS high | image | - | 3.2 |
 | 6 | लोग नावों से पार करते थे। | MS eye | image | - | 2.5 |
 | 7 | अठारह सौ चालीस-इकतालीस के आसपास, नावें पलटीं, | WS high | image | - | 3.1 |
@@ -47,7 +47,7 @@ Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste
 A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. hook beat.
 
 [Reference Material Roles]
-Ingredient 1 defines MUMBAI_LADY's face, hair and clothing. Do not use its grey background or panel layout.
+Ingredient 1 (prompts/characters/MUMBAI_LADY/sheet.png) defines MUMBAI_LADY's face, hair and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
 Wide shot, low angle looking up: the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) standing at the start of a long stone causeway stretching away over the sea toward a far shore at the top of frame, people walking past her, golden hour.
@@ -62,7 +62,7 @@ Wide shot, low angle looking up, native vertical framing with the main face or s
 Audio: quiet ambient room tone. No music, no speech.
 
 [Maintain Consistency]
-Keep MUMBAI_LADY identical to the ingredients in face, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
+Keep MUMBAI_LADY identical to the ingredients in face, clothing and proportions in every frame. Character lock: the LADY always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
 ## short3-s02 | ingredients | CU eye | use first 2.5 s (estimate)
@@ -74,7 +74,7 @@ Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste
 A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. hook beat.
 
 [Reference Material Roles]
-Ingredient 1 defines MUMBAI_LADY's face, hair and clothing. Do not use its grey background or panel layout.
+Ingredient 1 (prompts/characters/MUMBAI_LADY/sheet.png) defines MUMBAI_LADY's face, hair and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
 Close-up, eye level: the hand of the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) pushing up a wooden toll-gate barrier pole across the causeway.
@@ -89,7 +89,7 @@ Close-up, eye level, native vertical framing with the main face or subject in th
 Audio: quiet ambient room tone. No music, no speech.
 
 [Maintain Consistency]
-Keep MUMBAI_LADY identical to the ingredients in face, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
+Keep MUMBAI_LADY identical to the ingredients in face, clothing and proportions in every frame. Character lock: the LADY always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
 ## short3-s03 | ingredients | WS low | use first 3.5 s (estimate)
@@ -101,7 +101,7 @@ Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste
 A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. brand beat.
 
 [Reference Material Roles]
-Ingredient 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
+Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
 Wide shot, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, a small brass lantern he carries swinging gently at his hip, toward a tabletop diorama of a creek between two shores.
@@ -116,11 +116,11 @@ Wide shot, low angle looking up, native vertical framing with the main face or s
 Audio: quiet ambient room tone. No music, no speech.
 
 [Maintain Consistency]
-Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
+Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
 ## short3-s04 | ingredients | MCU low | use first 3.8 s (estimate)
-Line: मैं हूँ भेड़िया, और आज की कहानी, मुंबई की।
+Line: मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की।
 On screen (added in edit): आज: मुंबई
 Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt. Attach: prompts/characters/SUTRADHAR/sheet.png.
 ```
@@ -128,7 +128,7 @@ Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste
 A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. brand beat.
 
 [Reference Material Roles]
-Ingredient 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
+Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
 Medium close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) holding an old scroll open toward the camera, a small model of a stone causeway crossing a creek between two shores rising out of the parchment between his paws, warm lantern light from below-left, archive shelves softly blurred behind.
@@ -143,7 +143,7 @@ Medium close-up, low angle looking up, native vertical framing with the main fac
 Audio: quiet ambient room tone. No music, no speech.
 
 [Maintain Consistency]
-Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
+Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
 ## short3-s05 | image | EWS high | use first 3.2 s (estimate)
@@ -151,7 +151,7 @@ Line: माहिम और बांद्रा के बीच, एक ख�
 On screen (added in edit): माहिम ↔ बांद्रा
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme wide shot, high angle looking down: a wide creek of blue water between two palm-lined shores with small villages, 19th century Bombay, hazy morning light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme wide shot, high angle looking down: a wide creek of blue water between two palm-lined shores with small villages, 19th century Bombay, hazy morning light., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
 ## short3-s06 | image | MS eye | use first 2.5 s (estimate)
@@ -159,7 +159,7 @@ Line: लोग नावों से पार करते थे।
 On screen (added in edit): नाव से पार
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, eye level: a small wooden ferry boat crowded with passengers and baskets crossing the creek, the boatman pushing with a long pole, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, eye level: a small wooden ferry boat crowded with passengers and baskets crossing the creek, the boatman pushing with a long pole., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
 ## short3-s07 | image | WS high | use first 3.1 s (estimate)
@@ -167,14 +167,14 @@ Line: अठारह सौ चालीस-इकतालीस के आस
 On screen (added in edit): 1840-41
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, high angle looking down: an empty overturned boat floating on dark stormy water, broken oars drifting, grey rain clouds, symbolic, no people shown, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, high angle looking down: an empty overturned boat floating on dark stormy water, broken oars drifting, grey rain clouds, symbolic, no people shown., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
 ## short3-s08 | image | CU eye | use first 2.5 s (estimate)
 Line: और कई लोगों की जान गई।
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: a single small unlit lantern floating alone on dark rippling water, symbolic and quiet, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: a single small unlit lantern floating alone on dark rippling water, symbolic and quiet., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
 ## short3-s09 | image | MS low | use first 2.5 s (estimate)
@@ -182,7 +182,7 @@ Line: तब आगे आईं, एक पारसी महिला।
 On screen (added in edit): एक पारसी महिला
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan. Attach: prompts/characters/MUMBAI_LADY/sheet.png.
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, low angle looking up: the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) stepping out onto a wooden balcony overlooking the stormy creek, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, low angle looking up: the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) stepping out onto a wooden balcony overlooking the stormy creek. Character lock: the LADY always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
 ## short3-s10 | image | CU eye | use first 1.8 s (estimate)
@@ -190,7 +190,7 @@ Line: लेडी अवाबाई जमशेदजी जीजीभॉ�
 On screen (added in edit): लेडी अवाबाई
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan. Attach: prompts/characters/MUMBAI_LADY/sheet.png.
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: face of the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) lit by soft window light, rain-streaked glass behind her, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: face of the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) lit by soft window light, rain-streaked glass behind her. Character lock: the LADY always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
 ## short3-s11 | ingredients | ECU high | use first 3.2 s (estimate)
@@ -202,7 +202,7 @@ Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste
 A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. story beat.
 
 [Reference Material Roles]
-Ingredient 1 defines MUMBAI_LADY's face, hair and clothing. Do not use its grey background or panel layout.
+Ingredient 1 (prompts/characters/MUMBAI_LADY/sheet.png) defines MUMBAI_LADY's face, hair and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
 Extreme close-up, high angle looking down: the hands of the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) placing a heavy embroidered cloth bag of coins into the hands of an engineer holding rolled drawings.
@@ -217,7 +217,7 @@ Extreme close-up, high angle looking down, native vertical framing with the main
 Audio: quiet ambient room tone. No music, no speech.
 
 [Maintain Consistency]
-Keep MUMBAI_LADY identical to the ingredients in face, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
+Keep MUMBAI_LADY identical to the ingredients in face, clothing and proportions in every frame. Character lock: the LADY always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
 ## short3-s12 | image | WS high | use first 2 s (estimate)
@@ -225,7 +225,7 @@ Line: और बना, माहिम कॉज़वे।
 On screen (added in edit): माहिम कॉज़वे
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, high angle looking down: workers laying big stones of a long causeway across the creek, carts of stone, bright daylight, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, high angle looking down: workers laying big stones of a long causeway across the creek, carts of stone, bright daylight., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
 ## short3-s13 | ingredients | CU eye | use first 1.4 s (estimate)
@@ -237,7 +237,7 @@ Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste
 A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. twist beat.
 
 [Reference Material Roles]
-Ingredient 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
+Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
 Close-up, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) snapping the scroll shut in one paw and raising one clawed finger of the other paw beside his muzzle, one eyebrow raised, dark archive background with a single warm rim light.
@@ -252,7 +252,7 @@ Close-up, eye level, native vertical framing with the main face or subject in th
 Audio: quiet ambient room tone. No music, no speech.
 
 [Maintain Consistency]
-Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
+Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
 ## short3-s14 | image | MS eye | use first 4.2 s (estimate)
@@ -260,7 +260,7 @@ Line: इस रास्ते पर, लोगों से कभी टो�
 On screen (added in edit): कोई टोल नहीं
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, eye level: villagers, fishermen with baskets and a bullock cart passing freely over the stone causeway where a toll barrier has been removed and laid on the ground, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, eye level: villagers, fishermen with baskets and a bullock cart passing freely over the stone causeway where a toll barrier has been removed and laid on the ground., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
 ## short3-s15 | ingredients | MS high | use first 6 s (estimate)
@@ -272,7 +272,7 @@ Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste
 A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. interaction beat.
 
 [Reference Material Roles]
-Ingredient 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
+Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
 Medium shot, high angle looking down: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) crouching beside a tabletop miniature model of a map of India dotted with tiny bridges, reaching out with one paw to touch one tiny bridge, which lights up, lantern set down beside him.
@@ -287,7 +287,7 @@ Medium shot, high angle looking down, native vertical framing with the main face
 Audio: quiet ambient room tone. No music, no speech.
 
 [Maintain Consistency]
-Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
+Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
 ## short3-s16 | ingredients | CU low | use first 1.4 s (estimate)
@@ -299,7 +299,7 @@ Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste
 A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. interaction beat.
 
 [Reference Material Roles]
-Ingredient 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
+Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
 Close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) pointing one paw straight at the camera with his smug one-sided smirk, lantern glow on his fur, the glowing map of India in soft background.
@@ -314,7 +314,7 @@ Close-up, low angle looking up, native vertical framing with the main face or su
 Audio: quiet ambient room tone. No music, no speech.
 
 [Maintain Consistency]
-Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
+Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
 ## short3-s17 | text | EWS high | use first 3.2 s (estimate)
@@ -346,7 +346,7 @@ Line: और उसकी एक सड़क, आज भी उनके ना
 On screen (added in edit): एल. जे. रोड
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan.
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, low angle looking up: a busy modern Mumbai street with buses, taxis and old trees, an old stone building at the corner, warm afternoon light, no readable signs (modern vehicles allowed in this shot), vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, low angle looking up: a busy modern Mumbai street with buses, taxis and old trees, an old stone building at the corner, warm afternoon light, no readable signs (modern vehicles allowed in this shot)., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
 ## short3-s19 | image | CU eye | use first 3.5 s (estimate)
@@ -354,7 +354,7 @@ Line: आज के ज़माने में, ऐसी शर्त कौ�
 On screen (added in edit): आज कौन रखेगा?
 Flow: Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan. Attach: prompts/characters/MUMBAI_LADY/sheet.png.
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) smiling softly at the end of the causeway, lanterns glowing behind her, warm evening light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face) smiling softly at the end of the causeway, lanterns glowing behind her, warm evening light. Character lock: the LADY always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 
 ## short3-s20 | ingredients | MCU low | use first 1.2 s (estimate)
@@ -366,7 +366,7 @@ Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste
 A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. comment beat.
 
 [Reference Material Roles]
-Ingredient 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
+Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
 Medium close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) leaning toward the camera, both paws resting on his lantern, the lantern-lit causeway softly blurred behind him, warm rim light.
@@ -381,7 +381,7 @@ Medium close-up, low angle looking up, native vertical framing with the main fac
 Audio: quiet ambient room tone. No music, no speech.
 
 [Maintain Consistency]
-Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
+Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
 ## short3-s21 | ingredients | MS ots | use first 1.4 s (estimate)
@@ -393,7 +393,7 @@ Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste
 A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. outro beat.
 
 [Reference Material Roles]
-Ingredient 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
+Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
 Medium shot, over-the-shoulder: over-the-shoulder view from behind SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) as he stands before a large carved relief map of India on the archive wall, a single glowing marker in Karnataka among tiny boulders and ruined temples, the lantern raised in one paw.
@@ -408,7 +408,7 @@ Medium shot, over-the-shoulder, native vertical framing with the main face or su
 Audio: quiet ambient room tone. No music, no speech.
 
 [Maintain Consistency]
-Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
+Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
 ## short3-s22 | ingredients | EWS low | use first 3.8 s (estimate)
@@ -420,7 +420,7 @@ Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste
 A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. outro beat.
 
 [Reference Material Roles]
-Ingredient 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
+Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
 Extreme wide shot, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) as a small figure walking between giant rounded boulders and ruined stone temple pillars rising to the top of frame, warm dusk light.
@@ -435,7 +435,7 @@ Extreme wide shot, low angle looking up, native vertical framing with the main f
 Audio: quiet ambient room tone. No music, no speech.
 
 [Maintain Consistency]
-Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
+Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
 ## short3-s23 | ingredients | ECU eye | use first 1.8 s (estimate)
@@ -447,7 +447,7 @@ Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste
 A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. outro beat.
 
 [Reference Material Roles]
-Ingredient 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
+Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
 Extreme close-up, eye level: extreme close-up of one golden-amber eye of SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) peering over the brass rim of his round spectacles, flickering lantern light reflected in the iris, grey-tawny inked fur strokes filling the frame.
@@ -462,7 +462,7 @@ Extreme close-up, eye level, native vertical framing with the main face or subje
 Audio: quiet ambient room tone. No music, no speech.
 
 [Maintain Consistency]
-Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
+Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```
 
 ## short3-s24 | ingredients | WS eye | use first 3.2 s (estimate)
@@ -474,7 +474,7 @@ Flow: Ingredients to Video: attach the listed reference sheets (max 3) and paste
 A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. follow beat.
 
 [Reference Material Roles]
-Ingredient 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
+Ingredient 1 (prompts/characters/SUTRADHAR/sheet.png) defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 
 [Subjects and Relationships]
 Wide shot, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) seen from behind walking away from camera between the boulders into the dusk, the lantern the only warm light, long shadow stretching toward the lens.
@@ -489,5 +489,5 @@ Wide shot, eye level, native vertical framing with the main face or subject in t
 Audio: quiet ambient room tone. No music, no speech.
 
 [Maintain Consistency]
-Keep SUTRADHAR identical to the ingredients in face, fur, exactly one pair of spectacles, clothing and proportions. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
+Keep SUTRADHAR identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.
 ```

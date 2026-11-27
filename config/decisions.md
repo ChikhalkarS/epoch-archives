@@ -22,15 +22,20 @@ Owner decisions, newest last. Claude reads this before every stage. Change a dec
 | 2026-11-27 | All character prompts follow the owner's format (header, framing, EYES, FUR/SKIN AND HAIR, EXPRESSION, CLOTHING, TECHNICAL, BUILD) | prompts/library.json, tools/build-shorts.mjs, make-short skill |
 | 2026-11-27 | Every Short gets a Flow pack (`<id>-flow.md`): per shot the Flow mode, attachments, structured prompt, ambient-only audio ending 'No music, no speech.' | tools/build-shorts.mjs, make-short skill |
 | 2026-11-27 | Voice before visuals: ElevenLabs take (one generation, one line per line) is measured with tools/time-voice.mjs; shot lengths in the Flow pack come from the measured voice; tools/assemble-short.mjs cuts shots to the voice (ambient 20%, music 12%, -14 LUFS, burned Hindi captions) | shorts/WORKFLOW.md, make-short skill |
+| 2026-11-27 | Gate 1 APPROVED for Mumbai Shorts ep 1-3. Length 71-73 s accepted by owner | tracker, shorts/SCHEDULE.md |
+| 2026-11-27 | Narrator introduces himself as "मैं हूँ सूत्रधार" (not भेड़िया). SUTRADHAR is the single name everywhere | config/channel.json, library, style guide, skill |
+| 2026-11-27 | ElevenLabs FREE plan for now: attribution line in every description; upgrade (or edge-tts) before monetising | config/channel.json voice, build tool |
+| 2026-11-27 | Google Flow on Google AI Pro | config/channel.json visuals |
+| 2026-11-27 | Character consistency in code: each character has a lock sentence + CHARACTER.md sheet file; every Flow and image prompt with a character carries sheet attachment, role line, scene tag and lock verbatim | prompts/library.json, tools/build-shorts.mjs |
 
 ## Open items (waiting on the owner)
 
 | Raised | Item | Status |
 |--------|------|--------|
-| 2026-11-27 | ElevenLabs plan: monetised use needs a paid plan | owner to confirm |
-| 2026-11-27 | Google Flow plan/terms allow commercial YouTube use | owner to confirm |
-| 2026-11-27 | Gate 1 approval of Mumbai Shorts ep 1-3 scripts | waiting |
-| 2026-11-27 | Length: estimates 71-73 s (target 60-70). Measure real voice first; trim about 15 words per Short only with owner OK | waiting on voice take |
-| 2026-11-27 | Narrator self-intro: says "मैं हूँ भेड़िया"; prompt ID is SUTRADHAR. Keep, or say "सूत्रधार"? | owner to decide |
-| 2026-11-27 | Short 2 and 3 Flow packs use generic goals/sound; detailed ones to be written | before their Flow work |
-| 2026-11-27 | Character sheets (SUTRADHAR, princess, king, merchant, lady) to be generated in Flow and saved to prompts/characters/<ID>/ | owner |
+| 2026-11-27 | ElevenLabs is on the free plan (non-commercial, attribution required). Upgrade or switch to edge-tts before YPP monetisation; check whether free-plan takes become commercial after upgrading | open, before monetising |
+| 2026-11-27 | Google Flow plan | closed: Google AI Pro |
+| 2026-11-27 | Gate 1 Mumbai ep 1-3 | closed: approved |
+| 2026-11-27 | Length 71-73 s | closed: accepted |
+| 2026-11-27 | Narrator self-intro name | closed: सूत्रधार |
+| 2026-11-27 | Short 2 and 3 Flow packs: detailed goals/sound | open, before their Flow work |
+| 2026-11-27 | Character sheets to generate in Flow and save to prompts/characters/<ID>/ | open, owner |

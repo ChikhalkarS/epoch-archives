@@ -42,8 +42,10 @@
       "voice_id": "hi-IN-MadhurNeural",
       "rate": "-5%"
     },
-    "notes": "Commercial use needs a paid ElevenLabs plan; owner to confirm plan. v3 treats [square brackets] as audio tags, so fact IDs must be stripped before pasting.",
-    "how": "v3, stability Natural, speed 1.1-1.15; paste shorts/<city>/<id>-voice.txt as one generation (line breaks = pauses used for timing); old-radio filter; save MP3 to assets/<city>/shorts/<id>/voice.mp3"
+    "notes": "v3 treats [square brackets] as audio tags, so fact IDs are never in the voice file.",
+    "how": "v3, stability Natural, speed 1.1-1.15; paste shorts/<city>/<id>-voice.txt as one generation (line breaks = pauses used for timing); old-radio filter; save MP3 to assets/<city>/shorts/<id>/voice.mp3",
+    "plan": "ElevenLabs FREE plan (owner, 2026-11-27): non-commercial licence, attribution required. Every description carries the attribution line. Upgrade to a paid plan (commercial licence) or switch to edge-tts before monetising (YPP).",
+    "attribution": "Voice: ElevenLabs (elevenlabs.io)"
   },
   "style": {
     "visual": "2D noir graphic-novel cartoon (prompts/library.json -> style)",
@@ -59,7 +61,7 @@
   },
   "shorts_template": {
     "status": "DEFAULT for every Short/Reel (owner 2026-11-27, v2)",
-    "length": "about 60-70 s at fast pace: 150-170 spoken words (build warns outside 140-175), ElevenLabs speed 1.1-1.15",
+    "length": "about 60-75 s (owner accepted 71-73 s on 2026-11-27): 150-175 spoken words, ElevenLabs speed 1.1-1.15",
     "order": [
       "1. HOOK (0-3 s): shock line or question, 5-12 words",
       "2. BRAND INTRO (3-7 s): intro_line with episode ordinal and city. Always after the hook, never first",
@@ -70,7 +72,7 @@
       "7. NEXT TEASER: next Short of the same city + next city from tracker; last Short of a city teases the next city only",
       "8. FOLLOW LINE: follow_line (one ask, joined to the teaser)"
     ],
-    "intro_line": "स्वागत है, असली सीन के {ordinal} एपिसोड में। मैं हूँ भेड़िया, और आज की कहानी, {city} की।",
+    "intro_line": "स्वागत है, असली सीन के {ordinal} एपिसोड में। मैं हूँ सूत्रधार, और आज की कहानी, {city} की।",
     "follow_line": "फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।",
     "mid_interaction_examples": [
       "सोचिए, आप राजा होते, तो क्या करते?",
@@ -84,7 +86,7 @@
     ],
     "host_character": "SUTRADHAR, the wolf narrator, on screen in the brand intro, cut-ins, viewer lines, comment ask and outro of every Short; story scenes show people as people",
     "tagline": "असली सीन (show name in config 'show')",
-    "intro_tts": "स्वागत है... असली सीन के {ordinal} एपिसोड में। मैं हूँ भेड़िया... और आज की कहानी, {city} की।",
+    "intro_tts": "स्वागत है... असली सीन के {ordinal} एपिसोड में। मैं हूँ सूत्रधार... और आज की कहानी, {city} की।",
     "ordinals": {
       "1": "पहले",
       "2": "दूसरे",
@@ -99,12 +101,17 @@
     },
     "ordinal_rule": "Episodes count every Short in posting order across cities (Mumbai Short 1 = पहले). Past 10: write '<number>वें', e.g. ग्यारहवें, बारहवें.",
     "prompts": "All prompts come from prompts/library.json; build files with: node tools/build-shorts.mjs <slug>",
-    "shots": "one narration line = one shot; narrator_shots bank for the wolf's lines; people as people in story lines"
+    "shots": "one narration line = one shot; narrator_shots bank for the wolf's lines; people as people in story lines",
+    "max_seconds": 75
   },
   "show": {
     "name": "असली सीन",
     "name_latin": "Asli Scene",
-    "narrator": "the wolf; character ID SUTRADHAR in prompts/library.json; introduces himself as भेड़िया",
+    "narrator": "सूत्रधार (SUTRADHAR), anthropomorphic Indian grey wolf; prompts in prompts/library.json -> characters.SUTRADHAR; introduces himself as सूत्रधार",
     "note": "Show/series name used in narration. Channel name stays in 'name'."
+  },
+  "visuals": {
+    "tool": "Google Flow",
+    "plan": "Google AI Pro (owner, 2026-11-27)"
   }
 }

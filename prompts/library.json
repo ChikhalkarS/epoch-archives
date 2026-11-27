@@ -1,5 +1,5 @@
 {
-  "library_version": 4,
+  "library_version": 5,
   "updated": "2026-11-27",
   "rule": "Single source of truth for every image/clip prompt. Always keep the latest best version here; bump the item's version and add a line to prompts/CHANGELOG.md. Episode files are built from this by tools/build-shorts.mjs.",
   "style": {
@@ -15,9 +15,9 @@
   },
   "characters": {
     "SUTRADHAR": {
-      "version": 2,
+      "version": 3,
       "scope": "channel (every episode)",
-      "name": "सूत्रधार / the wolf narrator (भेड़िया) of असली सीन",
+      "name": "सूत्रधार (SUTRADHAR), the wolf narrator of असली सीन",
       "summary": "an anthropomorphic Indian grey wolf",
       "strokes": "fur drawn with crisp jagged strokes",
       "blocks": [
@@ -46,10 +46,12 @@
         "prompts/characters/SUTRADHAR/closeup.png",
         "prompts/characters/SUTRADHAR/sheet.png",
         "prompts/characters/SUTRADHAR/profile.png"
-      ]
+      ],
+      "lock": "SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk",
+      "character_file": "prompts/characters/SUTRADHAR/CHARACTER.md"
     },
     "MUMBAI_PRINCESS": {
-      "version": 2,
+      "version": 3,
       "scope": "mumbai",
       "name": "Princess (generic 1661 Portuguese royal, captioned as Catherine)",
       "summary": "a young 17th century Portuguese princess",
@@ -77,10 +79,12 @@
       "notes": "Generic figure, not a real likeness; name only in captions.",
       "reference_images": [
         "prompts/characters/MUMBAI_PRINCESS/sheet.png"
-      ]
+      ],
+      "lock": "the PRINCESS always has dark brown centre-parted hair in tight ringlets with small pearl pins, a small beauty mark under the left eye, a pale rose silk gown with a wide white lace collar, a short single-strand pearl necklace, no crown",
+      "character_file": "prompts/characters/MUMBAI_PRINCESS/CHARACTER.md"
     },
     "MUMBAI_KING": {
-      "version": 2,
+      "version": 3,
       "scope": "mumbai",
       "name": "King (generic 1660s English monarch, captioned as Charles II)",
       "summary": "a 1660s English king",
@@ -108,10 +112,12 @@
       "notes": "Generic figure, not a real likeness; name only in captions.",
       "reference_images": [
         "prompts/characters/MUMBAI_KING/sheet.png"
-      ]
+      ],
+      "lock": "the KING always has a long black curly wig past the shoulders, a thin black moustache, a long pale face, a deep crimson velvet coat with gold trim and gold buttons, a white lace cravat; gold crown only in throne shots",
+      "character_file": "prompts/characters/MUMBAI_KING/CHARACTER.md"
     },
     "MUMBAI_MERCHANT": {
-      "version": 2,
+      "version": 3,
       "scope": "mumbai",
       "name": "East India Company merchant (generic 1660s)",
       "summary": "a middle-aged English trader of the 1660s",
@@ -139,10 +145,12 @@
       "notes": "Generic figure.",
       "reference_images": [
         "prompts/characters/MUMBAI_MERCHANT/sheet.png"
-      ]
+      ],
+      "lock": "the MERCHANT always has a stocky build, a short brown beard, small pale-blue eyes, a plain brown wool coat with pewter buttons, a white linen collar, a wide-brimmed black hat, a leather-bound ledger",
+      "character_file": "prompts/characters/MUMBAI_MERCHANT/CHARACTER.md"
     },
     "MUMBAI_LADY": {
-      "version": 2,
+      "version": 3,
       "scope": "mumbai",
       "name": "Parsi lady of the 1840s (generic, captioned as Lady Avabai Jamsetjee Jeejeebhoy)",
       "summary": "a dignified Parsi lady of 1840s Bombay",
@@ -170,7 +178,9 @@
       "notes": "Generic figure, not a real likeness; name only in captions.",
       "reference_images": [
         "prompts/characters/MUMBAI_LADY/sheet.png"
-      ]
+      ],
+      "lock": "the LADY always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey",
+      "character_file": "prompts/characters/MUMBAI_LADY/CHARACTER.md"
     }
   },
   "branding": {
@@ -289,5 +299,6 @@
     },
     "audio_rule": "Audio is ambient sound only. Always end with 'No music, no speech.' The narration is ElevenLabs and music is added in the edit.",
     "style_line": "2D digital cartoon in a modern noir graphic-novel style: thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes on fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, rim light on edges."
-  }
+  },
+  "consistency_rule": "Every prompt that shows a character carries, verbatim: its reference sheet (attached), its role line, its scene_tag, and its lock. Never paraphrase a lock; change it only here (version + changelog)."
 }

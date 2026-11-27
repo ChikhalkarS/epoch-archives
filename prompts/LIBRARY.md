@@ -1,4 +1,4 @@
-# Prompt library (v4, 2026-11-27)
+# Prompt library (v5, 2026-11-27)
 
 <!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->
 
@@ -41,8 +41,8 @@ native 9:16; subject's face in the upper-middle third; keep faces and key action
 
 ## Characters
 
-### SUTRADHAR (v2, channel (every episode))
-सूत्रधार / the wolf narrator (भेड़िया) of असली सीन
+### SUTRADHAR (v3, channel (every episode))
+सूत्रधार (SUTRADHAR), the wolf narrator of असली सीन
 Exactly one pair of spectacles. Adult, sharp, detective attitude; never cute. Appears in the brand intro, cut-ins, viewer lines, comment ask and outro.
 
 Step 1 - close-up (owner's prompt, verbatim). Generate several, pick the best:
@@ -73,11 +73,11 @@ TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp
 ```
 Role line for every later prompt:
 ```
-Image 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use the grey background or the panel layout.
+Image 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 ```
 Save as: prompts/characters/SUTRADHAR/closeup.png, prompts/characters/SUTRADHAR/sheet.png, prompts/characters/SUTRADHAR/profile.png
 
-### MUMBAI_PRINCESS (v2, mumbai)
+### MUMBAI_PRINCESS (v3, mumbai)
 Princess (generic 1661 Portuguese royal, captioned as Catherine)
 Generic figure, not a real likeness; name only in captions.
 
@@ -109,11 +109,11 @@ TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp
 ```
 Role line for every later prompt:
 ```
-Image 1 defines MUMBAI_PRINCESS's face, hair and clothing. Do not use the grey background or the panel layout.
+Image 1 defines MUMBAI_PRINCESS's face, hair and clothing. Do not use its grey background or panel layout.
 ```
 Save as: prompts/characters/MUMBAI_PRINCESS/sheet.png
 
-### MUMBAI_KING (v2, mumbai)
+### MUMBAI_KING (v3, mumbai)
 King (generic 1660s English monarch, captioned as Charles II)
 Generic figure, not a real likeness; name only in captions.
 
@@ -145,11 +145,11 @@ TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp
 ```
 Role line for every later prompt:
 ```
-Image 1 defines MUMBAI_KING's face, hair and clothing. Do not use the grey background or the panel layout.
+Image 1 defines MUMBAI_KING's face, hair and clothing. Do not use its grey background or panel layout.
 ```
 Save as: prompts/characters/MUMBAI_KING/sheet.png
 
-### MUMBAI_MERCHANT (v2, mumbai)
+### MUMBAI_MERCHANT (v3, mumbai)
 East India Company merchant (generic 1660s)
 Generic figure.
 
@@ -181,11 +181,11 @@ TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp
 ```
 Role line for every later prompt:
 ```
-Image 1 defines MUMBAI_MERCHANT's face, hair and clothing. Do not use the grey background or the panel layout.
+Image 1 defines MUMBAI_MERCHANT's face, hair and clothing. Do not use its grey background or panel layout.
 ```
 Save as: prompts/characters/MUMBAI_MERCHANT/sheet.png
 
-### MUMBAI_LADY (v2, mumbai)
+### MUMBAI_LADY (v3, mumbai)
 Parsi lady of the 1840s (generic, captioned as Lady Avabai Jamsetjee Jeejeebhoy)
 Generic figure, not a real likeness; name only in captions.
 
@@ -217,7 +217,7 @@ TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp
 ```
 Role line for every later prompt:
 ```
-Image 1 defines MUMBAI_LADY's face, hair and clothing. Do not use the grey background or the panel layout.
+Image 1 defines MUMBAI_LADY's face, hair and clothing. Do not use its grey background or panel layout.
 ```
 Save as: prompts/characters/MUMBAI_LADY/sheet.png
 
