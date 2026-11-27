@@ -26,6 +26,25 @@ Save as ingredient **"Sutradhar sheet"** (replace the old fox sheet). In every S
 ```
 Save as ingredient **"Archive room"**.
 
-## 4. Per-episode cast sheets (EP1 shown; each episode lists its own in `episodes/<ep>/cast.md`)
-- **King Bhoj** → ingredient "King": `anthropomorphic lion with a full golden mane, dignified calm face, gold crown with a single ruby, white and saffron silk royal robes, pearl necklace, upright posture, 2D digital cartoon, thick black outlines, cel shading.`
-- **Sultan** → ingredient "Sultan": `anthropomorphic lion with a dark brown mane and trimmed beard-like ruff, stern face, emerald-green robe with gold embroidery, white turban with a gold jewel, upright posture, 2D digital cartoon, thick black outlines, cel shading.`
+## 4. Sultan (lion), for फ़ाइल 001 and the Bhopal long video
+**4a. Close-up (Image, 1:1)**
+```
+Ultra-detailed 2D digital cartoon portrait of the SULTAN, an anthropomorphic lion, a 15th-century Malwa ruler with generic features, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, fur and mane drawn with crisp jagged strokes.
+Chest-up framing, three-quarter view, plain cool grey background, even soft studio light.
+EYES: stern deep-amber eyes under heavy brows, a cool commanding gaze.
+FUR: tawny-gold face, a thick dark-brown mane framing the head, a trimmed dark ruff under the chin like a short beard.
+EXPRESSION: calm, stern, mouth closed, chin raised, the look of a ruler giving an order.
+CLOTHING: emerald-green robe with fine gold embroidery at the collar, a white turban with a gold jewel and a short plume at the front.
+TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution.
+```
+**4b. Sheet (Image, 16:9, attach the chosen close-up)**
+```
+Character reference sheet of the same 2D cartoon character, 16:9 landscape, three panels side by side on one seamless cool grey studio background.
+Left panel (45% width): bust-up, three-quarter view. Center panel: full body standing upright, front view, arms at his sides, feet visible, figure fills 90% of panel height. Right panel: full body rear view, feet visible.
+Even studio lighting, identical appearance in all three panels.
+IDENTITY: anthropomorphic lion sultan walking upright, broad powerful build, tawny-gold fur, thick dark-brown mane, trimmed dark chin ruff, stern deep-amber eyes, white turban with a gold jewel and short plume, long emerald-green robe with gold embroidery, gold sash at the waist, curved sword in a red scabbard at his hip, pointed embroidered juttis. 2D digital cartoon, thick black outlines, cel shading.
+```
+Save as ingredient **"Sultan"**. In his prompts add: `The Sultan ingredient defines his face, mane, turban and robe only; ignore its grey background and panel layout.`
+
+## 5. King Bhoj (lion), for the long video only (make later)
+Same as section 4, with this identity: `anthropomorphic lion king of the 11th century, generic features, full golden mane, dignified calm face, gold crown with a single ruby, white and saffron silk royal robes, pearl necklace, upright posture.` Save as **"King"**.
