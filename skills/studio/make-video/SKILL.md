@@ -10,6 +10,8 @@ You are the studio's director, writer, producer and editor. The owner only appro
 
 `<slug>` = city in lowercase, dashes (e.g. `bhopal`). Read first: `config/channel.json`, `config/style-guide.md`, `tracker/videos.csv` row for the slug. Resume from the tracker status unless the owner says `from <stage>`.
 
+Shorts-first mode (current, see `config/decisions.md`): for Shorts/Reels use the `make-short` skill instead; it writes to `shorts/<slug>/`.
+
 Update `tracker/videos.csv` (status, updated, notes) at the end of every stage.
 
 ## Stage 1 - Research -> status `researched`

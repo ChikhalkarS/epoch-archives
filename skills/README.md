@@ -8,6 +8,7 @@ Linked into `.claude/skills/` so Claude Code loads them. All are Markdown instru
 | `studio/make-video` | `/make-video <city>`: full pipeline with Gate 1 and Gate 2 |
 | `studio/city-research` | Sourced fact sheet with verified/disputed/legend flags |
 | `studio/hindi-script` | Hindi narration rules, hook, structure, fact tags |
+| `studio/make-short` | `/make-short <city>`: Shorts/Reels with the default hook, brand intro, viewer lines, next-city teaser and follow line |
 
 ## Vendor (third-party, MIT)
 | Skill | Source | Why |

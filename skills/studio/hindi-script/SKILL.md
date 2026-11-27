@@ -25,6 +25,9 @@ Input: `research/<slug>/sources.md` + `notes.md`. Output: `scripts/<slug>.md`.
 - Disputed: "कुछ इतिहासकार मानते हैं..., जबकि दूसरे कहते हैं...". Legend: "कहते हैं..." / "लोक-कथा के अनुसार...".
 - Never state an unverified fact. Never invent dialogue for real people; use "शायद" only with a source that says so.
 
+## Shorts and Reels
+Use the fixed order in `config/channel.json` -> `shorts_template` (hook, brand intro, story, mid interaction, payoff, comment question, next teaser, follow line). Full rules in the `make-short` skill.
+
 ## File format (`scripts/<slug>.md`)
 ```
 # <City> - <working title>

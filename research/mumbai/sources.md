@@ -44,6 +44,7 @@ Every fact in the script must point to an ID here. Researched 2026-11-27 via web
 | S38 | Wikipedia - Coastal Road (Mumbai) (reclamation figures) | https://en.wikipedia.org/wiki/Coastal_Road_(Mumbai) | Encyclopedia | med |
 | S39 | Free Press Journal - BMC wants to reclaim additional land for coastal road (SC affidavit) | https://www.freepressjournal.in/mumbai/mumbai-bmc-wants-to-reclaim-additional-six-hectares-of-land-for-coastal-road-project-submits-affidavit-in-sc | Media | med |
 | S40 | Wikipedia - William Hornby (governor) | https://en.wikipedia.org/wiki/William_Hornby_(governor) | Encyclopedia | med |
+| S41 | Mumbai Live - Mahim's LJ Road and the history behind it | https://www.mumbailive.com/en/society/mahims-lj-road-and-the-history-behind-it-13909 | Media | med |
 
 # Fact sheet
 
@@ -84,3 +85,4 @@ Every fact in the script must point to an ID here. Researched 2026-11-27 via web
 | F33 | First phase of Mumbai Coastal Road (Worli to Marine Drive) inaugurated 11 March 2024 | S36, S37 | verified |
 | F34 | The Coastal Road required land reclaimed from the sea (figures 90-111 ha vary by date/source) | S38, S39 | verified that reclamation happened; area disputed - no number in script |
 | F35 | Catherine and Charles II married in May 1662 | S8, S10 | verified |
+| F36 | The approach road (opened 1848) is still called Lady Jamsetjee (LJ) Road | S41, S22 | verified (med) |

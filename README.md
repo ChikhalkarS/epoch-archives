@@ -9,6 +9,7 @@ Claude runs production; the owner approves at two gates. Channel settings: `conf
 |---|---|
 | `config/` | `channel.json` (name, language, voice, formats) and `style-guide.md` (claymation prompt prefix, motion, audio, text rules) |
 | `research/<city>/` | `sources.md` (source list + fact sheet with status) and `notes.md` (hooks, arc, flags). Template in `research/_template/` |
+| `shorts/<city>/` | Shorts/Reels: script, ElevenLabs text, Flow prompts, publish copy (current focus). Schedule in `shorts/SCHEDULE.md` |
 | `scripts/` | `<city>.md` Hindi narration script, one per video |
 | `storyboards/` | `<city>.json` (scenes, narration, prompts, Shorts) and `<city>.md` shot list |
 | `assets/<city>/` | `images/`, `clips/`, `voice/`, `PROMPTS.md`, `CREDITS.md`. Shared music in `assets/music/` |
