@@ -29,9 +29,11 @@ Newest at the bottom. The file named in each row has the detail. Claude reads th
 | 24 | 2026-11-27 | **Always open with a suspicious or curious tone**, and keep that tone in the dialogue throughout (a suspicious/curious beat every 2–3 lines). New dialogue-writer skill `sutradhar-voice` | `skills/studio/sutradhar-voice/SKILL.md` |
 | 25 | 2026-11-27 | Testing an ElevenLabs voice for फ़ाइल 001 (free plan = test only; a paid plan is needed to publish, so ask first). When a separate voice is used, the finishing step is `tools/finish_short.mjs` on the owner's Mac (ffmpeg + Node): clips (muted) + voice split at its pauses + music (owner's royalty-free file or a self-synthesised pad) + burned captions from `lines.txt` → `final-short.mp4` | `tools/finish_short.mjs` |
 | 26 | 2026-11-27 | Progress tracking: `studio/STATUS.md` holds dated progress + target dates; every new session starts by reading it and summarising, and ends by updating it. Plans: Google AI Pro (Flow), ElevenLabs free tier | `studio/STATUS.md` |
+| 27 | 2026-11-27 | Topic filter for every file: a **real document** behind it + a **link to the viewer's life today** + a **surprise**. Shortlist of 12 archive-backed city files | `studio/TOPICS_ARCHIVE.md` |
 
 ## Open (waiting for the owner)
 - Gate 1 approval of the Bhopal long-video script (`episodes/ep01-bhopal-jheel/script_hi.md`).
 - Season 1 order: Indian cities only, or alternate India and world.
 - Captions for Shorts: YouTube SRT upload, or burned-in captions.
+- Which archive-backed topic becomes the launch file (recommended: Mumbai's clocks or Kolkata's court verdict); the Bhopal lake moves to a later file.
 - Voice for publishing: ElevenLabs (paid plan needed) or Flow's voice.

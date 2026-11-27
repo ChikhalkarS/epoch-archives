@@ -27,6 +27,7 @@ Rules: decisions live in `studio/DECISIONS.md`; brand and roadmap in `studio/VIS
   - ElevenLabs test input.
   - `finish_short.mjs` editor.
   - Owner generated sample clips + ElevenLabs audio.
+  - Owner feedback: the Bhopal story lacks value. New topic filter (document + today's relevance + surprise); 12 archive-backed city files shortlisted (`studio/TOPICS_ARCHIVE.md`).
 
 ## Plan (dates are targets; move them forward if missed and note why)
 | By | Milestone | Owner / Claude |
@@ -43,6 +44,7 @@ Rules: decisions live in `studio/DECISIONS.md`; brand and roadmap in `studio/VIS
 | 2027-03 | Start the ⚔️ wars playlist (`studio/VISION.md`) | |
 
 ## Open decisions (from `studio/DECISIONS.md`)
+0. **Pick the launch file** from `studio/TOPICS_ARCHIVE.md`.
 1. Gate 1: Bhopal long-video script.
 2. Voice for publishing: ElevenLabs (paid) or Flow's voice.
 3. Season 1 order: Indian cities only, or alternate India and world.
