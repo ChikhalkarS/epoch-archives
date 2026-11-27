@@ -1,13 +1,13 @@
 {
-  "library_version": 3,
+  "library_version": 4,
   "updated": "2026-11-27",
   "rule": "Single source of truth for every image/clip prompt. Always keep the latest best version here; bump the item's version and add a line to prompts/CHANGELOG.md. Episode files are built from this by tools/build-shorts.mjs.",
   "style": {
-    "version": 2,
+    "version": 3,
     "name": "2D noir graphic-novel cartoon (owner, 2026-11-27; replaces claymation)",
     "prefix": "2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, ",
-    "suffix_9x16": ", vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos",
-    "suffix_16x9": ", cinematic 16:9 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos",
+    "suffix_9x16": ", vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image",
+    "suffix_16x9": ", cinematic 16:9 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image",
     "negative": "photorealistic, real photograph, 3D render, CGI, claymation, plasticine, glossy plastic, anime, chibi, cute baby proportions, watercolor wash, blurry lines, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood",
     "character_header": "Ultra-detailed 2D digital cartoon portrait of {ID}, {summary}, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, {strokes}.",
     "character_framing": "Chest-up framing, three-quarter view turned slightly toward camera, plain cool grey background, even soft studio light.",
@@ -276,5 +276,18 @@
       "prompt": "{SUTRADHAR} seen from behind walking away from camera {where}, the lantern the only warm light, long shadow stretching toward the lens",
       "motion": "Locked camera. He walks away into the dark, stops, and looks back over his shoulder at the viewer for a beat. End on the over-the-shoulder glance with the lantern glowing."
     }
+  },
+  "flow": {
+    "version": 1,
+    "tool": "Google Flow (Veo for clips, Imagen for stills)",
+    "settings": "Aspect ratio: 9:16 portrait. Clip length: 8 s (Flow default); use the first seconds listed per shot, they are the cleanest. Generate 2-4 takes per clip and pick one.",
+    "modes": {
+      "ingredients": "Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt.",
+      "frames": "Frames to Video: attach the approved still as the first frame and paste the prompt.",
+      "text": "Text to Video: paste the prompt, no attachments.",
+      "image": "Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan."
+    },
+    "audio_rule": "Audio is ambient sound only. Always end with 'No music, no speech.' The narration is ElevenLabs and music is added in the edit.",
+    "style_line": "2D digital cartoon in a modern noir graphic-novel style: thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes on fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, rim light on edges."
   }
 }

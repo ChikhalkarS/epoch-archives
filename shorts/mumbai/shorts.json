@@ -31,7 +31,9 @@
      "asset": "clip",
      "prompt": "an ornate wooden royal treasure chest with brass corners on a palace table, its lid starting to lift and blinding golden light leaking out of the gap, dark palace hall behind",
      "motion": "Locked camera, slight push-in. The lid lifts open and golden light floods out. End with the lid fully open and the glow filling the upper frame.",
-     "onscreen": "दहेज में पूरा शहर?!"
+     "onscreen": "दहेज में पूरा शहर?!",
+     "goal": "Open on the mystery: a royal dowry chest about to reveal its treasure.",
+     "sfx": "a heavy wooden lid creaking open, a soft rising shimmer"
     },
     {
      "role": "hook",
@@ -45,7 +47,9 @@
      "asset": "clip",
      "prompt": "looking straight down into the open treasure chest: instead of gold coins a tiny island with palm trees, fishing huts and boats on turquoise water fills the chest, golden glow around the edges",
      "motion": "Fast descending push straight down into the chest. Tiny palm trees sway and a boat bobs. End close over the island.",
-     "onscreen": "पूरा शहर!"
+     "onscreen": "पूरा शहर!",
+     "goal": "Reveal the twist of the hook: the treasure is a whole island city.",
+     "sfx": "gentle sea waves lapping, a distant gull"
     },
     {
      "role": "brand",
@@ -56,7 +60,9 @@
       "extra": "toward a reading table where a small treasure chest sits"
      },
      "onscreen": "असली सीन 🐺",
-     "narrator": "walk_in"
+     "narrator": "walk_in",
+     "goal": "Introduce the narrator walking in to greet the viewer.",
+     "sfx": "his footsteps on stone, the lantern's handle creaking softly, quiet archive room tone"
     },
     {
      "role": "brand",
@@ -67,7 +73,9 @@
       "topic_visual": "the seven small Bombay islands in a turquoise sea"
      },
      "onscreen": "आज: मुंबई",
-     "narrator": "scroll_reveal"
+     "narrator": "scroll_reveal",
+     "goal": "The narrator presents today's city from his scroll.",
+     "sfx": "parchment unrolling, a faint magical shimmer as the model rises"
     },
     {
      "role": "story",
@@ -81,7 +89,9 @@
      "asset": "still",
      "prompt": "a hand pressing a brass seal into hot red wax on the corner of a parchment treaty, candle flame beside it",
      "motion": "Very slow push-in on the wax seal; the candle flame flickers. End on the pressed seal.",
-     "onscreen": "1661"
+     "onscreen": "1661",
+     "goal": "Mark the year with a royal seal.",
+     "sfx": "wax pressing, a candle flame flickering"
     },
     {
      "role": "story",
@@ -95,7 +105,9 @@
      "asset": "still",
      "prompt": "staged in depth down a long candle-lit table in a royal hall: {MUMBAI_PRINCESS} near camera in the lower half of frame, {MUMBAI_KING} at the far end higher in frame, the sealed treaty scroll in the middle of the table, tall arched windows behind him",
      "motion": "Slow dolly forward down the table. The princess turns her head toward the king; he gives a small formal nod. End with both looking at the scroll.",
-     "onscreen": "कैथरीन 👑 चार्ल्स"
+     "onscreen": "कैथरीन 👑 चार्ल्स",
+     "goal": "Show the royal match being arranged between the princess and the king.",
+     "sfx": "a quiet palace hall, candles crackling"
     },
     {
      "role": "story",
@@ -109,7 +121,9 @@
      "asset": "still",
      "prompt": "seven small separate green islands scattered in a turquoise sea, tiny fishing sailboats between them, bright morning light",
      "motion": "Slow rotating drift over the islands; small waves move. End with all seven islands in frame.",
-     "onscreen": "7 टापू"
+     "onscreen": "7 टापू",
+     "goal": "Show what Bombay was then: seven small islands.",
+     "sfx": "open sea wind, small waves"
     },
     {
      "role": "story",
@@ -123,7 +137,9 @@
      "asset": "still",
      "prompt": "a generic 16th century Portuguese soldier in a steel morion helmet and breastplate standing guard on a stone fort rampart above the sea, a plain red-and-white banner on a pole beside him, fishing boats far below",
      "motion": "Slow tilt up from the boats to the soldier. The banner ripples in the wind. End on the soldier looking out to sea.",
-     "onscreen": "पुर्तगाली राज"
+     "onscreen": "पुर्तगाली राज",
+     "goal": "Show who ruled the islands: the Portuguese.",
+     "sfx": "wind snapping the banner, distant surf below the fort"
     },
     {
      "role": "story",
@@ -137,7 +153,9 @@
      "asset": "still",
      "prompt": "a hand with a feather quill writing lines of unreadable squiggles on a long parchment list that unrolls off the desk edge, ink pot and candle",
      "motion": "Locked camera. The quill writes and the parchment slides down off the desk. End with the list hanging over the edge.",
-     "onscreen": "दहेज की लिस्ट"
+     "onscreen": "दहेज की लिस्ट",
+     "goal": "The dowry list is written.",
+     "sfx": "a quill scratching on parchment"
     },
     {
      "role": "story",
@@ -151,7 +169,9 @@
      "asset": "still",
      "prompt": "a tiny model of a walled white North African port town with a harbour and sailing ships, sitting on the candle-lit desk next to the list",
      "motion": "Slow pan right across the tiny port town. End on its harbour gate.",
-     "onscreen": "टैंजियर 🌍"
+     "onscreen": "टैंजियर 🌍",
+     "goal": "First dowry item: the port of Tangier.",
+     "sfx": "faint harbour bells, candle crackle"
     },
     {
      "role": "story",
@@ -165,7 +185,9 @@
      "asset": "still",
      "prompt": "a clerk's hand placing a tiny palm-tree island model on the desk right beside the port town model, candle light",
      "motion": "Locked camera. The hand sets the island down and withdraws. End on the two models side by side.",
-     "onscreen": "+ बॉम्बे 🏝️"
+     "onscreen": "+ बॉम्बे 🏝️",
+     "goal": "Second dowry item: Bombay, placed beside it.",
+     "sfx": "a small wooden model set down on a desk"
     },
     {
      "role": "twist",
@@ -174,7 +196,9 @@
      "facts": [],
      "vars": {},
      "onscreen": "ट्विस्ट!",
-     "narrator": "cut_in_finger"
+     "narrator": "cut_in_finger",
+     "goal": "The narrator cuts in to flag the twist.",
+     "sfx": "a scroll snapping shut, a soft whoosh"
     },
     {
      "role": "story",
@@ -189,7 +213,9 @@
      "asset": "still",
      "prompt": "{MUMBAI_KING} sitting at a window drumming his fingers on the sill beside a hourglass, a waiting sailing ship visible on the sea outside, evening light",
      "motion": "Locked camera. Sand runs through the hourglass while he drums his fingers; outside, the light shifts from day to dusk. End with the hourglass empty.",
-     "onscreen": "4 साल ⏳"
+     "onscreen": "4 साल ⏳",
+     "goal": "Four years of waiting for the dowry.",
+     "sfx": "fingers drumming on a stone sill, sand trickling in the hourglass"
     },
     {
      "role": "story",
@@ -203,7 +229,9 @@
      "asset": "still",
      "prompt": "{MUMBAI_KING} slumped on his throne holding his forehead, surrounded by tall piles of bills and empty coin bags, the tiny island model on a velvet cushion at his feet, dim moody light",
      "motion": "Slow pull-back upward. A coin bag tips over and empties. End with the king small among the bills.",
-     "onscreen": "तोहफ़ा या बोझ?"
+     "onscreen": "तोहफ़ा या बोझ?",
+     "goal": "The gift turns out to be an expensive burden.",
+     "sfx": "coins spilling from a bag, a tired sigh-like breath of wind in the hall"
     },
     {
      "role": "interaction",
@@ -215,7 +243,9 @@
       "context_visual": "the piles of royal bills"
      },
      "onscreen": "आप क्या करते? 🤔",
-     "narrator": "lean_in_question"
+     "narrator": "lean_in_question",
+     "goal": "The narrator asks the viewer what they would do as king.",
+     "sfx": "a throne creaking as he leans forward, quiet room tone"
     },
     {
      "role": "payoff",
@@ -225,11 +255,13 @@
       "F12"
      ],
      "size": "MS",
-     "angle": "profile",
+     "angle": "ots",
      "asset": "clip",
-     "prompt": "{MUMBAI_KING} handing a rolled royal charter with a red wax seal to {MUMBAI_MERCHANT}, side profile two-shot in a bright office with tall sailing ships through the window",
-     "motion": "Locked camera. The charter passes from the king's hand to the merchant's; the merchant tucks it under his arm. End on the merchant's satisfied smile.",
-     "onscreen": "1668: किराए पर!"
+     "prompt": "staged in depth in a lamp-lit office: {MUMBAI_KING} near camera at the lower left, seen from behind his shoulder, holding out a rolled royal charter with a red wax seal; {MUMBAI_MERCHANT} a step further back and higher in frame, facing the king and reaching for it, tall sailing ships through the window behind the merchant",
+     "motion": "Locked camera. The charter passes from the king's hand into the merchant's; the merchant tucks it under his arm. End on the merchant's satisfied smile over the king's shoulder.",
+     "onscreen": "1668: किराए पर!",
+     "goal": "The king hands Bombay to the East India Company on lease.",
+     "sfx": "parchment passing hand to hand, ships' rigging creaking outside"
     },
     {
      "role": "payoff",
@@ -241,7 +273,9 @@
       "context_visual": "dark archive shelves"
      },
      "onscreen": "किराया?",
-     "narrator": "lean_in_question"
+     "narrator": "lean_in_question",
+     "goal": "The narrator teases the rent amount.",
+     "sfx": "a single coin ringing softly as he lifts it"
     },
     {
      "role": "payoff",
@@ -255,7 +289,9 @@
      "asset": "clip",
      "prompt": "a single small gold coin dropping onto a big parchment map of the seven islands on a wooden table, warm spotlight, extreme shallow depth of field",
      "motion": "Locked camera. The coin drops into frame, spins and settles flat on the islands. End on the still coin.",
-     "onscreen": "सिर्फ़ £10 / साल 😳"
+     "onscreen": "सिर्फ़ £10 / साल 😳",
+     "goal": "Payoff: the rent was just ten pounds a year.",
+     "sfx": "one coin dropping, spinning and settling on paper"
     },
     {
      "role": "payoff",
@@ -269,7 +305,9 @@
      "asset": "clip",
      "prompt": "miniature model of a dense modern Mumbai skyline, tall towers rising to the top of frame, a curved seafront promenade with street lights in the lower third, Arabian Sea at dusk (modern buildings allowed in this shot)",
      "motion": "Slow crane up from the seafront to the tower tops as the city lights switch on. End on the lit skyline.",
-     "onscreen": "दहेज ➜ मुंबई"
+     "onscreen": "दहेज ➜ मुंबई",
+     "goal": "Payoff: that dowry island is today's Mumbai.",
+     "sfx": "evening city hum, distant traffic and sea"
     },
     {
      "role": "comment",
@@ -281,7 +319,9 @@
       "touch_action": "tap the top of the tallest tower with one claw"
      },
      "onscreen": "आज का किराया?",
-     "narrator": "touch_diorama"
+     "narrator": "touch_diorama",
+     "goal": "The narrator invites the viewer's guess at Mumbai's rent today.",
+     "sfx": "a fingertip tap on a model tower, faint city hum"
     },
     {
      "role": "comment",
@@ -292,7 +332,9 @@
       "context_visual": "the glowing city diorama"
      },
      "onscreen": "कमेंट 👇",
-     "narrator": "point_at_viewer"
+     "narrator": "point_at_viewer",
+     "goal": "Ask for a comment.",
+     "sfx": "a soft whoosh as he points"
     },
     {
      "role": "outro",
@@ -304,7 +346,9 @@
       "touch_action": "press the road, which cracks open to show blue sea water underneath"
      },
      "onscreen": "अगला: समंदर वाली ज़मीन 🌊",
-     "narrator": "touch_diorama"
+     "narrator": "touch_diorama",
+     "goal": "Tease the next story: land that was once sea.",
+     "sfx": "a road surface cracking, water bubbling up beneath"
     },
     {
      "role": "outro",
@@ -315,7 +359,9 @@
       "map_note": "a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders"
      },
      "onscreen": "फिर: हम्पी",
-     "narrator": "map_tap_ots"
+     "narrator": "map_tap_ots",
+     "goal": "Tease the next city: Hampi.",
+     "sfx": "a map marker humming softly as it glows"
     },
     {
      "role": "follow",
@@ -326,7 +372,9 @@
       "where": "down the archive aisle into the shadows"
      },
      "onscreen": "फ़ॉलो करें ➕",
-     "narrator": "walk_off"
+     "narrator": "walk_off",
+     "goal": "Sign off and ask the viewer to follow.",
+     "sfx": "footsteps fading down the aisle, lantern creak"
     }
    ]
   },

@@ -2,7 +2,7 @@
 // Build Shorts/Reels production files from the prompt library.
 // Usage: node tools/build-shorts.mjs <slug>
 // Reads:  config/channel.json, prompts/library.json, shorts/<slug>/shorts.json
-// Writes: shorts/<slug>/<short-id>.md (one per Short), prompts/LIBRARY.md
+// Writes: shorts/<slug>/<short-id>.md and <short-id>-flow.md (Flow-ready prompts) per Short, prompts/LIBRARY.md
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -54,7 +54,7 @@ function expandShot(shot, intro) {
   const framing = `${lib.framing.sizes[size]}, ${lib.framing.angles[angle]}`;
   s.fullPrompt = `${ST.prefix}${framing}: ${prompt}${ST.suffix_9x16}`;
   s.motionFull = motion + (chars.length ? ` Keep ${chars.join(', ')} identical to the reference image(s).` : '');
-  Object.assign(s, { size, angle, asset, chars: [...new Set(chars)] });
+  Object.assign(s, { size, angle, asset, chars: [...new Set(chars)], scene: prompt, motionRaw: motion, framing });
   return s;
 }
 
@@ -163,7 +163,65 @@ function renderShort(sh) {
   L.push('Upload setting: Audience = "No, it\'s not made for kids" (narrator is an animated wolf; content is history for general audiences).');
   L.push('');
   fs.writeFileSync(path.join(root, `shorts/${slug}/${sh.id}.md`), L.join('\n'));
+  renderFlow(sh, shots);
   return { id: sh.id, words: w, shots: shots.length, clips };
+}
+
+
+function renderFlow(sh, shots) {
+  const F = lib.flow;
+  const secs = (n) => Math.max(1.2, Math.round((n / 2.6) * 10) / 10);
+  const L = [];
+  L.push(`# Flow prompts - ${cfg.show.name} एपिसोड ${sh.episode}: ${sh.title}`);
+  L.push(`<!-- Built by tools/build-shorts.mjs from shorts/${slug}/shorts.json + prompts/library.json v${lib.library_version}. Edit those, not this file. -->`);
+  L.push('');
+  L.push(`Tool: ${F.tool}. ${F.settings}`);
+  L.push(`Audio: ${F.audio_rule}`);
+  L.push('');
+  L.push('## Order of work');
+  const chars = [...new Set(shots.flatMap((s) => s.chars))];
+  L.push(`1. Character references (once, reused every episode): ${chars.map((k) => `${k} -> ${lib.characters[k].reference_images.find((r) => r.endsWith('sheet.png'))}`).join('; ')}. Prompts in \`prompts/LIBRARY.md\`.`);
+  L.push('2. Stills (type `image`): generate in Flow, pick one each.');
+  L.push('3. Clips: `ingredients` shots attach the listed sheets; `text` shots need nothing (or attach the still as first frame in Frames to Video for more control).');
+  L.push('4. Name files by shot id (e.g. `' + sh.id.split('-')[0] + '-s01.mp4`) and drop them in `assets/' + slug + '/shorts/' + sh.id + '/`.');
+  L.push('');
+  L.push('| # | Line | Shot | Flow mode | Attach | Use (s) |');
+  L.push('|---|---|---|---|---|---|');
+  const modeOf = (s) => (s.asset === 'still' ? 'image' : s.chars.length ? 'ingredients' : 'text');
+  shots.forEach((s, i) => L.push(`| ${i + 1} | ${s.vo} | ${s.size} ${s.angle} | ${modeOf(s)} | ${s.chars.join(', ') || '-'} | ${secs(words(s.tts))} |`));
+  L.push('');
+  shots.forEach((s, i) => {
+    const id = `${sh.id.split('-')[0]}-s${String(i + 1).padStart(2, '0')}`;
+    const mode = modeOf(s);
+    L.push(`## ${id} | ${mode} | ${s.size} ${s.angle} | use first ${secs(words(s.tts))} s`);
+    L.push(`Line: ${s.vo}`);
+    if (s.onscreen) L.push(`On screen (added in edit): ${s.onscreen}`);
+    L.push(`Flow: ${F.modes[mode]}${s.chars.length ? ` Attach: ${s.chars.map((k) => lib.characters[k].reference_images.find((r) => r.endsWith('sheet.png'))).join(', ')}.` : ''}`);
+    L.push('```');
+    if (mode === 'image') {
+      L.push(s.fullPrompt);
+    } else {
+      L.push('[Generation Goal]');
+      L.push(`A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. ${s.goal || `${s.role} beat.`}`);
+      if (s.chars.length) {
+        L.push('', '[Reference Material Roles]');
+        s.chars.forEach((k, n) => L.push(`Ingredient ${n + 1} defines ${k}'s face, ${k === 'SUTRADHAR' ? 'fur, spectacles' : 'hair'} and clothing. Do not use its grey background or panel layout.`));
+      }
+      L.push('', '[Subjects and Relationships]');
+      L.push(`${s.framing}: ${s.scene}.`);
+      L.push('', '[Event Script]');
+      L.push(`Stage 1: Opening state as described above. ${s.motionRaw} The video ends holding this final state.`);
+      L.push('', '[Visual and Camera Treatment]');
+      L.push(`${s.framing}, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. ${F.style_line} Every sign, page and banner is blank or carries unreadable squiggles.`);
+      L.push('', '[Audio]');
+      L.push(`Audio: ${s.sfx || 'quiet ambient room tone'}. No music, no speech.`);
+      L.push('', '[Maintain Consistency]');
+      L.push(`${s.chars.length ? `Keep ${s.chars.join(', ')} identical to the ingredients in face, ${s.chars.includes('SUTRADHAR') ? 'fur, exactly one pair of spectacles, ' : ''}clothing and proportions. ` : ''}Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.`);
+    }
+    L.push('```');
+    L.push('');
+  });
+  fs.writeFileSync(path.join(root, `shorts/${slug}/${sh.id}-flow.md`), L.join('\n'));
 }
 
 function renderLibrary() {

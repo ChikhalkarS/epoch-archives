@@ -1,4 +1,4 @@
-# Prompt library (v3, 2026-11-27)
+# Prompt library (v4, 2026-11-27)
 
 <!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->
 
@@ -14,7 +14,7 @@ Single source of truth for every image/clip prompt. Always keep the latest best 
 ```
 **Vertical suffix:**
 ```
-vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 **Negative:**
 ```

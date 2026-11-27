@@ -11,3 +11,5 @@
 | 2026-11-27 | branding.profile_picture | 1 | Owner's channel profile picture prompt, verbatim |
 | 2026-11-27 | MUMBAI_PRINCESS, MUMBAI_KING, MUMBAI_MERCHANT, MUMBAI_LADY | 2 | Rewritten in the owner's character format for the 2D noir look |
 | 2026-11-27 | narrator_shots | 2 | Renamed from bhediya_shots; clay words removed; lantern/scroll are props, not part of his design |
+| 2026-11-27 | style | 3 | Suffix negations turned into positive facts (Veo/Imagen in Flow have no negative field) |
+| 2026-11-27 | flow | 1 | Flow settings, modes and audio rule for clip prompts |

@@ -1,5 +1,5 @@
 # असली सीन - एपिसोड 2: समंदर से छीना गया शहर
-<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v3. Edit those, not this file. -->
+<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v4. Edit those, not this file. -->
 City: मुंबई | Format: 9:16, 1080x1920 | Words: 173 | ~67-72 s at speed 1.1-1.15 | Shots: 25 (16 clips, 9 stills) | Status: waiting on Gate 1
 
 **Twist:** मुंबई बसाई नहीं गई, समंदर से छीनी गई; आज भी (कोस्टल रोड)  
@@ -82,7 +82,7 @@ VO: आप मुंबई की जिस सड़क पर खड़े ह
 On screen: ये ज़मीन कभी समंदर थी!
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, low angle looking up: a tiny person's shoes standing on an old city road, thin cracks starting to spread across the road surface around the feet, dusk light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, low angle looking up: a tiny person's shoes standing on an old city road, thin cracks starting to spread across the road surface around the feet, dusk light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -94,7 +94,7 @@ VO: वो शायद कभी समंदर थी!
 On screen: समंदर!
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, top-down overhead view: looking straight down at the road splitting open to reveal deep blue sea water with small fish swimming beneath it, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, top-down overhead view: looking straight down at the road splitting open to reveal deep blue sea water with small fish swimming beneath it, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -107,7 +107,7 @@ On screen: असली सीन 🐺
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, a small brass lantern he carries swinging gently at his hip, toward a tabletop sea diorama where seven islands float, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, a small brass lantern he carries swinging gently at his hip, toward a tabletop sea diorama where seven islands float, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -120,7 +120,7 @@ On screen: आज: मुंबई
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) holding an old scroll open toward the camera, a small model of seven separate islands slowly drifting together rising out of the parchment between his paws, warm lantern light from below-left, archive shelves softly blurred behind, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) holding an old scroll open toward the camera, a small model of seven separate islands slowly drifting together rising out of the parchment between his paws, warm lantern light from below-left, archive shelves softly blurred behind, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -132,7 +132,7 @@ VO: कभी मुंबई, सात अलग-अलग टापू थी
 On screen: 7 टापू
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme wide shot, top-down overhead view: seven separate green islands in a turquoise sea, small fishing boats with sails between them, tiny palm trees and huts, bright morning light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme wide shot, top-down overhead view: seven separate green islands in a turquoise sea, small fishing boats with sails between them, tiny palm trees and huts, bright morning light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Edit move: Slow rotating aerial drift; each island lights up one by one. End with all seven lit.
 
@@ -141,7 +141,7 @@ VO: बीच में समंदर, और ज्वार में डू
 On screen: ज्वार = बाढ़
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, eye level: sea water flowing over low swampy land between two islands, small huts standing in the water, fishermen lifting their nets, overcast grey-blue light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, eye level: sea water flowing over low swampy land between two islands, small huts standing in the water, fishermen lifting their nets, overcast grey-blue light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -154,7 +154,7 @@ On screen: मुंबई में हैं? 📍
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) leaning toward the camera, one paw raised with a tiny map pin between his claws, a map of today's Mumbai softly blurred behind him, warm rim light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) leaning toward the camera, one paw raised with a tiny map pin between his claws, a map of today's Mumbai softly blurred behind him, warm rim light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -167,7 +167,7 @@ On screen: अपना इलाक़ा 👇
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, top-down overhead view: a grey-tawny wolf paw (SUTRADHAR) pushing small red map pins one by one into a map of today's Mumbai neighbourhoods, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, top-down overhead view: a grey-tawny wolf paw (SUTRADHAR) pushing small red map pins one by one into a map of today's Mumbai neighbourhoods, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Edit move: Locked overhead camera. Pins go in one after another. End with five pins standing.
 
@@ -177,7 +177,7 @@ On screen: शायद समंदर था!
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, high angle looking down: the same Mumbai map with red pins, now a glowing blue outline of the old seven-island coastline lighting up over it, several pins standing inside the blue sea area, SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) at the map edge looking down, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, high angle looking down: the same Mumbai map with red pins, now a glowing blue outline of the old seven-island coastline lighting up over it, several pins standing inside the blue sea area, SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) at the map edge looking down, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Edit move: Slow pull-back upward. The blue outline glows on. End with the whole map and the wolf in frame.
 
@@ -186,7 +186,7 @@ VO: सत्रह सौ बयासी में, गवर्नर हॉ�
 On screen: 1782
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, eye level: many workers in 18th century Indian clothing carrying stones and baskets of earth along a half-built stone sea wall across a creek, a generic British official in a 1780s coat and tricorn hat watching with a rolled plan, golden afternoon light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, eye level: many workers in 18th century Indian clothing carrying stones and baskets of earth along a half-built stone sea wall across a creek, a generic British official in a 1780s coat and tricorn hat watching with a rolled plan, golden afternoon light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -198,7 +198,7 @@ VO: हॉर्नबी वेलार्ड।
 On screen: हॉर्नबी वेलार्ड
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, low angle looking up: a wave crashing against new grey stones of the sea wall, spray rising into the light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, low angle looking up: a wave crashing against new grey stones of the sea wall, spray rising into the light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Edit move: Locked camera, low at the waterline. One wave hits and the spray falls. End on wet stones.
 
@@ -207,7 +207,7 @@ VO: कहते हैं, दीवार बार-बार टूटती 
 On screen: कहते हैं...
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, eye level: a section of the unfinished stone sea wall slumping and sliding into the sea while workers step back safely on the shore, grey sky, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, eye level: a section of the unfinished stone sea wall slumping and sliding into the sea while workers step back safely on the shore, grey sky, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Edit move: Locked camera. The wall section slides into the water. End with the gap in the wall.
 
@@ -216,7 +216,7 @@ VO: फिर एक इंजीनियर के सपने के बा�
 On screen: लोक-कथा ✨
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium close-up, high angle looking down: a engineer in 18th century Indian clothing sleeping on a mat by a small oil lamp, a soft golden glow from the calm night sea visible through the open doorway, respectful and serene, no deity faces shown, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium close-up, high angle looking down: a engineer in 18th century Indian clothing sleeping on a mat by a small oil lamp, a soft golden glow from the calm night sea visible through the open doorway, respectful and serene, no deity faces shown, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Edit move: Very slow push-in. The golden glow outside brightens gently. End with the glow lighting his face.
 
@@ -225,7 +225,7 @@ VO: और बना महालक्ष्मी मंदिर।
 On screen: महालक्ष्मी मंदिर
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, low angle looking up: a small seaside temple with a saffron flag on rocks beside the finished stone sea wall, calm sea at sunrise, tiny respectful devotees on the steps, respectful depiction, no deity close-up, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, low angle looking up: a small seaside temple with a saffron flag on rocks beside the finished stone sea wall, calm sea at sunrise, tiny respectful devotees on the steps, respectful depiction, no deity close-up, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Edit move: Slow push-in toward the temple; the flag flutters. End on the temple steps.
 
@@ -235,7 +235,7 @@ On screen: लोक-कथा
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) snapping the scroll shut in one paw and raising one clawed finger of the other paw beside his muzzle, one eyebrow raised, dark archive background with a single warm rim light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) snapping the scroll shut in one paw and raising one clawed finger of the other paw beside his muzzle, one eyebrow raised, dark archive background with a single warm rim light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -247,7 +247,7 @@ VO: फिर बने कॉज़वे,
 On screen: कॉज़वे
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, low angle looking up: a horse cart rolling across a new stone causeway over shallow water, 19th century, soft morning light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, low angle looking up: a horse cart rolling across a new stone causeway over shallow water, 19th century, soft morning light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Edit move: Locked camera at road level. The cart rolls through frame left to right. End with the empty causeway.
 
@@ -256,7 +256,7 @@ VO: और उन्नीसवीं सदी के बीच तक, सा
 On screen: 7 ➜ 1
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme wide shot, top-down overhead view: the seven islands from the earlier shot, now joined into one long landmass by stone causeways and filled land, colonial buildings appearing, warm light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme wide shot, top-down overhead view: the seven islands from the earlier shot, now joined into one long landmass by stone causeways and filled land, colonial buildings appearing, warm light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -268,7 +268,7 @@ VO: और आज भी, कोस्टल रोड के लिए, सम�
 On screen: आज भी: कोस्टल रोड
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, high angle looking down: miniature model of a modern coastal highway curving along the sea beside a city skyline, a seawall of big stones holding back waves, sunset light (modern road and buildings allowed in this shot), vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, high angle looking down: miniature model of a modern coastal highway curving along the sea beside a city skyline, a seawall of big stones holding back waves, sunset light (modern road and buildings allowed in this shot), vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Edit move: Slow pull-back. Waves crash on the seawall. End on the full curve of the road.
 
@@ -278,7 +278,7 @@ On screen: बसाई नहीं...
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) standing on top of the stone seawall of the miniature model, waves breaking below his feet, city lights behind him, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) standing on top of the stone seawall of the miniature model, waves breaking below his feet, city lights behind him, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -291,7 +291,7 @@ On screen: समंदर से छीनी गई 🌊
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme close-up, high angle looking down: a grey-tawny wolf paw (SUTRADHAR) pressing down on wet land at the waterline, pushing the blue water back, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Extreme close-up, high angle looking down: a grey-tawny wolf paw (SUTRADHAR) pressing down on wet land at the waterline, pushing the blue water back, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -303,7 +303,7 @@ VO: समंदर से ज़मीन लेना, सही या ग़
 On screen: सही या ग़लत?
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: a balance scale on a rock by the sea: one pan holds a tiny city block, the other a tiny wave with fish, dusk light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, eye level: a balance scale on a rock by the sea: one pan holds a tiny city block, the other a tiny wave with fish, dusk light, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -316,7 +316,7 @@ On screen: कमेंट 👇
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) pointing one paw straight at the camera with his smug one-sided smirk, lantern glow on his fur, the balance scale by the sea in soft background, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) pointing one paw straight at the camera with his smug one-sided smirk, lantern glow on his fur, the balance scale by the sea in soft background, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -329,7 +329,7 @@ On screen: अगला: अवाबाई
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, high angle looking down: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) crouching beside a tabletop miniature model of a long stone causeway across a creek, reaching out with one paw to set a tiny lantern down at the start of the causeway, lantern set down beside him, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, high angle looking down: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) crouching beside a tabletop miniature model of a long stone causeway across a creek, reaching out with one paw to set a tiny lantern down at the start of the causeway, lantern set down beside him, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -342,7 +342,7 @@ On screen: फिर: हम्पी
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, over-the-shoulder: over-the-shoulder view from behind SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) as he stands before a large carved relief map of India on the archive wall, a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders, the lantern raised in one paw, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, over-the-shoulder: over-the-shoulder view from behind SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) as he stands before a large carved relief map of India on the archive wall, a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders, the lantern raised in one paw, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
@@ -355,7 +355,7 @@ On screen: फ़ॉलो करें ➕
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) seen from behind walking away from camera along the sea wall into the dusk, the lantern the only warm light, long shadow stretching toward the lens, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, no text, no letters, no watermark, no logos
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) seen from behind walking away from camera along the sea wall into the dusk, the lantern the only warm light, long shadow stretching toward the lens, vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
