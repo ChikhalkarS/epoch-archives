@@ -17,12 +17,12 @@ Entry point: `/make-video <ep-slug>` (`skills/studio/make-video`). Format: `stud
 
 ## Owner's Flow routine
 1. **Once:** build the Sutradhar sheet and the archive-room plate (prompts in `studio/ref/README.md`). Save them in Flow as ingredients.
-2. Settings per clip: model **Veo 3 (Quality, or Fast to save credits)**, aspect **16:9** (Shorts: 9:16), 1–2 outputs.
+2. Settings per clip: model **Veo 3.1 Lite** (10 credits per clip at 4, 6 or 8 s, so always pick **8 s**), aspect **16:9** (Shorts: 9:16), **1 output** (each output costs credits). Veo 3.1 Fast/Quality are retired on Dec 5, 2026. Credit table: `studio/FLOW_CREDITS.md`.
 3. Mode per clip, as named in the prompt header:
    - **Text to Video:** paste the prompt.
    - **Ingredients to Video:** attach the named ingredient(s) (Sutradhar sheet / archive room), then paste.
    - **Frames to Video:** use the named first frame (e.g. the last frame of the previous clip) for seamless continuation.
-4. Add each kept clip to **Scenebuilder** in shot order. Trim dead tails. Use **Extend** only where the prompt says so.
+4. Add each kept clip to **Scenebuilder** in shot order. Trim dead tails.
 5. Export the full episode from Scenebuilder.
 6. **Music:** add one track in YouTube Studio → Editor → Audio (YouTube Audio Library, free, monetisation-safe). That keeps one consistent score across clips; the prompts ask Flow for "no music".
 7. **Captions:** upload `episodes/<ep>/subtitles_hi.txt` in YouTube Studio → Subtitles → Upload file → **Without timing** (auto-sync). That gives free Hindi captions, with no editing software.
