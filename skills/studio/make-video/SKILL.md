@@ -1,6 +1,6 @@
 ---
 name: make-video
-description: Run the Epoch Archive Studios episode pipeline (Quiet Wolf-style hidden-history format, Google Flow clips, ffmpeg assembly) - research, Hindi script, Gate 1, shotlist, Flow prompts, owner generates clips, assembly, Gate 2, YouTube pack. Use when the owner types /make-video <ep-slug or city> or asks to produce, continue or resume an episode.
+description: Run the Epoch Archive Studios episode pipeline (Quiet Wolf-style hidden-history format, everything generated in Google Flow) - research, Hindi script, Gate 1, Flow prompts with dialogue, owner generates and stitches clips in Flow, Gate 2, YouTube pack. Use when the owner types /make-video <ep-slug or city> or asks to produce, continue or resume an episode.
 argument-hint: "<ep-slug | city> [from <stage>]"
 ---
 
@@ -14,12 +14,10 @@ Read first: `config/channel.json`, `studio/FORMAT.md`, `studio/STYLE_BIBLE.md`, 
 |---|---|---|---|
 | 1 Research | `city-research` | `research.md` | researched |
 | 2 Script | `hindi-script` (+ vendor `scriptwriting`) | `script_hi.md` | scripted |
-| **GATE 1** | Show: hook (3 tracks), belief → 3 reveals → myth → aaj bhi → closer, runtime, every disputed/legend flag. STOP until "approved". | | approved-script |
-| 3 Shotlist | `shotlist` (+ vendor `cinematic-director`) | `shotlist.md` | shotlisted |
-| 4 Flow prompts | `flow-prompts` (+ vendor `video-prompt-director`, `character-consistency`) | `flow_prompts.md` | prompts-ready |
-| 5 Clips | Owner generates in Flow → `clips/` | | clips-in |
-| 6 Assembly | `assemble` | `renders/` | rendered |
-| **GATE 2** | Render paths, durations, missing/placeholder shots, QC notes. STOP until "approved". | | approved |
-| 7 YouTube pack | `youtube-pack` | `youtube.md` | approved (owner uploads) |
+| **GATE 1** | Show: hook, belief → 3 reveals → myth → aaj bhi → closer, runtime, every disputed/legend flag. STOP until "approved". | | approved-script |
+| 3 Flow prompts | `flow-prompts` (+ vendor `cinematic-director`, `video-prompt-director`, `character-consistency`) | `flow_prompts.md` + `subtitles_hi.txt` | prompts-ready |
+| 4 Clips + stitch | Owner in Google Flow + Scenebuilder | export | clips-in |
+| **GATE 2** | QC the owner's export: voice/face drift, text artifacts, pacing. List clips to regenerate. STOP until "approved". | | approved |
+| 5 YouTube pack | `youtube-pack` | `youtube.md` | approved (owner uploads) |
 
 Hard rules (from CLAUDE.md): every claim has a fact ID; neutral wording for disputed history; free tools only, so ask before anything that costs money; no local AI models on the owner's Mac.

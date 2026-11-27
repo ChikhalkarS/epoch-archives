@@ -30,12 +30,12 @@ The format idea comes from Quiet Wolf (see `analysis/quiet-wolf.md`). All script
 ## 3. Devices (beyond narration)
 | Device | Spec | How it's made |
 |---|---|---|
-| **Animated map reveal** | Clay-style map of India zooms to the city, then a route or boundary draws on | Flow clip (clay map), or a static map + ffmpeg zoom/pan and a drawn line overlay |
-| **Evidence card** | Document, coin, inscription or photo of a public-domain item. Top bar: what it is. Bottom: **source name + year** and fact ID | Generated or public-domain image + ffmpeg overlay template (`studio/STYLE_BIBLE.md`) |
+| **Animated map reveal** | Clay-style map of India zooms to the city, then a route or boundary draws on | Flow clip: clay relief map, top-down push-in, clay pin pops up |
+| **Evidence object** | Clay document, coin, inscription or map on the archive desk; narrator names **source + year** aloud | Flow clip of the clay object; the source is spoken in the VO and listed in the description |
 | **Sutradhar** | Recurring claymation narrator character: hook, one myth check, closer | Flow clips using a fixed character description + reference sheet |
-| **Then-vs-now split** | Left: clay "then". Right: clay "now" (same framing). A wipe line | Two Flow clips + ffmpeg `hstack`/wipe |
-| **Sach ya Jhooth?** | A popular myth on screen, a 2 s pause, then a stamp: SACH / JHOOTH / VIVAADIT (disputed) | Overlay card + stamp SFX |
-| **Reveal sound design** | Low riser (1–2 s) → hit → 0.5 s silence before the key line | Own-synth SFX (`tools/audio/`) or royalty-free SFX logged in CREDITS |
+| **Then-vs-now** | Clay "then" clip, then clay "now" clip, same framing | Two consecutive Flow clips, same framing |
+| **Sach ya Jhooth?** | Sutradhar states the popular myth, pause, then stamps it: सच / झूठ / विवादित (spoken) | Sutradhar presses a clay stamp (green/red/amber), verdict spoken |
+| **Reveal sound design** | Low riser (1–2 s) → hit → 0.5 s silence before the key line | `SFX:` line in the Flow prompt |
 
 ## 4. Shorts
 - 30–45 s, **one fact each**, 9:16. Cut from the long EP (3–4 per EP).

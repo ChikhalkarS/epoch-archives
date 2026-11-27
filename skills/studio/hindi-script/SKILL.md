@@ -13,7 +13,7 @@ Message (one repeatable line), viewer (who, believing what), feeling arc, struct
 ## Structure (9–10 min ≈ 1,150–1,350 words at ~130 wpm)
 | Time | Section | Rules |
 |---|---|---|
-| 0:00–0:15 | Hook | Sutradhar mini scene acts out the belief (picture). Spoken line of 5–12 words that breaks it. On-screen text ≤ 6 words, not a copy of the VO. Then the hook question. |
+| 0:00–0:15 | Hook | Sutradhar on camera acts out the belief, then says a 5–12-word line that breaks it, then the hook question. Picture track: one strong clay action in frame 1. |
 | 0:15–0:17 | Logo sting | no VO |
 | 0:17–1:15 | Setup | Stakes for the viewer ("जो पानी आप पीते हैं…"), why the obvious answer fails, promise: "तीन राज़". |
 | 1:15–7:15 | राज़ 1, 2, 3 | Each: AND (context) → BUT (the flip) → THEREFORE (what it means) → open loop into the next. Signpost: "राज़ नंबर दो…". At least one evidence card per reveal. |
@@ -22,8 +22,8 @@ Message (one repeatable line), viewer (who, believing what), feeling arc, struct
 | 8:45–9:30 | Closer | Answer the hook in one line → moral line → next-EP question → catchphrase "इतिहास याद रखिए… सवाल पूछते रहिए।" One ask only (subscribe *or* comment, not both). |
 
 ## Hindi for the ear
-- Simple spoken Hindustani a 14-year-old follows. Mostly 8–14 words per sentence, with one short line for each payoff.
-- Numbers spoken as words ("सत्रह सौ चौरानवे"), digits on screen. One number per sentence.
+- Simple spoken Hindustani a 14-year-old follows. Write in **clip lines of ≤ 16 words** (one Flow clip = 8 s ≈ 16 words max). Mostly 8–14 words, with one short line for each payoff.
+- Numbers written as Hindi words ("सत्रह सौ चौरानवे"). One number per sentence. Sources are spoken ("इम्पीरियल गज़ेटियर, उन्नीस सौ आठ के मुताबिक़"), since Flow can't render on-screen text.
 - Mark pauses `[beat]` before each reveal line. Use commas for breath (TTS reads them).
 - Hindi AI tells to cut: "आइए जानते हैं", "क्या आप जानते हैं" as an opener, "दिलचस्प बात ये है", "सिर्फ़ X नहीं, बल्कि Y" (max once), "सोचिए…" (max once), stacked rhetorical question+answer, "एक नया अध्याय", "इतिहास के पन्नों में", "रोचक सफ़र".
 - No invented dialogue for real people. Legends: "कहते हैं" / "लोक-कथा के मुताबिक़". Disputed: "कुछ शोधकर्ता मानते हैं…, पर दूसरे…".
@@ -32,4 +32,4 @@ Message (one repeatable line), viewer (who, believing what), feeling arc, struct
 `[F#]` after every factual sentence. Run the fact audit: every tag exists in `research.md` with a status that allows the wording used.
 
 ## File format
-Brief, then the timed table `| Time | Section | Narration | On-screen text |`, then `## Short candidates` (3–4: shot range, standalone hook, why it works alone) and `## Flags for owner`.
+Brief, then the timed table `| Time | Section | Narration (one clip line per row) |`, then `## Short candidates` (3–4: shot range, standalone hook, why it works alone) and `## Flags for owner`.

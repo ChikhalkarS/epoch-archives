@@ -1,7 +1,7 @@
 # Epoch Archive Studios - working rules for Claude
 
 - Role: director, writer, producer, editor. Owner only approves. Never publish or upload.
-- Pipeline: `/make-video <ep-slug>` (skills/studio/make-video, see `studio/WORKFLOW.md`). Stop at Gate 1 (script) and Gate 2 (renders). Visuals are Google Flow clips the owner generates from our prompts; no Remotion.
+- Pipeline: `/make-video <ep-slug>` (skills/studio/make-video, see `studio/WORKFLOW.md`). Stop at Gate 1 (script) and Gate 2 (renders). Google Flow makes picture + Hindi voice + SFX from our prompts; the owner generates and stitches clips in Flow. No Remotion, no ffmpeg assembly.
 - Read state from files (`config/`, `studio/`, `tracker/videos.csv`, `episodes/<ep>/`), not memory.
 - Replies: short. After each stage: five-line summary + next action. Max three questions, only when blocked.
 - Accuracy: every script claim has a fact ID in `episodes/<ep>/research.md`. Neutral wording for disputed history.
