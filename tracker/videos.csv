@@ -1,6 +1,6 @@
 id,slug,city,state,mix,hook_question,angle,status,updated,notes
 00,delhi,Delhi,Delhi,well-known,"Dilli kitni baar basi aur kitni baar ujdi?","Seven (or more) cities of Delhi",idea,2026-11-27,"Pilot exists in legacy/delhi-pilot (Hinglish, 5 min). Redo in new format later"
-01,bhopal,Bhopal,Madhya Pradesh,surprising,"Kya aap jaante hain is shehar mein itni jheelein kyun hain?","Raja Bhoj's lake; city of Begums who ruled for over a century",idea,2026-11-27,
+01,bhopal,Bhopal,Madhya Pradesh,surprising,"Kya aap jaante hain is shehar mein itni jheelein kyun hain?","Raja Bhoj's lake; city of Begums who ruled for over a century",scripted,2026-11-27,"Gate 1 pending"
 02,mumbai,Mumbai,Maharashtra,well-known,"Kya ek poora shehar kabhi dahez mein diya gaya tha?","Seven islands, Portuguese dowry to England (1661), land joined by reclamation",idea,2026-11-27,
 03,hampi,Hampi,Karnataka,surprising,"Duniya ke sabse ameer shehron mein se ek, sirf khandahar kaise ban gaya?","Vijayanagara capital, foreign travellers' accounts, fall after 1565",idea,2026-11-27,
 04,jaipur,Jaipur,Rajasthan,well-known,"Jaipur gulabi kyun hai, aur ye rang kiske liye lagaya gaya?","Planned city of Jai Singh II; painted pink for a royal visit",idea,2026-11-27,

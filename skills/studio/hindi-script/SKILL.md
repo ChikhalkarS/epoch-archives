@@ -13,7 +13,7 @@ Input: `research/<slug>/sources.md` + `notes.md`. Output: `scripts/<slug>.md`.
 - Numbers as words where the TTS reads them better (e.g. "सत्रह सौ सत्ताईस" or "1727" - test once per voice and note in channel.json).
 - Write for the ear: questions, "सोचिए...", "अब यहाँ कहानी पलटती है...". No lists read aloud.
 
-## Structure (8-12 min ≈ 1,100-1,600 Hindi words at the chosen voice rate)
+## Structure (8-12 min ≈ 1,000-1,400 Hindi words; Madhur at -5% measured ≈ 119 words/min)
 1. **Hook (0-5 s)**: one curiosity question. Example: "क्या आप जानते हैं, इस शहर में इतनी झीलें क्यों हैं?"
 2. **Promise (5-30 s)**: what we will find out + a hint of the twist. No channel intro, no "like and subscribe" here.
 3. **Beats (5-7)**: founding -> rise -> conflict -> twist -> change -> today. Each beat ends with an open loop.

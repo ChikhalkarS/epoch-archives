@@ -9,20 +9,38 @@
     "english_version": false
   },
   "formats": {
-    "long": { "min_minutes": 8, "max_minutes": 12, "resolution": "1920x1080", "fps": 30 },
-    "short": { "min_seconds": 30, "max_seconds": 55, "resolution": "1080x1920", "fps": 30, "per_long_video": [2, 3] }
+    "long": {
+      "min_minutes": 8,
+      "max_minutes": 12,
+      "resolution": "1920x1080",
+      "fps": 30
+    },
+    "short": {
+      "min_seconds": 30,
+      "max_seconds": 55,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "per_long_video": [
+        2,
+        3
+      ]
+    }
   },
   "hook": {
     "rule": "Open with a curiosity question that lands within the first 5 seconds",
     "example": "Kya aap jaante hain is shehar mein itni jheelein kyun hain?"
   },
   "voice": {
-    "status": "PENDING_OWNER_PICK",
+    "status": "CHOSEN 2026-11-27",
     "engine": "edge-tts",
     "voice_id": "hi-IN-MadhurNeural",
     "rate": "-5%",
     "pitch": "+0Hz",
-    "candidates": ["edge-tts:hi-IN-MadhurNeural", "edge-tts:hi-IN-SwaraNeural", "gtts:hi"],
+    "candidates": [
+      "edge-tts:hi-IN-MadhurNeural",
+      "edge-tts:hi-IN-SwaraNeural",
+      "gtts:hi"
+    ],
     "notes": "Change voice_id after owner picks. ElevenLabs free tier is non-commercial, so it is not used for monetised uploads."
   },
   "style": {
