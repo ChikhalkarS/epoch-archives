@@ -54,6 +54,7 @@
     "until_2027_01_31": "1000 subs + 4000 public watch hours/12 months OR 10M Shorts views/90 days",
     "from_2027_02_01": "1000 subs + 8000 watch hours/365 days OR 20M Shorts views/90 days",
     "earlier_tier": "500 subs + 3000 watch hours/12 months OR 3M Shorts views/90 days (fan funding, Shopping)",
-    "cadence": "1 long episode + 3-4 Shorts per week"
+    "cadence": "4 Shorts/week (Mon, Tue, Thu, Sat) + 1 long episode every 2 weeks (Sun); Google AI Pro credits",
+    "target": "1000 subs + 8000 long-form watch hours within 12 months of EP1; stretch: in YPP before 2027-02-01"
   }
 }

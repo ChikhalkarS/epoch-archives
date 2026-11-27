@@ -43,10 +43,11 @@ The format idea comes from Quiet Wolf (see `analysis/quiet-wolf.md`). All script
 - Re-voice the line if the long-form line doesn't stand alone. Captions are always burned in.
 - The Short's related-video link points to the long EP.
 
-## 5. Cadence
-- **Weekly:** 1 long EP + 3–4 Shorts.
-- Suggested slots: long on Saturday. Shorts on Mon, Wed, Thu (+ Fri).
-- Batch: research and script 2 EPs ahead. Flow clips 1 EP ahead.
+## 5. Cadence (owner has Google AI Pro; decided 2026-11-27)
+- **Long:** 1 episode every 2 weeks, Sunday. Target ~8 min, about 55–60 Flow clips (EP1 is the 87-clip flagship).
+- **Shorts:** 4 per week (Mon, Tue, Thu, Sat), 30–45 s, 5–6 clips each. Per long EP: 4 cut from that EP + 4 standalone facts (tease the next EP).
+- **Credit budget/month** (Veo 3.1 Lite, 10 credits/clip): 2,500 credits = 50/day free (~1,500) + Pro 1,000 ≈ 250 clips. Need: 2 long × 57 + 17 Shorts × 6 ≈ 216 clips + ~15% retakes. Tight, so 1 output per generation.
+- Calendar: `studio/CALENDAR.md`. Review at week 8: subs per Short vs watch hours per long EP.
 
 ## 6. Sources (non-negotiable)
 - Description format: `Author/Org, "Title", Publisher, Year [F-ID]`, 3–8 sources, with hedges written out ("historians differ on…").

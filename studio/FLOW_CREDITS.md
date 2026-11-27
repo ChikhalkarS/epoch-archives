@@ -20,3 +20,6 @@ Source: https://support.google.com/flow/answer/16526234 ("Limits are subject to 
 | Weekly: 5 Shorts | ~30 | ~300 | 6 days, fits in free |
 | + 1 long every 2 weeks | +~44/week | +~440 | needs Pro (+1,000/month) |
 Add ~20% for retakes. Check that Lite produces the Hindi voice and SFX well before committing (test C01 and C06 first).
+
+## Our plan (Google AI Pro)
+~2,500 credits/month (≈1,500 daily free + 1,000 Pro) ≈ 250 Lite clips. 2 long EPs (~57 clips each) + 17 Shorts (~6 each) ≈ 216 clips, leaving ~15% for retakes. EP1's month runs over (87 clips), so keep retakes for the Sutradhar shots only.
