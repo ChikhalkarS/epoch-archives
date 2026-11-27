@@ -81,12 +81,12 @@ if (m >= nLines - 1 && nLines > 1) {
   for (let i = nLines - 1; i > 0; i--) { k = from[i][k]; pick.unshift(k); }
   cuts = pick.map((k, i) => {
     const sc = segCost(i, i === 0 ? 0 : pick[i - 1], k);
-    return { t: Math.max(P[k].s, P[k].e - 0.08), pause: +(P[k].e - P[k].s).toFixed(2), score: +sc.toFixed(2) };
+    return { t: Math.max(P[k].s, P[k].e - 0.08), ps: P[k].s, pe: P[k].e, pause: +(P[k].e - P[k].s).toFixed(2), score: +sc.toFixed(2) };
   });
 } else {
   method = 'word-count estimate (not enough pauses found)';
   let acc = 0; const W = wordsOf.reduce((a, b) => a + b, 0);
-  for (let i = 0; i < nLines - 1; i++) { acc += wordsOf[i]; cuts.push({ t: lead + (tailStart - lead) * (acc / W), pause: 0, score: null }); }
+  for (let i = 0; i < nLines - 1; i++) { acc += wordsOf[i]; const tt = lead + (tailStart - lead) * (acc / W); cuts.push({ t: tt, ps: tt, pe: tt, pause: 0, score: null }); }
 }
 
 const bounds = [0, ...cuts.map((c) => c.t), total];
@@ -97,7 +97,9 @@ const out = shots.map((s, i) => {
   if (dur > 8) flags.push('longer than one 8 s clip: split the line, or the edit holds the last frame');
   if (dur < 0.8) flags.push('very short: fine for a quick cut, or merge with the next line');
   if (i < cuts.length && (cuts[i].score === null || cuts[i].score > 1.2 || cuts[i].pause < 0.2)) flags.push('cut point uncertain: check by ear');
-  return { n: s.n, sid: s.sid, vo: s.vo, start, end, dur, est: s.est, flags };
+  // where the words are inside this shot (for lip-sync): from the end of the previous pause to the start of the next
+  const sp0 = i === 0 ? lead : cuts[i - 1].pe, sp1 = i === cuts.length ? tailStart : cuts[i].ps;
+  return { n: s.n, sid: s.sid, vo: s.vo, start, end, dur, speech_start: +sp0.toFixed(3), speech_end: +sp1.toFixed(3), est: s.est, flags };
 });
 const res = { slug, id, source: voice.replace(r('') + '/', ''), total: +total.toFixed(2), method, measured: new Date().toISOString().slice(0, 10), shots: out };
 fs.writeFileSync(r('shorts', slug, `${id}.timing.json`), JSON.stringify(res, null, 1) + '\n');

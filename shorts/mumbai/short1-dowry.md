@@ -1,5 +1,5 @@
 # असली सीन - एपिसोड 1: दहेज में मिला शहर
-<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v6. Edit those, not this file. -->
+<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v7. Edit those, not this file. -->
 City: मुंबई | Format: 9:16, 1080x1920 | Words: 169 | measured voice: 81.74 s | Shots: 24 (15 clips, 9 stills) | Status: waiting on Gate 1
 
 **Twist:** दहेज हाथ आने में 4 साल लगे, फिर बोझ निकला, और £10 सालाना किराए पर दे दिया  
@@ -51,8 +51,8 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 |---|---|---|---|---|---|---|---|
 | 1 | hook | दहेज में सोना नहीं, घोड़े नहीं... | CU / low | clip | 2.86 | दहेज में पूरा शहर?! | F8 |
 | 2 | hook | पूरा एक शहर! | MS / top | clip | 1.49 | पूरा शहर! | F8 |
-| 3 | brand | स्वागत है, असली सीन के पहले एपिसोड में। | WS / low | clip (walk_in v3) | 3.8 | असली सीन 🐺 | - |
-| 4 | brand | मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v3) | 4.17 | आज: मुंबई | - |
+| 3 | brand | स्वागत है, असली सीन के पहले एपिसोड में। | WS / low | clip (walk_in v4), speaks | 3.8 | असली सीन 🐺 | - |
+| 4 | brand | मैं हूँ सूत्रधार, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v4), speaks | 4.17 | आज: मुंबई | - |
 | 5 | story | सोलह सौ इकसठ। | ECU / eye | still | 2.59 | 1661 | F8 |
 | 6 | story | पुर्तगाल की राजकुमारी कैथरीन की शादी तय हुई, इंग्लैंड के राजा चार्ल्स द्वितीय से। | WS / eye | still | 5.94 | कैथरीन 👑 चार्ल्स | F8 |
 | 7 | story | तब मुंबई, सात छोटे टापू थी। | EWS / top | still | 3.47 | 7 टापू | F7 |
@@ -60,19 +60,19 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 | 9 | story | शादी के समझौते में, दहेज की लिस्ट बनी। | ECU / high | still | 3.49 | दहेज की लिस्ट | F8 |
 | 10 | story | अफ़्रीका का टैंजियर। | MCU / eye | still | 2.1 | टैंजियर 🌍 | F8 |
 | 11 | story | और भारत का, बॉम्बे। | CU / high | still | 2.66 | + बॉम्बे 🏝️ | F8 |
-| 12 | twist | लेकिन ट्विस्ट यहाँ है। | CU / eye | clip (cut_in_finger v3) | 1.88 | ट्विस्ट! | - |
+| 12 | twist | लेकिन ट्विस्ट यहाँ है। | CU / eye | clip (cut_in_finger v4), speaks | 1.88 | ट्विस्ट! | - |
 | 13 | story | दहेज हाथ आने में ही, चार साल लग गए। | MS / eye | still | 3.73 | 4 साल ⏳ | F35 F10 |
 | 14 | story | और तब पता चला, ये तोहफ़ा नहीं, बहुत महँगा बोझ है। | WS / high | still | 4.99 | तोहफ़ा या बोझ? | F11 |
-| 15 | interaction | सोचिए, आप राजा होते, तो क्या करते? | MCU / low | clip (lean_in_question v3) | 3.65 | आप क्या करते? 🤔 | - |
+| 15 | interaction | सोचिए, आप राजा होते, तो क्या करते? | MCU / low | clip (lean_in_question v4), speaks | 3.65 | आप क्या करते? 🤔 | - |
 | 16 | payoff | राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे, ईस्ट इंडिया कंपनी को किराए पर दे दिया। | MS / ots | clip | 6.32 | 1668: किराए पर! | F12 |
-| 17 | payoff | और किराया? | MCU / low | clip (lean_in_question v3) | 1.24 | किराया? | - |
+| 17 | payoff | और किराया? | MCU / low | clip (lean_in_question v4), speaks | 1.24 | किराया? | - |
 | 18 | payoff | साल का सिर्फ़ दस पाउंड! | ECU / high | clip | 2.91 | सिर्फ़ £10 / साल 😳 | F12 |
 | 19 | payoff | वही दहेज वाला टापू, आज भारत की आर्थिक राजधानी कहलाता है। मुंबई। | EWS / low | clip | 6.39 | दहेज ➜ मुंबई | F29 |
-| 20 | comment | अब बताइए, आज मुंबई का किराया कितना होना चाहिए? | MS / high | clip (touch_diorama v3) | 3.62 | आज का किराया? | - |
-| 21 | comment | कमेंट में लिखिए। | CU / low | clip (point_at_viewer v3) | 1.78 | कमेंट 👇 | - |
-| 22 | outro | अगली कहानी: मुंबई की वो ज़मीन, जो कभी समंदर थी। | MS / high | clip (touch_diorama v3) | 4.83 | अगला: समंदर वाली ज़मीन 🌊 | - |
-| 23 | outro | और फिर चलेंगे, हम्पी। | MS / ots | clip (map_tap_ots v3) | 2.22 | फिर: हम्पी | - |
-| 24 | follow | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | WS / eye | clip (walk_off v3) | 2.83 | फ़ॉलो करें ➕ | - |
+| 20 | comment | अब बताइए, आज मुंबई का किराया कितना होना चाहिए? | MS / high | clip (touch_diorama v4), speaks | 3.62 | आज का किराया? | - |
+| 21 | comment | कमेंट में लिखिए। | CU / low | clip (point_at_viewer v4), speaks | 1.78 | कमेंट 👇 | - |
+| 22 | outro | अगली कहानी: मुंबई की वो ज़मीन, जो कभी समंदर थी। | MS / high | clip (touch_diorama v4), speaks | 4.83 | अगला: समंदर वाली ज़मीन 🌊 | - |
+| 23 | outro | और फिर चलेंगे, हम्पी। | MS / eye | clip (map_present v1), speaks | 2.22 | फिर: हम्पी | - |
+| 24 | follow | फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए। | CU / low | clip (sign_off v1), speaks | 2.83 | फ़ॉलो करें ➕ | - |
 
 ## Shot prompts
 Negative prompt (if supported): `photorealistic, real photograph, 3D render, CGI, claymation, plasticine, glossy plastic, anime, chibi, cute baby proportions, watercolor wash, blurry lines, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood`
@@ -112,7 +112,7 @@ Image prompt:
 ```
 Motion prompt:
 ```
-Camera tracks slowly backward at his walking pace. He walks from mid-aisle toward the lens and stops in a medium shot, lifting his eyes to the viewer with his smug one-sided smirk. Lantern glow sways on the shelves. End on him standing still, facing camera. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws). Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
+Camera tracks slowly backward at his walking pace. He walks toward the lens, lifts his eyes to the viewer and stops in a medium shot, lantern glow swaying on the shelves. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
 ### short1-s04 | brand | MCU low | clip
@@ -125,7 +125,7 @@ Image prompt:
 ```
 Motion prompt:
 ```
-Locked camera with a slow push-in. He unrolls the scroll; the tiny diorama rises out of it and settles. End with his eyes looking over the diorama straight into the lens. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws). Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
+Locked camera with a slow push-in. He unrolls the scroll toward the lens and the tiny model rises out of it, his eyes looking over it into the lens. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
 ### short1-s05 | story | ECU eye | still
@@ -202,7 +202,7 @@ Image prompt:
 ```
 Motion prompt:
 ```
-Quick short push-in, then hold. He snaps the scroll shut and raises one finger. End frozen on the raised finger and raised brow. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws). Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
+Quick short push-in, then hold. He snaps the scroll shut and raises one finger beside his muzzle, one brow raised. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
 ### short1-s13 | story | MS eye | still
@@ -235,7 +235,7 @@ Image prompt:
 ```
 Motion prompt:
 ```
-Locked camera. He leans in toward the lens, one ear twitches, the raised brow lifts. End with his face close, waiting for an answer. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws). Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
+Locked camera. He leans in toward the lens, one ear twitching, the raised brow lifting. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
 ### short1-s16 | payoff | MS ots | clip
@@ -261,7 +261,7 @@ Image prompt:
 ```
 Motion prompt:
 ```
-Locked camera. He leans in toward the lens, one ear twitches, the raised brow lifts. End with his face close, waiting for an answer. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws). Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
+Locked camera. He leans in toward the lens, one ear twitching, the raised brow lifting. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
 ### short1-s18 | payoff | ECU high | clip
@@ -298,7 +298,7 @@ Image prompt:
 ```
 Motion prompt:
 ```
-Slow descending crane toward his paw. He reaches out and tap the top of the tallest tower with one claw. End with the paw resting on the diorama and his eyes lifting to the camera. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws). Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
+Slow descending crane toward him. He reaches out and tap the top of the tallest tower with one claw, then lifts his face to the camera. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
 ### short1-s21 | comment | CU low | clip
@@ -311,7 +311,7 @@ Image prompt:
 ```
 Motion prompt:
 ```
-Locked camera, very slight push-in. His paw comes up and points at the lens. End on the point, paw sharp, face just behind it. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws). Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
+Locked camera, very slight push-in. His paw comes up and points straight at the lens. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
 ### short1-s22 | outro | MS high | clip
@@ -324,33 +324,33 @@ Image prompt:
 ```
 Motion prompt:
 ```
-Slow descending crane toward his paw. He reaches out and press the road, which cracks open to show blue sea water underneath. End with the paw resting on the diorama and his eyes lifting to the camera. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws). Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
+Slow descending crane toward him. He reaches out and press the road, which cracks open to show blue sea water underneath, then lifts his face to the camera. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
-### short1-s23 | outro | MS ots | clip
+### short1-s23 | outro | MS eye | clip
 VO: और फिर चलेंगे, हम्पी।
 On screen: फिर: हम्पी
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, over-the-shoulder: over-the-shoulder view from behind SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) as he stands before a large carved relief map of India on the archive wall, a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders, the lantern raised in one paw. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium shot, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) standing beside a large carved relief map of India on the archive wall, body turned toward the camera, one paw resting on the map at a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders, the lantern hanging from his other paw. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
-Locked camera behind his shoulder. He reaches up and taps the glowing marker; it pulses brighter. End with his paw on the marker and his head turning halfway back toward camera. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws). Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
+Locked camera. Facing the lens, he taps the marker on the map; it pulses brighter while he keeps his eyes on the viewer. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
-### short1-s24 | follow | WS eye | clip
+### short1-s24 | follow | CU low | clip
 VO: फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।
 On screen: फ़ॉलो करें ➕
 References: SUTRADHAR
 Image prompt:
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Wide shot, eye level: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) seen from behind walking away from camera down the archive aisle into the shadows, the lantern the only warm light, long shadow stretching toward the lens. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) close to the camera at the end of a dark archive aisle, lantern held low so its warm light catches his spectacles and the underside of his muzzle, the archive aisle receding into shadow behind him. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
 ```
 Motion prompt:
 ```
-Locked camera. He walks away into the dark, stops, and looks back over his shoulder at the viewer for a beat. End on the over-the-shoulder glance with the lantern glowing. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws). Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
+Locked camera. He looks into the lens; when he finishes he gives a slow knowing nod, turns and steps away into the shadows, his lantern glowing. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
 ## Edit notes

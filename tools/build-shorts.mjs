@@ -51,6 +51,7 @@ function expandShot(shot, intro) {
     prompt = fill(t.prompt, vars); motion = fill(t.motion, vars);
     size = size || t.size; angle = angle || t.angle; asset = asset || t.asset;
     s.template = `${s.narrator} v${t.version}`;
+    if (s.speaks === undefined) s.speaks = !!t.speaks;
   } else {
     prompt = fill(s.prompt, charTags); motion = s.motion;
   }
@@ -62,6 +63,7 @@ function expandShot(shot, intro) {
   const lock = uniq.length ? ` Character lock: ${lockOf(uniq)}.` : '';
   s.fullPrompt = `${ST.prefix}${framing}: ${prompt}.${lock}${ST.suffix_9x16}`;
   s.motionFull = motion + (uniq.length ? ` Keep ${uniq.join(', ')} identical to the reference sheet(s).${lock}` : '');
+  s.speaks = !!s.speaks && uniq.includes('SUTRADHAR');
   Object.assign(s, { size, angle, asset, chars: uniq, scene: prompt, motionRaw: motion, framing, lock });
   return s;
 }
@@ -141,7 +143,7 @@ function renderShort(sh) {
   L.push('## Shot list (one line = one shot)');
   L.push(`| # | Role | Line | Size / angle | Type | Sec (${tm ? 'measured' : 'est.'}) | On screen | Facts |`);
   L.push('|---|---|---|---|---|---|---|---|');
-  shots.forEach((s, i) => L.push(`| ${i + 1} | ${s.role} | ${s.vo} | ${s.size} / ${s.angle} | ${s.asset}${s.template ? ` (${s.template})` : ''} | ${secs(0, i)} | ${s.onscreen || ''} | ${(s.facts || []).join(' ') || '-'} |`));
+  shots.forEach((s, i) => L.push(`| ${i + 1} | ${s.role} | ${s.vo} | ${s.size} / ${s.angle} | ${s.asset}${s.template ? ` (${s.template})` : ''}${s.speaks ? ', speaks' : ''} | ${secs(0, i)} | ${s.onscreen || ''} | ${(s.facts || []).join(' ') || '-'} |`));
   L.push('');
   L.push('## Shot prompts');
   L.push(`Negative prompt (if supported): \`${ST.negative}\``);
@@ -180,7 +182,7 @@ function renderShort(sh) {
   L.push('');
   fs.writeFileSync(path.join(root, `shorts/${slug}/${sh.id}.md`), L.join('\n'));
   fs.writeFileSync(path.join(root, `shorts/${slug}/${sh.id}-voice.txt`), shots.map((s) => s.tts).join('\n') + '\n');
-  fs.writeFileSync(path.join(root, `shorts/${slug}/${sh.id}.shots.json`), JSON.stringify({ slug, id: sh.id, episode: sh.episode, built_from_library: lib.library_version, shots: shots.map((s, i) => ({ n: i + 1, sid: `${sh.id.split('-')[0]}-s${String(i + 1).padStart(2, '0')}`, role: s.role, vo: s.vo, tts: s.tts, words: words(s.tts), est: s.est, size: s.size, angle: s.angle, asset: s.asset, onscreen: s.onscreen || '' })) }, null, 1) + '\n');
+  fs.writeFileSync(path.join(root, `shorts/${slug}/${sh.id}.shots.json`), JSON.stringify({ slug, id: sh.id, episode: sh.episode, built_from_library: lib.library_version, shots: shots.map((s, i) => ({ n: i + 1, sid: `${sh.id.split('-')[0]}-s${String(i + 1).padStart(2, '0')}`, role: s.role, vo: s.vo, tts: s.tts, words: words(s.tts), est: s.est, size: s.size, angle: s.angle, asset: s.asset, speaks: !!s.speaks, onscreen: s.onscreen || '' })) }, null, 1) + '\n');
   renderFlow(sh, shots);
   const uses = shots.flatMap((s, i) => s.chars.map((k) => [k, `${sh.id.split('-')[0]}-s${String(i + 1).padStart(2, '0')} (${s.size} ${s.angle}, ${s.asset})`]));
   return { id: sh.id, words: w, shots: shots.length, clips, uses };
@@ -206,15 +208,15 @@ function renderFlow(sh, shots) {
   L.push('3. Clips: `ingredients` shots attach the listed sheets; `text` shots need nothing (or attach the still as first frame in Frames to Video for more control).');
   L.push('4. Name files by shot id (e.g. `' + sh.id.split('-')[0] + '-s01.mp4`) and drop them in `assets/' + slug + '/shorts/' + sh.id + '/`.');
   L.push('');
-  L.push(`| # | Line | Shot | Flow mode | Attach | Use (s${tm ? '' : ', est.'}) |`);
-  L.push('|---|---|---|---|---|---|');
+  L.push(`| # | Line | Shot | Flow mode | Speaks on screen | Attach | Use (s${tm ? '' : ', est.'}) |`);
+  L.push('|---|---|---|---|---|---|---|');
   const modeOf = (s) => (s.asset === 'still' ? 'image' : s.chars.length ? 'ingredients' : 'text');
-  shots.forEach((s, i) => L.push(`| ${i + 1} | ${s.vo} | ${s.size} ${s.angle} | ${modeOf(s)} | ${s.chars.join(', ') || '-'} | ${secs(0, i)} |`));
+  shots.forEach((s, i) => L.push(`| ${i + 1} | ${s.vo} | ${s.size} ${s.angle} | ${modeOf(s)} | ${s.speaks ? 'yes (lip-sync)' : '-'} | ${s.chars.join(', ') || '-'} | ${secs(0, i)} |`));
   L.push('');
   shots.forEach((s, i) => {
     const id = `${sh.id.split('-')[0]}-s${String(i + 1).padStart(2, '0')}`;
     const mode = modeOf(s);
-    L.push(`## ${id} | ${mode} | ${s.size} ${s.angle} | use first ${secs(0, i)} s${tm ? '' : ' (estimate)'}`);
+    L.push(`## ${id} | ${mode} | ${s.size} ${s.angle} | ${s.speaks ? 'SPEAKS (lip-sync) | keep the whole 8 s clip' : `use first ${secs(0, i)} s${tm ? '' : ' (estimate)'}`}`);
     L.push(`Line: ${s.vo}`);
     if (s.onscreen) L.push(`On screen (added in edit): ${s.onscreen}`);
     L.push(`Flow: ${F.modes[mode]}${s.chars.length ? ` Attach: ${s.chars.map((k) => lib.characters[k].reference_images.find((r) => r.endsWith('sheet.png'))).join(', ')}.` : ''}`);
@@ -231,11 +233,18 @@ function renderFlow(sh, shots) {
       L.push('', '[Subjects and Relationships]');
       L.push(`${s.framing}: ${s.scene}.`);
       L.push('', '[Event Script]');
-      L.push(`Stage 1: Opening state as described above. ${s.motionRaw} The video ends holding this final state.`);
+      if (s.speaks) {
+        const SP = lib.speech;
+        const line = s.vo.replace(/\.\.\./g, ',').replace(/\s+/g, ' ').trim();
+        L.push(`Stage 1 - line: Opening state as described above. From the first second, SUTRADHAR looks into the lens and says ${SP.voice_desc}: {${line}} While he speaks: ${s.motionRaw} ${SP.mouth} Only SUTRADHAR speaks.`);
+        L.push('Stage 2 - hold: Continue from the previous stage. The line is finished; he holds the final pose with his mouth closed in his smirk, and the video ends holding this state.');
+      } else {
+        L.push(`Stage 1: Opening state as described above. ${s.motionRaw} The video ends holding this final state.`);
+      }
       L.push('', '[Visual and Camera Treatment]');
       L.push(`${s.framing}, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. ${F.style_line} Every sign, page and banner is blank or carries unreadable squiggles.`);
       L.push('', '[Audio]');
-      L.push(`Audio: ${s.sfx || 'quiet ambient room tone'}. No music, no speech.`);
+      L.push(s.speaks ? lib.speech.audio : `Audio: ${s.sfx || 'quiet ambient room tone'}. No music, no speech.`);
       L.push('', '[Maintain Consistency]');
       L.push(`${s.chars.length ? `Keep ${s.chars.join(', ')} identical to the ingredients in face, ${s.chars.includes('SUTRADHAR') ? 'fur, spectacles, ' : ''}clothing and proportions in every frame. Character lock: ${lockOf(s.chars)}. ` : ''}Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.`);
     }

@@ -2,7 +2,7 @@
  "slug": "mumbai",
  "id": "short1-dowry",
  "episode": 1,
- "built_from_library": 6,
+ "built_from_library": 7,
  "shots": [
   {
    "n": 1,
@@ -15,6 +15,7 @@
    "size": "CU",
    "angle": "low",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "दहेज में पूरा शहर?!"
   },
   {
@@ -28,6 +29,7 @@
    "size": "MS",
    "angle": "top",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "पूरा शहर!"
   },
   {
@@ -41,6 +43,7 @@
    "size": "WS",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "असली सीन 🐺"
   },
   {
@@ -54,6 +57,7 @@
    "size": "MCU",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "आज: मुंबई"
   },
   {
@@ -67,6 +71,7 @@
    "size": "ECU",
    "angle": "eye",
    "asset": "still",
+   "speaks": false,
    "onscreen": "1661"
   },
   {
@@ -80,6 +85,7 @@
    "size": "WS",
    "angle": "eye",
    "asset": "still",
+   "speaks": false,
    "onscreen": "कैथरीन 👑 चार्ल्स"
   },
   {
@@ -93,6 +99,7 @@
    "size": "EWS",
    "angle": "top",
    "asset": "still",
+   "speaks": false,
    "onscreen": "7 टापू"
   },
   {
@@ -106,6 +113,7 @@
    "size": "MS",
    "angle": "low",
    "asset": "still",
+   "speaks": false,
    "onscreen": "पुर्तगाली राज"
   },
   {
@@ -119,6 +127,7 @@
    "size": "ECU",
    "angle": "high",
    "asset": "still",
+   "speaks": false,
    "onscreen": "दहेज की लिस्ट"
   },
   {
@@ -132,6 +141,7 @@
    "size": "MCU",
    "angle": "eye",
    "asset": "still",
+   "speaks": false,
    "onscreen": "टैंजियर 🌍"
   },
   {
@@ -145,6 +155,7 @@
    "size": "CU",
    "angle": "high",
    "asset": "still",
+   "speaks": false,
    "onscreen": "+ बॉम्बे 🏝️"
   },
   {
@@ -158,6 +169,7 @@
    "size": "CU",
    "angle": "eye",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "ट्विस्ट!"
   },
   {
@@ -171,6 +183,7 @@
    "size": "MS",
    "angle": "eye",
    "asset": "still",
+   "speaks": false,
    "onscreen": "4 साल ⏳"
   },
   {
@@ -184,6 +197,7 @@
    "size": "WS",
    "angle": "high",
    "asset": "still",
+   "speaks": false,
    "onscreen": "तोहफ़ा या बोझ?"
   },
   {
@@ -197,6 +211,7 @@
    "size": "MCU",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "आप क्या करते? 🤔"
   },
   {
@@ -210,6 +225,7 @@
    "size": "MS",
    "angle": "ots",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "1668: किराए पर!"
   },
   {
@@ -223,6 +239,7 @@
    "size": "MCU",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "किराया?"
   },
   {
@@ -236,6 +253,7 @@
    "size": "ECU",
    "angle": "high",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "सिर्फ़ £10 / साल 😳"
   },
   {
@@ -249,6 +267,7 @@
    "size": "EWS",
    "angle": "low",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "दहेज ➜ मुंबई"
   },
   {
@@ -262,6 +281,7 @@
    "size": "MS",
    "angle": "high",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "आज का किराया?"
   },
   {
@@ -275,6 +295,7 @@
    "size": "CU",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "कमेंट 👇"
   },
   {
@@ -288,6 +309,7 @@
    "size": "MS",
    "angle": "high",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "अगला: समंदर वाली ज़मीन 🌊"
   },
   {
@@ -299,8 +321,9 @@
    "words": 4,
    "est": 2,
    "size": "MS",
-   "angle": "ots",
+   "angle": "eye",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "फिर: हम्पी"
   },
   {
@@ -311,9 +334,10 @@
    "tts": "फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।",
    "words": 8,
    "est": 3.2,
-   "size": "WS",
-   "angle": "eye",
+   "size": "CU",
+   "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "फ़ॉलो करें ➕"
   }
  ]

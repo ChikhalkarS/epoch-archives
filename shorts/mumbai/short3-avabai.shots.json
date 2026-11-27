@@ -2,7 +2,7 @@
  "slug": "mumbai",
  "id": "short3-avabai",
  "episode": 3,
- "built_from_library": 6,
+ "built_from_library": 7,
  "shots": [
   {
    "n": 1,
@@ -15,6 +15,7 @@
    "size": "WS",
    "angle": "low",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "समंदर पर रास्ता?"
   },
   {
@@ -28,6 +29,7 @@
    "size": "CU",
    "angle": "eye",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "शर्त: कोई टोल नहीं!"
   },
   {
@@ -41,6 +43,7 @@
    "size": "WS",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "असली सीन 🐺"
   },
   {
@@ -54,6 +57,7 @@
    "size": "MCU",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "आज: मुंबई"
   },
   {
@@ -67,6 +71,7 @@
    "size": "EWS",
    "angle": "high",
    "asset": "still",
+   "speaks": false,
    "onscreen": "माहिम ↔ बांद्रा"
   },
   {
@@ -80,6 +85,7 @@
    "size": "MS",
    "angle": "eye",
    "asset": "still",
+   "speaks": false,
    "onscreen": "नाव से पार"
   },
   {
@@ -93,6 +99,7 @@
    "size": "WS",
    "angle": "high",
    "asset": "still",
+   "speaks": false,
    "onscreen": "1840-41"
   },
   {
@@ -106,6 +113,7 @@
    "size": "CU",
    "angle": "eye",
    "asset": "still",
+   "speaks": false,
    "onscreen": ""
   },
   {
@@ -119,6 +127,7 @@
    "size": "MS",
    "angle": "low",
    "asset": "still",
+   "speaks": false,
    "onscreen": "एक पारसी महिला"
   },
   {
@@ -132,6 +141,7 @@
    "size": "CU",
    "angle": "eye",
    "asset": "still",
+   "speaks": false,
    "onscreen": "लेडी अवाबाई"
   },
   {
@@ -145,6 +155,7 @@
    "size": "ECU",
    "angle": "high",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "₹1.5 लाख+ दान"
   },
   {
@@ -158,6 +169,7 @@
    "size": "WS",
    "angle": "high",
    "asset": "still",
+   "speaks": false,
    "onscreen": "माहिम कॉज़वे"
   },
   {
@@ -171,6 +183,7 @@
    "size": "CU",
    "angle": "eye",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "एक शर्त"
   },
   {
@@ -184,6 +197,7 @@
    "size": "MS",
    "angle": "eye",
    "asset": "still",
+   "speaks": false,
    "onscreen": "कोई टोल नहीं"
   },
   {
@@ -197,6 +211,7 @@
    "size": "MS",
    "angle": "high",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "आपके शहर में?"
   },
   {
@@ -210,6 +225,7 @@
    "size": "CU",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "कमेंट 👇"
   },
   {
@@ -223,6 +239,7 @@
    "size": "EWS",
    "angle": "high",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "1845 ✔"
   },
   {
@@ -236,6 +253,7 @@
    "size": "MS",
    "angle": "low",
    "asset": "still",
+   "speaks": false,
    "onscreen": "एल. जे. रोड"
   },
   {
@@ -249,6 +267,7 @@
    "size": "CU",
    "angle": "eye",
    "asset": "still",
+   "speaks": false,
    "onscreen": "आज कौन रखेगा?"
   },
   {
@@ -262,6 +281,7 @@
    "size": "MCU",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "आप बताइए 👇"
   },
   {
@@ -273,8 +293,9 @@
    "words": 3,
    "est": 1.4,
    "size": "MS",
-   "angle": "ots",
+   "angle": "eye",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "अगला शहर: हम्पी 🏛️"
   },
   {
@@ -288,6 +309,7 @@
    "size": "EWS",
    "angle": "low",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "खंडहर क्यों?"
   },
   {
@@ -298,9 +320,10 @@
    "tts": "[curious] आख़िर हुआ क्या था?",
    "words": 4,
    "est": 1.8,
-   "size": "ECU",
+   "size": "CU",
    "angle": "eye",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "आख़िर क्या हुआ?"
   },
   {
@@ -311,9 +334,10 @@
    "tts": "फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।",
    "words": 8,
    "est": 3.2,
-   "size": "WS",
-   "angle": "eye",
+   "size": "CU",
+   "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "फ़ॉलो करें ➕"
   }
  ]

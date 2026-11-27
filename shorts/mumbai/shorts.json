@@ -359,7 +359,7 @@
       "map_note": "a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders"
      },
      "onscreen": "फिर: हम्पी",
-     "narrator": "map_tap_ots",
+     "narrator": "map_present",
      "goal": "Tease the next city: Hampi.",
      "sfx": "a map marker humming softly as it glows"
     },
@@ -369,10 +369,10 @@
      "tts": "@follow",
      "facts": [],
      "vars": {
-      "where": "down the archive aisle into the shadows"
+      "where": "the archive aisle"
      },
      "onscreen": "फ़ॉलो करें ➕",
-     "narrator": "walk_off",
+     "narrator": "sign_off",
      "goal": "Sign off and ask the viewer to follow.",
      "sfx": "footsteps fading down the aisle, lantern creak"
     }
@@ -508,7 +508,8 @@
      "asset": "still",
      "prompt": "the same Mumbai map with red pins, now a glowing blue outline of the old seven-island coastline lighting up over it, several pins standing inside the blue sea area, {SUTRADHAR} at the map edge looking down",
      "motion": "Slow pull-back upward. The blue outline glows on. End with the whole map and the wolf in frame.",
-     "onscreen": "शायद समंदर था!"
+     "onscreen": "शायद समंदर था!",
+     "speaks": true
     },
     {
      "role": "story",
@@ -644,7 +645,8 @@
      "asset": "clip",
      "prompt": "{SUTRADHAR} standing on top of the stone seawall of the miniature model, waves breaking below his feet, city lights behind him",
      "motion": "Locked low camera. A wave breaks below; his indigo stole moves in the wind. End with him looking down at the sea.",
-     "onscreen": "बसाई नहीं..."
+     "onscreen": "बसाई नहीं...",
+     "speaks": true
     },
     {
      "role": "payoff",
@@ -702,7 +704,7 @@
       "map_note": "a glowing marker on the Mumbai coast and a second marker in Karnataka among tiny boulders"
      },
      "onscreen": "फिर: हम्पी",
-     "narrator": "map_tap_ots"
+     "narrator": "map_present"
     },
     {
      "role": "follow",
@@ -710,10 +712,10 @@
      "tts": "@follow",
      "facts": [],
      "vars": {
-      "where": "along the sea wall into the dusk"
+      "where": "the sea wall at dusk"
      },
      "onscreen": "फ़ॉलो करें ➕",
-     "narrator": "walk_off"
+     "narrator": "sign_off"
     }
    ]
   },
@@ -1002,7 +1004,7 @@
       "map_note": "a single glowing marker in Karnataka among tiny boulders and ruined temples"
      },
      "onscreen": "अगला शहर: हम्पी 🏛️",
-     "narrator": "map_tap_ots"
+     "narrator": "map_present"
     },
     {
      "role": "outro",
@@ -1023,7 +1025,7 @@
      "facts": [],
      "vars": {},
      "onscreen": "आख़िर क्या हुआ?",
-     "narrator": "eye_ecu"
+     "narrator": "close_whisper"
     },
     {
      "role": "follow",
@@ -1031,10 +1033,10 @@
      "tts": "@follow",
      "facts": [],
      "vars": {
-      "where": "between the boulders into the dusk"
+      "where": "giant boulders at dusk"
      },
      "onscreen": "फ़ॉलो करें ➕",
-     "narrator": "walk_off"
+     "narrator": "sign_off"
     }
    ]
   }

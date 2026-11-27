@@ -10,6 +10,7 @@
 // Output: renders/<slug>/shorts/<short-id>.mp4 (+ .srt). Missing visuals render as a labelled card.
 import fs from 'node:fs';
 import path from 'node:path';
+import { spawnSync } from 'node:child_process';
 import { r, run, exists, mkdirp, duration, channel } from './lib.mjs';
 
 const args = process.argv.slice(2);
@@ -58,6 +59,21 @@ function motion(s, N) { // slow camera move for stills, chosen by shot size
   return `z='${zIn}':x='${cx}':y='${cy}'`; // push-in
 }
 
+// Speech span inside a Flow clip (its own voice is only a lip-sync guide): first onset to last offset.
+function clipSpeech(clip, cd) {
+  const sd = spawnSync('ffmpeg', ['-hide_banner', '-nostats', '-i', clip, '-vn', '-af', 'silencedetect=noise=-32dB:d=0.25', '-f', 'null', '-'], { encoding: 'utf8' });
+  const sil = []; let cur = null;
+  for (const line of (sd.stderr || '').split('\n')) {
+    const a = line.match(/silence_start: ([\d.]+)/); if (a) cur = { s: parseFloat(a[1]) };
+    const b = line.match(/silence_end: ([\d.]+)/); if (b && cur) { cur.e = parseFloat(b[1]); sil.push(cur); cur = null; }
+  }
+  if (cur) sil.push({ s: cur.s, e: cd });
+  const vs = sil.length && sil[0].s <= 0.05 ? sil[0].e : 0;
+  const ve = sil.length && sil[sil.length - 1].e >= cd - 0.05 ? sil[sil.length - 1].s : cd;
+  if (ve - vs < 0.3 || (vs === 0 && ve === cd && sil.length === 0)) return null;
+  return { vs, ve };
+}
+
 function segment(s, i) {
   // frame-exact: segment length from rounded cumulative boundaries, so 24 cuts never drift off the voice
   const f0 = Math.round(timing.shots[i].start * FPS), f1 = Math.round(timing.shots[i].end * FPS);
@@ -70,11 +86,27 @@ function segment(s, i) {
   if (clip) {
     const cd = duration(clip);
     kind = 'clip';
-    if (cd < dur) note = `clip ${cd.toFixed(1)} s < shot ${dur.toFixed(1)} s: last frame held`;
     inputs = ['-i', clip];
-    vf = `scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1,fps=${FPS},tpad=stop_mode=clone:stop_duration=${Math.max(0, dur - cd + 0.5).toFixed(2)}`;
     const hasAudio = run('ffprobe', ['-v', 'error', '-select_streams', 'a', '-show_entries', 'stream=index', '-of', 'csv=p=0', clip]).trim() !== '';
-    if (hasAudio) af = `[0:a]volume=${AMBIENT},apad,atrim=0:${dur.toFixed(3)},aresample=48000[a]`;
+    let retime = '';
+    const ts = timing.shots[i];
+    if (s.speaks && ts.speech_start !== undefined && hasAudio) {
+      // lip-sync: stretch the clip so Flow's spoken span covers the ElevenLabs line, and shift it onto the line
+      const sp = clipSpeech(clip, cd);
+      const ls = ts.speech_start - ts.start, le = ts.speech_end - ts.start;
+      if (sp) {
+        const raw = (le - ls) / (sp.ve - sp.vs);
+        const k = Math.min(1.4, Math.max(0.7, raw));
+        const off = sp.vs * k - ls;
+        retime = `setpts=(PTS-STARTPTS)*${k.toFixed(4)},` + (off > 0 ? `trim=start=${off.toFixed(3)},setpts=PTS-STARTPTS,` : `tpad=start_mode=clone:start_duration=${(-off).toFixed(3)},`);
+        note = `lip-sync: speed x${(1 / k).toFixed(2)}, mouth starts ${ls.toFixed(2)} s into the shot` + (raw !== k ? ` (Flow line ${(sp.ve - sp.vs).toFixed(1)} s vs voice ${(le - ls).toFixed(1)} s: too different, regenerate for a tighter match)` : '');
+        const outLen = cd * k - Math.max(0, off);
+        if (outLen < dur) note += `; last ${(dur - outLen).toFixed(1)} s held`;
+      } else note = 'speaks, but no speech found in the Flow clip audio: placed from its start (regenerate with the line as dialogue)';
+    } else if (cd < dur) note = `clip ${cd.toFixed(1)} s < shot ${dur.toFixed(1)} s: last frame held`;
+    vf = `scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1,${retime}fps=${FPS},tpad=stop_mode=clone:stop_duration=${Math.max(0.5, dur + 0.5).toFixed(2)}`;
+    // Flow's own voice is never heard; non-speaking clips keep their ambience at 20%
+    if (hasAudio && !s.speaks) af = `[0:a]volume=${AMBIENT},apad,atrim=0:${dur.toFixed(3)},aresample=48000[a]`;
   } else if (img) {
     kind = 'still';
     inputs = ['-loop', '1', '-i', img];

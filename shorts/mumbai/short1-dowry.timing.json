@@ -13,6 +13,8 @@
    "start": 0,
    "end": 2.856,
    "dur": 2.86,
+   "speech_start": 0,
+   "speech_end": 2.388,
    "est": 2.5,
    "flags": []
   },
@@ -23,6 +25,8 @@
    "start": 2.856,
    "end": 4.349,
    "dur": 1.49,
+   "speech_start": 2.936,
+   "speech_end": 3.952,
    "est": 1.4,
    "flags": []
   },
@@ -33,6 +37,8 @@
    "start": 4.349,
    "end": 8.15,
    "dur": 3.8,
+   "speech_start": 4.429,
+   "speech_end": 7.603,
    "est": 3.5,
    "flags": []
   },
@@ -43,6 +49,8 @@
    "start": 8.15,
    "end": 12.317,
    "dur": 4.17,
+   "speech_start": 8.23,
+   "speech_end": 11.586,
    "est": 3.8,
    "flags": []
   },
@@ -53,6 +61,8 @@
    "start": 12.317,
    "end": 14.911,
    "dur": 2.59,
+   "speech_start": 12.397,
+   "speech_end": 14.003,
    "est": 1.4,
    "flags": []
   },
@@ -63,6 +73,8 @@
    "start": 14.911,
    "end": 20.846,
    "dur": 5.94,
+   "speech_start": 14.991,
+   "speech_end": 20.273,
    "est": 5.6,
    "flags": []
   },
@@ -73,6 +85,8 @@
    "start": 20.846,
    "end": 24.314,
    "dur": 3.47,
+   "speech_start": 20.926,
+   "speech_end": 23.764,
    "est": 2.5,
    "flags": []
   },
@@ -83,6 +97,8 @@
    "start": 24.314,
    "end": 27.096,
    "dur": 2.78,
+   "speech_start": 24.394,
+   "speech_end": 26.188,
    "est": 2.1,
    "flags": []
   },
@@ -93,6 +109,8 @@
    "start": 27.096,
    "end": 30.588,
    "dur": 3.49,
+   "speech_start": 27.175,
+   "speech_end": 29.883,
    "est": 3.2,
    "flags": []
   },
@@ -103,6 +121,8 @@
    "start": 30.588,
    "end": 32.688,
    "dur": 2.1,
+   "speech_start": 30.668,
+   "speech_end": 32.257,
    "est": 1.4,
    "flags": []
   },
@@ -113,6 +133,8 @@
    "start": 32.688,
    "end": 35.351,
    "dur": 2.66,
+   "speech_start": 32.768,
+   "speech_end": 34.408,
    "est": 2,
    "flags": []
   },
@@ -123,6 +145,8 @@
    "start": 35.351,
    "end": 37.226,
    "dur": 1.88,
+   "speech_start": 35.431,
+   "speech_end": 36.684,
    "est": 1.8,
    "flags": []
   },
@@ -133,6 +157,8 @@
    "start": 37.226,
    "end": 40.956,
    "dur": 3.73,
+   "speech_start": 37.306,
+   "speech_end": 40.36,
    "est": 3.8,
    "flags": []
   },
@@ -143,6 +169,8 @@
    "start": 40.956,
    "end": 45.945,
    "dur": 4.99,
+   "speech_start": 41.036,
+   "speech_end": 45.156,
    "est": 4.5,
    "flags": []
   },
@@ -153,6 +181,8 @@
    "start": 45.945,
    "end": 49.599,
    "dur": 3.65,
+   "speech_start": 46.025,
+   "speech_end": 48.495,
    "est": 3.1,
    "flags": []
   },
@@ -163,6 +193,8 @@
    "start": 49.599,
    "end": 55.918,
    "dur": 6.32,
+   "speech_start": 49.679,
+   "speech_end": 55.126,
    "est": 6.3,
    "flags": []
   },
@@ -173,6 +205,8 @@
    "start": 55.918,
    "end": 57.158,
    "dur": 1.24,
+   "speech_start": 55.998,
+   "speech_end": 56.606,
    "est": 1.2,
    "flags": []
   },
@@ -183,6 +217,8 @@
    "start": 57.158,
    "end": 60.073,
    "dur": 2.91,
+   "speech_start": 57.238,
+   "speech_end": 59.288,
    "est": 2.4,
    "flags": []
   },
@@ -193,6 +229,8 @@
    "start": 60.073,
    "end": 66.461,
    "dur": 6.39,
+   "speech_start": 60.153,
+   "speech_end": 65.663,
    "est": 4.9,
    "flags": []
   },
@@ -203,6 +241,8 @@
    "start": 66.461,
    "end": 70.082,
    "dur": 3.62,
+   "speech_start": 66.541,
+   "speech_end": 69.497,
    "est": 3.8,
    "flags": []
   },
@@ -213,6 +253,8 @@
    "start": 70.082,
    "end": 71.857,
    "dur": 1.78,
+   "speech_start": 70.162,
+   "speech_end": 70.922,
    "est": 1.4,
    "flags": []
   },
@@ -223,6 +265,8 @@
    "start": 71.857,
    "end": 76.69,
    "dur": 4.83,
+   "speech_start": 71.937,
+   "speech_end": 75.782,
    "est": 4.2,
    "flags": []
   },
@@ -233,6 +277,8 @@
    "start": 76.69,
    "end": 78.906,
    "dur": 2.22,
+   "speech_start": 76.77,
+   "speech_end": 78.316,
    "est": 2,
    "flags": []
   },
@@ -243,6 +289,8 @@
    "start": 78.906,
    "end": 81.737,
    "dur": 2.83,
+   "speech_start": 78.986,
+   "speech_end": 81.737,
    "est": 3.2,
    "flags": []
   }

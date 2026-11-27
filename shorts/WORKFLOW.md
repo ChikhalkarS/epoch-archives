@@ -24,7 +24,7 @@ Open `<short-id>-flow.md`.
 1. Character sheets first (once per character, reused every episode): prompts in `prompts/LIBRARY.md`, save to `prompts/characters/<ID>/sheet.png`.
 2. Settings: 9:16 portrait. For each shot use the mode it says (Ingredients / Text / Image), attach the listed sheets, paste the prompt in the box.
 3. Make 2-4 takes, keep the best. Save as `assets/<city>/shorts/<short-id>/<shot-id>.mp4` (clips) or `.png` (stills), e.g. `short1-s03.mp4`.
-4. Sync: the narration is voice-over. Flow clips carry no speech and Sutradhar's mouth stays closed; the assembly lines every clip up with its line.
+4. Sync and lip-sync: shots marked **SPEAKS** give Sutradhar his exact Hindi line as dialogue, so Flow moves his mouth. Keep the whole 8 s clip with its sound: the assembly mutes Flow's voice, finds where he speaks, and stretches/shifts the clip (0.7x-1.4x) so his mouth lands on your ElevenLabs line. All other shots carry no speech and are cut to their line. If the report says a Flow line was "too different", regenerate that shot.
 5. You do not need to trim anything: the assembly cuts each clip to its line. A clip shorter than its line holds its last frame.
 
 ## 4. Optional: music

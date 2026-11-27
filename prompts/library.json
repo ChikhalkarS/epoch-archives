@@ -1,5 +1,5 @@
 {
-  "library_version": 6,
+  "library_version": 7,
   "updated": "2026-11-27",
   "rule": "Single source of truth for every image/clip prompt. Always keep the latest best version here; bump the item's version and add a line to prompts/CHANGELOG.md. Episode files are built from this by tools/build-shorts.mjs.",
   "style": {
@@ -213,54 +213,60 @@
     "vertical_rule": "native 9:16; subject's face in the upper-middle third; keep faces and key action out of the top 12% and bottom 20% (platform buttons); stage in depth, not side by side"
   },
   "narrator_shots": {
-    "_rule": "Reusable narrator (SUTRADHAR) shots. Vary them: never the same template twice in a row. Story lines show people; the wolf appears on brand intro, cut-ins, viewer lines, comment ask and outro. Props (lantern, scroll) are carried in a shot, not part of his fixed design. The narration is voice-over: SUTRADHAR never talks on screen, his mouth stays closed, so no lip-sync is needed.",
+    "_rule": "Reusable narrator (SUTRADHAR) shots. Vary them: never the same template twice in a row. Templates with speaks=true show his face and get his exact line as dialogue so Flow animates his mouth (the Flow voice is discarded; assemble-short retimes the clip to the ElevenLabs line). Templates with speaks=false keep his mouth closed (voice-over over that shot). Props (lantern, scroll) are carried in a shot, not part of his fixed design.",
     "walk_in": {
-      "version": 3,
+      "version": 4,
       "size": "WS",
       "angle": "low",
       "asset": "clip",
       "prompt": "{SUTRADHAR} walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, a small brass lantern he carries swinging gently at his hip, {extra}",
-      "motion": "Camera tracks slowly backward at his walking pace. He walks from mid-aisle toward the lens and stops in a medium shot, lifting his eyes to the viewer with his smug one-sided smirk. Lantern glow sways on the shelves. End on him standing still, facing camera. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws)."
+      "motion": "Camera tracks slowly backward at his walking pace. He walks toward the lens, lifts his eyes to the viewer and stops in a medium shot, lantern glow swaying on the shelves.",
+      "speaks": true
     },
     "scroll_reveal": {
-      "version": 3,
+      "version": 4,
       "size": "MCU",
       "angle": "low",
       "asset": "clip",
       "prompt": "{SUTRADHAR} holding an old scroll open toward the camera, a small model of {topic_visual} rising out of the parchment between his paws, warm lantern light from below-left, archive shelves softly blurred behind",
-      "motion": "Locked camera with a slow push-in. He unrolls the scroll; the tiny diorama rises out of it and settles. End with his eyes looking over the diorama straight into the lens. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws)."
+      "motion": "Locked camera with a slow push-in. He unrolls the scroll toward the lens and the tiny model rises out of it, his eyes looking over it into the lens.",
+      "speaks": true
     },
     "cut_in_finger": {
-      "version": 3,
+      "version": 4,
       "size": "CU",
       "angle": "eye",
       "asset": "clip",
       "prompt": "{SUTRADHAR} snapping the scroll shut in one paw and raising one clawed finger of the other paw beside his muzzle, one eyebrow raised, dark archive background with a single warm rim light",
-      "motion": "Quick short push-in, then hold. He snaps the scroll shut and raises one finger. End frozen on the raised finger and raised brow. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws)."
+      "motion": "Quick short push-in, then hold. He snaps the scroll shut and raises one finger beside his muzzle, one brow raised.",
+      "speaks": true
     },
     "lean_in_question": {
-      "version": 3,
+      "version": 4,
       "size": "MCU",
       "angle": "low",
       "asset": "clip",
       "prompt": "{SUTRADHAR} leaning toward the camera, {pose}, {context_visual} softly blurred behind him, warm rim light",
-      "motion": "Locked camera. He leans in toward the lens, one ear twitches, the raised brow lifts. End with his face close, waiting for an answer. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws)."
+      "motion": "Locked camera. He leans in toward the lens, one ear twitching, the raised brow lifting.",
+      "speaks": true
     },
     "point_at_viewer": {
-      "version": 3,
+      "version": 4,
       "size": "CU",
       "angle": "low",
       "asset": "clip",
       "prompt": "{SUTRADHAR} pointing one paw straight at the camera with his smug one-sided smirk, lantern glow on his fur, {context_visual} in soft background",
-      "motion": "Locked camera, very slight push-in. His paw comes up and points at the lens. End on the point, paw sharp, face just behind it. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws)."
+      "motion": "Locked camera, very slight push-in. His paw comes up and points straight at the lens.",
+      "speaks": true
     },
     "touch_diorama": {
-      "version": 3,
+      "version": 4,
       "size": "MS",
       "angle": "high",
       "asset": "clip",
       "prompt": "{SUTRADHAR} crouching beside a tabletop miniature model of {topic_visual}, reaching out with one paw to {touch_action}, lantern set down beside him",
-      "motion": "Slow descending crane toward his paw. He reaches out and {touch_action}. End with the paw resting on the diorama and his eyes lifting to the camera. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws)."
+      "motion": "Slow descending crane toward him. He reaches out and {touch_action}, then lifts his face to the camera.",
+      "speaks": true
     },
     "eye_ecu": {
       "version": 2,
@@ -268,7 +274,8 @@
       "angle": "eye",
       "asset": "clip",
       "prompt": "extreme close-up of one golden-amber eye of {SUTRADHAR} peering over the brass rim of his round spectacles, flickering lantern light reflected in the iris, grey-tawny inked fur strokes filling the frame",
-      "motion": "Slow push-in toward the eye. The pupil narrows slightly as the lantern flickers. End on the reflection in the iris."
+      "motion": "Slow push-in toward the eye. The pupil narrows slightly as the lantern flickers. End on the reflection in the iris. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws).",
+      "speaks": false
     },
     "map_tap_ots": {
       "version": 3,
@@ -276,7 +283,8 @@
       "angle": "ots",
       "asset": "clip",
       "prompt": "over-the-shoulder view from behind {SUTRADHAR} as he stands before a large carved relief map of India on the archive wall, {map_note}, the lantern raised in one paw",
-      "motion": "Locked camera behind his shoulder. He reaches up and taps the glowing marker; it pulses brighter. End with his paw on the marker and his head turning halfway back toward camera. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws)."
+      "motion": "Locked camera behind his shoulder. He reaches up and taps the glowing marker; it pulses brighter. End with his paw on the marker and his head turning halfway back toward camera. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws).",
+      "speaks": false
     },
     "walk_off": {
       "version": 3,
@@ -284,7 +292,35 @@
       "angle": "eye",
       "asset": "clip",
       "prompt": "{SUTRADHAR} seen from behind walking away from camera {where}, the lantern the only warm light, long shadow stretching toward the lens",
-      "motion": "Locked camera. He walks away into the dark, stops, and looks back over his shoulder at the viewer for a beat. End on the over-the-shoulder glance with the lantern glowing. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws)."
+      "motion": "Locked camera. He walks away into the dark, stops, and looks back over his shoulder at the viewer for a beat. End on the over-the-shoulder glance with the lantern glowing. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws).",
+      "speaks": false
+    },
+    "map_present": {
+      "version": 1,
+      "size": "MS",
+      "angle": "eye",
+      "asset": "clip",
+      "speaks": true,
+      "prompt": "{SUTRADHAR} standing beside a large carved relief map of India on the archive wall, body turned toward the camera, one paw resting on the map at {map_note}, the lantern hanging from his other paw",
+      "motion": "Locked camera. Facing the lens, he taps the marker on the map; it pulses brighter while he keeps his eyes on the viewer."
+    },
+    "sign_off": {
+      "version": 1,
+      "size": "CU",
+      "angle": "low",
+      "asset": "clip",
+      "speaks": true,
+      "prompt": "{SUTRADHAR} close to the camera at the end of a dark archive aisle, lantern held low so its warm light catches his spectacles and the underside of his muzzle, {where} receding into shadow behind him",
+      "motion": "Locked camera. He looks into the lens; when he finishes he gives a slow knowing nod, turns and steps away into the shadows, his lantern glowing."
+    },
+    "close_whisper": {
+      "version": 1,
+      "size": "CU",
+      "angle": "eye",
+      "asset": "clip",
+      "speaks": true,
+      "prompt": "{SUTRADHAR}'s face close to the camera, lit only by the lantern held just below frame, golden-amber eyes over the brass rims of his spectacles, deep shadow on one side of his face",
+      "motion": "Very slow push-in. He leans a little closer, eyes narrowing as if sharing a secret."
     }
   },
   "flow": {
@@ -297,8 +333,15 @@
       "text": "Text to Video: paste the prompt, no attachments.",
       "image": "Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan."
     },
-    "audio_rule": "Audio is ambient sound only. Always end with 'No music, no speech.' The narration is ElevenLabs and music is added in the edit. The narrator never speaks on screen (voice-over), so no lip-sync is needed; the edit cuts every clip to its line's measured start and end.",
+    "audio_rule": "Non-speaking shots: ambient sound only, ending 'No music, no speech.' Speaking shots (SUTRADHAR on screen with a line): the exact Hindi line as dialogue, voice only. The edit mutes Flow's voice and lip-syncs the clip to the ElevenLabs line.",
     "style_line": "2D digital cartoon in a modern noir graphic-novel style: thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes on fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, rim light on edges."
   },
-  "consistency_rule": "Every prompt that shows a character carries, verbatim: its reference sheet (attached), its role line, its scene_tag, and its lock. Never paraphrase a lock; change it only here (version + changelog)."
+  "consistency_rule": "Every prompt that shows a character carries, verbatim: its reference sheet (attached), its role line, its scene_tag, and its lock. Never paraphrase a lock; change it only here (version + changelog).",
+  "speech": {
+    "version": 1,
+    "voice_desc": "in Hindi, in a deep, calm, slightly smug storyteller voice",
+    "mouth": "His mouth moves clearly and naturally with every syllable, jaw and lips shaping each word; when the line ends his mouth closes into his smirk.",
+    "audio": "Audio: only SUTRADHAR's voice speaking the line, over near-silent room tone. No music, no sound effects.",
+    "note": "Flow's voice is only a lip-sync guide: the assembly mutes it, finds its speech span, and retimes the clip (0.7x-1.4x) so the mouth lands on the ElevenLabs line."
+  }
 }

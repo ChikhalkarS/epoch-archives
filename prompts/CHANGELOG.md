@@ -15,3 +15,5 @@
 | 2026-11-27 | flow | 1 | Flow settings, modes and audio rule for clip prompts |
 | 2026-11-27 | all characters | +1 | Added `lock` (verbatim consistency sentence used in every Flow/image prompt) and per-character `CHARACTER.md` sheet files; SUTRADHAR named सूत्रधार in narration |
 | 2026-11-27 | narrator_shots | +1 | Mouth stays closed in every narrator shot (voice-over, no lip-sync); expression carries the beat |
+| 2026-11-27 | narrator_shots | +1 | Speaking templates (speaks=true) get his exact line as Flow dialogue for mouth movement; new map_present, sign_off, close_whisper so he faces camera when talking; eye_ecu/map_tap_ots/walk_off stay mouth-closed |
+| 2026-11-27 | speech | 1 | Voice description, mouth line and voice-only audio line for speaking shots |

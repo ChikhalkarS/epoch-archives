@@ -2,7 +2,7 @@
  "slug": "mumbai",
  "id": "short2-sea",
  "episode": 2,
- "built_from_library": 6,
+ "built_from_library": 7,
  "shots": [
   {
    "n": 1,
@@ -15,6 +15,7 @@
    "size": "CU",
    "angle": "low",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "ये ज़मीन कभी समंदर थी!"
   },
   {
@@ -28,6 +29,7 @@
    "size": "MS",
    "angle": "top",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "समंदर!"
   },
   {
@@ -41,6 +43,7 @@
    "size": "WS",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "असली सीन 🐺"
   },
   {
@@ -54,6 +57,7 @@
    "size": "MCU",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "आज: मुंबई"
   },
   {
@@ -67,6 +71,7 @@
    "size": "EWS",
    "angle": "top",
    "asset": "still",
+   "speaks": false,
    "onscreen": "7 टापू"
   },
   {
@@ -80,6 +85,7 @@
    "size": "WS",
    "angle": "eye",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "ज्वार = बाढ़"
   },
   {
@@ -93,6 +99,7 @@
    "size": "MCU",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "मुंबई में हैं? 📍"
   },
   {
@@ -106,6 +113,7 @@
    "size": "CU",
    "angle": "top",
    "asset": "still",
+   "speaks": false,
    "onscreen": "अपना इलाक़ा 👇"
   },
   {
@@ -119,6 +127,7 @@
    "size": "MS",
    "angle": "high",
    "asset": "still",
+   "speaks": true,
    "onscreen": "शायद समंदर था!"
   },
   {
@@ -132,6 +141,7 @@
    "size": "WS",
    "angle": "eye",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "1782"
   },
   {
@@ -145,6 +155,7 @@
    "size": "CU",
    "angle": "low",
    "asset": "still",
+   "speaks": false,
    "onscreen": "हॉर्नबी वेलार्ड"
   },
   {
@@ -158,6 +169,7 @@
    "size": "MS",
    "angle": "eye",
    "asset": "still",
+   "speaks": false,
    "onscreen": "कहते हैं..."
   },
   {
@@ -171,6 +183,7 @@
    "size": "MCU",
    "angle": "high",
    "asset": "still",
+   "speaks": false,
    "onscreen": "लोक-कथा ✨"
   },
   {
@@ -184,6 +197,7 @@
    "size": "WS",
    "angle": "low",
    "asset": "still",
+   "speaks": false,
    "onscreen": "महालक्ष्मी मंदिर"
   },
   {
@@ -197,6 +211,7 @@
    "size": "CU",
    "angle": "eye",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "लोक-कथा"
   },
   {
@@ -210,6 +225,7 @@
    "size": "MS",
    "angle": "low",
    "asset": "still",
+   "speaks": false,
    "onscreen": "कॉज़वे"
   },
   {
@@ -223,6 +239,7 @@
    "size": "EWS",
    "angle": "top",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "7 ➜ 1"
   },
   {
@@ -236,6 +253,7 @@
    "size": "WS",
    "angle": "high",
    "asset": "still",
+   "speaks": false,
    "onscreen": "आज भी: कोस्टल रोड"
   },
   {
@@ -249,6 +267,7 @@
    "size": "MS",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "बसाई नहीं..."
   },
   {
@@ -262,6 +281,7 @@
    "size": "ECU",
    "angle": "high",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "समंदर से छीनी गई 🌊"
   },
   {
@@ -275,6 +295,7 @@
    "size": "CU",
    "angle": "eye",
    "asset": "clip",
+   "speaks": false,
    "onscreen": "सही या ग़लत?"
   },
   {
@@ -288,6 +309,7 @@
    "size": "CU",
    "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "कमेंट 👇"
   },
   {
@@ -301,6 +323,7 @@
    "size": "MS",
    "angle": "high",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "अगला: अवाबाई"
   },
   {
@@ -312,8 +335,9 @@
    "words": 4,
    "est": 2,
    "size": "MS",
-   "angle": "ots",
+   "angle": "eye",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "फिर: हम्पी"
   },
   {
@@ -324,9 +348,10 @@
    "tts": "फ़ॉलो कीजिए, ताकि अगली कहानी छूट न जाए।",
    "words": 8,
    "est": 3.2,
-   "size": "WS",
-   "angle": "eye",
+   "size": "CU",
+   "angle": "low",
    "asset": "clip",
+   "speaks": true,
    "onscreen": "फ़ॉलो करें ➕"
   }
  ]

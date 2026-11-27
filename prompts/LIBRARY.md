@@ -1,4 +1,4 @@
-# Prompt library (v6, 2026-11-27)
+# Prompt library (v7, 2026-11-27)
 
 <!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->
 
@@ -238,49 +238,49 @@ Save as: prompts/characters/SUTRADHAR/profile.png
 
 ## Narrator shot bank
 
-Reusable narrator (SUTRADHAR) shots. Vary them: never the same template twice in a row. Story lines show people; the wolf appears on brand intro, cut-ins, viewer lines, comment ask and outro. Props (lantern, scroll) are carried in a shot, not part of his fixed design. The narration is voice-over: SUTRADHAR never talks on screen, his mouth stays closed, so no lip-sync is needed.
+Reusable narrator (SUTRADHAR) shots. Vary them: never the same template twice in a row. Templates with speaks=true show his face and get his exact line as dialogue so Flow animates his mouth (the Flow voice is discarded; assemble-short retimes the clip to the ElevenLabs line). Templates with speaks=false keep his mouth closed (voice-over over that shot). Props (lantern, scroll) are carried in a shot, not part of his fixed design.
 
-### walk_in (v3) - WS / low / clip
+### walk_in (v4) - WS / low / clip
 ```
 {SUTRADHAR} walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, a small brass lantern he carries swinging gently at his hip, {extra}
 ```
-Motion: Camera tracks slowly backward at his walking pace. He walks from mid-aisle toward the lens and stops in a medium shot, lifting his eyes to the viewer with his smug one-sided smirk. Lantern glow sways on the shelves. End on him standing still, facing camera. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws).
+Motion: Camera tracks slowly backward at his walking pace. He walks toward the lens, lifts his eyes to the viewer and stops in a medium shot, lantern glow swaying on the shelves.
 
-### scroll_reveal (v3) - MCU / low / clip
+### scroll_reveal (v4) - MCU / low / clip
 ```
 {SUTRADHAR} holding an old scroll open toward the camera, a small model of {topic_visual} rising out of the parchment between his paws, warm lantern light from below-left, archive shelves softly blurred behind
 ```
-Motion: Locked camera with a slow push-in. He unrolls the scroll; the tiny diorama rises out of it and settles. End with his eyes looking over the diorama straight into the lens. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws).
+Motion: Locked camera with a slow push-in. He unrolls the scroll toward the lens and the tiny model rises out of it, his eyes looking over it into the lens.
 
-### cut_in_finger (v3) - CU / eye / clip
+### cut_in_finger (v4) - CU / eye / clip
 ```
 {SUTRADHAR} snapping the scroll shut in one paw and raising one clawed finger of the other paw beside his muzzle, one eyebrow raised, dark archive background with a single warm rim light
 ```
-Motion: Quick short push-in, then hold. He snaps the scroll shut and raises one finger. End frozen on the raised finger and raised brow. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws).
+Motion: Quick short push-in, then hold. He snaps the scroll shut and raises one finger beside his muzzle, one brow raised.
 
-### lean_in_question (v3) - MCU / low / clip
+### lean_in_question (v4) - MCU / low / clip
 ```
 {SUTRADHAR} leaning toward the camera, {pose}, {context_visual} softly blurred behind him, warm rim light
 ```
-Motion: Locked camera. He leans in toward the lens, one ear twitches, the raised brow lifts. End with his face close, waiting for an answer. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws).
+Motion: Locked camera. He leans in toward the lens, one ear twitching, the raised brow lifting.
 
-### point_at_viewer (v3) - CU / low / clip
+### point_at_viewer (v4) - CU / low / clip
 ```
 {SUTRADHAR} pointing one paw straight at the camera with his smug one-sided smirk, lantern glow on his fur, {context_visual} in soft background
 ```
-Motion: Locked camera, very slight push-in. His paw comes up and points at the lens. End on the point, paw sharp, face just behind it. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws).
+Motion: Locked camera, very slight push-in. His paw comes up and points straight at the lens.
 
-### touch_diorama (v3) - MS / high / clip
+### touch_diorama (v4) - MS / high / clip
 ```
 {SUTRADHAR} crouching beside a tabletop miniature model of {topic_visual}, reaching out with one paw to {touch_action}, lantern set down beside him
 ```
-Motion: Slow descending crane toward his paw. He reaches out and {touch_action}. End with the paw resting on the diorama and his eyes lifting to the camera. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws).
+Motion: Slow descending crane toward him. He reaches out and {touch_action}, then lifts his face to the camera.
 
 ### eye_ecu (v2) - ECU / eye / clip
 ```
 extreme close-up of one golden-amber eye of {SUTRADHAR} peering over the brass rim of his round spectacles, flickering lantern light reflected in the iris, grey-tawny inked fur strokes filling the frame
 ```
-Motion: Slow push-in toward the eye. The pupil narrows slightly as the lantern flickers. End on the reflection in the iris.
+Motion: Slow push-in toward the eye. The pupil narrows slightly as the lantern flickers. End on the reflection in the iris. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws).
 
 ### map_tap_ots (v3) - MS / ots / clip
 ```
@@ -293,3 +293,21 @@ Motion: Locked camera behind his shoulder. He reaches up and taps the glowing ma
 {SUTRADHAR} seen from behind walking away from camera {where}, the lantern the only warm light, long shadow stretching toward the lens
 ```
 Motion: Locked camera. He walks away into the dark, stops, and looks back over his shoulder at the viewer for a beat. End on the over-the-shoulder glance with the lantern glowing. His mouth stays closed in his smirk the whole time; his face and body carry the beat (brow, eyes, head tilt, paws).
+
+### map_present (v1) - MS / eye / clip
+```
+{SUTRADHAR} standing beside a large carved relief map of India on the archive wall, body turned toward the camera, one paw resting on the map at {map_note}, the lantern hanging from his other paw
+```
+Motion: Locked camera. Facing the lens, he taps the marker on the map; it pulses brighter while he keeps his eyes on the viewer.
+
+### sign_off (v1) - CU / low / clip
+```
+{SUTRADHAR} close to the camera at the end of a dark archive aisle, lantern held low so its warm light catches his spectacles and the underside of his muzzle, {where} receding into shadow behind him
+```
+Motion: Locked camera. He looks into the lens; when he finishes he gives a slow knowing nod, turns and steps away into the shadows, his lantern glowing.
+
+### close_whisper (v1) - CU / eye / clip
+```
+{SUTRADHAR}'s face close to the camera, lit only by the lantern held just below frame, golden-amber eyes over the brass rims of his spectacles, deep shadow on one side of his face
+```
+Motion: Very slow push-in. He leans a little closer, eyes narrowing as if sharing a secret.
