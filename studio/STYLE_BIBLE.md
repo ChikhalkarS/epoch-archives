@@ -19,32 +19,24 @@ CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or st
 Sepia brown #6B4A2E (backgrounds) · Charcoal #1E1A17 (shadows, outlines) · Amber #E0A040 (lamp glow, highlights) · Cream #F1E3C6 (paper, thumbnail text) · Deep red #9E2B25 (Sutradhar's shawl, accents) · Indigo #2E3A66 (water, night). Lake water is always "deep indigo-blue water with painted amber reflections".
 
 ## 3. Sutradhar (recurring narrator character)
-He is an anthropomorphic star tortoise. He speaks on camera in the hook, the myth check and the closer (max 5 shots per EP). Everywhere else his voice is **off-screen voice-over** over the scene.
+**Main character for every video: Sutradhar, an Indian Bengal fox** (owner decision 2026-11-27). Deliberately unlike Quiet Wolf's wolf: a smaller Indian fox, Indian clothes (kurta + red Nehru waistcoat), spectacles, never a suit, tie or white gloves. He speaks on camera in the hook, the myth check and the closer (max 5 shots per EP). Everywhere else his voice is **off-screen voice-over** over the scene.
 
 **SUTRADHAR block** (whenever he is in frame):
 ```
-SUTRADHAR: an old anthropomorphic Indian star tortoise who walks upright, drawn as a 2D cartoon character, wise heavy-lidded amber eyes behind round brass-rimmed spectacles, thick white bushy eyebrows, wispy white chin beard, wrinkled olive-brown skin, a domed dark shell with golden star patterns on his back, deep red shawl over a cream kurta, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, slightly hunched, knowing half-smile.
+SUTRADHAR: an anthropomorphic Indian Bengal fox who walks upright, drawn as a 2D cartoon character, slender build, sandy-grey and russet fur, large pointed ears with dark backs, sharp clever amber eyes behind round brass-rimmed spectacles, a bushy grey tail with a black tip, cream kurta under a deep red Nehru-style waistcoat with brass buttons, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread, a sly knowing half-smile.
 ```
 **VOICE block** (in every prompt with speech, unchanged):
 ```
-VOICE: Sutradhar's voice, a warm, slightly husky elderly Indian man, medium-low pitch, unhurried storyteller pace, clear standard Hindi.
+VOICE: Sutradhar's voice, a warm, confident Indian man in his forties, medium-low pitch, unhurried storyteller pace with a hint of a smile, clear standard Hindi.
 ```
-- Ingredient: `Sutradhar sheet` (see `studio/ref/README.md`). Role line: `The Sutradhar ingredient defines his face, beard, spectacles, shell, shawl and satchel only; ignore its grey background and panel layout.`
+- Ingredient: `Sutradhar sheet` (see `studio/ref/README.md`). Role line: `The Sutradhar ingredient defines his face, fur, ears, spectacles, tail, waistcoat and satchel only; ignore its grey background and panel layout.`
 - His room (`Archive room` ingredient): a cluttered old archive with wooden shelves of scrolls, a brass oil lamp, and a large old painted map of India on the back wall.
-- **Cast (everyone is an anthropomorphic animal, dressed accurately for the era):**
-| Role | Species | Notes |
-|---|---|---|
-| Narrator | **Sutradhar, old Indian star tortoise** | The archive keeper who has "lived through" the centuries |
-| Rulers of any faith (kings, sultans, nawabs, begums) | lions / lionesses | One species for all rulers, so no faith-coding. Costume tells them apart |
-| Soldiers, guards | leopards | |
-| Workers, farmers, boatmen | nilgai, sambar deer | |
-| Common townsfolk, families | chital deer, mongooses | Children: Indian palm squirrels |
-| Sages, saints | sarus cranes | |
-| Scholars, scribes | herons; foreign scholars as badgers | |
-| Merchants | camels | |
-| Tribal chiefs | tigers | Respectful; the tiger is revered in Gond tradition |
-| Bandits, generic villains | jackals | Only for crimes, never for a community |
-- Never: pigs or dogs for people (offensive), a wolf (Quiet Wolf's mascot), or a species tied to one religion, caste or community. Real people get no likeness. Historical figures never speak.
+- **Supporting cast changes per video.** Each episode picks its own animals in `episodes/<ep>/cast.md` (decided at the script stage, kept the same within the episode). Casting rules:
+  - Everyone is an anthropomorphic animal dressed accurately for the era.
+  - All rulers in one episode share one species (any faith), so religion is never coded by animal. Costume tells them apart.
+  - Pick animals linked to the place when possible (e.g. Gir lions in Gujarat, one-horned rhinos in Assam, blackbuck in Rajasthan, elephants in Kerala).
+  - Villains or criminals only for crimes, never for a community.
+- Never: pigs or dogs for people (offensive), a wolf (Quiet Wolf's mascot), another fox (the fox is only Sutradhar), or a species tied to one religion, caste or community. Real people get no likeness. Historical figures never speak.
 
 ## 4. Dialogue syntax (Veo)
 - On camera: `Sutradhar looks into the lens and says in Hindi: "…"`

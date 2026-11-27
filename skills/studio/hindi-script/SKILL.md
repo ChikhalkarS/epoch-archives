@@ -28,6 +28,9 @@ Message (one repeatable line), viewer (who, believing what), feeling arc, struct
 - Hindi AI tells to cut: "आइए जानते हैं", "क्या आप जानते हैं" as an opener, "दिलचस्प बात ये है", "सिर्फ़ X नहीं, बल्कि Y" (max once), "सोचिए…" (max once), stacked rhetorical question+answer, "एक नया अध्याय", "इतिहास के पन्नों में", "रोचक सफ़र".
 - No invented dialogue for real people. Legends: "कहते हैं" / "लोक-कथा के मुताबिक़". Disputed: "कुछ शोधकर्ता मानते हैं…, पर दूसरे…".
 
+## Cast
+Also write `episodes/<ep>/cast.md`: the supporting animals for this episode, following the casting rules in `studio/STYLE_BIBLE.md` §3 (Sutradhar the fox is always the narrator).
+
 ## Accuracy
 `[F#]` after every factual sentence. Run the fact audit: every tag exists in `research.md` with a status that allows the wording used.
 

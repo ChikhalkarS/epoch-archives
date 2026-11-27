@@ -7,6 +7,9 @@ description: Write the complete Google Flow (Veo 3) prompt pack for an Epoch Arc
 
 Flow makes picture + voice + SFX. There is no other edit tool. Load the vendor skills first: `cinematic-director` (Veo adapter, motion budget, hard rules), `video-prompt-director` (staged action, R1–R14), `character-consistency` (Sutradhar sheet).
 
+## Cast
+Sutradhar (Indian Bengal fox) is the main character in every video. Read `episodes/<ep>/cast.md` for this episode's supporting animals, and describe each one by species + costume in every prompt where it appears. Recurring rulers get an ingredient sheet.
+
 ## File layout
 1. Owner checklist (settings, ingredients, Scenebuilder order).
 2. **Shot plan table:** `| Clip | Section | Mode | Dur | Picture (one line) | Hindi line |`. Joined in order, the Hindi lines = the approved script, word for word (fact tags removed).
