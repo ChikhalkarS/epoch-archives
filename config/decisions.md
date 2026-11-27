@@ -22,3 +22,15 @@ Owner decisions, newest last. Claude reads this before every stage. Change a dec
 | 2026-11-27 | All character prompts follow the owner's format (header, framing, EYES, FUR/SKIN AND HAIR, EXPRESSION, CLOTHING, TECHNICAL, BUILD) | prompts/library.json, tools/build-shorts.mjs, make-short skill |
 | 2026-11-27 | Every Short gets a Flow pack (`<id>-flow.md`): per shot the Flow mode, attachments, structured prompt, ambient-only audio ending 'No music, no speech.' | tools/build-shorts.mjs, make-short skill |
 | 2026-11-27 | Voice before visuals: ElevenLabs take (one generation, one line per line) is measured with tools/time-voice.mjs; shot lengths in the Flow pack come from the measured voice; tools/assemble-short.mjs cuts shots to the voice (ambient 20%, music 12%, -14 LUFS, burned Hindi captions) | shorts/WORKFLOW.md, make-short skill |
+
+## Open items (waiting on the owner)
+
+| Raised | Item | Status |
+|--------|------|--------|
+| 2026-11-27 | ElevenLabs plan: monetised use needs a paid plan | owner to confirm |
+| 2026-11-27 | Google Flow plan/terms allow commercial YouTube use | owner to confirm |
+| 2026-11-27 | Gate 1 approval of Mumbai Shorts ep 1-3 scripts | waiting |
+| 2026-11-27 | Length: estimates 71-73 s (target 60-70). Measure real voice first; trim about 15 words per Short only with owner OK | waiting on voice take |
+| 2026-11-27 | Narrator self-intro: says "मैं हूँ भेड़िया"; prompt ID is SUTRADHAR. Keep, or say "सूत्रधार"? | owner to decide |
+| 2026-11-27 | Short 2 and 3 Flow packs use generic goals/sound; detailed ones to be written | before their Flow work |
+| 2026-11-27 | Character sheets (SUTRADHAR, princess, king, merchant, lady) to be generated in Flow and saved to prompts/characters/<ID>/ | owner |
