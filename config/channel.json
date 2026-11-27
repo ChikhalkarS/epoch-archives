@@ -44,7 +44,7 @@
     "notes": "Change voice_id after owner picks. ElevenLabs free tier is non-commercial, so it is not used for monetised uploads."
   },
   "style": {
-    "visual": "claymation",
+    "visual": "2D vintage noir storybook cartoon (Quiet Wolf style family, own characters)",
     "guide": "studio/STYLE_BIBLE.md",
     "music_volume": 0.12,
     "scene_padding_seconds": 0.35

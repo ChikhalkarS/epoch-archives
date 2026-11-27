@@ -1,6 +1,6 @@
 # Epoch Archive Studios
 
-Hindi YouTube channel: hidden stories behind Indian cities (plus brands and habits), told as curious, sourced claymation mini-documentaries. 1 long episode (9-10 min) + 3-4 Shorts per week.
+Hindi YouTube channel: hidden stories behind Indian cities (plus brands and habits), told as curious, sourced 2D noir-cartoon mini-documentaries. 1 long episode (9-10 min) + 3-4 Shorts per week.
 
 Claude runs production; the owner approves at two gates and generates the clips in Google Flow. Channel settings: `config/channel.json`.
 

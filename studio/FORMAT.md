@@ -30,11 +30,11 @@ The format idea comes from Quiet Wolf (see `analysis/quiet-wolf.md`). All script
 ## 3. Devices (beyond narration)
 | Device | Spec | How it's made |
 |---|---|---|
-| **Animated map reveal** | Clay-style map of India zooms to the city, then a route or boundary draws on | Flow clip: clay relief map, top-down push-in, clay pin pops up |
-| **Evidence object** | Clay document, coin, inscription or map on the archive desk; narrator names **source + year** aloud | Flow clip of the clay object; the source is spoken in the VO and listed in the description |
-| **Sutradhar** | Recurring claymation narrator character: hook, one myth check, closer | Flow clips using a fixed character description + reference sheet |
-| **Then-vs-now** | Clay "then" clip, then clay "now" clip, same framing | Two consecutive Flow clips, same framing |
-| **Sach ya Jhooth?** | Sutradhar states the popular myth, pause, then stamps it: सच / झूठ / विवादित (spoken) | Sutradhar presses a clay stamp (green/red/amber), verdict spoken |
+| **Animated map reveal** | Painted vintage map of India zooms to the city, then a route or boundary draws on | Flow clip: painted map, top-down push-in, red pin drops in |
+| **Evidence object** | Old document, coin, inscription or map on the archive desk; narrator names **source + year** aloud | Flow clip of the object under the lamp; the source is spoken in the VO and listed in the description |
+| **Sutradhar** | Recurring 2D cartoon narrator character: hook, one myth check, closer | Flow clips using a fixed character description + reference sheet |
+| **Then-vs-now** | "Then" clip, then "now" clip, same framing | Two consecutive Flow clips, same framing |
+| **Sach ya Jhooth?** | Sutradhar states the popular myth, pause, then stamps it: सच / झूठ / विवादित (spoken) | Sutradhar presses a rubber stamp (green/red/amber ink), verdict spoken |
 | **Reveal sound design** | Low riser (1–2 s) → hit → 0.5 s silence before the key line | `SFX:` line in the Flow prompt |
 
 ## 4. Shorts
@@ -59,4 +59,4 @@ The format idea comes from Quiet Wolf (see `analysis/quiet-wolf.md`). All script
 
 ## 7. Titles and thumbnails
 - Title: a Hindi question or contrarian claim + English keyword, ≤ 60 chars. E.g. `Bhopal ki jheelein asli nahi hain? | EP1 Hidden History of Bhopal`.
-- Thumbnail: one clay object, a 2–3 word Hindi text, the EP badge, the lane colour.
+- Thumbnail: one character + one object, a 2–3 word Hindi text, the EP badge, the lane colour.

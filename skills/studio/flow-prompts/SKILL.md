@@ -16,7 +16,7 @@ Flow makes picture + voice + SFX. There is no other edit tool. Load the vendor s
 ```
 ### C07 · राज़ 1 · Text to Video · 16:9 · 8 s
 STYLE: <STYLE block>
-SCENE: <place, era, concrete clay materials, what is in frame>.
+SCENE: <place, era, concrete materials and era props, what is in frame>.
 ACTION: <opening state> → <one primary action> → <held end state>.
 CAMERA: <shot size>, <angle>, <lens>, <one movement or "locked, does not move">.
 LIGHTING: <source + direction + quality>.

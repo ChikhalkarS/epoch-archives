@@ -6,8 +6,8 @@ Runtime ≈ 10:22 (sum of clip "use" lengths; trim in Scenebuilder) · 995 Hindi
 - **Viewer:** a Hindi-speaking 18–35 viewer who knows "City of Lakes" and assumes the lakes are natural.
 - **Feeling arc:** surprise (hook) → wonder (the river turned) → loss (the vanished lake) → doubt (the myth check) → pride and ownership (aaj bhi dikhta hai) → curiosity (next EP).
 - **Structure:** SCQA opening (Situation: City of Lakes / Complication: a human made it / Question: who, and where did the bigger lake go?) + escalating explainer with three stacked ABTs (one per राज़). Reason: question-led history earns attention through curiosity, and each reveal's "therefore" becomes the next "and".
-- **Hook (3 tracks):** Picture: Sutradhar pulls a tiny clay dam out of a model and the water drains. Spoken: "भोपाल की सबसे बड़ी झील, क़ुदरत ने नहीं बनाई।" Text: none (Flow can't render Hindi text; the YouTube title carries it).
-- **Planted → paid:** the clay lake model and its tiny wall (C01) returns in C28 and C81. The island (C61) returns as Takia island (C63). The amber stamp (C56) returns in C66.
+- **Hook (3 tracks):** Picture: Sutradhar pulls a tiny earthen dam out of a lake model and the water drains. Spoken: "भोपाल की सबसे बड़ी झील, क़ुदरत ने नहीं बनाई।" Text: none (Flow can't render Hindi text; the YouTube title carries it).
+- **Planted → paid:** the lake model and its tiny wall (C01) returns in C28 and C81. The island (C61) returns as Takia island (C63). The amber stamp (C56) returns in C66.
 - **AI-tells scan done:** no "आइए जानते हैं", no "दिलचस्प बात", one "सोचिए"-type device (none used), one contrast line on purpose (C21), and every rhetorical question is answered by a picture or a fact, not a slogan.
 - **Voice:** every line is ≤ 16 words so it fits one 8 s Flow clip. Numbers are spelled out in Hindi words. Sources are spoken (gazetteer, Kincaid, Day).
 
@@ -114,6 +114,6 @@ Runtime ≈ 10:22 (sum of clip "use" lengths; trim in Scenebuilder) · 995 Hindi
 1. **Hoshang Shah story = विवादित.** Our earlier Bhopal v1 script said it as fact. Here both views are given (F14 vs F15/F16), and the verdict is amber.
 2. Name origin Bhojpal vs Bhupal: both views given (F7, F8).
 3. F4 (the river's direction) and F18 (the 18th-century raising) come from one source each. The wording is hedged ("एक शोध के मुताबिक़", "यही शोध").
-4. Historical figures (Bhoj, Hoshang Shah, Kincaid, Day) are generic clay figures with no likeness, and none of them speaks.
+4. Historical figures (Bhoj, Hoshang Shah, Kincaid, Day) are generic cartoon figures with no likeness, and none of them speaks.
 5. Temple shots (C42–C44) are respectful: no caricature, one pilgrim offering flowers.
 6. C84 teases EP2 (the Begums, F25).

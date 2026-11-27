@@ -123,3 +123,6 @@ Subscribers: 240k. Long/other videos listed: 5. Shorts: 49. Descriptions and cap
 4. Format sources in the description like theirs (Author, Title, Publisher, Year), mapped to our fact IDs. Use explicit hedges for disputed claims.
 5. Later (after YPP): a free "city facts" PDF as a lead magnet. Skip affiliate links for now.
 6. Hindi narration at about 130–140 words/min. Don't rush; leave pauses at reveals.
+
+## Owner decision 2026-11-27: art style
+We adopt Quiet Wolf's **style family** (2D hand-drawn vintage noir cartoon, amber lamp chiaroscuro, sepia/charcoal/cream/red palette, bold-outline thumbnails) but **not** their characters (no anthropomorphic wolf/pig/animals in suits, no white-glove mascot), titles or scripts. Our narrator is a human Sutradhar in Indian settings.

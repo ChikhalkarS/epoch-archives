@@ -13,7 +13,7 @@ Message (one repeatable line), viewer (who, believing what), feeling arc, struct
 ## Structure (9–10 min ≈ 1,150–1,350 words at ~130 wpm)
 | Time | Section | Rules |
 |---|---|---|
-| 0:00–0:15 | Hook | Sutradhar on camera acts out the belief, then says a 5–12-word line that breaks it, then the hook question. Picture track: one strong clay action in frame 1. |
+| 0:00–0:15 | Hook | Sutradhar on camera acts out the belief, then says a 5–12-word line that breaks it, then the hook question. Picture track: one strong visual action in frame 1. |
 | 0:15–0:17 | Logo sting | no VO |
 | 0:17–1:15 | Setup | Stakes for the viewer ("जो पानी आप पीते हैं…"), why the obvious answer fails, promise: "तीन राज़". |
 | 1:15–7:15 | राज़ 1, 2, 3 | Each: AND (context) → BUT (the flip) → THEREFORE (what it means) → open loop into the next. Signpost: "राज़ नंबर दो…". At least one evidence card per reveal. |

@@ -31,6 +31,6 @@ Entry point: `/make-video <ep-slug>` (`skills/studio/make-video`). Format: `stud
 | Limit | Workaround |
 |---|---|
 | Voice can drift between clips | One fixed voice description pasted verbatim in every prompt. Regenerate outliers. Keep each line ≤ 16 Hindi words so it fits 8 s |
-| Readable text (Devanagari) renders badly | No on-screen text in prompts. Sources are **spoken** ("इम्पीरियल गज़ेटियर, उन्नीस सौ आठ के मुताबिक़") and listed in the description. Evidence cards are clay objects with blank or squiggle text |
+| Readable text (Devanagari) renders badly | No on-screen text in prompts. Sources are **spoken** ("इम्पीरियल गज़ेटियर, उन्नीस सौ आठ के मुताबिक़") and listed in the description. Evidence objects are drawn with blank or scribble text |
 | Faces drift | Sutradhar only through the Ingredients sheet. Faces stay under 1/3 of the frame except deliberate close-ups |
 | Clip music clashes | Every prompt says "no music". The score is added once in YouTube Studio |
