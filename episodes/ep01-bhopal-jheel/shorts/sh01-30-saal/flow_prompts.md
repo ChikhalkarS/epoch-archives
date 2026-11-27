@@ -1,5 +1,5 @@
 # Short SH01 · "3 महीने, 3 साल, 30 साल" · Google Flow prompts
-Standalone Short (no EP1 dependency) · 7 clips · ≈ 36 s after trimming · ≈ 70 credits + retakes.
+Standalone Short (no EP1 dependency) · 8 clips · ≈ 54 s after trimming · ≈ 80 credits + retakes.
 
 ## Settings (every clip)
 Veo 3.1 - Lite · Video · 9:16 · 8 sec · x1 · prompt enhancer off. Clips S1 and S7: **Ingredients** with *Sutradhar sheet* + *Archive room*. Others: plain Text to Video (no ingredients).
@@ -12,9 +12,9 @@ Veo 3.1 - Lite · Video · 9:16 · 8 sec · x1 · prompt enhancer off. Clips S1 
 5. The action ends in a held pose (no extra random movement).
 
 ## Assembly in Scenebuilder
-Order S1 → S7. Trim each to its "keep ~N s" (cut silence before and after the line). Hard cuts, no transitions. Export.
+Order S1, S2, S3, S4, S5, S6, S6b, S7. Trim each to its "keep ~N s" (cut silence before and after the line). Hard cuts, no transitions. Export.
 
-### S1 · Ingredients to Video · ingredients: Sutradhar sheet + Archive room · 9:16 · 8 s · keep ~4.5 s
+### S1 · Ingredients to Video · ingredients: Sutradhar sheet + Archive room · 9:16 · 8 s · keep ~7 s
 
 ```
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
@@ -25,13 +25,13 @@ SCENE: Inside the old archive room: wooden shelves of rolled scrolls, a brass oi
 ACTION: From the very first frame Sutradhar already grips the tiny embankment wall with both paws; he yanks it out of the model and the blue water gushes out of the valley across the tray; he holds the little wall up beside his face and looks straight into the lens.
 CAMERA: Medium close shot, eye level, 50mm, quick short push-in in the first second, then locked.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
-DIALOGUE: Sutradhar looks into the lens and says in Hindi: "कहते हैं, एक झील को मिटाने में, तीस साल लगे।"
+DIALOGUE: Sutradhar looks into the lens and says in Hindi: "कहते हैं, भोपाल के पास एक विशाल झील थी, जिसे मिटाने में पूरे तीस साल लगे।"
 VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker. SFX: a wet earthy squelch and a rush of spilling water at the very start.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
 
-### S2 · Text to Video · ingredients: none (Text to Video) · 9:16 · 8 s · keep ~6 s
+### S2 · Text to Video · ingredients: none (Text to Video) · 9:16 · 8 s · keep ~7 s
 
 ```
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
@@ -40,13 +40,13 @@ SCENE: The 15th century: the SULTAN, an anthropomorphic lion with a dark brown m
 ACTION: The sultan raises one open paw; the leopard soldiers lift their picks and swing them down onto the stone dam together; they freeze at the bottom of the swing.
 CAMERA: Wide shot, high angle from behind the sultan's shoulder, 35mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
-VOICE-OVER (Sutradhar, off-screen, Hindi): "कहानी पंद्रहवीं सदी की है। सुल्तान होशंगशाह ने, भोजपुर का बाँध तुड़वाया।"
+VOICE-OVER (Sutradhar, off-screen, Hindi): "कहानी पंद्रहवीं सदी की है। सुल्तान होशंगशाह के हुक्म पर, भोजपुर का विशाल बाँध तोड़ा गया।"
 VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind over the water, a horse snorting. SFX: iron picks striking stone in unison.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
 
-### S3 · Text to Video · ingredients: none (Text to Video) · 9:16 · 8 s · keep ~3.5 s
+### S3 · Text to Video · ingredients: none (Text to Video) · 9:16 · 8 s · keep ~6.5 s
 
 ```
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
@@ -55,13 +55,13 @@ SCENE: Extreme close on the face of the massive sandstone dam: a dark crack runn
 ACTION: The crack splits wider, the two blocks grind apart, and a hard jet of indigo water bursts out through the gap toward the camera and keeps pouring.
 CAMERA: Close-up, low angle, 35mm, locked, the camera does not move.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
-VOICE-OVER (Sutradhar, off-screen, Hindi): "बाँध तोड़ने में, तीन महीने।"
+VOICE-OVER (Sutradhar, off-screen, Hindi): "बाँध विशाल पत्थरों का था। कहानी के मुताबिक़, उसे तोड़ने में ही तीन महीने लग गए।"
 VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind over the dam. SFX: stone cracking, then a roaring burst of water.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
 
-### S4 · Text to Video · ingredients: none (Text to Video) · 9:16 · 8 s · keep ~3.5 s
+### S4 · Text to Video · ingredients: none (Text to Video) · 9:16 · 8 s · keep ~6.5 s
 
 ```
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
@@ -70,13 +70,13 @@ SCENE: The huge Bhojpur lake seen from a high ridge, wooden boats on the water, 
 ACTION: In a fast time-lapse the water level sinks steadily, leaving muddy banks and boats stranded on dry ground, until only a few puddles shine; the scene settles.
 CAMERA: Extreme wide shot, high angle, 24mm, locked, the camera does not move.
 LIGHTING: Daylight flickering quickly from day to night and back as many days pass, painted shadows sweeping across the valley.
-VOICE-OVER (Sutradhar, off-screen, Hindi): "झील खाली होने में, तीन साल।"
+VOICE-OVER (Sutradhar, off-screen, Hindi): "फिर पानी बहना शुरू हुआ, और झील को पूरी तरह खाली होने में, तीन साल लगे।"
 VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind. SFX: a long deep draining gurgle.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
 
-### S5 · Text to Video · ingredients: none (Text to Video) · 9:16 · 8 s · keep ~5 s
+### S5 · Text to Video · ingredients: none (Text to Video) · 9:16 · 8 s · keep ~6.5 s
 
 ```
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
@@ -85,13 +85,13 @@ SCENE: The drained lake bed: cracked dry ochre mud stretching to the hills, a st
 ACTION: Green shoots sprout across the cracked mud in a time-lapse until the land becomes a field, and a nilgai farmer in a dhoti guides a wooden plough pulled by two bullocks across it and stops.
 CAMERA: Wide shot, eye level, 35mm, slow push-in.
 LIGHTING: Warm golden daylight from camera-left with soft light beams, rich painted shadows and a dark vignette at the frame edges.
-VOICE-OVER (Sutradhar, off-screen, Hindi): "और उस ज़मीन पर खेती होने में, पूरे तीस साल।"
+VOICE-OVER (Sutradhar, off-screen, Hindi): "और जिस ज़मीन पर कभी झील थी, वहाँ पहली बार खेती होने में, पूरे तीस साल लगे।"
 VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: wind over fields, bullock bells.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
 
-### S6 · Text to Video · ingredients: none (Text to Video) · 9:16 · 8 s · keep ~6.5 s
+### S6 · Text to Video · ingredients: none (Text to Video) · 9:16 · 8 s · keep ~7 s
 
 ```
 STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
@@ -100,9 +100,24 @@ SCENE: A study in the 1880s lit by a kerosene lamp: an anthropomorphic badger sc
 ACTION: The badger runs his pen along a line of the manuscript, stops, and confidently writes a note in his notebook; the camera reveals that the manuscript's small ink drawing shows a lake with an island; he keeps writing.
 CAMERA: Medium shot, eye level, 50mm, slow push-in past the badger's shoulder onto the manuscript.
 LIGHTING: Warm kerosene lamp light from camera-right, deep shadows, dark vignette.
-VOICE-OVER (Sutradhar, off-screen, Hindi): "पर एक शोध कहता है, ये कहानी, एक फ़ारसी ग्रंथ को ग़लत पढ़ने से बनी।"
+VOICE-OVER (Sutradhar, off-screen, Hindi): "पर ठहरिए। एक शोध कहता है, ये पूरी कहानी, एक फ़ारसी ग्रंथ को ग़लत पढ़ने से फैली।"
 VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: clock ticking. SFX: a pen nib scratching.
+CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
+```
+
+### S6b · Text to Video · ingredients: none (Text to Video) · 9:16 · 8 s · keep ~7 s
+
+```
+STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
+FRAMING: Vertical 9:16 portrait composition; keep the main subject centred and large in frame, stage depth from bottom to top, nothing important in the top 10% or bottom 20% (reserved for captions and the YouTube interface).
+SCENE: Extreme close on an old Persian-style manuscript page under warm lamp light: a small faded ink drawing of a lake with a little wooded island in the middle, surrounded by abstract scribble script.
+ACTION: The ink drawing comes alive: its lines fill with indigo colour, the water begins to ripple and the trees on the island sway, until it becomes a small living painted lake with the island in the middle; it settles.
+CAMERA: Macro close-up, top-down, 100mm macro, slow push-in toward the island.
+LIGHTING: Warm amber lamp light from camera-left, soft vignette.
+VOICE-OVER (Sutradhar, off-screen, Hindi): "शोध के मुताबिक़, वो झील भोजपुर की नहीं, भोपाल की थी। जिसमें आज भी एक टापू है।"
+VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
+AMBIENCE: faint paper rustle, soft water lapping. SFX: a gentle magical shimmer as the drawing comes alive.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
 ```
 
@@ -117,7 +132,7 @@ SCENE: Inside the old archive room: wooden shelves of rolled scrolls, a brass oi
 ACTION: Sutradhar brings the stamp down firmly onto the ledger page and lifts it, leaving a large round amber-orange ink stamp mark; then he leans toward the lens with one eyebrow raised and an open paw turned up, inviting an answer; he holds the pose.
 CAMERA: Medium close shot framing Sutradhar's face and the ledger together, slight high angle, 50mm, locked, the camera does not move.
 LIGHTING: Warm amber oil-lamp glow from camera-left, deep soft shadows, dark vignette at the edges.
-DIALOGUE: Sutradhar looks into the lens and says in Hindi: "सच या झूठ? जवाब है, विवादित। आप क्या मानते हैं? कमेंट में लिखिए।"
+DIALOGUE: Sutradhar looks into the lens and says in Hindi: "तो, सच या झूठ? हमारा जवाब है, विवादित। आप क्या मानते हैं? कमेंट में लिखिए।"
 VOICE: Sutradhar's voice, a deep resonant Indian male voice that is soft and gentle with a curious, wondering tone, natural storytelling pace that is slightly brisk, never slow or dragging, clear standard Hindi.
 AMBIENCE: faint lamp flame flicker. SFX: a heavy stamp thump, then a soft drum hit.
 CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D.
