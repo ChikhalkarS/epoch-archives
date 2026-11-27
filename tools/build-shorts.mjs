@@ -73,7 +73,7 @@ function check(sh, shots) {
   const roles = shots.map((s) => s.role);
   if (roles[0] !== 'hook') warnings.push(`${sh.id}: first shot must be the hook`);
   if (!roles.includes('brand')) warnings.push(`${sh.id}: brand intro missing`);
-  if (!roles.includes('interaction')) warnings.push(`${sh.id}: viewer line missing`);
+  if (!roles.includes('interaction') && !(sh.skip_checks || []).includes('interaction')) warnings.push(`${sh.id}: viewer line missing`);
   if (!roles.includes('comment')) warnings.push(`${sh.id}: comment question missing`);
   if (roles[roles.length - 1] !== 'follow' || shots[shots.length - 1].vo !== T.city_ask_line || shots[shots.length - 2].vo !== T.follow_line) warnings.push(`${sh.id}: must end with the two outro lines (@follow, @cityask)`);
   if (w < 140 || w > 175) warnings.push(`${sh.id}: ${w} words (target 140-165, max 175)`);

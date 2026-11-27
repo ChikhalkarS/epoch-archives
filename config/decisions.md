@@ -31,6 +31,7 @@ Owner decisions, newest last. Claude reads this before every stage. Change a dec
 | 2026-11-27 | Supersedes the voice-over-only line: Sutradhar's mouth moves whenever he is on screen saying his line. Flow gets the exact line as dialogue (its voice is only a guide and is muted); assemble-short retimes each speaking clip 0.7x-1.4x onto the ElevenLabs line. Outro shots changed so he faces camera when talking (map_present, sign_off, close_whisper) | prompts/library.json narrator_shots + speech, tools/time-voice.mjs, tools/assemble-short.mjs |
 | 2026-11-27 | New default outro (owner): "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।" + "और कमेंट में बताइए, अगली कहानी किस शहर की हो?". Replaces the next-story/next-city teaser and the old follow line in every Short | config/channel.json shorts_template, make-short skill, shorts.json |
 | 2026-11-27 | Intro line 2 is "मैं आपका भिड़ू, और आज की कहानी, <city> की।" (replaces "मैं हूँ सूत्रधार"). SUTRADHAR stays only as the character's prompt ID | config/channel.json, skill, style guide |
+| 2026-11-27 | Owner's final ep 1 voice text: intro line 2 is just "आज की कहानी, <city> की।" (now the default; "मैं आपका भिड़ू" dropped), viewer line "सोचिए... आप राजा होते..." removed from ep 1, owner's voice tags ([short pause], [cheerful], [thoughtful]) kept | config/channel.json, shorts/mumbai/shorts.json |
 
 ## Open items (waiting on the owner)
 

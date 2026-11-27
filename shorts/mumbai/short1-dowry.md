@@ -1,6 +1,6 @@
 # असली सीन - एपिसोड 1: दहेज में मिला शहर
 <!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v7. Edit those, not this file. -->
-City: मुंबई | Format: 9:16, 1080x1920 | Words: 165 | measured voice: 81.74 s | Shots: 23 (14 clips, 9 stills) | Status: waiting on Gate 1
+City: मुंबई | Format: 9:16, 1080x1920 | Words: 154 | estimated ~66 s incl. pauses at speed 1.1-1.15 (not measured yet) | Shots: 22 (13 clips, 9 stills) | Status: waiting on Gate 1
 
 **Twist:** दहेज हाथ आने में 4 साल लगे, फिर बोझ निकला, और £10 सालाना किराए पर दे दिया  
 **Outro:** ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए। / और कमेंट में बताइए, अगली कहानी किस शहर की हो?  
@@ -13,27 +13,26 @@ City: मुंबई | Format: 9:16, 1080x1920 | Words: 165 | measured voice: 8
 
 ### Paste into ElevenLabs (also in `shorts/mumbai/short1-dowry-voice.txt`)
 ```
-[excited] दहेज में सोना नहीं, घोड़े नहीं...
+[excited] दहेज में सोना नहीं, घोड़े नहीं... [short pause]
 पूरा एक शहर!
-स्वागत है... असली सीन के पहले एपिसोड में।
-मैं आपका भिड़ू... और आज की कहानी, मुंबई की।
-सोलह सौ इकसठ।
+[excited] स्वागत है... असली सीन के पहले एपिसोड में।
+[cheerful] आज की कहानी, मुंबई की।
+[thoughtful] सोलह सौ इकसठ।
 पुर्तगाल की राजकुमारी कैथरीन की शादी तय हुई... इंग्लैंड के राजा चार्ल्स द्वितीय से।
-तब मुंबई, सात छोटे टापू थी।
+[thoughtful] तब मुंबई, सात छोटे टापू थी।
 और राज था पुर्तगालियों का।
 शादी के समझौते में, दहेज की लिस्ट बनी।
 अफ़्रीका का टैंजियर।
 और भारत का... बॉम्बे।
-[curious] लेकिन ट्विस्ट यहाँ है।
+[curious] लेकिन ट्विस्ट यहाँ है। [short pause]
 दहेज हाथ आने में ही... चार साल लग गए!
 और तब पता चला... [sighs] ये तोहफ़ा नहीं, बहुत महँगा बोझ है।
-[curious] सोचिए... आप राजा होते, तो क्या करते?
-राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे... ईस्ट इंडिया कंपनी को किराए पर दे दिया!
+[curious] राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे... ईस्ट इंडिया कंपनी को किराए पर दे दिया!
 और किराया?
 [whispers] साल का सिर्फ़... [excited] दस पाउंड!
 वही दहेज वाला टापू... आज भारत की आर्थिक राजधानी कहलाता है। मुंबई।
-अब बताइए... आज मुंबई का किराया कितना होना चाहिए?
-कमेंट में लिखिए।
+[thoughtful] अब बताइए... आज मुंबई का किराया कितना होना चाहिए?
+[excited] कमेंट में लिखिए।
 ऐसी ही अनसुनी कहानियों के लिए... फ़ॉलो कीजिए।
 और कमेंट में बताइए... अगली कहानी किस शहर की हो?
 ```
@@ -46,31 +45,30 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 - **MUMBAI_MERCHANT** (v3): prompts/characters/MUMBAI_MERCHANT/sheet.png
 
 ## Shot list (one line = one shot)
-| # | Role | Line | Size / angle | Type | Sec (measured) | On screen | Facts |
+| # | Role | Line | Size / angle | Type | Sec (est.) | On screen | Facts |
 |---|---|---|---|---|---|---|---|
-| 1 | hook | दहेज में सोना नहीं, घोड़े नहीं... | CU / low | clip | 2.86 | दहेज में पूरा शहर?! | F8 |
-| 2 | hook | पूरा एक शहर! | MS / top | clip | 1.49 | पूरा शहर! | F8 |
-| 3 | brand | स्वागत है, असली सीन के पहले एपिसोड में। | WS / low | clip (walk_in v4), speaks | 3.8 | असली सीन 🐺 | - |
-| 4 | brand | मैं आपका भिड़ू, और आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v4), speaks | 3.8 | आज: मुंबई | - |
-| 5 | story | सोलह सौ इकसठ। | ECU / eye | still | 2.59 | 1661 | F8 |
-| 6 | story | पुर्तगाल की राजकुमारी कैथरीन की शादी तय हुई, इंग्लैंड के राजा चार्ल्स द्वितीय से। | WS / eye | still | 5.94 | कैथरीन 👑 चार्ल्स | F8 |
-| 7 | story | तब मुंबई, सात छोटे टापू थी। | EWS / top | still | 3.47 | 7 टापू | F7 |
-| 8 | story | और राज था पुर्तगालियों का। | MS / low | still | 2.78 | पुर्तगाली राज | F6 |
-| 9 | story | शादी के समझौते में, दहेज की लिस्ट बनी। | ECU / high | still | 3.49 | दहेज की लिस्ट | F8 |
-| 10 | story | अफ़्रीका का टैंजियर। | MCU / eye | still | 2.1 | टैंजियर 🌍 | F8 |
-| 11 | story | और भारत का, बॉम्बे। | CU / high | still | 2.66 | + बॉम्बे 🏝️ | F8 |
-| 12 | twist | लेकिन ट्विस्ट यहाँ है। | CU / eye | clip (cut_in_finger v4), speaks | 1.88 | ट्विस्ट! | - |
-| 13 | story | दहेज हाथ आने में ही, चार साल लग गए। | MS / eye | still | 3.73 | 4 साल ⏳ | F35 F10 |
-| 14 | story | और तब पता चला, ये तोहफ़ा नहीं, बहुत महँगा बोझ है। | WS / high | still | 4.99 | तोहफ़ा या बोझ? | F11 |
-| 15 | interaction | सोचिए, आप राजा होते, तो क्या करते? | MCU / low | clip (lean_in_question v4), speaks | 3.65 | आप क्या करते? 🤔 | - |
-| 16 | payoff | राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे, ईस्ट इंडिया कंपनी को किराए पर दे दिया। | MS / ots | clip | 6.32 | 1668: किराए पर! | F12 |
-| 17 | payoff | और किराया? | MCU / low | clip (lean_in_question v4), speaks | 1.24 | किराया? | - |
-| 18 | payoff | साल का सिर्फ़ दस पाउंड! | ECU / high | clip | 2.91 | सिर्फ़ £10 / साल 😳 | F12 |
-| 19 | payoff | वही दहेज वाला टापू, आज भारत की आर्थिक राजधानी कहलाता है। मुंबई। | EWS / low | clip | 6.39 | दहेज ➜ मुंबई | F29 |
-| 20 | comment | अब बताइए, आज मुंबई का किराया कितना होना चाहिए? | MS / high | clip (touch_diorama v4), speaks | 3.62 | आज का किराया? | - |
-| 21 | comment | कमेंट में लिखिए। | CU / low | clip (point_at_viewer v4), speaks | 1.78 | कमेंट 👇 | - |
-| 22 | follow | ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए। | MS / eye | clip (map_present v1), speaks | 3.5 | फ़ॉलो करें ➕ | - |
-| 23 | follow | और कमेंट में बताइए, अगली कहानी किस शहर की हो? | CU / low | clip (sign_off v1), speaks | 4.2 | अगला शहर कौन सा? 👇 | - |
+| 1 | hook | दहेज में सोना नहीं, घोड़े नहीं... | CU / low | clip | 2.7 | दहेज में पूरा शहर?! | F8 |
+| 2 | hook | पूरा एक शहर! | MS / top | clip | 1.4 | पूरा शहर! | F8 |
+| 3 | brand | स्वागत है, असली सीन के पहले एपिसोड में। | WS / low | clip (walk_in v4), speaks | 3.5 | असली सीन 🐺 | - |
+| 4 | brand | आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v4), speaks | 2.1 | आज: मुंबई | - |
+| 5 | story | सोलह सौ इकसठ। | ECU / eye | still | 1.4 | 1661 | F8 |
+| 6 | story | पुर्तगाल की राजकुमारी कैथरीन की शादी तय हुई, इंग्लैंड के राजा चार्ल्स द्वितीय से। | WS / eye | still | 5.6 | कैथरीन 👑 चार्ल्स | F8 |
+| 7 | story | तब मुंबई, सात छोटे टापू थी। | EWS / top | still | 2.5 | 7 टापू | F7 |
+| 8 | story | और राज था पुर्तगालियों का। | MS / low | still | 2.1 | पुर्तगाली राज | F6 |
+| 9 | story | शादी के समझौते में, दहेज की लिस्ट बनी। | ECU / high | still | 3.2 | दहेज की लिस्ट | F8 |
+| 10 | story | अफ़्रीका का टैंजियर। | MCU / eye | still | 1.4 | टैंजियर 🌍 | F8 |
+| 11 | story | और भारत का, बॉम्बे। | CU / high | still | 2 | + बॉम्बे 🏝️ | F8 |
+| 12 | twist | लेकिन ट्विस्ट यहाँ है। | CU / eye | clip (cut_in_finger v4), speaks | 1.8 | ट्विस्ट! | - |
+| 13 | story | दहेज हाथ आने में ही, चार साल लग गए। | MS / eye | still | 3.8 | 4 साल ⏳ | F35 F10 |
+| 14 | story | और तब पता चला, ये तोहफ़ा नहीं, बहुत महँगा बोझ है। | WS / high | still | 4.5 | तोहफ़ा या बोझ? | F11 |
+| 15 | payoff | राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे, ईस्ट इंडिया कंपनी को किराए पर दे दिया। | MS / ots | clip | 6.3 | 1668: किराए पर! | F12 |
+| 16 | payoff | और किराया? | MCU / low | clip (lean_in_question v4), speaks | 1.2 | किराया? | - |
+| 17 | payoff | साल का सिर्फ़ दस पाउंड! | ECU / high | clip | 2.4 | सिर्फ़ £10 / साल 😳 | F12 |
+| 18 | payoff | वही दहेज वाला टापू, आज भारत की आर्थिक राजधानी कहलाता है। मुंबई। | EWS / low | clip | 4.9 | दहेज ➜ मुंबई | F29 |
+| 19 | comment | अब बताइए, आज मुंबई का किराया कितना होना चाहिए? | MS / high | clip (touch_diorama v4), speaks | 3.8 | आज का किराया? | - |
+| 20 | comment | कमेंट में लिखिए। | CU / low | clip (point_at_viewer v4), speaks | 1.4 | कमेंट 👇 | - |
+| 21 | follow | ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए। | MS / eye | clip (map_present v1), speaks | 3.5 | फ़ॉलो करें ➕ | - |
+| 22 | follow | और कमेंट में बताइए, अगली कहानी किस शहर की हो? | CU / low | clip (sign_off v1), speaks | 4.2 | अगला शहर कौन सा? 👇 | - |
 
 ## Shot prompts
 Negative prompt (if supported): `photorealistic, real photograph, 3D render, CGI, claymation, plasticine, glossy plastic, anime, chibi, cute baby proportions, watercolor wash, blurry lines, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood`
@@ -114,7 +112,7 @@ Camera tracks slowly backward at his walking pace. He walks toward the lens, lif
 ```
 
 ### short1-s04 | brand | MCU low | clip
-VO: मैं आपका भिड़ू, और आज की कहानी, मुंबई की।
+VO: आज की कहानी, मुंबई की।
 On screen: आज: मुंबई
 References: SUTRADHAR
 Image prompt:
@@ -223,20 +221,7 @@ Image prompt:
 ```
 Edit move: Slow pull-back upward. A coin bag tips over and empties. End with the king small among the bills.
 
-### short1-s15 | interaction | MCU low | clip
-VO: सोचिए, आप राजा होते, तो क्या करते?
-On screen: आप क्या करते? 🤔
-References: SUTRADHAR
-Image prompt:
-```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, Medium close-up, low angle looking up: SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) leaning toward the camera, sitting on the empty royal throne with the tiny island model balanced on one paw, the piles of royal bills softly blurred behind him, warm rim light. Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk., vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
-```
-Motion prompt:
-```
-Locked camera. He leans in toward the lens, one ear twitching, the raised brow lifting. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
-```
-
-### short1-s16 | payoff | MS ots | clip
+### short1-s15 | payoff | MS ots | clip
 VO: राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे, ईस्ट इंडिया कंपनी को किराए पर दे दिया।
 On screen: 1668: किराए पर!
 References: MUMBAI_KING, MUMBAI_MERCHANT
@@ -249,7 +234,7 @@ Motion prompt:
 Locked camera. The charter passes from the king's hand into the merchant's; the merchant tucks it under his arm. End on the merchant's satisfied smile over the king's shoulder. Keep MUMBAI_KING, MUMBAI_MERCHANT identical to the reference sheet(s). Character lock: the KING always has a long black curly wig past the shoulders, a thin black moustache, a long pale face, a deep crimson velvet coat with gold trim and gold buttons, a white lace cravat; gold crown only in throne shots; the MERCHANT always has a stocky build, a short brown beard, small pale-blue eyes, a plain brown wool coat with pewter buttons, a white linen collar, a wide-brimmed black hat, a leather-bound ledger.
 ```
 
-### short1-s17 | payoff | MCU low | clip
+### short1-s16 | payoff | MCU low | clip
 VO: और किराया?
 On screen: किराया?
 References: SUTRADHAR
@@ -262,7 +247,7 @@ Motion prompt:
 Locked camera. He leans in toward the lens, one ear twitching, the raised brow lifting. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
-### short1-s18 | payoff | ECU high | clip
+### short1-s17 | payoff | ECU high | clip
 VO: साल का सिर्फ़ दस पाउंड!
 On screen: सिर्फ़ £10 / साल 😳
 Image prompt:
@@ -274,7 +259,7 @@ Motion prompt:
 Locked camera. The coin drops into frame, spins and settles flat on the islands. End on the still coin.
 ```
 
-### short1-s19 | payoff | EWS low | clip
+### short1-s18 | payoff | EWS low | clip
 VO: वही दहेज वाला टापू, आज भारत की आर्थिक राजधानी कहलाता है। मुंबई।
 On screen: दहेज ➜ मुंबई
 Image prompt:
@@ -286,7 +271,7 @@ Motion prompt:
 Slow crane up from the seafront to the tower tops as the city lights switch on. End on the lit skyline.
 ```
 
-### short1-s20 | comment | MS high | clip
+### short1-s19 | comment | MS high | clip
 VO: अब बताइए, आज मुंबई का किराया कितना होना चाहिए?
 On screen: आज का किराया?
 References: SUTRADHAR
@@ -299,7 +284,7 @@ Motion prompt:
 Slow descending crane toward him. He reaches out and tap the top of the tallest tower with one claw, then lifts his face to the camera. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
-### short1-s21 | comment | CU low | clip
+### short1-s20 | comment | CU low | clip
 VO: कमेंट में लिखिए।
 On screen: कमेंट 👇
 References: SUTRADHAR
@@ -312,7 +297,7 @@ Motion prompt:
 Locked camera, very slight push-in. His paw comes up and points straight at the lens. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
-### short1-s22 | follow | MS eye | clip
+### short1-s21 | follow | MS eye | clip
 VO: ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।
 On screen: फ़ॉलो करें ➕
 References: SUTRADHAR
@@ -325,7 +310,7 @@ Motion prompt:
 Locked camera. Facing the lens, he taps the marker on the map; it pulses brighter while he keeps his eyes on the viewer. Keep SUTRADHAR identical to the reference sheet(s). Character lock: SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk.
 ```
 
-### short1-s23 | follow | CU low | clip
+### short1-s22 | follow | CU low | clip
 VO: और कमेंट में बताइए, अगली कहानी किस शहर की हो?
 On screen: अगला शहर कौन सा? 👇
 References: SUTRADHAR

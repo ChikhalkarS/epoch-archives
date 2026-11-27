@@ -22,7 +22,7 @@
     {
      "role": "hook",
      "vo": "दहेज में सोना नहीं, घोड़े नहीं...",
-     "tts": "[excited] दहेज में सोना नहीं, घोड़े नहीं...",
+     "tts": "[excited] दहेज में सोना नहीं, घोड़े नहीं... [short pause]",
      "facts": [
       "F8"
      ],
@@ -80,7 +80,7 @@
     {
      "role": "story",
      "vo": "सोलह सौ इकसठ।",
-     "tts": "सोलह सौ इकसठ।",
+     "tts": "[thoughtful] सोलह सौ इकसठ।",
      "facts": [
       "F8"
      ],
@@ -112,7 +112,7 @@
     {
      "role": "story",
      "vo": "तब मुंबई, सात छोटे टापू थी।",
-     "tts": "तब मुंबई, सात छोटे टापू थी।",
+     "tts": "[thoughtful] तब मुंबई, सात छोटे टापू थी।",
      "facts": [
       "F7"
      ],
@@ -192,7 +192,7 @@
     {
      "role": "twist",
      "vo": "लेकिन ट्विस्ट यहाँ है।",
-     "tts": "[curious] लेकिन ट्विस्ट यहाँ है।",
+     "tts": "[curious] लेकिन ट्विस्ट यहाँ है। [short pause]",
      "facts": [],
      "vars": {},
      "onscreen": "ट्विस्ट!",
@@ -234,23 +234,9 @@
      "sfx": "coins spilling from a bag, a tired sigh-like breath of wind in the hall"
     },
     {
-     "role": "interaction",
-     "vo": "सोचिए, आप राजा होते, तो क्या करते?",
-     "tts": "[curious] सोचिए... आप राजा होते, तो क्या करते?",
-     "facts": [],
-     "vars": {
-      "pose": "sitting on the empty royal throne with the tiny island model balanced on one paw",
-      "context_visual": "the piles of royal bills"
-     },
-     "onscreen": "आप क्या करते? 🤔",
-     "narrator": "lean_in_question",
-     "goal": "The narrator asks the viewer what they would do as king.",
-     "sfx": "a throne creaking as he leans forward, quiet room tone"
-    },
-    {
      "role": "payoff",
      "vo": "राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे, ईस्ट इंडिया कंपनी को किराए पर दे दिया।",
-     "tts": "राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे... ईस्ट इंडिया कंपनी को किराए पर दे दिया!",
+     "tts": "[curious] राजा ने सोलह सौ अड़सठ में, पूरा बॉम्बे... ईस्ट इंडिया कंपनी को किराए पर दे दिया!",
      "facts": [
       "F12"
      ],
@@ -312,7 +298,7 @@
     {
      "role": "comment",
      "vo": "अब बताइए, आज मुंबई का किराया कितना होना चाहिए?",
-     "tts": "अब बताइए... आज मुंबई का किराया कितना होना चाहिए?",
+     "tts": "[thoughtful] अब बताइए... आज मुंबई का किराया कितना होना चाहिए?",
      "facts": [],
      "vars": {
       "topic_visual": "the modern Mumbai skyline at night",
@@ -326,7 +312,7 @@
     {
      "role": "comment",
      "vo": "कमेंट में लिखिए।",
-     "tts": "कमेंट में लिखिए।",
+     "tts": "[excited] कमेंट में लिखिए।",
      "facts": [],
      "vars": {
       "context_visual": "the glowing city diorama"
@@ -362,7 +348,11 @@
      "goal": "Ask viewers which city the next story should be about, then sign off.",
      "sfx": "lantern creak, footsteps fading into the aisle"
     }
-   ]
+   ],
+   "skip_checks": [
+    "interaction"
+   ],
+   "note": "Owner's final voice text (2026-11-27): no viewer line; owner's own voice tags."
   },
   {
    "id": "short2-sea",
