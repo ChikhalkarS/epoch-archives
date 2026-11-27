@@ -17,3 +17,5 @@
 | 2026-11-27 | narrator_shots | +1 | Mouth stays closed in every narrator shot (voice-over, no lip-sync); expression carries the beat |
 | 2026-11-27 | narrator_shots | +1 | Speaking templates (speaks=true) get his exact line as Flow dialogue for mouth movement; new map_present, sign_off, close_whisper so he faces camera when talking; eye_ecu/map_tap_ots/walk_off stay mouth-closed |
 | 2026-11-27 | speech | 1 | Voice description, mouth line and voice-only audio line for speaking shots |
+| 2026-11-27 | style | 4 | Master style block first in every prompt + closing anchor; concrete rules for hands, skin and materials (owner saw style drift: painterly hand/wax); style key image attached to every shot |
+| 2026-11-27 | all characters | +1 | Prompts use display names (the wolf narrator, the king...) instead of IDs, after the ID was painted as text on a wall |

@@ -1,4 +1,4 @@
-# SUTRADHAR - character sheet (v3)
+# SUTRADHAR - character sheet (v4)
 <!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->
 
 **Name:** the wolf narrator of असली सीन; says "मैं आपका भिड़ू" (SUTRADHAR is his prompt ID)  
@@ -12,21 +12,21 @@
 
 ## Consistency lock (pasted verbatim into every prompt with this character)
 ```
-SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk
+the wolf narrator is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk
 ```
 
 ## Scene tag (how prompts describe the character)
 ```
-SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel)
+the wolf narrator, an anthropomorphic Indian grey wolf (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel)
 ```
 
 ## Role line (with the attached sheet)
 ```
-Image 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
+Image 1 defines the wolf narrator's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 ```
 
 ## Step 1 - close-up (owner's prompt, verbatim)
-Generate several, keep the one you would recognise in a crowd. Save as `closeup.png` here.
+Attach the style key (`prompts/style/style-key.png`) as a reference. Generate several, keep the one you would recognise in a crowd. Save as `closeup.png` here.
 ```
 Ultra-detailed 2D digital cartoon portrait of SUTRADHAR, an anthropomorphic Indian grey wolf, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes.
 Chest-up framing, three-quarter view turned slightly toward camera, plain cool grey background, even soft studio light.

@@ -1,4 +1,4 @@
-# MUMBAI_MERCHANT - character sheet (v3)
+# MUMBAI_MERCHANT - character sheet (v4)
 <!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->
 
 **Name:** East India Company merchant (generic 1660s)  
@@ -10,21 +10,21 @@
 
 ## Consistency lock (pasted verbatim into every prompt with this character)
 ```
-the MERCHANT always has a stocky build, a short brown beard, small pale-blue eyes, a plain brown wool coat with pewter buttons, a white linen collar, a wide-brimmed black hat, a leather-bound ledger
+the merchant always has a stocky build, a short brown beard, small pale-blue eyes, a plain brown wool coat with pewter buttons, a white linen collar, a wide-brimmed black hat, a leather-bound ledger
 ```
 
 ## Scene tag (how prompts describe the character)
 ```
-the MERCHANT (stocky English trader, short brown beard, brown 17th century coat, wide-brimmed black hat, leather ledger)
+the merchant (stocky English trader, short brown beard, brown 17th century coat, wide-brimmed black hat, leather ledger)
 ```
 
 ## Role line (with the attached sheet)
 ```
-Image 1 defines MUMBAI_MERCHANT's face, hair and clothing. Do not use its grey background or panel layout.
+Image 1 defines the merchant's face, hair and clothing. Do not use its grey background or panel layout.
 ```
 
 ## Step 1 - close-up
-Generate several, keep the one you would recognise in a crowd. Save as `closeup.png` here.
+Attach the style key (`prompts/style/style-key.png`) as a reference. Generate several, keep the one you would recognise in a crowd. Save as `closeup.png` here.
 ```
 Ultra-detailed 2D digital cartoon portrait of MUMBAI_MERCHANT, a middle-aged English trader of the 1660s, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, beard drawn with crisp ink strokes.
 Chest-up framing, three-quarter view turned slightly toward camera, plain cool grey background, even soft studio light.

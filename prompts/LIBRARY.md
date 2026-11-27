@@ -1,4 +1,4 @@
-# Prompt library (v7, 2026-11-27)
+# Prompt library (v8, 2026-11-27)
 
 <!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->
 
@@ -6,20 +6,28 @@ Single source of truth for every image/clip prompt. Always keep the latest best 
 
 ## Style
 
-**2D noir graphic-novel cartoon (owner, 2026-11-27; replaces claymation)**
+**2D noir graphic-novel cartoon, master style v4 (owner 2026-11-27: one style in every frame)**
 
 **Prefix:**
 ```
-2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre,
+STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir graphic-novel look, like frames from one animated series. Every shape, including hands, faces, fur, objects and backgrounds, is drawn with bold, clean, uniform black ink outlines and filled with flat cel colour plus one or two hard-edged shadow tones; soft gradient only inside the deepest shadows. Fur and hair are crisp jagged ink strokes. Hands and skin are simple drawn shapes with ink outlines and flat colour, smooth, without pores or wrinkles. Materials such as wax, brass, wood, cloth and water are drawn as flat shapes with one hard white highlight, matte, never glossy. Lighting: one warm amber lamp key light, deep charcoal and sepia shadows, a thin warm rim light on edges, high contrast. Palette: amber, sepia, charcoal, maroon, indigo, brass and ochre, with turquoise only for sea water.
 ```
 **Vertical suffix:**
 ```
-vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image
+. Vertical 9:16 frame. Every sign, page and banner is blank or carries unreadable squiggles. Same 2D noir graphic-novel cartoon style as the style reference: bold uniform black outlines, flat cel colour, hard-edged shadows, drawn hands and materials.
 ```
 **Negative:**
 ```
-photorealistic, real photograph, 3D render, CGI, claymation, plasticine, glossy plastic, anime, chibi, cute baby proportions, watercolor wash, blurry lines, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood
+photorealistic, real photograph, 3D render, CGI, claymation, plasticine, painterly oil texture, glossy highlights, realistic skin texture, wrinkles and pores, anime, chibi, watercolor wash, blurry lines, text, letters, words, names, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood
 ```
+
+## Style key (make first, attach to every shot)
+
+Generate 4 in Flow (image), pick the one whose look matches the approved wolf frame (bold outlines, flat colour). Save as prompts/style/style-key.png. Attach it to EVERY shot as the first ingredient/reference.
+```
+Style key frame for an animated noir graphic-novel series, vertical 9:16. STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir graphic-novel look, like frames from one animated series. Every shape, including hands, faces, fur, objects and backgrounds, is drawn with bold, clean, uniform black ink outlines and filled with flat cel colour plus one or two hard-edged shadow tones; soft gradient only inside the deepest shadows. Fur and hair are crisp jagged ink strokes. Hands and skin are simple drawn shapes with ink outlines and flat colour, smooth, without pores or wrinkles. Materials such as wax, brass, wood, cloth and water are drawn as flat shapes with one hard white highlight, matte, never glossy. Lighting: one warm amber lamp key light, deep charcoal and sepia shadows, a thin warm rim light on edges, high contrast. Palette: amber, sepia, charcoal, maroon, indigo, brass and ochre, with turquoise only for sea water. Scene: a candle-lit wooden desk at night; a man's hand in a dark coat sleeve presses a brass seal into red wax on a parchment covered in unreadable squiggles; an ornate wooden chest with brass corners and a small brass lantern stand beside it; behind, shelves of rolled scrolls fade into charcoal shadow. The hand, wax, brass and candle flame are drawn as flat outlined cartoon shapes, exactly like the rest of the frame. Every page is unreadable squiggles. Same 2D noir graphic-novel cartoon style as the style reference: bold uniform black outlines, flat cel colour, hard-edged shadows, drawn hands and materials.
+```
+Save as: prompts/style/style-key.png
 
 ## Framing words
 
@@ -41,7 +49,7 @@ native 9:16; subject's face in the upper-middle third; keep faces and key action
 
 ## Characters
 
-### SUTRADHAR (v3, channel (every episode))
+### SUTRADHAR (v4, channel (every episode))
 the wolf narrator of असली सीन; says "मैं आपका भिड़ू" (SUTRADHAR is his prompt ID)
 Exactly one pair of spectacles. Adult, sharp, detective attitude; never cute. Appears in the brand intro, cut-ins, viewer lines, comment ask and outro.
 
@@ -73,11 +81,11 @@ TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp
 ```
 Role line for every later prompt:
 ```
-Image 1 defines SUTRADHAR's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
+Image 1 defines the wolf narrator's face, fur, spectacles and clothing. Do not use its grey background or panel layout.
 ```
 Save as: prompts/characters/SUTRADHAR/closeup.png, prompts/characters/SUTRADHAR/sheet.png, prompts/characters/SUTRADHAR/profile.png
 
-### MUMBAI_PRINCESS (v3, mumbai)
+### MUMBAI_PRINCESS (v4, mumbai)
 Princess (generic 1661 Portuguese royal, captioned as Catherine)
 Generic figure, not a real likeness; name only in captions.
 
@@ -109,11 +117,11 @@ TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp
 ```
 Role line for every later prompt:
 ```
-Image 1 defines MUMBAI_PRINCESS's face, hair and clothing. Do not use its grey background or panel layout.
+Image 1 defines the princess's face, hair and clothing. Do not use its grey background or panel layout.
 ```
 Save as: prompts/characters/MUMBAI_PRINCESS/sheet.png
 
-### MUMBAI_KING (v3, mumbai)
+### MUMBAI_KING (v4, mumbai)
 King (generic 1660s English monarch, captioned as Charles II)
 Generic figure, not a real likeness; name only in captions.
 
@@ -145,11 +153,11 @@ TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp
 ```
 Role line for every later prompt:
 ```
-Image 1 defines MUMBAI_KING's face, hair and clothing. Do not use its grey background or panel layout.
+Image 1 defines the king's face, hair and clothing. Do not use its grey background or panel layout.
 ```
 Save as: prompts/characters/MUMBAI_KING/sheet.png
 
-### MUMBAI_MERCHANT (v3, mumbai)
+### MUMBAI_MERCHANT (v4, mumbai)
 East India Company merchant (generic 1660s)
 Generic figure.
 
@@ -181,11 +189,11 @@ TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp
 ```
 Role line for every later prompt:
 ```
-Image 1 defines MUMBAI_MERCHANT's face, hair and clothing. Do not use its grey background or panel layout.
+Image 1 defines the merchant's face, hair and clothing. Do not use its grey background or panel layout.
 ```
 Save as: prompts/characters/MUMBAI_MERCHANT/sheet.png
 
-### MUMBAI_LADY (v3, mumbai)
+### MUMBAI_LADY (v4, mumbai)
 Parsi lady of the 1840s (generic, captioned as Lady Avabai Jamsetjee Jeejeebhoy)
 Generic figure, not a real likeness; name only in captions.
 
@@ -217,7 +225,7 @@ TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp
 ```
 Role line for every later prompt:
 ```
-Image 1 defines MUMBAI_LADY's face, hair and clothing. Do not use its grey background or panel layout.
+Image 1 defines the Parsi lady's face, hair and clothing. Do not use its grey background or panel layout.
 ```
 Save as: prompts/characters/MUMBAI_LADY/sheet.png
 

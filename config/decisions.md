@@ -33,6 +33,7 @@ Owner decisions, newest last. Claude reads this before every stage. Change a dec
 | 2026-11-27 | Intro line 2 is "मैं आपका भिड़ू, और आज की कहानी, <city> की।" (replaces "मैं हूँ सूत्रधार"). SUTRADHAR stays only as the character's prompt ID | config/channel.json, skill, style guide |
 | 2026-11-27 | Owner's final ep 1 voice text: intro line 2 is just "आज की कहानी, <city> की।" (now the default; "मैं आपका भिड़ू" dropped), viewer line "सोचिए... आप राजा होते..." removed from ep 1, owner's voice tags ([short pause], [cheerful], [thoughtful]) kept | config/channel.json, shorts/mumbai/shorts.json |
 | 2026-11-27 | Every Flow prompt is ONE paragraph per shot (no [section] labels), pasted as is; mode and attachments are listed above the box | tools/build-shorts.mjs, make-short skill |
+| 2026-11-27 | One animation style in every frame: master style block first in every prompt + closing anchor, and one approved style key image (prompts/style/style-key.png) attached first to every shot; all shots use Ingredients or Image-with-references (no Text to Video). Prompts use display names, never IDs (an ID was painted as text on a wall) | prompts/library.json style v4, tools/build-shorts.mjs, make-short skill |
 
 ## Open items (waiting on the owner)
 
@@ -46,3 +47,5 @@ Owner decisions, newest last. Claude reads this before every stage. Change a dec
 | 2026-11-27 | Short 2 and 3 Flow packs: detailed goals/sound | closed: written |
 | 2026-11-27 | Character sheets to generate in Flow and save to prompts/characters/<ID>/ | open, owner |
 | 2026-11-27 | Ep 1 voice: re-record the full take (intro line 4 and the two outro lines changed) from shorts/mumbai/short1-dowry-voice.txt, then re-measure | open, owner |
+| 2026-11-27 | Style key image to generate and approve (prompts/style/style-key.png) | open, owner, before any more shots |
+| 2026-11-27 | Wolf's stole: prompts say LEFT shoulder, first Flow frame shows it on his right. Keep whichever the approved sheet shows; lock gets updated to match | open, owner |

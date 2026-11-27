@@ -24,6 +24,8 @@ Self-contained, own hook, surprising payoff. Only `verified`, `disputed` (both v
 Length 150-170 spoken words (build warns outside 140-175). One line = 1-18 words.
 
 ## 3. Shots: one narration line = one shot
+- One look in every frame (owner rule): every prompt starts with the master style (`prompts/library.json` -> `style.master`) and ends with `style.anchor`; the style key image `prompts/style/style-key.png` is the FIRST attachment on every shot (clips = Ingredients, stills = Image with references). No Text to Video. Max 3 attachments = style key + 2 characters.
+- Never write a character ID (SUTRADHAR, MUMBAI_KING...) as words in a prompt: Flow paints it as text. The build uses display names (`the wolf narrator`, `the king`) and strips IDs.
 - Look: 2D noir graphic-novel cartoon only (`prompts/library.json` -> `style`). Never write claymation, 3D or photoreal words into a shot.
 - New characters: write them in the owner's format (`Ultra-detailed 2D digital cartoon portrait of <ID>` + framing, EYES, FUR or SKIN AND HAIR, EXPRESSION, CLOTHING, TECHNICAL, BUILD) as `blocks` in the library; the build makes the close-up and sheet prompts.
 - Story lines show **people as people** (generic period figures; recurring ones defined in `prompts/library.json` -> `characters`, scoped to the city).

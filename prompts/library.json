@@ -1,21 +1,30 @@
 {
-  "library_version": 7,
+  "library_version": 8,
   "updated": "2026-11-27",
   "rule": "Single source of truth for every image/clip prompt. Always keep the latest best version here; bump the item's version and add a line to prompts/CHANGELOG.md. Episode files are built from this by tools/build-shorts.mjs.",
   "style": {
-    "version": 3,
-    "name": "2D noir graphic-novel cartoon (owner, 2026-11-27; replaces claymation)",
-    "prefix": "2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, strong rim light on edges, accent colours maroon, indigo, brass and ochre, ",
-    "suffix_9x16": ", vertical 9:16 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image",
-    "suffix_16x9": ", cinematic 16:9 composition, 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution, every sign, page and banner is blank or carries unreadable squiggles, clean uncaptioned image",
-    "negative": "photorealistic, real photograph, 3D render, CGI, claymation, plasticine, glossy plastic, anime, chibi, cute baby proportions, watercolor wash, blurry lines, text, letters, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood",
+    "version": 4,
+    "name": "2D noir graphic-novel cartoon, master style v4 (owner 2026-11-27: one style in every frame)",
+    "prefix": "STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir graphic-novel look, like frames from one animated series. Every shape, including hands, faces, fur, objects and backgrounds, is drawn with bold, clean, uniform black ink outlines and filled with flat cel colour plus one or two hard-edged shadow tones; soft gradient only inside the deepest shadows. Fur and hair are crisp jagged ink strokes. Hands and skin are simple drawn shapes with ink outlines and flat colour, smooth, without pores or wrinkles. Materials such as wax, brass, wood, cloth and water are drawn as flat shapes with one hard white highlight, matte, never glossy. Lighting: one warm amber lamp key light, deep charcoal and sepia shadows, a thin warm rim light on edges, high contrast. Palette: amber, sepia, charcoal, maroon, indigo, brass and ochre, with turquoise only for sea water. ",
+    "suffix_9x16": ". Vertical 9:16 frame. Every sign, page and banner is blank or carries unreadable squiggles. Same 2D noir graphic-novel cartoon style as the style reference: bold uniform black outlines, flat cel colour, hard-edged shadows, drawn hands and materials.",
+    "suffix_16x9": ". Cinematic 16:9 frame. Every sign, page and banner is blank or carries unreadable squiggles. Same 2D noir graphic-novel cartoon style as the style reference: bold uniform black outlines, flat cel colour, hard-edged shadows, drawn hands and materials.",
+    "negative": "photorealistic, real photograph, 3D render, CGI, claymation, plasticine, painterly oil texture, glossy highlights, realistic skin texture, wrinkles and pores, anime, chibi, watercolor wash, blurry lines, text, letters, words, names, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood",
     "character_header": "Ultra-detailed 2D digital cartoon portrait of {ID}, {summary}, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, {strokes}.",
     "character_framing": "Chest-up framing, three-quarter view turned slightly toward camera, plain cool grey background, even soft studio light.",
-    "character_technical": "TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution."
+    "character_technical": "TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution.",
+    "master": "STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir graphic-novel look, like frames from one animated series. Every shape, including hands, faces, fur, objects and backgrounds, is drawn with bold, clean, uniform black ink outlines and filled with flat cel colour plus one or two hard-edged shadow tones; soft gradient only inside the deepest shadows. Fur and hair are crisp jagged ink strokes. Hands and skin are simple drawn shapes with ink outlines and flat colour, smooth, without pores or wrinkles. Materials such as wax, brass, wood, cloth and water are drawn as flat shapes with one hard white highlight, matte, never glossy. Lighting: one warm amber lamp key light, deep charcoal and sepia shadows, a thin warm rim light on edges, high contrast. Palette: amber, sepia, charcoal, maroon, indigo, brass and ochre, with turquoise only for sea water.",
+    "anchor": "Same 2D noir graphic-novel cartoon style as the style reference: bold uniform black outlines, flat cel colour, hard-edged shadows, drawn hands and materials.",
+    "style_key": {
+      "version": 1,
+      "file": "prompts/style/style-key.png",
+      "role": "is a style reference only: match its line weight, outlines, flat cel shading, shadow shapes, lighting and palette exactly; do not copy its objects, layout or composition.",
+      "prompt": "Style key frame for an animated noir graphic-novel series, vertical 9:16. STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir graphic-novel look, like frames from one animated series. Every shape, including hands, faces, fur, objects and backgrounds, is drawn with bold, clean, uniform black ink outlines and filled with flat cel colour plus one or two hard-edged shadow tones; soft gradient only inside the deepest shadows. Fur and hair are crisp jagged ink strokes. Hands and skin are simple drawn shapes with ink outlines and flat colour, smooth, without pores or wrinkles. Materials such as wax, brass, wood, cloth and water are drawn as flat shapes with one hard white highlight, matte, never glossy. Lighting: one warm amber lamp key light, deep charcoal and sepia shadows, a thin warm rim light on edges, high contrast. Palette: amber, sepia, charcoal, maroon, indigo, brass and ochre, with turquoise only for sea water. Scene: a candle-lit wooden desk at night; a man's hand in a dark coat sleeve presses a brass seal into red wax on a parchment covered in unreadable squiggles; an ornate wooden chest with brass corners and a small brass lantern stand beside it; behind, shelves of rolled scrolls fade into charcoal shadow. The hand, wax, brass and candle flame are drawn as flat outlined cartoon shapes, exactly like the rest of the frame. Every page is unreadable squiggles. Same 2D noir graphic-novel cartoon style as the style reference: bold uniform black outlines, flat cel colour, hard-edged shadows, drawn hands and materials.",
+      "how": "Generate 4 in Flow (image), pick the one whose look matches the approved wolf frame (bold outlines, flat colour). Save as prompts/style/style-key.png. Attach it to EVERY shot as the first ingredient/reference."
+    }
   },
   "characters": {
     "SUTRADHAR": {
-      "version": 3,
+      "version": 4,
       "scope": "channel (every episode)",
       "name": "the wolf narrator of असली सीन; says \"मैं आपका भिड़ू\" (SUTRADHAR is his prompt ID)",
       "summary": "an anthropomorphic Indian grey wolf",
@@ -40,18 +49,19 @@
       ],
       "build": "WOLF BUILD: clearly a wolf, not a fox or jackal: broader skull, longer and heavier muzzle, thick fur ruff around the cheeks and neck, ears smaller in proportion to the head, a slightly heavier brow ridge, grey-tawny coat with more grey on the head.",
       "closeup_prompt_owner": "Ultra-detailed 2D digital cartoon portrait of SUTRADHAR, an anthropomorphic Indian grey wolf, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes.\nChest-up framing, three-quarter view turned slightly toward camera, plain cool grey background, even soft studio light.\nEYES: sharp golden-amber eyes, heavy-lidded and knowing, looking over round brass-rimmed spectacles worn low on the snout, one eyebrow cocked higher than the other.\nFUR: slim Indian wolf face, sandy-tawny coat with grey on the crown and back of the neck, cream muzzle, cheeks and throat, a dark nose, pointed ears with tawny backs.\nEXPRESSION: a smug, confident smirk with one corner of the mouth raised, chin slightly up, the calm look of someone who already knows the answer.\nCLOTHING: maroon bandhgala jacket with a high band collar and small brass buttons, cream kurta collar showing at the neck, an indigo angavastram stole draped over the left shoulder, the strap of a faded indigo cloth satchel across the chest.\nTECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution.\nWOLF BUILD: clearly a wolf, not a fox or jackal: broader skull, longer and heavier muzzle, thick fur ruff around the cheeks and neck, ears smaller in proportion to the head, a slightly heavier brow ridge, grey-tawny coat with more grey on the head.",
-      "scene_tag": "SUTRADHAR, the anthropomorphic Indian grey wolf narrator (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel)",
+      "scene_tag": "the wolf narrator, an anthropomorphic Indian grey wolf (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel)",
       "notes": "Exactly one pair of spectacles. Adult, sharp, detective attitude; never cute. Appears in the brand intro, cut-ins, viewer lines, comment ask and outro.",
       "reference_images": [
         "prompts/characters/SUTRADHAR/closeup.png",
         "prompts/characters/SUTRADHAR/sheet.png",
         "prompts/characters/SUTRADHAR/profile.png"
       ],
-      "lock": "SUTRADHAR is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk",
-      "character_file": "prompts/characters/SUTRADHAR/CHARACTER.md"
+      "lock": "the wolf narrator is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk",
+      "character_file": "prompts/characters/SUTRADHAR/CHARACTER.md",
+      "display": "the wolf narrator"
     },
     "MUMBAI_PRINCESS": {
-      "version": 3,
+      "version": 4,
       "scope": "mumbai",
       "name": "Princess (generic 1661 Portuguese royal, captioned as Catherine)",
       "summary": "a young 17th century Portuguese princess",
@@ -75,16 +85,17 @@
         ]
       ],
       "build": "BUILD: woman in her early twenties, slim, medium height.",
-      "scene_tag": "the PRINCESS (young woman, dark ringlets with pearl pins, pale rose court gown with white lace collar, pearl necklace)",
+      "scene_tag": "the princess (young woman, dark ringlets with pearl pins, pale rose court gown with white lace collar, pearl necklace)",
       "notes": "Generic figure, not a real likeness; name only in captions.",
       "reference_images": [
         "prompts/characters/MUMBAI_PRINCESS/sheet.png"
       ],
-      "lock": "the PRINCESS always has dark brown centre-parted hair in tight ringlets with small pearl pins, a small beauty mark under the left eye, a pale rose silk gown with a wide white lace collar, a short single-strand pearl necklace, no crown",
-      "character_file": "prompts/characters/MUMBAI_PRINCESS/CHARACTER.md"
+      "lock": "the princess always has dark brown centre-parted hair in tight ringlets with small pearl pins, a small beauty mark under the left eye, a pale rose silk gown with a wide white lace collar, a short single-strand pearl necklace, no crown",
+      "character_file": "prompts/characters/MUMBAI_PRINCESS/CHARACTER.md",
+      "display": "the princess"
     },
     "MUMBAI_KING": {
-      "version": 3,
+      "version": 4,
       "scope": "mumbai",
       "name": "King (generic 1660s English monarch, captioned as Charles II)",
       "summary": "a 1660s English king",
@@ -108,16 +119,17 @@
         ]
       ],
       "build": "BUILD: man in his early thirties, tall and slim.",
-      "scene_tag": "the KING (thin moustache, long black curly wig, deep crimson velvet coat with gold trim, white lace cravat)",
+      "scene_tag": "the king (thin moustache, long black curly wig, deep crimson velvet coat with gold trim, white lace cravat)",
       "notes": "Generic figure, not a real likeness; name only in captions.",
       "reference_images": [
         "prompts/characters/MUMBAI_KING/sheet.png"
       ],
-      "lock": "the KING always has a long black curly wig past the shoulders, a thin black moustache, a long pale face, a deep crimson velvet coat with gold trim and gold buttons, a white lace cravat; gold crown only in throne shots",
-      "character_file": "prompts/characters/MUMBAI_KING/CHARACTER.md"
+      "lock": "the king always has a long black curly wig past the shoulders, a thin black moustache, a long pale face, a deep crimson velvet coat with gold trim and gold buttons, a white lace cravat; gold crown only in throne shots",
+      "character_file": "prompts/characters/MUMBAI_KING/CHARACTER.md",
+      "display": "the king"
     },
     "MUMBAI_MERCHANT": {
-      "version": 3,
+      "version": 4,
       "scope": "mumbai",
       "name": "East India Company merchant (generic 1660s)",
       "summary": "a middle-aged English trader of the 1660s",
@@ -141,16 +153,17 @@
         ]
       ],
       "build": "BUILD: man in his forties, stocky.",
-      "scene_tag": "the MERCHANT (stocky English trader, short brown beard, brown 17th century coat, wide-brimmed black hat, leather ledger)",
+      "scene_tag": "the merchant (stocky English trader, short brown beard, brown 17th century coat, wide-brimmed black hat, leather ledger)",
       "notes": "Generic figure.",
       "reference_images": [
         "prompts/characters/MUMBAI_MERCHANT/sheet.png"
       ],
-      "lock": "the MERCHANT always has a stocky build, a short brown beard, small pale-blue eyes, a plain brown wool coat with pewter buttons, a white linen collar, a wide-brimmed black hat, a leather-bound ledger",
-      "character_file": "prompts/characters/MUMBAI_MERCHANT/CHARACTER.md"
+      "lock": "the merchant always has a stocky build, a short brown beard, small pale-blue eyes, a plain brown wool coat with pewter buttons, a white linen collar, a wide-brimmed black hat, a leather-bound ledger",
+      "character_file": "prompts/characters/MUMBAI_MERCHANT/CHARACTER.md",
+      "display": "the merchant"
     },
     "MUMBAI_LADY": {
-      "version": 3,
+      "version": 4,
       "scope": "mumbai",
       "name": "Parsi lady of the 1840s (generic, captioned as Lady Avabai Jamsetjee Jeejeebhoy)",
       "summary": "a dignified Parsi lady of 1840s Bombay",
@@ -174,13 +187,14 @@
         ]
       ],
       "build": "BUILD: woman in her fifties, medium build, upright posture.",
-      "scene_tag": "the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face)",
+      "scene_tag": "the Parsi lady (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face)",
       "notes": "Generic figure, not a real likeness; name only in captions.",
       "reference_images": [
         "prompts/characters/MUMBAI_LADY/sheet.png"
       ],
-      "lock": "the LADY always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey",
-      "character_file": "prompts/characters/MUMBAI_LADY/CHARACTER.md"
+      "lock": "the Parsi lady always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey",
+      "character_file": "prompts/characters/MUMBAI_LADY/CHARACTER.md",
+      "display": "the Parsi lady"
     }
   },
   "branding": {
@@ -328,20 +342,20 @@
     "tool": "Google Flow (Veo for clips, Imagen for stills)",
     "settings": "Aspect ratio: 9:16 portrait. Clip length: 8 s (Flow default); use the first seconds listed per shot, they are the cleanest. Generate 2-4 takes per clip and pick one.",
     "modes": {
-      "ingredients": "Ingredients to Video: attach the listed reference sheets (max 3) and paste the prompt.",
+      "ingredients": "Ingredients to Video: attach the listed images (style key first, max 3 in total) and paste the prompt.",
+      "image": "Image: attach the listed images as references (style key first) and paste the prompt; the edit adds a slow push or pan.",
       "frames": "Frames to Video: attach the approved still as the first frame and paste the prompt.",
-      "text": "Text to Video: paste the prompt, no attachments.",
-      "image": "Image (still): generate in Flow with the image prompt; the edit adds a slow push or pan."
+      "text": "Text to Video (not used: every shot carries the style key)."
     },
     "audio_rule": "Non-speaking shots: ambient sound only, ending 'No music, no speech.' Speaking shots (SUTRADHAR on screen with a line): the exact Hindi line as dialogue, voice only. The edit mutes Flow's voice and lip-syncs the clip to the ElevenLabs line.",
-    "style_line": "2D digital cartoon in a modern noir graphic-novel style: thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes on fur and hair, high contrast, warm amber lamp light against deep charcoal and sepia shadows, rim light on edges."
+    "style_line": "STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir graphic-novel look, like frames from one animated series. Every shape, including hands, faces, fur, objects and backgrounds, is drawn with bold, clean, uniform black ink outlines and filled with flat cel colour plus one or two hard-edged shadow tones; soft gradient only inside the deepest shadows. Fur and hair are crisp jagged ink strokes. Hands and skin are simple drawn shapes with ink outlines and flat colour, smooth, without pores or wrinkles. Materials such as wax, brass, wood, cloth and water are drawn as flat shapes with one hard white highlight, matte, never glossy. Lighting: one warm amber lamp key light, deep charcoal and sepia shadows, a thin warm rim light on edges, high contrast. Palette: amber, sepia, charcoal, maroon, indigo, brass and ochre, with turquoise only for sea water."
   },
   "consistency_rule": "Every prompt that shows a character carries, verbatim: its reference sheet (attached), its role line, its scene_tag, and its lock. Never paraphrase a lock; change it only here (version + changelog).",
   "speech": {
     "version": 1,
     "voice_desc": "in Hindi, in a deep, calm, slightly smug storyteller voice",
     "mouth": "His mouth moves clearly and naturally with every syllable, jaw and lips shaping each word; when the line ends his mouth closes into his smirk.",
-    "audio": "Audio: only SUTRADHAR's voice speaking the line, over near-silent room tone. No music, no sound effects.",
+    "audio": "Audio: only the wolf narrator's voice speaking the line, over near-silent room tone. No music, no sound effects.",
     "note": "Flow's voice is only a lip-sync guide: the assembly mutes it, finds its speech span, and retimes the clip (0.7x-1.4x) so the mouth lands on the ElevenLabs line."
   }
 }

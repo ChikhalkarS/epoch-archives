@@ -1,4 +1,4 @@
-# MUMBAI_PRINCESS - character sheet (v3)
+# MUMBAI_PRINCESS - character sheet (v4)
 <!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->
 
 **Name:** Princess (generic 1661 Portuguese royal, captioned as Catherine)  
@@ -10,21 +10,21 @@
 
 ## Consistency lock (pasted verbatim into every prompt with this character)
 ```
-the PRINCESS always has dark brown centre-parted hair in tight ringlets with small pearl pins, a small beauty mark under the left eye, a pale rose silk gown with a wide white lace collar, a short single-strand pearl necklace, no crown
+the princess always has dark brown centre-parted hair in tight ringlets with small pearl pins, a small beauty mark under the left eye, a pale rose silk gown with a wide white lace collar, a short single-strand pearl necklace, no crown
 ```
 
 ## Scene tag (how prompts describe the character)
 ```
-the PRINCESS (young woman, dark ringlets with pearl pins, pale rose court gown with white lace collar, pearl necklace)
+the princess (young woman, dark ringlets with pearl pins, pale rose court gown with white lace collar, pearl necklace)
 ```
 
 ## Role line (with the attached sheet)
 ```
-Image 1 defines MUMBAI_PRINCESS's face, hair and clothing. Do not use its grey background or panel layout.
+Image 1 defines the princess's face, hair and clothing. Do not use its grey background or panel layout.
 ```
 
 ## Step 1 - close-up
-Generate several, keep the one you would recognise in a crowd. Save as `closeup.png` here.
+Attach the style key (`prompts/style/style-key.png`) as a reference. Generate several, keep the one you would recognise in a crowd. Save as `closeup.png` here.
 ```
 Ultra-detailed 2D digital cartoon portrait of MUMBAI_PRINCESS, a young 17th century Portuguese princess, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, hair drawn with crisp flowing ink strokes.
 Chest-up framing, three-quarter view turned slightly toward camera, plain cool grey background, even soft studio light.

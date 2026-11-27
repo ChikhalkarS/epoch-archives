@@ -1,4 +1,4 @@
-# MUMBAI_KING - character sheet (v3)
+# MUMBAI_KING - character sheet (v4)
 <!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->
 
 **Name:** King (generic 1660s English monarch, captioned as Charles II)  
@@ -10,21 +10,21 @@
 
 ## Consistency lock (pasted verbatim into every prompt with this character)
 ```
-the KING always has a long black curly wig past the shoulders, a thin black moustache, a long pale face, a deep crimson velvet coat with gold trim and gold buttons, a white lace cravat; gold crown only in throne shots
+the king always has a long black curly wig past the shoulders, a thin black moustache, a long pale face, a deep crimson velvet coat with gold trim and gold buttons, a white lace cravat; gold crown only in throne shots
 ```
 
 ## Scene tag (how prompts describe the character)
 ```
-the KING (thin moustache, long black curly wig, deep crimson velvet coat with gold trim, white lace cravat)
+the king (thin moustache, long black curly wig, deep crimson velvet coat with gold trim, white lace cravat)
 ```
 
 ## Role line (with the attached sheet)
 ```
-Image 1 defines MUMBAI_KING's face, hair and clothing. Do not use its grey background or panel layout.
+Image 1 defines the king's face, hair and clothing. Do not use its grey background or panel layout.
 ```
 
 ## Step 1 - close-up
-Generate several, keep the one you would recognise in a crowd. Save as `closeup.png` here.
+Attach the style key (`prompts/style/style-key.png`) as a reference. Generate several, keep the one you would recognise in a crowd. Save as `closeup.png` here.
 ```
 Ultra-detailed 2D digital cartoon portrait of MUMBAI_KING, a 1660s English king, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, wig curls drawn with crisp ink strokes.
 Chest-up framing, three-quarter view turned slightly toward camera, plain cool grey background, even soft studio light.

@@ -23,7 +23,9 @@ const warnings = [];
 const timingOf = (id) => { const f = path.join(root, `shorts/${slug}/${id}.timing.json`); return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null; };
 // estimate until the real voice is measured: ~2.8 words/s at speed 1.1, +0.35 s line pause, +0.25 s per '...'
 const estSecs = (n, tts = '') => Math.max(1.2, Math.round((n / 2.8 + 0.35 + 0.25 * ((tts.replace(/\.\.\.\s*$/, '').match(/\.\.\./g) || []).length)) * 10) / 10);
-const roleLine = (k, ref = 'Image 1') => `${ref} defines ${k}'s face, ${k === 'SUTRADHAR' ? 'fur, spectacles' : 'hair'} and clothing. Do not use its grey background or panel layout.`;
+const roleLine = (k, ref = 'Image 1') => `${ref} defines ${dispOf(k)}'s face, ${k === 'SUTRADHAR' ? 'fur, spectacles' : 'hair'} and clothing. Do not use its grey background or panel layout.`;
+const dispOf = (k) => lib.characters[k].display || k;
+const noIds = (txt) => Object.keys(lib.characters).reduce((x, k) => x.split(k).join(dispOf(k)), txt);
 const lockOf = (keys) => keys.map((k) => lib.characters[k].lock).filter(Boolean).join('; ');
 const sheetOf = (k) => lib.characters[k].reference_images.find((x) => x.endsWith('sheet.png'));
 const fill = (s, vars) => s.replace(/\{(\w+)\}/g, (m, k) => (k in vars ? vars[k] : m));
@@ -56,13 +58,14 @@ function expandShot(shot, intro) {
     prompt = fill(s.prompt, charTags); motion = s.motion;
   }
   for (const k of Object.keys(lib.characters)) {
-    if ((s.narrator ? lib.narrator_shots[s.narrator].prompt : s.prompt).includes(`{${k}}`) || prompt.includes(k)) chars.push(k);
+    if ((s.narrator ? lib.narrator_shots[s.narrator].prompt : s.prompt).includes(`{${k}}`)) chars.push(k);
   }
+  if (Array.isArray(shot.chars)) chars.push(...shot.chars);
   const framing = `${lib.framing.sizes[size]}, ${lib.framing.angles[angle]}`;
   const uniq = [...new Set(chars)];
   const lock = uniq.length ? ` Character lock: ${lockOf(uniq)}.` : '';
   s.fullPrompt = `${ST.prefix}${framing}: ${prompt}.${lock}${ST.suffix_9x16}`;
-  s.motionFull = motion + (uniq.length ? ` Keep ${uniq.join(', ')} identical to the reference sheet(s).${lock}` : '');
+  s.motionFull = motion + (uniq.length ? ` Keep ${uniq.map(dispOf).join(', ')} identical to the reference sheet(s).${lock}` : '');
   s.speaks = !!s.speaks && uniq.includes('SUTRADHAR');
   Object.assign(s, { size, angle, asset, chars: uniq, scene: prompt, motionRaw: motion, framing, lock });
   return s;
@@ -155,7 +158,7 @@ function renderShort(sh) {
     L.push(`VO: ${s.vo}`);
     if (s.onscreen) L.push(`On screen: ${s.onscreen}`);
     if (s.chars.length) L.push(`References: ${s.chars.join(', ')}`);
-    L.push(`Flow: ${lib.flow.modes[modeOf(s)]}${s.chars.length ? ` Attach: ${s.chars.map(sheetOf).join(', ')}.` : ''}${s.speaks ? ' SPEAKS: keep the whole clip with its sound (lip-sync).' : ''}`);
+    L.push(`Flow: ${lib.flow.modes[modeOf(s)]} Attach, in this order: ${attachOf(s).join(', ')}.${s.speaks ? ' SPEAKS: keep the whole clip with its sound (lip-sync).' : ''}`);
     L.push('Prompt (one paste):');
     L.push('```');
     L.push(flowPrompt(s));
@@ -191,34 +194,34 @@ function renderShort(sh) {
 
 
 // ONE paste-ready Flow prompt per shot (owner rule): stills = image prompt, clips = one paragraph
-const modeOf = (s) => (s.asset === 'still' ? 'image' : s.chars.length ? 'ingredients' : 'text');
+const modeOf = (s) => (s.asset === 'still' ? 'image' : 'ingredients');
+const attachOf = (s) => [ST.style_key.file, ...s.chars.map(sheetOf)];
 function flowPrompt(s) {
-  const F = lib.flow;
-  if (modeOf(s) === 'image') return s.fullPrompt;
-  const P = [];
-  P.push(`A vertical 9:16 shot in a 2D noir graphic-novel cartoon style for a Hindi history Short. ${s.goal || `${s.role} beat.`}`);
-  if (s.chars.length) {
-    
-    s.chars.forEach((k, n) => P.push(roleLine(k, `Ingredient ${n + 1}`)));
-  }
-  
+  const P = [ST.master];
+  const refs = attachOf(s);
+  const word = modeOf(s) === 'image' ? 'Reference image' : 'Ingredient';
+  P.push(`${word} 1 ${ST.style_key.role}`);
+  s.chars.forEach((k, n) => P.push(roleLine(k, `${word} ${n + 2}`)));
+  P.push(`Shot purpose: ${s.goal || `${s.role} beat.`}`);
   P.push(`${s.framing}: ${s.scene}.`);
-  
-  if (s.speaks) {
-    const SP = lib.speech;
-    const line = s.vo.replace(/\.\.\./g, ',').replace(/\s+/g, ' ').trim();
-    P.push(`From the first second, SUTRADHAR looks into the lens and says ${SP.voice_desc}: {${line}} While he speaks: ${s.motionRaw} ${SP.mouth} Only SUTRADHAR speaks.`);
-    P.push('When the line is finished he holds the final pose with his mouth closed in his smirk, and the video ends holding this state.');
+  if (modeOf(s) === 'image') {
+    P.push(`Vertical 9:16 frame, main subject in the upper-middle third. Every sign, page and banner is blank or carries unreadable squiggles.`);
+    if (s.chars.length) P.push(`Character lock: ${lockOf(s.chars)}.`);
+    P.push(ST.anchor);
   } else {
-    P.push(`${s.motionRaw} The video ends holding this final state.`);
+    if (s.speaks) {
+      const line = s.vo.replace(/\.\.\./g, ',').replace(/\s+/g, ' ').trim();
+      P.push(`From the first second, the wolf narrator looks into the lens and says ${lib.speech.voice_desc}: {${line}} While he speaks: ${s.motionRaw} ${lib.speech.mouth} Only the wolf narrator speaks.`);
+      P.push('When the line is finished he holds the final pose with his mouth closed in his smirk, and the video ends holding this state.');
+    } else P.push(`${s.motionRaw} The video ends holding this final state.`);
+    P.push(`${s.framing}, native vertical 9:16 framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. Every sign, page and banner is blank or carries unreadable squiggles.`);
+    P.push(s.speaks ? lib.speech.audio : `Audio: ${s.sfx || 'quiet ambient room tone'}. No music, no speech.`);
+    if (s.chars.length) P.push(`Keep ${s.chars.map(dispOf).join(', ')} identical to the ingredients in face, ${s.chars.includes('SUTRADHAR') ? 'fur, spectacles, ' : ''}clothing and proportions in every frame. Character lock: ${lockOf(s.chars)}.`);
+    P.push(`${ST.anchor} Keep it the same from the first frame to the last.`);
   }
-  
-  P.push(`${s.framing}, native vertical framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. ${F.style_line} Every sign, page and banner is blank or carries unreadable squiggles.`);
-  
-  P.push(s.speaks ? lib.speech.audio : `Audio: ${s.sfx || 'quiet ambient room tone'}. No music, no speech.`);
-  
-  P.push(`${s.chars.length ? `Keep ${s.chars.join(', ')} identical to the ingredients in face, ${s.chars.includes('SUTRADHAR') ? 'fur, spectacles, ' : ''}clothing and proportions in every frame. Character lock: ${lockOf(s.chars)}. ` : ''}Keep the 2D noir cel-shaded line style, the light direction and the camera's side of the action the same from first frame to last.`);
-  return P.filter(Boolean).join(' ').replace(/\s+/g, ' ').trim();
+  if (refs.length > 3) warnings.push(`${s.sid || s.vo.slice(0, 20)}: ${refs.length} references; Flow takes 3 (style key + 2 characters)`);
+  const out = noIds(P.filter(Boolean).join(' ').replace(/\s+/g, ' ').trim());
+  return out;
 }
 
 function renderFlow(sh, shots) {
@@ -235,9 +238,10 @@ function renderFlow(sh, shots) {
   L.push('');
   L.push('## Order of work');
   const chars = [...new Set(shots.flatMap((s) => s.chars))];
-  L.push(`1. Character references (once, reused every episode): ${chars.map((k) => `${k} -> ${lib.characters[k].reference_images.find((r) => r.endsWith('sheet.png'))}`).join('; ')}. Prompts in \`prompts/LIBRARY.md\`.`);
-  L.push('2. Stills (type `image`): generate in Flow, pick one each.');
-  L.push('3. Clips: `ingredients` shots attach the listed sheets; `text` shots need nothing (or attach the still as first frame in Frames to Video for more control).');
+  L.push(`0. STYLE KEY first (once for the whole channel): prompt in \`prompts/LIBRARY.md\` -> Style key. Save as \`${ST.style_key.file}\`. It is the first attachment on EVERY shot, so all frames share one look.`);
+  L.push(`1. Character references (once, reused every episode; attach the style key while making them): ${chars.map((k) => `${k} -> ${lib.characters[k].reference_images.find((r) => r.endsWith('sheet.png'))}`).join('; ')}. Prompts in \`prompts/LIBRARY.md\`.`);
+  L.push('2. Stills (`image`): attach the listed images in order, paste the prompt, pick one.');
+  L.push('3. Clips (`ingredients`): attach the listed images in order (style key first), paste the prompt.');
   L.push('4. Name files by shot id (e.g. `' + sh.id.split('-')[0] + '-s01.mp4`) and drop them in `assets/' + slug + '/shorts/' + sh.id + '/`.');
   L.push('');
   L.push(`| # | Line | Shot | Flow mode | Speaks on screen | Attach | Use (s${tm ? '' : ', est.'}) |`);
@@ -250,7 +254,7 @@ function renderFlow(sh, shots) {
     L.push(`## ${id} | ${mode} | ${s.size} ${s.angle} | ${s.speaks ? 'SPEAKS (lip-sync) | keep the whole 8 s clip' : `use first ${secs(0, i)} s${tm ? '' : ' (estimate)'}`}`);
     L.push(`Line: ${s.vo}`);
     if (s.onscreen) L.push(`On screen (added in edit): ${s.onscreen}`);
-    L.push(`Flow: ${F.modes[mode]}${s.chars.length ? ` Attach: ${s.chars.map((k) => lib.characters[k].reference_images.find((r) => r.endsWith('sheet.png'))).join(', ')}.` : ''}`);
+    L.push(`Flow: ${F.modes[mode]} Attach, in this order: ${attachOf(s).join(', ')}.`);
     L.push('```');
     L.push(flowPrompt(s));
     L.push('```');
@@ -272,7 +276,7 @@ function renderCharacters(usage) {
       '## Consistency lock (pasted verbatim into every prompt with this character)', '```', c.lock || '-', '```', '',
       '## Scene tag (how prompts describe the character)', '```', c.scene_tag, '```', '',
       '## Role line (with the attached sheet)', '```', role, '```', '',
-      `## Step 1 - close-up${c.closeup_prompt_owner ? " (owner's prompt, verbatim)" : ''}`, 'Generate several, keep the one you would recognise in a crowd. Save as `closeup.png` here.', '```', closeup, '```', '',
+      `## Step 1 - close-up${c.closeup_prompt_owner ? " (owner's prompt, verbatim)" : ''}`, `Attach the style key (\`${ST.style_key.file}\`) as a reference. Generate several, keep the one you would recognise in a crowd. Save as \`closeup.png\` here.`, '```', closeup, '```', '',
       '## Step 2 - three-panel sheet', 'Attach the chosen close-up. Save the cleanest as `sheet.png` here.', '```', sheet, '```', '',
       ...(k === 'SUTRADHAR' && lib.branding?.profile_picture ? ['## Channel profile picture', `Attach \`${lib.branding.profile_picture.attach}\`. Save as \`${lib.branding.profile_picture.save_as}\`.`, '```', lib.branding.profile_picture.prompt, '```', ''] : []),
       `## Used in (${slug})`, ...(used.length ? used.map((u) => `- ${u}`) : ['- not used in this city']), ''];
@@ -283,6 +287,7 @@ function renderCharacters(usage) {
 function renderLibrary() {
   const L = [`# Prompt library (v${lib.library_version}, ${lib.updated})`, '', `<!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->`, '', lib.rule, ''];
   L.push('## Style', '', `**${ST.name}**`, '', '**Prefix:**', '```', ST.prefix.trim(), '```', '**Vertical suffix:**', '```', ST.suffix_9x16.replace(/^, /, ''), '```', '**Negative:**', '```', ST.negative, '```', '');
+  L.push('## Style key (make first, attach to every shot)', '', ST.style_key.how, '```', ST.style_key.prompt, '```', `Save as: ${ST.style_key.file}`, '');
   L.push('## Framing words', '', ...Object.entries(lib.framing.sizes).map(([k, v]) => `- ${k}: ${v}`), ...Object.entries(lib.framing.angles).map(([k, v]) => `- ${k}: ${v}`), '', lib.framing.vertical_rule, '');
   L.push('## Characters', '');
   for (const k of Object.keys(lib.characters)) {

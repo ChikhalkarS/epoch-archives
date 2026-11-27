@@ -1,4 +1,4 @@
-# MUMBAI_LADY - character sheet (v3)
+# MUMBAI_LADY - character sheet (v4)
 <!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->
 
 **Name:** Parsi lady of the 1840s (generic, captioned as Lady Avabai Jamsetjee Jeejeebhoy)  
@@ -10,21 +10,21 @@
 
 ## Consistency lock (pasted verbatim into every prompt with this character)
 ```
-the LADY always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey
+the Parsi lady always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey
 ```
 
 ## Scene tag (how prompts describe the character)
 ```
-the LADY (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face)
+the Parsi lady (1840s Parsi lady, white silk sari with maroon border worn over the head, kind determined face)
 ```
 
 ## Role line (with the attached sheet)
 ```
-Image 1 defines MUMBAI_LADY's face, hair and clothing. Do not use its grey background or panel layout.
+Image 1 defines the Parsi lady's face, hair and clothing. Do not use its grey background or panel layout.
 ```
 
 ## Step 1 - close-up
-Generate several, keep the one you would recognise in a crowd. Save as `closeup.png` here.
+Attach the style key (`prompts/style/style-key.png`) as a reference. Generate several, keep the one you would recognise in a crowd. Save as `closeup.png` here.
 ```
 Ultra-detailed 2D digital cartoon portrait of MUMBAI_LADY, a dignified Parsi lady of 1840s Bombay, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, sari folds drawn with crisp ink strokes.
 Chest-up framing, three-quarter view turned slightly toward camera, plain cool grey background, even soft studio light.

@@ -484,11 +484,14 @@
      "size": "CU",
      "angle": "top",
      "asset": "still",
-     "prompt": "a grey-tawny wolf paw (SUTRADHAR) pushing small red map pins one by one into a map of today's Mumbai neighbourhoods",
+     "prompt": "the wolf narrator's grey-tawny paw with the cuff of his maroon bandhgala sleeve pushing small red map pins one by one into a map of today's Mumbai neighbourhoods",
      "motion": "Locked overhead camera. Pins go in one after another. End with five pins standing.",
      "onscreen": "अपना इलाक़ा 👇",
      "goal": "Invite viewers to name their neighbourhood in the comments.",
-     "sfx": "map pins pressing into a board"
+     "sfx": "map pins pressing into a board",
+     "chars": [
+      "SUTRADHAR"
+     ]
     },
     {
      "role": "interaction",
@@ -670,11 +673,14 @@
      "size": "ECU",
      "angle": "high",
      "asset": "clip",
-     "prompt": "a grey-tawny wolf paw (SUTRADHAR) pressing down on wet land at the waterline, pushing the blue water back",
+     "prompt": "the wolf narrator's grey-tawny paw with the cuff of his maroon bandhgala sleeve pressing down on wet land at the waterline, pushing the blue water back",
      "motion": "Locked camera. The paw presses and the water retreats. End with dry land under the paw.",
      "onscreen": "समंदर से छीनी गई 🌊",
      "goal": "Payoff: it was taken from the sea.",
-     "sfx": "water hissing back from wet sand"
+     "sfx": "water hissing back from wet sand",
+     "chars": [
+      "SUTRADHAR"
+     ]
     },
     {
      "role": "comment",
