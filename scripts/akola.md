@@ -19,7 +19,7 @@ Fact IDs in [brackets] point to `research/akola/sources.md`. They are removed be
 अकोलसिंह से जुड़ी एक और लोक-कथा है, जो आज भी सुनाई जाती है। [F5]
 कहते हैं, उसकी रानी हर आधी रात को राजेश्वर शिव मंदिर जाती थी। राजा को शक हुआ। एक रात वो तलवार लेकर, चुपके से रानी के पीछे गया।
 रानी ने भगवान शिव से प्रार्थना की। अगर मैं निर्दोष हूँ, तो मुझे अपने में समा लो। और कहते हैं, रानी शिवलिंग में समा गई। [F5]
-आज भी लोग शिवलिंग की एक दरार को इस कहानी से जोड़ते हैं। [F5] ये इतिहास नहीं, लोक-कथा है। पर सदियों से ये कहानी, अकोला के लोगों की ज़ुबान पर है।
+आज भी लोग शिवलिंग की एक दरार को इस कहानी से जोड़ते हैं। [F5] ये इतिहास नहीं, लोक-कथा है। पर ये कहानी, आज भी अकोला में सुनाई जाती है।
 
 ## Beat 3 - सुल्तानों से मुग़लों तक
 अब चलते हैं इतिहास की तरफ़।
@@ -75,14 +75,27 @@ Fact IDs in [brackets] point to `research/akola/sources.md`. They are removed be
 अगली बार, हम चलेंगे एक ऐसे शहर में, जो कभी बहुत अमीर था, और आज खंडहर है। कौन सा शहर? जानने के लिए, चैनल को सब्सक्राइब कर लीजिए।
 
 ## Short candidates
-1. **अमेरिका की लड़ाई, अकोला का कपास** (Beat 6 end + Beat 7, ~50 s). Hook: "क्या आपको पता है, कैसे अमेरिका की लड़ाई ने अकोला की किस्मत बदल दी?" Works alone: clear cause -> effect -> "Cotton City" payoff.
-2. **नेपोलियन को हराने वाला जनरल, अकोला में** (Beat 5, ~45 s). Hook: "जिस अंग्रेज़ जनरल ने नेपोलियन को हराया, वो बारह साल पहले अकोला के पास क्या कर रहा था?"
-3. **रानी, जो शिवलिंग में समा गई** (Beat 2, ~35 s). Hook: "एक रानी, जो कहते हैं, शिवलिंग में समा गई।" Must keep "कहते हैं" / "लोक-कथा" on screen and in voice.
+1. **रानी, जो शिवलिंग में समा गई** (Beat 2, ~45 s) - owner's pick, made first. Full text below. "कहते हैं" / "लोक-कथा" stays in voice and on screen.
+2. **अमेरिका की लड़ाई, अकोला का कपास** (Beat 6 end + Beat 7, ~50 s). Hook: "क्या आपको पता है, कैसे अमेरिका की लड़ाई ने अकोला की किस्मत बदल दी?" Works alone: clear cause -> effect -> "Cotton City" payoff.
+3. **नेपोलियन को हराने वाला जनरल, अकोला में** (Beat 5, ~45 s). Hook: "जिस अंग्रेज़ जनरल ने नेपोलियन को हराया, वो बारह साल पहले अकोला के पास क्या कर रहा था?"
+
+## Short 1 - रानी, जो शिवलिंग में समा गई (standalone reel)
+**Hook (0-5 s):** क्या आपको पता है, अकोला की एक लोक-कथा में, एक रानी शिवलिंग में समा गई थी? [F5]
+कहते हैं, अकोला का नाम, एक शासक अकोलसिंह के नाम पर पड़ा। [F4]
+उसकी रानी, हर आधी रात, राजेश्वर शिव मंदिर जाती थी। [F5]
+राजा को शक हुआ। एक रात वो तलवार लेकर, चुपके से रानी के पीछे गया। [F5]
+रानी ने भगवान शिव से प्रार्थना की। अगर मैं निर्दोष हूँ, तो मुझे अपने में समा लो। [F5]
+और कहते हैं, रानी शिवलिंग में समा गई। [F5]
+आज भी लोग, शिवलिंग की एक दरार को, इसी कहानी से जोड़ते हैं। [F5]
+ये इतिहास नहीं, लोक-कथा है। आपके शहर की ऐसी कोई लोक-कथा? कमेंट में लिखिए।
+**End card:** अकोला की पूरी कहानी, हमारे चैनल पर।
+On-screen hook text: "शिवलिंग में समा गई रानी?" · Label in first 3 s: "लोक-कथा"
 
 ## Flags for owner
 - Name origin given as two views (F3 vs F4); Akolsingh and the queen story are told as लोक-कथा (F5).
 - Fort "780 AD" claim not used (F7). Rajrajeshwar "gram-daivat" not used (unverified).
 - Dates where sources differ are given loosely: Mughal takeover "16th century end" (F13), Argaon "November 1803" (F24), Balapur completion not dated (F16).
 - Asad Khan / Aurangzeb and the Shiva temple are kept in separate beats; no claim links the fort to the temple.
+- Short 1 (queen) is religious folklore: visuals stay respectful - the Shivling is shown whole and reverent, the "समा गई" moment as soft light filling the shrine (no literal merging, no horror look), the king's sword never raised at the queen.
 - Gazetteer not read directly (.gov.in blocked in the cloud session); see `research/akola/sources.md` note.
 - Outro teases Hampi ("कभी बहुत अमीर, आज खंडहर") - general wording until Hampi is researched.
