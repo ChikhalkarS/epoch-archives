@@ -53,5 +53,11 @@ BUILD: woman in her mid-twenties, slender, medium height, graceful upright postu
 TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution.
 ```
 
-## Used in (mumbai)
-- not used in this city
+## Used in (akola)
+- short1-s01 (EWS high, clip)
+- short1-s06 (WS eye, clip)
+- short1-s08 (MS ots, clip)
+- short1-s11 (WS eye, clip)
+- short1-s13 (WS profile, still)
+- short1-s14 (CU eye, still)
+- short1-s15 (WS high, clip)

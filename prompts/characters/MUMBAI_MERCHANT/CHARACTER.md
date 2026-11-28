@@ -53,5 +53,5 @@ BUILD: man in his forties, stocky.
 TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution.
 ```
 
-## Used in (mumbai)
+## Used in (akola)
 - not used in this city
