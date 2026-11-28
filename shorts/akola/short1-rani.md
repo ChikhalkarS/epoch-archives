@@ -1,4 +1,4 @@
-# आर्काइव फ़ाइल्स - एपिसोड 2: शिवलिंग में समा गई रानी
+# आर्काइव फ़ाइल्स · फ़ाइल 002: शिवलिंग में समा गई रानी
 <!-- Built by tools/build-shorts.mjs from shorts/akola/shorts.json + prompts/library.json v9. Edit those, not this file. -->
 City: अकोला | Format: 9:16, 1080x1920 | Words: 169 | measured voice: 62.77 s | Shots: 20 (12 clips, 8 stills) | Status: waiting on Gate 1
 

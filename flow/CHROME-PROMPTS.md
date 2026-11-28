@@ -1,62 +1,14 @@
-# Claude in Chrome: Flow prompts
+# Claude in Chrome: Google Flow prompts (2D noir pipeline)
 
-Run these in **Claude Code on the Mac**, opened in `~/epoch-archives` with Chrome connected (`claude --chrome`, or `/chrome` inside a session). A cloud session cannot see your Chrome.
+Run in **Claude Code on the Mac**, in `~/epoch-archives`, with Chrome connected (`claude --chrome`, or `/chrome` in a session). A cloud session cannot see your Chrome.
 
-Before each run: `git pull origin main`. After it: Claude commits and pushes to `main`.
+Each Short has its own ready-made file with these prompts filled in: `shorts/<city>/NEXT-STEPS.md` (example: `shorts/akola/NEXT-STEPS.md`). Use that. The generic versions:
 
----
+1. **Test (no credits):** open labs.google/flow, report login, projects and where the prompt box, aspect ratio, modes and upload button are. Generate nothing.
+2. **Library images (once):** project "Archive Files - Library". Make only the missing ones from `prompts/LIBRARY.md`: style key → `prompts/style/style-key.png`, then each needed character sheet → `prompts/characters/<ID>/sheet.png` (style key attached). Wait for the owner's pick each time. Commit and push the PNGs.
+3. **Shots:** project "फ़ाइल 00N - <City>", 9:16. Follow `shorts/<city>/<short-id>-flow.md` shot by shot: mode from the heading, attachments in the listed order (style key first, max 3), paste the prompt box exactly, one take, wait for keep/redo, save as `assets/<city>/shorts/<short-id>/<shot-id>.mp4|.png`. Skip shots already on disk. Cap generations per run; stop on errors, policy blocks, credit warnings or payment screens.
+4. **Preview:** `node tools/assemble-short.mjs <city> <short-id> --preview`, report length, missing shots, held frames. Final only after Gate 2.
 
-## A. Build the ingredient library (once per series, plus once per new city)
+Always: never buy credits, never publish or share from Flow, 2D noir only, respect rules from `studio/PLAYBOOK.md`.
 
-```
-Read flow/README.md and flow/library/ingredients.json.
-In Chrome, open Google Flow (labs.google/flow). Use (or create) the project "EAS Library".
-For every ingredient whose image is missing from flow/library/images/ (scope "global", plus scope "<CITY>"):
-  1. Generate it as an IMAGE with its create_prompt (16:9; character sheets may be any landscape ratio).
-  2. Show me the candidates and wait for me to pick one. Do not pick for me.
-  3. Download the picked image and move it from ~/Downloads to flow/library/images/<id>.png.
-  4. In Flow, save it as an ingredient named exactly its flow_name.
-Stop after each ingredient for my pick. Never buy credits or upgrade a plan; if Flow asks for payment or credits are low, stop and tell me.
-When done: list what was built, then commit and push to main.
-```
-
-## B. Set up a city project (once per city)
-
-```
-In Google Flow, create the project "EAS <CITY>" if it does not exist.
-Add as ingredients every image in flow/library/images/ whose id is scope "global" or "<CITY>" in flow/library/ingredients.json,
-each named by its flow_name. Tell me which ingredients the project now has.
-```
-
-## C. Generate one pack (the daily one)
-
-```
-Run: node tools/flow-pack.mjs <CITY> <PACK>        (PACK = short1, short2, long or stills)
-Open flow/projects/<CITY>/<PACK>.md. In Chrome, open the Flow project "EAS <CITY>".
-For each shot that is still [ ], in order:
-  1. Video shots: Ingredients to Video, attach exactly the listed ingredients (max 3), aspect as listed.
-     Image shots: image mode, attach the listed ingredients, aspect as listed.
-  2. Paste the prompt block exactly. Generate ONE output (lowest count Flow allows).
-  3. When it finishes, show me the result and wait for "keep" or "redo: <note>".
-     On redo, adjust only the scene part of the prompt as I say and regenerate.
-  4. On keep: download it, move the newest file from ~/Downloads to the "Save as" path, and confirm the file exists.
-Rules: at most <N> generations this run. Stop and tell me if Flow shows an error, a policy block, a credit warning or a payment screen.
-Never publish or share anything from Flow.
-At the end: re-run the flow-pack command, report done/remaining, then commit and push to main (clips and images included).
-```
-
-## D. Put it together
-
-```
-Run: node tools/assemble.mjs <CITY> --preview --shorts-only
-Tell me the Short durations and which scenes are still placeholders. Do not render the final until I approve.
-```
-
----
-
-### Quick test (no credits)
-
-```
-Chrome test, read-only. Open labs.google/flow in a new tab and tell me: am I logged in, the names of my Flow projects,
-and where the prompt box, the Ingredients button and Scenebuilder are. Do not generate anything.
-```
+(The earlier claymation ingredient library in `flow/library/` is superseded by `prompts/library.json` and kept only as history.)

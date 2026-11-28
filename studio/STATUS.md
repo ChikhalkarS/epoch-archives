@@ -40,7 +40,7 @@ Rules: the current rulebook is `studio/PLAYBOOK.md`; decisions live in `studio/D
 ## Plan (dates are targets; move them forward if missed and note why)
 | By | Milestone | Owner / Claude |
 |---|---|---|
-| **2026-11-29** | Akola Short 1 (फ़ाइल 002, Gate 1 ✅, voice ✅ 62.8 s at 1.2x): ElevenLabs voice from `short1-rani-voice.txt`, `time-voice`, Flow (sheets for AKOLA_RANI, AKOLA_RAJA first) | Owner |
+| **2026-11-29** | Akola Short 1 (फ़ाइल 002, Gate 1 ✅, voice ✅ 62.8 s at 1.2x): follow `shorts/akola/NEXT-STEPS.md` (Chrome prompts 1-4). Was: ElevenLabs voice from `short1-rani-voice.txt`, `time-voice`, Flow (sheets for AKOLA_RANI, AKOLA_RAJA first) | Owner |
 | **2026-11-29** | Edit फ़ाइल 001: run `node tools/finish_short.mjs <folder>` on the Mac → `final-short.mp4`. Claude reviews it | Owner runs, Claude reviews |
 | **2026-11-29** | Voice decision: ElevenLabs (needs a paid plan to publish, ~$5/month, owner approval) vs Flow's voice | Owner |
 | 2026-11-30 | If ElevenLabs: regenerate the 11 clips in the silent version (mouth closed); final render | Claude prompts, owner generates |

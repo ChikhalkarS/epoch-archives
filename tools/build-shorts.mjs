@@ -120,7 +120,7 @@ function renderShort(sh) {
   const chars = [...new Set(shots.flatMap((s) => s.chars))];
   const clips = shots.filter((s) => s.asset === 'clip').length;
   const L = [];
-  L.push(`# ${cfg.show.name} - एपिसोड ${sh.episode}: ${sh.title}`);
+  L.push(`# ${cfg.show.name} · फ़ाइल ${String(sh.episode).padStart(3, "0")}: ${sh.title}`);
   L.push(`<!-- Built by tools/build-shorts.mjs from shorts/${slug}/shorts.json + prompts/library.json v${lib.library_version}. Edit those, not this file. -->`);
   L.push(`City: ${data.city} | Format: 9:16, 1080x1920 | Words: ${w} | ${tm ? `measured voice: ${tm.total} s` : `estimated ~${sh._total} s incl. pauses at speed 1.1-1.15 (not measured yet)`} | Shots: ${shots.length} (${clips} clips, ${shots.length - clips} stills) | Status: waiting on Gate 1`);
   L.push('');
@@ -230,7 +230,7 @@ function renderFlow(sh, shots) {
   const tm = timingOf(sh.id);
   const secs = (n, i) => shots[i].secs;
   const L = [];
-  L.push(`# Flow prompts - ${cfg.show.name} एपिसोड ${sh.episode}: ${sh.title}`);
+  L.push(`# Flow prompts - ${cfg.show.name} · फ़ाइल ${String(sh.episode).padStart(3, "0")}: ${sh.title}`);
   L.push(`<!-- Built by tools/build-shorts.mjs from shorts/${slug}/shorts.json + prompts/library.json v${lib.library_version}. Edit those, not this file. -->`);
   L.push('');
   L.push(`Tool: ${F.tool}. ${F.settings}`);

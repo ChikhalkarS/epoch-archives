@@ -1,4 +1,4 @@
-# Flow prompts - आर्काइव फ़ाइल्स एपिसोड 2: शिवलिंग में समा गई रानी
+# Flow prompts - आर्काइव फ़ाइल्स · फ़ाइल 002: शिवलिंग में समा गई रानी
 <!-- Built by tools/build-shorts.mjs from shorts/akola/shorts.json + prompts/library.json v9. Edit those, not this file. -->
 
 Tool: Google Flow (Veo for clips, Imagen for stills). Aspect ratio: 9:16 portrait. Clip length: 8 s (Flow default); use the first seconds listed per shot, they are the cleanest. Generate 2-4 takes per clip and pick one.

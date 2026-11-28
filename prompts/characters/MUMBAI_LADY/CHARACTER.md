@@ -53,5 +53,10 @@ BUILD: woman in her fifties, medium build, upright posture.
 TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution.
 ```
 
-## Used in (akola)
-- not used in this city
+## Used in (mumbai)
+- short3-s01 (WS low, clip)
+- short3-s02 (CU eye, clip)
+- short3-s09 (MS low, still)
+- short3-s10 (CU eye, still)
+- short3-s11 (ECU high, clip)
+- short3-s19 (CU eye, still)

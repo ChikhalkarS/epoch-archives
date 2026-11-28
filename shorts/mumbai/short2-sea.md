@@ -1,4 +1,4 @@
-# आर्काइव फ़ाइल्स - एपिसोड 3: समंदर से छीना गया शहर
+# आर्काइव फ़ाइल्स · फ़ाइल 003: समंदर से छीना गया शहर
 <!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v9. Edit those, not this file. -->
 City: मुंबई | Format: 9:16, 1080x1920 | Words: 165 | estimated ~70 s incl. pauses at speed 1.1-1.15 (not measured yet) | Shots: 24 (15 clips, 9 stills) | Status: waiting on Gate 1
 
