@@ -94,18 +94,18 @@
     "target": "1000 subs + 8000 long-form watch hours within 12 months of EP1; stretch: in YPP before 2027-02-01"
   },
   "shorts_template": {
-    "status": "DEFAULT for every Short/Reel (owner 2026-11-27, v3: new outro)",
+    "status": "DEFAULT for every Short/Reel (owner 2026-11-28, v4: आर्काइव फ़ाइल्स + file number replaces असली सीन)",
     "length": "about 60-75 s (owner accepted 71-73 s on 2026-11-27): 150-175 spoken words, ElevenLabs speed 1.1-1.15",
     "order": [
       "1. HOOK (0-3 s): shock line or question, 5-12 words",
-      "2. BRAND INTRO (3-7 s): intro_line with episode ordinal and city. Always after the hook, never first",
+      "2. BRAND INTRO (3-7 s): intro_line with the file number and city. Always after the hook, never first",
       "3. STORY: one idea per scene, 5-6 s per scene, every claim has a fact ID",
       "4. MID INTERACTION (around 40-60%): one line that talks to the viewer (imagine / are you from / tell us)",
       "5. PAYOFF: pay the hook",
       "6. COMMENT QUESTION: one question viewers can answer in a word or a number",
       "7. OUTRO (owner 2026-11-27): two lines, always the same: follow_line, then city_ask_line. No next-story/next-city teaser"
     ],
-    "intro_line": "स्वागत है, असली सीन के {ordinal} एपिसोड में। आज की कहानी, {city} की।",
+    "intro_line": "स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर {file_no}। आज की कहानी, {city} की।",
     "follow_line": "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।",
     "mid_interaction_examples": [
       "सोचिए, आप राजा होते, तो क्या करते?",
@@ -118,8 +118,8 @@
       "आप किस शहर की कहानी अगली सुनना चाहेंगे?"
     ],
     "host_character": "SUTRADHAR, the wolf narrator, on screen in the brand intro, cut-ins, viewer lines, comment ask and outro of every Short; story scenes show people as people",
-    "tagline": "असली सीन (show name in config 'show')",
-    "intro_tts": "[excited] स्वागत है... असली सीन के {ordinal} एपिसोड में। [cheerful] आज की कहानी, {city} की।",
+    "tagline": "आर्काइव फ़ाइल्स (brand.spoken_brand)",
+    "intro_tts": "[excited] स्वागत है आर्काइव फ़ाइल्स में... ये है फ़ाइल नंबर {file_no}। [cheerful] आज की कहानी, {city} की।",
     "ordinals": {
       "1": "पहले",
       "2": "दूसरे",
@@ -132,19 +132,42 @@
       "9": "नौवें",
       "10": "दसवें"
     },
-    "ordinal_rule": "Episodes count every Short in posting order across cities (Mumbai Short 1 = पहले). Past 10: write '<number>वें', e.g. ग्यारहवें, बारहवें.",
     "prompts": "All prompts come from prompts/library.json; build files with: node tools/build-shorts.mjs <slug>",
     "shots": "one narration line = one shot; narrator_shots bank for the wolf's lines; people as people in story lines",
     "max_seconds": 75,
     "follow_tts": "ऐसी ही अनसुनी कहानियों के लिए... फ़ॉलो कीजिए।",
     "city_ask_line": "और कमेंट में बताइए, अगली कहानी किस शहर की हो?",
-    "city_ask_tts": "और कमेंट में बताइए... अगली कहानी किस शहर की हो?"
+    "city_ask_tts": "और कमेंट में बताइए... अगली कहानी किस शहर की हो?",
+    "file_numbers": {
+      "1": "एक",
+      "2": "दो",
+      "3": "तीन",
+      "4": "चार",
+      "5": "पाँच",
+      "6": "छह",
+      "7": "सात",
+      "8": "आठ",
+      "9": "नौ",
+      "10": "दस",
+      "11": "ग्यारह",
+      "12": "बारह",
+      "13": "तेरह",
+      "14": "चौदह",
+      "15": "पंद्रह",
+      "16": "सोलह",
+      "17": "सत्रह",
+      "18": "अठारह",
+      "19": "उन्नीस",
+      "20": "बीस"
+    },
+    "file_rule": "'episode' in shorts.json = file number: every published Short in posting order across cities (Mumbai Short 1 = फ़ाइल 001, Akola Short 1 = फ़ाइल 002). Spoken as 'फ़ाइल नंबर दो', shown as 'फ़ाइल 002'."
   },
   "show": {
-    "name": "असली सीन",
-    "name_latin": "Asli Scene",
+    "name": "आर्काइव फ़ाइल्स",
+    "name_latin": "Archive Files",
+    "numbering": "फ़ाइल 001, 002, ... (spoken: फ़ाइल नंबर एक, दो, ...)",
     "narrator": "the wolf narrator (prompt ID SUTRADHAR in prompts/library.json); on screen and in narration he introduces himself as \"मैं आपका भिड़ू\"",
-    "note": "Show/series name used in narration. Channel name stays in 'name'."
+    "note": "Owner 2026-11-28: the असली सीन show name is dropped. Mumbai Short 1 (uploaded) used the old intro."
   },
   "visuals": {
     "tool": "Google Flow",
@@ -153,9 +176,9 @@
   "brand": {
     "channel": "Epoch Archive",
     "spoken_brand": "आर्काइव फ़ाइल्स",
-    "format": "असली सीन",
+    "format": "आर्काइव फ़ाइल (dropped 'असली सीन' 2026-11-28)",
     "numbering": "फ़ाइल 001, 002… continuous across Shorts and long videos",
-    "title_pattern": "[Topic] का असली सीन 🔍 | फ़ाइल 001",
+    "title_pattern": "[Topic hook] 🔍 | फ़ाइल 002",
     "vision": "studio/VISION.md"
   },
   "youtube": {

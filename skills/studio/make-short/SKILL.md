@@ -1,6 +1,6 @@
 ---
 name: make-short
-description: Write Epoch Archive Studios Shorts and Instagram Reels (show "असली सीन", narrated by the wolf SUTRADHAR, 2D noir graphic-novel cartoon look) for one Indian city - about 60-70 s Hindi script with the fixed hook, brand intro, viewer lines, comment question, next-city teaser and follow line, one shot per narration line with directed camera angles, prompts from the repo prompt library, clean ElevenLabs text and publish copy. Use when the owner types /make-short <city>, asks for Shorts or Reels, or edits an existing Short.
+description: Write Epoch Archive Studios Shorts and Instagram Reels (brand "आर्काइव फ़ाइल्स", numbered फ़ाइल 001, 002..., narrated by the wolf SUTRADHAR, 2D noir graphic-novel cartoon look) for one Indian city - about 60-70 s Hindi script with the fixed hook, brand intro, viewer lines, comment question, next-city teaser and follow line, one shot per narration line with directed camera angles, prompts from the repo prompt library, clean ElevenLabs text and publish copy. Use when the owner types /make-short <city>, asks for Shorts or Reels, or edits an existing Short.
 ---
 
 # /make-short <city>
@@ -14,7 +14,7 @@ Self-contained, own hook, surprising payoff. Only `verified`, `disputed` (both v
 
 ## 2. Script: fixed order (default, enforced by the build)
 1. **Hook (0-3 s)**, 1-2 lines. Never start with the welcome.
-2. **Brand intro**, two lines from `shorts_template.intro_line` (`@intro1`, `@intro2` in the JSON): "स्वागत है, असली सीन के <ordinal> एपिसोड में।" / "आज की कहानी, <city> की।" Episode = position of the Short in posting order across all cities (check `shorts/SCHEDULE.md`).
+2. **Brand intro**, two lines from `shorts_template.intro_line` (`@intro1`, `@intro2` in the JSON): "स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर <N>।" / "आज की कहानी, <city> की।" N = file number = position of the Short in posting order across all cities (check `shorts/SCHEDULE.md`); on screen "फ़ाइल 00N".
 3. **Story**, fact ID on every claim, a turn every few lines ("लेकिन ट्विस्ट यहाँ है।" as a narrator cut-in).
 4. **Viewer line** (40-60%): talks to the viewer.
 5. **Payoff**.

@@ -1,6 +1,6 @@
-# असली सीन - एपिसोड 3: टोल-फ़्री रास्ते वाली अवाबाई
-<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v8. Edit those, not this file. -->
-City: मुंबई | Format: 9:16, 1080x1920 | Words: 158 | estimated ~67 s incl. pauses at speed 1.1-1.15 (not measured yet) | Shots: 22 (12 clips, 10 stills) | Status: waiting on Gate 1
+# आर्काइव फ़ाइल्स - एपिसोड 4: टोल-फ़्री रास्ते वाली अवाबाई
+<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v9. Edit those, not this file. -->
+City: मुंबई | Format: 9:16, 1080x1920 | Words: 160 | estimated ~67 s incl. pauses at speed 1.1-1.15 (not measured yet) | Shots: 22 (12 clips, 10 stills) | Status: waiting on Gate 1
 
 **Twist:** दान की शर्त: कभी टोल नहीं; सड़क आज भी उनके नाम पर  
 **Outro:** ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए। / और कमेंट में बताइए, अगली कहानी किस शहर की हो?  
@@ -15,7 +15,7 @@ City: मुंबई | Format: 9:16, 1080x1920 | Words: 158 | estimated ~67 s i
 ```
 एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया...
 [excited] और शर्त रखी, कोई टोल नहीं!
-[excited] स्वागत है... असली सीन के तीसरे एपिसोड में।
+[excited] स्वागत है आर्काइव फ़ाइल्स में... ये है फ़ाइल नंबर चार।
 [cheerful] आज की कहानी, मुंबई की।
 माहिम और बांद्रा के बीच, एक खाड़ी थी।
 लोग नावों से पार करते थे।
@@ -47,7 +47,7 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 |---|---|---|---|---|---|---|---|
 | 1 | hook | एक औरत ने अपने पैसों से, समंदर पर रास्ता बनवाया... | WS / low | clip | 3.9 | समंदर पर रास्ता? | F21 |
 | 2 | hook | और शर्त रखी, कोई टोल नहीं! | CU / eye | clip | 2.5 | शर्त: कोई टोल नहीं! | F21 |
-| 3 | brand | स्वागत है, असली सीन के तीसरे एपिसोड में। | WS / low | clip (walk_in v4), speaks | 3.5 | असली सीन 🐺 | - |
+| 3 | brand | स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर चार। | WS / low | clip (walk_in v4), speaks | 4.2 | आर्काइव फ़ाइल्स · फ़ाइल 004 | - |
 | 4 | brand | आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v4), speaks | 2.1 | आज: मुंबई | - |
 | 5 | story | माहिम और बांद्रा के बीच, एक खाड़ी थी। | EWS / high | still | 3.2 | माहिम ↔ बांद्रा | F21 |
 | 6 | story | लोग नावों से पार करते थे। | MS / eye | still | 2.5 | नाव से पार | F21 |
@@ -93,13 +93,13 @@ STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir g
 ```
 
 ### short3-s03 | brand | WS low | clip
-VO: स्वागत है, असली सीन के तीसरे एपिसोड में।
-On screen: असली सीन 🐺
+VO: स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर चार।
+On screen: आर्काइव फ़ाइल्स · फ़ाइल 004
 References: SUTRADHAR
 Flow: Ingredients to Video: attach the listed images (style key first, max 3 in total) and paste the prompt. Attach, in this order: prompts/style/style-key.png, prompts/characters/SUTRADHAR/sheet.png. SPEAKS: keep the whole clip with its sound (lip-sync).
 Prompt (one paste):
 ```
-STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir graphic-novel look, like frames from one animated series. Every shape, including hands, faces, fur, objects and backgrounds, is drawn with bold, clean, uniform black ink outlines and filled with flat cel colour plus one or two hard-edged shadow tones; soft gradient only inside the deepest shadows. Fur and hair are crisp jagged ink strokes. Hands and skin are simple drawn shapes with ink outlines and flat colour, smooth, without pores or wrinkles. Materials such as wax, brass, wood, cloth and water are drawn as flat shapes with one hard white highlight, matte, never glossy. Lighting: one warm amber lamp key light, deep charcoal and sepia shadows, a thin warm rim light on edges, high contrast. Palette: amber, sepia, charcoal, maroon, indigo, brass and ochre, with turquoise only for sea water. Ingredient 1 is a style reference only: match its line weight, outlines, flat cel shading, shadow shapes, lighting and palette exactly; do not copy its objects, layout or composition. Ingredient 2 defines the wolf narrator's face, fur, spectacles and clothing. Do not use its grey background or panel layout. Shot purpose: The narrator walks in to greet the viewer. Wide shot, low angle looking up: the wolf narrator, an anthropomorphic Indian grey wolf (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, a small brass lantern he carries swinging gently at his hip, toward a tabletop diorama of a creek between two shores. From the first second, the wolf narrator looks into the lens and says in Hindi, in a deep, calm, slightly smug storyteller voice: {स्वागत है, असली सीन के तीसरे एपिसोड में।} While he speaks: Camera tracks slowly backward at his walking pace. He walks toward the lens, lifts his eyes to the viewer and stops in a medium shot, lantern glow swaying on the shelves. His mouth moves clearly and naturally with every syllable, jaw and lips shaping each word; when the line ends his mouth closes into his smirk. Only the wolf narrator speaks. When the line is finished he holds the final pose with his mouth closed in his smirk, and the video ends holding this state. Wide shot, low angle looking up, native vertical 9:16 framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. Every sign, page and banner is blank or carries unreadable squiggles. Audio: only the wolf narrator's voice speaking the line, over near-silent room tone. No music, no sound effects. Keep the wolf narrator identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: the wolf narrator is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Same 2D noir graphic-novel cartoon style as the style reference: bold uniform black outlines, flat cel colour, hard-edged shadows, drawn hands and materials. Keep it the same from the first frame to the last.
+STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir graphic-novel look, like frames from one animated series. Every shape, including hands, faces, fur, objects and backgrounds, is drawn with bold, clean, uniform black ink outlines and filled with flat cel colour plus one or two hard-edged shadow tones; soft gradient only inside the deepest shadows. Fur and hair are crisp jagged ink strokes. Hands and skin are simple drawn shapes with ink outlines and flat colour, smooth, without pores or wrinkles. Materials such as wax, brass, wood, cloth and water are drawn as flat shapes with one hard white highlight, matte, never glossy. Lighting: one warm amber lamp key light, deep charcoal and sepia shadows, a thin warm rim light on edges, high contrast. Palette: amber, sepia, charcoal, maroon, indigo, brass and ochre, with turquoise only for sea water. Ingredient 1 is a style reference only: match its line weight, outlines, flat cel shading, shadow shapes, lighting and palette exactly; do not copy its objects, layout or composition. Ingredient 2 defines the wolf narrator's face, fur, spectacles and clothing. Do not use its grey background or panel layout. Shot purpose: The narrator walks in to greet the viewer. Wide shot, low angle looking up: the wolf narrator, an anthropomorphic Indian grey wolf (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, a small brass lantern he carries swinging gently at his hip, toward a tabletop diorama of a creek between two shores. From the first second, the wolf narrator looks into the lens and says in Hindi, in a deep, calm, slightly smug storyteller voice: {स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर चार।} While he speaks: Camera tracks slowly backward at his walking pace. He walks toward the lens, lifts his eyes to the viewer and stops in a medium shot, lantern glow swaying on the shelves. His mouth moves clearly and naturally with every syllable, jaw and lips shaping each word; when the line ends his mouth closes into his smirk. Only the wolf narrator speaks. When the line is finished he holds the final pose with his mouth closed in his smirk, and the video ends holding this state. Wide shot, low angle looking up, native vertical 9:16 framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. Every sign, page and banner is blank or carries unreadable squiggles. Audio: only the wolf narrator's voice speaking the line, over near-silent room tone. No music, no sound effects. Keep the wolf narrator identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: the wolf narrator is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Same 2D noir graphic-novel cartoon style as the style reference: bold uniform black outlines, flat cel colour, hard-edged shadows, drawn hands and materials. Keep it the same from the first frame to the last.
 ```
 
 ### short3-s04 | brand | MCU low | clip
@@ -301,22 +301,22 @@ STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir g
 
 ## Publish pack
 **YouTube Shorts titles:**
-- एक औरत ने समंदर पर रास्ता बनवाया, शर्त: कोई टोल नहीं! | Mahim Causeway #shorts
-- Lady Avabai की अनोखी शर्त | Mumbai History in Hindi #shorts
+- एक औरत ने समंदर पर रास्ता बनवाया, शर्त: कोई टोल नहीं! | Mahim Causeway | फ़ाइल 004 #shorts
+- Lady Avabai की अनोखी शर्त | Mumbai History in Hindi | फ़ाइल 004 #shorts
 
 **YouTube description:**
-1840-41 के आसपास माहिम की खाड़ी में नावें पलटीं। लेडी अवाबाई जमशेदजी जीजीभॉय ने डेढ़ लाख रुपये से ज़्यादा देकर माहिम कॉज़वे बनवाया (1845), इस शर्त पर कि कभी टोल नहीं लगेगा। सड़क आज भी लेडी जमशेदजी रोड कहलाती है। असली सीन, एपिसोड 3.
+1840-41 के आसपास माहिम की खाड़ी में नावें पलटीं। लेडी अवाबाई जमशेदजी जीजीभॉय ने डेढ़ लाख रुपये से ज़्यादा देकर माहिम कॉज़वे बनवाया (1845), इस शर्त पर कि कभी टोल नहीं लगेगा। सड़क आज भी लेडी जमशेदजी रोड कहलाती है। आर्काइव फ़ाइल्स, फ़ाइल 004.
 Sources: see research/mumbai/sources.md (F21, F36).
 #mumbai #history #shorts
 Voice: ElevenLabs (elevenlabs.io)
 
 **Instagram Reel caption:**
 एक औरत ने अपने पैसों से समंदर पर रास्ता बनवाया, और शर्त रखी: कोई टोल नहीं 🙏
-असली सीन, एपिसोड 3 🐺
+आर्काइव फ़ाइल्स · फ़ाइल 004 🐺
 आपके शहर में भी ऐसा कोई दान वाला पुल है? और अगली कहानी किस शहर की हो? 👇
 ऐसी ही अनसुनी कहानियों के लिए फ़ॉलो करें!
 Voice: ElevenLabs (elevenlabs.io)
 
-#mumbai #mahim #bandra #indianhistory #historyinhindi #reels #asliscene
+#mumbai #mahim #bandra #indianhistory #historyinhindi #reels #archivefiles
 
 Upload setting: Audience = "No, it's not made for kids" (narrator is an animated wolf; content is history for general audiences).

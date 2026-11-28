@@ -1,7 +1,7 @@
 {
  "slug": "akola",
  "id": "short1-rani",
- "episode": 4,
+ "episode": 2,
  "built_from_library": 9,
  "shots": [
   {
@@ -22,15 +22,15 @@
    "n": 2,
    "sid": "short1-s02",
    "role": "brand",
-   "vo": "स्वागत है, असली सीन के चौथे एपिसोड में।",
-   "tts": "[excited] स्वागत है... असली सीन के चौथे एपिसोड में।",
-   "words": 8,
-   "est": 3.5,
+   "vo": "स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर दो।",
+   "tts": "[excited] स्वागत है आर्काइव फ़ाइल्स में... ये है फ़ाइल नंबर दो।",
+   "words": 10,
+   "est": 4.2,
    "size": "WS",
    "angle": "low",
    "asset": "clip",
    "speaks": true,
-   "onscreen": "असली सीन 🐺"
+   "onscreen": "आर्काइव फ़ाइल्स · फ़ाइल 002"
   },
   {
    "n": 3,

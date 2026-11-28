@@ -38,6 +38,8 @@ Newest at the bottom. The file named in each row has the detail. Claude reads th
 | 32 | 2026-11-28 | Hindi quality gate: every script passes `tools/hindi-lint.mjs` (0 errors) and the `hindi-editor` agent before Gate 1. |
 | 33 | 2026-11-28 | Akola (Vidarbha) added: research done (39 facts); Short 1 = queen legend approved (text). Main hook: "क्या आपको पता है, कैसे अमेरिका की लड़ाई ने अकोला की क़िस्मत बदल दी?". Short 1 must be redone in 2D noir + wolf + तुम-form before production. |
 
+| 34 | 2026-11-28 | Drop "असली सीन". Shorts are आर्काइव फ़ाइल्स files: फ़ाइल 001 = Mumbai Short 1 (the only upload so far), फ़ाइल 002 = Akola Short 1 (next), Mumbai Shorts 2-3 = 003-004. |
+
 ## Open (waiting for the owner)
 - **One brand name everywhere** (channel name, description, banner, spoken welcome): Wolfy Files or Bhediya Files.
 - Gate 1 approval of the Bhopal long-video script (`episodes/ep01-bhopal-jheel/script_hi.md`).

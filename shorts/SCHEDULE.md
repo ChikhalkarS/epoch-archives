@@ -2,11 +2,11 @@
 
 India-focused guides put Shorts' best window at about 5-8 PM IST; re-check in YouTube Analytics after 2-3 weeks.
 
-Episode numbers are spoken in the intro ("असली सीन के पहले एपिसोड में"), so post in this order.
+File numbers are spoken in the intro ("ये है फ़ाइल नंबर दो"), so post in this order. (Owner 2026-11-28: "असली सीन" dropped; brand आर्काइव फ़ाइल्स.)
 
-| Ep | Short | Date | Time (IST) | Platforms | Status |
+| File | Short | Date | Time (IST) | Platforms | Status |
 |----|-------|------|-----------|-----------|--------|
-| 1 | shorts/mumbai/short1-dowry.md | Sat 28 Nov 2026 | 18:00 | YouTube Shorts + Instagram Reels | approved, waiting on voice + visuals |
-| 2 | shorts/mumbai/short2-sea.md | Mon 30 Nov 2026 | 18:00 | YouTube Shorts + Instagram Reels | approved, waiting on voice + visuals |
-| 3 | shorts/mumbai/short3-avabai.md | Thu 3 Dec 2026 | 18:00 | YouTube Shorts + Instagram Reels | approved, waiting on voice + visuals |
-| 4 | shorts/akola/short1-rani.md | Sat 5 Dec 2026 (proposed) | 18:00 | YouTube Shorts + Instagram Reels | Gate 1 pending |
+| 001 | shorts/mumbai/short1-dowry.md | Sat 28 Nov 2026 | 18:00 | YouTube Shorts + Instagram Reels | **uploaded** (old असली सीन intro) |
+| 002 | shorts/akola/short1-rani.md | next (proposed Mon 30 Nov 2026) | 18:00 | YouTube Shorts + Instagram Reels | Gate 1 pending |
+| 003 | shorts/mumbai/short2-sea.md | after 002 | 18:00 | YouTube Shorts + Instagram Reels | approved, waiting on voice + visuals (re-record intro) |
+| 004 | shorts/mumbai/short3-avabai.md | after 003 | 18:00 | YouTube Shorts + Instagram Reels | approved, waiting on voice + visuals (re-record intro) |

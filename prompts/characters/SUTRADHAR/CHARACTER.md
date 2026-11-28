@@ -1,7 +1,7 @@
 # SUTRADHAR - character sheet (v4)
 <!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->
 
-**Name:** the wolf narrator of असली सीन; says "मैं आपका भिड़ू" (SUTRADHAR is his prompt ID)  
+**Name:** the wolf narrator of आर्काइव फ़ाइल्स; says "मैं आपका भिड़ू" (SUTRADHAR is his prompt ID)  
 **Scope:** channel (every episode)  
 **Notes:** Exactly one pair of spectacles. Adult, sharp, detective attitude; never cute. Appears in the brand intro, cut-ins, viewer lines, comment ask and outro.
 
@@ -67,11 +67,31 @@ BACKGROUND: plain deep charcoal-to-sepia gradient with a soft dark vignette, not
 High contrast, bold and readable at small sizes. No text, no letters, no watermark.
 ```
 
-## Used in (akola)
-- short1-s02 (WS low, clip)
-- short1-s03 (MCU low, clip)
-- short1-s09 (CU eye, clip)
-- short1-s12 (MCU low, clip)
-- short1-s18 (CU low, clip)
-- short1-s19 (MS eye, clip)
+## Used in (mumbai)
+- short1-s03 (WS low, clip)
+- short1-s04 (MCU low, clip)
+- short1-s12 (CU eye, clip)
+- short1-s16 (MCU low, clip)
+- short1-s19 (MS high, clip)
 - short1-s20 (CU low, clip)
+- short1-s21 (MS eye, clip)
+- short1-s22 (CU low, clip)
+- short2-s03 (WS low, clip)
+- short2-s04 (MCU low, clip)
+- short2-s07 (MCU low, clip)
+- short2-s08 (CU top, still)
+- short2-s09 (MS high, still)
+- short2-s15 (CU eye, clip)
+- short2-s19 (MS low, clip)
+- short2-s20 (ECU high, clip)
+- short2-s22 (CU low, clip)
+- short2-s23 (MS eye, clip)
+- short2-s24 (CU low, clip)
+- short3-s03 (WS low, clip)
+- short3-s04 (MCU low, clip)
+- short3-s13 (CU eye, clip)
+- short3-s15 (MS high, clip)
+- short3-s16 (CU low, clip)
+- short3-s20 (MCU low, clip)
+- short3-s21 (MS eye, clip)
+- short3-s22 (CU low, clip)

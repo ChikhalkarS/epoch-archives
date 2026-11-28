@@ -53,5 +53,5 @@ BUILD: woman in her early twenties, slim, medium height.
 TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution.
 ```
 
-## Used in (akola)
-- not used in this city
+## Used in (mumbai)
+- short1-s06 (WS eye, still)

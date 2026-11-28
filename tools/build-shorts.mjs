@@ -34,8 +34,9 @@ const stripTts = (s) => s.replace(/\[[a-z ]+\]/g, '').replace(/\.\.\./g, ' ').tr
 const words = (s) => stripTts(s).split(/\s+/).filter(Boolean).length;
 
 function introLines(episode, city) {
-  const ord = T.ordinals[String(episode)] || `${episode}वें`;
-  const split = (s) => fill(s, { ordinal: ord, city }).split(/(?<=।)\s+/);
+  const ord = (T.ordinals || {})[String(episode)] || `${episode}वें`;
+  const fileNo = (T.file_numbers || {})[String(episode)] || String(episode);
+  const split = (s) => fill(s, { ordinal: ord, file_no: fileNo, file_code: String(episode).padStart(3, '0'), city }).split(/(?<=।)\s+/);
   const [v1, v2] = split(T.intro_line);
   const [t1, t2] = split(T.intro_tts);
   return { vo: { '@intro1': v1, '@intro2': v2, '@follow': T.follow_line, '@cityask': T.city_ask_line }, tts: { '@intro1': t1, '@intro2': t2, '@follow': T.follow_tts || T.follow_line, '@cityask': T.city_ask_tts || T.city_ask_line } };

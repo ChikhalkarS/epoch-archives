@@ -12,7 +12,7 @@ Rules: decisions live in `studio/DECISIONS.md`; brand and roadmap in `studio/VIS
 | **फ़ाइल 001** (Bhopal lost lake Short) | Script v5 (story-first, 11 clips) ✅. Flow prompts ✅ (pass `validate.py`). **One sample of clips generated in Flow** ✅. **ElevenLabs voice audio generated (free tier)** ✅. **Editing not done yet** ⏳ (`tools/finish_short.mjs` is ready and tested) |
 | Bhopal long video | Research ✅, script ✅ (casual tone), 87 Flow prompts ✅. **Waiting for Gate 1 approval.** Not generated |
 | YouTube | Channel live: **Wolfy Files**, https://www.youtube.com/@BhediyaFiles (0 videos). Description set (English). Profile picture, banner and watermark prompts given. **Name to align** |
-| Published | Nothing yet |
+| Published | **फ़ाइल 001: Mumbai Short 1** (uploaded). Next: फ़ाइल 002 Akola Short 1 |
 
 ## Done log
 - **2026-11-28:**
@@ -40,7 +40,7 @@ Rules: decisions live in `studio/DECISIONS.md`; brand and roadmap in `studio/VIS
 ## Plan (dates are targets; move them forward if missed and note why)
 | By | Milestone | Owner / Claude |
 |---|---|---|
-| **2026-11-29** | Akola Short 1 (ep 4): owner Gate 1 on `shorts/akola/short1-rani.md`, then ElevenLabs voice from `short1-rani-voice.txt`, `time-voice`, Flow (sheets for AKOLA_RANI, AKOLA_RAJA first) | Owner |
+| **2026-11-29** | Akola Short 1 (फ़ाइल 002): owner Gate 1 on `shorts/akola/short1-rani.md`, then ElevenLabs voice from `short1-rani-voice.txt`, `time-voice`, Flow (sheets for AKOLA_RANI, AKOLA_RAJA first) | Owner |
 | **2026-11-29** | Edit फ़ाइल 001: run `node tools/finish_short.mjs <folder>` on the Mac → `final-short.mp4`. Claude reviews it | Owner runs, Claude reviews |
 | **2026-11-29** | Voice decision: ElevenLabs (needs a paid plan to publish, ~$5/month, owner approval) vs Flow's voice | Owner |
 | 2026-11-30 | If ElevenLabs: regenerate the 11 clips in the silent version (mouth closed); final render | Claude prompts, owner generates |

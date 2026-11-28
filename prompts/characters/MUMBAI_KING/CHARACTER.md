@@ -53,5 +53,8 @@ BUILD: man in his early thirties, tall and slim.
 TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution.
 ```
 
-## Used in (akola)
-- not used in this city
+## Used in (mumbai)
+- short1-s06 (WS eye, still)
+- short1-s13 (MS eye, still)
+- short1-s14 (WS high, still)
+- short1-s15 (MS ots, clip)

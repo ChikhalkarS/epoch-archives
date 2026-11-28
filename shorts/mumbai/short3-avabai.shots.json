@@ -1,8 +1,8 @@
 {
  "slug": "mumbai",
  "id": "short3-avabai",
- "episode": 3,
- "built_from_library": 8,
+ "episode": 4,
+ "built_from_library": 9,
  "shots": [
   {
    "n": 1,
@@ -36,15 +36,15 @@
    "n": 3,
    "sid": "short3-s03",
    "role": "brand",
-   "vo": "स्वागत है, असली सीन के तीसरे एपिसोड में।",
-   "tts": "[excited] स्वागत है... असली सीन के तीसरे एपिसोड में।",
-   "words": 8,
-   "est": 3.5,
+   "vo": "स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर चार।",
+   "tts": "[excited] स्वागत है आर्काइव फ़ाइल्स में... ये है फ़ाइल नंबर चार।",
+   "words": 10,
+   "est": 4.2,
    "size": "WS",
    "angle": "low",
    "asset": "clip",
    "speaks": true,
-   "onscreen": "असली सीन 🐺"
+   "onscreen": "आर्काइव फ़ाइल्स · फ़ाइल 004"
   },
   {
    "n": 4,

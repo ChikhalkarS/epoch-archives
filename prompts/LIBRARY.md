@@ -50,7 +50,7 @@ native 9:16; subject's face in the upper-middle third; keep faces and key action
 ## Characters
 
 ### SUTRADHAR (v4, channel (every episode))
-the wolf narrator of असली सीन; says "मैं आपका भिड़ू" (SUTRADHAR is his prompt ID)
+the wolf narrator of आर्काइव फ़ाइल्स; says "मैं आपका भिड़ू" (SUTRADHAR is his prompt ID)
 Exactly one pair of spectacles. Adult, sharp, detective attitude; never cute. Appears in the brand intro, cut-ins, viewer lines, comment ask and outro.
 
 Step 1 - close-up (owner's prompt, verbatim). Generate several, pick the best:

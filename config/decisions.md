@@ -35,6 +35,8 @@ Owner decisions, newest last. Claude reads this before every stage. Change a dec
 | 2026-11-27 | Every Flow prompt is ONE paragraph per shot (no [section] labels), pasted as is; mode and attachments are listed above the box | tools/build-shorts.mjs, make-short skill |
 | 2026-11-27 | One animation style in every frame: master style block first in every prompt + closing anchor, and one approved style key image (prompts/style/style-key.png) attached first to every shot; all shots use Ingredients or Image-with-references (no Text to Video). Prompts use display names, never IDs (an ID was painted as text on a wall) | prompts/library.json style v4, tools/build-shorts.mjs, make-short skill |
 
+| 2026-11-28 | Show name "असली सीन" dropped. Brand आर्काइव फ़ाइल्स with file numbers: intro "स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर <N>। आज की कहानी, <city> की।", on screen "फ़ाइल 00N". Uploaded so far: Mumbai Short 1 only (= फ़ाइल 001). Next: Akola Short 1 (= फ़ाइल 002); Mumbai Shorts 2-3 become 003-004 | config/channel.json shorts_template, tools/build-shorts.mjs, shorts/SCHEDULE.md |
+
 ## Open items (waiting on the owner)
 
 | Raised | Item | Status |

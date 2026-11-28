@@ -1,6 +1,6 @@
-# असली सीन - एपिसोड 2: समंदर से छीना गया शहर
-<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v8. Edit those, not this file. -->
-City: मुंबई | Format: 9:16, 1080x1920 | Words: 163 | estimated ~69 s incl. pauses at speed 1.1-1.15 (not measured yet) | Shots: 24 (15 clips, 9 stills) | Status: waiting on Gate 1
+# आर्काइव फ़ाइल्स - एपिसोड 3: समंदर से छीना गया शहर
+<!-- Built by tools/build-shorts.mjs from shorts/mumbai/shorts.json + prompts/library.json v9. Edit those, not this file. -->
+City: मुंबई | Format: 9:16, 1080x1920 | Words: 165 | estimated ~70 s incl. pauses at speed 1.1-1.15 (not measured yet) | Shots: 24 (15 clips, 9 stills) | Status: waiting on Gate 1
 
 **Twist:** मुंबई बसाई नहीं गई, समंदर से छीनी गई; आज भी (कोस्टल रोड)  
 **Outro:** ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए। / और कमेंट में बताइए, अगली कहानी किस शहर की हो?  
@@ -15,7 +15,7 @@ City: मुंबई | Format: 9:16, 1080x1920 | Words: 163 | estimated ~69 s i
 ```
 [curious] आप मुंबई की जिस सड़क पर खड़े हैं...
 वो शायद कभी समंदर थी!
-[excited] स्वागत है... असली सीन के दूसरे एपिसोड में।
+[excited] स्वागत है आर्काइव फ़ाइल्स में... ये है फ़ाइल नंबर तीन।
 [cheerful] आज की कहानी, मुंबई की।
 कभी मुंबई... सात अलग-अलग टापू थी।
 बीच में समंदर... और ज्वार में डूबती ज़मीन।
@@ -48,7 +48,7 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 |---|---|---|---|---|---|---|---|
 | 1 | hook | आप मुंबई की जिस सड़क पर खड़े हैं... | CU / low | clip | 3.2 | ये ज़मीन कभी समंदर थी! | F16 F18 |
 | 2 | hook | वो शायद कभी समंदर थी! | MS / top | clip | 2.1 | समंदर! | F16 F18 |
-| 3 | brand | स्वागत है, असली सीन के दूसरे एपिसोड में। | WS / low | clip (walk_in v4), speaks | 3.5 | असली सीन 🐺 | - |
+| 3 | brand | स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर तीन। | WS / low | clip (walk_in v4), speaks | 4.2 | आर्काइव फ़ाइल्स · फ़ाइल 003 | - |
 | 4 | brand | आज की कहानी, मुंबई की। | MCU / low | clip (scroll_reveal v4), speaks | 2.1 | आज: मुंबई | - |
 | 5 | story | कभी मुंबई, सात अलग-अलग टापू थी। | EWS / top | still | 2.7 | 7 टापू | F7 |
 | 6 | story | बीच में समंदर, और ज्वार में डूबती ज़मीन। | WS / eye | clip | 3.5 | ज्वार = बाढ़ | F16 |
@@ -94,13 +94,13 @@ STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir g
 ```
 
 ### short2-s03 | brand | WS low | clip
-VO: स्वागत है, असली सीन के दूसरे एपिसोड में।
-On screen: असली सीन 🐺
+VO: स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर तीन।
+On screen: आर्काइव फ़ाइल्स · फ़ाइल 003
 References: SUTRADHAR
 Flow: Ingredients to Video: attach the listed images (style key first, max 3 in total) and paste the prompt. Attach, in this order: prompts/style/style-key.png, prompts/characters/SUTRADHAR/sheet.png. SPEAKS: keep the whole clip with its sound (lip-sync).
 Prompt (one paste):
 ```
-STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir graphic-novel look, like frames from one animated series. Every shape, including hands, faces, fur, objects and backgrounds, is drawn with bold, clean, uniform black ink outlines and filled with flat cel colour plus one or two hard-edged shadow tones; soft gradient only inside the deepest shadows. Fur and hair are crisp jagged ink strokes. Hands and skin are simple drawn shapes with ink outlines and flat colour, smooth, without pores or wrinkles. Materials such as wax, brass, wood, cloth and water are drawn as flat shapes with one hard white highlight, matte, never glossy. Lighting: one warm amber lamp key light, deep charcoal and sepia shadows, a thin warm rim light on edges, high contrast. Palette: amber, sepia, charcoal, maroon, indigo, brass and ochre, with turquoise only for sea water. Ingredient 1 is a style reference only: match its line weight, outlines, flat cel shading, shadow shapes, lighting and palette exactly; do not copy its objects, layout or composition. Ingredient 2 defines the wolf narrator's face, fur, spectacles and clothing. Do not use its grey background or panel layout. Shot purpose: The narrator walks in to greet the viewer. Wide shot, low angle looking up: the wolf narrator, an anthropomorphic Indian grey wolf (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, a small brass lantern he carries swinging gently at his hip, toward a tabletop sea diorama where seven islands float. From the first second, the wolf narrator looks into the lens and says in Hindi, in a deep, calm, slightly smug storyteller voice: {स्वागत है, असली सीन के दूसरे एपिसोड में।} While he speaks: Camera tracks slowly backward at his walking pace. He walks toward the lens, lifts his eyes to the viewer and stops in a medium shot, lantern glow swaying on the shelves. His mouth moves clearly and naturally with every syllable, jaw and lips shaping each word; when the line ends his mouth closes into his smirk. Only the wolf narrator speaks. When the line is finished he holds the final pose with his mouth closed in his smirk, and the video ends holding this state. Wide shot, low angle looking up, native vertical 9:16 framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. Every sign, page and banner is blank or carries unreadable squiggles. Audio: only the wolf narrator's voice speaking the line, over near-silent room tone. No music, no sound effects. Keep the wolf narrator identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: the wolf narrator is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Same 2D noir graphic-novel cartoon style as the style reference: bold uniform black outlines, flat cel colour, hard-edged shadows, drawn hands and materials. Keep it the same from the first frame to the last.
+STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir graphic-novel look, like frames from one animated series. Every shape, including hands, faces, fur, objects and backgrounds, is drawn with bold, clean, uniform black ink outlines and filled with flat cel colour plus one or two hard-edged shadow tones; soft gradient only inside the deepest shadows. Fur and hair are crisp jagged ink strokes. Hands and skin are simple drawn shapes with ink outlines and flat colour, smooth, without pores or wrinkles. Materials such as wax, brass, wood, cloth and water are drawn as flat shapes with one hard white highlight, matte, never glossy. Lighting: one warm amber lamp key light, deep charcoal and sepia shadows, a thin warm rim light on edges, high contrast. Palette: amber, sepia, charcoal, maroon, indigo, brass and ochre, with turquoise only for sea water. Ingredient 1 is a style reference only: match its line weight, outlines, flat cel shading, shadow shapes, lighting and palette exactly; do not copy its objects, layout or composition. Ingredient 2 defines the wolf narrator's face, fur, spectacles and clothing. Do not use its grey background or panel layout. Shot purpose: The narrator walks in to greet the viewer. Wide shot, low angle looking up: the wolf narrator, an anthropomorphic Indian grey wolf (broad wolf skull, heavy muzzle, grey-tawny fur with a thick neck ruff, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel) walking toward the camera down a narrow aisle of a lamp-lit stone archive, tall shelves of rolled scrolls on both sides rising to the top of frame, a small brass lantern he carries swinging gently at his hip, toward a tabletop sea diorama where seven islands float. From the first second, the wolf narrator looks into the lens and says in Hindi, in a deep, calm, slightly smug storyteller voice: {स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर तीन।} While he speaks: Camera tracks slowly backward at his walking pace. He walks toward the lens, lifts his eyes to the viewer and stops in a medium shot, lantern glow swaying on the shelves. His mouth moves clearly and naturally with every syllable, jaw and lips shaping each word; when the line ends his mouth closes into his smirk. Only the wolf narrator speaks. When the line is finished he holds the final pose with his mouth closed in his smirk, and the video ends holding this state. Wide shot, low angle looking up, native vertical 9:16 framing with the main face or subject in the upper-middle third and the top and bottom edges kept calm. Every sign, page and banner is blank or carries unreadable squiggles. Audio: only the wolf narrator's voice speaking the line, over near-silent room tone. No music, no sound effects. Keep the wolf narrator identical to the ingredients in face, fur, spectacles, clothing and proportions in every frame. Character lock: the wolf narrator is clearly a wolf, not a fox or jackal: broad skull, long heavy muzzle, thick grey-tawny fur ruff at cheeks and neck, grey crown; sharp golden-amber heavy-lidded eyes; exactly one pair of round brass-rimmed spectacles worn low on the snout; maroon bandhgala jacket with high band collar and small brass buttons; cream kurta collar at the neck; indigo angavastram stole over the LEFT shoulder; faded indigo cloth satchel strap across the chest; smug one-sided smirk. Same 2D noir graphic-novel cartoon style as the style reference: bold uniform black outlines, flat cel colour, hard-edged shadows, drawn hands and materials. Keep it the same from the first frame to the last.
 ```
 
 ### short2-s04 | brand | MCU low | clip
@@ -319,22 +319,22 @@ STYLE, identical in every shot: 2D hand-drawn digital cartoon in a modern noir g
 
 ## Publish pack
 **YouTube Shorts titles:**
-- मुंबई की ज़मीन कभी समंदर थी! 🌊 | 7 Islands of Bombay #shorts
-- 7 टापू कैसे बने एक मुंबई? | Mumbai Reclamation History #shorts
+- मुंबई की ज़मीन कभी समंदर थी! 🌊 | 7 Islands of Bombay | फ़ाइल 003 #shorts
+- 7 टापू कैसे बने एक मुंबई? | Mumbai Reclamation History | फ़ाइल 003 #shorts
 
 **YouTube description:**
-मुंबई कभी सात अलग टापू थी। हॉर्नबी वेलार्ड (1782-84), कॉज़वे और भराई से ये एक ज़मीन बनी, और कोस्टल रोड (2024) के लिए आज भी समंदर से ज़मीन ली गई। महालक्ष्मी मंदिर की कहानी लोक-कथा है। असली सीन, एपिसोड 2.
+मुंबई कभी सात अलग टापू थी। हॉर्नबी वेलार्ड (1782-84), कॉज़वे और भराई से ये एक ज़मीन बनी, और कोस्टल रोड (2024) के लिए आज भी समंदर से ज़मीन ली गई। महालक्ष्मी मंदिर की कहानी लोक-कथा है। आर्काइव फ़ाइल्स, फ़ाइल 003.
 Sources: Harvard Hornby Vellard exhibit; Ministry of Culture (Indian Culture portal); MCGM heritage record.
 #mumbai #history #shorts
 Voice: ElevenLabs (elevenlabs.io)
 
 **Instagram Reel caption:**
 आप मुंबई की जिस सड़क पर खड़े हैं, वो शायद कभी समंदर थी 🌊
-असली सीन, एपिसोड 2 🐺
+आर्काइव फ़ाइल्स · फ़ाइल 003 🐺
 आपका इलाक़ा कौन सा है? समंदर से ज़मीन लेना, सही या ग़लत? और अगली कहानी किस शहर की हो? 👇
 ऐसी ही अनसुनी कहानियों के लिए फ़ॉलो करें!
 Voice: ElevenLabs (elevenlabs.io)
 
-#mumbai #bombay #sevenislands #indianhistory #historyinhindi #reels #asliscene
+#mumbai #bombay #sevenislands #indianhistory #historyinhindi #reels #archivefiles
 
 Upload setting: Audience = "No, it's not made for kids" (narrator is an animated wolf; content is history for general audiences).
