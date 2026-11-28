@@ -17,8 +17,6 @@ Claude runs production; the owner approves at two gates. Channel settings: `conf
 | `skills/` | Claude Code skills (studio + vetted vendor), linked into `.claude/skills/`. See `skills/README.md` |
 | `tracker/` | `videos.csv`: status per video: idea, researched, scripted, voiced, visuals, rendered, approved, uploaded |
 | `tools/` | `voice.mjs` (Hindi TTS per scene), `assemble.mjs` (FFmpeg assembly + Shorts), `setup-mac.sh` |
-| `epoch-engine/` | Older Remotion/three.js 3D engine. Not used by the pipeline (too heavy for 8 GB) |
-| `legacy/delhi-pilot/` | First Delhi pilot (Hinglish) and old notes |
 
 ## Use
 ```bash
