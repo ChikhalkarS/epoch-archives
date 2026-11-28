@@ -1,0 +1,73 @@
+# Style bible: Epoch Archive Studios (Google Flow)
+Art style decided by owner 2026-11-27: same *style family* as Quiet Wolf (2D noir cartoon with anthropomorphic animals), with our **own Indian animal cast** (never their wolf, pig or other characters) and Indian settings.
+
+This is the single source for look, character, voice and sound. Every Flow prompt is built from the blocks below, pasted **verbatim**. Changing a word changes the result.
+
+## 1. Look: "vintage noir storybook" (2D)
+Hand-drawn 2D cartoon with bold ink lines, lit like an old detective film: one warm lamp, deep shadows. Indian settings and costumes, drawn with care.
+
+**STYLE block** (first line of every prompt):
+```
+STYLE: 2D digital cartoon animation in a modern noir graphic-novel style, anthropomorphic animal characters walking upright in tailored period clothing, expressive heavy-lidded eyes with bright highlights, thick clean black outlines, smooth cel shading with soft gradient shadows, fur drawn with crisp jagged strokes, richly painted dark sepia backgrounds with dusty paper texture and light film grain, dramatic warm amber key light with soft light beams and a strong rim light, deep shadows and a dark vignette, palette of sepia brown, charcoal black, warm amber gold, cream and deep red accents, indigo blue for water and night skies.
+```
+**CONSTRAINTS block** (last line of every prompt):
+```
+CONSTRAINTS: No subtitles, no captions, no on-screen text; any paper, sign or stone carries only abstract scribbles. No music. One continuous shot, no cuts. Keep the 2D hand-drawn cartoon look throughout, never photoreal or 3D. Every character keeps exactly the accessories described: one pair of glasses, nothing duplicated.
+```
+
+## 2. Palette
+Sepia brown #6B4A2E (backgrounds) · Charcoal #1E1A17 (shadows, outlines) · Amber #E0A040 (lamp glow, highlights) · Cream #F1E3C6 (paper, thumbnail text) · Deep red #9E2B25 (Sutradhar's shawl, accents) · Indigo #2E3A66 (water, night). Lake water is always "deep indigo-blue water with painted amber reflections".
+
+## 3. Sutradhar (recurring narrator character)
+**Main character for every video: Sutradhar, an Indian grey wolf** (owner decision 2026-11-27, replacing the fox). **Attitude:** the know-it-all who has seen every file; a calm smug smirk, peering over low spectacles, one eyebrow up, never a big friendly smile, never pleading. **Kept distinct from Quiet Wolf's mascot:** Indian grey wolf (slim, sandy-tawny coat), Indian clothes only (maroon bandhgala, cream kurta, indigo angavastram, satchel), brass spectacles; never a suit, tie, waistcoat-and-tie or white gloves, and never their poses copied shot for shot. He speaks on camera in the hook, the myth check and the closer (max 5 shots per EP). Everywhere else his voice is **off-screen voice-over** over the scene.
+
+**SUTRADHAR block** (whenever he is in frame):
+```
+SUTRADHAR: an anthropomorphic Indian grey wolf who walks upright, drawn as a 2D cartoon character, clearly a wolf with a broad skull, heavy muzzle and thick fur ruff at the neck, lean athletic build, sandy-tawny coat with grey on the back and a cream muzzle and chest, pointed ears, sharp golden-amber eyes, heavy-lidded and knowing, exactly one pair of round brass-rimmed spectacles, always worn low on his snout (never a second pair, never held in his hand), a smug confident smirk with one corner of the mouth raised and one eyebrow cocked, chin slightly up, unhurried self-assured posture, maroon bandhgala jacket with a high collar and brass buttons over a cream kurta, an indigo angavastram stole draped over one shoulder, faded indigo cloth satchel across his chest, holds a rolled parchment scroll tied with red thread.
+```
+**VOICE block** (in every prompt with speech, unchanged):
+```
+VOICE: Sutradhar's voice, a deep heavy resonant Indian male voice, soft and calm with a curious warmth, like a cool elder brother sharing a secret, smooth brisk short-video pace of about three words per second, relaxed casual everyday Hindi.
+```
+- Ingredient: `Sutradhar sheet` (see `studio/ref/README.md`). Role line: `The Sutradhar ingredient defines his face, fur, ears, glasses, smirk, bandhgala, stole and satchel only; ignore its grey background and panel layout.`
+- His room (`Archive room` ingredient): a cluttered old archive with wooden shelves of scrolls, a brass oil lamp, and a large old painted map of India on the back wall.
+- **Supporting cast changes per video.** Each episode picks its own animals in `episodes/<ep>/cast.md` (decided at the script stage, kept the same within the episode). Casting rules:
+  - Everyone is an anthropomorphic animal dressed accurately for the era.
+  - All rulers in one episode share one species (any faith), so religion is never coded by animal. Costume tells them apart.
+  - Pick animals linked to the place when possible (e.g. Gir lions in Gujarat, one-horned rhinos in Assam, blackbuck in Rajasthan, elephants in Kerala).
+  - Villains or criminals only for crimes, never for a community.
+- Never: pigs or dogs for people (offensive), another wolf (the wolf is only Sutradhar), or a species tied to one religion, caste or community. Real people get no likeness. Historical figures never speak.
+
+## 4. Dialogue syntax (Veo)
+- On camera: `Sutradhar looks into the lens and says in Hindi: "…"`
+- Voice-over: `VOICE-OVER (Sutradhar, off-screen, Hindi): "…"`
+- Max **16 Hindi words per 8 s clip** (≈ 2 words/s), with 0.5–1 s of room at the start and end. Devanagari inside the quotes, everything else in English.
+- Numbers are spelled out as Hindi words inside the quotes (Veo reads "1794" unreliably).
+
+## 5. Visual devices (all made inside Flow)
+| Device | How to prompt it |
+|---|---|
+| Map reveal | "an old hand-painted map of central India on a wooden table, hills shaded in sepia, rivers as indigo lines", slow top-down push-in, a small red pin drops in at the place |
+| Evidence card | The object itself on the archive desk under the lamp (old parchment, gazetteer book, carved stone, chronicle page) with scribble text. The **source is spoken** in the VO |
+| Then vs now | Two consecutive clips with the same framing and lens: past → present |
+| सच या झूठ? (myth check) | Sutradhar holds up a paper ledger, then presses a big rubber stamp on it, under a spotlight beam. The stamp colour signals the verdict: green = सच, red = झूठ, **amber = विवादित**. The verdict word is spoken |
+| Chapter / "राज़ #1" | Sutradhar unrolls a scroll toward the camera, breaking a red wax seal. The chapter is spoken |
+| Logo sting | A red wax seal pressed onto parchment under the lamp, short brass chime |
+
+## 6. Sound (in every prompt)
+- `AMBIENCE:` 1–2 sources tied to what is visible (water lapping, birds, wind over stone).
+- `SFX:` the action sounds (stone scrape, book thud, stamp thump, paper rustle).
+- Reveal moments: `SFX: a low rising whoosh ending in a soft drum hit as <the reveal action> happens`.
+- Always "No music". The score is added once in YouTube Studio.
+
+## 6b. Thumbnails
+One character + one or more objects under spotlight cones with small radiating emphasis lines, dark dusty-brown background, vignette, amber rim light. Big condensed vintage display text (2–4 Hindi words) in cream with a thick charcoal outline, one keyword in amber. Make the image in Flow (no text), then add the Hindi text in a free editor (Canva free) with an OFL Devanagari font (e.g. Mukta ExtraBold / Rozha One).
+
+## 7. Camera grammar (cinematic-director rules)
+One camera behaviour per clip: `locked`, `slow push-in`, `slow pull-out`, `slow pan left/right`, `slow tilt up/down`, `top-down slow descent`, `slow orbit 30°`. Lens words: `24mm wide`, `35mm`, `50mm`, `85mm close-up`, `macro`. Angles: eye level, low angle, high angle, top-down. One primary action per clip, ending in a held state.
+
+## 7b. Hand gestures (AI risk)
+Never prompt single-finger gestures (counting, pointing with one finger, a raised finger): AI often renders them as an offensive middle finger. Use open-paw gestures, both paws, or point with an object (scroll, staff, pen). Check every take's hands before keeping it.
+
+## 8. Respect rules
+Temples, mosques and deities: respectful, no caricature. Violence and tragedy: symbols only. Disputed history: amber stamp + neutral words.

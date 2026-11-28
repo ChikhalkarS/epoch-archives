@@ -15,7 +15,11 @@ const [slug, pack] = process.argv.slice(2);
 if (!slug || !pack) { console.error('Usage: node tools/flow-pack.mjs <slug> <short1|long|stills>'); process.exit(1); }
 
 const guide = fs.readFileSync(r('config/style-guide.md'), 'utf8');
-const grab = (label) => guide.split(`**${label} (copy exactly):**`)[1].split('```')[1].trim();
+const grab = (label) => {
+  const part = guide.split(`**${label} (copy exactly):**`)[1];
+  if (!part) { console.error('flow-pack: the claymation prompt prefix is gone (2D noir since 2026-11-28).\nUse the make-short skill and `node tools/build-shorts.mjs <city>` (prompts/library.json) for Flow prompts.'); process.exit(1); }
+  return part.split('```')[1].trim();
+};
 const PREFIX = grab('PREFIX');
 const sb = loadStoryboard(slug);
 const lib = readJson(r('flow/library/ingredients.json')).ingredients

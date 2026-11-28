@@ -1,48 +1,50 @@
 ---
 name: hindi-script
-description: Write Hindi (Devanagari) narration scripts for Epoch Archive Studios city-history videos and Shorts, with a 5-second hook question, retention structure and source tags on every claim. Use for stage 2 of /make-video or when the owner asks for a Hindi script.
+description: Write the timed Hindi (Devanagari) narration script for an Epoch Archive episode or Short in the hidden-facts format (Sutradhar hook scene, three reveals, myth check, aaj bhi dikhta hai, fixed closer), with a fact tag on every claim. Use for stage 2 of /make-video or when the owner asks for a Hindi script.
 ---
 
-# Hindi script
+# Hindi script → `episodes/<ep>/script_hi.md`
 
-Input: `research/<slug>/sources.md` + `notes.md`. Output: `scripts/<slug>.md`.
+Load the studio `sutradhar-voice` skill (how Sutradhar talks: always open suspicious or curious, one story first, clips second) and the vendor `scriptwriting` skill first and apply its doctrine, hook tracks, open loops and AI-tells scan. This file adds the channel and Hindi rules.
 
-## Language
-- **Follow `STYLE.md` in this folder** (natural flow, commas, grammar, nukta, voice markup). The draft must read like a native Hindi storyteller, not a translation.
-- Devanagari, simple spoken Hindustani that a 14-year-old understands. Natural sentences of varied length (mostly 8-18 words); fragments only for drama, max 2 per beat.
-- Use everyday words: "शहर", "राजा", "लड़ाई", "व्यापार". Avoid heavy Sanskrit/Persian unless explained.
-- Numbers as words where the TTS reads them better (e.g. "सत्रह सौ सत्ताईस" or "1727" - test once per voice and note in channel.json).
-- Write for the ear: questions, "सोचिए...", "अब यहाँ कहानी पलटती है...". No lists read aloud.
+## Brief (top of the file)
+Message (one repeatable line), viewer (who, believing what), feeling arc, structure + reason (default: **SCQA opening + escalating explainer**, stacked ABTs per reveal), runtime, word count.
 
-## Structure (8-12 min ≈ 1,000-1,400 Hindi words; Madhur at -5% measured ≈ 119 words/min)
-1. **Hook (0-5 s)**: one curiosity question. Example: "क्या आप जानते हैं, इस शहर में इतनी झीलें क्यों हैं?"
-2. **Promise (5-30 s)**: what we will find out + a hint of the twist. No channel intro, no "like and subscribe" here.
-3. **Beats (5-7)**: founding -> rise -> conflict -> twist -> change -> today. Each beat ends with an open loop.
-4. **Twist** around 40-60% of runtime.
-5. **Outro (last 30-45 s)**: a question for comments + teaser for the next city + one-line subscribe ask.
+## Structure (9–10 min ≈ 1,150–1,350 words at ~130 wpm)
+| Time | Section | Rules |
+|---|---|---|
+| 0:00–0:15 | Hook | Sutradhar on camera acts out the belief, then says a 5–12-word line that breaks it, then the hook question. Picture track: one strong visual action in frame 1. |
+| 0:15–0:17 | Logo sting | no VO |
+| 0:17–1:15 | Setup | Stakes for the viewer ("जो पानी आप पीते हैं…"), why the obvious answer fails, promise: "तीन राज़". |
+| 1:15–7:15 | राज़ 1, 2, 3 | Each: AND (context) → BUT (the flip) → THEREFORE (what it means) → open loop into the next. Signpost: "राज़ नंबर दो…". At least one evidence card per reveal. |
+| inside राज़ 3 | सच या झूठ? | The myth spoken as people say it → `[beat]` → verdict with reason and sources. |
+| 7:15–8:45 | आज भी दिखता है | Concrete places and objects to visit. |
+| 8:45–9:30 | Closer | Answer the hook in one line → moral line → next-EP question → end line "अगली फ़ाइल किसकी खुलेगी, देखना है? तो सब्सक्राइब करना मत भूलना!" One ask only (subscribe *or* comment, not both). |
+
+## Hindi for the ear
+- **Tone (see `studio/VISION.md`):** casual everyday Hindi in तुम-form (सोचो, देखो, बताओ), light natural Hinglish (सीन, ट्विस्ट, लिस्ट), calm and cool, never slangy about people or faiths. Use the fixed lines: welcome, "पर असली सीन तो अब शुरू होता है!", "तो असली सीन क्या है?", and the end line "अगली फ़ाइल किसकी खुलेगी, देखना है? तो फ़ॉलो करना मत भूलना!"
+- Simple spoken Hindustani a 14-year-old follows. Write in **clip lines of 14–18 words** (one Flow clip = 8 s at ~3 words/s; fill 6–7 s, never under 4 s of speech). Mostly 8–14 words, with one short line for each payoff.
+- Numbers written as Hindi words ("सत्रह सौ चौरानवे"). One number per sentence. Sources are spoken ("इम्पीरियल गज़ेटियर, उन्नीस सौ आठ के मुताबिक़"), since Flow can't render on-screen text.
+- Mark pauses `[beat]` before each reveal line. Use commas for breath (TTS reads them).
+- Hindi AI tells to cut: "आइए जानते हैं", "क्या आप जानते हैं" as an opener, "दिलचस्प बात ये है", "सिर्फ़ X नहीं, बल्कि Y" (max once), "सोचिए…" (max once), stacked rhetorical question+answer, "एक नया अध्याय", "इतिहास के पन्नों में", "रोचक सफ़र".
+- No invented dialogue for real people. Legends: "कहते हैं" / "लोक-कथा के मुताबिक़". Disputed: "कुछ शोधकर्ता मानते हैं…, पर दूसरे…".
+
+## Cast
+Also write `episodes/<ep>/cast.md`: the supporting animals for this episode, following the casting rules in `studio/STYLE_BIBLE.md` §3 (Sutradhar the wolf is always the narrator).
 
 ## Accuracy
-- After every factual sentence put the fact ID in brackets: `... बड़ा तालाब बना। [F3]`. These are removed from the narration text in the storyboard.
-- Disputed: "कुछ इतिहासकार मानते हैं..., जबकि दूसरे कहते हैं...". Legend: "कहते हैं..." / "लोक-कथा के अनुसार...".
-- Never state an unverified fact. Never invent dialogue for real people; use "शायद" only with a source that says so.
+`[F#]` after every factual sentence. Run the fact audit: every tag exists in `research.md` with a status that allows the wording used.
+
+## File format
+Brief, then the timed table `| Time | Section | Narration (one clip line per row) |`, then `## Short candidates` (3–4: shot range, standalone hook, why it works alone) and `## Flags for owner`.
+
+## Short template (45–55 s, 8–9 clips)
+Hook (surprising claim + action in frame 1) → welcome ("स्वागत है आर्काइव फ़ाइल्स में! फ़ाइल नंबर N…") → popular story with numbers → "पर असली सीन तो अब शुरू होता है!" → evidence → "तो असली सीन क्या है?" verdict → reusable end clip. The story must close: no step from cause to effect skipped.
 
 ## Polish and voice (required before Gate 1)
-1. `node tools/hindi-lint.mjs scripts/<slug>.md` - fix every ERROR.
-2. Run the `hindi-editor` agent (`.claude/agents/hindi-editor.md`) on the script. It rewrites for natural Hindi, adds voice markup (`[रुकें]`, `{role} “...”`, `{धीमे}`) and writes `scripts/<slug>.hindi-review.md`.
-3. Check its result: same `[F#]` IDs per beat, no new facts, lint 0 errors. Then show Gate 1.
+1. `node tools/hindi-lint.mjs <script>` - fix every ERROR. Rules in `STYLE.md` (this folder).
+2. Run the `hindi-editor` agent (`.claude/agents/hindi-editor.md`). It rewrites for natural spoken Hindi in the channel's casual तुम-form voice and writes a review file.
+3. Check: same `[F#]` IDs per section, no new facts, lint 0 errors. Then Gate 1.
 
 ## Shorts and Reels
-Use the fixed order in `config/channel.json` -> `shorts_template` (hook, brand intro, story, mid interaction, payoff, comment question, next teaser, follow line). Full rules in the `make-short` skill.
-
-## File format (`scripts/<slug>.md`)
-```
-# <City> - <working title>
-Runtime target: X min | Words: N | Next city: <slug>
-## Hook
-## Promise
-## Beat 1 - <name>
-...
-## Outro
-## Short candidates (2-3): beat/lines, why it works alone, its own hook
-## Flags for owner
-```
+Use the fixed order in `config/channel.json` -> `shorts_template`. Full rules in the `make-short` skill.

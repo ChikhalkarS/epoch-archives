@@ -2,12 +2,15 @@
 
 Hindi YouTube channel on Indian city histories: founding, rulers, wars, trade, culture, food, geography and strange facts. 2D noir graphic-novel cartoon look, narrated by a wolf (SUTRADHAR). One long video (8-12 min) + 2-3 Shorts per city.
 
-Claude runs production; the owner approves at two gates. Channel settings: `config/channel.json`.
+Claude runs production; the owner approves at two gates and generates the clips in Google Flow. Channel settings: `config/channel.json`.
 
 ## Folders
 | Folder | What goes in it |
 |---|---|
 | `config/` | `channel.json` (name, language, voice, formats) and `style-guide.md` (look, motion, audio, text rules; exact prompts in `prompts/`), `decisions.md` (owner decision log) |
+| `studio/` | `STATUS.md` (read first), `DECISIONS.md`, `FORMAT.md`, `STYLE_BIBLE.md`, `WORKFLOW.md`, `MONETIZATION.md`, `TOPICS.md`, `VISION.md`, `CALENDAR.md`, `ref/` |
+| `analysis/` | Reference-channel analysis (`quiet-wolf.md`) |
+| `episodes/<ep>/` | Long-episode packs: `research.md`, `script_hi.md`, `flow_prompts.md`, `youtube.md`. Template `episodes/_template/` |
 | `research/<city>/` | `sources.md` (source list + fact sheet with status) and `notes.md` (hooks, arc, flags). Template in `research/_template/` |
 | `shorts/<city>/` | Shorts/Reels: script, ElevenLabs text, Flow prompts, publish copy (current focus). Schedule in `shorts/SCHEDULE.md` |
 | `prompts/` | Prompt library: `library.json` (style, characters incl. the wolf narrator SUTRADHAR, narrator shot bank, branding), `LIBRARY.md`, reference images in `characters/<ID>/`, `CHANGELOG.md` |
@@ -18,8 +21,8 @@ Claude runs production; the owner approves at two gates. Channel settings: `conf
 | `publish/` | `<city>.md` titles, description, tags, chapters, thumbnail concepts |
 | `skills/` | Claude Code skills (studio + vetted vendor), linked into `.claude/skills/`. See `skills/README.md` |
 | `tracker/` | `videos.csv`: status per video: idea, researched, scripted, voiced, visuals, rendered, approved, uploaded |
-| `flow/` | Google Flow library: ingredients (look, characters, sets), per-city packs, Chrome prompts. See `flow/README.md` |
-| `tools/` | `build-shorts.mjs` (Shorts files from `shorts/<city>/shorts.json` + prompt library), `time-voice.mjs` (measures each line in the ElevenLabs take), `assemble-short.mjs` (final Short from Flow shots + voice), `voice.mjs` (edge-tts fallback with pauses and dialogue voices), `hindi-lint.mjs` (catches broken Hindi), `flow-pack.mjs` (storyboard to Flow pack), `assemble.mjs` (FFmpeg assembly + Shorts), `setup-mac.sh` |
+| `flow/` | Chrome-driven Flow runs (`CHROME-PROMPTS.md`). The claymation ingredient library in it is superseded by `prompts/library.json` |
+| `tools/` | `build-shorts.mjs` (Shorts files from `shorts/<city>/shorts.json` + prompt library), `time-voice.mjs` (measures each line in the ElevenLabs take), `assemble-short.mjs` (final Short from Flow shots + voice), `voice.mjs` (edge-tts fallback with pauses and dialogue voices), `hindi-lint.mjs` (catches broken Hindi), `flow-pack.mjs` (storyboard to Flow pack), `assemble.mjs` (FFmpeg assembly + Shorts), `finish_short.mjs` (clips + voice + music + captions), `flowpack/` (episode prompt builder + validator), `align.py`, `audio/`, `setup-mac.sh` |
 
 ## Use
 ```bash

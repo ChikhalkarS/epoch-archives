@@ -11,6 +11,9 @@ Linked into `.claude/skills/` so Claude Code loads them. All are Markdown instru
 | `studio/make-short` | `/make-short <city>`: असली सीन Shorts/Reels narrated by the wolf SUTRADHAR; one shot per line, prompts from `prompts/library.json`, built with `tools/build-shorts.mjs` |
 
 Agent: `.claude/agents/hindi-editor.md` rewrites every draft into natural spoken Hindi and directs the voice (pauses, dialogue, slow lines). Tool: `tools/hindi-lint.mjs`.
+| `studio/sutradhar-voice` | Dialogue writer: Sutradhar's suspicious/curious voice, one story first then clips |
+| `studio/flow-prompts` | Shot plan + one Google Flow (Veo) prompt per clip: scene, Hindi dialogue/VO, camera, angle, light, SFX |
+| `studio/youtube-pack` | Titles, description with sources, tags, chapters |
 
 ## Vendor (third-party, MIT)
 | Skill | Source | Why |

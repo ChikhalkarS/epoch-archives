@@ -1,10 +1,10 @@
 {
   "name": "Epoch Archive Studios",
-  "handle": "epocharchivesco",
+  "handle": "BhediyaFiles",
   "niche": "Indian city histories: founding, rulers, wars, trade, culture, food, geography, strange facts",
   "language": {
     "narration": "hi",
-    "script": "Devanagari Hindi, simple spoken Hindustani (avoid heavy Sanskritised or Urdu words)",
+    "script": "Casual everyday Hindi in तुम-form with light natural Hinglish (सीन, ट्विस्ट, लिस्ट); simple, Gen Z friendly; no heavy Sanskrit or Urdu",
     "titles": "bilingual: Hindi + English keywords",
     "english_version": false
   },
@@ -81,15 +81,17 @@
   },
   "style": {
     "visual": "2D noir graphic-novel cartoon (prompts/library.json -> style)",
-    "guide": "config/style-guide.md",
+    "guide": "prompts/library.json + studio/STYLE_BIBLE.md (config/style-guide.md for rules)",
     "music_volume": 0.12,
     "scene_padding_seconds": 0.35
   },
   "goal": {
-    "program": "YouTube Partner Program",
-    "tier_full": "1000 subscribers + 4000 public watch hours in 12 months",
-    "tier_lower": "500 subscribers + 3 public uploads in 90 days + 3000 public watch hours in 12 months",
-    "cadence": "1 long video + 2-3 Shorts per week"
+    "program": "YouTube Partner Program (checked 2026-11-27, see studio/MONETIZATION.md)",
+    "until_2027_01_31": "1000 subs + 4000 public watch hours/12 months OR 10M Shorts views/90 days",
+    "from_2027_02_01": "1000 subs + 8000 watch hours/365 days OR 20M Shorts views/90 days",
+    "earlier_tier": "500 subs + 3000 watch hours/12 months OR 3M Shorts views/90 days (fan funding, Shopping)",
+    "cadence": "4 Shorts/week (Mon, Tue, Thu, Sat) + 1 long episode every 2 weeks (Sun); Google AI Pro credits",
+    "target": "1000 subs + 8000 long-form watch hours within 12 months of EP1; stretch: in YPP before 2027-02-01"
   },
   "shorts_template": {
     "status": "DEFAULT for every Short/Reel (owner 2026-11-27, v3: new outro)",
@@ -147,5 +149,21 @@
   "visuals": {
     "tool": "Google Flow",
     "plan": "Google AI Pro (owner, 2026-11-27)"
+  },
+  "brand": {
+    "channel": "Epoch Archive",
+    "spoken_brand": "आर्काइव फ़ाइल्स",
+    "format": "असली सीन",
+    "numbering": "फ़ाइल 001, 002… continuous across Shorts and long videos",
+    "title_pattern": "[Topic] का असली सीन 🔍 | फ़ाइल 001",
+    "vision": "studio/VISION.md"
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/@BhediyaFiles",
+    "handle": "@BhediyaFiles",
+    "channel_id": "UCyF65YTJHp5qxEUO11FAX5Q",
+    "display_name": "Wolfy Files",
+    "created": "2026-11-27",
+    "note": "Name not yet aligned: description says History's Wolf, banner says ITIHAAS KA BHEDIYA, scripts say आर्काइव फ़ाइल्स. Owner to pick one name."
   }
 }

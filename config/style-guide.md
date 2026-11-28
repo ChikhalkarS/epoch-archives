@@ -46,3 +46,5 @@ Example:
 - Hindi (Devanagari) for on-screen labels, years in numerals (1727).
 - Font: Noto Sans Devanagari or Mukta (both free, SIL OFL).
 - Thumbnails: 3 to 4 words max, big, high contrast, one subject in the 2D noir style (often the wolf), one face or object.
+
+> Also see `studio/STYLE_BIBLE.md` (Flow style block, Sutradhar, palette, fonts, overlays, sound) and `prompts/library.json` (exact prompt text).
