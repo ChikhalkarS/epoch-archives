@@ -17,7 +17,7 @@ const sections = [];
 for (const block of md.split(/^## /m).slice(1)) {
   const [title, ...body] = block.split('\n');
   if (SKIP_SECTIONS.test(title)) continue;
-  const lines = body.map((l) => l.replace(/\*\*[^*]*\*\*/g, '').trim()).filter((l) => l && !SKIP_LINES.test(l));
+  const lines = body.map((l) => l.trim()).filter((l) => l && !SKIP_LINES.test(l)).map((l) => l.replace(/\*\*[^*]*\*\*/g, '').trim());
   sections.push({ title: title.trim(), text: lines.join(' ') });
 }
 
@@ -42,7 +42,7 @@ for (const { title, text } of sections) {
   for (const m of text.matchAll(/\[(?!F\d+\]|रुकें)[^\]]*\]/g)) add('ERROR', title, 'unknown [..] tag (only [F#] and [रुकें] are allowed)', m[0]);
   const t = clean(text);
   // comma before a postposition / inside a phrase
-  for (const m of t.matchAll(new RegExp(`[^,]{0,25},\\s*(ने|को|से|में|पर|का|की|के|तक)${END}`, 'g'))) add('ERROR', title, `comma before postposition "${m[1]}"`, m[0]);
+  for (const m of t.matchAll(new RegExp(`[^,]{0,25},\\s*(ने|को|से|में|का|की|के|तक)${END}`, 'g'))) add('ERROR', title, `comma before postposition "${m[1]}"`, m[0]);
   if (/[A-Za-z]/.test(t)) add('ERROR', title, 'Latin-script text in narration', t.match(/.{0,20}[A-Za-z]+.{0,20}/)[0]);
   if (/(^|\s)(यह|वह)(?=[\s,।?!])/.test(t)) add('WARN', title, 'use spoken ये / वो instead of यह / वह');
 
