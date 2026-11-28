@@ -17,7 +17,7 @@ Claude runs production; the owner approves at two gates. Channel settings: `conf
 | `skills/` | Claude Code skills (studio + vetted vendor), linked into `.claude/skills/`. See `skills/README.md` |
 | `tracker/` | `videos.csv`: status per video: idea, researched, scripted, voiced, visuals, rendered, approved, uploaded |
 | `flow/` | Google Flow library: ingredients (look, characters, sets), per-city packs, Chrome prompts. See `flow/README.md` |
-| `tools/` | `voice.mjs` (Hindi TTS per scene), `flow-pack.mjs` (storyboard to Flow pack), `assemble.mjs` (FFmpeg assembly + Shorts), `setup-mac.sh` |
+| `tools/` | `voice.mjs` (Hindi TTS per scene, with pauses and dialogue voices), `hindi-lint.mjs` (catches broken Hindi), `flow-pack.mjs` (storyboard to Flow pack), `assemble.mjs` (FFmpeg assembly + Shorts), `setup-mac.sh` |
 
 ## Use
 ```bash

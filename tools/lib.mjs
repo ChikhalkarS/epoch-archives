@@ -28,3 +28,38 @@ export function duration(file) {
 
 export const mkdirp = (d) => fs.mkdirSync(d, { recursive: true });
 export const exists = (p) => fs.existsSync(p);
+
+// ---- Voice markup (see skills/studio/hindi-script/STYLE.md, section 9) ----
+//   [रुकें]  or  [रुकें 1.2]   silence (default 0.6 s, max 3 s)
+//   {रानी} “...”   a quoted line spoken by a cast voice from config/channel.json voice.cast
+//   {धीमे} ...।     any cast style applied up to the end of the sentence
+const PAUSE = /\[रुकें(?:\s+([\d.]+))?\]/g;
+export const FACT = /\s*\[F\d+\]/g;
+
+// Text as heard/read: markup removed (for subtitles, word counts, Flow packs).
+export function plainVO(vo = '') {
+  return vo.replace(FACT, '').replace(PAUSE, ' ').replace(/\{[^}]+\}\s*/g, '').replace(/[“”"]/g, '')
+    .replace(/\s+/g, ' ').trim();
+}
+
+// Split narration into segments: { text, role } for speech, { pause: seconds } for silence.
+export function parseVO(vo = '') {
+  const out = [];
+  const speak = (text, role) => { const t = text.replace(/[“”"]/g, '').replace(/\s+/g, ' ').trim(); if (t) out.push({ text: t, role }); };
+  const parts = vo.replace(FACT, '').split(PAUSE); // [text, secs, text, secs, ...]
+  for (let i = 0; i < parts.length; i += 2) {
+    let rest = parts[i] || '';
+    // role tags: {role} “quoted”  |  {role} text up to the end of the sentence
+    const tag = /\{([^}]+)\}\s*(“[^”]*”|"[^"]*"|[^।?!]*[।?!]?)/g;
+    let last = 0, m;
+    while ((m = tag.exec(rest))) {
+      speak(rest.slice(last, m.index), null);
+      speak(m[2], m[1].trim());
+      last = tag.lastIndex;
+    }
+    speak(rest.slice(last), null);
+    if (i + 1 < parts.length) out.push({ pause: Math.min(3, parseFloat(parts[i + 1]) || 0.6) });
+  }
+  return out;
+}
+export const hasMarkup = (vo = '') => /\[रुकें|\{[^}]+\}/.test(vo);

@@ -7,7 +7,9 @@ Linked into `.claude/skills/` so Claude Code loads them. All are Markdown instru
 |---|---|
 | `studio/make-video` | `/make-video <city>`: full pipeline with Gate 1 and Gate 2 |
 | `studio/city-research` | Sourced fact sheet with verified/disputed/legend flags |
-| `studio/hindi-script` | Hindi narration rules, hook, structure, fact tags |
+| `studio/hindi-script` | Hindi narration rules, hook, structure, fact tags; `STYLE.md` = natural Hindi + voice markup |
+
+Agent: `.claude/agents/hindi-editor.md` rewrites every draft into natural spoken Hindi and directs the voice (pauses, dialogue, slow lines). Tool: `tools/hindi-lint.mjs`.
 
 ## Vendor (third-party, MIT)
 | Skill | Source | Why |

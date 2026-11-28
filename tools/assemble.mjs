@@ -8,7 +8,7 @@
 // Shorts: storyboard.shorts[] = { id, scenes: [ids], mode: 'blur' (framed, default) | 'fill' (centre-crop) }.
 // A native vertical clip assets/<slug>/clips/<id>.v.mp4 (from a Flow short pack) is used as-is in Shorts.
 import fs from 'node:fs';
-import { r, channel, loadStoryboard, run, duration, mkdirp, exists } from './lib.mjs';
+import { r, channel, loadStoryboard, run, duration, mkdirp, exists, plainVO } from './lib.mjs';
 
 const [slug, ...flags] = process.argv.slice(2);
 if (!slug) { console.error('Usage: node tools/assemble.mjs <slug> [--preview] [--shorts-only] [--long-only]'); process.exit(1); }
@@ -68,7 +68,7 @@ function renderScene(s, vert = false) {
   const aIn = exists(voice) ? ['-i', voice] : ['-f', 'lavfi', '-i', 'anullsrc=r=48000:cl=stereo'];
   run('ffmpeg', ['-y', '-v', 'error', ...vIn, ...aIn, '-filter:v', vf, '-filter:a', 'apad',
     '-map', '0:v', '-map', '1:a', '-t', dur.toFixed(3), ...enc, ...aenc, out]);
-  return { id: s.id, file: out, dur, kind, vo: s.vo || '', shortOnly: !!s.short_only };
+  return { id: s.id, file: out, dur, kind, vo: plainVO(s.vo), shortOnly: !!s.short_only };
 }
 
 function concat(parts, out) {

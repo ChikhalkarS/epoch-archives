@@ -16,7 +16,7 @@ Update `tracker/videos.csv` (status, updated, notes) at the end of every stage.
 Follow `skills/studio/city-research/SKILL.md`. Output `research/<slug>/sources.md` and `research/<slug>/notes.md` from `research/_template/`. Never invent history. Flag anything disputed, legendary or unverified.
 
 ## Stage 2 - Script -> status `scripted`
-Follow `skills/studio/hindi-script/SKILL.md` (and the vendor `scriptwriting` skill for hooks and retention craft). Output `scripts/<slug>.md`.
+Follow `skills/studio/hindi-script/SKILL.md` (and the vendor `scriptwriting` skill for hooks and retention craft). Output `scripts/<slug>.md`. Then `node tools/hindi-lint.mjs scripts/<slug>.md` and the `hindi-editor` agent (natural Hindi + voice markup) before Gate 1.
 
 ## GATE 1 - STOP
 Show the owner, in under 15 lines: the hook line, the 5-7 beat arc, runtime estimate, the twist, the outro teaser, and every disputed/legend flag. Wait for "approved" or edits. Do not continue without approval. Record `gate1=approved` in tracker notes.

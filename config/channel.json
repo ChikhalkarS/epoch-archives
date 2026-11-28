@@ -41,7 +41,36 @@
       "edge-tts:hi-IN-SwaraNeural",
       "gtts:hi"
     ],
-    "notes": "Change voice_id after owner picks. ElevenLabs free tier is non-commercial, so it is not used for monetised uploads."
+    "notes": "Change voice_id after owner picks. ElevenLabs free tier is non-commercial, so it is not used for monetised uploads.",
+    "cast": {
+      "_note": "Roles used in scripts as {role}. Only two Hindi neural voices exist in edge-tts: Madhur (male) and Swara (female). Narration without a tag uses voice_id/rate/pitch above.",
+      "रानी": {
+        "voice_id": "hi-IN-SwaraNeural",
+        "rate": "-8%",
+        "pitch": "+0Hz"
+      },
+      "स्त्री": {
+        "voice_id": "hi-IN-SwaraNeural",
+        "rate": "-5%",
+        "pitch": "+0Hz"
+      },
+      "राजा": {
+        "voice_id": "hi-IN-MadhurNeural",
+        "rate": "-10%",
+        "pitch": "-6Hz"
+      },
+      "पुरुष": {
+        "voice_id": "hi-IN-MadhurNeural",
+        "rate": "-8%",
+        "pitch": "-4Hz"
+      },
+      "धीमे": {
+        "voice_id": "hi-IN-MadhurNeural",
+        "rate": "-15%",
+        "pitch": "+0Hz"
+      }
+    },
+    "default_pause_seconds": 0.6
   },
   "style": {
     "visual": "claymation",

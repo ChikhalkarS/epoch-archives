@@ -8,7 +8,8 @@ description: Write Hindi (Devanagari) narration scripts for Epoch Archive Studio
 Input: `research/<slug>/sources.md` + `notes.md`. Output: `scripts/<slug>.md`.
 
 ## Language
-- Devanagari, simple spoken Hindustani that a 14-year-old understands. Short sentences (8-15 words). One idea per sentence.
+- **Follow `STYLE.md` in this folder** (natural flow, commas, grammar, nukta, voice markup). The draft must read like a native Hindi storyteller, not a translation.
+- Devanagari, simple spoken Hindustani that a 14-year-old understands. Natural sentences of varied length (mostly 8-18 words); fragments only for drama, max 2 per beat.
 - Use everyday words: "शहर", "राजा", "लड़ाई", "व्यापार". Avoid heavy Sanskrit/Persian unless explained.
 - Numbers as words where the TTS reads them better (e.g. "सत्रह सौ सत्ताईस" or "1727" - test once per voice and note in channel.json).
 - Write for the ear: questions, "सोचिए...", "अब यहाँ कहानी पलटती है...". No lists read aloud.
@@ -24,6 +25,11 @@ Input: `research/<slug>/sources.md` + `notes.md`. Output: `scripts/<slug>.md`.
 - After every factual sentence put the fact ID in brackets: `... बड़ा तालाब बना। [F3]`. These are removed from the narration text in the storyboard.
 - Disputed: "कुछ इतिहासकार मानते हैं..., जबकि दूसरे कहते हैं...". Legend: "कहते हैं..." / "लोक-कथा के अनुसार...".
 - Never state an unverified fact. Never invent dialogue for real people; use "शायद" only with a source that says so.
+
+## Polish and voice (required before Gate 1)
+1. `node tools/hindi-lint.mjs scripts/<slug>.md` - fix every ERROR.
+2. Run the `hindi-editor` agent (`.claude/agents/hindi-editor.md`) on the script. It rewrites for natural Hindi, adds voice markup (`[रुकें]`, `{role} “...”`, `{धीमे}`) and writes `scripts/<slug>.hindi-review.md`.
+3. Check its result: same `[F#]` IDs per beat, no new facts, lint 0 errors. Then show Gate 1.
 
 ## File format (`scripts/<slug>.md`)
 ```

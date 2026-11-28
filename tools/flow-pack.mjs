@@ -9,7 +9,7 @@
 //   stills    16:9 images for every other scene    -> assets/<slug>/images/<id>.png
 // Writes flow/projects/<slug>/<pack>.md and .json.
 import fs from 'node:fs';
-import { r, readJson, loadStoryboard, mkdirp, exists } from './lib.mjs';
+import { r, readJson, loadStoryboard, mkdirp, exists, plainVO } from './lib.mjs';
 
 const [slug, pack] = process.argv.slice(2);
 if (!slug || !pack) { console.error('Usage: node tools/flow-pack.mjs <slug> <short1|long|stills>'); process.exit(1); }
@@ -66,7 +66,7 @@ for (const s of scenes) {
   const shot = {
     n: shots.length + 1, scene: v.id, also: s.id === v.id ? [] : [s.id], mode, aspect,
     ingredients: ing, prompt: `${PREFIX} ${v.prompt}. ${tail}`, save, done: exists(r(save)),
-    vo: s.vo || '',
+    vo: plainVO(s.vo),
   };
   seen.set(v.id, shot); shots.push(shot);
 }

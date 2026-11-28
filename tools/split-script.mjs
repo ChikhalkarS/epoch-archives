@@ -3,7 +3,7 @@
 // Keeps existing prompt/motion/type for scenes whose narration is unchanged.
 // Usage: node tools/split-script.mjs <slug> [--max-words 16]
 import fs from 'node:fs';
-import { r, exists, readJson } from './lib.mjs';
+import { r, exists, readJson, plainVO } from './lib.mjs';
 
 const [slug, ...flags] = process.argv.slice(2);
 if (!slug) { console.error('Usage: node tools/split-script.mjs <slug> [--max-words 16]'); process.exit(1); }
@@ -17,7 +17,7 @@ for (const block of md.split(/^## /m).slice(1)) {
   sections.push({ title: title.replace(/^Beat \w+ - /, '').trim(), text });
 }
 
-const words = (s) => s.split(/\s+/).filter(Boolean).length;
+const words = (s) => plainVO(s).split(/\s+/).filter(Boolean).length;
 // Break an over-long sentence at commas into chunks of <= MAX words.
 function splitLong(x) {
   const out = []; let cur = '';
@@ -29,7 +29,7 @@ function splitLong(x) {
 }
 const scenes = [];
 for (const sec of sections) {
-  const sents = sec.text.split(/(?<=[।?!])\s+/).map((x) => x.trim()).filter(Boolean)
+  const sents = sec.text.split(/(?<=[।?!][”"]?(?:\s*\[F\d+\])*)\s+(?!\[F)/).map((x) => x.trim()).filter(Boolean)
     .flatMap((x) => (words(x) > MAX ? splitLong(x) : [x]));
   let cur = [], first = true;
   const flush = () => {
