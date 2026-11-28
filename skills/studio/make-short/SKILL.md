@@ -7,7 +7,7 @@ description: Write Epoch Archive Studios Shorts and Instagram Reels (brand "आ�
 
 Shorts-first mode (`config/decisions.md`). Output only in `shorts/<slug>/`. Never publish or upload.
 
-Read first: `config/channel.json` (`voice`, `show`, `shorts_template`), `config/decisions.md`, `prompts/library.json`, `config/style-guide.md`, `tracker/videos.csv`, `research/<slug>/sources.md`. No research yet: run `city-research` first. Use the `cinematic-director` skill for shot planning (vertical grammar, size ladder, one move per clip, end states) and `character-consistency` for any new recurring character.
+Read first: `studio/PLAYBOOK.md`, `config/channel.json` (`voice`, `show`, `shorts_template`), `config/decisions.md`, `prompts/library.json`, `config/style-guide.md`, `tracker/videos.csv`, `research/<slug>/sources.md`. No research yet: run `city-research` first. Use the `cinematic-director` skill for shot planning (vertical grammar, size ladder, one move per clip, end states) and `character-consistency` for any new recurring character.
 
 ## 1. Pick 2-3 Short topics
 Self-contained, own hook, surprising payoff. Only `verified`, `disputed` (both views) or `legend` ("कहते हैं") facts.
@@ -43,7 +43,7 @@ Length 150-170 spoken words (build warns outside 140-175). One line = 1-18 words
 - Give every shot a `goal` (one English sentence: what the shot does for the story) and `sfx` (ambient sounds tied to the visible action) for the Flow pack.
 - Run `node tools/build-shorts.mjs <slug>`. Fix every warning. It writes per Short: `<id>.md` (script, voice text, shot list, publish copy) and `<id>-flow.md` (paste-ready Google Flow prompts: mode and attachments above each box, then ONE single-paragraph prompt per shot covering purpose, reference roles, subject, action or spoken line, camera, style, audio and the character lock; owner rule: one prompt per shot, no section labels), plus `prompts/LIBRARY.md`.
 - Flow prompt craft follows the `video-prompt-director` rules (positive states, one primary change with an end state, references reinforced in words, audio as its own sentence), written as one continuous paragraph per shot.
-- Update `shorts/SCHEDULE.md` (default 18:00 IST, 2-3 a week), `shorts/<slug>/CREDITS.md`, `tracker/videos.csv`. New owner decisions go in `config/decisions.md`.
+- Update `shorts/SCHEDULE.md` (default 18:00 IST, 2-3 a week), `shorts/<slug>/CREDITS.md`, `tracker/videos.csv`. New owner decisions go in `studio/DECISIONS.md` and `studio/PLAYBOOK.md`. Never rebuild or edit a Short marked `"published"`.
 - When the owner reports a better prompt or a new reference image: update the library (version + changelog) and rebuild. The library always holds the latest best prompt.
 
 ## 5. After Gate 1: production (see `shorts/WORKFLOW.md`)

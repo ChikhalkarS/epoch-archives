@@ -1,4 +1,6 @@
-# Decision log
+# Decision log (frozen 2026-11-28)
+
+> History only. New decisions go in `studio/DECISIONS.md`; the current rules are in `studio/PLAYBOOK.md`.
 
 Owner decisions, newest last. Claude reads this before every stage. Change a decision by adding a new line, not by deleting old ones.
 

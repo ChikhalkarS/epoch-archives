@@ -40,6 +40,8 @@ Newest at the bottom. The file named in each row has the detail. Claude reads th
 
 | 34 | 2026-11-28 | Drop "असली सीन". Shorts are आर्काइव फ़ाइल्स files: फ़ाइल 001 = Mumbai Short 1 (the only upload so far), फ़ाइल 002 = Akola Short 1 (next), Mumbai Shorts 2-3 = 003-004. |
 
+| 35 | 2026-11-28 | `studio/PLAYBOOK.md` is the single living rulebook (brand, values, video/audio formats, language, gates); updated with every decision. Published Shorts are frozen (Mumbai Short 1 = फ़ाइल 001, unchanged). `config/decisions.md` frozen as history. |
+
 ## Open (waiting for the owner)
 - **One brand name everywhere** (channel name, description, banner, spoken welcome): Wolfy Files or Bhediya Files.
 - Gate 1 approval of the Bhopal long-video script (`episodes/ep01-bhopal-jheel/script_hi.md`).

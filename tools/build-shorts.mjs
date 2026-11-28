@@ -307,7 +307,9 @@ function renderLibrary() {
   fs.writeFileSync(path.join(root, 'prompts/LIBRARY.md'), L.join('\n'));
 }
 
-const results = data.shorts.map(renderShort);
+// Published Shorts are frozen: their files stay exactly as uploaded ("published": true in shorts.json).
+for (const sh of data.shorts.filter((x) => x.published)) console.log(`${sh.id}: published (${sh.published}), files frozen, not rebuilt`);
+const results = data.shorts.filter((x) => !x.published).map(renderShort);
 const usage = {};
 for (const res of results) for (const [k, u] of res.uses) (usage[k] ||= []).push(u);
 renderCharacters(usage);

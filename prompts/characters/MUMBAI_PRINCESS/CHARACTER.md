@@ -54,4 +54,4 @@ TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp
 ```
 
 ## Used in (mumbai)
-- short1-s06 (WS eye, still)
+- not used in this city

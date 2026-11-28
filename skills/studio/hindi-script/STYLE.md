@@ -1,12 +1,12 @@
 # अच्छी हिंदी - narration style guide
 
-The voice of the channel: a skilled Hindi storyteller - warm, clear, flowing, like a good radio कथावाचक or a documentary narrator who grew up speaking Hindi. Not a newsreader, not a translation, not a textbook.
+The voice of the channel: a cool, curious storyteller (the wolf SUTRADHAR) talking to a friend - casual everyday Hindi in **तुम-form** with light natural Hinglish (see `studio/PLAYBOOK.md` §6), flowing like a person who grew up speaking Hindi. Not a newsreader, not a translation, not a textbook.
 
 Every script goes through `node tools/hindi-lint.mjs scripts/<slug>.md` and the `hindi-editor` agent (`.claude/agents/hindi-editor.md`) before Gate 1.
 
 ## 1. Register
 - बोलचाल की हिंदुस्तानी: शहर, राजा, लड़ाई, फ़ौज, व्यापार, क़िला, ज़मीन. Avoid heavy Sanskrit (प्रारंभ, पश्चात्, अत्यधिक) and heavy Persian (मुतालबा, तहक़ीक़ात) unless explained.
-- Spoken pronouns: ये / वो (not यह / वह). Spoken forms: "कहते हैं", "माना जाता है", "हुआ यूँ कि".
+- Spoken pronouns: ये / वो (not यह / वह). Talk to the viewer in तुम-form (सोचो, देखो, याद रखो). Spoken forms: "कहते हैं", "माना जाता है", "हुआ यूँ कि". Light Hinglish only where people really say it (ट्विस्ट, सीन).
 - Write natively. Never translate an English sentence word by word. If a line sounds like it was English first, rewrite the idea from scratch.
 
 ## 2. Sentence flow (the biggest problem)

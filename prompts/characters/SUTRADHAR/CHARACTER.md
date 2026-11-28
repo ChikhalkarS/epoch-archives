@@ -68,14 +68,6 @@ High contrast, bold and readable at small sizes. No text, no letters, no waterma
 ```
 
 ## Used in (mumbai)
-- short1-s03 (WS low, clip)
-- short1-s04 (MCU low, clip)
-- short1-s12 (CU eye, clip)
-- short1-s16 (MCU low, clip)
-- short1-s19 (MS high, clip)
-- short1-s20 (CU low, clip)
-- short1-s21 (MS eye, clip)
-- short1-s22 (CU low, clip)
 - short2-s03 (WS low, clip)
 - short2-s04 (MCU low, clip)
 - short2-s07 (MCU low, clip)

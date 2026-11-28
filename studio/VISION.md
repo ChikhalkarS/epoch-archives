@@ -1,5 +1,7 @@
 # Vision and brand (owner-approved 2026-11-27)
 
+> 2026-11-28: "असली सीन" is dropped as a format/title/line name; current rules (intro, outro, titles) are in `studio/PLAYBOOK.md`, which wins over this page.
+
 ## Positioning
 **World history in Hindi, told like a mystery.** Cities first, then wars, leaders and strategy, history in numbers, and empires. For Hindi-speaking audiences in India and worldwide, with a Gen Z tone and a premium noir look. Every claim is sourced.
 

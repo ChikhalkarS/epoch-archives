@@ -1,7 +1,7 @@
 # Status and plan (read this first in every new session)
 
 **Last updated:** 2026-11-28 · **Next review:** start of the next session
-Rules: decisions live in `studio/DECISIONS.md`; brand and roadmap in `studio/VISION.md`. Update this file at the end of every working session: what was done (dated), and move the plan forward.
+Rules: the current rulebook is `studio/PLAYBOOK.md`; decisions live in `studio/DECISIONS.md`; brand and roadmap in `studio/VISION.md`. Update this file at the end of every working session: what was done (dated), and move the plan forward.
 
 ## Where we are (as of 2026-11-27)
 | Area | Status |

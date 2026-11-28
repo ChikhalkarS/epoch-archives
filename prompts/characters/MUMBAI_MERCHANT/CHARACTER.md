@@ -54,4 +54,4 @@ TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp
 ```
 
 ## Used in (mumbai)
-- short1-s15 (MS ots, clip)
+- not used in this city
