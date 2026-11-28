@@ -2,7 +2,7 @@
 
 **This page is the current rulebook. Read it before any work. If an older file says something different, this page wins.**
 Every new owner decision: add a dated row to `studio/DECISIONS.md` **and** update the matching section here in the same commit.
-Last updated: 2026-11-28 (decisions 30-36).
+Last updated: 2026-11-28 (decisions 30-37).
 
 ## 1. Brand
 | Item | Rule |
@@ -23,7 +23,7 @@ Last updated: 2026-11-28 (decisions 30-36).
 
 ## 3. Video formats
 **Shorts / Reels (current focus)**
-- 9:16, 1080x1920, about 60-75 s, **150-175 spoken words**, one narration line = one shot (1-18 words), about 15 Flow clips + stills.
+- 9:16, 1080x1920, about 60-65 s after the 1.2x voice speed-up, **150-175 spoken words**, one narration line = one shot (1-18 words), about 15 Flow clips + stills.
 - Fixed order: **Hook** (0-3 s, never the welcome) → **Intro**: "स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर <N>।" + "आज की कहानी, <city> की।" → **Story** (a turn every few lines, "लेकिन ट्विस्ट तो यहाँ है।") → **Viewer line** (40-60%) → **Payoff** → **Comment question** + "कमेंट में लिखो" → **Outro**: "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो करो।" + "और कमेंट में बताओ, अगली कहानी किस शहर की हो?" (तुम-form, owner 2026-11-28). No next-city teaser.
 - SUTRADHAR on intro, twist cut-ins, viewer line, comment ask and outro (shot bank, never the same template twice in a row). Story shots show people as people.
 - Post at **18:00 IST**, order in `shorts/SCHEDULE.md`. Upload as "not made for kids".
@@ -41,6 +41,7 @@ Last updated: 2026-11-28 (decisions 30-36).
 | Layer | Rule |
 |---|---|
 | Narration | **ElevenLabs v3, voice "Viraj"**, stability Natural, speed 1.1-1.15, old-radio filter. Owner generates it from `<id>-voice.txt` as one take, one line per line. **Voice first**, then shots |
+| Speed | The take is sped up **1.2x** before timing (`atempo=1.2`, pitch kept; 1x take kept as `voice.1x.mp3`). Pace about 4.2 words/s; a 170-word Short lands near 60-65 s |
 | Timing | `tools/time-voice.mjs` measures each line; the Flow pack uses the measured seconds |
 | Lip-sync | When SUTRADHAR's face is on screen saying his line, Flow gets the exact line; assembly mutes Flow's voice and retimes the clip to the ElevenLabs line |
 | Mix | Voice full, Flow ambience 20%, royalty-free music 12%, master -14 LUFS |

@@ -44,6 +44,8 @@ Newest at the bottom. The file named in each row has the detail. Claude reads th
 
 | 36 | 2026-11-28 | Outro switched to तुम-form: "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो करो।" + "और कमेंट में बताओ, अगली कहानी किस शहर की हो?". Gate 1 APPROVED for Akola Short 1 (फ़ाइल 002). |
 
+| 37 | 2026-11-28 | Voice speed: every ElevenLabs take is sped up 1.2x (pitch kept) before timing and assembly. Akola फ़ाइल 002: 75.3 s → 62.8 s. |
+
 ## Open (waiting for the owner)
 - **One brand name everywhere** (channel name, description, banner, spoken welcome): Wolfy Files or Bhediya Files.
 - Gate 1 approval of the Bhopal long-video script (`episodes/ep01-bhopal-jheel/script_hi.md`).

@@ -1,6 +1,6 @@
 # आर्काइव फ़ाइल्स - एपिसोड 2: शिवलिंग में समा गई रानी
 <!-- Built by tools/build-shorts.mjs from shorts/akola/shorts.json + prompts/library.json v9. Edit those, not this file. -->
-City: अकोला | Format: 9:16, 1080x1920 | Words: 169 | measured voice: 75.34 s | Shots: 20 (12 clips, 8 stills) | Status: waiting on Gate 1
+City: अकोला | Format: 9:16, 1080x1920 | Words: 169 | measured voice: 62.77 s | Shots: 20 (12 clips, 8 stills) | Status: waiting on Gate 1
 
 **Twist:** राजा को शक था, पर रानी आधी रात शिव पूजा करने जाती थी  
 **Outro:** ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो करो। / और कमेंट में बताओ, अगली कहानी किस शहर की हो?  
@@ -44,26 +44,26 @@ Full close-up and sheet prompts: `prompts/LIBRARY.md`. Save the chosen images at
 ## Shot list (one line = one shot)
 | # | Role | Line | Size / angle | Type | Sec (measured) | On screen | Facts |
 |---|---|---|---|---|---|---|---|
-| 1 | hook | कहते हैं, अकोला की एक रानी शिवलिंग में समा गई थी। | EWS / high | clip | 5.57 | शिवलिंग में समा गई रानी? | F5 |
-| 2 | brand | स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर दो। | WS / low | clip (walk_in v4), speaks | 4.1 | आर्काइव फ़ाइल्स · फ़ाइल 002 | - |
-| 3 | brand | आज की कहानी, अकोला की। | MCU / low | clip (scroll_reveal v4), speaks | 3.12 | आज: अकोला | - |
-| 4 | story | लोक-कथा कहती है, यहाँ अकोलसिंह नाम का एक राजा था। | MS / eye | still | 4.5 | लोक-कथा: राजा अकोलसिंह | F4 |
-| 5 | story | उसी के नाम पर इस जगह का नाम पड़ा, अकोला। | EWS / high | still | 4.08 | अकोला | F4 |
-| 6 | story | उसकी रानी हर आधी रात कहीं चली जाती थी। | WS / eye | clip | 3.55 | आधी रात... | F5 |
-| 7 | story | राजा को शक हुआ। | CU / low | still | 1.74 | शक 🤨 | F5 |
-| 8 | story | एक रात, वो तलवार लेकर, उसके पीछे-पीछे निकल पड़ा। | MS / ots | clip | 4.22 | पीछा... | F5 |
-| 9 | twist | लेकिन ट्विस्ट तो यहाँ है। | CU / eye | clip (cut_in_finger v4), speaks | 2.01 | ट्विस्ट ⚡ | - |
-| 10 | story | रानी किसी से मिलने नहीं जा रही थी। | MCU / high | still | 2.67 | कोई नहीं था | F5 |
-| 11 | story | वो राजेश्वर शिव मंदिर में पूजा करने जाती थी। | WS / eye | clip | 4.2 | राजेश्वर शिव मंदिर 🙏 | F5 |
-| 12 | interaction | सोचो, उस पल राजा को कैसा लगा होगा? | MCU / low | clip (lean_in_question v4), speaks | 4.01 | सोचो... 🤔 | - |
-| 13 | story | रानी ने भगवान शिव से प्रार्थना की। | WS / profile | still | 3.13 | प्रार्थना | F5 |
-| 14 | story | “अगर मैं निर्दोष हूँ, तो मुझे अपने में समा लो।” | CU / eye | still | 4.79 | “मुझे अपने में समा लो” | F5 |
-| 15 | payoff | और कहते हैं, रानी शिवलिंग में समा गई। | WS / high | clip | 3.63 | लोक-कथा | F5 |
-| 16 | payoff | आज भी लोग शिवलिंग की एक दरार को इसी कहानी से जोड़ते हैं। | ECU / eye | still | 5.02 | आज भी... | F5 |
-| 17 | story | पर याद रखो, ये इतिहास नहीं, लोक-कथा है। | MS / top | still | 4.41 | इतिहास ❌ लोक-कथा ✅ | F5 |
-| 18 | comment | सच या सिर्फ़ कहानी? कमेंट में लिखो। | CU / low | clip (point_at_viewer v4), speaks | 4.48 | सच या कहानी? 👇 | - |
-| 19 | follow | ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो करो। | MS / eye | clip (map_present v1), speaks | 3.39 | फ़ॉलो करें ➕ | - |
-| 20 | follow | और कमेंट में बताओ, अगली कहानी किस शहर की हो? | CU / low | clip (sign_off v1), speaks | 2.7 | अगला शहर कौन सा? 👇 | - |
+| 1 | hook | कहते हैं, अकोला की एक रानी शिवलिंग में समा गई थी। | EWS / high | clip | 4.62 | शिवलिंग में समा गई रानी? | F5 |
+| 2 | brand | स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर दो। | WS / low | clip (walk_in v4), speaks | 3.41 | आर्काइव फ़ाइल्स · फ़ाइल 002 | - |
+| 3 | brand | आज की कहानी, अकोला की। | MCU / low | clip (scroll_reveal v4), speaks | 2.6 | आज: अकोला | - |
+| 4 | story | लोक-कथा कहती है, यहाँ अकोलसिंह नाम का एक राजा था। | MS / eye | still | 3.75 | लोक-कथा: राजा अकोलसिंह | F4 |
+| 5 | story | उसी के नाम पर इस जगह का नाम पड़ा, अकोला। | EWS / high | still | 3.41 | अकोला | F4 |
+| 6 | story | उसकी रानी हर आधी रात कहीं चली जाती थी। | WS / eye | clip | 2.97 | आधी रात... | F5 |
+| 7 | story | राजा को शक हुआ। | CU / low | still | 1.45 | शक 🤨 | F5 |
+| 8 | story | एक रात, वो तलवार लेकर, उसके पीछे-पीछे निकल पड़ा। | MS / ots | clip | 3.51 | पीछा... | F5 |
+| 9 | twist | लेकिन ट्विस्ट तो यहाँ है। | CU / eye | clip (cut_in_finger v4), speaks | 1.68 | ट्विस्ट ⚡ | - |
+| 10 | story | रानी किसी से मिलने नहीं जा रही थी। | MCU / high | still | 2.21 | कोई नहीं था | F5 |
+| 11 | story | वो राजेश्वर शिव मंदिर में पूजा करने जाती थी। | WS / eye | clip | 3.5 | राजेश्वर शिव मंदिर 🙏 | F5 |
+| 12 | interaction | सोचो, उस पल राजा को कैसा लगा होगा? | MCU / low | clip (lean_in_question v4), speaks | 3.35 | सोचो... 🤔 | - |
+| 13 | story | रानी ने भगवान शिव से प्रार्थना की। | WS / profile | still | 2.61 | प्रार्थना | F5 |
+| 14 | story | “अगर मैं निर्दोष हूँ, तो मुझे अपने में समा लो।” | CU / eye | still | 3.99 | “मुझे अपने में समा लो” | F5 |
+| 15 | payoff | और कहते हैं, रानी शिवलिंग में समा गई। | WS / high | clip | 3.02 | लोक-कथा | F5 |
+| 16 | payoff | आज भी लोग शिवलिंग की एक दरार को इसी कहानी से जोड़ते हैं। | ECU / eye | still | 4.19 | आज भी... | F5 |
+| 17 | story | पर याद रखो, ये इतिहास नहीं, लोक-कथा है। | MS / top | still | 3.67 | इतिहास ❌ लोक-कथा ✅ | F5 |
+| 18 | comment | सच या सिर्फ़ कहानी? कमेंट में लिखो। | CU / low | clip (point_at_viewer v4), speaks | 3.74 | सच या कहानी? 👇 | - |
+| 19 | follow | ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो करो। | MS / eye | clip (map_present v1), speaks | 2.83 | फ़ॉलो करें ➕ | - |
+| 20 | follow | और कमेंट में बताओ, अगली कहानी किस शहर की हो? | CU / low | clip (sign_off v1), speaks | 2.26 | अगला शहर कौन सा? 👇 | - |
 
 ## Shot prompts
 Negative prompt (if supported): `photorealistic, real photograph, 3D render, CGI, claymation, plasticine, painterly oil texture, glossy highlights, realistic skin texture, wrinkles and pores, anime, chibi, watercolor wash, blurry lines, text, letters, words, names, watermark, logo, extra fingers, extra limbs, distorted faces, gore, blood`
