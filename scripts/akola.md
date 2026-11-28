@@ -87,7 +87,7 @@ Fact IDs in [brackets] point to `research/akola/sources.md`. They are removed be
 और कहते हैं, रानी शिवलिंग में समा गई। [F5]
 आज भी लोग, शिवलिंग की एक दरार को, इसी कहानी से जोड़ते हैं। [F5]
 ये इतिहास नहीं, लोक-कथा है। आपके शहर की ऐसी कोई लोक-कथा? कमेंट में लिखिए।
-**End card:** अकोला की पूरी कहानी, हमारे चैनल पर।
+**End card (on screen only, not voiced):** अकोला की पूरी कहानी, हमारे चैनल पर।
 On-screen hook text: "शिवलिंग में समा गई रानी?" · Label in first 3 s: "लोक-कथा"
 
 ## Flags for owner
