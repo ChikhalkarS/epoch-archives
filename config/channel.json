@@ -94,7 +94,7 @@
     "target": "1000 subs + 8000 long-form watch hours within 12 months of EP1; stretch: in YPP before 2027-02-01"
   },
   "shorts_template": {
-    "status": "DEFAULT for every Short/Reel (owner 2026-11-28, v4: आर्काइव फ़ाइल्स + file number replaces असली सीन)",
+    "status": "DEFAULT for every Short/Reel (owner 2026-11-28, v5: आर्काइव फ़ाइल्स + file number; तुम-form outro)",
     "length": "about 60-75 s (owner accepted 71-73 s on 2026-11-27): 150-175 spoken words, ElevenLabs speed 1.1-1.15",
     "order": [
       "1. HOOK (0-3 s): shock line or question, 5-12 words",
@@ -106,7 +106,7 @@
       "7. OUTRO (owner 2026-11-27): two lines, always the same: follow_line, then city_ask_line. No next-story/next-city teaser"
     ],
     "intro_line": "स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर {file_no}। आज की कहानी, {city} की।",
-    "follow_line": "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।",
+    "follow_line": "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो करो।",
     "mid_interaction_examples": [
       "सोचिए, आप राजा होते, तो क्या करते?",
       "अगर आप {city} से हैं, तो अपना इलाक़ा कमेंट में लिखिए।",
@@ -135,9 +135,9 @@
     "prompts": "All prompts come from prompts/library.json; build files with: node tools/build-shorts.mjs <slug>",
     "shots": "one narration line = one shot; narrator_shots bank for the wolf's lines; people as people in story lines",
     "max_seconds": 75,
-    "follow_tts": "ऐसी ही अनसुनी कहानियों के लिए... फ़ॉलो कीजिए।",
-    "city_ask_line": "और कमेंट में बताइए, अगली कहानी किस शहर की हो?",
-    "city_ask_tts": "और कमेंट में बताइए... अगली कहानी किस शहर की हो?",
+    "follow_tts": "ऐसी ही अनसुनी कहानियों के लिए... फ़ॉलो करो।",
+    "city_ask_line": "और कमेंट में बताओ, अगली कहानी किस शहर की हो?",
+    "city_ask_tts": "और कमेंट में बताओ... अगली कहानी किस शहर की हो?",
     "file_numbers": {
       "1": "एक",
       "2": "दो",

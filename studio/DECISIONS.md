@@ -42,6 +42,8 @@ Newest at the bottom. The file named in each row has the detail. Claude reads th
 
 | 35 | 2026-11-28 | `studio/PLAYBOOK.md` is the single living rulebook (brand, values, video/audio formats, language, gates); updated with every decision. Published Shorts are frozen (Mumbai Short 1 = फ़ाइल 001, unchanged). `config/decisions.md` frozen as history. |
 
+| 36 | 2026-11-28 | Outro switched to तुम-form: "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो करो।" + "और कमेंट में बताओ, अगली कहानी किस शहर की हो?". Gate 1 APPROVED for Akola Short 1 (फ़ाइल 002). |
+
 ## Open (waiting for the owner)
 - **One brand name everywhere** (channel name, description, banner, spoken welcome): Wolfy Files or Bhediya Files.
 - Gate 1 approval of the Bhopal long-video script (`episodes/ep01-bhopal-jheel/script_hi.md`).

@@ -2,7 +2,7 @@
 
 **This page is the current rulebook. Read it before any work. If an older file says something different, this page wins.**
 Every new owner decision: add a dated row to `studio/DECISIONS.md` **and** update the matching section here in the same commit.
-Last updated: 2026-11-28 (decisions 30-35).
+Last updated: 2026-11-28 (decisions 30-36).
 
 ## 1. Brand
 | Item | Rule |
@@ -24,7 +24,7 @@ Last updated: 2026-11-28 (decisions 30-35).
 ## 3. Video formats
 **Shorts / Reels (current focus)**
 - 9:16, 1080x1920, about 60-75 s, **150-175 spoken words**, one narration line = one shot (1-18 words), about 15 Flow clips + stills.
-- Fixed order: **Hook** (0-3 s, never the welcome) → **Intro**: "स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर <N>।" + "आज की कहानी, <city> की।" → **Story** (a turn every few lines, "लेकिन ट्विस्ट तो यहाँ है।") → **Viewer line** (40-60%) → **Payoff** → **Comment question** + "कमेंट में लिखो" → **Outro**: "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।" + "और कमेंट में बताइए, अगली कहानी किस शहर की हो?" (form under review, see Open). No next-city teaser.
+- Fixed order: **Hook** (0-3 s, never the welcome) → **Intro**: "स्वागत है आर्काइव फ़ाइल्स में, ये है फ़ाइल नंबर <N>।" + "आज की कहानी, <city> की।" → **Story** (a turn every few lines, "लेकिन ट्विस्ट तो यहाँ है।") → **Viewer line** (40-60%) → **Payoff** → **Comment question** + "कमेंट में लिखो" → **Outro**: "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो करो।" + "और कमेंट में बताओ, अगली कहानी किस शहर की हो?" (तुम-form, owner 2026-11-28). No next-city teaser.
 - SUTRADHAR on intro, twist cut-ins, viewer line, comment ask and outro (shot bank, never the same template twice in a row). Story shots show people as people.
 - Post at **18:00 IST**, order in `shorts/SCHEDULE.md`. Upload as "not made for kids".
 - Built with `/make-short <city>` → `shorts/<city>/`.
@@ -72,10 +72,9 @@ Last updated: 2026-11-28 (decisions 30-35).
 | File | Video | Date | Notes |
 |---|---|---|---|
 | 001 | Mumbai Short 1 "दहेज में मिला शहर" | 2026-11-28 | Old "असली सीन" intro; frozen |
-| 002 | Akola Short 1 "शिवलिंग में समा गई रानी" | next | Gate 1 pending |
+| 002 | Akola Short 1 "शिवलिंग में समा गई रानी" | next | Gate 1 approved 2026-11-28; waiting on voice + Flow |
 
 ## 11. Open (owner to decide)
-- Outro form: keep "फ़ॉलो कीजिए / बताइए" or switch to तुम-form "फ़ॉलो करो / बताओ" to match the story lines.
 - One brand name everywhere (channel name, banner, description vs spoken आर्काइव फ़ाइल्स).
 - ElevenLabs paid plan (or another voice) before monetising.
 - Style key image and character sheets (AKOLA_RANI, AKOLA_RAJA) to generate and approve in Flow.
