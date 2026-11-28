@@ -1,5 +1,5 @@
 # Akola - अमेरिका की लड़ाई और अकोला का कपास
-Runtime estimate: ~1.1 min | Words: 129 (Madhur at -5% ≈ 119 words/min) | Next city: hampi (Mumbai already uploaded - outro points back to it)
+Runtime estimate: ~10 min | Words: 1188 (Madhur at -5% ≈ 119 words/min) | Next city: hampi (Mumbai already uploaded - outro points back to it)
 Fact IDs in [brackets] point to `research/akola/sources.md`. They are removed before voiceover.
 
 ## Hook
