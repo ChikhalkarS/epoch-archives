@@ -58,6 +58,26 @@ Never buy credits, never publish or share from Flow. Clips stay on the Mac (asse
 At the end list: shots done, shots missing, generations used.
 ```
 
+## Credits plan: 4 Google accounts x 50 credits (2026-11-28)
+12 clips x 10 credits (Veo 3.1 Lite, 8 s) = 120, leaving ~80 for retakes. Use **Veo 3.1 Lite, 9:16, 1 output per prompt** in every account (same model = same look).
+| Account | Do | Clip credits | Spare |
+|---|---|---|---|
+| 1 | Prompt 2 (style key + 3 sheets) + all 8 stills (s04 s05 s07 s10 s13 s14 s16 s17) + clips s01 s06 | 20 | 30 (and any image cost) |
+| 2 | story clips s08 s11 s15 | 30 | 20 |
+| 3 | narrator clips s02 s03 s09 s12 | 40 | 10 |
+| 4 | narrator clips s18 s19 s20 | 30 | 20 |
+- Before each account: in Chrome, switch the Google account in Flow (top-right avatar), then paste Prompt 3b with that account's shot list. The style key and sheets are uploaded from the repo, so every account gets the same references.
+- Spend retakes on the narrator lip-sync shots and the vanishing shot (s15) first.
+- Check the cost Flow shows in the prompt box before the first generation; if it is not 10 for an 8 s Lite clip, stop and re-plan.
+- Check Google's Flow / generative AI terms on using several accounts; the accounts and what they make are your responsibility.
+
+## Prompt 3b - only some shots (one account)
+```
+Same as Prompt 3, but only these shots: <e.g. short1-s08, short1-s11, short1-s15>.
+Before starting, tell me which Google account Flow is signed in with and the credits it shows; wait for my OK.
+Limit: <e.g. 5> generations. Stop when the credits shown drop below 10.
+```
+
 ## Prompt 4 - preview for Gate 2
 ```
 Run: node tools/assemble-short.mjs akola short1-rani --preview
