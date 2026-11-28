@@ -1,6 +1,6 @@
 {
-  "library_version": 8,
-  "updated": "2026-11-27",
+  "library_version": 9,
+  "updated": "2026-11-28",
   "rule": "Single source of truth for every image/clip prompt. Always keep the latest best version here; bump the item's version and add a line to prompts/CHANGELOG.md. Episode files are built from this by tools/build-shorts.mjs.",
   "style": {
     "version": 4,
@@ -195,6 +195,74 @@
       "lock": "the Parsi lady always wears a white silk sari with a maroon embroidered border drawn over her head in the Parsi style, a long-sleeved white blouse, small gold earrings; kind dark-brown eyes with fine lines, black hair with some grey",
       "character_file": "prompts/characters/MUMBAI_LADY/CHARACTER.md",
       "display": "the Parsi lady"
+    },
+    "AKOLA_RANI": {
+      "version": 1,
+      "scope": "akola",
+      "name": "Queen (generic folk-tale queen of the Akola legend)",
+      "summary": "a young medieval central Indian queen from a folk tale",
+      "strokes": "sari folds and hair drawn with crisp flowing ink strokes",
+      "blocks": [
+        [
+          "EYES",
+          "large dark-brown almond eyes with long lashes, gentle arched black brows, calm devotional gaze."
+        ],
+        [
+          "SKIN AND HAIR",
+          "warm brown skin, a small round red bindi, a small gold nose ring; long black hair in a low braid under her veil."
+        ],
+        [
+          "EXPRESSION",
+          "serene and steady, lips softly closed, quiet courage."
+        ],
+        [
+          "CLOTHING",
+          "deep maroon silk sari with a thin gold border, its end draped over her head as a veil, gold bangles on both wrists, silver anklets, bare feet; carries a small brass oil lamp only in night walking shots."
+        ]
+      ],
+      "build": "BUILD: woman in her mid-twenties, slender, medium height, graceful upright posture.",
+      "scene_tag": "the queen (young woman, maroon silk sari with gold border draped over her head, small red bindi, gold nose ring, gold bangles)",
+      "notes": "Legend character, not a historical likeness. Always dignified and devotional.",
+      "reference_images": [
+        "prompts/characters/AKOLA_RANI/sheet.png"
+      ],
+      "lock": "the queen always wears a deep maroon silk sari with a thin gold border draped over her head as a veil, a small round red bindi, a small gold nose ring, gold bangles on both wrists",
+      "character_file": "prompts/characters/AKOLA_RANI/CHARACTER.md",
+      "display": "the queen"
+    },
+    "AKOLA_RAJA": {
+      "version": 1,
+      "scope": "akola",
+      "name": "King (generic folk-tale king Akolsingh of the Akola legend)",
+      "summary": "a medieval central Indian king from a folk tale",
+      "strokes": "moustache and turban folds drawn with crisp ink strokes",
+      "blocks": [
+        [
+          "EYES",
+          "dark narrow brown eyes under heavy black brows, suspicious sideways glance."
+        ],
+        [
+          "SKIN AND HAIR",
+          "wheat-brown skin, strong jaw, thick black upturned moustache, short black sideburns under the turban."
+        ],
+        [
+          "EXPRESSION",
+          "brooding and suspicious, jaw set, brows drawn together."
+        ],
+        [
+          "CLOTHING",
+          "saffron turban with a single pearl string and a small plume, long cream angarkha tied at the side, deep red waist sash, curved sword in a black scabbard at his left hip (always sheathed), brown leather mojaris."
+        ]
+      ],
+      "build": "BUILD: man in his mid-thirties, broad-shouldered, tall.",
+      "scene_tag": "the king (thick upturned black moustache, saffron turban with pearl string, cream angarkha, red sash, sheathed sword)",
+      "notes": "Legend character, not a historical likeness. His sword stays sheathed in every shot; never raised at the queen.",
+      "reference_images": [
+        "prompts/characters/AKOLA_RAJA/sheet.png"
+      ],
+      "lock": "the king always has a thick upturned black moustache, a saffron turban with a single pearl string, a long cream angarkha with a deep red sash, and a curved sword that stays sheathed in a black scabbard",
+      "character_file": "prompts/characters/AKOLA_RAJA/CHARACTER.md",
+      "display": "the king"
     }
   },
   "branding": {

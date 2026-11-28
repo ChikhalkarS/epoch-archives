@@ -19,3 +19,4 @@
 | 2026-11-27 | speech | 1 | Voice description, mouth line and voice-only audio line for speaking shots |
 | 2026-11-27 | style | 4 | Master style block first in every prompt + closing anchor; concrete rules for hands, skin and materials (owner saw style drift: painterly hand/wax); style key image attached to every shot |
 | 2026-11-27 | all characters | +1 | Prompts use display names (the wolf narrator, the king...) instead of IDs, after the ID was painted as text on a wall |
+| 2026-11-28 | AKOLA_RANI, AKOLA_RAJA | 1 | Generic folk-tale queen and king for the Akola Shorts (legend of Akolsingh); king's sword always sheathed |

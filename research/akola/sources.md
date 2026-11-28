@@ -38,7 +38,7 @@ Every fact in the script must point to an ID here.
 | F2 | Akola lies in Berar (Varhad), the western part of Vidarbha, a cotton-growing plain | S5, S6 | verified |
 | F3 | Name: one view derives it from Marathi "akol" = end/boundary | S1 (Khandekar 2000) | disputed |
 | F4 | Name: local tradition says it is named after a ruler Akolsingh, who built an earthen village fort (gadhi) | S1, S2, S20 | legend |
-| F5 | Akolsingh legend: his queen went every midnight to the Rajeshwar Shiva temple; he followed her in suspicion; she prayed and vanished into the lingam; a crack in the lingam is pointed to as proof | S2 | legend |
+| F5 | Akolsingh legend: his queen went every midnight to the Rajeshwar Shiva temple; suspicious, he followed her with a sword; she prayed and vanished into the lingam; a crack in the lingam is pointed to as proof | S2 | legend |
 | F6 | Rajrajeshwar temple is the city's gram-daivat (guardian deity temple) in the old city | S2, S20 | unverified (single web sources) |
 | F7 | Claim that the fort was built in 780 AD by Govind Appaji | S2 | unverified - S2 says its own inscriptions contradict it. Do not use |
 | F8 | Asad Khan, a minister (diwan/wazir) of Aurangzeb, rebuilt and strengthened Akola's fort; it was renamed Asadgad | S2, S20 | verified *(gaz)* |

@@ -20,7 +20,7 @@ Rules: decisions live in `studio/DECISIONS.md`; brand and roadmap in `studio/VIS
   - Repo cleanup (old Remotion engine, Delhi pilot removed).
   - Hindi quality kit: `skills/studio/hindi-script/STYLE.md`, `tools/hindi-lint.mjs`, `hindi-editor` agent; voice markup for the edge-tts fallback.
   - Chrome-driven Flow runs: `flow/CHROME-PROMPTS.md`.
-  - Akola: research (39 facts), long script (Gate 1 pending), Short 1 queen legend text approved (needs 2D noir / तुम-form rebuild).
+  - Akola: research (39 facts), long script (parked), Short 1 queen legend rebuilt with `/make-short akola` (ep 4, 167 words, 20 shots); characters AKOLA_RANI, AKOLA_RAJA added (library v9).
 - **2026-11-27:**
   - Remotion removed.
   - Quiet Wolf analysed (`analysis/quiet-wolf.md`).
@@ -40,7 +40,7 @@ Rules: decisions live in `studio/DECISIONS.md`; brand and roadmap in `studio/VIS
 ## Plan (dates are targets; move them forward if missed and note why)
 | By | Milestone | Owner / Claude |
 |---|---|---|
-| **2026-11-29** | Akola Short 1: rebuild with `/make-short akola` (2D noir, wolf, तुम-form, ElevenLabs text) from the approved queen-legend story | Claude |
+| **2026-11-29** | Akola Short 1 (ep 4): owner Gate 1 on `shorts/akola/short1-rani.md`, then ElevenLabs voice from `short1-rani-voice.txt`, `time-voice`, Flow (sheets for AKOLA_RANI, AKOLA_RAJA first) | Owner |
 | **2026-11-29** | Edit फ़ाइल 001: run `node tools/finish_short.mjs <folder>` on the Mac → `final-short.mp4`. Claude reviews it | Owner runs, Claude reviews |
 | **2026-11-29** | Voice decision: ElevenLabs (needs a paid plan to publish, ~$5/month, owner approval) vs Flow's voice | Owner |
 | 2026-11-30 | If ElevenLabs: regenerate the 11 clips in the silent version (mouth closed); final render | Claude prompts, owner generates |

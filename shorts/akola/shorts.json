@@ -1,0 +1,325 @@
+{
+  "slug": "akola",
+  "city": "अकोला",
+  "next_city": "",
+  "format_rule": "One narration line = one shot. Narrator (SUTRADHAR, the wolf) shots come from prompts/library.json narrator_shots; story shots show people.",
+  "shorts": [
+    {
+      "id": "short1-rani",
+      "episode": 4,
+      "title": "शिवलिंग में समा गई रानी",
+      "hook_onscreen": "शिवलिंग में समा गई रानी?",
+      "twist": "राजा को शक था, पर रानी आधी रात शिव पूजा करने जाती थी",
+      "teaser": "none (outro asks viewers to follow and name the next city)",
+      "note": "Approved story (owner Gate 1, 2026-11-28) rebuilt in 2D noir + wolf narrator + तुम-form. Legend throughout: 'कहते हैं' / 'लोक-कथा'. Respect: Shivling always whole; king's sword always sheathed.",
+      "shots": [
+        {
+          "role": "hook",
+          "vo": "कहते हैं, अकोला की एक रानी शिवलिंग में समा गई थी।",
+          "tts": "[mysterious] कहते हैं, अकोला की एक रानी... [whispers] शिवलिंग में समा गई थी।",
+          "facts": [
+            "F5"
+          ],
+          "size": "EWS",
+          "angle": "high",
+          "asset": "clip",
+          "prompt": "high above a dark moonlit courtyard at midnight, a small old stone Shiva shrine with carved sandstone pillars and a dark polished stone Shivling on its base in the centre, brass oil lamps glowing, its low doorway glowing warm gold in a dark moonlit courtyard, {AKOLA_RANI} seen from behind standing at the threshold",
+          "motion": "Slow push-in toward the glowing doorway. The lamp light swells softly around the queen's silhouette. End with the doorway glow filling the upper frame.",
+          "onscreen": "शिवलिंग में समा गई रानी?",
+          "goal": "Open on the mystery: a queen at a glowing shrine at midnight.",
+          "sfx": "night crickets, a soft rising temple-bell shimmer"
+        },
+        {
+          "role": "brand",
+          "vo": "@intro1",
+          "tts": "@intro1",
+          "facts": [],
+          "vars": {
+            "extra": "toward a reading table where an old palm-leaf folk-tale book lies open"
+          },
+          "onscreen": "असली सीन 🐺",
+          "narrator": "walk_in",
+          "goal": "Introduce the narrator walking in to greet the viewer.",
+          "sfx": "his footsteps on stone, quiet archive room tone"
+        },
+        {
+          "role": "brand",
+          "vo": "@intro2",
+          "tts": "@intro2",
+          "facts": [],
+          "vars": {
+            "topic_visual": "a tiny old stone Shiva shrine glowing at midnight beside a sleeping town of Akola"
+          },
+          "onscreen": "आज: अकोला",
+          "narrator": "scroll_reveal",
+          "goal": "The narrator presents today's city and story from his scroll.",
+          "sfx": "parchment unrolling, a faint shimmer as the shrine rises"
+        },
+        {
+          "role": "story",
+          "vo": "लोक-कथा कहती है, यहाँ अकोलसिंह नाम का एक राजा था।",
+          "tts": "[thoughtful] लोक-कथा कहती है... यहाँ अकोलसिंह नाम का एक राजा था।",
+          "facts": [
+            "F4"
+          ],
+          "size": "MS",
+          "angle": "eye",
+          "asset": "still",
+          "prompt": "{AKOLA_RAJA} standing on the mud rampart of a small walled medieval town at dusk, looking out over flat cotton fields and a river",
+          "motion": "Very slow push-in on the king. His turban's pearl string catches the last light. End on his face in profile.",
+          "onscreen": "लोक-कथा: राजा अकोलसिंह",
+          "goal": "Introduce the legendary king Akolsingh.",
+          "sfx": "evening wind over fields, distant cattle bells"
+        },
+        {
+          "role": "story",
+          "vo": "उसी के नाम पर इस जगह का नाम पड़ा, अकोला।",
+          "tts": "उसी के नाम पर इस जगह का नाम पड़ा... अकोला।",
+          "facts": [
+            "F4"
+          ],
+          "size": "EWS",
+          "angle": "high",
+          "asset": "still",
+          "prompt": "a small medieval town ringed by an earthen mud wall beside a river, little houses and a few lamp-lit windows, flat fields all around, dusk",
+          "motion": "Slow high drift over the town. Lamps flicker on in a few windows. End with the whole walled town in frame.",
+          "onscreen": "अकोला",
+          "goal": "Show the town said to carry his name.",
+          "sfx": "soft wind, faint town murmur"
+        },
+        {
+          "role": "story",
+          "vo": "उसकी रानी हर आधी रात कहीं चली जाती थी।",
+          "tts": "[whispers] उसकी रानी हर आधी रात... कहीं चली जाती थी।",
+          "facts": [
+            "F5"
+          ],
+          "size": "WS",
+          "angle": "eye",
+          "asset": "clip",
+          "prompt": "{AKOLA_RANI} walking alone down a sleeping moonlit lane of the old town, holding a small brass oil lamp, her veil over her head, long shadows on the walls",
+          "motion": "Slow tracking shot beside her as she walks past dark doorways. The lamp flame sways. End with her turning a corner into the dark.",
+          "onscreen": "आधी रात...",
+          "goal": "Show the queen's secret midnight walk.",
+          "sfx": "soft barefoot steps, anklets tinkling faintly, a dog far away"
+        },
+        {
+          "role": "story",
+          "vo": "राजा को शक हुआ।",
+          "tts": "[serious] राजा को शक हुआ।",
+          "facts": [
+            "F5"
+          ],
+          "size": "CU",
+          "angle": "low",
+          "asset": "still",
+          "prompt": "{AKOLA_RAJA} watching from a dark palace window, half his face in shadow, moonlight on his eyes",
+          "motion": "Very slow push-in on his narrowed eyes. End on the eyes.",
+          "onscreen": "शक 🤨",
+          "goal": "Show the king's suspicion.",
+          "sfx": "a single low drone, night silence"
+        },
+        {
+          "role": "story",
+          "vo": "एक रात, वो तलवार लेकर, उसके पीछे-पीछे निकल पड़ा।",
+          "tts": "[tense] एक रात, वो तलवार लेकर... उसके पीछे-पीछे निकल पड़ा।",
+          "facts": [
+            "F5"
+          ],
+          "size": "MS",
+          "angle": "ots",
+          "asset": "clip",
+          "prompt": "over the shoulder of {AKOLA_RAJA} in the shadow of a wall, his sword sheathed at his hip, watching {AKOLA_RANI} far ahead carrying her lamp toward a small glowing shrine",
+          "motion": "Slow creep forward behind the king; he steps out of the shadow, hand resting on the sheathed sword hilt. End with the queen entering the shrine ahead.",
+          "onscreen": "पीछा...",
+          "goal": "Show the king secretly following the queen.",
+          "sfx": "careful footsteps, cloth rustle, night crickets"
+        },
+        {
+          "role": "twist",
+          "vo": "लेकिन ट्विस्ट तो यहाँ है।",
+          "tts": "[intrigued] लेकिन... ट्विस्ट तो यहाँ है।",
+          "facts": [],
+          "vars": {},
+          "onscreen": "ट्विस्ट ⚡",
+          "narrator": "cut_in_finger",
+          "goal": "The narrator cuts in to flag the turn.",
+          "sfx": "a quick whoosh, a paper rustle"
+        },
+        {
+          "role": "story",
+          "vo": "रानी किसी से मिलने नहीं जा रही थी।",
+          "tts": "रानी किसी से मिलने नहीं जा रही थी।",
+          "facts": [
+            "F5"
+          ],
+          "size": "MCU",
+          "angle": "high",
+          "asset": "still",
+          "prompt": "inside a small old stone Shiva shrine with carved sandstone pillars and a dark polished stone Shivling on its base in the centre, brass oil lamps glowing, the empty shrine with only the Shivling, fresh flowers and lamps, no one waiting there, calm and reverent",
+          "motion": "Slow pan across the quiet shrine from the doorway to the Shivling. End on the Shivling, whole and calm.",
+          "onscreen": "कोई नहीं था",
+          "goal": "Reveal that no one was waiting for the queen.",
+          "sfx": "lamp flames flickering, deep quiet"
+        },
+        {
+          "role": "story",
+          "vo": "वो राजेश्वर शिव मंदिर में पूजा करने जाती थी।",
+          "tts": "वो राजेश्वर शिव मंदिर में... पूजा करने जाती थी।",
+          "facts": [
+            "F5"
+          ],
+          "size": "WS",
+          "angle": "eye",
+          "asset": "clip",
+          "prompt": "inside a small old stone Shiva shrine with carved sandstone pillars and a dark polished stone Shivling on its base in the centre, brass oil lamps glowing, {AKOLA_RANI} kneeling before the Shivling, placing flowers and her brass lamp on the floor in front of it, devotional and calm",
+          "motion": "Gentle slow dolly in from the doorway. She sets the lamp down and bows her head. End with her kneeling, lamp glow on her face.",
+          "onscreen": "राजेश्वर शिव मंदिर 🙏",
+          "goal": "Show the true purpose: she came to worship.",
+          "sfx": "a soft temple bell, lamp flame"
+        },
+        {
+          "role": "interaction",
+          "vo": "सोचो, उस पल राजा को कैसा लगा होगा?",
+          "tts": "[curious] सोचो... उस पल राजा को कैसा लगा होगा?",
+          "facts": [],
+          "vars": {
+            "context_visual": "the small glowing shrine in his open book",
+            "pose": "chin on his paw"
+          },
+          "onscreen": "सोचो... 🤔",
+          "narrator": "lean_in_question",
+          "goal": "Pull the viewer in with a question.",
+          "sfx": "a soft page turn, archive room tone"
+        },
+        {
+          "role": "story",
+          "vo": "रानी ने भगवान शिव से प्रार्थना की।",
+          "tts": "[softly] रानी ने भगवान शिव से प्रार्थना की।",
+          "facts": [
+            "F5"
+          ],
+          "size": "WS",
+          "angle": "profile",
+          "asset": "still",
+          "prompt": "inside a small old stone Shiva shrine with carved sandstone pillars and a dark polished stone Shivling on its base in the centre, brass oil lamps glowing, {AKOLA_RANI} with folded hands and closed eyes before the Shivling, lamp light on her face, the king's shadow just visible at the doorway behind her",
+          "motion": "Very slow push-in on her folded hands and face. End on her closed eyes.",
+          "onscreen": "प्रार्थना",
+          "goal": "Show the queen's prayer, with the king now watching.",
+          "sfx": "lamp flame, a faint breath"
+        },
+        {
+          "role": "story",
+          "vo": "“अगर मैं निर्दोष हूँ, तो मुझे अपने में समा लो।”",
+          "tts": "[pleading] अगर मैं निर्दोष हूँ... [whispers] तो मुझे अपने में समा लो।",
+          "facts": [
+            "F5"
+          ],
+          "size": "CU",
+          "angle": "eye",
+          "asset": "still",
+          "prompt": "close-up of {AKOLA_RANI}'s calm face with closed eyes, a single tear, lamp light flickering across her veil",
+          "motion": "Locked camera, the lamp light flickers across her face. End on her still, calm face.",
+          "onscreen": "“मुझे अपने में समा लो”",
+          "goal": "Give the queen's prayer its weight.",
+          "sfx": "a low hum, lamp flicker"
+        },
+        {
+          "role": "payoff",
+          "vo": "और कहते हैं, रानी शिवलिंग में समा गई।",
+          "tts": "[mysterious] और कहते हैं... रानी शिवलिंग में समा गई।",
+          "facts": [
+            "F5"
+          ],
+          "size": "WS",
+          "angle": "high",
+          "asset": "clip",
+          "prompt": "inside a small old stone Shiva shrine with carved sandstone pillars and a dark polished stone Shivling on its base in the centre, brass oil lamps glowing, soft warm golden light gently fills the whole shrine from the Shivling, {AKOLA_RANI} kneeling, her figure fading softly into the glow, the Shivling stays whole and serene, {AKOLA_RAJA} at the doorway lowering his eyes",
+          "motion": "Locked camera. The golden glow slowly rises until the queen's figure fades into it. End with the empty glowing shrine and the Shivling whole and calm.",
+          "onscreen": "लोक-कथा",
+          "goal": "The legend's climax, shown with reverence.",
+          "sfx": "a rising soft choir-like hum, a single temple bell, then silence"
+        },
+        {
+          "role": "payoff",
+          "vo": "आज भी लोग शिवलिंग की एक दरार को इसी कहानी से जोड़ते हैं।",
+          "tts": "आज भी लोग... शिवलिंग की एक दरार को इसी कहानी से जोड़ते हैं।",
+          "facts": [
+            "F5"
+          ],
+          "size": "ECU",
+          "angle": "eye",
+          "asset": "still",
+          "prompt": "extreme close-up of an old dark stone Shivling with one fine thin crack running down it, fresh marigold flowers and a small brass lamp beside it, morning light",
+          "motion": "Very slow push-in along the fine crack. End on the crack with the marigolds in soft focus.",
+          "onscreen": "आज भी...",
+          "goal": "Bring the legend to today: the crack people point to.",
+          "sfx": "morning birds, a soft bell far away"
+        },
+        {
+          "role": "story",
+          "vo": "पर याद रखो, ये इतिहास नहीं, लोक-कथा है।",
+          "tts": "पर याद रखो... ये इतिहास नहीं, लोक-कथा है।",
+          "facts": [
+            "F5"
+          ],
+          "size": "MS",
+          "angle": "top",
+          "asset": "still",
+          "prompt": "top-down view of an old open palm-leaf folk-tale book on a wooden archive table, a small painted picture of a shrine on its page, a brass lamp at the edge",
+          "motion": "Slow top-down rotation over the open book. End with the painted shrine centred.",
+          "onscreen": "इतिहास ❌ लोक-कथा ✅",
+          "goal": "Make the honest legend flag clear.",
+          "sfx": "a page settling, archive room tone"
+        },
+        {
+          "role": "comment",
+          "vo": "सच या सिर्फ़ कहानी? कमेंट में लिखो।",
+          "tts": "[curious] सच... या सिर्फ़ कहानी? [excited] कमेंट में लिखो।",
+          "facts": [],
+          "vars": {
+            "context_visual": "the glowing shrine page of his open book"
+          },
+          "onscreen": "सच या कहानी? 👇",
+          "narrator": "point_at_viewer",
+          "goal": "Ask for a one-word comment.",
+          "sfx": "a soft whoosh as he points"
+        },
+        {
+          "role": "follow",
+          "vo": "@follow",
+          "tts": "@follow",
+          "facts": [],
+          "vars": {
+            "map_note": "many small markers glowing on cities all across India, Akola among them in the centre"
+          },
+          "onscreen": "फ़ॉलो करें ➕",
+          "narrator": "map_present",
+          "goal": "Invite the viewer to follow for more untold city stories.",
+          "sfx": "markers chiming softly as they light up"
+        },
+        {
+          "role": "follow",
+          "vo": "@cityask",
+          "tts": "@cityask",
+          "facts": [],
+          "vars": {
+            "where": "the archive aisle"
+          },
+          "onscreen": "अगला शहर कौन सा? 👇",
+          "narrator": "sign_off",
+          "goal": "Ask viewers which city should come next, then sign off.",
+          "sfx": "lantern creak, footsteps fading into the aisle"
+        }
+      ],
+      "publish": {
+        "yt_titles": [
+          "शिवलिंग में समा गई रानी? 😳 | Akola Lok-Katha #shorts",
+          "अकोला की रहस्यमयी लोक-कथा 🙏 | Akola History #shorts"
+        ],
+        "yt_description": "अकोला की एक लोक-कथा: कहते हैं, राजा अकोलसिंह की रानी आधी रात राजेश्वर शिव मंदिर जाती थी, और एक रात शिवलिंग में समा गई। ये इतिहास नहीं, लोक-कथा है। असली सीन, एपिसोड 4.\nSources: Akola folklore as recorded in local accounts (see Akola Fort, Akola District Gazetteer references).\n#akola #vidarbha #shorts",
+        "ig_caption": "कहते हैं, अकोला की एक रानी... शिवलिंग में समा गई 🙏\nअसली सीन, एपिसोड 4 🐺\nये इतिहास नहीं, लोक-कथा है।\nतुम्हें क्या लगता है, सच या सिर्फ़ कहानी? और अगली कहानी किस शहर की हो? 👇\nऐसी ही अनसुनी कहानियों के लिए फ़ॉलो करो!\n\n#akola #vidarbha #maharashtra #lokkatha #historyinhindi #reels #asliscene"
+      }
+    }
+  ]
+}

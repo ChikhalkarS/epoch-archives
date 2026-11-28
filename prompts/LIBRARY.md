@@ -1,4 +1,4 @@
-# Prompt library (v8, 2026-11-27)
+# Prompt library (v9, 2026-11-28)
 
 <!-- Built from prompts/library.json by tools/build-shorts.mjs. Edit the JSON, not this file. -->
 
@@ -228,6 +228,78 @@ Role line for every later prompt:
 Image 1 defines the Parsi lady's face, hair and clothing. Do not use its grey background or panel layout.
 ```
 Save as: prompts/characters/MUMBAI_LADY/sheet.png
+
+### AKOLA_RANI (v1, akola)
+Queen (generic folk-tale queen of the Akola legend)
+Legend character, not a historical likeness. Always dignified and devotional.
+
+Step 1 - close-up (generate several, pick the best):
+```
+Ultra-detailed 2D digital cartoon portrait of AKOLA_RANI, a young medieval central Indian queen from a folk tale, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, sari folds and hair drawn with crisp flowing ink strokes.
+Chest-up framing, three-quarter view turned slightly toward camera, plain cool grey background, even soft studio light.
+EYES: large dark-brown almond eyes with long lashes, gentle arched black brows, calm devotional gaze.
+SKIN AND HAIR: warm brown skin, a small round red bindi, a small gold nose ring; long black hair in a low braid under her veil.
+EXPRESSION: serene and steady, lips softly closed, quiet courage.
+CLOTHING: deep maroon silk sari with a thin gold border, its end draped over her head as a veil, gold bangles on both wrists, silver anklets, bare feet; carries a small brass oil lamp only in night walking shots.
+TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution.
+BUILD: woman in her mid-twenties, slender, medium height, graceful upright posture.
+```
+Step 2 - three-panel sheet (attach the chosen close-up):
+```
+Character reference sheet of the same character as the reference image, 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, 16:9 landscape, three panels side by side on one seamless cool grey studio background, identical grey across all panels.
+Left panel (about 45% of width): bust-up portrait from the chest up, three-quarter view toward camera.
+Center panel: full body standing straight, front view, arms relaxed, feet visible, filling about 90% of panel height.
+Right panel: full body standing straight, rear view from directly behind, heels visible.
+Even studio light, identical face, hair and clothing in all three panels.
+IDENTITY:
+EYES: large dark-brown almond eyes with long lashes, gentle arched black brows, calm devotional gaze.
+SKIN AND HAIR: warm brown skin, a small round red bindi, a small gold nose ring; long black hair in a low braid under her veil.
+EXPRESSION: serene and steady, lips softly closed, quiet courage.
+CLOTHING: deep maroon silk sari with a thin gold border, its end draped over her head as a veil, gold bangles on both wrists, silver anklets, bare feet; carries a small brass oil lamp only in night walking shots.
+BUILD: woman in her mid-twenties, slender, medium height, graceful upright posture.
+TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution.
+```
+Role line for every later prompt:
+```
+Image 1 defines the queen's face, hair and clothing. Do not use its grey background or panel layout.
+```
+Save as: prompts/characters/AKOLA_RANI/sheet.png
+
+### AKOLA_RAJA (v1, akola)
+King (generic folk-tale king Akolsingh of the Akola legend)
+Legend character, not a historical likeness. His sword stays sheathed in every shot; never raised at the queen.
+
+Step 1 - close-up (generate several, pick the best):
+```
+Ultra-detailed 2D digital cartoon portrait of AKOLA_RAJA, a medieval central Indian king from a folk tale, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, moustache and turban folds drawn with crisp ink strokes.
+Chest-up framing, three-quarter view turned slightly toward camera, plain cool grey background, even soft studio light.
+EYES: dark narrow brown eyes under heavy black brows, suspicious sideways glance.
+SKIN AND HAIR: wheat-brown skin, strong jaw, thick black upturned moustache, short black sideburns under the turban.
+EXPRESSION: brooding and suspicious, jaw set, brows drawn together.
+CLOTHING: saffron turban with a single pearl string and a small plume, long cream angarkha tied at the side, deep red waist sash, curved sword in a black scabbard at his left hip (always sheathed), brown leather mojaris.
+TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution.
+BUILD: man in his mid-thirties, broad-shouldered, tall.
+```
+Step 2 - three-panel sheet (attach the chosen close-up):
+```
+Character reference sheet of the same character as the reference image, 2D digital cartoon, modern noir graphic-novel style, thick clean black outlines, smooth cel shading with soft gradient shadows, 16:9 landscape, three panels side by side on one seamless cool grey studio background, identical grey across all panels.
+Left panel (about 45% of width): bust-up portrait from the chest up, three-quarter view toward camera.
+Center panel: full body standing straight, front view, arms relaxed, feet visible, filling about 90% of panel height.
+Right panel: full body standing straight, rear view from directly behind, heels visible.
+Even studio light, identical face, hair and clothing in all three panels.
+IDENTITY:
+EYES: dark narrow brown eyes under heavy black brows, suspicious sideways glance.
+SKIN AND HAIR: wheat-brown skin, strong jaw, thick black upturned moustache, short black sideburns under the turban.
+EXPRESSION: brooding and suspicious, jaw set, brows drawn together.
+CLOTHING: saffron turban with a single pearl string and a small plume, long cream angarkha tied at the side, deep red waist sash, curved sword in a black scabbard at his left hip (always sheathed), brown leather mojaris.
+BUILD: man in his mid-thirties, broad-shouldered, tall.
+TECHNICAL: 2D cartoon illustration, cel colours with soft painted shading, sharp lines, high resolution.
+```
+Role line for every later prompt:
+```
+Image 1 defines the king's face, hair and clothing. Do not use its grey background or panel layout.
+```
+Save as: prompts/characters/AKOLA_RAJA/sheet.png
 
 ## Branding
 
