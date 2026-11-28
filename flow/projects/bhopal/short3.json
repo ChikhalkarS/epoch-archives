@@ -1,0 +1,97 @@
+{
+  "slug": "bhopal",
+  "pack": "short3",
+  "flow_project": "EAS bhopal",
+  "mode": "clip",
+  "aspect": "9:16",
+  "generations": 5,
+  "done": 0,
+  "ingredients_needed": [
+    "STY-clay",
+    "SET-bhopal-palace",
+    "SET-map-table",
+    "SET-bhopal-lake"
+  ],
+  "shots": [
+    {
+      "n": 1,
+      "scene": "s73",
+      "also": [
+        "x3",
+        "s73"
+      ],
+      "mode": "clip",
+      "aspect": "9:16",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a quiet princely palace in the foreground at dusk, while far in the distance a crowd celebrates with fireworks and tricolour flags, wide shot. Camera: slow gentle push-in. Stop-motion movement, slightly stepped. vertical 9:16 composition, subject centred for a phone screen. Ambient sound only, no speech, no music, no text, no letters, no watermark, no logos.",
+      "save": "assets/bhopal/clips/s73.v.mp4",
+      "done": false,
+      "vo": "पंद्रह अगस्त उन्नीस सौ सैंतालीस को, भोपाल भारत का हिस्सा नहीं था।"
+    },
+    {
+      "n": 2,
+      "scene": "s74",
+      "also": [],
+      "mode": "clip",
+      "aspect": "9:16",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, officials in 1940s suits and sherwanis signing a document at a wooden table in a palace office, ceiling fan, daylight, medium shot. Camera: slow pan to the right. Stop-motion movement, slightly stepped. vertical 9:16 composition, subject centred for a phone screen. Ambient sound only, no speech, no music, no text, no letters, no watermark, no logos.",
+      "save": "assets/bhopal/clips/s74.v.mp4",
+      "done": false,
+      "vo": "क़रीब दो साल बाद, तीस अप्रैल उन्नीस सौ उनचास को, विलय का समझौता हुआ।"
+    },
+    {
+      "n": 3,
+      "scene": "s75",
+      "also": [],
+      "mode": "clip",
+      "aspect": "9:16",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the Indian tricolour flag rising on a pole above a palace, a small crowd cheering below, clear morning sky, low angle. Camera: slow gentle pull-back. Stop-motion movement, slightly stepped. vertical 9:16 composition, subject centred for a phone screen. Ambient sound only, no speech, no music, no text, no letters, no watermark, no logos.",
+      "save": "assets/bhopal/clips/s75.v.mp4",
+      "done": false,
+      "vo": "और एक जून उन्नीस सौ उनचास को, भोपाल रियासत भारत सरकार के हाथ में आ गई।"
+    },
+    {
+      "n": 4,
+      "scene": "s76",
+      "also": [],
+      "mode": "clip",
+      "aspect": "9:16",
+      "ingredients": [
+        "STY-clay",
+        "SET-map-table"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a clay map of central India with a new state outlined in green and a golden star placed on its capital city, top-down view, soft light. Camera: slow pan to the left. Stop-motion movement, slightly stepped. vertical 9:16 composition, subject centred for a phone screen. Ambient sound only, no speech, no music, no text, no letters, no watermark, no logos.",
+      "save": "assets/bhopal/clips/s76.v.mp4",
+      "done": false,
+      "vo": "फिर उन्नीस सौ छप्पन में, नया राज्य बना, मध्य प्रदेश। और उसकी राजधानी बना, भोपाल।"
+    },
+    {
+      "n": 5,
+      "scene": "s19",
+      "also": [
+        "x9"
+      ],
+      "mode": "clip",
+      "aspect": "9:16",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a large lake beside a modern Indian city of small clay buildings and domes, little sailboats on the water, hills behind, golden hour, wide shot. Camera: slow gentle pull-back. Stop-motion movement, slightly stepped. vertical 9:16 composition, subject centred for a phone screen. Ambient sound only, no speech, no music, no text, no letters, no watermark, no logos.",
+      "save": "assets/bhopal/clips/s19.v.mp4",
+      "done": false,
+      "vo": "भोपाल की पूरी कहानी, हमारे चैनल पर।"
+    }
+  ]
+}

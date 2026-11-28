@@ -1,0 +1,84 @@
+{
+  "_rules": [
+    "One entry = one Flow ingredient (a reference image). Master image lives in flow/library/images/<id>.png; the repo is the source of truth, Flow is a copy.",
+    "id prefix: STY = look, CHR = character, SET = place/set, OBJ = prop. flow_name is what the ingredient is called inside Flow.",
+    "scope 'global' = every city uses it (upload to every Flow project). scope '<slug>' = only that city.",
+    "Flow allows at most 3 ingredients per generation. Packs always attach STY-clay first, then up to 2 matches (CHR before SET before OBJ).",
+    "match = lowercase phrases; if a scene prompt contains one, the ingredient is attached. A scene can override with \"ingredients\": [ids] in the storyboard.",
+    "Historical figures are generic era figures, never a real likeness. Names go on screen in the edit, not in the image."
+  ],
+  "ingredients": [
+    {
+      "id": "STY-clay",
+      "kind": "style",
+      "scope": "global",
+      "flow_name": "STY clay look",
+      "match": [],
+      "create_prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a small Indian clay town street with sandstone houses, a well, a banyan tree and two clay villagers, golden afternoon light, wide shot, cinematic 16:9 composition, no text, no letters, no watermark, no logos",
+      "notes": "The look anchor. Pick the candidate whose clay texture and palette you like most; every shot is matched to it."
+    },
+    {
+      "id": "CHR-sutradhar",
+      "kind": "character",
+      "scope": "global",
+      "flow_name": "CHR Sutradhar",
+      "match": ["sutradhar", "storyteller"],
+      "create_prompt": "Claymation stop-motion character sheet on a plain warm-grey background, three panels side by side: (1) bust-up front view, (2) full body front view, (3) full body rear view, same character in all three. The Sutradhar: a small elderly Indian clay storyteller, about 70, slight build, slightly stooped. Face: warm brown clay skin with soft fingerprint texture, deep smile lines, kind narrow eyes behind round thin brass-rimmed spectacles, thick white eyebrows. Hair: white, receding, short at the sides, full white beard trimmed to chest length. Outfit: off-white cotton kurta to the knees, plain white dhoti, a saffron-brown wool shawl draped over both shoulders with a thin maroon border, brown leather jootis, a rolled parchment scroll held in the right hand. Soft even studio light, matte plasticine, handcrafted miniature feel, no text, no letters, no watermark",
+      "notes": "Build with the character-consistency skill: generate, pick one, keep the same seed/candidate for every city. Appears in hook and outro only."
+    },
+    {
+      "id": "SET-map-table",
+      "kind": "set",
+      "scope": "global",
+      "flow_name": "SET clay map table",
+      "match": ["clay map", "relief map", "map of india", "map of central india"],
+      "create_prompt": "Claymation stop-motion style, a large clay relief map of India lying on an old dark wooden table, green plateaus, brown hills, blue resin rivers and coastline, small brass pins beside it, top-down view, soft warm studio light, matte plasticine, handcrafted miniature diorama, cinematic 16:9 composition, no text, no letters, no watermark, no labels",
+      "notes": "Used for 'where is this city' and political-change beats in every episode."
+    },
+    {
+      "id": "SET-scroll-desk",
+      "kind": "set",
+      "scope": "global",
+      "flow_name": "SET Sutradhar scroll desk",
+      "match": ["scroll on a wooden table", "unrolling a long scroll", "candle light, close-up"],
+      "create_prompt": "Claymation stop-motion style, a low wooden writing desk with a half-unrolled parchment scroll, a brass oil lamp and a candle, ink pot and reed pen, warm candle light in a dark room, close-up, matte plasticine, handcrafted miniature diorama, cinematic 16:9 composition, no text, no letters, no watermark",
+      "notes": "The Sutradhar's 'chapter' set. Reuse for transitions between eras."
+    },
+    {
+      "id": "CHR-begum",
+      "kind": "character",
+      "scope": "bhopal",
+      "flow_name": "CHR Begum ruler (generic)",
+      "match": ["woman ruler", "women rulers", "begum", "veiled women", "older woman ruler", "woman chancellor"],
+      "create_prompt": "Claymation stop-motion character sheet on a plain warm-grey background, three panels: bust-up front, full body front, full body rear, same character in all three. A generic 19th century central Indian woman ruler, dignified, upright posture, face partly hidden by a fine sheer veil, rich deep-green and gold brocade robe over loose trousers, a pearl necklace, embroidered slippers, matte plasticine, soft even studio light, no text, no watermark",
+      "notes": "Generic figure for the four Begums. Vary age with the prompt ('young', 'older'); never a portrait of a real person."
+    },
+    {
+      "id": "CHR-sultan-malwa",
+      "kind": "character",
+      "scope": "bhopal",
+      "flow_name": "CHR Malwa sultan (generic)",
+      "match": ["sultan"],
+      "create_prompt": "Claymation stop-motion character sheet on a plain warm-grey background, three panels: bust-up front, full body front, full body rear, same character in all three. A generic 15th century central Indian sultan, middle-aged, short dark beard, tall white turban with a ruby clasp, long indigo robe with a gold sash, curved sword at the waist, leather riding boots, matte plasticine, soft even studio light, no text, no watermark",
+      "notes": "Hoshang Shah beats. Generic, not a likeness."
+    },
+    {
+      "id": "SET-bhopal-lake",
+      "kind": "set",
+      "scope": "bhopal",
+      "flow_name": "SET Bhopal great lake",
+      "match": ["lake"],
+      "create_prompt": "Claymation stop-motion style, a vast clay diorama lake of shiny blue resin between low green felt hills, old stone and earth dams at its edge, a few tiny wooden boats, birds on wires, morning haze, wide high angle, matte plasticine, handcrafted miniature, cinematic 16:9 composition, no text, no watermark",
+      "notes": "Keeps the lake the same shape and colour across beats."
+    },
+    {
+      "id": "SET-bhopal-palace",
+      "kind": "set",
+      "scope": "bhopal",
+      "flow_name": "SET Bhopal palace",
+      "match": ["palace"],
+      "create_prompt": "Claymation stop-motion style, a 19th century central Indian palace diorama in cream and sandstone clay, arched verandas, domed pavilions, a courtyard with a fountain, warm evening light, wide shot, matte plasticine, handcrafted miniature, cinematic 16:9 composition, no text, no watermark",
+      "notes": "Courtyards, throne room, 1947-49 beats."
+    }
+  ]
+}

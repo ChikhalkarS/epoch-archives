@@ -35,6 +35,7 @@ Rules: one scene = one visual = 4 to 8 s of narration (about 12 to 25 Hindi word
 `node tools/voice.mjs <slug>`. Report total minutes. If outside 8-12 min, adjust the script with the owner, not silently.
 
 ## Stage 5 - Visuals -> status `visuals`
+Google Flow is the main tool. Add the city's ingredients to `flow/library/ingredients.json` (reuse global ones), then `node tools/flow-pack.mjs <slug> short1|long|stills` and hand the owner `flow/CHROME-PROMPTS.md` (A, B, C) to run in Claude Code with Chrome on the Mac. See `flow/README.md`.
 Images go to `assets/<slug>/images/<sceneId>.png`, clips to `assets/<slug>/clips/<sceneId>.mp4`. Write `assets/<slug>/PROMPTS.md`: one block per scene with the full prompt, ready to paste into the free tools in `config/style-guide.md`. If no image tool is reachable from the session, hand the owner PROMPTS.md and wait for files; render with placeholders meanwhile. Log every image/clip/music source and licence in `assets/<slug>/CREDITS.md`. Ask before anything that costs money.
 
 ## Stage 6 - Assembly -> status `rendered`

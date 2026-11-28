@@ -6,6 +6,7 @@
 // a slow camera move, else a warm placeholder card. Audio: assets/<slug>/voice/<id>.mp3.
 // Scenes with short_only: true (e.g. a Short's own hook) are left out of the long video.
 // Shorts: storyboard.shorts[] = { id, scenes: [ids], mode: 'blur' (framed, default) | 'fill' (centre-crop) }.
+// A native vertical clip assets/<slug>/clips/<id>.v.mp4 (from a Flow short pack) is used as-is in Shorts.
 import fs from 'node:fs';
 import { r, channel, loadStoryboard, run, duration, mkdirp, exists } from './lib.mjs';
 
@@ -14,7 +15,7 @@ if (!slug) { console.error('Usage: node tools/assemble.mjs <slug> [--preview] [-
 const preview = flags.includes('--preview');
 const cfg = channel();
 const sb = loadStoryboard(slug);
-const [W, H] = preview ? [960, 540] : [1920, 1080];
+const [LW, LH] = preview ? [960, 540] : [1920, 1080];
 const FPS = cfg.formats.long.fps;
 const PAD = cfg.style.scene_padding_seconds ?? 0.35;
 const enc = ['-c:v', 'libx264', '-preset', preview ? 'veryfast' : 'medium', '-crf', preview ? '28' : '20', '-pix_fmt', 'yuv420p', '-r', String(FPS)];
@@ -39,12 +40,14 @@ function motionExpr(m, N) {
   }
 }
 
-function renderScene(s) {
+function renderScene(s, vert = false) {
   const voice = A('voice', `${s.id}.mp3`);
   const dur = exists(voice) ? duration(voice) + PAD : (s.duration || 4);
-  const out = `${work}/${s.id}${preview ? '-p' : ''}.mp4`;
+  const out = `${work}/${s.id}${vert ? '-v' : ''}${preview ? '-p' : ''}.mp4`;
   const vid = s.reuse || s.id; // reuse: show another scene's image/clip with this scene's motion
-  const clip = findFile('clips', vid, ['mp4', 'mov', 'webm']);
+  const clip = vert ? findFile('clips', `${vid}.v`, ['mp4', 'mov', 'webm']) : findFile('clips', vid, ['mp4', 'mov', 'webm']);
+  if (vert && !clip) return null; // no native vertical clip: Short uses the 16:9 render, reframed
+  const [W, H] = vert ? (preview ? [540, 960] : [1080, 1920]) : [LW, LH];
   const img = findFile('images', vid, ['png', 'jpg', 'jpeg', 'webp']);
   const N = Math.ceil(dur * FPS);
   let vIn, vf, kind;
@@ -150,12 +153,17 @@ if (!flags.includes('--shorts-only')) {
 
 if (!flags.includes('--long-only')) {
   for (const sh of sb.shorts || []) {
-    const sel = sh.scenes.map((id) => parts.find((p) => p.id === id)).filter(Boolean);
+    // Per scene: native 9:16 Flow clip (clips/<id>.v.mp4) if present, else the 16:9 render reframed (blur|fill).
+    const sel = sh.scenes.map((id) => parts.find((p) => p.id === id)).filter(Boolean).map((p) => {
+      const v = renderScene(sb.scenes.find((s) => s.id === p.id), true);
+      if (v) return v;
+      const file = `${work}/${p.id}-r${sh.mode === 'fill' ? 'f' : 'b'}${preview ? '-p' : ''}.mp4`;
+      vertical(p.file, file, sh.mode);
+      return { ...p, file };
+    });
     if (!sel.length) continue;
-    const raw = `${work}/${sh.id}-raw.mp4`, out = `${outDir}/${slug}-${sh.id}${suffix}.mp4`;
-    concat(sel, raw);
-    vertical(raw, out, sh.mode);
-    fs.rmSync(raw);
+    const out = `${outDir}/${slug}-${sh.id}${suffix}.mp4`;
+    concat(sel, out);
     const d = duration(out);
     report.push(`SHORT ${out}  ${d.toFixed(1)}s`);
     const { min_seconds: lo, max_seconds: hi } = cfg.formats.short;

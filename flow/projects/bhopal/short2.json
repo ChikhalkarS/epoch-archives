@@ -1,0 +1,117 @@
+{
+  "slug": "bhopal",
+  "pack": "short2",
+  "flow_project": "EAS bhopal",
+  "mode": "clip",
+  "aspect": "9:16",
+  "generations": 6,
+  "done": 0,
+  "ingredients_needed": [
+    "STY-clay",
+    "CHR-begum",
+    "SET-bhopal-palace",
+    "SET-bhopal-lake"
+  ],
+  "shots": [
+    {
+      "n": 1,
+      "scene": "s04",
+      "also": [
+        "x2"
+      ],
+      "mode": "clip",
+      "aspect": "9:16",
+      "ingredients": [
+        "STY-clay",
+        "CHR-begum",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, four clay women rulers in 19th century Bhopal royal dress with veils, standing in a row in a palace courtyard, seen from behind, warm evening light, medium wide shot. Camera: slow pan to the left. Stop-motion movement, slightly stepped. vertical 9:16 composition, subject centred for a phone screen. Ambient sound only, no speech, no music, no text, no letters, no watermark, no logos.",
+      "save": "assets/bhopal/clips/s04.v.mp4",
+      "done": false,
+      "vo": "भारत का वो शहर, जहाँ सौ साल से ज़्यादा, औरतों ने राज किया।"
+    },
+    {
+      "n": 2,
+      "scene": "s54",
+      "also": [],
+      "mode": "clip",
+      "aspect": "9:16",
+      "ingredients": [
+        "STY-clay",
+        "CHR-begum",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a young woman ruler in a veil and rich 19th century robes seated on a throne, courtiers bowing before her, warm palace light, medium wide shot. Camera: slow pan to the right. Stop-motion movement, slightly stepped. vertical 9:16 composition, subject centred for a phone screen. Ambient sound only, no speech, no music, no text, no letters, no watermark, no logos.",
+      "save": "assets/bhopal/clips/s54.v.mp4",
+      "done": false,
+      "vo": "भोपाल के नवाब की मौत हो गई। उनकी पत्नी, क़ुदसिया बेगम, ने रियासत की कमान संभाली।"
+    },
+    {
+      "n": 3,
+      "scene": "s56",
+      "also": [
+        "s57"
+      ],
+      "mode": "clip",
+      "aspect": "9:16",
+      "ingredients": [
+        "STY-clay",
+        "CHR-begum",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a palace wall with four framed portraits of veiled women rulers in a row, faces softly hidden by veils, warm gallery light, wide shot. Camera: slow pan to the left. Stop-motion movement, slightly stepped. vertical 9:16 composition, subject centred for a phone screen. Ambient sound only, no speech, no music, no text, no letters, no watermark, no logos.",
+      "save": "assets/bhopal/clips/s56.v.mp4",
+      "done": false,
+      "vo": "पर क़ुदसिया बेगम के बाद, उनकी बेटी सिकंदर बेगम आईं। फिर शाहजहाँ बेगम।"
+    },
+    {
+      "n": 4,
+      "scene": "s62",
+      "also": [],
+      "mode": "clip",
+      "aspect": "9:16",
+      "ingredients": [
+        "STY-clay",
+        "CHR-begum"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a 1920 university convocation in front of red-brick buildings with arches, a woman chancellor in a ceremonial gown at a podium, crowd of students, daylight, wide shot. Camera: slow pan to the right. Stop-motion movement, slightly stepped. vertical 9:16 composition, subject centred for a phone screen. Ambient sound only, no speech, no music, no text, no letters, no watermark, no logos.",
+      "save": "assets/bhopal/clips/s62.v.mp4",
+      "done": false,
+      "vo": "उन्नीस सौ बीस में, वो अलीगढ़ मुस्लिम यूनिवर्सिटी की पहली चांसलर बनीं।"
+    },
+    {
+      "n": 5,
+      "scene": "s63",
+      "also": [],
+      "mode": "clip",
+      "aspect": "9:16",
+      "ingredients": [
+        "STY-clay",
+        "CHR-begum",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, an older woman ruler handing a jewelled turban to her grown son in a palace room, ceremonial, warm light, medium shot. Camera: slow gentle pull-back. Stop-motion movement, slightly stepped. vertical 9:16 composition, subject centred for a phone screen. Ambient sound only, no speech, no music, no text, no letters, no watermark, no logos.",
+      "save": "assets/bhopal/clips/s63.v.mp4",
+      "done": false,
+      "vo": "उन्नीस सौ छब्बीस में, उन्होंने गद्दी अपने बेटे हमीदुल्लाह ख़ान को सौंप दी।"
+    },
+    {
+      "n": 6,
+      "scene": "s19",
+      "also": [
+        "x9"
+      ],
+      "mode": "clip",
+      "aspect": "9:16",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a large lake beside a modern Indian city of small clay buildings and domes, little sailboats on the water, hills behind, golden hour, wide shot. Camera: slow gentle pull-back. Stop-motion movement, slightly stepped. vertical 9:16 composition, subject centred for a phone screen. Ambient sound only, no speech, no music, no text, no letters, no watermark, no logos.",
+      "save": "assets/bhopal/clips/s19.v.mp4",
+      "done": false,
+      "vo": "भोपाल की पूरी कहानी, हमारे चैनल पर।"
+    }
+  ]
+}

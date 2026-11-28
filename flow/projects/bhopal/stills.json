@@ -1,0 +1,1065 @@
+{
+  "slug": "bhopal",
+  "pack": "stills",
+  "flow_project": "EAS bhopal",
+  "mode": "image",
+  "aspect": "16:9",
+  "generations": 69,
+  "done": 0,
+  "ingredients_needed": [
+    "STY-clay",
+    "SET-map-table",
+    "SET-bhopal-lake",
+    "CHR-sultan-malwa",
+    "CHR-begum",
+    "SET-bhopal-palace",
+    "CHR-sutradhar",
+    "SET-scroll-desk"
+  ],
+  "shots": [
+    {
+      "n": 1,
+      "scene": "s02",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-map-table",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a clay relief map of a hilly central Indian region with two lakes made of shiny blue resin, tiny hills of green clay, overhead view, soft morning light. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s02.png",
+      "done": false,
+      "vo": "ये झीलें अपने आप नहीं बनीं। इनके पीछे है एक हज़ार साल पुराना एक राजा,"
+    },
+    {
+      "n": 2,
+      "scene": "s03",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "CHR-sultan-malwa",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a miniature diorama: a medieval sultan on horseback on a ridge watching a vast lake drain through a broken earthen dam, a lone Afghan horseman far behind, late afternoon light, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s03.png",
+      "done": false,
+      "vo": "एक सुल्तान जिसने समंदर जैसी एक झील खाली करवा दी, एक अफ़ग़ान सिपाही, और चार औरतें,"
+    },
+    {
+      "n": 3,
+      "scene": "s04",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "CHR-begum",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, four clay women rulers in 19th century Bhopal royal dress with veils, standing in a row in a palace courtyard, seen from behind, warm evening light, medium wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s04.png",
+      "done": false,
+      "vo": "जिन्होंने सौ साल से भी ज़्यादा इस शहर पर राज किया।"
+    },
+    {
+      "n": 4,
+      "scene": "s06",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "CHR-sutradhar",
+        "SET-scroll-desk"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the Sutradhar unrolling a long scroll on a wooden table, the scroll shows small painted pictures of a dam, a fort and a mosque, candle light, close-up. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s06.png",
+      "done": false,
+      "vo": "और आख़िर में, आप ख़ुद तय करेंगे, कि भोपाल को असल में किसने बनाया।"
+    },
+    {
+      "n": 5,
+      "scene": "s07",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-map-table"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a clay map of India on a table with a small brass pin pushed into the green plateau in the very centre, top-down view, soft daylight. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s07.png",
+      "done": false,
+      "vo": "भोपाल मध्य भारत के बीचों-बीच है।"
+    },
+    {
+      "n": 6,
+      "scene": "s08",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, rolling clay hills covered in moss-green felt with small silver streams winding between them, no buildings, morning mist, wide high angle. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s08.png",
+      "done": false,
+      "vo": "चारों तरफ़ छोटी पहाड़ियाँ, और उनके बीच से बहती छोटी नदियाँ।"
+    },
+    {
+      "n": 7,
+      "scene": "s09",
+      "also": [
+        "s13"
+      ],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, rainwater rushing down hillside streams and flowing away into the distance, a small group of prehistoric clay people in animal-skin clothing watching from a rock, overcast light, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s09.png",
+      "done": false,
+      "vo": "यहाँ पानी रुकता नहीं था, बह जाता था। लेकिन इंसान यहाँ बहुत पहले से था।"
+    },
+    {
+      "n": 8,
+      "scene": "s10",
+      "also": [
+        "s12"
+      ],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, sandstone rock shelters among forest, a prehistoric clay family sitting by a small fire under a rock overhang, warm firelight at dusk, medium wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s10.png",
+      "done": false,
+      "vo": "भोपाल से क़रीब पैंतालीस किलोमीटर दूर, भीमबेटका की चट्टानों में, हज़ारों साल पुराने चित्र मिले हैं।"
+    },
+    {
+      "n": 9,
+      "scene": "s11",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, close-up of a sandstone rock wall with simple red ochre and white stick-figure paintings of hunters, dancers, deer and bison, raking side light. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s11.png",
+      "done": false,
+      "vo": "शिकार, नाच, जानवर, सब कुछ चट्टानों पर बना है।"
+    },
+    {
+      "n": 10,
+      "scene": "s14",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, dry cracked clay earth beside a thin stream, a half-empty clay water pot in the foreground, harsh noon light, low angle. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s14.png",
+      "done": false,
+      "vo": "पर शहर बनने के लिए, एक चीज़ की ज़रूरत थी। पानी, जो साल भर रुके।"
+    },
+    {
+      "n": 11,
+      "scene": "s15",
+      "also": [
+        "s16"
+      ],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, an 11th century central Indian king on a carved stone throne in a palace hall, scholars holding palm-leaf manuscripts around him, oil lamps, warm light, medium shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s15.png",
+      "done": false,
+      "vo": "ग्यारहवीं सदी। मालवा पर परमार वंश के राजा भोज का राज था। उनकी राजधानी धार थी।"
+    },
+    {
+      "n": 12,
+      "scene": "s18",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a vast lake filling a green valley behind a completed earthen dam, sunset reflections on the water, wide aerial view. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s18.png",
+      "done": false,
+      "vo": "नदी का पानी रुका, और बन गई एक विशाल झील।"
+    },
+    {
+      "n": 13,
+      "scene": "s19",
+      "also": [
+        "s20",
+        "s24",
+        "s41",
+        "s72"
+      ],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a large lake beside a modern Indian city of small clay buildings and domes, little sailboats on the water, hills behind, golden hour, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s19.png",
+      "done": false,
+      "vo": "आज हम इसे बड़ा तालाब, या भोजताल कहते हैं।"
+    },
+    {
+      "n": 14,
+      "scene": "s21",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, an ill king lying on a carved wooden bed in a palace chamber, attendants with oil lamps looking worried, night, warm low light, medium shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s21.png",
+      "done": false,
+      "vo": "कहते हैं, राजा भोज एक बार बहुत बीमार पड़े।"
+    },
+    {
+      "n": 15,
+      "scene": "s22",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, an old physician with a white turban holding herbs and a palm-leaf book, advising a seated king, a painted map with many small streams on the wall behind, lamp light, medium shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s22.png",
+      "done": false,
+      "vo": "एक वैद्य ने कहा, ऐसी झील में नहाइए, जिसमें तीन सौ पैंसठ धाराओं का पानी हो।"
+    },
+    {
+      "n": 16,
+      "scene": "s23",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a grandmother telling a story to wide-eyed children under a banyan tree at night, a clay oil lamp between them, cosy warm light, medium shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s23.png",
+      "done": false,
+      "vo": "ये एक लोक-कथा है।"
+    },
+    {
+      "n": 17,
+      "scene": "s25",
+      "also": [
+        "s28"
+      ],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, an old leather-bound book open on a wooden desk, showing a hand-drawn ink sketch of a dam and a lake, a magnifying glass beside it, warm desk-lamp light, close-up. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s25.png",
+      "done": false,
+      "vo": "और शहर का नाम? एक पुराने सरकारी गज़ेटियर के मुताबिक़, भोज और पाल, यानी बाँध।"
+    },
+    {
+      "n": 18,
+      "scene": "s26",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a long earthen dam holding back a lake, with a small village of clay houses growing beside it, morning light, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s26.png",
+      "done": false,
+      "vo": "भोजपाल, जो धीरे-धीरे भोपाल बन गया।"
+    },
+    {
+      "n": 19,
+      "scene": "s27",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a king in an old-style crown seen in profile, half hidden in soft mist, mysterious, cool light, medium close-up. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s27.png",
+      "done": false,
+      "vo": "लेकिन कुछ लोग मानते हैं, कि नाम भूपाल नाम के एक राजा से आया।"
+    },
+    {
+      "n": 20,
+      "scene": "s29",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a country road through fields leading to a hill with a massive unfinished stone temple on top, dramatic clouds, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s29.png",
+      "done": false,
+      "vo": "अब कहानी में पहला मोड़ आता है। भोपाल से क़रीब तीस किलोमीटर दूर है भोजपुर।"
+    },
+    {
+      "n": 21,
+      "scene": "s30",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, an unfinished medieval stone temple with very tall carved pillars, no roof top, a long earthen ramp still leaning against one wall, afternoon light, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s30.png",
+      "done": false,
+      "vo": "यहाँ राजा भोज के समय का एक अधूरा शिव मंदिर है, भोजेश्वर मंदिर।"
+    },
+    {
+      "n": 22,
+      "scene": "s31",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, inside a stone temple, a giant stone Shiva lingam on a high platform, tiny clay pilgrims with folded hands for scale, respectful soft light from above, low angle. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s31.png",
+      "done": false,
+      "vo": "इसमें एक बहुत बड़ा शिवलिंग है। पर सिर्फ़ मंदिर नहीं।"
+    },
+    {
+      "n": 23,
+      "scene": "s32",
+      "also": [
+        "s33"
+      ],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a vast sea-like lake stretching to the horizon between low hills, old stone and earth dams at its edge, flocks of birds, morning haze, wide aerial view. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s32.png",
+      "done": false,
+      "vo": "भोजपुर के पास भी, राजा भोज के बाँधों ने एक बहुत बड़ी झील बनाई थी।"
+    },
+    {
+      "n": 24,
+      "scene": "s34",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "CHR-sultan-malwa"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a 15th century sultan in a turban and robe on horseback, pointing at a great earthen dam, soldiers with pickaxes waiting, overcast light, medium wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s34.png",
+      "done": false,
+      "vo": "मालवा के सुल्तान होशंगशाह ने इन बाँधों को तुड़वा दिया। क्यों?"
+    },
+    {
+      "n": 25,
+      "scene": "s35",
+      "also": [
+        "s47"
+      ],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, two scholars in different robes debating over open scrolls at a low table, one shrugging, lamp light, medium shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s35.png",
+      "done": false,
+      "vo": "इतिहासकारों के अलग-अलग अंदाज़े हैं।"
+    },
+    {
+      "n": 26,
+      "scene": "s36",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, farmers in dhotis looking at empty fertile plots of land with a merchant camel caravan passing in the distance, midday, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s36.png",
+      "done": false,
+      "vo": "कोई कहता है खेती के लिए ज़मीन चाहिए थी, कोई कुछ और।"
+    },
+    {
+      "n": 27,
+      "scene": "s38",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a huge lake slowly receding, wide exposed mud flats, small wooden boats stranded on the mud, evening light, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s38.png",
+      "done": false,
+      "vo": "झील को खाली होने में तीन साल।"
+    },
+    {
+      "n": 28,
+      "scene": "s39",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, green crop fields on a flat old lakebed, farmers ploughing with oxen, faint old shoreline on distant hills, morning light, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s39.png",
+      "done": false,
+      "vo": "और उस ज़मीन पर खेती होने में, पूरे तीस साल। सोचिए।"
+    },
+    {
+      "n": 29,
+      "scene": "s40",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "CHR-sultan-malwa"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a split diorama: on the left a king directing workers building a dam, on the right a sultan directing workers breaking one, warm left side and cool right side, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s40.png",
+      "done": false,
+      "vo": "एक राजा ने झील बनाई। सदियों बाद एक सुल्तान ने उसे मिटा दिया।"
+    },
+    {
+      "n": 30,
+      "scene": "s42",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a crumbling Mughal fort on a hill with a faded banner, cracks in the walls, stormy evening clouds, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s42.png",
+      "done": false,
+      "vo": "अठारहवीं सदी की शुरुआत। मुग़ल साम्राज्य कमज़ोर हो रहा था।"
+    },
+    {
+      "n": 31,
+      "scene": "s43",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, an 18th century Afghan soldier with a turban, beard and chainmail, sitting on a horse, rugged mountains behind, dawn light, medium shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s43.png",
+      "done": false,
+      "vo": "तिराह इलाक़े से आया एक अफ़ग़ान सिपाही, दोस्त मोहम्मद ख़ान, मुग़ल सेना में काम करता था।"
+    },
+    {
+      "n": 32,
+      "scene": "s44",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a small band of horsemen riding across a flat plateau with scattered trees, dust behind them, late afternoon, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s44.png",
+      "done": false,
+      "vo": "वो मालवा पहुँचा, और धीरे-धीरे अपनी ताक़त बढ़ाता गया।"
+    },
+    {
+      "n": 33,
+      "scene": "s45",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a dignified Gond queen in traditional jewellery and sari, standing on the terrace of a lakeside palace, gentle evening light, medium shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s45.png",
+      "done": false,
+      "vo": "उसी समय, इस इलाक़े में एक गोंड रानी थीं, रानी कमलापति।"
+    },
+    {
+      "n": 34,
+      "scene": "s46",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a messenger kneeling in a tent and handing a sealed letter to a seated soldier, lantern light, medium shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s46.png",
+      "done": false,
+      "vo": "कहा जाता है, मुश्किल के वक़्त उन्होंने दोस्त मोहम्मद से मदद माँगी।"
+    },
+    {
+      "n": 35,
+      "scene": "s48",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, masons and soldiers laying the first foundation stones of a town beside a lake, ropes and wooden scaffolding, morning light, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s48.png",
+      "done": false,
+      "vo": "पर इतना तय है, कि दोस्त मोहम्मद ख़ान ने भोपाल रियासत की नींव रखी।"
+    },
+    {
+      "n": 36,
+      "scene": "s49",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, an 18th century stone fort with round bastions on a hill above a lake, small houses below, golden hour, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s49.png",
+      "done": false,
+      "vo": "उसने फ़तेहगढ़ का क़िला बनवाया, और इस्लामनगर भी उसकी शुरुआती राजधानी रहा।"
+    },
+    {
+      "n": 37,
+      "scene": "s50",
+      "also": [
+        "s51"
+      ],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a minister in a long coat and turban overseeing workers building a small dam next to a bigger lake, 18th century, morning light, medium wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s50.png",
+      "done": false,
+      "vo": "फिर, सत्रह सौ चौरानवे में,"
+    },
+    {
+      "n": 38,
+      "scene": "s52",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, two lakes side by side, one big and one small, separated by an embankment with a small bridge, an 18th century town with domes around them, aerial view, soft daylight. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s52.png",
+      "done": false,
+      "vo": "अब भोपाल के पास दो झीलें थीं। बड़ा तालाब, और छोटा तालाब।"
+    },
+    {
+      "n": 39,
+      "scene": "s53",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a grand palace hall with an empty royal throne, long shadows, a single beam of light on the throne, dramatic, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s53.png",
+      "done": false,
+      "vo": "और अब, इस कहानी का सबसे हैरान करने वाला हिस्सा। अठारह सौ उन्नीस।"
+    },
+    {
+      "n": 40,
+      "scene": "s54",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "CHR-begum",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a young woman ruler in a veil and rich 19th century robes seated on a throne, courtiers bowing before her, warm palace light, medium wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s54.png",
+      "done": false,
+      "vo": "भोपाल के नवाब की मौत हो गई। उनकी पत्नी, क़ुदसिया बेगम, ने रियासत की कमान संभाली।"
+    },
+    {
+      "n": 41,
+      "scene": "s55",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a group of noblemen in turbans exchanging surprised looks in a palace court, lamp light, medium shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s55.png",
+      "done": false,
+      "vo": "उस ज़माने में, एक औरत का राज करना बहुत बड़ी बात थी।"
+    },
+    {
+      "n": 42,
+      "scene": "s56",
+      "also": [
+        "s57"
+      ],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "CHR-begum",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a palace wall with four framed portraits of veiled women rulers in a row, faces softly hidden by veils, warm gallery light, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s56.png",
+      "done": false,
+      "vo": "पर क़ुदसिया बेगम के बाद, उनकी बेटी सिकंदर बेगम आईं। फिर शाहजहाँ बेगम।"
+    },
+    {
+      "n": 43,
+      "scene": "s58",
+      "also": [
+        "s60"
+      ],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a huge mosque under construction with bamboo scaffolding, pink sandstone walls and half-built white domes, workers carrying stones, morning light, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s58.png",
+      "done": false,
+      "vo": "और क़रीब एक सौ सात साल का राज। शाहजहाँ बेगम ने ताज-उल-मसाजिद बनवाना शुरू किया,"
+    },
+    {
+      "n": 44,
+      "scene": "s59",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a grand mosque with three white domes and tall pink minarets reflected in a pond in front, clear blue evening sky, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s59.png",
+      "done": false,
+      "vo": "जो आज भारत की सबसे बड़ी मस्जिदों में गिनी जाती है।"
+    },
+    {
+      "n": 45,
+      "scene": "s61",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "CHR-begum"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, girls in 1910s dresses sitting at wooden desks with slates in a school classroom, a veiled woman ruler visiting at the doorway, soft window light, medium wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s61.png",
+      "done": false,
+      "vo": "और सुल्तान जहाँ बेगम? उन्होंने लड़कियों की पढ़ाई पर बहुत काम किया।"
+    },
+    {
+      "n": 46,
+      "scene": "s62",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "CHR-begum"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a 1920 university convocation in front of red-brick buildings with arches, a woman chancellor in a ceremonial gown at a podium, crowd of students, daylight, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s62.png",
+      "done": false,
+      "vo": "उन्नीस सौ बीस में, वो अलीगढ़ मुस्लिम यूनिवर्सिटी की पहली चांसलर बनीं।"
+    },
+    {
+      "n": 47,
+      "scene": "s63",
+      "also": [
+        "s64"
+      ],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "CHR-begum",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, an older woman ruler handing a jewelled turban to her grown son in a palace room, ceremonial, warm light, medium shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s63.png",
+      "done": false,
+      "vo": "उन्नीस सौ छब्बीस में, उन्होंने गद्दी अपने बेटे हमीदुल्लाह ख़ान को सौंप दी।"
+    },
+    {
+      "n": 48,
+      "scene": "s65",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a royal kitchen with big copper pots, cooks stirring, steam rising, sunlight through high windows, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s65.png",
+      "done": false,
+      "vo": "बेगमों और नवाबों का असर, भोपाल के खाने में भी दिखता है।"
+    },
+    {
+      "n": 49,
+      "scene": "s66",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a wooden table covered with bowls of spices, saffron, dry fruits, onions and fresh coriander, top-down view, warm light. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s66.png",
+      "done": false,
+      "vo": "यहाँ का खाना, मुग़ल और अफ़ग़ानी रसोई का मेल माना जाता है।"
+    },
+    {
+      "n": 50,
+      "scene": "s67",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, three clay dishes in copper bowls: a rich brown meat curry, a creamy white curry and a dry spiced meat dish, garnished with coriander, close-up, warm light. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s67.png",
+      "done": false,
+      "vo": "भोपाली गोश्त कोरमा, रेज़ाला, और फ़िलफ़ोरा जैसे पकवान, यहाँ की नवाबी रसोई की पहचान हैं।"
+    },
+    {
+      "n": 51,
+      "scene": "s68",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a narrow old-city lane at night lined with tiny food stalls and hanging lanterns, clay people eating, warm glow, eye-level shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s68.png",
+      "done": false,
+      "vo": "पुराने भोपाल में एक गली है, चटोरी गली।"
+    },
+    {
+      "n": 52,
+      "scene": "s69",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, close-up of a street stall with a big pot of stew, skewered kebabs over glowing coals, smoke rising, night. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s69.png",
+      "done": false,
+      "vo": "शाम होते ही यहाँ निहारी, सीख कबाब और पाया की ख़ुशबू फैल जाती है।"
+    },
+    {
+      "n": 53,
+      "scene": "s70",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, hands folding a betel leaf paan on a brass tray, beside a small glass of tea, close-up, warm light. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s70.png",
+      "done": false,
+      "vo": "और खाने के बाद? भोपाली पान। और साथ में, एक प्याली सुलेमानी चाय।"
+    },
+    {
+      "n": 54,
+      "scene": "s71",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a plate of yellow flattened-rice poha topped with peanuts and coriander beside orange spiral jalebis, steam rising, morning sunlight, close-up. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s71.png",
+      "done": false,
+      "vo": "सुबह की बात करें, तो पोहा-जलेबी का नाश्ता यहाँ के लोगों को ख़ूब पसंद है।"
+    },
+    {
+      "n": 55,
+      "scene": "s73",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a quiet princely palace in the foreground at dusk, while far in the distance a crowd celebrates with fireworks and tricolour flags, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s73.png",
+      "done": false,
+      "vo": "उन्नीस सौ सैंतालीस। भारत आज़ाद हुआ। पर भोपाल? भोपाल उस दिन भारत का हिस्सा नहीं बना।"
+    },
+    {
+      "n": 56,
+      "scene": "s74",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, officials in 1940s suits and sherwanis signing a document at a wooden table in a palace office, ceiling fan, daylight, medium shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s74.png",
+      "done": false,
+      "vo": "क़रीब दो साल बाद, तीस अप्रैल उन्नीस सौ उनचास को, विलय का समझौता हुआ।"
+    },
+    {
+      "n": 57,
+      "scene": "s75",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-palace"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the Indian tricolour flag rising on a pole above a palace, a small crowd cheering below, clear morning sky, low angle. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s75.png",
+      "done": false,
+      "vo": "और एक जून उन्नीस सौ उनचास को, भोपाल रियासत भारत सरकार के हाथ में आ गई।"
+    },
+    {
+      "n": 58,
+      "scene": "s76",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-map-table"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a clay map of central India with a new state outlined in green and a golden star placed on its capital city, top-down view, soft light. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s76.png",
+      "done": false,
+      "vo": "फिर उन्नीस सौ छप्पन में, नया राज्य बना, मध्य प्रदेश। और उसकी राजधानी बना, भोपाल।"
+    },
+    {
+      "n": 59,
+      "scene": "s77",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, an old city street at night with dim streetlights and closed shops, empty and silent, cool blue light, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s77.png",
+      "done": false,
+      "vo": "भोपाल ने दुख भी देखा है।"
+    },
+    {
+      "n": 60,
+      "scene": "s78",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a pale fog drifting low over sleeping clay houses at night, a distant factory silhouette with tall tanks, eerie and quiet, no people visible, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s78.png",
+      "done": false,
+      "vo": "दो और तीन दिसंबर, उन्नीस सौ चौरासी की रात, एक कीटनाशक कारख़ाने से ज़हरीली गैस रिसी।"
+    },
+    {
+      "n": 61,
+      "scene": "s79",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, rows of small candles burning on steps beside a lake at night, solemn and respectful, soft light, close-up. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s79.png",
+      "done": false,
+      "vo": "हज़ारों लोगों की जान गई। ये दर्द आज भी इस शहर की यादों में है।"
+    },
+    {
+      "n": 62,
+      "scene": "s80",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, sunrise over a lake beside a city, first rays on the water, birds lifting off, warm light, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s80.png",
+      "done": false,
+      "vo": "पर भोपाल रुका नहीं।"
+    },
+    {
+      "n": 63,
+      "scene": "s81",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, people filling clay pots and steel vessels from a water tap in a lane, a large lake visible in the background, morning light, medium shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s81.png",
+      "done": false,
+      "vo": "आज भी बड़ा तालाब इस शहर के पीने के पानी का एक बड़ा ज़रिया है।"
+    },
+    {
+      "n": 64,
+      "scene": "s82",
+      "also": [
+        "s83"
+      ],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, aerial view of two connected lakes with reed beds, wetlands and green edges beside a city, soft daylight. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s82.png",
+      "done": false,
+      "vo": "बड़े और छोटे तालाब को मिलाकर बनी भोज वेटलैंड,"
+    },
+    {
+      "n": 65,
+      "scene": "s84",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, migratory storks and flamingos flying low over a calm lake, reeds in the foreground, golden evening light, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s84.png",
+      "done": false,
+      "vo": "यहाँ हर साल दूर-दूर से पक्षी आते हैं। तो, भोपाल में इतनी झीलें क्यों हैं?"
+    },
+    {
+      "n": 66,
+      "scene": "s86",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, a long lakeshore diorama showing a row of eras side by side: an earthen dam, a hill fort, a mosque with minarets and a modern city, golden hour, wide panoramic shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s86.png",
+      "done": false,
+      "vo": "और उसके बाद हर दौर ने, उस पानी के किनारे, अपना भोपाल बसाया।"
+    },
+    {
+      "n": 67,
+      "scene": "s87",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "CHR-sutradhar",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the Sutradhar facing the camera with open palms as if asking a question, lake behind him at dusk, medium close-up. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s87.png",
+      "done": false,
+      "vo": "अब आप बताइए। भोपाल को असल में किसने बनाया?"
+    },
+    {
+      "n": 68,
+      "scene": "s88",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "CHR-begum",
+        "SET-bhopal-lake"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, three groups of clay figures on a lakeshore: a medieval king, an Afghan soldier, and four veiled women rulers, all looking at the viewer, warm light, wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s88.png",
+      "done": false,
+      "vo": "राजा भोज ने, दोस्त मोहम्मद ख़ान ने, या उन चार बेगमों ने?"
+    },
+    {
+      "n": 69,
+      "scene": "s89",
+      "also": [],
+      "mode": "image",
+      "aspect": "16:9",
+      "ingredients": [
+        "STY-clay",
+        "CHR-sutradhar"
+      ],
+      "prompt": "Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green, the Sutradhar rolling up his scroll and looking toward the sea where a sailing ship approaches, dusk, medium wide shot. cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated.",
+      "save": "assets/bhopal/images/s89.png",
+      "done": false,
+      "vo": "अपना जवाब कमेंट में लिखिए। और अगली बार, हम चलेंगे एक ऐसे शहर में,"
+    }
+  ]
+}
