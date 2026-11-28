@@ -8,6 +8,7 @@ Linked into `.claude/skills/` so Claude Code loads them. All are Markdown instru
 | `studio/make-video` | `/make-video <city>`: full pipeline with Gate 1 and Gate 2 |
 | `studio/city-research` | Sourced fact sheet with verified/disputed/legend flags |
 | `studio/hindi-script` | Hindi narration rules, hook, structure, fact tags; `STYLE.md` = natural Hindi + voice markup |
+| `studio/make-short` | `/make-short <city>`: असली सीन Shorts/Reels narrated by the wolf SUTRADHAR; one shot per line, prompts from `prompts/library.json`, built with `tools/build-shorts.mjs` |
 
 Agent: `.claude/agents/hindi-editor.md` rewrites every draft into natural spoken Hindi and directs the voice (pauses, dialogue, slow lines). Tool: `tools/hindi-lint.mjs`.
 
@@ -15,7 +16,7 @@ Agent: `.claude/agents/hindi-editor.md` rewrites every draft into natural spoken
 | Skill | Source | Why |
 |---|---|---|
 | `cinematic-director` | github.com/wuwangzhang1216/DirectorSKILL | Shot lists, keyframe and image-to-video prompts, continuity |
-| `character-consistency` | github.com/nigo-studio/ai-film-skills | Keeps the Sutradhar and the clay look identical across shots |
+| `character-consistency` | github.com/nigo-studio/ai-film-skills | Keeps the wolf narrator and recurring figures identical across shots |
 | `video-prompt-director` | github.com/nigo-studio/ai-film-skills | Writes prompts for Kling/Flow-type clip tools |
 | `scriptwriting` | github.com/salomonMuriel/media-production-skills | Hooks, retention, long-to-short clip picking (we add Hindi rules on top) |
 

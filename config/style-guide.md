@@ -1,35 +1,22 @@
 # Style Guide - Epoch Archive Studios
 
-## 1. Look: claymation miniatures
+## 1. Look: 2D noir graphic-novel cartoon
 
-Every image and clip prompt starts with the **prefix** below, then the scene, then the **suffix**. Never change the prefix per scene. That is how the look stays the same.
+Owner decision 2026-11-27: claymation is retired. Every image and clip uses the **2D noir graphic-novel cartoon** look: thick clean black outlines, smooth cel shading with soft gradient shadows, crisp jagged ink strokes for fur and hair, high contrast, warm amber lamp light against charcoal and sepia shadows, rim light on edges, accents of maroon, indigo, brass and ochre.
 
-**PREFIX (copy exactly):**
-```
-Claymation stop-motion style, handcrafted plasticine miniature diorama, warm clay textures with visible fingerprints and tool marks, soft warm studio lighting with gentle shadows, shallow depth of field, tilt-shift miniature feel, matte surfaces, muted earthy palette of terracotta, ochre, sandstone, indigo and leaf green,
-```
+The exact prefix, vertical/horizontal suffix and negative prompt live **only** in `prompts/library.json` -> `style` (readable copy in `prompts/LIBRARY.md`). Never retype them; `tools/build-shorts.mjs` adds them to every shot. Never change the prefix per scene.
 
-**SUFFIX (copy exactly):**
-```
-, cinematic 16:9 composition, no text, no letters, no watermark, no logos, no modern objects unless stated
-```
-
-For Shorts add `vertical 9:16 composition` in place of `cinematic 16:9 composition`.
-
-**Negative prompt (where the tool supports one):**
-```
-photorealistic, real photograph, 3D CGI render, glossy plastic, anime, cartoon line art, text, letters, watermark, logo, extra fingers, distorted faces, gore, blood
-```
+Character prompts follow the owner's format: `Ultra-detailed 2D digital cartoon portrait of <ID>, ...` then framing, `EYES:`, `FUR:` or `SKIN AND HAIR:`, `EXPRESSION:`, `CLOTHING:`, `TECHNICAL:`, `BUILD:`. Then a three-panel sheet from the chosen close-up.
 
 ### Scene line formula
-`[subject + action], [setting + era detail], [time of day + light], [camera angle]`
+`[shot size + angle]: [subject + action], [setting + era detail], [time of day + light]`
 
-Example (Bhopal, 11th century):
-> PREFIX + `clay workers carrying baskets of earth to build a huge dam between two hills, medieval central Indian landscape with a river, early morning golden light, wide high angle` + SUFFIX
+Example:
+> PREFIX + `Wide shot, high angle looking down: workers carrying baskets of earth to build a huge dam between two hills, medieval central Indian landscape with a river, early morning golden light` + SUFFIX
 
 ### Recurring characters
-- **Sutradhar** (narrator figure, appears in hook and outro only): a small clay storyteller, elderly man, white beard, saffron-brown shawl, round spectacles, holding an old scroll. Build his sheet once with the `character-consistency` skill and reuse the sheet image as reference in every generation.
-- Historical figures: never claim a real likeness. Use generic clay figures dressed for the era. Label names in the edit, not in the image.
+- **SUTRADHAR, the wolf narrator** (he does not name himself on air; SUTRADHAR is only his prompt ID): anthropomorphic Indian grey wolf, golden-amber eyes over round brass-rimmed spectacles low on the snout, smug one-sided smirk, maroon bandhgala with brass buttons, indigo stole over the left shoulder, faded indigo satchel. Clearly a wolf, not a fox or jackal. He appears in the brand intro, cut-ins, viewer lines, comment ask and outro; story scenes show people as people. Prompts: `prompts/library.json` -> `characters.SUTRADHAR` (owner's close-up prompt kept verbatim) and `branding.profile_picture`.
+- Historical figures: never claim a real likeness. Use generic figures dressed for the era, drawn in the same 2D noir style. Label names in the edit, not in the image.
 
 ### Respect rules
 - Religious sites and deities: respectful, no caricature.
@@ -45,6 +32,7 @@ Example (Bhopal, 11th century):
 - Image tools (free): Google Flow / ImageFX (Imagen), Microsoft Bing Image Creator / Designer, Leonardo free tier, Ideogram free tier. Check each tool's terms allow commercial YouTube use before using it.
 
 ## 3. Edit rhythm
+- Shorts: one narration line = one shot. Adjacent shots change size by two steps (EWS, WS, MS, MCU, CU, ECU) or change angle. One camera move per clip, with a clear end position.
 - Hook: first 5 seconds, question on screen, strongest image.
 - New visual every 4 to 8 seconds. A scene with longer narration is split into two images.
 - Every 60 to 90 seconds: an open loop ("lekin asli kahani abhi baaki hai...").
@@ -57,4 +45,4 @@ Example (Bhopal, 11th century):
 ## 5. Text on screen
 - Hindi (Devanagari) for on-screen labels, years in numerals (1727).
 - Font: Noto Sans Devanagari or Mukta (both free, SIL OFL).
-- Thumbnails: 3 to 4 words max, big, high contrast, one clay subject, one face or object.
+- Thumbnails: 3 to 4 words max, big, high contrast, one subject in the 2D noir style (often the wolf), one face or object.

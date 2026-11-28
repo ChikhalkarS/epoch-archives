@@ -31,19 +31,27 @@
     "example": "Kya aap jaante hain is shehar mein itni jheelein kyun hain?"
   },
   "voice": {
-    "status": "CHOSEN 2026-11-27",
-    "engine": "edge-tts",
-    "voice_id": "hi-IN-MadhurNeural",
-    "rate": "-5%",
-    "pitch": "+0Hz",
-    "candidates": [
-      "edge-tts:hi-IN-MadhurNeural",
-      "edge-tts:hi-IN-SwaraNeural",
-      "gtts:hi"
-    ],
-    "notes": "Change voice_id after owner picks. ElevenLabs free tier is non-commercial, so it is not used for monetised uploads.",
+    "status": "CHOSEN 2026-11-27 by owner (Mumbai onward)",
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice_name": "Viraj (Suspense Story ka Baadshah), natural",
+    "post_filter": "old-radio audio filter (applied in ElevenLabs by owner)",
+    "generated_by": "owner, outside the session (paste clean narration text)",
+    "previous": {
+      "engine": "edge-tts",
+      "voice_id": "hi-IN-MadhurNeural",
+      "rate": "-5%"
+    },
+    "notes": "v3 treats [square brackets] as audio tags, so fact IDs are never in the voice file.",
+    "how": "v3, stability Natural, speed 1.1-1.15; paste shorts/<city>/<id>-voice.txt as one generation (line breaks = pauses used for timing); old-radio filter; save MP3 to assets/<city>/shorts/<id>/voice.mp3",
+    "plan": "ElevenLabs FREE plan (owner, 2026-11-27): non-commercial licence, attribution required. Every description carries the attribution line. Upgrade to a paid plan (commercial licence) or switch to edge-tts before monetising (YPP).",
+    "attribution": "Voice: ElevenLabs (elevenlabs.io)",
+    "fallback_edge_tts": {
+      "_note": "Used only by tools/voice.mjs if engine is switched back to edge-tts. ElevenLabs gets clean text (no [रुकें] / {role} markup; line breaks = pauses).",
+      "default_pause_seconds": 0.6
+    },
     "cast": {
-      "_note": "Roles used in scripts as {role}. Only two Hindi neural voices exist in edge-tts: Madhur (male) and Swara (female). Narration without a tag uses voice_id/rate/pitch above.",
+      "_note": "Dialogue roles for the edge-tts fallback ({role} in scripts). ElevenLabs: one voice (Viraj).",
       "रानी": {
         "voice_id": "hi-IN-SwaraNeural",
         "rate": "-8%",
@@ -69,11 +77,10 @@
         "rate": "-15%",
         "pitch": "+0Hz"
       }
-    },
-    "default_pause_seconds": 0.6
+    }
   },
   "style": {
-    "visual": "claymation",
+    "visual": "2D noir graphic-novel cartoon (prompts/library.json -> style)",
     "guide": "config/style-guide.md",
     "music_volume": 0.12,
     "scene_padding_seconds": 0.35
@@ -83,5 +90,62 @@
     "tier_full": "1000 subscribers + 4000 public watch hours in 12 months",
     "tier_lower": "500 subscribers + 3 public uploads in 90 days + 3000 public watch hours in 12 months",
     "cadence": "1 long video + 2-3 Shorts per week"
+  },
+  "shorts_template": {
+    "status": "DEFAULT for every Short/Reel (owner 2026-11-27, v3: new outro)",
+    "length": "about 60-75 s (owner accepted 71-73 s on 2026-11-27): 150-175 spoken words, ElevenLabs speed 1.1-1.15",
+    "order": [
+      "1. HOOK (0-3 s): shock line or question, 5-12 words",
+      "2. BRAND INTRO (3-7 s): intro_line with episode ordinal and city. Always after the hook, never first",
+      "3. STORY: one idea per scene, 5-6 s per scene, every claim has a fact ID",
+      "4. MID INTERACTION (around 40-60%): one line that talks to the viewer (imagine / are you from / tell us)",
+      "5. PAYOFF: pay the hook",
+      "6. COMMENT QUESTION: one question viewers can answer in a word or a number",
+      "7. OUTRO (owner 2026-11-27): two lines, always the same: follow_line, then city_ask_line. No next-story/next-city teaser"
+    ],
+    "intro_line": "स्वागत है, असली सीन के {ordinal} एपिसोड में। आज की कहानी, {city} की।",
+    "follow_line": "ऐसी ही अनसुनी कहानियों के लिए, फ़ॉलो कीजिए।",
+    "mid_interaction_examples": [
+      "सोचिए, आप राजा होते, तो क्या करते?",
+      "अगर आप {city} से हैं, तो अपना इलाक़ा कमेंट में लिखिए।",
+      "आपके शहर में भी ऐसी कोई कहानी है? कमेंट में बताइए।"
+    ],
+    "comment_question_examples": [
+      "आज {city} का किराया कितना होना चाहिए?",
+      "आपको क्या लगता है, सही या ग़लत?",
+      "आप किस शहर की कहानी अगली सुनना चाहेंगे?"
+    ],
+    "host_character": "SUTRADHAR, the wolf narrator, on screen in the brand intro, cut-ins, viewer lines, comment ask and outro of every Short; story scenes show people as people",
+    "tagline": "असली सीन (show name in config 'show')",
+    "intro_tts": "[excited] स्वागत है... असली सीन के {ordinal} एपिसोड में। [cheerful] आज की कहानी, {city} की।",
+    "ordinals": {
+      "1": "पहले",
+      "2": "दूसरे",
+      "3": "तीसरे",
+      "4": "चौथे",
+      "5": "पाँचवें",
+      "6": "छठे",
+      "7": "सातवें",
+      "8": "आठवें",
+      "9": "नौवें",
+      "10": "दसवें"
+    },
+    "ordinal_rule": "Episodes count every Short in posting order across cities (Mumbai Short 1 = पहले). Past 10: write '<number>वें', e.g. ग्यारहवें, बारहवें.",
+    "prompts": "All prompts come from prompts/library.json; build files with: node tools/build-shorts.mjs <slug>",
+    "shots": "one narration line = one shot; narrator_shots bank for the wolf's lines; people as people in story lines",
+    "max_seconds": 75,
+    "follow_tts": "ऐसी ही अनसुनी कहानियों के लिए... फ़ॉलो कीजिए।",
+    "city_ask_line": "और कमेंट में बताइए, अगली कहानी किस शहर की हो?",
+    "city_ask_tts": "और कमेंट में बताइए... अगली कहानी किस शहर की हो?"
+  },
+  "show": {
+    "name": "असली सीन",
+    "name_latin": "Asli Scene",
+    "narrator": "the wolf narrator (prompt ID SUTRADHAR in prompts/library.json); on screen and in narration he introduces himself as \"मैं आपका भिड़ू\"",
+    "note": "Show/series name used in narration. Channel name stays in 'name'."
+  },
+  "visuals": {
+    "tool": "Google Flow",
+    "plan": "Google AI Pro (owner, 2026-11-27)"
   }
 }

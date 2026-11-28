@@ -31,6 +31,9 @@ Input: `research/<slug>/sources.md` + `notes.md`. Output: `scripts/<slug>.md`.
 2. Run the `hindi-editor` agent (`.claude/agents/hindi-editor.md`) on the script. It rewrites for natural Hindi, adds voice markup (`[रुकें]`, `{role} “...”`, `{धीमे}`) and writes `scripts/<slug>.hindi-review.md`.
 3. Check its result: same `[F#]` IDs per beat, no new facts, lint 0 errors. Then show Gate 1.
 
+## Shorts and Reels
+Use the fixed order in `config/channel.json` -> `shorts_template` (hook, brand intro, story, mid interaction, payoff, comment question, next teaser, follow line). Full rules in the `make-short` skill.
+
 ## File format (`scripts/<slug>.md`)
 ```
 # <City> - <working title>

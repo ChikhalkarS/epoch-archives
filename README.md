@@ -1,14 +1,16 @@
 # Epoch Archive Studios
 
-Hindi YouTube channel on Indian city histories: founding, rulers, wars, trade, culture, food, geography and strange facts. Claymation look. One long video (8-12 min) + 2-3 Shorts per city.
+Hindi YouTube channel on Indian city histories: founding, rulers, wars, trade, culture, food, geography and strange facts. 2D noir graphic-novel cartoon look, narrated by a wolf (SUTRADHAR). One long video (8-12 min) + 2-3 Shorts per city.
 
 Claude runs production; the owner approves at two gates. Channel settings: `config/channel.json`.
 
 ## Folders
 | Folder | What goes in it |
 |---|---|
-| `config/` | `channel.json` (name, language, voice, formats) and `style-guide.md` (claymation prompt prefix, motion, audio, text rules) |
+| `config/` | `channel.json` (name, language, voice, formats) and `style-guide.md` (look, motion, audio, text rules; exact prompts in `prompts/`), `decisions.md` (owner decision log) |
 | `research/<city>/` | `sources.md` (source list + fact sheet with status) and `notes.md` (hooks, arc, flags). Template in `research/_template/` |
+| `shorts/<city>/` | Shorts/Reels: script, ElevenLabs text, Flow prompts, publish copy (current focus). Schedule in `shorts/SCHEDULE.md` |
+| `prompts/` | Prompt library: `library.json` (style, characters incl. the wolf narrator SUTRADHAR, narrator shot bank, branding), `LIBRARY.md`, reference images in `characters/<ID>/`, `CHANGELOG.md` |
 | `scripts/` | `<city>.md` Hindi narration script, one per video |
 | `storyboards/` | `<city>.json` (scenes, narration, prompts, Shorts) and `<city>.md` shot list |
 | `assets/<city>/` | `images/`, `clips/`, `voice/`, `PROMPTS.md`, `CREDITS.md`. Shared music in `assets/music/` |
@@ -17,7 +19,7 @@ Claude runs production; the owner approves at two gates. Channel settings: `conf
 | `skills/` | Claude Code skills (studio + vetted vendor), linked into `.claude/skills/`. See `skills/README.md` |
 | `tracker/` | `videos.csv`: status per video: idea, researched, scripted, voiced, visuals, rendered, approved, uploaded |
 | `flow/` | Google Flow library: ingredients (look, characters, sets), per-city packs, Chrome prompts. See `flow/README.md` |
-| `tools/` | `voice.mjs` (Hindi TTS per scene, with pauses and dialogue voices), `hindi-lint.mjs` (catches broken Hindi), `flow-pack.mjs` (storyboard to Flow pack), `assemble.mjs` (FFmpeg assembly + Shorts), `setup-mac.sh` |
+| `tools/` | `build-shorts.mjs` (Shorts files from `shorts/<city>/shorts.json` + prompt library), `time-voice.mjs` (measures each line in the ElevenLabs take), `assemble-short.mjs` (final Short from Flow shots + voice), `voice.mjs` (edge-tts fallback with pauses and dialogue voices), `hindi-lint.mjs` (catches broken Hindi), `flow-pack.mjs` (storyboard to Flow pack), `assemble.mjs` (FFmpeg assembly + Shorts), `setup-mac.sh` |
 
 ## Use
 ```bash
